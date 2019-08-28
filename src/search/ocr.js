@@ -62,7 +62,7 @@ function getOcr(iaId) {
       resolve([])
     })
 
-    const path = `static/docs/${iaId}/ocr.xml.gz`
+    const path = `docs/ocr/${iaId}/ocr.xml.gz`
     const gunzip = zlib.createGunzip()
 
     const input = fs.createReadStream(path)

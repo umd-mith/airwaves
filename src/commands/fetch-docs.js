@@ -63,7 +63,7 @@ async function getInternetArchiveMetadata(id, tries=0, maxTries=10) {
 
 async function downloadOcr(item) {
   const id = item.metadata.iaId
-  const ocrPath = path.join('static', 'docs', id, 'ocr.xml.gz')
+  const ocrPath = path.join('docs', 'ocr', id, 'ocr.xml.gz')
   if (fs.existsSync(ocrPath)) {
     return ocrPath
   }
