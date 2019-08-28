@@ -78,22 +78,70 @@ class Search extends Component {
 
     return (
       <div className="search">
-        <select value={this.state.category} onChange={this.setCategory}>
-          <option value="episodes">Episodes</option>
-          <option value="documents">Documents</option>
-        </select>
+        
         <input
-          className="search__input"
           type="text"
           value={this.state.query}
           onChange={this.setQuery}
           onKeyPress={this.checkForEnter}
           placeholder={'Search'}
         />
-        <button onClick={this.setResults}>Search</button>
-        <div className="search__list">
+
+        <div className="facets">
+          <div>
+
+            <label className="facet-by facet-label">Filter By Type</label>
+            <dl>
+            <div className="facet_type">
+              <dd className="item-count">999</dd>
+              <dt className="toggle-wrapper">
+              <a href="#" className="toggle-icon">
+              <input 
+                type="radio"
+                name="list-item-type"
+                value="default"
+                className="toggle_item toggle-input"
+              />
+              </a>
+              <label title="All">All</label>
+              </dt>
+            </div>
+
+            <div>
+              <dd className="item-count">999</dd>
+              <dt className="toggle-wrapper">
+                <a href="#" className="toggle-icon">
+                  <input 
+                    type="radio"
+                    name="list-item-type"
+                    className="toggle_item toggle-input"
+                  />
+                </a>
+                <label title="Media">Media</label>
+              </dt>
+            </div>
+
+            <div className="facet_type">
+              <dd className="item-count">99</dd>
+              <dt className="toggle-wrapper"> <a href="#" className="toggle-icon">
+              <input 
+                type="radio"
+                name="list-item-type"
+                className="toggle_item toggle-input"
+              />
+              </a>
+              <label title="Documents">Documents</label>
+              </dt>
+            </div>
+
+            </dl>
+          </div>
+        </div>
+
+        <div className="results">
           <ResultList />
         </div>
+
       </div>
     )
   }

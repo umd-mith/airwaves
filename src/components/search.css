@@ -1,7 +1,71 @@
-.search input,select,button {
-  font-size: 18pt;
+@charset "UTF-8";
+
+.search {
+  display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1.5rem;
+	background-color: #fff;
+	align-items: start
 }
 
-.search select {
-  padding-right: 10px;
+.search input { 
+  font-size: 18pt;
+  max-width: 100%;
+	grid-column: 1 / span 3;
+}
+
+.search .facets {
+	border-right: 1px solid #e6e6e6;
+	grid-column: 1 / span 1;
+	padding-right: 0.5em;
+	margin-right: 0.5em;
+}
+
+.search .results {
+	grid-column: 2 / span 2;
+}
+
+.search .facet-label {
+	color: #333333;
+	font-size: 11pt;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.search .facets dl {
+	margin: 0.5em 0 1em 0;
+}
+
+.search .facets dt, .search .facets dd {
+  padding: 4px 0;
+	font-size: 9pt;
+}
+
+.search .facets .item-count {
+  min-width: 30px;
+  float: right;
+  margin-left: 5px;
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  z-index: 2;
+}
+
+.search .facets .toggle-wrapper {
+  display: block;
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-left: 17px;
+}
+
+.search .facets .toggle-icon {
+  position: absolute;
+  top: 8px;
+  left: -25px;
+  margin-top: -10px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
 }
