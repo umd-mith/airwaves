@@ -1,0 +1,68 @@
+type RadioSeries {
+    id: ID!
+    summary: String
+    title: String!
+    episodes: [RadioEpisode!]!
+}
+
+type RadioEpisode {
+    id: ID!
+    title: String!
+    series: RadioSeries!
+    people: [People!]
+
+}
+
+type Transcript {
+    id: ID!
+    url: String
+    text: String
+    episode: RadioEpisode!
+}
+
+type Audio {
+    id: ID!
+    url: String!
+    episode: RadioEpisode!
+
+}
+
+type ArchivalSeries {
+    id: ID!
+    title: String
+    summary: String
+    folders: [ArchivalFolder!]!
+}
+
+type ArchivalFolder {
+    id: ID!
+    title: String
+    documents: [ArchivalDocument!]!
+}
+
+type ArchivalDocument {
+    id: ID!
+    title: String
+    image: Image
+    ocr: OCR
+}
+
+type Image {
+}
+
+type OCR {
+}
+
+type Person {
+    name: String!
+}
+
+type Organization {
+    name: String!
+}
+
+type Topic {
+    name: String!
+}
+
+
