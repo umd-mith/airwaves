@@ -78,7 +78,7 @@ class Search extends Component {
 
     return (
       <div className="search">
-        
+
         <input
           type="text"
           value={this.state.query}
@@ -88,54 +88,30 @@ class Search extends Component {
         />
 
         <div className="facets">
-          <div>
 
-            <label className="facet-by facet-label">Filter By Type</label>
-            <dl>
-            <div className="facet_type">
-              <dd className="item-count">999</dd>
-              <dt className="toggle-wrapper">
-              <a href="#" className="toggle-icon">
-              <input 
-                type="radio"
-                name="list-item-type"
-                value="default"
-                className="toggle_item toggle-input"
-              />
-              </a>
+          <label className="facet-label">Filter By Type</label>
+
+          <dl>
+
+            <dd className="item-count">999</dd>
+            <dt>
+              <input type="radio" name="item-type" value="all" defaultChecked={true} />
               <label title="All">All</label>
-              </dt>
-            </div>
+            </dt>
 
-            <div>
-              <dd className="item-count">999</dd>
-              <dt className="toggle-wrapper">
-                <a href="#" className="toggle-icon">
-                  <input 
-                    type="radio"
-                    name="list-item-type"
-                    className="toggle_item toggle-input"
-                  />
-                </a>
-                <label title="Media">Media</label>
-              </dt>
-            </div>
+            <dd className="item-count">999</dd>
+            <dt>
+              <input type="radio" name="item-type" value="media" />
+              <label title="Media">Media</label>
+            </dt>
 
-            <div className="facet_type">
-              <dd className="item-count">99</dd>
-              <dt className="toggle-wrapper"> <a href="#" className="toggle-icon">
-              <input 
-                type="radio"
-                name="list-item-type"
-                className="toggle_item toggle-input"
-              />
-              </a>
+            <dd className="item-count">99</dd>
+            <dt>
+              <input type="radio" name="item-type" value="documents" />
               <label title="Documents">Documents</label>
-              </dt>
-            </div>
+            </dt>
 
-            </dl>
-          </div>
+          </dl>
         </div>
 
         <div className="results">

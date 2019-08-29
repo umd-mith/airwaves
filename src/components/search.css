@@ -51,21 +51,20 @@
   z-index: 2;
 }
 
-.search .facets .toggle-wrapper {
+.search .facets dt {
   display: block;
   position: relative;
-  z-index: 1;
   white-space: nowrap;
   cursor: pointer;
   margin-left: 17px;
 }
 
-.search .facets .toggle-icon {
+.search .facets dt input {
   position: absolute;
-  top: 8px;
-  left: -25px;
-  margin-top: -10px;
-  width: 20px;
-  height: 20px;
-  overflow: hidden;
+  left: -20px;
+  margin-top: 0px;
+}
+
+.search .facets dt label {
+  margin-left: 10px;
 }
