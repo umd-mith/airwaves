@@ -5,7 +5,7 @@
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 1.5rem;
 	background-color: #fff;
-	align-items: start
+  align-items: start;
 }
 
 .search input { 
@@ -67,4 +67,9 @@
 
 .search .facets dt label {
   margin-left: 10px;
+}
+
+.search .hit {
+  margin-bottom: 30px;
+  padding: 5px;
 }

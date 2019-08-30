@@ -5,39 +5,35 @@ import './search.css'
 
 const DocumentHit = ({item, query}) => {
   return (
-    <>
+    <div className="hit document">
       <Link to={`/document/${item.iaId}`}>
-        <h4>
-          <Highlighter
-            textToHighlight={item.title || ''}
-            searchWords={query.split()} />
-        </h4>
+        <Highlighter
+          textToHighlight={item.title || ''}
+          searchWords={query.split()} />
       </Link>
       <div>
         <Highlighter
           textToHighlight={item.text || ''}
           searchWords={query.split()} />
       </div>
-    </>
+    </div>
   )
 }
 
 const EpisodeHit = ({item, query}) => {
   return (
-    <>
+    <div className="hit episode">
       <Link to={'/episode/' + item.aapbId}>
-      <h4>
         <Highlighter
           textToHighlight={item.title || ''}
           searchWords={query.split()} />
-      </h4>
       </Link>
       <div>
         <Highlighter
           textToHighlight={item.description || ''}
           searchWords={query.split()} />
       </div>
-    </>
+    </div>
   )
 }
 
@@ -63,14 +59,15 @@ class Search extends Component {
   }
 
   render() {
-    // the type of hit is dependent on the category
-    const Hit = this.state.category === 'episodes' ? EpisodeHit : DocumentHit
-
     const ResultList = () => {
       if (this.state.results.length > 0) {
-        return this.state.results.map((item, i) => (
-          <Hit item={item} query={this.state.query} key={i} />
-        ))
+        return this.state.results.map((item, i) => {
+          if (item.id[0] === 'd') {
+            return <DocumentHit item={item} query={this.state.query} key={i} />
+          } else {
+            return <EpisodeHit item={item} query={this.state.query} key={i} />
+          }
+        })
       } else {
         return ''
       }
@@ -95,19 +92,22 @@ class Search extends Component {
 
             <dd className="item-count">999</dd>
             <dt>
-              <input type="radio" name="item-type" value="all" defaultChecked={true} />
+              <input type="radio" name="item-type" value="all" defaultChecked={true} 
+                onClick={this.setCategory} />
               <label title="All">All</label>
             </dt>
 
             <dd className="item-count">999</dd>
             <dt>
-              <input type="radio" name="item-type" value="media" />
+              <input type="radio" name="item-type" value="episodes" 
+                onClick={this.setCategory} />
               <label title="Media">Media</label>
             </dt>
 
             <dd className="item-count">99</dd>
             <dt>
-              <input type="radio" name="item-type" value="documents" />
+              <input type="radio" name="item-type" value="documents"
+                onClick={this.setCategory} />
               <label title="Documents">Documents</label>
             </dt>
 
@@ -148,21 +148,33 @@ class Search extends Component {
   }
 
   search(query, category) {
-    if (typeof window === 'undefined') {
-      return []
-    } else if (category === 'episodes') {
+    if (category === 'episodes') {
       return window.__INDEX__.search(query).filter(r => r.id[0] === 'e').map(r => {
         return window.__EPISODES__.get(r.id)
       })
-    } else {
+    } else if (category === 'documents') {
       return window.__INDEX__.search({field: 'text', query: query}, {field: 'title', query: query}).filter(r => r.id[0] === 'd').map(r => {
         const [docId, page] = r.id.split('-')
-        console.log(docId, page)
         const doc = window.__DOCUMENTS__.get(docId)
         doc['page'] = page
         doc['text'] = r['text']
         return doc
       })
+    } else if (category === 'all') {
+      return window.__INDEX__.search({field: ['text', 'title', 'description'], query: query, bool: 'or'}).map(r => {
+        if (r.id[0] === 'd') {
+          const [docId, page] = r.id.split('-')
+          const doc = window.__DOCUMENTS__.get(docId)
+          doc['page'] = page
+          doc['text'] = r['text']
+          return doc
+        } else if (r.id[0] === 'e') {
+          return window.__EPISODES__.get(r.id)
+        } else {
+        }
+      })
+    } else {
+      return []
     }
   }
 
