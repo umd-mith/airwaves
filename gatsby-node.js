@@ -1,6 +1,10 @@
 exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) => {
-  episodes(createPage, graphql, pathPrefix)
+  await episodes(createPage, graphql, pathPrefix)
+  await documents(createPage, graphql, pathPrefix)
+  await series(createPage, graphql, pathPrefix)
 }
+
+// Create episode pages.
 
 async function episodes(createPage, graphql) {
 
@@ -26,6 +30,11 @@ async function episodes(createPage, graphql) {
       }
     })
   })
+}
+
+// Create documents pages.
+
+async function documents(createPage, graphql) {
 
   results = await graphql(`
     {
@@ -46,6 +55,35 @@ async function episodes(createPage, graphql) {
       component: require.resolve(`./src/templates/document.js`),
       context: {
         iaId: doc.iaId
+      }
+    })
+  })
+
+}
+
+// Create series pages.
+
+async function series(createPage, graphql) {
+
+  results = await graphql(`
+    {
+      allSeriesJson {
+        edges {
+          node {
+            id
+          }
+        }
+      }
+    }
+  `)
+
+  results.data.allSeriesJson.edges.forEach(edge => {
+    const series = edge.node
+    createPage({
+      path: `/series/${series.id}/`,
+      component: require.resolve(`./src/templates/series.js`),
+      context: {
+        id: series.id
       }
     })
   })

@@ -12,19 +12,19 @@ async function main() {
   const episodes = []
   await fetchEpisodes(episodes)
 
-  // convert the series airtable ids in episodes to objects
+  // convert episode.series to objects
   const seriesMap = new Map(series.map(s => [s.airtableId, s]))
   for (const e of episodes) {
     if (! e['series']) {
       console.error(`missing series for ${e.aapbId}`)
     } else if (e['series'].length > 1) {
       console.error(`${e.aapbId} assigned to ${e['series'].length} series`)
-      e['series'] = []
+      e['series'] = {}
     } else {
       const s = seriesMap.get(e['series'][0])
       if (s) {
         e['series'] = {
-          'id': s.slug,
+          'id': s.id,
           'title': s.title
         }
       }
@@ -159,13 +159,12 @@ async function fetchSeries(series) {
     .select()
     .eachPage((records, nextPage) => {
       records.forEach((rec) => {
-        let slug = slugify(rec.fields['Series Title'])
+        const slug = slugify(rec.fields['Series Title'])
         series.push({
           id: slug,
           airtableId: rec.id,
           title: rec.fields['Series Title'],
           description: rec.fields['Description'],
-          slug: slug,
         })
         console.log(`series: ${slug}`)
       })

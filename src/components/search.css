@@ -2,43 +2,43 @@
 
 .search {
   display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 1.5rem;
-	background-color: #fff;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  background-color: #fff;
   align-items: start;
 }
 
-.search input { 
+.search input {
+  grid-column: 1 / span 3;
+  width: 100%;
   font-size: 18pt;
-  max-width: 100%;
-	grid-column: 1 / span 3;
 }
 
 .search .facets {
-	border-right: 1px solid #e6e6e6;
-	grid-column: 1 / span 1;
-	padding-right: 0.5em;
-	margin-right: 0.5em;
+  border-right: 1px solid #e6e6e6;
+  grid-column: 1 / span 1;
+  padding-right: 0.5em;
+  margin-right: 0.5em;
 }
 
 .search .results {
-	grid-column: 2 / span 2;
+  grid-column: 2 / span 2;
 }
 
 .search .facet-label {
-	color: #333333;
-	font-size: 11pt;
-	font-weight: 600;
-	text-transform: uppercase;
+  color: #333333;
+  font-size: 11pt;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .search .facets dl {
-	margin: 0.5em 0 1em 0;
+  margin: 0.5em 0 1em 0;
 }
 
 .search .facets dt, .search .facets dd {
   padding: 4px 0;
-	font-size: 9pt;
+  font-size: 9pt;
 }
 
 .search .facets .item-count {

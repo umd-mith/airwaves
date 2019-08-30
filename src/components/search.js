@@ -112,6 +112,11 @@ class Search extends Component {
             </dt>
 
           </dl>
+
+          <label className="facet-label">
+            <Link to="/series/">View all Series</Link>
+          </label>
+
         </div>
 
         <div className="results">
@@ -171,7 +176,10 @@ class Search extends Component {
         } else if (r.id[0] === 'e') {
           return window.__EPISODES__.get(r.id)
         } else {
+          // TODO: return episodes and documents!
+          return window.__EPISODES__.get(r.id)
         }
+
       })
     } else {
       return []

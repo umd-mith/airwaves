@@ -53,10 +53,6 @@ const Episode = ({ data }) => {
   const genres = episode.genre.map(g => {
     return <div key={`genre-${g.name}`}><Link to={`/#${g.name}`}>{g.name}</Link></div>
   })
-  let series = ""
-  if (episode.series) {
-    series = episode.series.title
-  }
   return (
     <Layout>
       <div id="episode">
@@ -66,7 +62,7 @@ const Episode = ({ data }) => {
             <tbody>
               <tr>
                 <td className="label">Series</td>
-                <td>{series}</td>
+                <td><Link to={`/series/${episode.series.id}/`}>{episode.series.title}</Link></td>
               </tr>
               <tr>
                 <td className="label">Air Date</td>
