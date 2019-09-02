@@ -46,6 +46,7 @@
     "fetch-episodes": "node --harmony src/commands/fetch-episodes.js",
     "fetch-docs": "node --harmony src/commands/fetch-docs.js",
     "index": "node --harmony src/commands/index.js",
+    "audit": "node --harmony src/commands/audit.js",
     "publish": "npm run build && node ./src/commands/publish.js"
   },
   "repository": {

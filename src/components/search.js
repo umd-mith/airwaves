@@ -42,7 +42,7 @@ class Search extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      category: 'episodes',
+      category: 'all',
       query: '',
       results: []
     }
@@ -154,11 +154,11 @@ class Search extends Component {
 
   search(query, category) {
     if (category === 'episodes') {
-      return window.__INDEX__.search(query).filter(r => r.id[0] === 'e').map(r => {
+      return window.__INDEX__.search(query, {limit: 100}).filter(r => r.id[0] === 'e').map(r => {
         return window.__EPISODES__.get(r.id)
       })
     } else if (category === 'documents') {
-      return window.__INDEX__.search({field: 'text', query: query}, {field: 'title', query: query}).filter(r => r.id[0] === 'd').map(r => {
+      return window.__INDEX__.search({field: 'text', query: query}, {field: 'title', query: query, limit: 100}).filter(r => r.id[0] === 'd').map(r => {
         const [docId, page] = r.id.split('-')
         const doc = window.__DOCUMENTS__.get(docId)
         doc['page'] = page
@@ -166,7 +166,7 @@ class Search extends Component {
         return doc
       })
     } else if (category === 'all') {
-      return window.__INDEX__.search({field: ['text', 'title', 'description'], query: query, bool: 'or'}).map(r => {
+      return window.__INDEX__.search({field: ['text', 'title', 'description'], query: query, bool: 'or', limit: 100}).map(r => {
         if (r.id[0] === 'd') {
           const [docId, page] = r.id.split('-')
           const doc = window.__DOCUMENTS__.get(docId)
