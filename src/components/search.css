@@ -9,9 +9,10 @@
 }
 
 .search input {
-  grid-column: 1 / span 3;
-  width: 100%;
-  font-size: 18pt;
+	grid-column: 1 / span 3;
+	width: 100%;
+	font-size: 16px;
+	padding: 5px;
 }
 
 .search .facets {
@@ -27,7 +28,7 @@
 
 .search .facet-label {
   color: #333333;
-  font-size: 11pt;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -73,3 +74,8 @@
   margin-bottom: 30px;
   padding: 5px;
 }
+.search mark {
+	background-color: #ffd500;
+	color: #000;
+}
+

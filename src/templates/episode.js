@@ -56,7 +56,7 @@ const Episode = ({ data }) => {
   const series = episode.series ? <Link to={`/series/${episode.series.id}/`}>{episode.series.title}</Link> : ""
   return (
     <Layout>
-      <div id="episode">
+      <div id="episode" className="episode">
         <div className="metadata">
           <h1>{episode.title}</h1>
           <table>
