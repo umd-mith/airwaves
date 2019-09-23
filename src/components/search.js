@@ -153,7 +153,7 @@ class Search extends Component {
             </dt>
             </dl>
           </div>
-          <div className="facet-panel facet-expandable facet-creator">
+          <div className="facet-panel facet-expandable facet-genre">
             <label className="facet-label facet-label-genre">Filter by Genre</label>
             <dl className="facet-list">
             <dd className="item-count">555</dd>
