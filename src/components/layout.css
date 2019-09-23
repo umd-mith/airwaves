@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap');
+
 html {
 	font-family: 'Open Sans', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	-ms-text-size-adjust: 100%;
@@ -10,6 +12,13 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 header, .main-head {
@@ -17,10 +26,9 @@ header, .main-head {
 }
 .content {
 	grid-area: content;
-	margin: 0 auto;
 	width: 1000px;
-	max-width: 1000px;
-	padding: 0 1.0875rem 1.45rem;
+	padding: 0;
+	margin: 0 auto;
 }
 .main-nav {
   grid-area: nav;

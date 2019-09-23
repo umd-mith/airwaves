@@ -6,12 +6,13 @@ import './search.css'
 const DocumentHit = ({item, query}) => {
   return (
     <div className="hit document">
-      <Link to={`/document/${item.iaId}`}>
+	  <div className="hit-type type-document">document</div>
+      <Link className="hit-title hit-link" to={`/document/${item.iaId}`}>
         <Highlighter
           textToHighlight={item.title || ''}
           searchWords={query.split()} />
       </Link>
-      <div>
+      <div className="hit-description">
         <Highlighter
           textToHighlight={item.text || ''}
           searchWords={query.split()} />
@@ -23,12 +24,13 @@ const DocumentHit = ({item, query}) => {
 const EpisodeHit = ({item, query}) => {
   return (
     <div className="hit episode">
-      <Link to={'/episode/' + item.aapbId}>
+	  <div className="hit-type type-media">media</div>
+      <Link className="hit-title hit-link" to={'/episode/' + item.aapbId}>
         <Highlighter
           textToHighlight={item.title || ''}
           searchWords={query.split()} />
       </Link>
-      <div>
+      <div className="hit-description">
         <Highlighter
           textToHighlight={item.description || ''}
           searchWords={query.split()} />
@@ -85,6 +87,9 @@ class Search extends Component {
         />
         
         <div className="facets">
+		  <div className="facet-panel item-total">
+			Refine Results <span className="item-count">1111</span>
+		  </div>
           <div className="facet-panel facet-type">
             <label className="facet-label facet-label-type">Filter By Type</label>
             <dl className="facet-list">
@@ -167,18 +172,21 @@ class Search extends Component {
               <label title="g1">Genre One</label>
             </dt>
             </dl>
-            <div>
-            <label className="facet-label">
-              <Link to="/series/" className="button">
-              View all Series
-              </Link>
-            </label>
-            </div>
           </div>
+		  <div>
+			<label className="facet-label">
+			  <Link to="/series/" className="button">
+			  View all Series
+			  </Link>
+			</label>
+		  </div>
         </div>
 
         <div className="results">
-          <ResultList />
+		  <div className="facet-panel item-sort">[sorting stuff here]</div>
+          <div className="result-panel">
+            <ResultList />
+          </div>
         </div>
 
       </div>
