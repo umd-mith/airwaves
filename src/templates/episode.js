@@ -12,7 +12,7 @@ export const query = graphql`
       aapbId
       title
       description
-      temporalCoverage
+      temporal
       duration
       broadcastDate
       creator {
@@ -99,7 +99,7 @@ const Episode = ({ data }) => {
               </tr>
               <tr>
                 <td className="label">Time Period</td>
-                <td>{episode.temporalCoverage}</td>
+                <td>{episode.temporal}</td>
               </tr>
             </tbody>
           </table>

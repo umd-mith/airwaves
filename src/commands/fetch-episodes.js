@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const Airtable = require('airtable')
 
-const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('apppprcmqPaRMB8YO')
+const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('app0oWW3dO3b9gHQo')
 
 async function main() {
 
@@ -62,7 +62,7 @@ const episodeMap = {
     "Description 2 (Episode)":            "description",
     "Priority Level":                     "priorityLevel",
     "instantiationLocation":              "location",
-    "Time Period (Temporal) Coverage)":   "temporalCoverage",
+    "Time Period (Temporal) Coverage)":   "temporal",
     "pbcoreinstantiationLanguage":        "language",
     "Decade":                             "decade",
     "Year":                               "year"
@@ -140,7 +140,7 @@ async function mapEntity(e, entityMap) {
 }
 
 async function fetchEpisodes(episodes) {
-  await base('PBCore NAEB Metadata (Audio)')
+  await base('PBCore Metadata (Audio)')
     .select()
     .eachPage(async (records, nextPage) => {
       for (let i = 0; i < records.length; i += 1) {
