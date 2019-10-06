@@ -32,13 +32,19 @@ export const query = graphql`
       folder
       title
       description
-      subject
-      contributor
       date
-      year
-      relation
-      subject
-      imagecount
+      subject {
+        id
+        name
+      }
+      contributor {
+        id
+        name
+      }
+      creator {
+        id
+        name
+      }
     }
   }
 `
@@ -63,11 +69,11 @@ const Document = ({ data }) => {
   if (doc.contributor === null) {
     doc.contributor = []
   }
-  const contributors = doc.contributor.map(c => <div>{c}</div>)
+  const contributors = doc.contributor.map(c => <div>{c.name}</div>)
   if (doc.subject === null) {
     doc.subject = []
   }
-  const subjects = doc.subject.map(c => <div>{c}</div>)
+  const subjects = doc.subject.map(c => <div>{c.name}</div>)
   const manifestUrl = `https://iiif.archivelab.org/iiif/${doc.iaId}/manifest.json`
   miradorConfig.windows = [
     {

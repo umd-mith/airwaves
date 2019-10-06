@@ -42,16 +42,16 @@ const Episode = ({ data }) => {
   const episode = data.episodesJson
   const id = episode.aapbId
   const creators = episode.creator.map(c => {
-    return <div><Link to={`/#${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
+    return <div key={`creator-${c.id}`}><Link to={`/#${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
   })
   const subjects = episode.subject.map(s => {
-    return <div key={`subject-{s.name}`}><Link to={`/#${s.name}`}>{s.name}</Link></div>
+    return <div key={`subject-${s.id}`}><Link to={`/#${s.name}`}>{s.name}</Link></div>
   })
   const contributors = episode.contributor.map(c => {
-    return <div key={`contributor-${c.name}`}><Link to={`/#${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
+    return <div key={`contributor-${c.id}`}><Link to={`/#${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
   })
   const genres = episode.genre.map(g => {
-    return <div key={`genre-${g.name}`}><Link to={`/#${g.name}`}>{g.name}</Link></div>
+    return <div key={`genre-${g.id}`}><Link to={`/#${g.name}`}>{g.name}</Link></div>
   })
   const series = episode.series ? <Link to={`/series/${episode.series.id}/`}>{episode.series.title}</Link> : ""
   return (

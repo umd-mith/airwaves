@@ -1,39 +1,20 @@
 const Airtable = require('airtable')
-const {mapEntity, slugify, writeJson} = require('./mapper')
+const {fetch, makeIdExpander, writeJson} = require('./mapper')
 
 const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('app0oWW3dO3b9gHQo')
 
 async function main() {
+  const episodes = await fetch('PBCore Metadata (Audio)', episodeMap)
 
-  const series = []
-  await fetchSeries(series)
-
-  const episodes = []
-  await fetchEpisodes(episodes)
-
-  // convert episode.series to objects
-  const seriesMap = new Map(series.map(s => [s.airtableId, s]))
+  // add a smaller id for indexing
+  let count = 0
   for (const e of episodes) {
-    if (! e['series']) {
-      console.error(`missing series for ${e.aapbId}`)
-    } else if (e['series'].length > 1) {
-      console.error(`${e.aapbId} assigned to ${e['series'].length} series`)
-      e['series'] = {}
-    } else {
-      const s = seriesMap.get(e['series'][0])
-      if (s) {
-        e['series'] = {
-          'id': s.id,
-          'title': s.title
-        }
-      }
-    }
+    count += 1
+    e.id = `e${count}`
   }
 
-  writeJson(series, 'series.json')
   writeJson(episodes, 'episodes.json')
 }
-
 
 async function fetchEpisodes(episodes) {
   await base('PBCore Metadata (Audio)')
@@ -50,29 +31,10 @@ async function fetchEpisodes(episodes) {
     })
 }
 
-async function fetchSeries(series) {
-  await base('Series')
-    .select()
-    .eachPage((records, nextPage) => {
-      records.forEach((rec) => {
-        const slug = slugify(rec.fields['Series Title'])
-        series.push({
-          id: slug,
-          airtableId: rec.id,
-          title: rec.fields['Series Title'],
-          description: rec.fields['Description'],
-        })
-        console.log(`series: ${slug}`)
-      })
-      nextPage()
-    })
-}
-
 /**
  * episodeMap maps the column headers in AirTable to JSON that we will use in the application.
  * There are simple one-to-one "string" mappings, and then more complicated mappings that construct 
- * "things" or objects with multiple properties based on numbered column headings: 
- * e.g. pbCoreSubject1, pbCoreSubject2, etc.
+ * "composed" objects from multiple columns: e.g. pbCoreSubject1, pbCoreSubject2, etc.
  */
 
 const episodeMap = {
@@ -81,7 +43,6 @@ const episodeMap = {
     "AAPB GUID":                          "aapbId",
     "Instantiation Identifier 2 (NAEB)":  "naebId",
     "Instantiation Identifier 1 (UMD)":   "umdId",
-    "Title 1 (Series)":                   "series", 
     "Title 2 (Episode)":                  "title",
     "Broadcast Date":                     "broadcastDate",
     "instantiationMediaType":             "mediaType",
@@ -101,7 +62,7 @@ const episodeMap = {
     "Year":                               "year"
   },
 
-  things: {
+  composed: {
     "pbcoreSubject":                     ["subject", "name"],
     "pbcoreSubject@subjectType":         ["subject", "type"],
     "pbcoreCreator":                     ["creator", "name"],
@@ -113,6 +74,18 @@ const episodeMap = {
     "pbcoreGenre":                       ["genre", "name"],
     "pbcoreGenreAuthorityUsed":          ["genre", "authority"],
   },
+
+  things: {
+    "Title 1 (Series)": {
+      property: "series",
+      expander: makeIdExpander("series.json", s => {
+        return {
+          id: s.id,
+          title: s.title
+        }
+      }, false)
+    }
+  }
 
 }
 
