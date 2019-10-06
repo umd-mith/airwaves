@@ -2,9 +2,9 @@ import React from "react"
 
 import Layout from "../components/layout"
 
-const IndexPage = () => (
+const TeachingToolsPage = () => (
   <Layout>
-    <h1>Home</h1>
+    <h1>Teaching Tools</h1>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -35,4 +35,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default TeachingToolsPage

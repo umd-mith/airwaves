@@ -11,28 +11,22 @@ header img {
 	padding: 0;
 	display: block;
 }
-/*
-header .main_menu {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem;
-  background-color: #fff;
-  align-items: start;
-}*/
 
 .main-nav {
 }
- .main-nav ul {
+
+.main-nav ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	border-bottom: 1px solid #efefef;
-
 }
+
 .main-nav ul li {
 	display: inline-block;
 	margin: 0 20px;
 }
+
 .main-nav a { 
 	color: #777;
 	text-decoration: none;
@@ -42,6 +36,7 @@ header .main_menu {
 	border-bottom: 3px solid transparent;
 	display: block;
 }
-.main-nav a:hover, .main-nav a:active {
+
+.main-nav a:hover, .main-nav a.active {
 	border-bottom-color: #e0ca59;
 }
