@@ -3,8 +3,6 @@ import Layout from '../components/layout'
 import { graphql, Link } from 'gatsby'
 import './series.css'
 
-
-
 export default ({ data }) => {
 
   const series = data.seriesJson
@@ -15,6 +13,15 @@ export default ({ data }) => {
       </li>
     )
   })
+
+  // XXX: I'm not sure why this can sometimes happen e.g. detroit-symphony-orchestra
+  if (! series) {
+    return (
+      <Layout>
+        <div className="series"></div>
+      </Layout>
+    )
+  }
 
   return (
     <Layout>

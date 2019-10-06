@@ -41,19 +41,40 @@ const Episode = ({ data }) => {
   const s3Bucket = 'https://mith-uta.s3.amazonaws.com'
   const episode = data.episodesJson
   const id = episode.aapbId
-  const creators = episode.creator.map(c => {
-    return <div key={`creator-${c.id}`}><Link to={`/#${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
-  })
-  const subjects = episode.subject.map(s => {
-    return <div key={`subject-${s.id}`}><Link to={`/#${s.name}`}>{s.name}</Link></div>
-  })
-  const contributors = episode.contributor.map(c => {
-    return <div key={`contributor-${c.id}`}><Link to={`/#${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
-  })
-  const genres = episode.genre.map(g => {
-    return <div key={`genre-${g.id}`}><Link to={`/#${g.name}`}>{g.name}</Link></div>
-  })
-  const series = episode.series ? <Link to={`/series/${episode.series.id}/`}>{episode.series.title}</Link> : ""
+
+  let creators = ""
+  if (episode.creator) {
+    creators = episode.creator.map(c => {
+      return <div key={`creator-${c.name}`}><Link to={`/#${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
+    })
+  }
+
+  let subjects = ""
+  if (episode.subject) {
+    subjects = episode.subject.map(s => {
+      return <div key={`subject-${s.name}`}><Link to={`/#${s.name}`}>{s.name}</Link></div>
+    })
+  }
+
+  let contributors = ""
+  if (episode.contributor) {
+    contributors = episode.contributor.map(c => {
+      return <div key={`contributor-${c.name}`}><Link to={`/#${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
+    })
+  }
+
+  let genres = ""
+  if (episode.genre) {
+    genres = episode.genre.map(g => {
+      return <div key={`genre-${g.name}`}><Link to={`/#${g.name}`}>{g.name}</Link></div>
+    })
+  }
+
+  let series = ""
+  if (episode.series) {
+    series = <Link to={`/series/${episode.series.id}/`}>{episode.series.title}</Link>
+  }
+
   return (
     <Layout>
       <div id="episode" className="episode">

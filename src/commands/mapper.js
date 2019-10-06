@@ -169,12 +169,12 @@ function mapComposed(e, entityMap) {
   }
 
   // clean up any objects that lack a name property. This can happen when Airtable columns
-  // are prepopulated
+  // are prepopulated with default values
 
   for (let [k, v] of Object.entries(m)) {
-    if (v && v instanceof Array && v[0] instanceof Object) {
+    if (v && v instanceof Array) {
       m[k] = v.filter(e => e.hasOwnProperty('name'))
-    }
+    } 
   }
 
   return m
