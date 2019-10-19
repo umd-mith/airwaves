@@ -75,10 +75,17 @@ const Document = ({ data }) => {
   }
   const subjects = doc.subject.map(c => <div>{c.name}</div>)
   const manifestUrl = `https://iiif.archivelab.org/iiif/${doc.iaId}/manifest.json`
+
+  let canvasIndex = 0
+  if (typeof window !== 'undefined' && window.location.hash) {
+    canvasIndex = Number.parseInt(window.location.hash.replace('#', '')) - 1
+  }
+  
   miradorConfig.windows = [
     {
       loadedManifest: manifestUrl,
-      view: 'single'
+      view: 'single',
+      canvasIndex: canvasIndex
     }
   ]
 
