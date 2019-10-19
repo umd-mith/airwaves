@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
-class Facets extends Component {
+class SearchFacets extends Component {
 
   render() {
 
@@ -103,4 +103,4 @@ class Facets extends Component {
 
 }
 
-export default Facets
+export default SearchFacets

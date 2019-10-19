@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Facets from './facets'
+import SearchFacets from './search-facets'
 import SearchResult from './search-result'
 import './search.css'
 
@@ -47,7 +47,7 @@ class Search extends Component {
           placeholder={'Search'}
         />
 
-        <Facets />
+        <SearchFacets />
 
         <div className="results">
           <ResultList />
