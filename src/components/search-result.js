@@ -9,12 +9,13 @@ const Document = ({item, query}) => {
 
   return (
     <div className="search-result document">
-      <Link to={`/document/${item.iaId}/#${pageNum}`}>
+      <div className="type document-type">document</div>
+      <Link className="title" to={`/document/${item.iaId}/#${pageNum}`}>
         <Highlighter
           textToHighlight={linkText}
           searchWords={query.split()} />
       </Link>
-      <div>
+      <div className="description">
         <Highlighter
           textToHighlight={item.text || ''}
           searchWords={query.split()} />
@@ -26,12 +27,13 @@ const Document = ({item, query}) => {
 const Episode = ({item, query}) => {
   return (
     <div className="search-result episode">
-      <Link to={'/episode/' + item.aapbId}>
+      <div className="type media-type">media</div>
+      <Link className="title" to={'/episode/' + item.aapbId}>
         <Highlighter
           textToHighlight={item.title || ''}
           searchWords={query.split()} />
       </Link>
-      <div>
+      <div className="description">
         <Highlighter
           textToHighlight={item.description || ''}
           searchWords={query.split()} />

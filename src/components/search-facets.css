@@ -1,0 +1,57 @@
+.search .facet-panel {
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border: 1px dotted #d8d8d8;
+  background-color: #fff;
+}
+
+.search .facet-panel.item-total, .search .facet-panel.item-sort {
+  background-color: #ececec;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.search .facet-label {
+  display: block;
+  color: #333333;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.search .facets dl {
+  margin: 0.5em 0 0 0;
+}
+
+.search .facets dt, .search .facets dd {
+  padding: 4px 0;
+  font-size: 9pt;
+}
+
+.search .facets .item-count {
+  min-width: 30px;
+  float: right;
+  margin-left: 5px;
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  z-index: 2;
+}
+
+.search .facets dt {
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-left: 17px;
+}
+
+.search .facets dt input {
+  position: absolute;
+  left: -20px;
+  margin-top: 0px;
+}
+
+.search .facets dt label {
+  margin-left: 10px;
+}

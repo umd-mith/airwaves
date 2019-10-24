@@ -50,7 +50,10 @@ class Search extends Component {
         <SearchFacets />
 
         <div className="results">
-          <ResultList />
+		      <div className="facet-panel item-sort">[sorting stuff here]</div>
+          <div className="result-panel">
+            <ResultList />
+          </div>
         </div>
 
       </div>

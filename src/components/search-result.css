@@ -1,8 +1,51 @@
 .search-result {
-  margin-bottom: 30px;
-  padding: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ececec;
+  font-size: 13px;
+  line-height: 1.5;
 }
+
+.result-panel {
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border: 1px dotted #d8d8d8;
+  background-color: #fff;
+}
+
 .search-result mark {
-	background-color: #ffd500;
-	color: #000;
+  background-color: #ffd50047;
+  color: #000;
+}
+
+.search-result .type {
+  display: inline-block;
+  padding: .2em .6em .3em;
+  margin-right: 10px;
+  border-radius: .25em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.search-result .document-type {
+  background-color: #B48726;
+}
+
+.search-result .media-type {
+  background-color: #009FB1;
+}
+
+.search-result .title {
+  display: block;
+  font-weight: 600;
+}
+
+.search-result .description {
+  font-size: 12px;
 }
