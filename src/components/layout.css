@@ -1,45 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap');
 
 html {
-	font-family: 'Open Sans', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	font-size: 13pt;
-	color: #444;
 }
-
 body {
-  margin: 0;
+  font-family: 'Open Sans', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #444;
+  margin: 0;
   background-color: #f9f9f9;
 }
-
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
-
 header, .main-head {
   grid-area: header;
 }
-.content {
-	grid-area: content;
-	width: 1000px;
-	padding: 0;
-	margin: 0 auto;
-}
-.main-nav {
-  grid-area: nav;
-}
-.side {
-  grid-area: sidebar;
-}
-.main-footer {
-  grid-area: footer;
-}
-
 .wrapper {
   display: grid;
   grid-gap: 1.5rem;
@@ -64,7 +46,49 @@ header, .main-head {
     justify-content: space-between;
   }
 }
-
+.main-nav {
+  grid-area: nav;
+}
+.content {
+	grid-area: content;
+	width: 1000px;
+	padding: 0;
+	margin: 0 auto;
+  padding-bottom: 100px; 
+}
+.side {
+  grid-area: sidebar;
+}
+.main-footer {
+  grid-area: footer;
+}
+.columns {
+  display: grid;
+  grid-gap: 1.5rem;
+  align-items: start;
+}
+.col_1_3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.col_1_2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.col_1_1 {
+  
+}
+.col_1_1 .col_1_2 h1, .col_1_3 h1 {
+  margin-bottom: 0;
+}
+.col_1_2 h1 {
+  grid-column: 1 / span 2;
+}
+.col_1_3 h1 { 
+  grid-column: 1 / span 3;
+}
+p { 
+  margin-top: 0;
+  padding: 0;
+}
 .button {
     display: inline-block;
     border: 1px #777777 solid;
@@ -73,15 +97,18 @@ header, .main-head {
     text-decoration: none;
     color: #777777;	
 }
-
 h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
 	font-weight: bold;
 	color: #333;
 }
-
 h1 {
 	font-size: 22px;
 	line-height: 1.4em;
+  margin-top: 1em;
+  margin-bottom: 0;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 1em; 
 }
 h2 {
 	font-size: 20px;

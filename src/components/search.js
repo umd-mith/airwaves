@@ -37,7 +37,7 @@ class Search extends Component {
     }
 
     return (
-      <div className="search">
+      <div className="search columns col_1_3">
 
         <input
           type="text"

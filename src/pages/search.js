@@ -7,7 +7,6 @@ import SEO from "../components/seo"
 const SearchPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`archive`, `radio`]} />
-    <br />
     <Search />
   </Layout>
 )

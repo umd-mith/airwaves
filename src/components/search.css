@@ -1,17 +1,11 @@
 @charset "UTF-8";
 
-.search {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem;
-  align-items: start;
-}
-
 .search input {
   grid-column: 1 / span 3;
-  font-size: 16px;
   padding: 5px;
   background-color: #fff;
+  margin-top: 1.5rem;
+  font-size: 16px;
 }
 
 .search .facets {
