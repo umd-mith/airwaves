@@ -32,24 +32,26 @@ class Search extends Component {
     }
 
     return (
-      <div className="search columns col_1_3">
-
-        <input
-          ref={this.query}
-          type="text"
-          onKeyPress={this.checkForEnter}
-          placeholder={'Search'}
-        />
-
-        <SearchFacets results={this.state.results} />
-
-        <div className="results">
-		      <div className="facet-panel item-sort">[sorting stuff here]</div>
-          <div className="result-panel">
-            <ResultList />
-          </div>
-        </div>
-
+      <div className="page-search search">
+        <section className="leader">
+          <article className="">
+            <input
+            ref={this.query}
+            type="text"
+            onKeyPress={this.checkForEnter}
+            placeholder={'Search'}
+          />
+          </article>
+        </section>
+        <section className="columns col_1_3">
+          <SearchFacets results={this.state.results} />
+          <article className="results">
+            <div className="facet-panel item-sort">[sorting stuff here]</div>
+            <div className="result-panel">
+              <ResultList />
+            </div>
+          </article>
+        </section>    
       </div>
 	  )
   }

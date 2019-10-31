@@ -42,6 +42,7 @@
   display: block;
   position: relative;
   white-space: nowrap;
+  z-index: 1;
   cursor: pointer;
   margin-left: 17px;
 }
@@ -53,5 +54,11 @@
 }
 
 .search .facets dt label {
+  display: block;
   margin-left: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  overflow: hidden;  
 }

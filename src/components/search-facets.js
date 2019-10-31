@@ -9,7 +9,7 @@ class SearchFacets extends Component {
     const facets = getFacets(this.props.results)
 
     return (
-      <div className="facets">
+      <article className="facets">
 
 		    <div className="facet-panel item-total">
 			    Refine Results <span className="item-count">{this.props.results.length}</span>
@@ -53,7 +53,7 @@ class SearchFacets extends Component {
           </dl>
         </div>
 
-      </div>
+      </article>
     )
   }
 
