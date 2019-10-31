@@ -84,9 +84,6 @@ header, .main-head {
     grid-template-columns: repeat(3,  minmax(290px, 1fr));
   }
 }
-.col_1_1 {
-  
-}
 .col_1_2 .col_full {
   grid-column: 1 / span 2;
 }
@@ -101,6 +98,13 @@ header, .main-head {
 }
 .col_1_3 h1 {
   grid-column: 1 / span 3;
+}
+a {
+  text-decoration: none;
+  color: #b9a22a;
+}
+a:hover {
+  color: #e0ca59;
 }
 p {
   margin-top: 0;
@@ -141,4 +145,11 @@ h3 {
 h4 {
   font-size: 17px;
   line-height: 1em;
+}
+input[type=text]  { 
+  background-color: #fff;
+  border: 1px solid #444;
+  width: calc(100% - 16px);
+  padding: 8px;
+  font-size: 16px;
 }
