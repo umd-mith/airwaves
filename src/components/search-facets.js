@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'gatsby'
 import './search-facets.css'
 
 class SearchFacets extends Component {
@@ -17,7 +16,7 @@ class SearchFacets extends Component {
 
         {facets.map(facet => (
         <div className="facet-panel facet-type">
-          <label className="facet-label facet-label-type">Filter By {facet.name}</label>
+          <label className={`facet-label facet-label-${facet.name}`}>Filter By {facet.name}</label>
           <dl className="facet-list">
             {facet.counts.map((f, i) => (
               <React.Fragment key={`facet-${facet.name}-${i}`}>
@@ -29,29 +28,13 @@ class SearchFacets extends Component {
                     value="all"
                     defaultChecked={true} 
                     onClick={this.setCategory} />
-                  <label title="{f[0]}">{f[0]}</label>
+                  <label title={f[0]}>{f[0]}</label>
                 </dt>
               </React.Fragment>
             ))}
           </dl>
         </div>
         ))}
-
-        <div className="facet-panel facet-decade">
-          <label className="facet-label facet-label-decade">Filter by Decade</label>
-          <dl className="facet-list">
-            <dd className="item-count">999</dd>
-            <dt>
-              <input type="checkbox" name="item-decade" value="all" defaultChecked={true} onClick={this.setCategory} />
-              <label title="All">All</label>
-            </dt>
-            <dd className="item-count">99</dd>
-            <dt>
-              <input type="checkbox" name="item-decade" value="1950s" onClick={this.setCategory} />
-              <label title="1950s">1950 &ndash; 1959</label>
-            </dt>
-          </dl>
-        </div>
 
       </div>
     )
@@ -67,10 +50,10 @@ function getFacets(results) {
   let decade = new Map()
 
   for (const r of results) {
-    type.set(r.type, type.has(r.type) ? type.get(r.type) + 1 : 1)
     tally(r.subject, subject)
     tally(r.creator, creator)
     tallyDecade(r, decade)
+    tallyType(r, type)
   }
 
   type = sortMap(type, results.length).slice(0, 10)
@@ -95,8 +78,13 @@ function tally(values, map) {
   }
 }
 
+function tallyType(r, map) {
+  const recType = r.id[0] === 'd' ? 'Document' : 'Episode'
+  map.set(recType, map.has(recType) ? map.get(recType) + 1 : 1)
+}
+
 function tallyDecade(r, map) {
-  const date = r.type === 'document' ? r.date : r.year
+  const date = r.id[0] === 'd' ? r.date : r.year
   if (! date) return
 
   // a hack to accomodate "1931", "1931-05-23" and "May 1931"
@@ -104,12 +92,9 @@ function tallyDecade(r, map) {
   if (! match) return
 
   const decadeStart = Math.floor(match[0] / 10) * 10
-  if (decadeStart == NaN) return
+  if (isNaN(decadeStart)) return
 
   const decade = `${decadeStart}-${decadeStart + 9}`
-  if (decade == 'NaN-NaN') {
-    console.log(r)
-  }
   map.set(decade, map.has(decade) ? map.get(decade) + 1 : 1)
 }
 
