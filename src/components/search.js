@@ -57,7 +57,7 @@ class Search extends Component {
           </article>
         </section>
         <section className="columns col_1_3">
-          <SearchFacets results={this.state.results} />
+          <SearchFacets results={results} />
           <article className="results">
             <div className="facet-panel item-sort">[sorting stuff here]</div>
             <div className="result-panel">
