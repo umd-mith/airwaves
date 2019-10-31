@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { FaSearch } from 'react-icons/fa'
 import './search-facets.css'
 
 class SearchFacets extends Component {
@@ -16,7 +17,7 @@ class SearchFacets extends Component {
 
         {facets.map(facet => (
         <div className="facet-panel facet-type">
-          <label className={`facet-label facet-label-${facet.name}`}>Filter By {facet.name}</label>
+          <label className={`facet-label facet-label-${facet.name}`}>< FaSearch /> Filter By {facet.name}</label>
           <dl className="facet-list">
             {facet.counts.map((f, i) => (
               <React.Fragment key={`facet-${facet.name}-${i}`}>
