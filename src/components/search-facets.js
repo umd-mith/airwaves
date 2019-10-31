@@ -36,7 +36,7 @@ class SearchFacets extends Component {
           </dl>
         </div>
         ))}
-      </div>
+      </article>
     )
   }
 
