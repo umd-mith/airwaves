@@ -1,0 +1,38 @@
+.alpha-list {
+  grid-template-columns: repeat(auto-fill, minmax(38px, 1fr));
+  grid-gap: 0;
+  margin-bottom: 1.5rem;
+}
+.alpha-list a {
+  justify-self: stretch;
+  border: 1px solid #C4C4C4;
+  border-left: none; 
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.alpha-list a:first-child {
+  border-left: 1px solid #C4C4C4;
+}
+.alpha-list a:hover {
+  background-color: #e0ca59;
+  color: #fff;
+}
+.section-header {
+  display: block;
+  position: relative;
+  height: 35px;
+  vertical-align: middle;
+  border-bottom: 1px solid #C4C4C4;
+}
+.section-header a:first-of-type {
+  font-size: 22px;
+}
+.section-header a.back {
+  position: absolute;
+  float:right;
+  bottom: 3px; 
+  right: 0;
+  text-transform: uppercase;
+  font-size: 10px;
+}
