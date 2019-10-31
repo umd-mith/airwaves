@@ -80,7 +80,7 @@ async function series(createPage, graphql) {
   results.data.allSeriesJson.edges.forEach(edge => {
     const series = edge.node
     createPage({
-      path: `/series/${series.id}/`,
+      path: `/programs/${series.id}/`,
       component: require.resolve(`./src/templates/series.js`),
       context: {
         id: series.id

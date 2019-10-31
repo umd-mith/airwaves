@@ -72,7 +72,7 @@ const Episode = ({ data }) => {
 
   let series = ""
   if (episode.series) {
-    series = <Link to={`/series/${episode.series.id}/`}>{episode.series.title}</Link>
+    series = <Link to={`/programs/${episode.series.id}/`}>{episode.series.title}</Link>
   }
 
   return (

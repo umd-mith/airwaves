@@ -9,7 +9,7 @@ export default ({ data }) => {
   const episodes = data.allEpisodesJson.edges.map(({node}) => {
     return (
       <li className='episode'>
-        <Link to={`/episode/${node.aapbId}/`}>{node.title}</Link><br />
+        {node.broadcastDate} <Link to={`/episode/${node.aapbId}/`}>{node.title}</Link><br />
       </li>
     )
   })
@@ -28,21 +28,20 @@ export default ({ data }) => {
       <div className="series">
 
         <section>
-
-          <h1>
-            <Link to="/series/">Series</Link> / {series.title}
-          </h1>
-
+          <h2>
+            <Link to="/programs/">All Programs</Link> / {series.title}
+          </h2>
           <div className="description">
           {series.description}
           </div>
-
         </section>
 
+        <br />
+
         <section id="episodes">
-        <h3>Available episodes:</h3>
+          <h3>Available episodes:</h3>
           <ul>
-          {episodes}
+            {episodes}
           </ul>
         </section>
       </div>
@@ -58,7 +57,19 @@ export const query = graphql`
       title
       description
     }
-    allEpisodesJson(filter: {series: {id: {eq: $id}}}) {
+    allEpisodesJson(
+      filter: {
+        series: {
+          id: {
+            eq: $id
+          }
+        }
+      }
+      sort: {
+        fields: broadcastDate,
+        order: DESC
+      }
+    ) {
       edges {
         node {
           aapbId
