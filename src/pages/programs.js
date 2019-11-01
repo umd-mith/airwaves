@@ -58,7 +58,7 @@ export default ({ data }) => {
               </div>
               <ul className={`section-{l}`}>
                 {series[l].map(s => (
-                  <li><a href={`/programs/${s.id}`}>{s.title}</a></li>
+                  <li><Link to={`/programs/${s.id}`}>{s.title}</Link></li>
                 ))}
               </ul>
             </div>
