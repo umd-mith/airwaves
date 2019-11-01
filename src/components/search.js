@@ -72,7 +72,7 @@ class Search extends Component {
   checkForEnter(event) {
     if (event.key === 'Enter') {
       const q = this.query.current.value
-      navigate(`/search/?q=${q}`, {replace: true})
+      navigate(`?q=${q}`, {replace: true})
       this.setState({query: q})
       event.preventDefault()
     }
