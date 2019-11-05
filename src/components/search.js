@@ -10,7 +10,6 @@ class Search extends Component {
     super(props)
 
     this.state = {
-      indexLoaded: false,
       category: 'all',
       numResults: 100,
       query: this.props.query
@@ -21,21 +20,13 @@ class Search extends Component {
     this.setCategory = this.setCategory.bind(this)
   }
 
-  componentDidMount() {
-    this.checkIndex()
-  }
-
   render() {
 
     let results = []
-    if (this.state.indexLoaded) {
-      results = this.search(this.state.query, this.state.category)
-    }
+    results = this.search(this.state.query, this.state.category)
 
     const ResultList = () => {
-      if (this.state.indexLoaded === false) {
-        return "loading..."
-      } else if (results.length > 0) {
+      if (results.length > 0) {
         return results.slice(0, this.state.numResults).map((item, i) => {
           return <SearchResult item={item} query={this.state.query} key={`result-${i}`} />
         })
@@ -105,16 +96,6 @@ class Search extends Component {
       })
     } else {
       return []
-    }
-  }
-
-  checkIndex() {
-    if (window.__INDEX__ && window.__DOCUMENTS__ && window.__EPISODES__) {
-      console.log('index loaded')
-      this.setState({indexLoaded: true})
-    } else {
-      console.log('index not loaded yet')
-      setTimeout(this.checkIndex.bind(this), 500)
     }
   }
 
