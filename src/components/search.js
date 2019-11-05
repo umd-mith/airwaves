@@ -44,19 +44,22 @@ class Search extends Component {
       }
     }
 
+    const resultsHidden = results.length > 0 ? '' : 'hidden'
+
     return (
       <div className="page-search search">
         <section className="leader">
           <article className="">
             <input
-            ref={this.query}
-            type="text"
-            onKeyPress={this.checkForEnter}
-            placeholder={'Search'}
+              ref={this.query}
+              type="text"
+              defaultValue={this.state.query}
+              onKeyPress={this.checkForEnter}
+              placeholder={'Search'}
           />
           </article>
         </section>
-        <section className="columns col_1_3">
+        <section className={`columns col_1_3 ${resultsHidden}`}>
           <SearchFacets results={results} />
           <article className="results">
             <div className="facet-panel item-sort">[sorting stuff here]</div>
@@ -64,7 +67,7 @@ class Search extends Component {
               <ResultList />
             </div>
           </article>
-        </section>    
+        </section> 
       </div>
 	  )
   }
@@ -88,16 +91,7 @@ class Search extends Component {
   }
 
   search(query, category) {
-    if (! query) {
-      const results = []
-      for (const d of window.__DOCUMENTS__.values()) {
-        results.push(d)
-      }
-      for (const e of window.__EPISODES__.values()) {
-        results.push(e)
-      }
-      return results
-    } else if (category === 'episodes') {
+    if (category === 'episodes') {
       return window.__INDEX__.search(query).filter(r => r.id[0] === 'e').map(r => {
         return this.getFullResult(r)
       })

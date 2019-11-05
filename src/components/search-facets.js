@@ -27,7 +27,7 @@ class SearchFacets extends Component {
                     type="checkbox"
                     name="item-type"
                     value="all"
-                    defaultChecked={true} 
+                    defaultChecked={false} 
                     onClick={this.setCategory} />
                   <label title={f[0]}>{f[0]}</label>
                 </dt>
@@ -99,7 +99,7 @@ function tallyDecade(r, map) {
 }
 
 function sortMap(map, total) {
-  return [['All', total], ...map.entries()].sort((a, b) => b[1] - a[1])
+  return [...map.entries()].sort((a, b) => b[1] - a[1])
 }
 
 function sortDecade(map, total) {
