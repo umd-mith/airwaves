@@ -6,6 +6,7 @@ import Antenna from '../svg/antenna.svg'
 export default class Loader extends Component {
 
   state = {
+    indexChecks: 0,
     indexLoaded: false
   }
 
@@ -38,12 +39,23 @@ export default class Loader extends Component {
 
 
   checkIndex() {
+
+    // check to see if the index has been fetched, but once it becomes available wait
+    // a period of time so that the loading message isn't too rapid on a fast
+    // connection.
+
+    const checkInterval = 250
+    const waitInterval = 3000
+
     if (window.__INDEX__ && window.__DOCUMENTS__ && window.__EPISODES__) {
-      console.log('index loaded')
-      this.setState({indexLoaded: true})
+      if (this.state.indexChecks == 0) {
+        this.setState({indexLoaded: true})
+      } else {
+        setTimeout(() => { this.setState({indexLoaded: true}) }, waitInterval)
+      }
     } else {
-      console.log('index not loaded yet')
-      setTimeout(this.checkIndex.bind(this), 1000)
+      this.setState({indexChecks: this.state.indexChecks + 1})
+      setTimeout(this.checkIndex.bind(this), checkInterval)
     }
   }
 
