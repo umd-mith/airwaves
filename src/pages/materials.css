@@ -1,7 +1,19 @@
 
-.MuiCollapse-wrapperInner {
+.MuiListItem-button.MuiButtonBase-root {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 2px solid #fff;
+}
+.MuiList-padding .MuiList-root {
+  margin-left: 20px;
+} 
+.MuiList-root.MuiList-padding .MuiCollapse-container .MuiListItemText-root {
   padding: 8px 16px;
 }
-.MuiListItem-button {
-  font-weight: bold;
+.MuiList-root.MuiList-padding .MuiCollapse-container .MuiListItem-root .MuiListItemText-root {
+  padding: 0;
+}
+.MuiCollapse-container div:not(.MuiListItem-root) .MuiTypography-body1 {
+  font-size: inherit; 
+  font-family: inherit;
 }

@@ -48,7 +48,7 @@ class MaterialsPage extends Component {
           <section className="columns col_full">
             <article>
               <List>
-                <ListItem id="i1" button onClick={this.handleClick}>
+                <ListItem id="i1" component="li" button onClick={this.handleClick}>
                   <ListItemText>Summary Information</ListItemText>
                   <ExpandMore />
                   <ExpandLess />
@@ -81,7 +81,7 @@ class MaterialsPage extends Component {
                   </ListItemText>
                 </Collapse>
 
-                <ListItem id="i2" button onClick={this.handleClick}>
+                <ListItem id="i2" component="li" button onClick={this.handleClick}>
                   <ListItemText>Biography/History</ListItemText>
                   <ExpandMore />
                   <ExpandLess />
@@ -104,28 +104,154 @@ class MaterialsPage extends Component {
                   </ListItemText>
                 </Collapse>
                 
-                <ListItem id="i3" button onClick={this.handleClick}>
-                  <ListItemText>Three</ListItemText>
+                <ListItem id="i3" component="li" button onClick={this.handleClick}>
+                  <ListItemText>Scope and Content Notes</ListItemText>
                   <ExpandMore />
                   <ExpandLess />
                 </ListItem>
                 <Collapse in={this.state.i3} timeout="auto" unmountOnExit>
-                  <List>
-                    <ListItem>
-                      <ListItemText>Three A</ListItemText>
-                    </ListItem>
-                    <ListItem>
-                      <ListItemText>Three B</ListItemText>
-                    </ListItem>
-                  </List>
+                  <ListItemText>
+                  <p>The NAEB records are arranged into six parts: (1) CENTRAL CORRESPONDENCE, (2) WILLIAM G. HARLEY SPEECHES, (3) SUBJECT FILES, (4) NATIONAL EDUCATIONAL RADIO FILES, (5) OFFICE OF RESEARCH AND DEVELOPMENT FILES, (6) PUBLICATIONS AND NEWSLETTERS.</p>
+                  <p>The records of the NAEB span the years 1925 to 1977, although the coverage is uneven. The records available for the period 1925 to 1950 provide fairly thorough documentation on the association's early history and activities. Most complete are records for the period 1950 through the late 1960s, particularly those created by NAEB executive staff. The records from this period document not only the association's history, but the multitude of issues then facing the entire profession. There are no division-level records available for (1) Educational Television Stations, (2) Instructional Division or (3) Individual Member Division. Records are fragmentary for the period 1970 to 1977, and there is no documentation for the period 1978 to 1981.</p>
+                  <p>The CENTRAL CORRESPONDENCE was created by executive staff of the NAEB and is arranged chronologically. Much of the documentation in this part of the collection deals with administrative and financial matters. Less extensive, but often more substantive, is correspondence with members concerning the association's activities. These files contain some of the earliest documentation of the ACUBS/NAEB, including a 1925 report on the Fourth National Radio Conference, the meeting at which ACUBS was founded.</p>
+                  <p>The WILLIAM G. HARLEY SPEECHES consists entirely of remarks delivered by the NAEB president (1958&ndash;1975) and president emeritus (1976&ndash;1978), including presentations to the NAEB board, executive committee, and openings of meetings and conventions. The speeches are arranged chronologically, with statements made before the Federal Communications Commission and the U.S. House of Representatives and Senate filed separately in box 17. Prior to assuming the top-ranking position at the NAEB, Harley had served as professor of Radio-Television Education at the University of Wisconsin and as program director of WHA-Madison. A significant percentage of the speeches in this series were presented to Wisconsin audiences.</p>
+                  <p>The SUBJECT FILES are arranged alphabetically and are the core of the NAEB collection. The files were maintained in the NAEB headquarters in Urbana, Illinois, and later in Washington, D.C. Although significant portions of the collection are summarized below, researchers are urged to read the container list carefully. These files contain the only set of records on the NAEB Board of Directors in the collection. In boxes 19&ndash;23 are board minutes (1947&ndash;1969), correspondence with the executive staff (1951&ndash;1962), and a small subject file. Also important are the records on the association's legal counsel, Cohn &amp; Marks, which include many materials related to the FCC and the Educational Television Facilities Act. Records of NAEB's many committees are arranged alphabetically in boxes 27&ndash;37. Committee records typically include minutes and reports, in addition to correspondence with the association's leadership. Files documenting the many conferences that the NAEB sponsored or co-sponsored are contained in boxes 37 to 41 and include programs and agendas, lectures and speeches, instructional materials, and some near-print items. Photographs of the Allerton Seminar and University Broadcasting Council are arranged in the subject file under “Photographs.” Records on the activities of individual non-commercial stations are arranged by state in boxes 77 to 80, while activities involving post-secondary institutions are filed under the heading “universities and colleges” in boxes 86 and 87. A scrapbook file consists of news clippings related to NAEB sponsored programming, grants, conferences, seminars and workshops and spans the years 1951&ndash;1956. The NAEB assisted in organizing and advising many other groups interested in various aspects of educational broadcasting, which are also arranged alphabetically, including: Joint Committee on Education Television (later renamed the Joint Council on Education Broadcasting), the Educational Media Council, and the Association for Educational Radio-Television. Records related to the NAEB's sponsorship of special projects and grant funding are located in boxes 55 through 60, listed under “Foundations,” “Fund for Adult Education,” and “Grants-in-Aid.” Of particular interest is a project directed by Marshall McLuhan funded through Title VII of the National Defense Education Act to develop instructional materials. The McLuhan files span the years 1958&ndash;1963 and contain a substantial amount of correspondence about his ideas and theories. Records on the development of the Education Television Facilities Act of 1962 are located in boxes 66&ndash;67: while information on NAEB's work with U.S. government agencies (mostly the Department of Health, Education and Welfare) is in box 85.</p>
+                  <p>The NATIONAL EDUCATIONAL RADIO FILES are arranged in three parts: daily correspondence, a divisional subject file, and a 1966 survey of state radio networks. The daily correspondence files, which are arranged chronologically, consists largely of out-going correspondence to radio station directors, usually dealing with NER administrative and financial matters. The NER subject files offer insight into the division's central activities during the mid-to-late 1960s including: new technologies (such as satellite communications), copyright law revision and the “fair use” doctrine, FCC rulings, and a 1966 Wingspread Conference on educational radio. The files do not document the division's 1973 merger with National Public Radio. The 1966 survey of state radio networks includes information on staffing, technology and financing of non-commercial radio stations. Survey data is arranged alphabetically by state and includes a summary report.</p>
+                  <p>The OFFICE OF RESEARCH AND DEVELOPMENT FILES document three projects in which the NAEB was involved during the late 1950s to mid-1960s: a government contract to deliver educational television via satellite to American Samoa: a “utilization project” to develop television programming to augment school curriculum: and a project with the Midwest Program on Airborne Instruction, Inc. to recommend procedures for UHF channel allocations.</p>
+                  <p>The PUBLICATIONS AND NEWSLETTER FILES consist of two parts, both of which are arranged chronologically. Publications files, 1930&ndash;1964, include mostly promotional materials and brochures, membership lists, annual reports, revisions of the NAEB constitution and small pamphlets not suited for cataloging. Also available are several NAEB newsletters, including the general membership <em>Newsletter</em> (fragmentary), 1930&ndash;1967: <em>President's Memo, </em>1954&ndash;1966: <em>Washington Newsletter, </em>1963&ndash;1965: and the <em>TV Engineering Newsletter, </em>1955&ndash;1957.</p>
+                  </ListItemText>
                 </Collapse>
     
-                <ListItem id="i4" button onClick={this.handleClick}>
-                  <ListItemText>Four</ListItemText>
+                <ListItem id="i4" component="li" button onClick={this.handleClick}>
+                  <ListItemText>Administrative/Restriction Information</ListItemText>
                   <ExpandMore />
                   <ExpandLess />
                 </ListItem>
                 <Collapse in={this.state.i4} timeout="auto" unmountOnExit>
+                  <List>
+                    <ListItem>
+                      <ListItemText>Four A</ListItemText>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemText>Four B</ListItemText>
+                    </ListItem>
+                  </List>
+                </Collapse>
+                <ListItem id="i5" component="li" button onClick={this.handleClick}>
+                  <ListItemText>Contents List</ListItemText>
+                  <ExpandMore />
+                  <ExpandLess />
+                </ListItem>
+                <Collapse in={this.state.i5} timeout="auto" unmountOnExit>
+                  <List disablePadding>
+                    <ListItem id="i5a" component="li" button onClick={this.handleClick}>
+                      <ListItemText>Central Correspondence Files</ListItemText>
+                      <ExpandMore />
+                      <ExpandLess />
+                    </ListItem>
+                    <Collapse in={this.state.i5a} timeout="auto" unmountOnExit>
+                      <ListItemText>
+                      <table width="80%" border="0" cellspacing="0" cellpadding="5">
+                        <thead>
+                          <tr>
+                            <th align="left" valign="top"><strong>Container</strong></th>
+                            <th align="left" valign="top"><strong>Title</strong></th>
+                          </tr>
+                          <tr>
+                            <th align="left" valign="top" id="fabid-d1e30"><strong>U.S. Mss 76AF</strong></th>
+                            <th align="left" valign="top"><strong>Series:</strong> Central Correspondence Files</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e29">Box 1<br />
+                              Folder 1-6</td>
+                            <td>1925-1935</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e28">Box 2<br />
+                              Folder 1-7</td>
+                            <td>1936-1940</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e27">Box 3<br />
+                              Folder 1-9</td>
+                            <td>1941-1945</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e26">Box 4<br />
+                              Folder 1-8</td>
+                            <td>1946-1948</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e25">Box 5<br />
+                              Folder 1-6</td>
+                            <td>1949-1950 June</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e24">Box 6<br />
+                              Folder 1-8</td>
+                            <td>1950 July-1953 August</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e23">Box 7<br />
+                              Folder 1-6</td>
+                            <td>1953 September-1955 March</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e22">Box 8<br />
+                              Folder 1-7</td>
+                            <td>1955 April-1958 February</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e21">Box 9<br />
+                              Folder 1-7</td>
+                            <td>1958 March-1961 June</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e20">Box 10<br />
+                              Folder 1-9</td>
+                            <td>1961-1962 July</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e19">Box 11<br />
+                              Folder 1-11</td>
+                            <td>1963-1966 August</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e18">Box 12<br />
+                              Folder 1-9</td>
+                            <td>1966 September-1968</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e17">Box 13<br />
+                              Folder 1-13</td>
+                            <td>1969-1971</td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" id="fabid-d1e16">Box 14<br />
+                              Folder 1-2</td>
+                            <td>1972</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      </ListItemText>
+                    </Collapse>
+    
+                    <ListItem id="i5b" component="li" button onClick={this.handleClick}>
+                      <ListItemText>William G. Harley Speeches</ListItemText>
+                    </ListItem>
+                    <Collapse in={this.state.i5b} timeout="auto" unmountOnExit>
+                      <ListItemText>Four B</ListItemText>
+                    </Collapse>
+                  </List>
+                </Collapse>
+                <ListItem id="i6" button onClick={this.handleClick}>
+                  <ListItemText>Four</ListItemText>
+                  <ExpandMore />
+                  <ExpandLess />
+                </ListItem>
+                <Collapse in={this.state.i6} timeout="auto" unmountOnExit>
                   <List>
                     <ListItem>
                       <ListItemText>Four A</ListItemText>
