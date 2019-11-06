@@ -2,7 +2,7 @@
   text-align: center;
   display: table;
   width: 100%;
-  height: 500px;
+  height: 400px;
   font-size: 12pt;
 }
 
@@ -11,6 +11,35 @@
   vertical-align:  middle;
 }
 
-.loader img {
+.loader svg {
   height: 200px;
+}
+
+.airwave {
+  fill: #e0ca59;
+  animation-name: fader;
+  animation-iteration-count: infinite;
+}
+
+.airwave1 {
+  animation-duration: 4s;
+}
+
+.airwave2 {
+  animation-delay: 1s;
+  animation-duration: 4s;
+}
+
+.airwave3 {
+  animation-delay: 2s;
+  animation-duration: 4s;
+}
+
+.tower {
+  fill: black;
+}
+
+@keyframes fader {
+  from { opacity: 1.0 }
+  to { opacity: 0.1 }
 }

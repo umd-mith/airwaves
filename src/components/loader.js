@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import LinearProgress from '@material-ui/core/LinearProgress'
 import './loader.css'
-import antenna from '../images/antenna.png'
+import Antenna from '../svg/antenna.svg'
 
 export default class Loader extends Component {
 
@@ -16,9 +16,10 @@ export default class Loader extends Component {
       content = (
         <div className="loader">
           <div className="icon">
-            <img src={antenna} />
-            <br /> 
-            Welcome, hold tight while we tune in some data ...
+            <Antenna />
+            <br />
+            <br />
+            Please sit tight while we <em>tune in</em> some data ...
           </div>
         </div>
       )
@@ -42,7 +43,7 @@ export default class Loader extends Component {
       this.setState({indexLoaded: true})
     } else {
       console.log('index not loaded yet')
-      setTimeout(this.checkIndex.bind(this), 750)
+      setTimeout(this.checkIndex.bind(this), 1000)
     }
   }
 
