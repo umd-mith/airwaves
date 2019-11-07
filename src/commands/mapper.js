@@ -57,6 +57,7 @@ async function mapEntity(e, entityMap) {
     ...mapLists(e, entityMap),
     ...mapComposed(e, entityMap),
     ...mapThings(e, entityMap),
+    ...mapDecade(e, entityMap)
   }
   return m
 }
@@ -213,6 +214,24 @@ function makeIdExpander(filename, f, allowMultiple=true) {
       return newList[0]
     }
   }
+}
+
+function mapDecade(e, entityMap) {
+
+  if (! entityMap.decade) return
+
+  const date = e[entityMap.decade]
+  if (! date) return {decade: null}
+
+  // a hack to accomodate "1931", "1931-05-23" and "May 1931"
+  const match = date.match(/\d{4}/) 
+  if (! match) return
+
+  const decadeStart = Math.floor(match[0] / 10) * 10
+  if (isNaN(decadeStart)) return
+
+  const decade = `${decadeStart}-${decadeStart + 9}`
+  return {decade: decade}
 }
 
 module.exports = {

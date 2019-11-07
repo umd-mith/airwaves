@@ -58,7 +58,6 @@ const episodeMap = {
     "instantiationLocation":              "location",
     "Time Period (Temporal) Coverage)":   "temporal",
     "pbcoreinstantiationLanguage":        "language",
-    "Decade":                             "decade",
     "Year":                               "year"
   },
 
@@ -85,7 +84,9 @@ const episodeMap = {
         }
       }, false)
     }
-  }
+  },
+
+  decade: "Broadcast Date"
 
 }
 

@@ -81,7 +81,9 @@ const docMap = {
         }
       })
     }
-  }
+  },
+
+  decade: "Date"
 
 }
 
@@ -90,7 +92,6 @@ async function downloadOcr(iaId) {
   if (fs.existsSync(ocrPath)) {
     return ocrPath
   }
-  /*
   const url = `https://s3.us.archive.org/${iaId}/${iaId}_abbyy.gz`
   try {
     const resp = await get(url, {keepalive: true, redirect: 'follow'})
@@ -109,8 +110,6 @@ async function downloadOcr(iaId) {
     console.log(`unable to download ocr ${url}`)
     return null
   }
-  */
- return null
 }
 
 if (require.main === module) {

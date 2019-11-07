@@ -3,6 +3,7 @@ import SearchFacets from './search-facets'
 import SearchResult from './search-result'
 import { navigate } from '@reach/router'
 import './search.css'
+import { FaCentercode } from 'react-icons/fa'
 
 class Search extends Component {
 
@@ -12,18 +13,19 @@ class Search extends Component {
     this.state = {
       category: 'all',
       numResults: 100,
-      query: this.props.query
+      query: this.props.query,
+      activeFacets: []
     }
 
     this.query = React.createRef()
+    this.updateFacets = this.updateFacets.bind(this)
     this.checkForEnter = this.checkForEnter.bind(this)
-    this.setCategory = this.setCategory.bind(this)
   }
 
   render() {
 
     let results = []
-    results = this.search(this.state.query, this.state.category)
+    results = this.search(this.state.query, this.state.activeFacets)
 
     const ResultList = () => {
       if (results.length > 0) {
@@ -46,12 +48,11 @@ class Search extends Component {
               type="text"
               defaultValue={this.state.query}
               onKeyPress={this.checkForEnter}
-              placeholder={'Search'}
-          />
+              placeholder={'Search'} />
           </article>
         </section>
         <section className={`columns col_1_3 ${resultsHidden}`}>
-          <SearchFacets results={results} />
+          <SearchFacets results={results} updateFacets={this.updateFacets} />
           <article className="results">
             <div className="facet-panel item-sort">[sorting stuff here]</div>
             <div className="result-panel">
@@ -72,31 +73,30 @@ class Search extends Component {
     }
   }
 
-  setCategory(event) {
-    const query = this.query.current.value
-    const newCategory = event.target.value
-    this.setState({
-      category: newCategory,
-      results: this.search(query, newCategory)
-    })
+  updateFacets(facet) {
+    if (facet.active) {
+      this.setState({activeFacets: [facet, ...this.state.activeFacets]})
+    } else {
+      const activeFacets = this.state.activeFacets.filter(f => (
+        f.type !== f.type || f.name !== f.name
+      ))
+      this.setState({ activeFacets })
+    }
   }
 
-  search(query, category) {
-    if (category === 'episodes') {
-      return window.__INDEX__.search(query).filter(r => r.id[0] === 'e').map(r => {
-        return this.getFullResult(r)
-      })
-    } else if (category === 'documents') {
-      return window.__INDEX__.search({field: 'text', query: query}, {field: 'title', query: query}).filter(r => r.id[0] === 'd').map(r => {
-        return this.getFullResult(r)
-      })
-    } else if (category === 'all') {
-      return window.__INDEX__.search({field: ['text', 'title', 'description'], query: query, bool: 'or'}).map(r => {
-        return this.getFullResult(r)
-      })
-    } else {
-      return []
+  search(query, facets) {
+
+    const q = {
+      field: ['text', 'title', 'description'], 
+      query: query,
+      bool: 'or'
     }
+
+    return window.__INDEX__
+      .search(q)
+      .map(r => this.getFullResult(r))
+      .filter(r => this.recordHasFacets(r, facets))
+
   }
 
   getFullResult(r) {
@@ -109,6 +109,44 @@ class Search extends Component {
     } else if (r.id[0] === 'e') {
       return {...window.__EPISODES__.get(r.id), type: 'Episode'}
     }
+  }
+
+  recordHasFacets(r, facets) {
+    if (facets.length === 0) {
+      return true
+    }
+
+    // facets are ANDed, so return false once a facet doesn't match
+
+    for (const facet of facets) {
+
+      if (facet.type === 'type') {
+        if (facet.name !== r.type) {
+          return false
+        }
+      }
+      
+      else if (r.subject && facet.type === 'subject') {
+        if (! r.subject.find(s => s.name == facet.name)) {
+          return false
+        }
+      }
+
+      else if (r.creator && facet.type == 'creator') {
+        if (! r.creator.find(c => c.name == facet.name)) {
+          return false
+        }
+      }
+
+      else if (r.decade && facet.type == 'decade') {
+        if (r.decade != facet.name) {
+          return false
+        }
+      }
+
+    }
+
+    return true
   }
 
 }

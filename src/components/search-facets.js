@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { FaSearch } from 'react-icons/fa'
 import './search-facets.css'
+import { fn } from 'moment'
 
 class SearchFacets extends Component {
 
@@ -16,28 +17,58 @@ class SearchFacets extends Component {
 		    </div>
 
         {facets.map(facet => (
-        <div className="facet-panel facet-type">
+        <div key={`facet-${facet.name}`} className={`facet-panel facet-${facet.name}`}>
           <label className={`facet-label facet-label-${facet.name}`}>< FaSearch /> Filter By {facet.name}</label>
           <dl className="facet-list">
             {facet.counts.map((f, i) => (
-              <React.Fragment key={`facet-${facet.name}-${i}`}>
-                <dd className="item-count">{f[1]}</dd>
-                <dt>
-                  <input
-                    type="checkbox"
-                    name="item-type"
-                    value="all"
-                    defaultChecked={false} 
-                    onClick={this.setCategory} />
-                  <label title={f[0]}>{f[0]}</label>
-                </dt>
-              </React.Fragment>
+              <Facet
+                key={`${facet.name}-${f[0]}`}
+                updateFacets={this.props.updateFacets}
+                type={facet.name}
+                name={f[0]}
+                count={f[1]} />
             ))}
           </dl>
         </div>
         ))}
+
       </article>
     )
+  }
+
+}
+
+class Facet extends Component {
+
+  state = {
+    active: false
+  }
+
+  render() {
+    return (
+      <>
+        <dd className="item-count">{this.props.count}</dd>
+        <dt>
+          <input
+            type="checkbox"
+            name="item-type"
+            defaultChecked={this.state.active} 
+            onClick={(e) => {this.toggle(e)}} />
+          <label title={this.props.name}>{this.props.name}</label>
+        </dt>
+      </>
+    )
+  }
+
+  toggle(e) {
+    const active = this.state.active
+    this.setState({active: ! active})
+    this.props.updateFacets({
+      type: this.props.type,
+      name: this.props.name,
+      value: this.props.value,
+      active: ! active
+    })
   }
 
 }
@@ -84,17 +115,7 @@ function tallyType(r, map) {
 }
 
 function tallyDecade(r, map) {
-  const date = r.id[0] === 'd' ? r.date : r.year
-  if (! date) return
-
-  // a hack to accomodate "1931", "1931-05-23" and "May 1931"
-  const match = date.match(/\d{4}/) 
-  if (! match) return
-
-  const decadeStart = Math.floor(match[0] / 10) * 10
-  if (isNaN(decadeStart)) return
-
-  const decade = `${decadeStart}-${decadeStart + 9}`
+  const decade = r.decade
   map.set(decade, map.has(decade) ? map.get(decade) + 1 : 1)
 }
 
@@ -103,7 +124,7 @@ function sortMap(map, total) {
 }
 
 function sortDecade(map, total) {
-  return [['All', total], ...map.entries()].sort((a, b) => a[0] < b[0])
+  return [...map.entries()].sort((a, b) => a[0] < b[0])
 }
 
 export default SearchFacets

@@ -9,7 +9,7 @@ const Document = ({item, query}) => {
   const searchWords = query ? query.split() : []
 
   return (
-    <div className="search-result document">
+    <div className="search-result">
       <div className="type document-type">document</div>
       <Link className="title" to={`/document/${item.iaId}/#${pageNum}`}>
         <Highlighter
@@ -28,7 +28,7 @@ const Document = ({item, query}) => {
 const Episode = ({item, query}) => {
   const searchWords = query ? query.split() : []
   return (
-    <div className="search-result episode">
+    <div className="search-result">
       <div className="type media-type">media</div>
       <Link className="title" to={'/episode/' + item.aapbId}>
         <Highlighter
