@@ -23,6 +23,7 @@ class SearchFacets extends Component {
             {facet.counts.map((f, i) => (
               <Facet
                 key={`${facet.name}-${f[0]}`}
+                activeFacets={this.props.activeFacets}
                 updateFacets={this.props.updateFacets}
                 type={facet.name}
                 name={f[0]}
@@ -40,8 +41,16 @@ class SearchFacets extends Component {
 
 class Facet extends Component {
 
-  state = {
-    active: false
+  constructor(props) {
+    super(props)
+
+    const isActive = this.props.activeFacets.filter(f => (
+      f.type == this.props.type && f.name == this.props.name
+    )).length > 0
+
+    this.state = {
+      active: isActive
+    }
   }
 
   render() {

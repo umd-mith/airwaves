@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import './document.css'
 
 import Layout from '../components/layout'
@@ -73,7 +73,9 @@ const Document = ({ data }) => {
   if (doc.subject === null) {
     doc.subject = []
   }
-  const subjects = doc.subject.map(c => <div>{c.name}</div>)
+  const subjects = doc.subject.map(c => (
+    <div><Link to={`/search/?f=subject:${c.name}`}>{c.name}</Link></div>
+  ))
   const manifestUrl = `https://iiif.archivelab.org/iiif/${doc.iaId}/manifest.json`
 
   let canvasIndex = 0

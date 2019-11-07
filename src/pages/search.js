@@ -10,7 +10,7 @@ const SearchPage = ({location}) => {
   return (
     <Layout>
       <SEO title="Home" keywords={[`archive`, `radio`]} />
-      <Search query={qs.q} />
+      <Search query={qs.q} facets={qs.f} />
     </Layout>
   )
 }

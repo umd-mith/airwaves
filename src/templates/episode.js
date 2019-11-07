@@ -45,14 +45,14 @@ const Episode = ({ data }) => {
   let creators = ""
   if (episode.creator) {
     creators = episode.creator.map(c => {
-      return <div key={`creator-${c.name}`}><Link to={`/#${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
+      return <div key={`creator-${c.name}`}><Link to={`/search/?f=creator:${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
     })
   }
 
   let subjects = ""
   if (episode.subject) {
     subjects = episode.subject.map(s => {
-      return <div key={`subject-${s.name}`}><Link to={`/#${s.name}`}>{s.name}</Link></div>
+      return <div key={`subject-${s.name}`}><Link to={`/search/?f=subject:${s.name}`}>{s.name}</Link></div>
     })
   }
 

@@ -3,7 +3,6 @@ import SearchFacets from './search-facets'
 import SearchResult from './search-result'
 import { navigate } from '@reach/router'
 import './search.css'
-import { FaCentercode } from 'react-icons/fa'
 
 class Search extends Component {
 
@@ -16,6 +15,9 @@ class Search extends Component {
       query: this.props.query,
       activeFacets: []
     }
+
+    // initialize active facets with any that were passed in from the URL query string
+    this.state.activeFacets = this.unpackFacetParams(this.props.facets)
 
     this.query = React.createRef()
     this.updateFacets = this.updateFacets.bind(this)
@@ -52,7 +54,10 @@ class Search extends Component {
           </article>
         </section>
         <section className={`columns col_1_3 ${resultsHidden}`}>
-          <SearchFacets results={results} updateFacets={this.updateFacets} />
+          <SearchFacets 
+            results={results}
+            activeFacets={this.state.activeFacets}
+            updateFacets={this.updateFacets} />
           <article className="results">
             <div className="facet-panel item-sort">[sorting stuff here]</div>
             <div className="result-panel">
@@ -85,18 +90,35 @@ class Search extends Component {
   }
 
   search(query, facets) {
+    let results = []
 
-    const q = {
-      field: ['text', 'title', 'description'], 
-      query: query,
-      bool: 'or'
+    console.log('xxx', query, facets)
+
+    // if we have a query search the index
+    if (query) {
+      const q = {
+        field: ['text', 'title', 'description'], 
+        query: query,
+        bool: 'or'
+      }
+      
+      results = window.__INDEX__
+        .search(q)
+        .map(r => this.getFullResult(r))
+    }
+   
+    // if we don't have a query but we do have some facets get everything
+    else if (facets.length > 0) {
+      for (const d of window.__DOCUMENTS__.values()) {
+        results.push(d)
+      }
+      for (const e of window.__EPISODES__.values()) {
+        results.push(e)
+      }
     }
 
-    return window.__INDEX__
-      .search(q)
-      .map(r => this.getFullResult(r))
-      .filter(r => this.recordHasFacets(r, facets))
-
+    // return records after filtering with any active facets
+    return results.filter(r => this.recordHasFacets(r, facets))
   }
 
   getFullResult(r) {
@@ -126,20 +148,29 @@ class Search extends Component {
         }
       }
       
-      else if (r.subject && facet.type === 'subject') {
-        if (! r.subject.find(s => s.name == facet.name)) {
+      else if (facet.type === 'subject') {
+        if (! r.subject) {
+          return false
+        }
+        else if (! r.subject.find(s => s.name == facet.name)) {
           return false
         }
       }
 
-      else if (r.creator && facet.type == 'creator') {
-        if (! r.creator.find(c => c.name == facet.name)) {
+      else if (facet.type == 'creator') {
+        if (! r.creator) {
+          return false
+        }
+        else if (! r.creator.find(c => c.name == facet.name)) {
           return false
         }
       }
 
-      else if (r.decade && facet.type == 'decade') {
-        if (r.decade != facet.name) {
+      else if (facet.type == 'decade') {
+        if (! r.decade) {
+          return false
+        }
+        else if (r.decade != facet.name) {
           return false
         }
       }
@@ -147,6 +178,27 @@ class Search extends Component {
     }
 
     return true
+  }
+
+  unpackFacetParams(facetParams) {
+    if (! facetParams) {
+      return []
+    }
+
+    // put into an array if a string was passed in
+    if (! Array.isArray(facetParams)) {
+      facetParams = [facetParams]
+    }
+
+    // parse a facet, e.g. "subject:Nelson, Ted"
+    // but be careful because the value could contain a colon
+    return facetParams.map(f => {
+      const i = f.indexOf(':')
+      return {
+        type: f.substr(0, i),
+        name: f.substr(i + 1)
+      }
+    })
   }
 
 }

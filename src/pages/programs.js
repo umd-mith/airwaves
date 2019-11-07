@@ -11,7 +11,7 @@ export default ({ data }) => {
 
   // pre-populate series lists
   const series = {}
-  letters.map(l => {
+  letters.forEach(l => {
     series[l] = []
   })
 
