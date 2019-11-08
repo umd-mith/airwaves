@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
@@ -18,27 +19,34 @@ const sliderSettings = {
 }
 
 const IndexPage = () => (
+  
   <Layout>
-    <Slider {...sliderSettings}>
-      <div>
-        <img height="200" src="/images/carousel/01.jpg" />
-      </div>
-      <div>
-        <img height="200" src="/images/carousel/02.jpg" />
-      </div>
-      <div>
-        <img height="200" src="/images/carousel/03.jpg" />
-      </div>
-      <div>
-        <img height="200" src="/images/carousel/04.jpg" />
-      </div>
-      <div>
-        <img height="200" src="/images/carousel/05.jpg" />
-      </div>
-      <div>
-        <img height="200" src="/images/carousel/06.jpg" />
-      </div>
-    </Slider>
+  <div className="page-home">
+    <section className="leader">
+      <article>
+        <Slider {...sliderSettings}>
+          <div>
+            <img height="200" src="/images/carousel/01.jpg" />
+          </div>
+          <div>
+            <img height="200" src="/images/carousel/02.jpg" />
+          </div>
+          <div>
+            <img height="200" src="/images/carousel/03.jpg" />
+          </div>
+          <div>
+            <img height="200" src="/images/carousel/04.jpg" />
+          </div>
+          <div>
+            <img height="200" src="/images/carousel/05.jpg" />
+          </div>
+          <div>
+            <img height="200" src="/images/carousel/06.jpg" />
+          </div>
+        </Slider>
+      </article>
+    </section>
+  </div>
   </Layout>
 )
 
