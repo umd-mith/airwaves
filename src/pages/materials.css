@@ -1,30 +1,47 @@
 
 .MuiListItem-button.MuiButtonBase-root {
-  font-weight: bold;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 2px solid #fff;
 }
 .MuiList-padding .MuiList-root {
   margin-left: 20px;
 } 
-.MuiCollapse-container .MuiCollapse-wrapperInner,
-.MuiCollapse-container .MuiCollapse-wrapperInner .MuiCollapse-container .MuiCollapse-wrapperInner {
-  padding: 8px 16px;
+/* content */
+.MuiCollapse-container .MuiTypography-body1 {
+  font-size: 0.875rem;
 }
-.MuiCollapse-container.li-children .MuiCollapse-wrapperInner {
-  padding: 0; 
+
+article .li-text .MuiCollapse-wrapperInner,
+article .li-box .MuiCollapse-wrapperInner {
+  padding: 8px 16px; 
 }
+.MuiCollapse-container .MuiCollapse-wrapperInner :not(ul.MuiList-root) .MuiListItemText-root .MuiTypography-body1 {
+  font-size: 0.875rem;
+  font-family: inherit;
+}
+/* buttons */
+.MuiListItem-button .MuiTypography-body1 {
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+}
+.MuiListItem-button .MuiTypography-body2 {
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+}
+/* tables */
 .MuiCollapse-wrapper dl {
   display: grid;
   grid-template: auto / 10em 1fr;
 }
 .MuiCollapse-wrapper dt {
-  background: rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.02);
   grid-column: 1;
   font-weight: bold;
 }
 .MuiCollapse-wrapper dd {
-  background: #fff;
+  background-color: transparent;
   grid-column: 2;
 }
 .MuiCollapse-wrapper dt, .MuiCollapse-wrapper dd {
@@ -32,7 +49,7 @@
   padding: .3em .7em;
   border-top: 1px solid rgba(0,0,0,.1);
 }
-
+/* box description */
 .li-box .MuiCollapse-wrapperInner {
   display: grid;
   grid-template: auto / 6fr 1fr;

@@ -54,7 +54,7 @@ class MaterialsPage extends Component {
                   <ExpandMore />
                   <ExpandLess />
                 </ListItem>
-                <Collapse in={this.state.i1} timeout="auto" unmountOnExit>
+                <Collapse className="li-text" in={this.state.i1} timeout="auto" unmountOnExit>
                   <dl>
                     <dt className="info-title">Title:</dt>
                     <dd>National Association of Educational Broadcasters Records</dd>
@@ -85,22 +85,20 @@ class MaterialsPage extends Component {
                   <ExpandMore />
                   <ExpandLess />
                 </ListItem>
-                <Collapse in={this.state.i2} timeout="auto" unmountOnExit>
-                  <ListItemText>
-                    <p>The National Association of Educational Broadcasters was founded in November 1925, as the Association of College and University Broadcasting Stations during the Fourth National Radio Conference in Washington, D.C. By the mid-1920s the idea of using radio to enhance the school curriculum and augment community service had spread rapidly: but many believed educational broadcasting was failing. The founding members of ACUBS, mostly mid-western agricultural colleges, believed that they were losing their audiences to commercial stations because their broadcast time and power were restricted to make way for the expanding commercial market. During the late 1920s ACUBS unsuccessfully appealed to Congress and the Federal Radio Commission to assign a block of channels to the states specifically for non-commercial purposes.</p>
-                    <p>By the early 1930s ACUBS had begun to serve as an information clearinghouse for non-commercial stations. The first association newsletter was issued in 1930 and a script exchange program was initiated in 1931. In 1934 ACUBS adopted a new constitution and became the National Association of Educational Broadcasters.</p>
-                    <p>Throughout the 1930s ACUBS/NAEB continued its battle to obtain a fixed percentage of channels for educational stations. In 1938, in an important victory for the NAEB, the FCC reserved 25 ultra-high (FM) frequency channels for non-commercial stations. In 1940 the Commission reserved the frequency band from 42,000 to 50,000 kilocycles for FM broadcasting and specifically set aside five of the resulting 40 channels for educational stations.</p>
-                    <p>By the late 1940s many in the NAEB realized that educational programming on the FM band was not improving, largely because so many non-commercial operations feared the new medium of television. Most educators, however, had not been particularly interested in television broadcasting because of the high cost of installation and equipment. In 1948, at a joint meeting of the Institute for Education by Radio and the NAEB, delegates passed a resolution favoring the reservation of a block of ultra-high frequency (UHF) channels for educational stations. Although no stations were ready to begin broadcasting many feared the consequences of delaying action. In the following year the NAEB brought together 30 prominent educational broadcasters at the Allerton Seminar House at the University of Illinois to begin planning for educational television. In 1950 the NAEB assisted in organizing the ad hoc Joint Committee on Educational Television to coordinate non-commercial interests in preparation for FCC channel allocation hearings.</p>
-                    <p>For these hearings, which began in November 1950, and lasted until January 1951, NAEB staff joined forces with JCET and several other educational organizations. The allocations for non-profit stations, announced by the FCC in March 1951, were considered a significant victory for non-commercial interests. Subsequently, with assistance from the NAEB and the Ford Foundation, the JCET was established as a standing organization.</p>
-                    <p>In 1947 the NAEB was organized into six regional districts, and thereafter sponsored many regional conferences and workshops. In 1950 the NAEB was offered and accepted permanent headquarters and financial assistance from the University of Illinois. A merger between the Association for Education by Radio-Television and the NAEB was formalized in October 1956, with NAEB agreeing to assume the obligations and responsibilities of both.</p>
-                    <p>During the early 1950s the NAEB received several grants to further its work. Funding from the W.K. Kellogg Foundation permitted a major expansion of the association's tape duplication network. Grants from the Ford Foundation and the Fund for Adult Education were used for several television production and management workshops, in addition to the establishment of the association's Engineering Service and Personnel Placement Service. Several radio series produced by the NAEB were funded with Ford grants in 1952, including: <em>The Ways of Mankind</em>, <em>People Under Communism</em>, and <em>The Jeffersonian Heritage</em>.</p>
-                    <p>In 1955 Leonard Marks, NAEB general counsel, encouraged the association to seek federal funds for the construction of educational television facilities. Assisted by Senators Lyndon B. Johnson and Warren Magnuson, the legislation was introduced into the 85th, 86th and 87th Congresses. Enacted into law in 1962, the Educational Television Facilities Act provided matching funds to states for non-commercial television stations.</p>
-                    <p>The National Defense Education Act of 1958 (P.L. 85-864) provided funds for research and experimentation to more effectively utilize the mass media for educational puposes. The NAEB became increasingly involved in federal programs as a result of this landmark legislation, including a Title VII project directed by Marshall McLuhan to develop curriculum materials for elementary and secondary schools. Public Law 85-864 was also used in cooperation with the U.S. Office of Education to sponsor several conferences on educational broadcasting during the period 1958&ndash;1964. Also during the early 1960s, the NAEB served as an agent of the U.S. government to deliver educational television via satellite to American Samoa.</p>
-                    <p>In 1960 the NAEB relocated its headquarters to Washington, D.C. The membership approved a major reorganization in November 1963, creating four divisions within the association: (1) National Educational Radio (NER), (2) Educational Television Stations (ETS), (3) Instructional Division and (4) Individual Member Division. The new constitution granted each division almost complete autonomy in regard to fiscal, administrative and operational matters. Each division elected its own board of directors, while the four divisional boards comprised the full association board.</p>
-                    <p>The NAEB played a leading role in several important developments in educational broadcasting during the mid-1960s, successes which hastened the eventual collapse of the association. Through the efforts of ETS, the NAEB helped to establish the Carnegie Commission on Educational Television. The Commission's recommendations became the core of the Public Broadcasting Act of 1967, which established the Corporation for Public Broadcasting. ETS merged with Public Broadcasting Stations (PBS) in March 1973, and withdrew its membership from the NAEB. Also in 1973, National Educational Radio severed its affiliation with the NAEB and joined National Public Radio (NPR).</p>
-                    <p>The NAEB ceased functioning as a trade association in 1973 because PBS provided the same service to all non-commercial television stations, while public radio stations organized their own trade association, the Association of Public Radio Stations. These events caused serious budgetary problems for the NAEB, which in the mid-1970s unsuccessfully attempted to rebuild by shifting its orientation from stations to individual members. The NAEB dissolved in November 1981.</p>
-                    <p>Several published sources, available in the State Historical Society of Wisconsin library, provide a more complete history of the NAEB: <em>NAEB History: Volume I &mdash; 1925 to 1954 </em>by Harold E. Hill; <em>NAEB History: Volume II &mdash; 1954 to 1965 </em>by W. Wayne Alford: and <em>To Serve the Public Interest: Educational Broadcasting in the United States </em>by Robert J. Blakely.</p>
-                  </ListItemText>
+                <Collapse className="li-text" in={this.state.i2} timeout="auto" unmountOnExit>
+                  <p>The National Association of Educational Broadcasters was founded in November 1925, as the Association of College and University Broadcasting Stations during the Fourth National Radio Conference in Washington, D.C. By the mid-1920s the idea of using radio to enhance the school curriculum and augment community service had spread rapidly: but many believed educational broadcasting was failing. The founding members of ACUBS, mostly mid-western agricultural colleges, believed that they were losing their audiences to commercial stations because their broadcast time and power were restricted to make way for the expanding commercial market. During the late 1920s ACUBS unsuccessfully appealed to Congress and the Federal Radio Commission to assign a block of channels to the states specifically for non-commercial purposes.</p>
+                  <p>By the early 1930s ACUBS had begun to serve as an information clearinghouse for non-commercial stations. The first association newsletter was issued in 1930 and a script exchange program was initiated in 1931. In 1934 ACUBS adopted a new constitution and became the National Association of Educational Broadcasters.</p>
+                  <p>Throughout the 1930s ACUBS/NAEB continued its battle to obtain a fixed percentage of channels for educational stations. In 1938, in an important victory for the NAEB, the FCC reserved 25 ultra-high (FM) frequency channels for non-commercial stations. In 1940 the Commission reserved the frequency band from 42,000 to 50,000 kilocycles for FM broadcasting and specifically set aside five of the resulting 40 channels for educational stations.</p>
+                  <p>By the late 1940s many in the NAEB realized that educational programming on the FM band was not improving, largely because so many non-commercial operations feared the new medium of television. Most educators, however, had not been particularly interested in television broadcasting because of the high cost of installation and equipment. In 1948, at a joint meeting of the Institute for Education by Radio and the NAEB, delegates passed a resolution favoring the reservation of a block of ultra-high frequency (UHF) channels for educational stations. Although no stations were ready to begin broadcasting many feared the consequences of delaying action. In the following year the NAEB brought together 30 prominent educational broadcasters at the Allerton Seminar House at the University of Illinois to begin planning for educational television. In 1950 the NAEB assisted in organizing the ad hoc Joint Committee on Educational Television to coordinate non-commercial interests in preparation for FCC channel allocation hearings.</p>
+                  <p>For these hearings, which began in November 1950, and lasted until January 1951, NAEB staff joined forces with JCET and several other educational organizations. The allocations for non-profit stations, announced by the FCC in March 1951, were considered a significant victory for non-commercial interests. Subsequently, with assistance from the NAEB and the Ford Foundation, the JCET was established as a standing organization.</p>
+                  <p>In 1947 the NAEB was organized into six regional districts, and thereafter sponsored many regional conferences and workshops. In 1950 the NAEB was offered and accepted permanent headquarters and financial assistance from the University of Illinois. A merger between the Association for Education by Radio-Television and the NAEB was formalized in October 1956, with NAEB agreeing to assume the obligations and responsibilities of both.</p>
+                  <p>During the early 1950s the NAEB received several grants to further its work. Funding from the W.K. Kellogg Foundation permitted a major expansion of the association's tape duplication network. Grants from the Ford Foundation and the Fund for Adult Education were used for several television production and management workshops, in addition to the establishment of the association's Engineering Service and Personnel Placement Service. Several radio series produced by the NAEB were funded with Ford grants in 1952, including: <em>The Ways of Mankind</em>, <em>People Under Communism</em>, and <em>The Jeffersonian Heritage</em>.</p>
+                  <p>In 1955 Leonard Marks, NAEB general counsel, encouraged the association to seek federal funds for the construction of educational television facilities. Assisted by Senators Lyndon B. Johnson and Warren Magnuson, the legislation was introduced into the 85th, 86th and 87th Congresses. Enacted into law in 1962, the Educational Television Facilities Act provided matching funds to states for non-commercial television stations.</p>
+                  <p>The National Defense Education Act of 1958 (P.L. 85-864) provided funds for research and experimentation to more effectively utilize the mass media for educational puposes. The NAEB became increasingly involved in federal programs as a result of this landmark legislation, including a Title VII project directed by Marshall McLuhan to develop curriculum materials for elementary and secondary schools. Public Law 85-864 was also used in cooperation with the U.S. Office of Education to sponsor several conferences on educational broadcasting during the period 1958&ndash;1964. Also during the early 1960s, the NAEB served as an agent of the U.S. government to deliver educational television via satellite to American Samoa.</p>
+                  <p>In 1960 the NAEB relocated its headquarters to Washington, D.C. The membership approved a major reorganization in November 1963, creating four divisions within the association: (1) National Educational Radio (NER), (2) Educational Television Stations (ETS), (3) Instructional Division and (4) Individual Member Division. The new constitution granted each division almost complete autonomy in regard to fiscal, administrative and operational matters. Each division elected its own board of directors, while the four divisional boards comprised the full association board.</p>
+                  <p>The NAEB played a leading role in several important developments in educational broadcasting during the mid-1960s, successes which hastened the eventual collapse of the association. Through the efforts of ETS, the NAEB helped to establish the Carnegie Commission on Educational Television. The Commission's recommendations became the core of the Public Broadcasting Act of 1967, which established the Corporation for Public Broadcasting. ETS merged with Public Broadcasting Stations (PBS) in March 1973, and withdrew its membership from the NAEB. Also in 1973, National Educational Radio severed its affiliation with the NAEB and joined National Public Radio (NPR).</p>
+                  <p>The NAEB ceased functioning as a trade association in 1973 because PBS provided the same service to all non-commercial television stations, while public radio stations organized their own trade association, the Association of Public Radio Stations. These events caused serious budgetary problems for the NAEB, which in the mid-1970s unsuccessfully attempted to rebuild by shifting its orientation from stations to individual members. The NAEB dissolved in November 1981.</p>
+                  <p>Several published sources, available in the State Historical Society of Wisconsin library, provide a more complete history of the NAEB: <em>NAEB History: Volume I &mdash; 1925 to 1954 </em>by Harold E. Hill; <em>NAEB History: Volume II &mdash; 1954 to 1965 </em>by W. Wayne Alford: and <em>To Serve the Public Interest: Educational Broadcasting in the United States </em>by Robert J. Blakely.</p>
                 </Collapse>
                 
                 <ListItem id="i3" component="li" button onClick={this.handleClick}>
@@ -108,8 +106,7 @@ class MaterialsPage extends Component {
                   <ExpandMore />
                   <ExpandLess />
                 </ListItem>
-                <Collapse in={this.state.i3} timeout="auto" unmountOnExit>
-                  <ListItemText>
+                <Collapse className="li-text" in={this.state.i3} timeout="auto" unmountOnExit>
                   <p>The NAEB records are arranged into six parts: (1) CENTRAL CORRESPONDENCE, (2) WILLIAM G. HARLEY SPEECHES, (3) SUBJECT FILES, (4) NATIONAL EDUCATIONAL RADIO FILES, (5) OFFICE OF RESEARCH AND DEVELOPMENT FILES, (6) PUBLICATIONS AND NEWSLETTERS.</p>
                   <p>The records of the NAEB span the years 1925 to 1977, although the coverage is uneven. The records available for the period 1925 to 1950 provide fairly thorough documentation on the association's early history and activities. Most complete are records for the period 1950 through the late 1960s, particularly those created by NAEB executive staff. The records from this period document not only the association's history, but the multitude of issues then facing the entire profession. There are no division-level records available for (1) Educational Television Stations, (2) Instructional Division or (3) Individual Member Division. Records are fragmentary for the period 1970 to 1977, and there is no documentation for the period 1978 to 1981.</p>
                   <p>The CENTRAL CORRESPONDENCE was created by executive staff of the NAEB and is arranged chronologically. Much of the documentation in this part of the collection deals with administrative and financial matters. Less extensive, but often more substantive, is correspondence with members concerning the association's activities. These files contain some of the earliest documentation of the ACUBS/NAEB, including a 1925 report on the Fourth National Radio Conference, the meeting at which ACUBS was founded.</p>
@@ -118,7 +115,6 @@ class MaterialsPage extends Component {
                   <p>The NATIONAL EDUCATIONAL RADIO FILES are arranged in three parts: daily correspondence, a divisional subject file, and a 1966 survey of state radio networks. The daily correspondence files, which are arranged chronologically, consists largely of out-going correspondence to radio station directors, usually dealing with NER administrative and financial matters. The NER subject files offer insight into the division's central activities during the mid-to-late 1960s including: new technologies (such as satellite communications), copyright law revision and the “fair use” doctrine, FCC rulings, and a 1966 Wingspread Conference on educational radio. The files do not document the division's 1973 merger with National Public Radio. The 1966 survey of state radio networks includes information on staffing, technology and financing of non-commercial radio stations. Survey data is arranged alphabetically by state and includes a summary report.</p>
                   <p>The OFFICE OF RESEARCH AND DEVELOPMENT FILES document three projects in which the NAEB was involved during the late 1950s to mid-1960s: a government contract to deliver educational television via satellite to American Samoa: a “utilization project” to develop television programming to augment school curriculum: and a project with the Midwest Program on Airborne Instruction, Inc. to recommend procedures for UHF channel allocations.</p>
                   <p>The PUBLICATIONS AND NEWSLETTER FILES consist of two parts, both of which are arranged chronologically. Publications files, 1930&ndash;1964, include mostly promotional materials and brochures, membership lists, annual reports, revisions of the NAEB constitution and small pamphlets not suited for cataloging. Also available are several NAEB newsletters, including the general membership <em>Newsletter</em> (fragmentary), 1930&ndash;1967: <em>President's Memo, </em>1954&ndash;1966: <em>Washington Newsletter, </em>1963&ndash;1965: and the <em>TV Engineering Newsletter, </em>1955&ndash;1957.</p>
-                  </ListItemText>
                 </Collapse>
     
                 <ListItem id="i4" component="li" button onClick={this.handleClick}>
@@ -148,7 +144,7 @@ class MaterialsPage extends Component {
                       <ExpandMore />
                       <ExpandLess />
                     </ListItem>
-                    <Collapse in={this.state.i5a} timeout="auto" unmountOnExit>
+                    <Collapse className="li-text" in={this.state.i5a} timeout="auto" unmountOnExit>
                       <dl>
                       <dt><strong>Container</strong></dt>
                       <dd className="list-header"><strong>Title</strong></dd>
@@ -204,8 +200,8 @@ class MaterialsPage extends Component {
                       <ExpandMore />
                       <ExpandLess />
                     </ListItem>
-                    <Collapse in={this.state.i5b} timeout="auto" unmountOnExit>
-                      Five B Content
+                    <Collapse className="li-text" in={this.state.i5b} timeout="auto" unmountOnExit>
+                      text content here
                     </Collapse>
     
                     <ListItem id="i5c" component="li" button onClick={this.handleClick}>
@@ -251,13 +247,14 @@ class MaterialsPage extends Component {
                       <ExpandLess />
                     </ListItem>
                     <Collapse in={this.state.i5d} timeout="auto" unmountOnExit>
-                      <List>
-                        <ListItem>
-                          <ListItemText>A</ListItemText>
+                      <List disablePadding dense>
+                        <ListItem id="i5d1" component="li" button onClick={this.handleClick}>
+                          <ListItemText>Box Title</ListItemText>
                         </ListItem>
-                        <ListItem>
-                          <ListItemText>B</ListItemText>
-                        </ListItem>
+                        <Collapse className="li-box" in={this.state.i5d1} timeout="auto" unmountOnExit>
+                          <p>description here</p>
+                          <Link to="" className="button" >View Folder</Link>
+                        </Collapse>
                       </List>
                     </Collapse>
                     <ListItem id="i5e" button onClick={this.handleClick}>
@@ -266,13 +263,14 @@ class MaterialsPage extends Component {
                       <ExpandLess />
                     </ListItem>
                     <Collapse in={this.state.i5e} timeout="auto" unmountOnExit>
-                      <List>
-                        <ListItem>
-                          <ListItemText>A</ListItemText>
+                      <List disablePadding dense>
+                        <ListItem id="i5e1" component="li" button onClick={this.handleClick}>
+                          <ListItemText>Box Title</ListItemText>
                         </ListItem>
-                        <ListItem>
-                          <ListItemText>B</ListItemText>
-                        </ListItem>
+                        <Collapse className="li-box" in={this.state.i5e1} timeout="auto" unmountOnExit>
+                          <p>description here</p>
+                          <Link to="" className="button" >View Folder</Link>
+                        </Collapse>
                       </List>
                     </Collapse>
                     <ListItem id="i5f" button onClick={this.handleClick}>
@@ -281,13 +279,14 @@ class MaterialsPage extends Component {
                       <ExpandLess />
                     </ListItem>
                     <Collapse in={this.state.i5f} timeout="auto" unmountOnExit>
-                      <List>
-                        <ListItem>
-                          <ListItemText>A</ListItemText>
+                      <List disablePadding dense>
+                        <ListItem id="i5f1" component="li" button onClick={this.handleClick}>
+                          <ListItemText>Box Title</ListItemText>
                         </ListItem>
-                        <ListItem>
-                          <ListItemText>B</ListItemText>
-                        </ListItem>
+                        <Collapse className="li-box" in={this.state.i5f1} timeout="auto" unmountOnExit>
+                          <p>description here</p>
+                          <Link to="" className="button" >View Folder</Link>
+                        </Collapse>
                       </List>
                     </Collapse>
     
