@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import LinearProgress from '@material-ui/core/LinearProgress'
-import './loader.css'
 import Antenna from '../svg/antenna.svg'
+import './loader.css'
 
 export default class Loader extends Component {
 
@@ -48,7 +47,7 @@ export default class Loader extends Component {
     const waitInterval = 3000
 
     if (window.__INDEX__ && window.__DOCUMENTS__ && window.__EPISODES__) {
-      if (this.state.indexChecks == 0) {
+      if (this.state.indexChecks === 0) {
         this.setState({indexLoaded: true})
       } else {
         setTimeout(() => { this.setState({indexLoaded: true}) }, waitInterval)

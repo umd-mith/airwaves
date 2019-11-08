@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { FaSearch } from 'react-icons/fa'
 import './search-facets.css'
-import { fn } from 'moment'
 
 class SearchFacets extends Component {
 
@@ -45,7 +44,7 @@ class Facet extends Component {
     super(props)
 
     const isActive = this.props.activeFacets.filter(f => (
-      f.type == this.props.type && f.name == this.props.name
+      f.type === this.props.type && f.name === this.props.name
     )).length > 0
 
     this.state = {

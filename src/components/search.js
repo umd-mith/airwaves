@@ -83,7 +83,7 @@ class Search extends Component {
       this.setState({activeFacets: [facet, ...this.state.activeFacets]})
     } else {
       const activeFacets = this.state.activeFacets.filter(f => (
-        f.type !== f.type || f.name !== f.name
+        f.type !== facet.type || f.name !== facet.name
       ))
       this.setState({ activeFacets })
     }
@@ -152,25 +152,25 @@ class Search extends Component {
         if (! r.subject) {
           return false
         }
-        else if (! r.subject.find(s => s.name == facet.name)) {
+        else if (! r.subject.find(s => s.name === facet.name)) {
           return false
         }
       }
 
-      else if (facet.type == 'creator') {
+      else if (facet.type === 'creator') {
         if (! r.creator) {
           return false
         }
-        else if (! r.creator.find(c => c.name == facet.name)) {
+        else if (! r.creator.find(c => c.name === facet.name)) {
           return false
         }
       }
 
-      else if (facet.type == 'decade') {
+      else if (facet.type === 'decade') {
         if (! r.decade) {
           return false
         }
-        else if (r.decade != facet.name) {
+        else if (r.decade !== facet.name) {
           return false
         }
       }
