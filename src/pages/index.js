@@ -1,37 +1,44 @@
 import React from "react"
-
 import Layout from "../components/layout"
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import './index.css'
+
+const sliderSettings = {
+  className: "carousel slider variable-width",
+  centerMode: true,
+  centerPadding: "60px",
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  variableWidth: true
+}
 
 const IndexPage = () => (
   <Layout>
-    <h1>Home</h1>
-    <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum.
-    </p>
-    <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum.
-    </p>
-    <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum.
-    </p>
+    <Slider {...sliderSettings}>
+      <div>
+        <img height="200" src="/images/carousel/01.jpg" />
+      </div>
+      <div>
+        <img height="200" src="/images/carousel/02.jpg" />
+      </div>
+      <div>
+        <img height="200" src="/images/carousel/03.jpg" />
+      </div>
+      <div>
+        <img height="200" src="/images/carousel/04.jpg" />
+      </div>
+      <div>
+        <img height="200" src="/images/carousel/05.jpg" />
+      </div>
+      <div>
+        <img height="200" src="/images/carousel/06.jpg" />
+      </div>
+    </Slider>
   </Layout>
 )
 

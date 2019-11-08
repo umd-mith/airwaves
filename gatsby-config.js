@@ -1,3 +1,5 @@
+const fs = require('fs')
+
 module.exports = {
   siteMetadata: {
     title: 'Unlocking the Airwaves',
