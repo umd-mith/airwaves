@@ -125,7 +125,9 @@ function tallyType(r, map) {
 
 function tallyDecade(r, map) {
   const decade = r.decade
-  map.set(decade, map.has(decade) ? map.get(decade) + 1 : 1)
+  if (decade) {
+    map.set(decade, map.has(decade) ? map.get(decade) + 1 : 1)
+  }
 }
 
 function sortMap(map, total) {
