@@ -7,13 +7,42 @@
 .MuiList-padding .MuiList-root {
   margin-left: 20px;
 } 
-.MuiList-root.MuiList-padding .MuiCollapse-container .MuiListItemText-root {
+.MuiCollapse-container .MuiCollapse-wrapperInner,
+.MuiCollapse-container .MuiCollapse-wrapperInner .MuiCollapse-container .MuiCollapse-wrapperInner {
   padding: 8px 16px;
 }
-.MuiList-root.MuiList-padding .MuiCollapse-container .MuiListItem-root .MuiListItemText-root {
-  padding: 0;
+.MuiCollapse-container.li-children .MuiCollapse-wrapperInner {
+  padding: 0; 
 }
-.MuiCollapse-container div:not(.MuiListItem-root) .MuiTypography-body1 {
-  font-size: inherit; 
-  font-family: inherit;
+.MuiCollapse-wrapper dl {
+  display: grid;
+  grid-template: auto / 10em 1fr;
 }
+.MuiCollapse-wrapper dt {
+  background: rgba(0, 0, 0, 0.02);
+  grid-column: 1;
+  font-weight: bold;
+}
+.MuiCollapse-wrapper dd {
+  background: #fff;
+  grid-column: 2;
+}
+.MuiCollapse-wrapper dt, .MuiCollapse-wrapper dd {
+  margin: 0;
+  padding: .3em .7em;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.li-box .MuiCollapse-wrapperInner {
+  display: grid;
+  grid-template: auto / 6fr 1fr;
+}
+.li-box .MuiCollapse-wrapperInner a {
+  justify-self: end;
+  align-self: start;
+}
+.li-box .button {
+  padding: 6px 10px;
+  margin-top: 0;
+}
+

@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { Link } from "gatsby"
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
@@ -54,7 +55,6 @@ class MaterialsPage extends Component {
                   <ExpandLess />
                 </ListItem>
                 <Collapse in={this.state.i1} timeout="auto" unmountOnExit>
-                  <ListItemText>
                   <dl>
                     <dt className="info-title">Title:</dt>
                     <dd>National Association of Educational Broadcasters Records</dd>
@@ -78,7 +78,6 @@ class MaterialsPage extends Component {
                     <dt className="info-url">URL to cite for this finding aid:</dt>
                     <dd><a href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-whs-us0076af" title="Citation URL">http://digital.library.wisc.edu/1711.dl/wiarchives.uw-whs-us0076af</a></dd>
                   </dl>
-                  </ListItemText>
                 </Collapse>
 
                 <ListItem id="i2" component="li" button onClick={this.handleClick}>
@@ -142,7 +141,7 @@ class MaterialsPage extends Component {
                   <ExpandMore />
                   <ExpandLess />
                 </ListItem>
-                <Collapse in={this.state.i5} timeout="auto" unmountOnExit>
+                <Collapse className="li-children" in={this.state.i5} timeout="auto" unmountOnExit>
                   <List disablePadding>
                     <ListItem id="i5a" component="li" button onClick={this.handleClick}>
                       <ListItemText>Central Correspondence Files</ListItemText>
@@ -150,118 +149,150 @@ class MaterialsPage extends Component {
                       <ExpandLess />
                     </ListItem>
                     <Collapse in={this.state.i5a} timeout="auto" unmountOnExit>
-                      <ListItemText>
-                      <table width="80%" border="0" cellspacing="0" cellpadding="5">
-                        <thead>
-                          <tr>
-                            <th align="left" valign="top"><strong>Container</strong></th>
-                            <th align="left" valign="top"><strong>Title</strong></th>
-                          </tr>
-                          <tr>
-                            <th align="left" valign="top" id="fabid-d1e30"><strong>U.S. Mss 76AF</strong></th>
-                            <th align="left" valign="top"><strong>Series:</strong> Central Correspondence Files</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e29">Box 1<br />
-                              Folder 1-6</td>
-                            <td>1925-1935</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e28">Box 2<br />
-                              Folder 1-7</td>
-                            <td>1936-1940</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e27">Box 3<br />
-                              Folder 1-9</td>
-                            <td>1941-1945</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e26">Box 4<br />
-                              Folder 1-8</td>
-                            <td>1946-1948</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e25">Box 5<br />
-                              Folder 1-6</td>
-                            <td>1949-1950 June</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e24">Box 6<br />
-                              Folder 1-8</td>
-                            <td>1950 July-1953 August</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e23">Box 7<br />
-                              Folder 1-6</td>
-                            <td>1953 September-1955 March</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e22">Box 8<br />
-                              Folder 1-7</td>
-                            <td>1955 April-1958 February</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e21">Box 9<br />
-                              Folder 1-7</td>
-                            <td>1958 March-1961 June</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e20">Box 10<br />
-                              Folder 1-9</td>
-                            <td>1961-1962 July</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e19">Box 11<br />
-                              Folder 1-11</td>
-                            <td>1963-1966 August</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e18">Box 12<br />
-                              Folder 1-9</td>
-                            <td>1966 September-1968</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e17">Box 13<br />
-                              Folder 1-13</td>
-                            <td>1969-1971</td>
-                          </tr>
-                          <tr>
-                            <td align="left" valign="top" id="fabid-d1e16">Box 14<br />
-                              Folder 1-2</td>
-                            <td>1972</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      </ListItemText>
+                      <dl>
+                      <dt><strong>Container</strong></dt>
+                      <dd className="list-header"><strong>Title</strong></dd>
+                      <dt id="fabid-d1e30"><strong>U.S. Mss 76AF</strong></dt>
+                      <dd className="list-header"><strong>Series:</strong> Central Correspondence Files</dd>
+                      <dt id="fabid-d1e29">Box 1<br />
+                        Folder 1-6</dt>
+                      <dd>1925-1935</dd>
+                      <dt id="fabid-d1e28">Box 2<br />
+                        Folder 1-7</dt>
+                      <dd>1936-1940</dd>
+                      <dt id="fabid-d1e27">Box 3<br />
+                        Folder 1-9</dt>
+                      <dd>1941-1945</dd>
+                      <dt id="fabid-d1e26">Box 4<br />
+                        Folder 1-8</dt>
+                      <dd>1946-1948</dd>
+                      <dt id="fabid-d1e25">Box 5<br />
+                        Folder 1-6</dt>
+                      <dd>1949-1950 June</dd>
+                      <dt id="fabid-d1e24">Box 6<br />
+                        Folder 1-8</dt>
+                      <dd>1950 July-1953 August</dd>
+                      <dt id="fabid-d1e23">Box 7<br />
+                        Folder 1-6</dt>
+                      <dd>1953 September-1955 March</dd>
+                      <dt id="fabid-d1e22">Box 8<br />
+                        Folder 1-7</dt>
+                      <dd>1955 April-1958 February</dd>
+                      <dt id="fabid-d1e21">Box 9<br />
+                        Folder 1-7</dt>
+                      <dd>1958 March-1961 June</dd>
+                      <dt id="fabid-d1e20">Box 10<br />
+                        Folder 1-9</dt>
+                      <dd>1961-1962 July</dd>
+                      <dt id="fabid-d1e19">Box 11<br />
+                        Folder 1-11</dt>
+                      <dd>1963-1966 August</dd>
+                      <dt id="fabid-d1e18">Box 12<br />
+                        Folder 1-9</dt>
+                      <dd>1966 September-1968</dd>
+                      <dt id="fabid-d1e17">Box 13<br />
+                        Folder 1-13</dt>
+                      <dd>1969-1971</dd>
+                      <dt id="fabid-d1e16">Box 14<br />
+                        Folder 1-2</dt>
+                      <dd>1972</dd>
+                      </dl>
                     </Collapse>
     
                     <ListItem id="i5b" component="li" button onClick={this.handleClick}>
                       <ListItemText>William G. Harley Speeches</ListItemText>
+                      <ExpandMore />
+                      <ExpandLess />
                     </ListItem>
                     <Collapse in={this.state.i5b} timeout="auto" unmountOnExit>
-                      <ListItemText>Four B</ListItemText>
+                      Five B Content
                     </Collapse>
+    
+                    <ListItem id="i5c" component="li" button onClick={this.handleClick}>
+                      <ListItemText>Subject Files</ListItemText>
+                      <ExpandMore />
+                      <ExpandLess />
+                    </ListItem>
+                    <Collapse className="li-children" in={this.state.i5c} timeout="auto" unmountOnExit>
+                      <List disablePadding dense>
+                        <ListItem id="i5c1" component="li" button onClick={this.handleClick}>
+                          <ListItemText>Box 17 &middot; Folder 4 &mdash; Abbot, Waldo, 1953-1954</ListItemText>
+                          <ExpandMore />
+                          <ExpandLess />
+                        </ListItem>
+                        <Collapse className="li-box" in={this.state.i5c1} timeout="auto" unmountOnExit>
+                          <p>description here</p>
+                          <Link to="" className="button" >View Folder</Link>
+                        </Collapse>
+                        <ListItem id="i5c2" component="li" button onClick={this.handleClick}>
+                          <ListItemText>Box 17 &middot; Folder 5 &mdash; Academic Leader, 1956</ListItemText>
+                          <ExpandMore />
+                          <ExpandLess />
+                        </ListItem>
+                        <Collapse className="li-box" in={this.state.i5c2} timeout="auto" unmountOnExit>
+                          <p>description here</p>
+                          <Link to="" className="button" >View Folder</Link>
+                        </Collapse> 
+                        <ListItem id="i5c3" component="li" button onClick={this.handleClick}>
+                          <ListItemText>Box 34 &middot; Folder 4 &mdash; Public Relations, 1954-1965</ListItemText>
+                          <ExpandMore />
+                          <ExpandLess />
+                        </ListItem>
+                        <Collapse className="li-box" in={this.state.i5c3} timeout="auto" unmountOnExit>
+                          <p>1958 to 1960 correspondence regarding the NAEB public relations committee, with membership publications and meeting minutes. Includes discussion of membership promotion, public relations efforts by member stations, and the possibility of a National Educational Radio and Television Week.</p>
+                          <Link to="./document/naeb-b034-f06/#1" className="button" >View Folder</Link>
+                        </Collapse>    
+                      </List>
+                    </Collapse>
+    
+                    <ListItem id="i5d" button onClick={this.handleClick}>
+                      <ListItemText>National Educational Radio Files</ListItemText>
+                      <ExpandMore />
+                      <ExpandLess />
+                    </ListItem>
+                    <Collapse in={this.state.i5d} timeout="auto" unmountOnExit>
+                      <List>
+                        <ListItem>
+                          <ListItemText>A</ListItemText>
+                        </ListItem>
+                        <ListItem>
+                          <ListItemText>B</ListItemText>
+                        </ListItem>
+                      </List>
+                    </Collapse>
+                    <ListItem id="i5e" button onClick={this.handleClick}>
+                      <ListItemText>Office of Research and Development Files</ListItemText>
+                      <ExpandMore />
+                      <ExpandLess />
+                    </ListItem>
+                    <Collapse in={this.state.i5e} timeout="auto" unmountOnExit>
+                      <List>
+                        <ListItem>
+                          <ListItemText>A</ListItemText>
+                        </ListItem>
+                        <ListItem>
+                          <ListItemText>B</ListItemText>
+                        </ListItem>
+                      </List>
+                    </Collapse>
+                    <ListItem id="i5f" button onClick={this.handleClick}>
+                      <ListItemText>Publication and Newsletter Files</ListItemText>
+                      <ExpandMore />
+                      <ExpandLess />
+                    </ListItem>
+                    <Collapse in={this.state.i5f} timeout="auto" unmountOnExit>
+                      <List>
+                        <ListItem>
+                          <ListItemText>A</ListItemText>
+                        </ListItem>
+                        <ListItem>
+                          <ListItemText>B</ListItemText>
+                        </ListItem>
+                      </List>
+                    </Collapse>
+    
                   </List>
                 </Collapse>
-                <ListItem id="i6" button onClick={this.handleClick}>
-                  <ListItemText>Four</ListItemText>
-                  <ExpandMore />
-                  <ExpandLess />
-                </ListItem>
-                <Collapse in={this.state.i6} timeout="auto" unmountOnExit>
-                  <List>
-                    <ListItem>
-                      <ListItemText>Four A</ListItemText>
-                    </ListItem>
-                    <ListItem>
-                      <ListItemText>Four B</ListItemText>
-                    </ListItem>
-                  </List>
-                </Collapse>
-
               </List>
             </article>
           </section>
