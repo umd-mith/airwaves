@@ -10,7 +10,7 @@ import neh from '../images/logo_neh.svg'
 const Footer = () => (
   <footer>
     <section>
-      <article  id="footer_logos" className="columns">
+      <article id="footer_logos" className="columns">
         <Link to="https://mith.umd.edu/"><img src={mith} alt="University of Maryland" /></Link>
         <Link to="https://www.wisconsinhistory.org/"><img src={whs} alt="Wisconsin Historical Society" /></Link>
         <Link to="https://www.wisc.edu/"><img src={uwm} alt="University of Wisconsin-Madison" /></Link>
