@@ -1,10 +1,8 @@
 .carousel {
 }
-
 .carousel img {
   margin: 15px;
 }
-
 button.slick-arrow {
 }
 #featured div {
@@ -26,4 +24,13 @@ button.slick-arrow {
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
+}
+.slick-prev, .slick-next {
+  width: 25px;
+  height: 25px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #444;
+  font-size: 25px;
 }
