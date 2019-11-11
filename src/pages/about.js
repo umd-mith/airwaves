@@ -21,9 +21,49 @@ const AboutPage = () => (
         <h2>Technological Infrastructure</h2>
         <p>Aenean est ipsum, sagittis eget aliquet at, fringilla vitae lorem. Fusce consequat consequat lacus vel tempus. Etiam posuere vehicula nunc. Duis in justo convallis, cursus urna ut, ullamcorper nulla. Donec posuere augue neque, in blandit ligula pellentesque nec. Donec dapibus tincidunt cursus. Praesent accumsan magna vel tristique condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec lacinia turpis et eleifend sodales. Suspendisse sapien nibh, auctor eu tortor id, suscipit vulputate tortor. Phasellus aliquam venenatis finibus. Mauris orci neque, maximus eget tincidunt quis, fringilla in augue. Aliquam lectus enim, luctus sed enim vitae, iaculis maximus risus. Vivamus sit amet euismod diam. Ut id ipsum neque. Morbi maximus ligula at metus euismod, et suscipit ipsum lobortis.</p>
       </article>
-      <article id="contributors">
+    </section>
+    <section id="contributors" className="columns col_1_3" style={{gap: "0"}}>
+      <article className="col_full">
         <h2>Contributors</h2>
-        <p>Mauris a lobortis risus. Curabitur ac est tortor. Pellentesque pellentesque vulputate urna, sit amet lobortis orci congue a. Maecenas sodales dolor at nisi aliquet elementum. Vestibulum at congue felis, nec dictum metus. Pellentesque tempor sit amet massa ut blandit. Proin sit amet sollicitudin tellus. Integer vitae pellentesque neque, ac faucibus ipsum. Aliquam porttitor urna quam, vel rutrum urna finibus sed. Vestibulum a urna odio. Proin sit amet tincidunt dui. Aliquam placerat ornare dictum. Pellentesque id rhoncus massa, eu luctus erat. Phasellus eu neque tellus. Sed eget tempus nisl. Curabitur neque quam, porttitor vel mattis eu, hendrerit ut risus.</p>
+      </article>
+      <article>
+        <p>
+        Mario Speedwagon<br />
+        Petey Cruiser<br />
+        Anna Sthesia<br />
+        Paul Molive<br />
+        Anna Mull<br />
+        Gail Forcewind<br />
+        Paige Turner<br />
+        Bob Frapples<br />
+        Walter Melon<br />
+        </p>
+      </article>
+      <article>
+        <p>
+        Nick R. Bocker<br />
+        Barb Ackue<br />
+        Buck Kinnear<br />
+        Greta Life<br />
+        Ira Membrit<br />
+        Shonda Leer<br />
+        Brock Lee<br />
+        Maya Didas<br />
+        Rick O'Shea<br />
+        </p>
+      </article>
+      <article>
+        <p>Monty Carlo<br />
+        Sal Monella<br />
+        Sue Vaneer<br />
+        Cliff Hanger<br />
+        Barb Dwyer<br />
+        Terry Aki<br />
+        Cory Ander<br />
+        Robin Banks<br />
+        Jimmy Changa<br />
+        Barry Wine
+        </p>
       </article>
     </section>
   </div>
