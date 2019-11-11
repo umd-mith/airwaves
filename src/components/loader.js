@@ -44,7 +44,7 @@ export default class Loader extends Component {
     // connection.
 
     const checkInterval = 250
-    const waitInterval = 3000
+    const waitInterval = 1500
 
     if (window.__INDEX__ && window.__DOCUMENTS__ && window.__EPISODES__) {
       if (this.state.indexChecks === 0) {
