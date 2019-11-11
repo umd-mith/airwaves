@@ -7,3 +7,23 @@
 
 button.slick-arrow {
 }
+#featured div {
+  padding: 1em; 
+  border: 1px solid rgba(224, 202, 89, 0.3);
+  margin-bottom: 1rem;
+  background-color: rgba(224, 202, 89, 0.25);
+}
+#featured p {
+  grid-gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+#featured img {
+  align-self: stretch;
+  justify-self: stretch;
+}
+.caption {
+  display: block; 
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
