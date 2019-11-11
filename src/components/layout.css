@@ -90,6 +90,12 @@ header, .main-head {
 .col_1_3 .col_full {
   grid-column: 1 / span 3;
 }
+.col_1_3 .col_main {
+  grid-column: 1 / span 2;
+}
+.col_1_3 .col_sidebar {
+  grid-column: 3 / span 1;
+}
 .col_1_1 .col_1_2 h1, .col_1_3 h1 {
   margin-bottom: 0;
 }
