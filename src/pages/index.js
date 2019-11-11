@@ -9,13 +9,25 @@ import './index.css'
 const sliderSettings = {
   className: "carousel",
   centerMode: true,
+  initialSlide: 2,
   centerPadding: "120px",
   dots: true,
   infinite: true,
   speed: 500,
   slidesToShow: 3,
   variableWidth: true,
-  draggable: true
+  draggable: true,
+  responsive: [
+    {
+      breakpoint: 600,
+      settings: {
+        centerPadding: "10px",
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false
+      }
+    }
+  ]
 }
 
 const IndexPage = () => (
