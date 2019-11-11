@@ -43,3 +43,10 @@
   from { opacity: 1.0 }
   to { opacity: 0.1 }
 }
+
+
+@media(prefers-color-scheme: dark) {
+  .tower {
+    fill: #ccc;
+  }
+}

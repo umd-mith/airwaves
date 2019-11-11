@@ -119,7 +119,6 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: #444;
 }
 .button:hover {
   background-color: rgba(224, 202, 89, 0.8);
@@ -128,7 +127,6 @@ p {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   font-weight: bold;
-  color: #333;
 }
 h1 {
   font-size: 22px;
@@ -160,4 +158,29 @@ input[type=text]  {
 
 .hidden {
   display: none;
+}
+
+/* dark mode */
+
+@media(prefers-color-scheme: dark) {
+	body {
+    background-color: black;
+    color: white;
+  }
+  input[type=text]  { 
+    background-color: black;
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .button {
+    border: thin solid #e0ca59;
+    background-color: black;
+  }
+  .button:hover {
+    background-color: #e0ca59;
+    color: black;
+  }
 }
