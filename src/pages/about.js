@@ -22,7 +22,7 @@ const AboutPage = () => (
         <p>Aenean est ipsum, sagittis eget aliquet at, fringilla vitae lorem. Fusce consequat consequat lacus vel tempus. Etiam posuere vehicula nunc. Duis in justo convallis, cursus urna ut, ullamcorper nulla. Donec posuere augue neque, in blandit ligula pellentesque nec. Donec dapibus tincidunt cursus. Praesent accumsan magna vel tristique condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec lacinia turpis et eleifend sodales. Suspendisse sapien nibh, auctor eu tortor id, suscipit vulputate tortor. Phasellus aliquam venenatis finibus. Mauris orci neque, maximus eget tincidunt quis, fringilla in augue. Aliquam lectus enim, luctus sed enim vitae, iaculis maximus risus. Vivamus sit amet euismod diam. Ut id ipsum neque. Morbi maximus ligula at metus euismod, et suscipit ipsum lobortis.</p>
       </article>
     </section>
-    <section id="contributors" className="columns col_1_3" style={{gap: "0"}}>
+    <section id="contributors" className="columns col_1_3" style={{rowGap: "0"}}>
       <article className="col_full">
         <h2>Contributors</h2>
       </article>
