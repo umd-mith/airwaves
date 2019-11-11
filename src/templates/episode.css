@@ -1,50 +1,30 @@
-.episode {
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-gap: 1.5rem;
-   align-items: start;
-}
-
 .webvtt-player .episode {
   display: flex;
   flex-wrap: wrap;
 }
-
-table td {
-  vertical-align: top;
-  padding-top: 10px;
-  font-size: 14px;
-}
-
-td.label {
-  font-weight: bold;
-}
-
 .webvtt-player {
-  margin-top: 20px;
+  margin-top: 1em;
 }
-
 .webvtt-player .media {
   border-left: 1px solid #ccc;
   margin-right: auto;
 }
-
+.webvtt-player .player {
+  padding: 0 10px;
+}
 .webvtt-player audio {
   width: 100%;
   height: 35px;
 }
-
 .webvtt-player .controls {
   padding: 5px;
   text-align: center;
   vertical-align: text-top;
   background-color: #ccc;
 }
-
 .webvtt-player .seekBar {
   vertical-align: middle;
 }
-
 .webvtt-player .active {
   background-color: #eee;
 }
@@ -55,44 +35,27 @@ td.label {
   padding: 3px 0;
   cursor: pointer;
 }
-
 .webvtt-player .time {
   padding-right: 10px;
   font-weight: bold;
   font-size: smaller;
 }
 
+.metadata dl {
+  grid-template: auto / 10em 1fr;
+}
+
 @media (min-width: 600px) {
-
-  #episode {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .metadata {
-    width: 50%;
-  }
-  
-  .recording {
-    width: 50%;
-  }
-
   .webvtt-player {
     padding-left: 20px;
   }
-
   .webvtt-player .transcript {
     height: 90vh;
     padding: 10px;
     overflow-y: scroll;
   }
-
 }
 
 @media (max-width: 599px) {
-   .metadata, 
-   .recording {
-      width: 100%; 
-   }
-   
+
 }

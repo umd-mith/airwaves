@@ -99,6 +99,24 @@ header, .main-head {
 .col_1_3 h1 {
   grid-column: 1 / span 3;
 }
+dl {
+  display: grid;
+}
+dt {
+  grid-column: 1;
+  font-weight: bold;
+}
+dd {
+  grid-column: 2;
+}
+dt, dd {
+  margin: 0;
+  padding: .5em .7em .5em 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+dt:last-of-type, dd:last-of-type {
+  border-bottom: 1px solid rgba(0,0,0,.1);  
+}
 a {
   text-decoration: none;
   color: #b9a22a;

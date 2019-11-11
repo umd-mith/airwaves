@@ -77,59 +77,44 @@ const Episode = ({ data }) => {
 
   return (
     <Layout>
-      <div id="episode" className="episode">
-        <div className="metadata">
-          <h1>{episode.title}</h1>
-          <table>
-            <tbody>
-              <tr>
-                <td className="label">Series</td>
-                <td>{series}</td>
-              </tr>
-              <tr>
-                <td className="label">Air Date</td>
-                <td>{episode.broadcastDate}</td>
-              </tr>
-              <tr>
-                <td className="label">Duration</td>
-                <td>{episode.duration} minutes</td>
-              </tr>
-              <tr>
-                <td className="label">Description</td>
-                <td>{episode.description}</td>
-              </tr>
-              <tr>
-                <td className="label">Subject(s)</td>
-                <td>{subjects}</td>
-              </tr>
-              <tr>
-                <td className="label">Creator(s)</td>
-                <td>{creators}</td>
-              </tr>
-              <tr>
-                <td className="label">Contributors</td>
-                <td>{contributors}</td>
-              </tr>
-              <tr>
-                <td className="label">Genre(s)</td>
-                <td>{genres}</td>
-              </tr>
-              <tr>
-                <td className="label">Geographic Region(s)</td>
-                <td>regions</td>
-              </tr>
-              <tr>
-                <td className="label">Time Period</td>
-                <td>{episode.temporal}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div className="recording">
-          <Player 
-            transcript={`${s3Bucket}/data/transcripts/${id}/${id}.vtt`}
-            audio={`${s3Bucket}/data/audio/${id}.mp3`} />
-        </div>
+      <div id="episode" className="">
+        <section className="leader">
+          <article>
+            <h1>{episode.title}</h1>
+          </article>
+        </section>
+
+        <section className="columns col_1_2">
+          <article className="metadata">
+            <dl>
+              <dt className="label">Series</dt>
+              <dd>{series}</dd>
+              <dt className="label">Air Date</dt>
+              <dd>{episode.broadcastDate}</dd>
+              <dt className="label">Duration</dt>
+              <dd>{episode.duration} minutes</dd>
+              <dt className="label">Description</dt>
+              <dd>{episode.description}</dd>
+              <dt className="label">Subject(s)</dt>
+              <dd>{subjects}</dd>
+              <dt className="label">Creator(s)</dt>
+              <dd>{creators}</dd>
+              <dt className="label">Contributors</dt>
+              <dd>{contributors}</dd>
+              <dt className="label">Genre(s)</dt>
+              <dd>{genres}</dd>
+              <dt className="label">Geographic Region(s)</dt>
+              <dd>regions</dd>
+              <dt className="label">Time Period</dt>
+              <dd>{episode.temporal}</dd>
+            </dl>
+          </article>
+          <article className="recording">
+            <Player 
+              transcript={`${s3Bucket}/data/transcripts/${id}/${id}.vtt`}
+              audio={`${s3Bucket}/data/audio/${id}.mp3`} />
+          </article>
+        </section>
       </div>
     </Layout>
   )

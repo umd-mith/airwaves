@@ -8,9 +8,11 @@ export default ({ data }) => {
   const series = data.seriesJson
   const episodes = data.allEpisodesJson.edges.map(({node}) => {
     return (
-      <li className='episode'>
-        {node.broadcastDate} <Link to={`/episode/${node.aapbId}/`}>{node.title}</Link><br />
-      </li>
+      <div className='episode'>
+        <span className="ep-date">{node.broadcastDate}</span> 
+        <span className="ep-title"><Link to={`/episode/${node.aapbId}/`}>{node.title}</Link></span> 
+        <span className="ep-time">00:00</span>
+      </div>
     )
   })
 
@@ -26,23 +28,36 @@ export default ({ data }) => {
   return (
     <Layout>
       <div className="series">
-
-        <section>
-          <h2>
+        <section className="leader">
+          <h1>
             <Link to="/programs/">All Programs</Link> / {series.title}
-          </h2>
-          <div className="description">
+          </h1>
+          <article className="description">
           {series.description}
-          </div>
+          </article>
         </section>
-
-        <br />
-
-        <section id="episodes">
-          <h3>Available episodes:</h3>
-          <ul>
-            {episodes}
-          </ul>
+        <section id="programs" className="columns col_1_2">
+          <article className="pgm-eps">
+            <h2>Available Episodes</h2>
+            <div>
+              {episodes}
+            </div>
+          </article>
+          <article className="pgm-related">
+            <h2>Related Materials</h2>
+            <p></p>
+          </article>
+        </section>
+        <section className="columns col_full">
+          <article className="pgm-meta">
+            <dl>
+              <dt>Subjects</dt><dd></dd>
+              <dt>Creators</dt><dd></dd>
+              <dt>Genres</dt><dd></dd>
+              <dt>Geographic Regions</dt><dd></dd>
+              <dt>Time Period</dt><dd></dd>
+            </dl>
+          </article>
         </section>
       </div>
 
