@@ -6,6 +6,11 @@ footer {
   margin: 0 auto;
   text-align: center;
 }
-#footer {
+#footer_logos {
   grid-template-columns: repeat(4,  minmax(190px, 1fr));
+  margin-bottom: 30px;
+}
+footer p {
+  font-size: 12px; 
+  font-style: italic;
 }
