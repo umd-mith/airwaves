@@ -20,6 +20,7 @@ header img {
   padding: 0;
   margin: 0;
   border-bottom: 1px solid #efefef;
+  background-color: #fff;
 }
 
 .main-nav ul li {
@@ -40,13 +41,4 @@ header img {
 
 .main-nav a:hover, .main-nav a.active {
   border-bottom-color: #e0ca59;
-}
-
-/* dark mode */
-
-@media(prefers-color-scheme: dark) {
-  header img {
-    display: none;
-    background-image: url('/')
-  }
 }
