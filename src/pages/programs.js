@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
 import { FaAngleUp } from 'react-icons/fa'
 
@@ -6,6 +6,9 @@ import SEO from "../components/seo"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
+
+  // keep track of the query in the input box
+  const [searchQuery, setSearchQuery] = useState('')
 
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")
 
@@ -17,9 +20,10 @@ export default ({ data }) => {
 
   // collect series information by first letter
   data.allSeriesJson.edges.forEach(e => {
-    const l = e['node'].title[0].toUpperCase()
-    if (l.match(/[A-Z]/)) {
-      series[l].push(e['node'])
+    const s = e['node']
+    const l = s.title[0].toUpperCase()
+    if (l.match(/[A-Z]/) && s.title.match(new RegExp(searchQuery, 'i'))) {
+      series[l].push(s)
     }
   })
 
@@ -37,6 +41,8 @@ export default ({ data }) => {
           <article className="col_full">
             <input 
               type="text"
+              value={searchQuery}
+              onChange={e => setSearchQuery(e.target.value)}
               placeholder="Search by program name"
             />
           </article>
