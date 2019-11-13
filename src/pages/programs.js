@@ -10,6 +10,7 @@ export default ({ data }) => {
   // keep track of the query in the input box
   const [searchQuery, setSearchQuery] = useState('')
 
+  // a list of letters for the menu
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")
 
   // pre-populate series lists
@@ -18,7 +19,7 @@ export default ({ data }) => {
     series[l] = []
   })
 
-  // collect series information by first letter
+  // collect series information by first letter, and apply search query if there is one
   data.allSeriesJson.edges.forEach(e => {
     const s = e['node']
     const l = s.title[0].toUpperCase()
