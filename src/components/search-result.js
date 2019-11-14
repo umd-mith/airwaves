@@ -4,8 +4,15 @@ import Highlighter from 'react-highlight-words'
 import './search-result.css'
 
 const Document = ({item, query}) => {
-  const pageNum = Number.parseInt(item.page) + 1 || 1
-  const linkText = item.title + ` p. ${pageNum}` 
+
+  let linkText = item.title
+  let pageNum = 1
+
+  if (item.page) {
+    pageNum = Number.parseInt(item.page) + 1
+    linkText += ` p. ${pageNum}`
+  }
+
   const searchWords = query ? query.split() : []
 
   return (
