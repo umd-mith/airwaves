@@ -93,31 +93,30 @@ const Document = ({ data }) => {
 
   return (
     <Layout>
-      <div id="document">
-        <div className="metadata">
-          <h1>{doc.title}</h1>
-          <table>
-            <tbody>
-              <tr>
-                <td className="label">Description</td>
-                <td>{doc.description}</td>
-              </tr>
-              <tr>
-                <td className="label">Subject(s)</td>
-                <td>{subjects}</td>
-              </tr>
-              <tr>
-                <td className="label">Contributors</td>
-                <td>{contributors}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div id="doc-viewer">
-        <Mirador config={miradorConfig} plugins={[]} />
-        </div>
+      <div id="document" className="">
+        <section className="leader">
+          <article>
+            <h1>{doc.title}</h1>
+          </article>
+        </section>
+        <section className="columns col_1_2">
+          <article className="metadata">
+            <dl>
+              <dt className="label">Description</dt>
+              <dd>{doc.description}</dd>
+              <dt className="label">Subject(s)</dt>
+              <dd>{subjects}</dd>
+              <dt className="label">Contributors</dt>
+              <dd>{contributors}</dd>
+            </dl>
+          </article>
+          <article id="doc-viewer">
+            <Mirador config={miradorConfig} plugins={[]} />
+          </article>
+        </section>
       </div>
     </Layout>
+ 
   )
 }
 

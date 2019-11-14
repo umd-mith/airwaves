@@ -40,11 +40,9 @@
   font-weight: bold;
   font-size: smaller;
 }
-
 .metadata dl {
   grid-template: auto / 10em 1fr;
 }
-
 @media (min-width: 600px) {
   .webvtt-player {
     padding-left: 20px;
@@ -54,8 +52,4 @@
     padding: 10px;
     overflow-y: scroll;
   }
-}
-
-@media (max-width: 599px) {
-
 }

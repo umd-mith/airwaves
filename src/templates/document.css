@@ -2,26 +2,21 @@ table td {
   vertical-align: top;
   padding-top: 10px;
 }
-
 td.label {
   font-weight: bold;
 }
-
 #doc-viewer {
-  margin-top: 30px;
+  margin-top: 1em;
 }
-
 @media (min-width: 600px) {
-
   #doc-viewer {
-    margin-left: auto;
+   /* margin-left: auto; */
   }
-
   #mirador-viewer {
     margin: 0 auto;
     width: 100%;
     min-height: 800px;
     position: relative;
   }
-  
+ 
 }
