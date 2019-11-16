@@ -92,8 +92,6 @@ class Search extends Component {
   search(query, facets) {
     let results = []
 
-    console.log('xxx', query, facets)
-
     // if we have a query search the index
     if (query) {
       const q = {
@@ -162,6 +160,15 @@ class Search extends Component {
           return false
         }
         else if (! r.creator.find(c => c.name === facet.name)) {
+          return false
+        }
+      }
+
+      else if (facet.type === 'contributor') {
+        if (! r.contributor) {
+          return false
+        }
+        else if (! r.contributor.find(c => c.name === facet.name)) {
           return false
         }
       }

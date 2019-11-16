@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import { Player } from 'webvtt-player'
+import { formatDuration } from '../utils'
 import './episode.css'
 
 import Layout from '../components/layout'
@@ -59,7 +60,7 @@ const Episode = ({ data }) => {
   let contributors = ""
   if (episode.contributor) {
     contributors = episode.contributor.map(c => {
-      return <div key={`contributor-${c.name}`}><Link to={`/#${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
+      return <div key={`contributor-${c.name}`}><Link to={`/search/?f=contributor:${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
     })
   }
 
@@ -92,7 +93,7 @@ const Episode = ({ data }) => {
               <dt className="label">Air Date</dt>
               <dd>{episode.broadcastDate}</dd>
               <dt className="label">Duration</dt>
-              <dd>{episode.duration} minutes</dd>
+              <dd>{formatDuration(episode.duration)}</dd>
               <dt className="label">Description</dt>
               <dd>{episode.description}</dd>
               <dt className="label">Subject(s)</dt>

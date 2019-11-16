@@ -86,11 +86,13 @@ function getFacets(results) {
   let type = new Map()
   let subject = new Map()
   let creator = new Map()
+  let contributor = new Map()
   let decade = new Map()
 
   for (const r of results) {
     tally(r.subject, subject)
     tally(r.creator, creator)
+    tally(r.contributor, contributor)
     tallyDecade(r, decade)
     tallyType(r, type)
   }
@@ -98,12 +100,14 @@ function getFacets(results) {
   type = sortMap(type, results.length).slice(0, 10)
   subject = sortMap(subject, results.length).slice(0, 10)
   creator = sortMap(creator, results.length).slice(0, 10)
+  contributor = sortMap(contributor, results.length).slice(0, 10)
   decade = sortDecade(decade, results.length).slice(0, 10)
 
   return [
     {name: 'type', counts: type},
     {name: 'subject', counts: subject},
     {name: 'creator', counts: creator},
+    {name: 'contributor', counts: contributor},
     {name: 'decade', counts: decade}
   ]
 

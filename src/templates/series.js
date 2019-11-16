@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import { graphql, Link } from 'gatsby'
+import { formatDuration } from '../utils.js'
 import './series.css'
 
 export default ({ data }) => {
@@ -11,7 +12,7 @@ export default ({ data }) => {
       <div className='episode'>
         <span className="ep-date">{node.broadcastDate}</span> 
         <span className="ep-title"><Link to={`/episode/${node.aapbId}/`}>{node.title}</Link></span> 
-        <span className="ep-time">00:00</span>
+        <span className="ep-time">{formatDuration(node.duration)}</span>
       </div>
     )
   })
@@ -91,8 +92,10 @@ export const query = graphql`
           title
           description
           broadcastDate
+          duration
         }
       }
     }
   }
 `
+
