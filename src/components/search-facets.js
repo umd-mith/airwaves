@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { FaSearch } from 'react-icons/fa'
 import './search-facets.css'
 
 class SearchFacets extends Component {

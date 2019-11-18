@@ -38,22 +38,22 @@ const IndexPage = () => (
         <article>
           <Slider {...sliderSettings}>
             <div>
-              <img height="200" src={withPrefix("/images/carousel/01.jpg")} />
+              <img alt="Document Page" height="200" src={withPrefix("/images/carousel/01.jpg")} />
             </div>
             <div>
-              <img height="200" src={withPrefix("/images/carousel/02.jpg")} />
+              <img alt="Document folded" height="200" src={withPrefix("/images/carousel/02.jpg")} />
             </div>
             <div>
-              <img height="200" src={withPrefix("/images/carousel/03.jpg")} />
+              <img alt="Folders" height="200" src={withPrefix("/images/carousel/03.jpg")} />
             </div>
             <div>
-              <img height="200" src={withPrefix("/images/carousel/04.jpg")} />
+              <img alt="The Jeffersonian Heritage Program" height="200" src={withPrefix("/images/carousel/04.jpg")} />
             </div>
             <div>
-              <img height="200" src={withPrefix("/images/carousel/05.jpg")} />
+              <img alt="Ace Tape Program" height="200" src={withPrefix("/images/carousel/05.jpg")} />
             </div>
             <div>
-              <img height="200" src={withPrefix("/images/carousel/06.jpg")} />
+              <img alt="Human Behavior Pamphlet" height="200" src={withPrefix("/images/carousel/06.jpg")} />
             </div>
           </Slider>
         </article>
@@ -74,8 +74,8 @@ const IndexPage = () => (
           <div>
             <Link to="/" style={{ color: "#444" }}>
               <p className="columns col_1_2">
-                <img width="100%" src={withPrefix("/images/exhibits/ex_cold-war1.jpg")} />
-                <img width="100%" src={withPrefix("/images/exhibits/ex_cold-war2.jpg")} />
+                <img alt="Cold War 1" width="100%" src={withPrefix("/images/exhibits/ex_cold-war1.jpg")} />
+                <img alt="Cold War 2" width="100%" src={withPrefix("/images/exhibits/ex_cold-war2.jpg")} />
               </p>
               <span className="caption">Radio During the Cold War</span>
             </Link>
@@ -83,8 +83,8 @@ const IndexPage = () => (
           <div>
             <Link to="/" style={{ color: "#444" }}>
               <p className="columns col_1_2">
-                <img width="100%" src={withPrefix("/images/exhibits/ex-american-jazz1.jpg")} />
-                <img width="100%" src={withPrefix("/images/exhibits/ex-american-jazz2.jpg")} />
+                <img alt="Jazz 1" width="100%" src={withPrefix("/images/exhibits/ex-american-jazz1.jpg")} />
+                <img alt="Jazz 2" width="100%" src={withPrefix("/images/exhibits/ex-american-jazz2.jpg")} />
               </p>
               <span className="caption">American Jazz in the 60s</span>
             </Link>

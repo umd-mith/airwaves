@@ -60,7 +60,7 @@ export default ({ data }) => {
             {letters.map(l => (
             <div className="alpha-list-section">
               <div className="section-header">
-                <a name={l}>{l}</a>
+                <span name={l}>{l}</span>
                 <Link className="back" to="/programs/#programs">back to top <FaAngleUp /></Link>
               </div>
               <ul className={`section-{l}`}>

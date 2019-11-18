@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Antenna from '../svg/antenna.svg'
-import './loader.css'
 
 export default class Loader extends Component {
 
