@@ -3,6 +3,7 @@ import Search from "../components/search"
 import queryString from "query-string"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Loader from "../components/loader"
 
 const SearchPage = ({location}) => {
   const qs = queryString.parse(location.search)
@@ -10,7 +11,9 @@ const SearchPage = ({location}) => {
   return (
     <Layout>
       <SEO title="Home" keywords={[`archive`, `radio`]} />
-      <Search query={qs.q} facets={qs.f} />
+      <Loader>
+        <Search query={qs.q} facets={qs.f} />
+      </Loader>
     </Layout>
   )
 }
