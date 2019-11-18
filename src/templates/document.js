@@ -69,13 +69,17 @@ const Document = ({ data }) => {
   if (doc.contributor === null) {
     doc.contributor = []
   }
-  const contributors = doc.contributor.map(c => <div>{c.name}</div>)
+  const contributors = doc.contributor.map(c => (
+    <div><Link to={`/search/?f=contributor:${c.name}`}>{c.name}</Link></div>
+  ))
+
   if (doc.subject === null) {
     doc.subject = []
   }
   const subjects = doc.subject.map(c => (
     <div><Link to={`/search/?f=subject:${c.name}`}>{c.name}</Link></div>
   ))
+
   const manifestUrl = `https://iiif.archivelab.org/iiif/${doc.iaId}/manifest.json`
 
   let canvasIndex = 0
