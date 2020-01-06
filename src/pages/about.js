@@ -35,41 +35,35 @@ const AboutPage = () => (
       </article>
       <article>
         <p>
-        Mario Speedwagon<br />
-        Petey Cruiser<br />
-        Anna Sthesia<br />
-        Paul Molive<br />
-        Anna Mull<br />
-        Gail Forcewind<br />
-        Paige Turner<br />
-        Bob Frapples<br />
-        Walter Melon<br />
+        Stephanie Sapienza (Principal Investigator, MITH)<br />
+        Eric Hoyt (Principal Investigator, UW)<br />
+          <br />
+        <b>Advisory Team:</b><br />
+        Rebecca Fraimow (Archivist, WGBH)<br />
+        Megan McShea (Archivist, Smithsonian Institution)<br />
+        Allison Perlman (Associate Professor, UC Irvine)<br />
+        Laura Schnitker (Archivist/Curator, UMD Libraries)<br />
+        Josh Shepperd (Assistant Professor, Catholic University)<br />
+      
         </p>
       </article>
       <article>
         <p>
-        Nick R. Bocker<br />
-        Barb Ackue<br />
-        Buck Kinnear<br />
-        Greta Life<br />
-        Ira Membrit<br />
-        Shonda Leer<br />
-        Brock Lee<br />
-        Maya Didas<br />
-        Rick O'Shea<br />
+        J.J. Bersch (Production Assistant, UW)<br />
+        Matthew Blessing (Administrator of the Division of Library-Archives, WHS)<br />
+        Alison Bridger (Archivist, WHS)<br />
+        Paul Hedges (Emerging Technologies Archivist, WHS)<br />
+        Kirsten Keister (Designer, MITH)<br />
+        Jacob Mertens (Production Assistant, UW)<br />
+        
         </p>
       </article>
       <article>
-        <p>Monty Carlo<br />
-        Sal Monella<br />
-        Sue Vaneer<br />
-        Cliff Hanger<br />
-        Barb Dwyer<br />
-        Terry Aki<br />
-        Cory Ander<br />
-        Robin Banks<br />
-        Jimmy Changa<br />
-        Barry Wine
+        <p>Trevor Muñoz (Director, MITH)<br />
+        Connor Perkins (Production Assistant, UW)<br />
+        Matthew St. John (Production Assistant, UW)<br />
+        Ed Summers (Developer, MITH)<br />
+       
         </p>
       </article>
     </section>
