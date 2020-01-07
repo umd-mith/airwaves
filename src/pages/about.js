@@ -41,6 +41,7 @@ const AboutPage = () => (
       </article>
       <article>
         <p>
+        <b>Project Directors</b><br />
         Stephanie Sapienza (Principal Investigator, MITH)<br />
         Eric Hoyt (Principal Investigator, UW)<br />
           <br />
