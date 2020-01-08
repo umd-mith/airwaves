@@ -4,7 +4,6 @@ import queryString from "query-string"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Loader from "../components/loader"
-import "../components/loader.css"
 
 const SearchPage = ({location}) => {
   const qs = queryString.parse(location.search)
