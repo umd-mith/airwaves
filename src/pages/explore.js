@@ -20,13 +20,15 @@ const ExplorePage = () => (
         <h2>Explore Radio Programs</h2>
         <p>The radio programming service of the NAEB, known as the National Educational Radio Network (NERN), comprised broadcasts which balanced a focus on public service reporting of national events (e.g., the economy, the depression, World War II, the Civil Rights movement) with providing a forum for local issues (e.g., agricultural prices, community events, elections) and with expanding public education.</p>
         <p>These broadcasts, mostly stemming from university and public school-run radio stations, provide an in-depth look at the engagements and events of American history, as they were broadcast to and received by the general public in the twentieth century. They cover crucial educational, political, and cultural events as diverse as the national census, atomic energy, American labor, religion, United States history, agricultural engineering, mathematics, and foreign relations.</p>
+        <p>Click below to browse the NERN broadcasts by series title.</p>
         <Link to="/programs/" className="button">
         Explore Programs
         </Link>
       </article>
       <article>
         <h2>Explore Related Materials</h2>
-        <p><strong>Unlocking the Airwaves: Revitalizing an Early Public and Educational Radio Collection</strong> is a comprehensive online collection of early educational public radio content from the National Association of Educational Broadcasters (NAEB). The forerunner of CPB and its arms, NPR and PBS, the NAEB developed and distributed educational radio programs and accompanying print materials to schools and communities across the United States. What’s more, the NAEB lobbied extensively to unlock the airwaves—to access precious frequency space—in order to bring the voices of poet Robert Frost, architect Frank Lloyd Wright, anthropologist Margaret Mead, and conservationist “Ranger Mac,” among many other individuals, into American homes and classrooms.</p>
+        <p>Click the link below to browse materials from the NAEB paper collection, housed at the Wisconsin Historical Society on the campus of the University of Wisconsin-Madison. The NAEB papers mainly cover the period from 1950–1970, and include correspondence, scripts, reports, promotional materials, speeches of long-time president William G. Harley, ﬁles of the Office of Research and Development and of National Educational Radio (a division of the NAEB), newsletters and other publications. Below you can access a version of the WHS ﬁnding aid for the collection, which contains important scope and content notes, notes about the collection’s provenance, and most importantly, the Contents List. The Contents, or what is in the boxes and folders themselves, are organized by what are called archival "series.”</p>
+        <p><b>Beta Launch Note</b> Right now the only folder which users can link to from this interface is under Contents List > Subject Files > Box 34 Folder 4: Public Relations, 1954-1965. If the advisors deem this interface useful, we will proceed with including the rest of the digitized folders in this interface.</p>
         <Link to="/materials/" className="button">
         Explore Materials
         </Link>

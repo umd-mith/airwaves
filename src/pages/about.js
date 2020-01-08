@@ -56,6 +56,7 @@ const AboutPage = () => (
       </article>
       <article>
         <p>
+        <b>Project Team</b><br />
         J.J. Bersch (Production Assistant, UW)<br />
         Matthew Blessing (Administrator of the Division of Library-Archives, WHS)<br />
         Alison Bridger (Archivist, WHS)<br />
