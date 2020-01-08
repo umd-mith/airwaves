@@ -1,24 +1,31 @@
-This site contains a prototype viewer for the [Unlocking the Airwaves] project.
-
-## Build
-
-The airwaves web application is a static website that is built and then deployed as a set of files to a web server.
-
-    npm install
-    npm run build
-    cp -r public /var/www/airwaves
+This repository contains a prototype web application for the [Unlocking the
+Airwaves] project. It is a static site built with [Gatsby], which depends on
+document image scans that are available at the Internet Archive, and audio files
+that are available in an S3 bucket managed by MITH.
 
 ## Develop
 
+    npm install
     npm run develop
     open http://localhost:8080
 
 ## Data
 
-The application relies on external metadata that is downloaded from Airtable. You can rerun this process to fetch the latest data:
+The application relies on external metadata that is downloaded from Airtable.
+You can rerun this process to fetch the latest data. In order to fetch data from
+the Airtable API you will need to set AIRTABLE_API_KEY in your environment.
 
     npm run fetch-data
     npm run index
 
+## Publish
+
+The website is currently published using GitHub pages. You can publish the
+latest code using the `publish` command:
+
+    npm run publish
+
 [Unlocking the Airwaves]: https://mith.umd.edu/research/unlocking-the-airwaves/
 [NAEB]: https://en.wikipedia.org/wiki/National_Association_of_Educational_Broadcasters
+[Gatsby]: https://www.gatsbyjs.org/
+[Internet Archive]: 
