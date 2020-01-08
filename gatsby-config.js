@@ -13,7 +13,7 @@ module.exports = {
       resolve: `gatsby-plugin-react-svg`,
       options: {
         rule: {
-          include: `${__dirname}/src/svg/`
+          include: `${__dirname}/src/images/*.svg`
         }
       }
     },
@@ -22,7 +22,8 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      },
+        ignore: [`*\.svg$`]
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Antenna from '../svg/antenna.svg'
+import antenna from '../images/antenna.svg'
 
 export default class Loader extends Component {
 
@@ -15,7 +15,7 @@ export default class Loader extends Component {
       content = (
         <div className="loader">
           <div className="icon">
-            <Antenna />
+            <img alt="Loading index" src={antenna} />
             <br />
             <br />
             Please sit tight while we <em>tune in</em> some data ...
