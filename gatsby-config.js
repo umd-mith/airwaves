@@ -1,4 +1,5 @@
 const fs = require('fs')
+const path = require('path')
 
 module.exports = {
   siteMetadata: {
@@ -12,8 +13,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-svg`,
       options: {
+        name: `svg`,
         rule: {
-          include: /src\/images\/.*.svg$/
+          include: path.resolve(__dirname, 'src/svg')
         }
       }
     },
@@ -21,8 +23,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-        ignore: [`*\.svg$`]
+        path: path.resolve(__dirname, 'src/images')
       }
     },
     {
