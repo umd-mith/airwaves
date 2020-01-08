@@ -29,9 +29,10 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/static/data/`,
-        // we won't be querying this huge flexsearch index with graphql :)
-        ignore: [`${__dirname}/static/data/flexsearch.json`]
+        path: path.resolve(__dirname, 'static/data/'),
+        ignore: [
+          path.resolve(__dirname, 'static/data/flexsearch.json')
+        ]
       }
     },
     `gatsby-transformer-json`,
