@@ -2,10 +2,10 @@ import React from 'react'
 import Layout from '../components/layout'
 import { graphql, Link } from 'gatsby'
 import { formatDuration } from '../utils.js'
+import Feed from '../svg/feed.svg'
 import './series.css'
 
 export default ({ data }) => {
-
   const series = data.seriesJson
   const episodes = data.allEpisodesJson.edges.map(({node}) => {
     return (
@@ -27,7 +27,7 @@ export default ({ data }) => {
   }
 
   return (
-    <Layout>
+    <Layout feedUrl={`/rss/${series.id}.xml`}>
       <div className="series">
         <section className="leader">
           <h1>
@@ -58,6 +58,11 @@ export default ({ data }) => {
               <dt>Geographic Regions</dt><dd></dd>
               <dt>Time Period</dt><dd></dd>
             </dl>
+            <div title={`Podcast URL for ${series.title}`}>
+              <a href={`../../rss/${series.id}.xml`}>
+                <Feed width="50" />
+              </a>
+            </div>
           </article>
         </section>
       </div>
@@ -93,6 +98,9 @@ export const query = graphql`
           description
           broadcastDate
           duration
+          subject {
+            name
+          }
         }
       }
     }

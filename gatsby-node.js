@@ -1,7 +1,11 @@
+const fs = require('fs')
+const RSS = require('rss')
+
 exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) => {
   await episodes(createPage, graphql, pathPrefix)
   await documents(createPage, graphql, pathPrefix)
   await series(createPage, graphql, pathPrefix)
+  await rss(graphql)
 }
 
 // Create episode pages.
@@ -88,4 +92,114 @@ async function series(createPage, graphql) {
     })
   })
 
+}
+
+async function rss(graphql) {
+
+  // only create rss if the directory isn't there
+  if (fs.existsSync('./static/rss')) {
+    return
+  }
+  fs.mkdirSync('./static/rss')
+
+  const results = await graphql(`
+  {
+    allSite {
+      nodes {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+    allSeriesJson(
+      sort: {
+        fields: episodes___broadcastDate,
+        order: DESC
+      }
+    ) {
+      nodes {
+        id
+        title
+        episodes {
+          aapbId
+          title
+          description
+          broadcastDate
+          duration
+          creator {
+            name
+          }
+          subject {
+            name
+          }
+        }
+      }
+    }
+  }
+  `)
+
+  const siteUrl = results.data.allSite.nodes[0].siteMetadata.siteUrl
+
+  results.data.allSeriesJson.nodes.forEach(series => {
+    const feedPath = `./static/rss/${series.id}.xml`
+    const feedUrl = `https://umd-mith.github.io/airwaves/rss/${series.id}.xml`
+
+    const feed = new RSS({
+      title: series.title,
+      description: series.description,
+      feed_url: feedUrl,
+      site_url: siteUrl,
+      managingEditor: "National Association of Educational Broadcasters"
+    })
+
+    series.episodes.forEach(episode => {
+      const url = `${siteUrl}/episode/${episode.aapbId}/`
+      const mp3Url = `https://mith-uta.s3.amazonaws.com/data/audio/${episode.aapbId}.mp3`
+      feed.item({
+        title: episode.title,
+        description: episode.description,
+        url: url,
+        date: episode.broadcastDate,
+        enclosure: {
+          url: mp3Url,
+          type: 'audio/mp3'
+        },
+        custom_elements: [
+          {'dc:creator': safeMap(episode.creator, c => c.name)},
+          {'dc:subject': safeMap(episode.subject, s => s.name)},
+        ]
+      })
+    })
+
+    console.log(feedPath)
+    fs.writeFileSync(feedPath, feed.xml()) 
+  })
+
+}
+
+exports.sourceNodes = ({ actions, schema }) => {
+  const { createTypes } = actions
+  const typeDefs = [
+    "type SeriesJson implements Node { episodes: [ EpisodesJson ]}",
+    schema.buildObjectType({
+      name: 'SeriesJson',
+      fields: {
+        episodes: {
+          type: "[EpisodesJson]",
+          resolve: (source, args, context, info) => {
+            return context.nodeModel
+              .getAllNodes({ type: "EpisodesJson"})
+              .filter(episode => {
+                return episode.series ? episode.series.id == source.id : false
+              })
+          }
+        }
+      }
+    })
+  ]
+  createTypes(typeDefs)
+}
+
+function safeMap(l, f) {
+  return l === null ? [] : l.map(f)
 }

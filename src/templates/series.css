@@ -3,6 +3,7 @@
   grid-gap: 0;
   margin-bottom: 1.5rem;
 }
+
 .alpha-list a {
   justify-self: stretch;
   border: 1px solid #C4C4C4;
@@ -11,19 +12,24 @@
   font-weight: bold;
   text-align: center;
 }
+
 .alpha-list a:first-child {
   border-left: 1px solid #C4C4C4;
 }
+
 .alpha-list a:hover {
   background-color: #e0ca59;
   color: #fff;
 }
+
 .alpha-list-section ul {
   padding-left: 1rem;
   list-style: none;
 }
+
 .alpha-list-section li {
 }
+
 .alpha-list-section li:before {
   content: "\2022"; 
   color: #555;
@@ -34,6 +40,7 @@
   margin-left: -1rem;
   vertical-align: middle;
 }
+
 .section-header {
   display: block;
   position: relative;
@@ -41,9 +48,11 @@
   vertical-align: middle;
   border-bottom: 1px solid #C4C4C4;
 }
+
 .section-header a:first-of-type {
   font-size: 22px;
 }
+
 .section-header a.back {
   position: absolute;
   float:right;
@@ -58,27 +67,34 @@
   grid-template: auto / 10em 1fr 10em;
   border-top: 1px solid rgba(0,0,0,.1);
 }
+
 .episode:last-child {
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
+
 .pgm-eps .ep-date {
   grid-column: 1;
 }
+
 .pgm-eps .ep-title {
   grid-column: 2;
 }
+
 .pgm-eps .ep-time {
   grid-column: 3;
   justify-self: end;
   align-self: start;
 }
+
 .pgm-eps span {
   margin: 0;
   padding: .3em .7em .3em 0;
 }
+
 .pgm-meta {
   margin-top: 40px;
 }
+
 .pgm-meta dl {
   grid-template: auto / 10em 1fr;
 }
