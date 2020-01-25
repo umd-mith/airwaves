@@ -7,6 +7,7 @@ import './series.css'
 
 export default ({ data }) => {
   const series = data.seriesJson
+  const siteUrl = data.allSite.nodes[0].siteMetadata.siteUrl
   const episodes = data.allEpisodesJson.edges.map(({node}) => {
     return (
       <div className='episode'>
@@ -59,7 +60,7 @@ export default ({ data }) => {
               <dt>Time Period</dt><dd></dd>
             </dl>
             <div title={`Podcast URL for ${series.title}`}>
-              <a href={`../../rss/${series.id}.xml`}>
+              <a href={`${siteUrl}/rss/${series.id}.xml`}>
                 <Feed width="50" />
               </a>
             </div>
@@ -73,6 +74,13 @@ export default ({ data }) => {
 
 export const query = graphql`
   query($id: String!) {
+    allSite {
+      nodes {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
     seriesJson(id: { eq: $id }) {
       id
       title
