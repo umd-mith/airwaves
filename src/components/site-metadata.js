@@ -21,8 +21,6 @@ const SiteMetadata = ({ pathname, locale, feedUrl }) => {
     }
   `)
 
-  console.log('xxx', feedUrl)
-
   let feed = ''
   if (feedUrl) {
     feed = <link rel="alternate" type="application/rss+xml" href={`${siteUrl}${feedUrl}`} />
