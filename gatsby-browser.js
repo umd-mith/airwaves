@@ -3,7 +3,9 @@ const { Index } = require('./src/search')
 exports.onClientEntry = function(args, options) {
 
   // get the index
+  
 
+  console.log(`loading ${__PATH_PREFIX__}/data/flexsearch.json`)
   fetch(`${__PATH_PREFIX__}/data/flexsearch.json`)
     .then(function(response) {
       return response.json()
@@ -12,6 +14,7 @@ exports.onClientEntry = function(args, options) {
       const index = new Index()
       index.import(data)
       window.__INDEX__ = index
+      console.log(`created index`)
     })
     .catch(function(e) {
       console.error(`Failed fetch search index: ${e}`)

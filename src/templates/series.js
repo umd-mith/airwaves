@@ -10,7 +10,7 @@ export default ({ data }) => {
   const siteUrl = data.allSite.nodes[0].siteMetadata.siteUrl
   const episodes = data.allEpisodesJson.edges.map(({node}) => {
     return (
-      <div className='episode'>
+      <div key={node.id} className='episode'>
         <span className="ep-date">{node.broadcastDate}</span> 
         <span className="ep-title"><Link to={`/episode/${node.aapbId}/`}>{node.title}</Link></span> 
         <span className="ep-time">{formatDuration(node.duration)}</span>

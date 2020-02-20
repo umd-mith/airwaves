@@ -25,6 +25,7 @@ async function indexPages() {
     const pages = await getPages(doc)
     for (let page of pages) {
       index.addPage(page)
+      saveOCR(page)
     }
     console.log(`indexed ${doc.iaId} with ${pages.length} pages`)
   })
@@ -32,11 +33,7 @@ async function indexPages() {
 
 async function indexEpisodes() {
   await indexJson(episodesPath, ep => {
-    index.addEpisode({
-      id: ep.id,
-      title: ep.title,
-      description: ep.description
-    })
+    index.addEpisode(ep)
     console.log('indexed episode:', ep.id)
   })
 }
@@ -46,6 +43,16 @@ async function indexJson(jsonPath, f) {
   for (let i=0; i < data.length; i += 1) {
     await f(data[i])
   }
+}
+
+function saveOCR(page) {
+  const [docId, seqId] = page.id.split('-')
+  const dirName = `static/data/ocr/${docId}`
+  if (! fs.existsSync(dirName)) {
+    fs.mkdirSync(dirName, {recursive: true})
+  }
+  const path = `${dirName}/${seqId}.json`
+  fs.writeFileSync(path, JSON.stringify(page, null, 2))
 }
 
 if (require.main === module) {

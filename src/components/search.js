@@ -11,9 +11,10 @@ class Search extends Component {
 
     this.state = {
       category: 'all',
-      numResults: 100,
+      numResults: 25,
       query: this.props.query,
-      activeFacets: []
+      activeFacets: [],
+      lastUpdate: new Date()
     }
 
     // initialize active facets with any that were passed in from the URL query string
@@ -22,6 +23,15 @@ class Search extends Component {
     this.query = React.createRef()
     this.updateFacets = this.updateFacets.bind(this)
     this.checkForEnter = this.checkForEnter.bind(this)
+    this.handleScroll = this.handleScroll.bind(this)
+  }
+
+  componentDidMount() {
+    document.addEventListener('scroll', this.handleScroll)
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('scroll', this.handleScroll)
   }
 
   render() {
@@ -60,13 +70,29 @@ class Search extends Component {
             updateFacets={this.updateFacets} />
           <article className="results">
             <div className="facet-panel item-sort">[sorting stuff here]</div>
-            <div className="result-panel">
-              <ResultList />
+            <div id="results" className="result-panel">
+              <ResultList onScroll={this.handleScroll} />
             </div>
           </article>
         </section> 
       </div>
 	  )
+  }
+
+  handleScroll() {
+    const now = new Date()
+    const millisSinceLastUpdate = now - this.state.lastUpdate
+    // XXX: remove if not used
+    const bottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500
+    const percentViewed = (window.innerHeight = window.scrollY) / document.body.offsetHeight
+    console.log(window.innerHeight, window.scrollY, document.body.offsetHeight, percentViewed)
+    if (percentViewed > .4 && millisSinceLastUpdate > 5000) {
+      console.log(`getting more results ${this.state.numResults + 10}`)
+      this.setState({
+        numResults: this.state.numResults + 10,
+        lastUpdate: now
+      })
+    }
   }
 
   checkForEnter(event) {
@@ -95,16 +121,15 @@ class Search extends Component {
     // if we have a query search the index
     if (query) {
       const q = {
-        field: ['text', 'title', 'description'], 
+        field: ['text', 'title', 'description', 'series'], 
         query: query,
         bool: 'or'
       }
-      
-      results = window.__INDEX__
-        .search(q)
-        .map(r => this.getFullResult(r))
+
+      results = window.__INDEX__.search(q)
+      results = results.map(r => this.getFullResult(r))
     }
-   
+  
     // if we don't have a query but we do have some facets get everything
     else if (facets.length > 0) {
       for (const d of window.__DOCUMENTS__.values()) {

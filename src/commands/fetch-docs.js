@@ -90,6 +90,7 @@ const docMap = {
 async function downloadOcr(iaId) {
   const ocrPath = path.join('docs', 'ocr', iaId, 'ocr.xml.gz')
   if (fs.existsSync(ocrPath)) {
+    console.log(`ocr already downloaded ${ocrPath}`)
     return ocrPath
   }
   const url = `https://s3.us.archive.org/${iaId}/${iaId}_abbyy.gz`
@@ -100,14 +101,14 @@ async function downloadOcr(iaId) {
       return null
     }
     const buffer = await resp.buffer()
-    const dir = path.join('static','docs', iaId)
     if (! fs.existsSync(path.dirname(ocrPath))) {
       fs.mkdirSync(path.dirname(ocrPath), {recursive: true})
     }
-    fs.writeFileSync(path.join(dir, 'ocr.xml.gz'), buffer)
+    fs.writeFileSync(ocrPath, buffer)
+    console.log(`downloaded OCR ${url} -> ${ocrPath}`)
     return ocrPath
   } catch(e) {
-    console.log(`unable to download ocr ${url}`)
+    console.log(`unable to download ocr ${url}: ${e}`)
     return null
   }
 }
