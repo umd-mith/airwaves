@@ -89,7 +89,7 @@ const IndexPage = () => (
               <span className="caption">American Jazz in the 60s</span>
             </Link>
           </div>
-          <Link to="./exhibits/" className="button">More Exhibits</Link>
+          <Link to="/exhibits/" className="button">More Exhibits</Link>
         </article>                             
       </section>
     </div>

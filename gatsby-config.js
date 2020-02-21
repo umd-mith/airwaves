@@ -33,7 +33,8 @@ module.exports = {
       options: {
         path: path.resolve(__dirname, 'static/data/'),
         ignore: [
-          path.resolve(__dirname, 'static/data/flexsearch.json')
+          path.resolve(__dirname, 'static/data/flexsearch.json'),
+          path.resolve(__dirname, 'static/data/ocr')
         ]
       }
     },

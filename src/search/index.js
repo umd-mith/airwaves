@@ -34,7 +34,15 @@ class Index {
             resolution: 1,
             filter: stopwords
           },
-        }
+          series: {
+            encode: "extra",
+            tokenize: "strict",
+            threshold: 0,
+            resolution: 1,
+            filter: stopwords
+          }
+        },
+        store: "id"
       }
     })
   }
@@ -44,16 +52,22 @@ class Index {
   }
 
   addEpisode(episode) {
-    return this.index.add({
+    const doc = {
       id: episode.id,
       title: episode.title,
       description: episode.description,
-    })
+      series: episode.series ? episode.series.title : '',
+      text: ''
+    }
+    return this.index.add(doc)
   }
 
   addPage(page) {
     return this.index.add({
       id: page.id,
+      title: '',
+      description: '',
+      series: '',
       text: page.text,
     })
   }
@@ -62,6 +76,9 @@ class Index {
     return this.index.add({
       id: doc.id,
       title: doc.title,
+      description: '',
+      series: '',
+      text: ''
     })
   }
 
