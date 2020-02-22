@@ -51,7 +51,7 @@
     "fetch-data": "npm run fetch-authorities && npm run fetch-docs && npm run fetch-episodes",
     "index": "node --harmony src/commands/index.js",
     "audit": "node --harmony src/commands/audit.js",
-    "publish": "npm run build && git subtree push --prefix public origin gh-pages"
+    "publish": "npm run build ; git add public ; git commit -m 'latest build' public ; git push ; git subtree push --prefix public origin gh-pages"
   },
   "repository": {
     "type": "git",
