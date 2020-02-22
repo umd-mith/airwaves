@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link, withPrefix } from 'gatsby'
 import Highlighter from 'react-highlight-words'
+import { excerpt } from '../utils'
+
 import './search-result.css'
 
 class Document extends React.Component {
@@ -25,8 +27,9 @@ class Document extends React.Component {
           return response.json()
         })
         .then(data => {
-          if (data.text && this._isMounted) {
-            this.setState({text: data.text})
+          let text = data.text
+          if (text && this._isMounted) {
+            this.setState({text: excerpt(text, this.props.query, 500)})
           }
         })
     }
