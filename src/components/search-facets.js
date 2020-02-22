@@ -20,7 +20,7 @@ class SearchFacets extends Component {
           <dl className="facet-list">
             {facet.counts.map((f, i) => (
               <Facet
-                key={`${facet.name}-${f[0]}`}
+                key={`${this.props.query}-${facet.name}-${f[0]}`}
                 activeFacets={this.props.activeFacets}
                 updateFacets={this.props.updateFacets}
                 type={facet.name}

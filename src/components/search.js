@@ -11,8 +11,9 @@ class Search extends Component {
 
     this.state = {
       category: 'all',
-      numResults: 25,
       query: this.props.query,
+      results: [],
+      displayedResults: [],
       activeFacets: [],
       lastUpdate: new Date()
     }
@@ -27,6 +28,7 @@ class Search extends Component {
   }
 
   componentDidMount() {
+    this.search()
     document.addEventListener('scroll', this.handleScroll)
   }
 
@@ -35,21 +37,7 @@ class Search extends Component {
   }
 
   render() {
-
-    let results = []
-    results = this.search(this.state.query, this.state.activeFacets)
-
-    const ResultList = () => {
-      if (results.length > 0) {
-        return results.slice(0, this.state.numResults).map((item, i) => {
-          return <SearchResult item={item} query={this.state.query} key={`result-${i}`} />
-        })
-      } else {
-        return ''
-      }
-    }
-
-    const resultsHidden = results.length > 0 ? '' : 'hidden'
+    const resultsHidden = this.state.displayedResults.length > 0 ? '' : 'hidden'
 
     return (
       <div className="page-search search">
@@ -65,13 +53,14 @@ class Search extends Component {
         </section>
         <section className={`columns col_1_3 ${resultsHidden}`}>
           <SearchFacets 
-            results={results}
+            results={this.state.results}
+            query={this.state.query}
             activeFacets={this.state.activeFacets}
             updateFacets={this.updateFacets} />
           <article className="results">
             <div className="facet-panel item-sort">[sorting stuff here]</div>
             <div id="results" className="result-panel">
-              <ResultList onScroll={this.handleScroll} />
+              {this.state.displayedResults}
             </div>
           </article>
         </section> 
@@ -81,16 +70,32 @@ class Search extends Component {
 
   handleScroll() {
     const now = new Date()
-    const millisSinceLastUpdate = now - this.state.lastUpdate
-    // XXX: remove if not used
-    const bottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500
+    const lastUpdate = this.state.lastUpdate
+
+    const millisSinceLastUpdate = now - lastUpdate
     const percentViewed = (window.innerHeight = window.scrollY) / document.body.offsetHeight
-    console.log(window.innerHeight, window.scrollY, document.body.offsetHeight, percentViewed)
-    if (percentViewed > .4 && millisSinceLastUpdate > 5000) {
-      console.log(`getting more results ${this.state.numResults + 10}`)
+    const results = this.state.results
+    const displayedResults = this.state.displayedResults
+    //console.log(percentViewed, millisSinceLastUpdate, displayedResults.length, results.length)
+
+    if (percentViewed > .8 
+        && millisSinceLastUpdate > 5000 
+        && displayedResults.length > 0
+        && results.length > displayedResults.length) {
+      const start = displayedResults.length
+      const end = start + 25
+      console.log(`getting more results ${start}-${end}`)
+      results.slice(start, end).forEach((item, i) => {
+        displayedResults.push(
+          <SearchResult 
+            item={item}
+            query={this.state.query}
+            key={`result-${start + i}`} />
+        )
+      })
       this.setState({
-        numResults: this.state.numResults + 10,
-        lastUpdate: now
+        lastUpdate: now,
+        displayedResults: displayedResults
       })
     }
   }
@@ -99,23 +104,27 @@ class Search extends Component {
     if (event.key === 'Enter') {
       const q = this.query.current.value
       navigate(`?q=${q}`, {replace: true})
-      this.setState({query: q})
+      this.setState({activeFacets: []})
+      this.search(q, [])
       event.preventDefault()
     }
   }
 
   updateFacets(facet) {
+    let activeFacets = []
     if (facet.active) {
-      this.setState({activeFacets: [facet, ...this.state.activeFacets]})
+      activeFacets = [facet, ...this.state.activeFacets]
     } else {
-      const activeFacets = this.state.activeFacets.filter(f => (
+      activeFacets = this.state.activeFacets.filter(f => (
         f.type !== facet.type || f.name !== facet.name
       ))
-      this.setState({ activeFacets })
     }
+    this.search(this.state.query, activeFacets)
   }
 
   search(query, facets) {
+    query = query || this.state.query
+    facets = facets || this.state.activeFacets
     let results = []
 
     // if we have a query search the index
@@ -140,8 +149,24 @@ class Search extends Component {
       }
     }
 
-    // return records after filtering with any active facets
-    return results.filter(r => this.recordHasFacets(r, facets))
+    // apply facets
+    results = results.filter(r => this.recordHasFacets(r, facets))
+
+    // now generate the initial list of displayed results
+    const displayedResults = results.slice(0, 25).map((item, i) => (
+      <SearchResult 
+        item={item}
+        query={query}
+        key={`result-${i}`} />
+    ))
+
+    // ready to update state!
+    this.setState({
+      query: query,
+      activeFacets: facets,
+      results: results,
+      displayedResults: displayedResults,
+    })
   }
 
   getFullResult(r) {
