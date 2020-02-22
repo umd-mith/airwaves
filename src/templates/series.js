@@ -33,7 +33,7 @@ export default ({ data }) => {
     node.genre.forEach(g => {
       genres.add(g.name)
     })
-    times.add(node.decade)
+    if (node.decade) times.add(node.decade)
 
     return (
       <div key={node.aapbId} className='episode'>
@@ -79,16 +79,11 @@ export default ({ data }) => {
         <section className="columns col_full">
           <article className="pgm-meta">
             <dl>
-              <dt>Subjects</dt>
-              <dd>{displayMetadataValues(subjects, 'subject')}</dd>
-              <dt>Creators</dt>
-              <dd>{displayMetadataValues(creators, 'creator')}</dd>
-              <dt>Contributors</dt>
-              <dd>{displayMetadataValues(contributors, 'contributor')}</dd>
-              <dt>Genres</dt>
-              <dd>{displayMetadataValues(genres, 'genre')}</dd>
-              <dt>Time Period</dt>
-              <dd>{displayMetadataValues(times, 'decade')}</dd>
+              {displayMetadataValues(subjects, 'subject', 'Subjects')}
+              {displayMetadataValues(creators, 'creator', 'Creators')}
+              {displayMetadataValues(contributors, 'contributor', 'Contributors')}
+              {displayMetadataValues(genres, 'genre', 'Genres')}
+              {displayMetadataValues(times, 'decade', 'Time Periods')}
             </dl>
             <div title={`Podcast URL for ${series.title}`}>
               <a href={`${siteUrl}/rss/${series.id}.xml`}>
@@ -103,13 +98,22 @@ export default ({ data }) => {
   )
 }
 
-function displayMetadataValues(s, name) {
+function displayMetadataValues(s, facetName, facetTitle) {
   let l = Array.from(s.values()).sort()
   l = l.map((v, i) => [
     i > 0 && " ; ",
-    <Link key={`${name}:${v}`} to={`/search/?f=${name}:${v}`}>{v}</Link>
+    <Link key={`${facetName}:${v}`} to={`/search/?f=${facetName}:${v}`}>{v}</Link>
   ])
-  return l
+  if (l.length > 0) {
+    return (
+      <>
+        <dt>{facetTitle}</dt>
+        <dd>{l}</dd>
+      </>
+    )
+  } else {
+      return ''
+  }
 }
 
 export const query = graphql`
