@@ -67,7 +67,7 @@ const Episode = ({ data }) => {
   let genres = ""
   if (episode.genre) {
     genres = episode.genre.map(g => {
-      return <div key={`genre-${g.name}`}><Link to={`/#${g.name}`}>{g.name}</Link></div>
+      return <div key={`genre-${g.name}`}><Link to={`/search/?f=genre:${g.name}`}>{g.name}</Link></div>
     })
   }
 

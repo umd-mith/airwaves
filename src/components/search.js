@@ -223,6 +223,14 @@ class Search extends Component {
         }
       }
 
+      else if (facet.type === 'genre') {
+        if (! r.genre) {
+          return false
+        } else if (! r.genre.find(g => g.name === facet.name)) {
+          return false
+        }
+      }
+
       else if (facet.type === 'decade') {
         if (! r.decade) {
           return false
