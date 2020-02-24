@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import { graphql, Link } from 'gatsby'
 import { formatDuration } from '../utils.js'
-import Feed from '../svg/feed.svg'
+import HeadsetIcon from '@material-ui/icons/Headset';
 import './series.css'
 
 export default ({ data }) => {
@@ -85,9 +85,13 @@ export default ({ data }) => {
               {displayMetadataValues(genres, 'genre', 'Genres')}
               {displayMetadataValues(times, 'decade', 'Time Periods')}
             </dl>
-            <div title={`Podcast URL for ${series.title}`}>
+            <br />
+            <br />
+            <div className="podcast" title={`Podcast URL for ${series.title}`}>
               <a href={`${siteUrl}/rss/${series.id}.xml`}>
-                <Feed width="50" />
+                <button>
+                Subscribe to the <b>{series.title}</b> Podcast! <HeadsetIcon />
+                </button>
               </a>
             </div>
           </article>

@@ -97,10 +97,9 @@ async function series(createPage, graphql) {
 async function rss(graphql) {
 
   // only create rss if the directory isn't there
-  if (fs.existsSync('./static/rss')) {
-    return
+  if (! fs.existsSync('./static/rss')) {
+    fs.mkdirSync('./static/rss')
   }
-  fs.mkdirSync('./static/rss')
 
   const results = await graphql(`
   {
@@ -108,6 +107,7 @@ async function rss(graphql) {
       nodes {
         siteMetadata {
           siteUrl
+          description
         }
       }
     }
@@ -120,6 +120,7 @@ async function rss(graphql) {
       nodes {
         id
         title
+        description
         episodes {
           aapbId
           title
@@ -139,16 +140,27 @@ async function rss(graphql) {
   `)
 
   const siteUrl = results.data.allSite.nodes[0].siteMetadata.siteUrl
+  const description = results.data.allSite.nodes[0].siteMetadata.description
 
   results.data.allSeriesJson.nodes.forEach(series => {
     const feedPath = `./static/rss/${series.id}.xml`
-    const feedUrl = `https://umd-mith.github.io/airwaves/rss/${series.id}.xml`
+    const imageUrl = `${siteUrl}/images/podcast.png`
+    const feedUrl = `${siteUrl}/rss/${series.id}.xml`
+    const seriesUrl = `${siteUrl}/programs/${series.id}/`
+
+    let seriesDescription = series.description ? series.description : ''
+    if (seriesDescription) {
+      seriesDescription += '<br /><br />' + description
+    } else {
+      seriesDescription = description
+    }
 
     const feed = new RSS({
       title: series.title,
-      description: series.description,
+      description: `${series.description}<br /><br />${description}`,
       feed_url: feedUrl,
-      site_url: siteUrl,
+      site_url: seriesUrl,
+      image_url: imageUrl,
       managingEditor: "National Association of Educational Broadcasters"
     })
 
@@ -170,8 +182,6 @@ async function rss(graphql) {
         ]
       })
     })
-
-    console.log(feedPath)
     fs.writeFileSync(feedPath, feed.xml()) 
   })
 
