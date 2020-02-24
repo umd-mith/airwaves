@@ -142,7 +142,7 @@ async function rss(graphql) {
   const siteUrl = results.data.allSite.nodes[0].siteMetadata.siteUrl
   const description = results.data.allSite.nodes[0].siteMetadata.description
 
-  const opml = fs.createWriteStream('./static/rss/subscriptions.opml')
+  const opml = fs.createWriteStream('./static/rss/programs.opml')
   opml.write(`<?xml version="1.0" encoding="UTF-8"?>\n<opml version="1.0">\n  <head>\n    <title>Unlocking the Airwaves Podcasts</title>\n  </head>\n  <body>`)
 
   results.data.allSeriesJson.nodes.forEach(series => {
