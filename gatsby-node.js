@@ -142,6 +142,9 @@ async function rss(graphql) {
   const siteUrl = results.data.allSite.nodes[0].siteMetadata.siteUrl
   const description = results.data.allSite.nodes[0].siteMetadata.description
 
+  const opml = fs.createWriteStream('./static/rss/subscriptions.opml')
+  opml.write(`<?xml version="1.0" encoding="UTF-8"?>\n<opml version="1.0">\n  <head>\n    <title>Unlocking the Airwaves Podcasts</title>\n  </head>\n  <body>`)
+
   results.data.allSeriesJson.nodes.forEach(series => {
     const feedPath = `./static/rss/${series.id}.xml`
     const imageUrl = `${siteUrl}/images/podcast.png`
@@ -182,9 +185,16 @@ async function rss(graphql) {
         ]
       })
     })
+
+    // write out the podcast url
     fs.writeFileSync(feedPath, feed.xml()) 
+
+    // add to opml file
+    opml.write(`    <outline type="rss" text="${series.title}" title="${series.title}" xmlUrl="${feedUrl}" htmlUrl="${seriesUrl}"/>\n`)
   })
 
+  opml.write('  </body>\n</opml>\n')
+  opml.end()
 }
 
 exports.sourceNodes = ({ actions, schema }) => {
