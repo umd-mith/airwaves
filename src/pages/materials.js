@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { graphql } from "gatsby"
+import { withPrefix, graphql } from "gatsby"
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
@@ -168,7 +168,7 @@ class MaterialsPage extends Component {
                                     Folder {folder.number} &mdash; {folder.title}
                                   </div>
                                   <div className="folder-link">
-                                    <a target="_blank" href={`/document/${folder.id}`} className="button" >View Folder</a>
+                                    <a target="_blank" href={withPrefix(`/document/${folder.id}`)} className="button" >View Folder</a>
                                   </div>
                                 </div>
                               </ListItemText>
