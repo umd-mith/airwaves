@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
+import { graphql } from "gatsby"
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
@@ -34,6 +34,8 @@ class MaterialsPage extends Component {
   }
 
   render() {
+    const materials = this.props.data.allFindingAidJson.nodes
+
     return (
       <Layout>
 
@@ -138,159 +140,50 @@ class MaterialsPage extends Component {
                   <ExpandLess />
                 </ListItem>
                 <Collapse className="li-children" in={this.state.i5} timeout="auto" unmountOnExit>
+
                   <List disablePadding>
-                    <ListItem id="i5a" component="li" button onClick={this.handleClick}>
-                      <ListItemText>Central Correspondence Files</ListItemText>
+                  {materials.map(series => (
+                    <>
+                    <ListItem key={series.title} id={series.title} component="li" button onClick={this.handleClick}>
+                      <ListItemText>{series.title}</ListItemText>
                       <ExpandMore />
                       <ExpandLess />
                     </ListItem>
-                    <Collapse className="li-text" in={this.state.i5a} timeout="auto" unmountOnExit>
-                      <dl>
-                      <dt><strong>Container</strong></dt>
-                      <dd className="list-header"><strong>Title</strong></dd>
-                      <dt id="fabid-d1e30"><strong>U.S. Mss 76AF</strong></dt>
-                      <dd className="list-header"><strong>Series:</strong> Central Correspondence Files</dd>
-                      <dt id="fabid-d1e29">Box 1<br />
-                        Folder 1-6</dt>
-                      <dd>1925-1935</dd>
-                      <dt id="fabid-d1e28">Box 2<br />
-                        Folder 1-7</dt>
-                      <dd>1936-1940</dd>
-                      <dt id="fabid-d1e27">Box 3<br />
-                        Folder 1-9</dt>
-                      <dd>1941-1945</dd>
-                      <dt id="fabid-d1e26">Box 4<br />
-                        Folder 1-8</dt>
-                      <dd>1946-1948</dd>
-                      <dt id="fabid-d1e25">Box 5<br />
-                        Folder 1-6</dt>
-                      <dd>1949-1950 June</dd>
-                      <dt id="fabid-d1e24">Box 6<br />
-                        Folder 1-8</dt>
-                      <dd>1950 July-1953 August</dd>
-                      <dt id="fabid-d1e23">Box 7<br />
-                        Folder 1-6</dt>
-                      <dd>1953 September-1955 March</dd>
-                      <dt id="fabid-d1e22">Box 8<br />
-                        Folder 1-7</dt>
-                      <dd>1955 April-1958 February</dd>
-                      <dt id="fabid-d1e21">Box 9<br />
-                        Folder 1-7</dt>
-                      <dd>1958 March-1961 June</dd>
-                      <dt id="fabid-d1e20">Box 10<br />
-                        Folder 1-9</dt>
-                      <dd>1961-1962 July</dd>
-                      <dt id="fabid-d1e19">Box 11<br />
-                        Folder 1-11</dt>
-                      <dd>1963-1966 August</dd>
-                      <dt id="fabid-d1e18">Box 12<br />
-                        Folder 1-9</dt>
-                      <dd>1966 September-1968</dd>
-                      <dt id="fabid-d1e17">Box 13<br />
-                        Folder 1-13</dt>
-                      <dd>1969-1971</dd>
-                      <dt id="fabid-d1e16">Box 14<br />
-                        Folder 1-2</dt>
-                      <dd>1972</dd>
-                      </dl>
-                    </Collapse>
-    
-                    <ListItem id="i5b" component="li" button onClick={this.handleClick}>
-                      <ListItemText>William G. Harley Speeches</ListItemText>
-                      <ExpandMore />
-                      <ExpandLess />
-                    </ListItem>
-                    <Collapse className="li-text" in={this.state.i5b} timeout="auto" unmountOnExit>
-                      text content here
-                    </Collapse>
-    
-                    <ListItem id="i5c" component="li" button onClick={this.handleClick}>
-                      <ListItemText>Subject Files</ListItemText>
-                      <ExpandMore />
-                      <ExpandLess />
-                    </ListItem>
-                    <Collapse className="li-children" in={this.state.i5c} timeout="auto" unmountOnExit>
+                    <Collapse className="li-children" in={this.state[series.title]} timeout="auto" unmountOnExit>
                       <List disablePadding dense>
-                        <ListItem id="i5c1" component="li" button onClick={this.handleClick}>
-                          <ListItemText>Box 17 &middot; Folder 4 &mdash; Abbot, Waldo, 1953-1954</ListItemText>
+                      {series.boxes.map(box => (
+                        <>
+                        <ListItem key={`${series.title}-${box.title}`} id={`${series.title}-${box.title}`} component="li" button onClick={this.handleClick}>
+                          <ListItemText>Box {box.title}</ListItemText>
                           <ExpandMore />
                           <ExpandLess />
                         </ListItem>
-                        <Collapse className="li-box" in={this.state.i5c1} timeout="auto" unmountOnExit>
-                          <p>description here</p>
-                          <Link to="" className="button" >View Folder</Link>
+                        <Collapse className="li-children" in={this.state[`${series.title}-${box.title}`]} timeout="auto" unmountOnExit>
+                          <List disablePadding dense>
+                          {box.folders.map(folder => (
+                            <ListItem key={`${series.title}-${box.title}-${folder.title}`} component="li">
+                              <ListItemText>
+                                <div className="folder">
+                                  <div className="folder-title">
+                                    Folder {folder.number} &mdash; {folder.title}
+                                  </div>
+                                  <div className="folder-link">
+                                    <a target="_blank" href={`/document/${folder.id}`} className="button" >View Folder</a>
+                                  </div>
+                                </div>
+                              </ListItemText>
+                            </ListItem> 
+                          ))}
+                          </List>
                         </Collapse>
-                        <ListItem id="i5c2" component="li" button onClick={this.handleClick}>
-                          <ListItemText>Box 17 &middot; Folder 5 &mdash; Academic Leader, 1956</ListItemText>
-                          <ExpandMore />
-                          <ExpandLess />
-                        </ListItem>
-                        <Collapse className="li-box" in={this.state.i5c2} timeout="auto" unmountOnExit>
-                          <p>description here</p>
-                          <Link to="" className="button" >View Folder</Link>
-                        </Collapse> 
-                        <ListItem id="i5c3" component="li" button onClick={this.handleClick}>
-                          <ListItemText>Box 34 &middot; Folder 4 &mdash; Public Relations, 1954-1965</ListItemText>
-                          <ExpandMore />
-                          <ExpandLess />
-                        </ListItem>
-                        <Collapse className="li-box" in={this.state.i5c3} timeout="auto" unmountOnExit>
-                          <p>1958 to 1960 correspondence regarding the NAEB public relations committee, with membership publications and meeting minutes. Includes discussion of membership promotion, public relations efforts by member stations, and the possibility of a National Educational Radio and Television Week.</p>
-                          <Link to="./document/naeb-b034-f06/#1" className="button" >View Folder</Link>
-                        </Collapse>    
+                        </>
+                      ))}
                       </List>
                     </Collapse>
-    
-                    <ListItem id="i5d" button onClick={this.handleClick}>
-                      <ListItemText>National Educational Radio Files</ListItemText>
-                      <ExpandMore />
-                      <ExpandLess />
-                    </ListItem>
-                    <Collapse in={this.state.i5d} timeout="auto" unmountOnExit>
-                      <List disablePadding dense>
-                        <ListItem id="i5d1" component="li" button onClick={this.handleClick}>
-                          <ListItemText>Box Title</ListItemText>
-                        </ListItem>
-                        <Collapse className="li-box" in={this.state.i5d1} timeout="auto" unmountOnExit>
-                          <p>description here</p>
-                          <Link to="" className="button" >View Folder</Link>
-                        </Collapse>
-                      </List>
-                    </Collapse>
-                    <ListItem id="i5e" button onClick={this.handleClick}>
-                      <ListItemText>Office of Research and Development Files</ListItemText>
-                      <ExpandMore />
-                      <ExpandLess />
-                    </ListItem>
-                    <Collapse in={this.state.i5e} timeout="auto" unmountOnExit>
-                      <List disablePadding dense>
-                        <ListItem id="i5e1" component="li" button onClick={this.handleClick}>
-                          <ListItemText>Box Title</ListItemText>
-                        </ListItem>
-                        <Collapse className="li-box" in={this.state.i5e1} timeout="auto" unmountOnExit>
-                          <p>description here</p>
-                          <Link to="" className="button" >View Folder</Link>
-                        </Collapse>
-                      </List>
-                    </Collapse>
-                    <ListItem id="i5f" button onClick={this.handleClick}>
-                      <ListItemText>Publication and Newsletter Files</ListItemText>
-                      <ExpandMore />
-                      <ExpandLess />
-                    </ListItem>
-                    <Collapse in={this.state.i5f} timeout="auto" unmountOnExit>
-                      <List disablePadding dense>
-                        <ListItem id="i5f1" component="li" button onClick={this.handleClick}>
-                          <ListItemText>Box Title</ListItemText>
-                        </ListItem>
-                        <Collapse className="li-box" in={this.state.i5f1} timeout="auto" unmountOnExit>
-                          <p>description here</p>
-                          <Link to="" className="button" >View Folder</Link>
-                        </Collapse>
-                      </List>
-                    </Collapse>
-    
+                    </>
+                  ))}
                   </List>
+
                 </Collapse>
               </List>
             </article>
@@ -301,5 +194,23 @@ class MaterialsPage extends Component {
     )
   }
 }
+
+export const query = graphql`
+  query {
+    allFindingAidJson {
+      nodes {
+        title
+        boxes {
+          title
+          folders {
+            id
+            title
+            number
+          }
+        }
+      }
+    }
+  }
+`
 
 export default MaterialsPage

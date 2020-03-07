@@ -26,6 +26,10 @@ async function episodes(createPage, graphql) {
 
   results.data.allEpisodesJson.edges.forEach(edge => {
     const episode = edge.node
+    if (! episode.aapbId) {
+      console.log('episode missing aapbId', episode)
+      return
+    }
     createPage({
       path: `/episode/${episode.aapbId}/`,
       component: require.resolve(`./src/templates/episode.js`),
@@ -94,7 +98,7 @@ async function series(createPage, graphql) {
 
 }
 
-async function rss(graphql) {
+async function rss(graphql, force=false) {
 
   // only create rss if the directory isn't there
   if (! fs.existsSync('./static/rss')) {
@@ -151,43 +155,48 @@ async function rss(graphql) {
     const feedUrl = `${siteUrl}/rss/${series.id}.xml`
     const seriesUrl = `${siteUrl}/programs/${series.id}/`
 
-    let seriesDescription = series.description ? series.description : ''
-    if (seriesDescription) {
-      seriesDescription += '<br /><br />' + description
-    } else {
-      seriesDescription = description
-    }
+    // only write the RSS file if it's not there already
+    // or we have been asked to force a rewrite.
 
-    const feed = new RSS({
-      title: series.title,
-      description: `${series.description}<br /><br />${description}`,
-      feed_url: feedUrl,
-      site_url: seriesUrl,
-      image_url: imageUrl,
-      managingEditor: "National Association of Educational Broadcasters"
-    })
+    if (! fs.existsSync(feedPath) || force) {
+      let seriesDescription = series.description ? series.description : ''
+      if (seriesDescription) {
+        seriesDescription += '<br /><br />' + description
+      } else {
+        seriesDescription = description
+      }
 
-    series.episodes.forEach(episode => {
-      const url = `${siteUrl}/episode/${episode.aapbId}/`
-      const mp3Url = `https://mith-uta.s3.amazonaws.com/data/audio/${episode.aapbId}.mp3`
-      feed.item({
-        title: episode.title,
-        description: episode.description,
-        url: url,
-        date: episode.broadcastDate,
-        enclosure: {
-          url: mp3Url,
-          type: 'audio/mp3'
-        },
-        custom_elements: [
-          {'dc:creator': safeMap(episode.creator, c => c.name)},
-          {'dc:subject': safeMap(episode.subject, s => s.name)},
-        ]
+      const feed = new RSS({
+        title: series.title,
+        description: `${series.description}<br /><br />${description}`,
+        feed_url: feedUrl,
+        site_url: seriesUrl,
+        image_url: imageUrl,
+        managingEditor: "National Association of Educational Broadcasters"
       })
-    })
 
-    // write out the podcast url
-    fs.writeFileSync(feedPath, feed.xml()) 
+      series.episodes.forEach(episode => {
+        const url = `${siteUrl}/episode/${episode.aapbId}/`
+        const mp3Url = `https://mith-uta.s3.amazonaws.com/data/audio/${episode.aapbId}.mp3`
+        feed.item({
+          title: episode.title,
+          description: episode.description,
+          url: url,
+          date: episode.broadcastDate,
+          enclosure: {
+            url: mp3Url,
+            type: 'audio/mp3'
+          },
+          custom_elements: [
+            {'dc:creator': safeMap(episode.creator, c => c.name)},
+            {'dc:subject': safeMap(episode.subject, s => s.name)},
+          ]
+        })
+      })
+
+      // write out the podcast url
+      fs.writeFileSync(feedPath, feed.xml()) 
+    }
 
     // add to opml file
     opml.write(`    <outline type="rss" text="${series.title}" title="${series.title}" xmlUrl="${feedUrl}" htmlUrl="${seriesUrl}"/>\n`)

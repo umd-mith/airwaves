@@ -63,3 +63,22 @@ article .li-box .MuiCollapse-wrapperInner {
   margin-top: 0;
 }
 
+.folder {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.folder-title {
+  width: 80%;
+}
+
+.folder-link {
+  width: 20%;
+  text-align: right;
+}
+
+.folder-link a.button {
+  padding: 2px 3px 2px 3px; 
+  margin: 0px;
+}

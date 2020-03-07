@@ -20,10 +20,12 @@ async function main() {
   }
 
   const docsWithOcr = docs.filter(d => d.ocrPath)
+  const findingAid = makeFindingAid(docsWithOcr)
 
   console.log(`${docs.length} documents in Airtable`)
   console.log(`${docsWithOcr.length} with OCR at Internet Archive`)
   writeJson(docsWithOcr, 'documents.json')
+  writeJson(findingAid, 'finding-aid.json')
 }
 
 const docMap = {
@@ -36,6 +38,7 @@ const docMap = {
     "Description": "description",
     "Rights": "rights",
     "Collection": "collection",
+    "Series": "series",
     "Series Relation": "relatedSeries",
     "Coverage (Temporal)": "temporal"
   },
@@ -84,7 +87,6 @@ const docMap = {
   },
 
   decade: "Date"
-
 }
 
 async function downloadOcr(iaId) {
@@ -93,10 +95,16 @@ async function downloadOcr(iaId) {
     console.log(`ocr already downloaded ${ocrPath}`)
     return ocrPath
   }
+  // XXX: remove me
+  return null
+
   const url = `https://s3.us.archive.org/${iaId}/${iaId}_abbyy.gz`
   try {
     const resp = await get(url, {keepalive: true, redirect: 'follow'})
-    if (resp.status != 200) {
+    if (resp.status == 404) {
+      console.log(`Document ${iaId} not digitized yet`)
+      return null
+    } else if (resp.status != 200) {
       console.log(`Error fetching OCR ${url}: ${resp.status}`)
       return null
     }
@@ -111,6 +119,78 @@ async function downloadOcr(iaId) {
     console.log(`unable to download ocr ${url}: ${e}`)
     return null
   }
+}
+
+function makeFindingAid(docs) {
+
+  // This is a pretty wacky function that walks through the documents in 
+  // Airtable and then builds up a hierarchical data structure of 
+  // series / boxes / folders based on the document properties. 
+
+  // First go through each document and build up a hierarchical dictionary
+  // of series / boxes / folders
+
+  const lookup = {}
+  for (const doc of docs) {
+
+    if (! lookup[doc.series]) {
+      lookup[doc.series] = {}
+    }
+
+    const series = lookup[doc.series]
+    if (! series[doc.box]) {
+      series[doc.box] = {}
+    }
+
+    const folder = series[doc.box]
+    if (! folder[doc.folder]) {
+      folder[doc.folder] = {
+        id: doc.iaId,
+        title: doc.title,
+        items: []
+      }
+    }
+
+  }
+
+  // It will be more convient to work with the series / boxes / folders
+  // data structure as lists of objects. So take a pass through the
+  // collected data and reshape it.
+
+  const findingAid = []
+  for (const seriesTitle in lookup) {
+    const series = {
+      title: seriesTitle, 
+      boxes: []
+    }
+
+    for (const boxNum in lookup[seriesTitle]) {
+      const box = {
+        title: boxNum,
+        folders: []
+      }
+
+      for (const folderNum in lookup[seriesTitle][boxNum]) {
+        const folder = {
+          number: folderNum,
+          id: lookup[seriesTitle][boxNum][folderNum].id,
+          title: lookup[seriesTitle][boxNum][folderNum].title
+        }
+
+        box.folders.push(folder)
+      }
+
+      box.folders.sort((a, b) => a.title.localeCompare(b.title))
+      series.boxes.push(box)
+    }
+
+    series.boxes.sort((a, b) => a.title.localeCompare(b.title))
+
+    findingAid.push(series)
+  }
+
+  findingAid.sort((a, b) => a.title.localeCompare(b.title))
+  return findingAid
 }
 
 if (require.main === module) {
