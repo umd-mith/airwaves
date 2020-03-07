@@ -21,7 +21,6 @@ class Document extends React.Component {
     if (this.props.item.page) {
       const item = this.props.item
       const url = withPrefix(`/data/ocr/${item.id}/${item.page}.json`)
-      console.log(url)
       fetch(url)
         .then(response => {
           return response.json()
