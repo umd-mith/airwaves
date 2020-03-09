@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import './document.css'
+import InternetArchive from '../images/internet-archive.jpg'
 
 import Layout from '../components/layout'
 
@@ -116,6 +117,11 @@ const Document = ({ data }) => {
           </article>
           <article id="doc-viewer">
             <Mirador config={miradorConfig} plugins={[]} />
+            <div className="internet-archive">
+              <a href={`https://archive.org/details/${doc.iaId}`}>
+                <img title="View this document at the Internet Archive" src={InternetArchive} />
+              </a>
+            </div>
           </article>
         </section>
       </div>
