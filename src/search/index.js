@@ -40,6 +40,13 @@ class Index {
             threshold: 0,
             resolution: 1,
             filter: stopwords
+          },
+          subject: {
+            encode: "extra",
+            tokenize: "strict",
+            threshold: 0,
+            resolution: 1,
+            filter: stopwords
           }
         },
         store: "id"
@@ -57,7 +64,8 @@ class Index {
       title: episode.title,
       description: episode.description,
       series: episode.series ? episode.series.title : '',
-      text: ''
+      text: '',
+      subject: encodeSubject(episode.subject)
     }
     return this.index.add(doc)
   }
@@ -69,6 +77,7 @@ class Index {
       description: '',
       series: '',
       text: page.text,
+      subject: encodeSubject(page.subject)
     })
   }
 
@@ -78,7 +87,8 @@ class Index {
       title: doc.title,
       description: '',
       series: '',
-      text: ''
+      text: '',
+      subject: encodeSubject(doc.subject)
     })
   }
 
@@ -92,5 +102,12 @@ class Index {
 
 }
 
+function encodeSubject(subject) {
+  if (subject) {
+    return JSON.stringify(subject.map(s => s.name))
+  } else {
+    return ''
+  }
+}
 
 module.exports = { Index }
