@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search renders correctly 1`] = `
+<div
+  className="page-search search"
+>
+  <section
+    className="leader"
+  >
+    <article
+      className=""
+    >
+      <input
+        onKeyPress={[Function]}
+        placeholder="Search"
+        type="text"
+      />
+    </article>
+  </section>
+  <section
+    className="columns col_1_3 hidden"
+  >
+    <article
+      className="facets"
+    >
+      <div
+        className="facet-panel item-total"
+      >
+        Refine Results 
+        <span
+          className="item-count"
+        >
+          0
+        </span>
+      </div>
+      <div
+        className="facet-panel facet-type"
+      >
+        <label
+          className="facet-label facet-label-type"
+        >
+          Filter By 
+          type
+        </label>
+        <dl
+          className="facet-list"
+        />
+      </div>
+      <div
+        className="facet-panel facet-subject"
+      >
+        <label
+          className="facet-label facet-label-subject"
+        >
+          Filter By 
+          subject
+        </label>
+        <dl
+          className="facet-list"
+        />
+      </div>
+      <div
+        className="facet-panel facet-creator"
+      >
+        <label
+          className="facet-label facet-label-creator"
+        >
+          Filter By 
+          creator
+        </label>
+        <dl
+          className="facet-list"
+        />
+      </div>
+      <div
+        className="facet-panel facet-contributor"
+      >
+        <label
+          className="facet-label facet-label-contributor"
+        >
+          Filter By 
+          contributor
+        </label>
+        <dl
+          className="facet-list"
+        />
+      </div>
+      <div
+        className="facet-panel facet-genre"
+      >
+        <label
+          className="facet-label facet-label-genre"
+        >
+          Filter By 
+          genre
+        </label>
+        <dl
+          className="facet-list"
+        />
+      </div>
+      <div
+        className="facet-panel facet-decade"
+      >
+        <label
+          className="facet-label facet-label-decade"
+        >
+          Filter By 
+          decade
+        </label>
+        <dl
+          className="facet-list"
+        />
+      </div>
+    </article>
+    <article
+      className="results"
+    >
+      <div
+        className="facet-panel item-sort"
+      >
+        [sorting stuff here]
+      </div>
+      <div
+        className="result-panel"
+        id="results"
+      />
+    </article>
+  </section>
+</div>
+`;
