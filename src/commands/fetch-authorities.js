@@ -1,7 +1,7 @@
 const {fetch, writeJson} = require('./mapper')
 
 async function main() {
-  const people = await fetch('Authorities (People & Entities)', peopleMap)
+  const people = await fetch('Authorities (People & Corporate Bodies)', peopleMap)
   writeJson(people, 'people.json')
 
   const subjects = await fetch('Authorities (Subjects)', subjectsMap)

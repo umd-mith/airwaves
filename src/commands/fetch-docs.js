@@ -9,8 +9,8 @@ if (! process.env.AIRTABLE_API_KEY) {
 }
 
 async function main() {
-  const folders = await fetch('Folder Level Metadata', docMap)
-  const items = await fetch('Item Level Metadata', docMap)
+  const folders = await fetch('Dublin Core Metadata (Paper-Folders)', docMap)
+  const items = await fetch('Dublin Core Metadata (Paper-Items)', docMap)
   const docs = folders.concat(items)
 
   for (let i = 0; i < docs.length; i += 1) {
