@@ -76,7 +76,6 @@ class Search extends Component {
     const percentViewed = (window.innerHeight = window.scrollY) / document.body.offsetHeight
     const results = this.state.results
     const displayedResults = this.state.displayedResults
-    //console.log(percentViewed, millisSinceLastUpdate, displayedResults.length, results.length)
 
     if (percentViewed > .8 
         && millisSinceLastUpdate > 5000 
@@ -84,7 +83,6 @@ class Search extends Component {
         && results.length > displayedResults.length) {
       const start = displayedResults.length
       const end = start + 25
-      console.log(`getting more results ${start}-${end}`)
       results.slice(start, end).forEach((item, i) => {
         displayedResults.push(
           <SearchResult 
@@ -130,7 +128,7 @@ class Search extends Component {
     // if we have a query search the index
     if (query) {
       const q = {
-        field: ['text', 'title', 'description', 'series'], 
+        field: ['text', 'title', 'description', 'series', 'subject'], 
         query: query,
         bool: 'or'
       }

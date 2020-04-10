@@ -40,7 +40,7 @@ const docMap = {
     "Collection": "collection",
     "Series": "series",
     "Series Relation": "relatedSeries",
-    "Coverage (Temporal)": "temporal"
+    "Coverage (Temporal)": "temporal",
   },
 
   lists: {
@@ -95,8 +95,6 @@ async function downloadOcr(iaId) {
     console.log(`ocr already downloaded ${ocrPath}`)
     return ocrPath
   }
-  // XXX: remove me
-  return null
 
   const url = `https://s3.us.archive.org/${iaId}/${iaId}_abbyy.gz`
   try {
