@@ -127,13 +127,7 @@ class Search extends Component {
 
     // if we have a query search the index
     if (query) {
-      const q = {
-        field: ['text', 'title', 'description', 'series', 'subject'], 
-        query: query,
-        bool: 'or'
-      }
-
-      results = window.__INDEX__.search(q)
+      results = window.__INDEX__.search(query)
       results = results.map(r => this.getFullResult(r))
     }
   
@@ -168,14 +162,14 @@ class Search extends Component {
   }
 
   getFullResult(r) {
-    if (r.id[0] === 'd') {
-      const [docId, page] = r.id.split('-')
+    if (r.ref[0] === 'd') {
+      const [docId, page] = r.ref.split('-')
       const result = {...window.__DOCUMENTS__.get(docId), type: 'Document'}
       result['page'] = page
       result['text'] = r['text']
       return result
-    } else if (r.id[0] === 'e') {
-      return {...window.__EPISODES__.get(r.id), type: 'Episode'}
+    } else if (r.ref[0] === 'e') {
+      return {...window.__EPISODES__.get(r.ref), type: 'Episode'}
     }
   }
 

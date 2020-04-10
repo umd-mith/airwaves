@@ -41,6 +41,7 @@ const docMap = {
     "Series": "series",
     "Series Relation": "relatedSeries",
     "Coverage (Temporal)": "temporal",
+    "Digitization/Preservation": "digitized"
   },
 
   lists: {

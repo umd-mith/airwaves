@@ -7,7 +7,7 @@ const { getPages } = require('../search/ocr')
 const dataPath = path.resolve(__dirname, '../../static/data/')
 const docsPath = path.resolve(dataPath, 'documents.json')
 const episodesPath = path.resolve(dataPath, 'episodes.json')
-const indexPath = path.resolve(dataPath, 'flexsearch.json')
+const indexPath = path.resolve(dataPath, 'index.json')
 
 const index = new Index()
 
@@ -15,8 +15,8 @@ async function main() {
   await indexPages()
   await indexEpisodes()
 
-  console.log('writing index')
-  fs.writeFileSync(indexPath, JSON.stringify(index.export(), null, 2))
+  console.log(`writing index ${indexPath}`)
+  fs.writeFileSync(indexPath, index.export())
 }
 
 async function indexPages() {
@@ -25,7 +25,6 @@ async function indexPages() {
     const pages = await getPages(doc)
     for (let page of pages) {
       index.addPage(page)
-      saveOCR(page)
     }
     console.log(`indexed ${doc.iaId} with ${pages.length} pages`)
   })
@@ -43,16 +42,6 @@ async function indexJson(jsonPath, f) {
   for (let i=0; i < data.length; i += 1) {
     await f(data[i])
   }
-}
-
-function saveOCR(page) {
-  const [docId, seqId] = page.id.split('-')
-  const dirName = `static/data/ocr/${docId}`
-  if (! fs.existsSync(dirName)) {
-    fs.mkdirSync(dirName, {recursive: true})
-  }
-  const path = `${dirName}/${seqId}.json`
-  fs.writeFileSync(path, JSON.stringify(page, null, 2))
 }
 
 if (require.main === module) {

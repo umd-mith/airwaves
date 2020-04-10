@@ -1,6 +1,7 @@
-const FlexSearch = require('flexsearch')
+const elasticlunr = require('elasticlunr')
 const stopwords = require('./stopwords.json')
 
+elasticlunr.addStopWords(stopwords)
 
 /**
  * A class to bundle up the various search indexes used by the app.
@@ -9,53 +10,17 @@ const stopwords = require('./stopwords.json')
 class Index {
 
   constructor() {
-    this.index = new FlexSearch({
-      doc: {
-        id: "id",
-        field: {
-          title: {
-            encode: "extra",
-            tokenize: "strict",
-            threshold: 0,
-            resolution: 1,
-            filter: stopwords
-          },
-          text: {
-            encode: "extra",
-            tokenize: "strict",
-            threshold: 0,
-            resolution: 1,
-            filter: stopwords
-          },
-          description: {
-            encode: "extra",
-            tokenize: "strict",
-            threshold: 0,
-            resolution: 1,
-            filter: stopwords
-          },
-          series: {
-            encode: "extra",
-            tokenize: "strict",
-            threshold: 0,
-            resolution: 1,
-            filter: stopwords
-          },
-          subject: {
-            encode: "extra",
-            tokenize: "strict",
-            threshold: 0,
-            resolution: 1,
-            filter: stopwords
-          }
-        },
-        store: "id"
-      }
+    this.index = elasticlunr(i => {
+      i.addField('id')
+      i.addField('text')
+      i.addField('description')
+      i.addField('series')
+      i.addField('subject')
     })
   }
 
   search(query) {
-    return this.index.search(query)
+    return this.index.search(query, {})
   }
 
   addEpisode(episode) {
@@ -67,11 +32,11 @@ class Index {
       text: '',
       subject: encodeSubject(episode.subject)
     }
-    return this.index.add(doc)
+    return this.index.addDoc(doc)
   }
 
   addPage(page) {
-    return this.index.add({
+    return this.index.addDoc({
       id: page.id,
       title: '',
       description: '',
@@ -82,7 +47,7 @@ class Index {
   }
 
   addDocument(doc) {
-    return this.index.add({
+    return this.index.addDoc({
       id: doc.id,
       title: doc.title,
       description: '',
@@ -93,11 +58,12 @@ class Index {
   }
 
   import(data) {
-    this.index.import(data, {index: true, doc: true, serialize: false})
+    this.index = elasticlunr.Index.load(data)
   }
 
   export() {
-    return this.index.export({index: true, doc: true, serialize: false})
+    this.index.documentStore.docs = {}
+    return JSON.stringify(this.index)
   }
 
 }

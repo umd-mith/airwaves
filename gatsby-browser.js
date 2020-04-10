@@ -3,10 +3,10 @@ const { Index } = require('./src/search')
 exports.onClientEntry = function(args, options) {
 
   // get the index
-  
+  const indexUrl = `${__PATH_PREFIX__}/data/index.json`
+  console.log(`loading ${indexUrl}`)
 
-  console.log(`loading ${__PATH_PREFIX__}/data/flexsearch.json`)
-  fetch(`${__PATH_PREFIX__}/data/flexsearch.json`)
+  fetch(indexUrl)
     .then(function(response) {
       return response.json()
     })
