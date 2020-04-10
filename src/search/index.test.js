@@ -1,5 +1,5 @@
 import { Index } from "./index"
-import data from "../../static/data/flexsearch.json"
+import data from "../../static/data/index.json"
 
 const index = new Index()
 index.import(data)
