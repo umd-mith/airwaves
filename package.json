@@ -57,7 +57,7 @@
     "fetch-data": "npm run fetch-authorities && npm run fetch-docs && npm run fetch-episodes",
     "index": "node --harmony src/commands/index.js",
     "audit": "node --harmony src/commands/audit.js",
-    "publish": "gatsby build && rsync -ar public/ ubuntu@wordpress.mith.us:/var/www/html/static/archive.mith.umd.edu/airwaves"
+    "publish": "npm run build && rsync -ar public/ ubuntu@wordpress.mith.us:/var/www/html/static/archive.mith.umd.edu/airwaves"
   },
   "repository": {
     "type": "git",
