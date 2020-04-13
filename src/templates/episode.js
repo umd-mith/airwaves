@@ -76,7 +76,7 @@ const Episode = ({ data }) => {
     series = <Link to={`/programs/${episode.series.id}/`}>{episode.series.title}</Link>
   }
 
-  let pageTitle = `${episode.series.title}: ${episode.title}`
+  let pageTitle = `${series}: ${episode.title}`
 
   return (
     <Layout title={pageTitle}>
