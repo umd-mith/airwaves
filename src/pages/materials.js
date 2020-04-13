@@ -165,7 +165,8 @@ class MaterialsPage extends Component {
                               <ListItemText>
                                 <div className="folder">
                                   <div className="folder-title">
-                                    Folder {folder.number} &mdash; {folder.title}
+                                    Folder {folder.number} &mdash; {folder.title} <br />
+                                    {folder.description}
                                   </div>
                                   <div className="folder-link">
                                     <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${folder.id}/`)} className="button" >View Folder</a>
@@ -206,6 +207,7 @@ export const query = graphql`
             id
             title
             number
+            description
           }
         }
       }

@@ -1,6 +1,8 @@
 const fs = require('fs')
 const path = require('path')
 const get = require('node-fetch')
+const minimist = require('minimist')
+
 const {fetch, makeIdExpander, writeJson} = require('./mapper')
 
 if (! process.env.AIRTABLE_API_KEY) {
@@ -8,14 +10,14 @@ if (! process.env.AIRTABLE_API_KEY) {
   process.exit()
 }
 
-async function main() {
+async function main(skipOcr=false) {
   const folders = await fetch('Dublin Core Metadata (Paper-Folders)', docMap)
   const items = await fetch('Dublin Core Metadata (Paper-Items)', docMap)
   const docs = folders.concat(items)
 
   for (let i = 0; i < docs.length; i += 1) {
     doc = docs[i]
-    doc.ocrPath = await downloadOcr(doc.iaId)
+    doc.ocrPath = await getOcr(doc.iaId, skipDownload=skipOcr)
     doc.id = `d${i + 1}`
   }
 
@@ -90,12 +92,14 @@ const docMap = {
   decade: "Date"
 }
 
-async function downloadOcr(iaId) {
+async function getOcr(iaId, skipDownload=false) {
   const ocrPath = path.join('docs', 'ocr', iaId, 'ocr.xml.gz')
   if (fs.existsSync(ocrPath)) {
     console.log(`ocr already downloaded ${ocrPath}`)
     return ocrPath
   }
+
+  if (skipDownload) return null
 
   const url = `https://s3.us.archive.org/${iaId}/${iaId}_abbyy.gz`
   try {
@@ -146,7 +150,8 @@ function makeFindingAid(docs) {
       folder[doc.folder] = {
         id: doc.iaId,
         title: doc.title,
-        items: []
+        description: doc.description,
+        items: [],
       }
     }
 
@@ -173,7 +178,8 @@ function makeFindingAid(docs) {
         const folder = {
           number: folderNum,
           id: lookup[seriesTitle][boxNum][folderNum].id,
-          title: lookup[seriesTitle][boxNum][folderNum].title
+          title: lookup[seriesTitle][boxNum][folderNum].title,
+          description: lookup[seriesTitle][boxNum][folderNum].description
         }
 
         box.folders.push(folder)
@@ -193,5 +199,10 @@ function makeFindingAid(docs) {
 }
 
 if (require.main === module) {
-  main()
+  const args = minimist(process.argv.slice(2), {
+    boolean: ['skip-ocr'],
+    default: {'skipOcr': false},
+    alias: {'skip-ocr': 'skipOcr'}
+  })
+  main(skipOcr=args.skipOcr)
 }
