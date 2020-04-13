@@ -119,7 +119,7 @@ const Document = ({ data }) => {
             <Mirador config={miradorConfig} plugins={[]} />
             <div className="internet-archive">
               <a href={`https://archive.org/details/${doc.iaId}`}>
-                <img title="View this document at the Internet Archive" src={InternetArchive} />
+                <img alt="View at Internet Archive" title="View this document at the Internet Archive" src={InternetArchive} />
               </a>
             </div>
           </article>

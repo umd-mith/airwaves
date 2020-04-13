@@ -5,11 +5,11 @@ import Footer from "./footer"
 import SiteMetadata from "./site-metadata"
 import "./layout.css"
 
-const Layout = ({ children, feedUrl }) => {
+const Layout = ({ children, feedUrl, title}) => {
   return (
     <>
       <Header />
-      <SiteMetadata feedUrl={feedUrl} />
+      <SiteMetadata feedUrl={feedUrl} title={title} />
       <main className="content">
         {children}
       </main>

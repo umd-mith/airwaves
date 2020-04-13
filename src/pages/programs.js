@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
 import { FaAngleUp } from 'react-icons/fa'
 
-import SEO from "../components/seo"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
@@ -29,8 +28,7 @@ export default ({ data }) => {
   })
 
   return (
-    <Layout>
-      <SEO title="Unlocking the Airwaves: Programs" keywords={[`archive`, `radio`]} />  
+    <Layout title="Programs">
       <div id="programs" className="page-programs programs">
 
         <section className="leader">

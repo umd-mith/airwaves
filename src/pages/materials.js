@@ -168,7 +168,7 @@ class MaterialsPage extends Component {
                                     Folder {folder.number} &mdash; {folder.title}
                                   </div>
                                   <div className="folder-link">
-                                    <a target="_blank" href={withPrefix(`/document/${folder.id}/`)} className="button" >View Folder</a>
+                                    <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${folder.id}/`)} className="button" >View Folder</a>
                                   </div>
                                 </div>
                               </ListItemText>

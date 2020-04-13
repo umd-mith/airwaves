@@ -54,7 +54,7 @@ export default ({ data }) => {
   }
 
   return (
-    <Layout feedUrl={`/rss/${series.id}.xml`}>
+    <Layout feedUrl={`/rss/${series.id}.xml`} title={`${series.title}`}>
       <div className="series">
         <section className="leader">
           <h1>
