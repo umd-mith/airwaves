@@ -15,7 +15,7 @@ collections:
     format: yaml-frontmatter
     create: true
     editor:
-      preview: true
+      preview: false
     fields:
 
       - label: Title
@@ -29,6 +29,12 @@ collections:
         widget: string
         required: true
         hint: Your name
+
+      - label: Description
+        name: description
+        widget: markdown
+        hint: Please provide the body of your exhibit text here.
+        required: true
 
       - label: Visuals
         name: visuals
