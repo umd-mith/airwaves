@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master
 display_url: https://mith.umd.edu/airwaves/
-site_url: https://mith.umd.edsu/airwaves/
+site_url: https://mith.umd.edu/airwaves/
 media_folder: static/images
 public_folder: /images
 
@@ -52,24 +52,24 @@ collections:
               - https?://.+
               - Must be a URL
 
-        - label: Related Content
-          name: related
-          widget: list
-          collapsed: false
-          hint: Related Unlocking the Airwaves content.
-          fields: 
-            - label: Title
-              name: title
-              widget: string
-              required: true
-            - label: URL
-              name: url
-              widget: string
-              required: true
-              pattern:
-                - https://mith.umd.edu/airwaves/.+
-                - Must be an Unlocking the Airwaves URL
-            - label: Description
-              name: description
-              widget: text
-              required: true
+          - label: Related Content
+            name: related
+            widget: list
+            collapsed: false
+            hint: Related Unlocking the Airwaves content.
+            fields: 
+              - label: Title
+                name: title
+                widget: string
+                required: true
+              - label: URL
+                name: url
+                widget: string
+                required: true
+                pattern:
+                  - https://mith.umd.edu/airwaves/.+
+                  - Must be an Unlocking the Airwaves URL
+              - label: Description
+                name: description
+                widget: text
+                required: true
