@@ -1,0 +1,75 @@
+backend:
+  name: git-gateway
+  branch: master
+display_url: https://mith.umd.edu/airwaves/
+site_url: https://mith.umd.edsu/airwaves/
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: exhibits
+    label: Exhibits
+    identifier_field: title
+    folder: src/pages/exhibits
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    editor:
+      preview: true
+    fields:
+
+      - label: Title
+        name: title
+        widget: string
+        hint: The title for your exhibit
+        required: true
+
+      - label: Creator
+        name: creator
+        widget: string
+        required: true
+        hint: Your name
+
+      - label: Visuals
+        name: visuals
+        widget: list
+        collapsed: false
+        hint: Images that you would like to diplay in the right panel.
+        fields: 
+          - label: Title
+            name: title
+            widget: string
+            required: true
+          - label: Image
+            name: image
+            widget: image
+            required: true
+          - label: URL
+            name: url
+            widget: string
+            required: false
+            pattern:
+              - https?://.+
+              - Must be a URL
+
+        - label: Related Content
+          name: related
+          widget: list
+          collapsed: false
+          hint: Related Unlocking the Airwaves content.
+          fields: 
+            - label: Title
+              name: title
+              widget: string
+              required: true
+            - label: URL
+              name: url
+              widget: string
+              required: true
+              pattern:
+                - https://mith.umd.edu/airwaves/.+
+                - Must be an Unlocking the Airwaves URL
+            - label: Description
+              name: description
+              widget: text
+              required: true
