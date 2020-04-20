@@ -8,7 +8,7 @@ import "./exhibits.css"
 
 const ExhibitSummary = ({ title, excerpt, absPath }) => {
   const slug = path.basename(absPath).replace(/\.md$/, '')
-  const url = withPrefix(`/exhibits/${slug}/`)
+  const url = `/exhibits/${slug}/`
   return (
     <div className="exhibit-summary">
       <div className="title">

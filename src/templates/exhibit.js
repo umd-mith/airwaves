@@ -12,14 +12,12 @@ const Visual = ({title, image}) => (
 
 const RelatedItem = ({title, url, description}) => {
   // adjust the url so we can create an in-app link with Link
-  // for this URL to work in dev and production environments it
-  // needs to be adjusted to include or not include the /airwaves prefix
+  // note: we remove the /airwaves prefix because Link adds it back on
+  // when building with --prefix-paths
 
   const uri = new URL(url)
   let localPath = uri.pathname + uri.search
-  if (withPrefix('/test/') != '/airwaves/test/') {
-    localPath = localPath.replace('/airwaves', '')
-  }
+  localPath = localPath.replace(/^\/airwaves/, '')
 
   return (
     <article className="related">
