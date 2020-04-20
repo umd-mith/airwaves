@@ -1,10 +1,12 @@
 const fs = require('fs')
 const RSS = require('rss')
+const path = require('path')
 
 exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) => {
   await episodes(createPage, graphql, pathPrefix)
   await documents(createPage, graphql, pathPrefix)
   await series(createPage, graphql, pathPrefix)
+  await exhibits(createPage, graphql, pathPrefix)
   await rss(graphql)
 }
 
@@ -228,6 +230,50 @@ exports.sourceNodes = ({ actions, schema }) => {
   ]
   createTypes(typeDefs)
 }
+
+async function exhibits(createPage, graphql) {
+
+  results = await graphql(`
+    query {
+      allMarkdownRemark {
+        nodes {
+          frontmatter {
+            creator
+            related {
+              title
+              description
+              url
+            }
+            title
+            visuals {
+              image
+              title
+              url
+            }
+          }
+          html
+          fileAbsolutePath
+        }
+      }
+    }
+  `)
+
+  results.data.allMarkdownRemark.nodes.forEach(node => {
+    const exhibit = {...node.frontmatter, description: node.html}
+    exhibit.slug = path.basename(node.fileAbsolutePath).replace(/\.md$/, '')
+    console.log(exhibit.slug)
+    createPage({
+      path: `/exhibits/${exhibit.slug}/`,
+      component: require.resolve(`./src/templates/exhibit.js`),
+      context: {
+        ...exhibit
+      }
+    })
+  })
+
+}
+
+
 
 function safeMap(l, f) {
   return l === null ? [] : l.map(f)

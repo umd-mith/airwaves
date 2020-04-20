@@ -1,0 +1,46 @@
+.exhibit {
+}
+
+.exhibit .main {
+  display: flex;
+}
+
+.exhibit .title {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.exhibit .visuals {
+  width: 800px;
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.exhibit figure.visual {
+  border: thin solid #ccc;
+  margin: 10px 0px 10px 0px;
+}
+
+.exhibit .visual img {
+  margin-top: 10px;
+  width: 200px;
+}
+
+.exhibit .visual figcaption {
+  text-align: center;
+}
+
+.exhibit .relateds {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.exhibit .related {
+  border: thin solid #ccc;
+  margin: 10px;
+  padding: 5px;
+}

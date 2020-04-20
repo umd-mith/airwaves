@@ -12,6 +12,9 @@ module.exports = {
   pathPrefix: `/airwaves`,
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-json`,
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-react-svg`,
       options: {
@@ -38,9 +41,13 @@ module.exports = {
         ]
       }
     },
-    `gatsby-transformer-json`,
-    `gatsby-plugin-netlify-cms`,
-    `gatsby-transformer-remark`
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `exhibits`,
+        path: `${__dirname}/src/pages/exhibits`
+      }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
