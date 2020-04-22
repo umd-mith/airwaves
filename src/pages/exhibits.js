@@ -1,6 +1,6 @@
 import path from 'path'
 import React from "react"
-import { graphql, withPrefix, Link } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import "./exhibits.css"
