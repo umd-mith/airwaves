@@ -248,7 +248,6 @@ async function exhibits(createPage, graphql) {
             visuals {
               image
               title
-              url
             }
           }
           html

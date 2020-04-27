@@ -50,13 +50,6 @@ collections:
             name: image
             widget: image
             required: true
-          - label: URL
-            name: url
-            widget: string
-            required: false
-            pattern:
-              - https?://.+
-              - Must be a URL
 
       - label: Related Content
         name: related
