@@ -9,12 +9,6 @@ visuals:
   - title: 1953 Grants-in-Aid Brochure
     image: /images/1953_grants_in_aid_brochure.jpg
 related:
-  - url: https://mith.umd.edu/airwaves/document/naeb-b036-f04-12
-    title: NAEB Committee List Draft
-    description: 1960 draft list of the members for each NAEB committee.
-  - url: https://mith.umd.edu/airwaves/document/naeb-b036-f04-19/
-    title: Responsibilities of NAEB Committees
-    description: 1960 description of responsibilities for each NAEB committee.
   - title: Committees Network Acceptance, 1952-1954
     url: https://mith.umd.edu/airwaves/document/naeb-b033-f01/
     description: 1952 to 1954 correspondence, meeting minutes, and reports related
@@ -28,13 +22,6 @@ related:
       to develop. Correspondence addresses potential NAEB programs proposed by
       government organizations, including the United States Information Agency's
       Voice of America project and the Air Weather Service.
-  - title: NAEB Tape Network Brochure
-    url: https://mith.umd.edu/airwaves/document/naeb-b057-f10-06/
-    description: January 1952 brochure describing the NAEB Tape Network and its offerings.
-  - title: NAEB Grants-in-Aid Brochure
-    url: https://mith.umd.edu/airwaves/document/naeb-b074-f02-17/
-    description: August 1953 brochure advertising the NAEB Grants-in-Aid for radio
-      and television programs and detailing the application process.
   - title: Region I, 1955-1963
     url: https://mith.umd.edu/airwaves/document/naeb-b074-f06/
     description: 1955 to 1963 programs and schedules for NAEB Region I conferences,
