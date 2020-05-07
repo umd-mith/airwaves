@@ -2,7 +2,7 @@
 title: The Organizational Structure of the NAEB
 creator: Matt St. John
 visuals:
-  - image: /images/1956_region_v_conference_report.jpg
+  - image: /images/1955_region_v_conference_report.jpg
     title: 1956 Region V Conference Report
   - title: 1952 Tape Network Brochure
     image: /images/1952_tape_network_brochure.jpg
