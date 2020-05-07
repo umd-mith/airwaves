@@ -8,6 +8,10 @@ visuals:
     image: /images/1952_tape_network_brochure.jpg
   - title: 1953 Grants-in-Aid Brochure
     image: /images/1953_grants_in_aid_brochure.jpg
+related:
+  - url: https://mith.umd.edu/airwaves/document/naeb-b036-f04-12
+    title: NAEB Committee List Draft
+    description: 1960 draft list of the members for each NAEB committee.
 ---
 During the June 1956 Region V conference of the National Association of Educational Broadcasters (NAEB) in Denver, Colorado, a general discussion session for conference attendees repeatedly returned to the ideas of controversy and presenting multiple sides of an argument in educational radio and television. John C. Schwarzwalder, from KUHT at the University of Houston, recalled his station cancelling a program after a fiery panel on banking became a “cat and dog fight,” and other attendees expressed concern over the funds needed to include all the relevant perspectives on a given topic. The responses of station delegates ranged from thinking of controversy as an unnecessary, audience-drawing gimmick to considering it a responsibility that should be fulfilled in all programs, but attendees seemed to share a recognition of resources and local reactions as difficulties they all faced. Such perspectives, with their focus on local experiences and investments, underline the challenge of managing activities and policies for a national membership organization, even with general goals shared by all members.
 
