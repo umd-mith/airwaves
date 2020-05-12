@@ -7,7 +7,7 @@ that are available in an S3 bucket managed by MITH.
 
     npm install
     npm run develop
-    open http://localhost:8080
+    open http://localhost:8000
 
 ## Data
 

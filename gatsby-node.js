@@ -148,8 +148,7 @@ async function rss(graphql, force=false) {
   const siteUrl = results.data.allSite.nodes[0].siteMetadata.siteUrl
   const description = results.data.allSite.nodes[0].siteMetadata.description
 
-  const opml = fs.createWriteStream('./static/rss/programs.opml')
-  opml.write(`<?xml version="1.0" encoding="UTF-8"?>\n<opml version="1.0">\n  <head>\n    <title>Unlocking the Airwaves Podcasts</title>\n  </head>\n  <body>`)
+  let opml = `<?xml version="1.0" encoding="UTF-8"?>\n<opml version="1.0">\n  <head>\n    <title>Unlocking the Airwaves Podcasts</title>\n  </head>\n  <body>`
 
   results.data.allSeriesJson.nodes.forEach(series => {
     const feedPath = `./static/rss/${series.id}.xml`
@@ -201,11 +200,12 @@ async function rss(graphql, force=false) {
     }
 
     // add to opml file
-    opml.write(`    <outline type="rss" text="${series.title}" title="${series.title}" xmlUrl="${feedUrl}" htmlUrl="${seriesUrl}"/>\n`)
+    opml += `    <outline type="rss" text="${series.title}" title="${series.title}" xmlUrl="${feedUrl}" htmlUrl="${seriesUrl}"/>\n`
+  
   })
 
-  opml.write('  </body>\n</opml>\n')
-  opml.end()
+  opml += '  </body>\n</opml>\n'
+  fs.writeFileSync('./static/rss/programs.opml', opml)
 }
 
 exports.sourceNodes = ({ actions, schema }) => {
