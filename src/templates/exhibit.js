@@ -21,9 +21,9 @@ const RelatedItem = ({title, url, description}) => {
 
   return (
     <article className="related">
-      <div>
+      <h3>
         <Link to={localPath}>{title}</Link>
-      </div>
+      </h3>
       <div>
         {description}
       </div>
@@ -35,28 +35,32 @@ const Exhibit = ({ pageContext: exhibit }) => {
   return (
     <Layout title={exhibit.title}>
       <div className="exhibit">
-        <section className="main">
-          <div>
-            <div className="title">
-              {exhibit.title}
-            </div>
-            <div 
-              className="description"
+        <section className="leader">
+          <article>
+            <h1>{exhibit.title}</h1>
+          </article>
+        </section>
+        <section className="columns col_1_3">
+          <article className="col_main description"> 
+          <div 
               dangerouslySetInnerHTML={{__html: exhibit.description }} />
-          </div>
-          <div className="visuals">
+          </article>
+          <article className="col_sidebar visuals">
             {exhibit.visuals.map(v => (
               <Visual title={v.title} image={v.image} />
             ))}
-          </div>
+          </article>
         </section>
-        <section className="relateds">
-          {exhibit.related.map(r => (
-            <RelatedItem 
-              title={r.title}
-              description={r.description}
-              url={r.url} />
-          ))}
+        <section className="columns col_full related_items">
+          <h2>Related Items</h2>
+          <article className="columns relateds">
+            {exhibit.related.map(r => (
+              <RelatedItem 
+                title={r.title}
+                description={r.description}
+                url={r.url} />
+            ))}
+          </article>
         </section>
       </div>
     </Layout>
