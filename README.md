@@ -26,7 +26,7 @@ After that you should be able to:
 
 ## Publish
 
-The website is currently published on the MITH website at https://mith.umd.edu/airwave. In order to publish there you'll need to configure your SSH pubkey on the webserver. This can be done by adding the contents of your ~/.ssh/id_rsa.pub to the /home/ubuntu/.ssh/authorized_keys file on the wordpress.mith.us server.
+The website is currently published on the MITH website at https://mith.umd.edu/airwaves In order to publish there you'll need to configure your SSH pubkey on the webserver. This can be done by adding the contents of your ~/.ssh/id_rsa.pub to the /home/ubuntu/.ssh/authorized_keys file on the wordpress.mith.us server.
 
 Once your key is set up you can publish the site using the `publish` command:
 
