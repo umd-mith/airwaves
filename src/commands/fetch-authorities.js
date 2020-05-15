@@ -5,6 +5,8 @@ async function main() {
   writeJson(people, 'people.json')
 
   const subjects = await fetch('Authorities (Subjects)', subjectsMap)
+  // strip trailing periods from subjects if they are present
+  subjects.map(s => s.name = s.name.replace(/\.$/, ''))
   writeJson(subjects, 'subjects.json')
 
   const places = await fetch('Authorities (Geographic/Locations)', placesMap)

@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery, withPrefix } from "gatsby"
 
 import gatsbyIcon from "../images/mith.png"
 
@@ -35,6 +35,7 @@ const SiteMetadata = ({ pathname, title, locale, feedUrl }) => {
 
       <html lang={locale} />
       <link rel="canonical" href={`${siteUrl}${pathname}`} />
+      <link rel="icon" href={withPrefix('/images/favicon.png')} />
       <meta name="docsearch:version" content="2.0" />
       <meta
         name="viewport"
