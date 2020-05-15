@@ -17,7 +17,6 @@ the Airtable API you will need to set AIRTABLE_API_KEY in your environment. The
 easiest way to do that is to create a `.env` file your project directory that
 looks like:
 
-
     AIRTABLE_API_KEY=EXAMPLEKEY
 
 After that you should be able to:
@@ -27,8 +26,9 @@ After that you should be able to:
 
 ## Publish
 
-The website is currently published using GitHub pages. You can publish the
-latest code using the `publish` command:
+The website is currently published on the MITH website at https://mith.umd.edu/airwave. In order to publish there you'll need to configure your SSH pubkey on the webserver. This can be done by adding the contents of your ~/.ssh/id_rsa.pub to the /home/ubuntu/.ssh/authorized_keys file on the wordpress.mith.us server.
+
+Once your key is set up you can publish the site using the `publish` command:
 
     npm run publish
 
