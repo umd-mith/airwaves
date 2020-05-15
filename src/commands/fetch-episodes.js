@@ -1,7 +1,4 @@
-const Airtable = require('airtable')
 const {fetch, makeIdExpander, writeJson} = require('./mapper')
-
-const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('app0oWW3dO3b9gHQo')
 
 async function main() {
   const episodes = await fetch('PBCore Metadata (Audio)', episodeMap)
@@ -14,21 +11,6 @@ async function main() {
   }
 
   writeJson(episodes, 'episodes.json')
-}
-
-async function fetchEpisodes(episodes) {
-  await base('PBCore Metadata (Audio)')
-    .select()
-    .eachPage(async (records, nextPage) => {
-      for (let i = 0; i < records.length; i += 1) {
-        const rec = records[i]
-        let e = await mapEntity(rec.fields, episodeMap)
-        e.id = 'e' + episodes.length
-        episodes.push(e)
-        console.log(`episode: ${e.aapbId}`)
-      }
-      nextPage()
-    })
 }
 
 /**
@@ -62,8 +44,8 @@ const episodeMap = {
   },
 
   composed: {
-    "pbcoreSubject":                     ["subject", "name"],
-    "pbcoreSubject@subjectType":         ["subject", "type"],
+    // "pbcoreSubject":                     ["subject", "name"],
+    // "pbcoreSubject@subjectType":         ["subject", "type"],
     "pbcoreCreator":                     ["creator", "name"],
     "pbcoreCreatorRole":                 ["creator", "role"],
     "pbcoreContributor":                 ["contributor", "name"],
@@ -83,6 +65,15 @@ const episodeMap = {
           title: s.title
         }
       }, false)
+    },
+    "Subject(s)": {
+      property: "subject",
+      expander: makeIdExpander("subjects.json", s => {
+        return {
+          id: s.id,
+          name: s.name
+        }
+      })
     }
   },
 

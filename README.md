@@ -13,7 +13,14 @@ that are available in an S3 bucket managed by MITH.
 
 The application relies on external metadata that is downloaded from Airtable.
 You can rerun this process to fetch the latest data. In order to fetch data from
-the Airtable API you will need to set AIRTABLE_API_KEY in your environment.
+the Airtable API you will need to set AIRTABLE_API_KEY in your environment. The
+easiest way to do that is to create a `.env` file your project directory that
+looks like:
+
+
+    AIRTABLE_API_KEY=EXAMPLEKEY
+
+After that you should be able to:
 
     npm run fetch-data
     npm run index

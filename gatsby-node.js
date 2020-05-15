@@ -260,7 +260,6 @@ async function exhibits(createPage, graphql) {
   results.data.allMarkdownRemark.nodes.forEach(node => {
     const exhibit = {...node.frontmatter, description: node.html}
     exhibit.slug = path.basename(node.fileAbsolutePath).replace(/\.md$/, '')
-    console.log(exhibit.slug)
     createPage({
       path: `/exhibits/${exhibit.slug}/`,
       component: require.resolve(`./src/templates/exhibit.js`),

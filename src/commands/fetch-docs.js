@@ -5,11 +5,6 @@ const minimist = require('minimist')
 
 const {fetch, makeIdExpander, writeJson} = require('./mapper')
 
-if (! process.env.AIRTABLE_API_KEY) {
-  console.log("\nError: Please set AIRTABLE_API_KEY environment key.\n")
-  process.exit()
-}
-
 async function main(skipOcr=false) {
   const folders = await fetch('Dublin Core Metadata (Paper-Folders)', docMap)
   const items = await fetch('Dublin Core Metadata (Paper-Items)', docMap)

@@ -1,6 +1,8 @@
 // This module contains some utilities for reshaping JSON from the Airtable API into 
 // normalized JSON objects that we can persist to the application as static data.
 
+require('dotenv').config()
+
 const fs = require('fs')
 const path = require('path')
 const Airtable = require('airtable')
