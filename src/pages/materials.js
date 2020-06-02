@@ -172,6 +172,13 @@ class MaterialsPage extends Component {
                                     <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${folder.id}/`)} className="button" >View Folder</a>
                                   </div>
                                 </div>
+                                <ul className="items">
+                                {folder.items.map(item => (
+                                  <li>
+                                    <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${item.id}/`)}>{item.title}</a>
+                                  </li>
+                                ))}
+                                </ul>
                               </ListItemText>
                             </ListItem> 
                           ))}
@@ -208,6 +215,11 @@ export const query = graphql`
             title
             number
             description
+            items {
+              id
+              title
+              description
+            }
           }
         }
       }

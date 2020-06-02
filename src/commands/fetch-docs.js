@@ -121,40 +121,70 @@ async function getOcr(iaId, skipDownload=false) {
 
 function makeFindingAid(docs) {
 
-  // This is a pretty wacky function that walks through the documents in 
-  // Airtable and then builds up a hierarchical data structure of 
-  // series / boxes / folders based on the document properties. 
+  /*
 
-  // First go through each document and build up a hierarchical dictionary
-  // of series / boxes / folders
+  This function walks through the folders and items that have been pulled from Airtable 
+  and then builds up a lookup table which is then used to create a hierarchical 
+  "finding aid" data structure of series / boxes / folders / items.
+
+  The sticky points are that (for data entry reasons):
+
+  1. Not all folders will necessarily include items.
+  2. Not all items will have folder metadata.
+
+  */
 
   const lookup = {}
   for (const doc of docs) {
+
+    const match = doc.iaId.match(/naeb-b(\d+)-f(\d+)(-(\d+))?/)
+    if (! match) {
+      console.error(`invalid Internet Archive ID found: ${doc.iaId}`)
+      continue
+    }
+    const [boxNum, folderNum, itemNum] = [match[1], match[2], match[4]]
 
     if (! lookup[doc.series]) {
       lookup[doc.series] = {}
     }
 
     const series = lookup[doc.series]
-    if (! series[doc.box]) {
-      series[doc.box] = {}
+    if (! series[boxNum]) {
+      series[boxNum] = {}
     }
 
-    const folder = series[doc.box]
-    if (! folder[doc.folder]) {
-      folder[doc.folder] = {
+    const box = series[boxNum]
+    if (! box[folderNum] && ! itemNum) {
+      box[folderNum] = {
         id: doc.iaId,
         title: doc.title,
         description: doc.description,
+        number: folderNum,
         items: [],
       }
+    } else if (! box[folderNum]) {
+      box[folderNum] = {
+        title: `Folder ${folderNum}`,
+        number: folderNum,
+        items: []
+      }
+    }
+
+    if (itemNum) {
+      box[folderNum].items.push({
+        id: doc.iaId,
+        title: doc.title,
+        description: doc.description
+      })
     }
 
   }
 
-  // It will be more convient to work with the series / boxes / folders
+  // It will be more convenient to work with the series / boxes / folders
   // data structure as lists of objects. So take a pass through the
   // collected data and reshape it.
+
+  fs.writeFileSync('foo.json', JSON.stringify(lookup, null, 2))
 
   const findingAid = []
   for (const seriesTitle in lookup) {
@@ -169,14 +199,17 @@ function makeFindingAid(docs) {
         folders: []
       }
 
+
       for (const folderNum in lookup[seriesTitle][boxNum]) {
+        const items = lookup[seriesTitle][boxNum][folderNum].items
+        items.sort((a, b) => a.id.localeCompare(b.id))
         const folder = {
           number: folderNum,
           id: lookup[seriesTitle][boxNum][folderNum].id,
           title: lookup[seriesTitle][boxNum][folderNum].title,
-          description: lookup[seriesTitle][boxNum][folderNum].description
+          description: lookup[seriesTitle][boxNum][folderNum].description,
+          items: items
         }
-
         box.folders.push(folder)
       }
 
