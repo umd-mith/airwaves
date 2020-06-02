@@ -10,6 +10,35 @@ import ExpandLess from '@material-ui/icons/ExpandLess'
 import Layout from "../components/layout"
 import "./materials.css"
 
+
+const Folder = ({folder}) => {
+
+  const folderLink = folder.digitized ? <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${folder.id}/`)} className="button" >View Folder</a> : ''
+  return (
+    <ListItem key={`${folder.id}`} component="li">
+      <ListItemText>
+        <div className="folder">
+          <div className="folder-title">
+            Folder {folder.number} &mdash; {folder.title} <br />
+            {folder.description}
+          </div>
+          <div className="folder-link">
+            {folderLink}
+          </div>
+        </div>
+        <ul className="items">
+        {folder.items.map(item => (
+          <li>
+            <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${item.id}/`)}>{item.title}</a>
+          </li>
+        ))}
+        </ul>
+      </ListItemText>
+    </ListItem> 
+  )
+}
+
+
 class MaterialsPage extends Component {
 
   state = {
@@ -161,26 +190,7 @@ class MaterialsPage extends Component {
                         <Collapse className="li-children" in={this.state[`${series.title}-${box.title}`]} timeout="auto" unmountOnExit>
                           <List disablePadding dense>
                           {box.folders.map(folder => (
-                            <ListItem key={`${series.title}-${box.title}-${folder.title}`} component="li">
-                              <ListItemText>
-                                <div className="folder">
-                                  <div className="folder-title">
-                                    Folder {folder.number} &mdash; {folder.title} <br />
-                                    {folder.description}
-                                  </div>
-                                  <div className="folder-link">
-                                    <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${folder.id}/`)} className="button" >View Folder</a>
-                                  </div>
-                                </div>
-                                <ul className="items">
-                                {folder.items.map(item => (
-                                  <li>
-                                    <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${item.id}/`)}>{item.title}</a>
-                                  </li>
-                                ))}
-                                </ul>
-                              </ListItemText>
-                            </ListItem> 
+                            <Folder folder={folder} />
                           ))}
                           </List>
                         </Collapse>
@@ -215,6 +225,7 @@ export const query = graphql`
             title
             number
             description
+            digitized
             items {
               id
               title

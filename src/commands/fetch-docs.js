@@ -160,13 +160,15 @@ function makeFindingAid(docs) {
         title: doc.title,
         description: doc.description,
         number: folderNum,
+        digitized: true,
         items: [],
       }
     } else if (! box[folderNum]) {
       box[folderNum] = {
         title: `Folder ${folderNum}`,
         number: folderNum,
-        items: []
+        items: [],
+        digitized: false
       }
     }
 
@@ -184,8 +186,6 @@ function makeFindingAid(docs) {
   // data structure as lists of objects. So take a pass through the
   // collected data and reshape it.
 
-  fs.writeFileSync('foo.json', JSON.stringify(lookup, null, 2))
-
   const findingAid = []
   for (const seriesTitle in lookup) {
     const series = {
@@ -199,7 +199,6 @@ function makeFindingAid(docs) {
         folders: []
       }
 
-
       for (const folderNum in lookup[seriesTitle][boxNum]) {
         const items = lookup[seriesTitle][boxNum][folderNum].items
         items.sort((a, b) => a.id.localeCompare(b.id))
@@ -208,6 +207,7 @@ function makeFindingAid(docs) {
           id: lookup[seriesTitle][boxNum][folderNum].id,
           title: lookup[seriesTitle][boxNum][folderNum].title,
           description: lookup[seriesTitle][boxNum][folderNum].description,
+          digitized: lookup[seriesTitle][boxNum][folderNum].digitized,
           items: items
         }
         box.folders.push(folder)
