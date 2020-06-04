@@ -44,6 +44,7 @@ class Search extends Component {
         <section className="leader">
           <article className="">
             <input
+              aria-label="search"
               ref={this.query}
               type="text"
               defaultValue={this.state.query}

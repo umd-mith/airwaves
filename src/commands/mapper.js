@@ -87,7 +87,7 @@ function slugify(text) {
  */
 function writeJson(o, filename) {
   const fullPath = path.resolve(__dirname, '../../static/data/', filename)
-  fs.writeFileSync(fullPath, JSON.stringify(o, null, 2))
+  fs.writeFileSync(fullPath, JSON.stringify(o, null, 2) + '\n')
   console.log(`wrote ${fullPath}`)
 }
 

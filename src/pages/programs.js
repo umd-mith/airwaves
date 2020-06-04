@@ -43,6 +43,7 @@ export default ({ data }) => {
               value={searchQuery}
               onChange={e => setSearchQuery(e.target.value)}
               placeholder="Search by program name"
+              aria-label="Search"
             />
           </article>
         </section>

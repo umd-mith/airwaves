@@ -57,11 +57,14 @@ class Facet extends Component {
         <dd className="item-count">{this.props.count}</dd>
         <dt>
           <input
+            aria-label={this.props.name}
             type="checkbox"
             name="item-type"
             defaultChecked={this.state.active} 
             onClick={(e) => {this.toggle(e)}} />
-          <label title={this.props.name}>{this.props.name}</label>
+          <label title={this.props.name}>
+            {this.props.name}
+          </label>
         </dt>
       </>
     )

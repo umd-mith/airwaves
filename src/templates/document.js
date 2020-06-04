@@ -47,6 +47,24 @@ export const query = graphql`
         name
       }
     }
+    findingAidJson(boxes: {elemMatch: {folders: {elemMatch: {items: {elemMatch: {id: {eq: $iaId}}}}}}}) {
+    id
+    title
+    boxes {
+      folders {
+        description
+        digitized
+        id
+        number
+        title
+        items {
+          description
+          id
+          title
+        }
+      }
+    }
+  }
   }
 `
 
@@ -54,7 +72,7 @@ class Mirador extends React.Component {
 
   componentDidMount() {
     const {config, plugins} = this.props
-    let mirador = require('mirador')
+    let mirador = require('mirador').default
     mirador.viewer(config, plugins)
   }
 
