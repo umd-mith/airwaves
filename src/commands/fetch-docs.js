@@ -165,10 +165,11 @@ function makeFindingAid(docs) {
       }
     } else if (! box[folderNum]) {
       box[folderNum] = {
+        id: `naeb-b${boxNum}-f${folderNum}`,
         title: `Folder ${folderNum}`,
         number: folderNum,
-        items: [],
-        digitized: false
+        digitized: false,
+        items: []
       }
     }
 

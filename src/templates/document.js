@@ -47,24 +47,26 @@ export const query = graphql`
         name
       }
     }
-    findingAidJson(boxes: {elemMatch: {folders: {elemMatch: {items: {elemMatch: {id: {eq: $iaId}}}}}}}) {
-    id
-    title
-    boxes {
-      folders {
-        description
-        digitized
+    allFindingAidJson {
+      nodes {
         id
-        number
         title
-        items {
-          description
-          id
-          title
+        boxes {
+          folders {
+            id
+            digitized
+            description
+            number
+            title
+            items {
+              id
+              description
+              title
+            }
+          }
         }
       }
     }
-  }
   }
 `
 
@@ -84,6 +86,7 @@ class Mirador extends React.Component {
 }
 
 const Document = ({ data }) => {
+
   const doc = data.documentsJson
   if (doc.contributor === null) {
     doc.contributor = []
@@ -96,7 +99,7 @@ const Document = ({ data }) => {
     doc.subject = []
   }
   const subjects = doc.subject.map(c => (
-    <div><Link to={`/search/?f=subject:${c.name}`}>{c.name}</Link></div>
+    <div><Link key={`subject-link-${c.name}`} to={`/search/?f=subject:${c.name}`}>{c.name}</Link></div>
   ))
 
   const manifestUrl = `https://iiif.archivelab.org/iiif/${doc.iaId}/manifest.json`
@@ -105,7 +108,27 @@ const Document = ({ data }) => {
   if (typeof window !== 'undefined' && window.location.hash) {
     canvasIndex = Number.parseInt(window.location.hash.replace('#', '')) - 1
   }
-  
+
+  const [folder, items] = getFolderOrItems(doc.iaId, data.allFindingAidJson.nodes)
+  let browseLinks = ''
+  if (items.length > 0) {
+    browseLinks = (
+      <>
+        <dt className="label">Items in this Folder</dt>
+        {items.map(i => (
+          <dd key={`item-link-${i.id}`}><Link to={`/document/${i.id}/`}>{i.title}</Link></dd>
+        ))}
+      </>
+    )
+  } else if (folder) {
+    browseLinks = (
+      <>
+        <dt className="label">Folder for this Item</dt>
+        <dd><Link to={`/document/${folder.id}/`}>{folder.title}</Link></dd>
+      </>
+    )
+  }
+
   miradorConfig.windows = [
     {
       loadedManifest: manifestUrl,
@@ -131,6 +154,7 @@ const Document = ({ data }) => {
               <dd>{subjects}</dd>
               <dt className="label">Contributors</dt>
               <dd>{contributors}</dd>
+              {browseLinks}
             </dl>
           </article>
           <article id="doc-viewer">
@@ -146,6 +170,30 @@ const Document = ({ data }) => {
     </Layout>
  
   )
+}
+
+/**
+ * Returns the folder for an item or the items in a folder. 
+ * @param {*} iaId - for a folder or item
+ * @param {*} findingAid - the finding aid data
+ */
+function getFolderOrItems(iaId, findingAid) {
+  let itemFolder = null
+  const folderItems = []
+  for (const series of findingAid) {
+    for (const box of series.boxes) {
+      for (const folder of box.folders) {
+        for (const item of folder.items) {
+          if (folder.id === iaId) {
+            folderItems.push(item)
+          } else if (item.id === iaId) {
+            itemFolder = folder
+          }
+        }
+      }
+    }
+  }
+  return [itemFolder, folderItems]
 }
 
 export default Document
