@@ -49,17 +49,16 @@ export const query = graphql`
     }
     allFindingAidJson {
       nodes {
-        id
         title
         boxes {
           folders {
-            id
+            iaId
             digitized
             description
             number
             title
             items {
-              id
+              iaId
               description
               title
             }
@@ -116,7 +115,7 @@ const Document = ({ data }) => {
       <>
         <dt className="label">Items in this Folder</dt>
         {items.map(i => (
-          <dd key={`item-link-${i.id}`}><Link to={`/document/${i.id}/`}>{i.title}</Link></dd>
+          <dd key={`item-link-${i.iaId}`}><Link to={`/document/${i.iaId}/`}>{i.title}</Link></dd>
         ))}
       </>
     )
@@ -124,7 +123,7 @@ const Document = ({ data }) => {
     browseLinks = (
       <>
         <dt className="label">Folder for this Item</dt>
-        <dd><Link to={`/document/${folder.id}/`}>{folder.title}</Link></dd>
+        <dd><Link to={`/document/${folder.iaId}/`}>{folder.title}</Link></dd>
       </>
     )
   }
@@ -184,9 +183,9 @@ function getFolderOrItems(iaId, findingAid) {
     for (const box of series.boxes) {
       for (const folder of box.folders) {
         for (const item of folder.items) {
-          if (folder.id === iaId) {
+          if (folder.iaId === iaId) {
             folderItems.push(item)
-          } else if (item.id === iaId) {
+          } else if (item.iaId === iaId && folder.digitized) {
             itemFolder = folder
           }
         }

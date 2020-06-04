@@ -156,7 +156,7 @@ function makeFindingAid(docs) {
     const box = series[boxNum]
     if (! box[folderNum] && ! itemNum) {
       box[folderNum] = {
-        id: doc.iaId,
+        iaId: doc.iaId,
         title: doc.title,
         description: doc.description,
         number: folderNum,
@@ -165,7 +165,7 @@ function makeFindingAid(docs) {
       }
     } else if (! box[folderNum]) {
       box[folderNum] = {
-        id: `naeb-b${boxNum}-f${folderNum}`,
+        iaId: `naeb-b${boxNum}-f${folderNum}`,
         title: `Folder ${folderNum}`,
         number: folderNum,
         digitized: false,
@@ -175,7 +175,7 @@ function makeFindingAid(docs) {
 
     if (itemNum) {
       box[folderNum].items.push({
-        id: doc.iaId,
+        iaId: doc.iaId,
         title: doc.title,
         description: doc.description
       })
@@ -202,10 +202,10 @@ function makeFindingAid(docs) {
 
       for (const folderNum in lookup[seriesTitle][boxNum]) {
         const items = lookup[seriesTitle][boxNum][folderNum].items
-        items.sort((a, b) => a.id.localeCompare(b.id))
+        items.sort((a, b) => a.iaId.localeCompare(b.iaId))
         const folder = {
           number: folderNum,
-          id: lookup[seriesTitle][boxNum][folderNum].id,
+          iaId: lookup[seriesTitle][boxNum][folderNum].iaId,
           title: lookup[seriesTitle][boxNum][folderNum].title,
           description: lookup[seriesTitle][boxNum][folderNum].description,
           digitized: lookup[seriesTitle][boxNum][folderNum].digitized,

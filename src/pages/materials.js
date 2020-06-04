@@ -13,9 +13,9 @@ import "./materials.css"
 
 const Folder = ({folder}) => {
 
-  const folderLink = folder.digitized ? <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${folder.id}/`)} className="button" >View Folder</a> : ''
+  const folderLink = folder.digitized ? <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${folder.iaId}/`)} className="button" >View Folder</a> : ''
   return (
-    <ListItem key={`${folder.id}`} component="li">
+    <ListItem key={`${folder.iaId}`} component="li">
       <ListItemText>
         <div className="folder">
           <div className="folder-title">
@@ -29,7 +29,7 @@ const Folder = ({folder}) => {
         <ul className="items">
         {folder.items.map(item => (
           <li>
-            <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${item.id}/`)}>{item.title}</a>
+            <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${item.iaId}/`)}>{item.title}</a>
           </li>
         ))}
         </ul>
@@ -221,13 +221,13 @@ export const query = graphql`
         boxes {
           title
           folders {
-            id
+            iaId
             title
             number
             description
             digitized
             items {
-              id
+              iaId
               title
               description
             }
