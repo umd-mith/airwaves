@@ -6,16 +6,12 @@ footer {
 }
 footer section {
   max-width: 1000px; 
-  padding: 0;
+  padding: 0 30px;
   margin: 0 auto;
   text-align: center;
 }
-#footer_logos {
-  grid-template-columns: repeat(4,  minmax(190px, 1fr));
-  grid-gap: 3rem;
-  margin-bottom: 30px;
-}
 footer p {
+  padding-top: 30px;
   font-size: 12px; 
   font-style: italic;
 }
