@@ -52,14 +52,14 @@ class Search extends Component {
               placeholder={'Search'} />
           </article>
         </section>
-        <section className={`columns col_1_3 ${resultsHidden}`}>
+        <section className={`columns ${resultsHidden}`}>
           <SearchFacets 
             results={this.state.results}
             query={this.state.query}
             activeFacets={this.state.activeFacets}
             updateFacets={this.updateFacets} />
-          <article className="results">
-            <div className="facet-panel item-sort">[sorting stuff here]</div>
+          <article className="results col-8 col-7-lg col-7-md col-6-sm col-12-xs">
+            <div className="facet-panel item-sort">&nbsp;</div>
             <div id="results" className="result-panel">
               {this.state.displayedResults}
             </div>

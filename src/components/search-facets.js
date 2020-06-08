@@ -8,7 +8,7 @@ class SearchFacets extends Component {
     const facets = getFacets(this.props.results)
 
     return (
-      <article className="facets">
+      <article className="facets col-4 col-5-lg col-5-md col-6-sm col-12-xs">
 
 		    <div className="facet-panel item-total">
 			    Refine Results <span className="item-count">{this.props.results.length}</span>
