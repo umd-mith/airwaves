@@ -6,14 +6,15 @@ import Layout from "../components/layout"
 import "./exhibits.css"
 
 
-const ExhibitSummary = ({ title, excerpt, absPath }) => {
+const ExhibitSummary = ({ title, visuals, excerpt, absPath }) => {
+  //const image = visuals[0]
   const slug = path.basename(absPath).replace(/\.md$/, '')
   const url = `/exhibits/${slug}/`
   return (
     <div className="exhibit-summary">
-      <div className="title">
+      <h2 className="title">
         <Link to={url}>{title}</Link>
-      </div>
+      </h2>
       <div className="excerpt">
         {excerpt}
         <Link to={url}>Read More...</Link>
@@ -30,13 +31,16 @@ const ExhibitsPage = ({ data }) => {
       <div className="page-exhibits">
         <section className="leader">
           <h1>Exhibits</h1>
-          { exhibits.map(e => (
-            <ExhibitSummary 
-              key={e.frontmatter.title}
-              title={e.frontmatter.title} 
-              absPath={e.fileAbsolutePath}
-              excerpt={e.excerpt} />
-          ))}
+          <article>
+            { exhibits.map(e => (
+              <ExhibitSummary 
+                key={e.frontmatter.title}
+                title={e.frontmatter.title} 
+                visuals={e.frontmatter.visuals.image}
+                absPath={e.fileAbsolutePath}
+                excerpt={e.excerpt} />
+            ))}
+          </article>
         </section>
       </div>
     </Layout>
@@ -54,6 +58,9 @@ export const query = graphql`
       nodes {
         frontmatter {
           title
+          visuals {
+            image
+          }
         }
         excerpt(format: PLAIN)
         fileAbsolutePath
