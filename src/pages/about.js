@@ -35,44 +35,41 @@ const AboutPage = () => (
 
       </article>
     </section>
-    <section id="contributors" className="columns col_1_3" style={{rowGap: "0"}}>
-      <article className="col_full">
+    <section id="contributors" className="columns" style={{rowGap: "0"}}>
+      <article className="col-12">
         <h2>Contributors</h2>
       </article>
-      <article>
-        <p>
-        <b>Project Directors</b><br />
-        Stephanie Sapienza (Principal Investigator, MITH)<br />
-        Eric Hoyt (Principal Investigator, UW)<br />
-          <br />
-        <b>Advisory Team:</b><br />
-        Rebecca Fraimow (Archivist, WGBH)<br />
-        Megan McShea (Archivist, Smithsonian Institution)<br />
-        Allison Perlman (Associate Professor, UC Irvine)<br />
-        Laura Schnitker (Archivist/Curator, UMD Libraries)<br />
-        Josh Shepperd (Assistant Professor, Catholic University)<br />
-      
-        </p>
+      <article className="col-4 col-12-xs">
+        <h3>Project Directors</h3>
+        <ul>
+          <li>Stephanie Sapienza (Principal Investigator, MITH)</li>
+          <li>Eric Hoyt (Principal Investigator, UW)</li>
+        </ul>
+        <h3>Advisory Team</h3>
+        <ul>
+          <li>Rebecca Fraimow (Archivist, WGBH)</li>
+          <li>Megan McShea (Archivist, Smithsonian Institution)</li>
+          <li>Allison Perlman (Associate Professor, UC Irvine)</li>
+          <li>Laura Schnitker (Archivist/Curator, UMD Libraries)</li>
+          <li>Josh Shepperd (Assistant Professor, Catholic University)</li>
+        </ul>
       </article>
-      <article>
-        <p>
-        <b>Project Team</b><br />
-        J.J. Bersch (Production Assistant, UW)<br />
-        Matthew Blessing (Administrator of the Division of Library-Archives, WHS)<br />
-        Alison Bridger (Archivist, WHS)<br />
-        Paul Hedges (Emerging Technologies Archivist, WHS)<br />
-        Kirsten Keister (Designer, MITH)<br />
-        Jacob Mertens (Production Assistant, UW)<br />
-        
-        </p>
-      </article>
-      <article>
-        <p>Trevor Muñoz (Director, MITH)<br />
-        Connor Perkins (Production Assistant, UW)<br />
-        Matthew St. John (Production Assistant, UW)<br />
-        Ed Summers (Developer, MITH)<br />
-       
-        </p>
+      <article className="col-8 col-12-xs columns" style={{rowGap: "0"}}>
+        <h3 className="col-12">Project Team</h3>
+        <ul className="col-6 col-12-xs">
+          <li>J.J. Bersch (Production Assistant, UW)</li>
+          <li>Matthew Blessing (Administrator of the Division of Library-Archives, WHS)</li>
+          <li>Alison Bridger (Archivist, WHS)</li>
+          <li>Paul Hedges (Emerging Technologies Archivist, WHS)</li>
+          <li>Kirsten Keister (Designer, MITH)</li>
+          <li>Jacob Mertens (Production Assistant, UW)</li>
+        </ul>
+        <ul className="col-6 col-12-xs">
+          <li>Trevor Muñoz (Director, MITH)</li>
+          <li>Connor Perkins (Production Assistant, UW)</li>
+          <li>Matthew St. John (Production Assistant, UW)</li>
+          <li>Ed Summers (Developer, MITH)</li>
+        </ul>
       </article>
     </section>
   </div>
