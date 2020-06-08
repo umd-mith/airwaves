@@ -64,20 +64,20 @@ export default ({ data }) => {
           {series.description}
           </article>
         </section>
-        <section id="programs" className="columns col_1_2">
-          <article className="pgm-eps">
+        <section id="programs" className="columns">
+          <article className="pgm-eps col-6 col-12-xs">
             <h2>Available Episodes</h2>
             <div>
               {episodes}
             </div>
           </article>
-          <article className="pgm-related">
+          <article className="pgm-related col-6 col-12-xs">
             <h2>Related Materials</h2>
             <p></p>
           </article>
         </section>
-        <section className="columns col_full">
-          <article className="pgm-meta">
+        <section className="columns">
+          <article className="pgm-meta col-12">
             <dl>
               {displayMetadataValues(subjects, 'subject', 'Subjects')}
               {displayMetadataValues(creators, 'creator', 'Creators')}
@@ -85,12 +85,10 @@ export default ({ data }) => {
               {displayMetadataValues(genres, 'genre', 'Genres')}
               {displayMetadataValues(times, 'decade', 'Time Periods')}
             </dl>
-            <br />
-            <br />
-            <div className="podcast" title={`Podcast URL for ${series.title}`}>
+            <div className="podcast col-12" title={`Podcast URL for ${series.title}`}>
               <a href={`${siteUrl}/rss/${series.id}.xml`}>
                 <button>
-                Subscribe to the <b>{series.title}</b> Podcast! <HeadsetIcon />
+                <HeadsetIcon /> &nbsp;Subscribe to the <b>{series.title}</b> Podcast
                 </button>
               </a>
             </div>
@@ -105,7 +103,7 @@ export default ({ data }) => {
 function displayMetadataValues(s, facetName, facetTitle) {
   let l = Array.from(s.values()).sort()
   l = l.map((v, i) => [
-    i > 0 && " ; ",
+    i > 0 && "; ",
     <Link key={`${facetName}:${v}`} to={`/search/?f=${facetName}:${v}`}>{v}</Link>
   ])
   if (l.length > 0) {

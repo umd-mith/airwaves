@@ -99,12 +99,15 @@
   grid-template: auto / 10em 1fr;
 }
 
+.podcast {
+  margin-top: 2rem;
+}
+
 .podcast button {
-  padding: 5px;
-  font-size: 12pt;
-  background-color: greenyellow;
-  border-width: 2px;
+  padding: 8px 12px;
+  font-size: 0.75rem;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .podcast button svg {
