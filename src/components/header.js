@@ -1,20 +1,19 @@
 import { Link } from "gatsby"
+import Img from "gatsby-image"
 import PropTypes from "prop-types"
 import React from "react"
 
 import './header.css'
-import image from '../images/uta-header.jpg'
+import Logo from '../svg/uta-header.svg'
 
 class Header extends React.Component {
 
   render() {
     return (
       <header className="main-head">
-        <div className="logo-head">
-          <Link to="/">
-            <img alt="Unlocking the Airwaves" src={image} />
-          </Link>
-        </div>
+        <Link to="/" className="main-logo">
+          <Logo alt="Unlocking the Airwaves" />
+        </Link>
         <div className="main-nav">
           <ul className="main-nav-menu">
             <li><Link activeClassName="active" to="/">Home</Link></li>
