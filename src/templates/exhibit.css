@@ -22,16 +22,9 @@
   padding-top: 2em;
   margin-top: 2em;
 }
-.exhibit .related_items h2 {
-  margin-bottom: 0;
-}
-.exhibit .relateds {
-  grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+.exhibit .related_items article {
   grid-auto-rows: minmax(200px, auto);
   grid-gap: 2rem;
-}
-.exhibit .related {
-
 }
 .exhibit .related div {
   font-size: 90%;

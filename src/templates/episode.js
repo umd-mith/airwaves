@@ -87,8 +87,8 @@ const Episode = ({ data }) => {
           </article>
         </section>
 
-        <section className="columns col_1_2">
-          <article className="metadata">
+        <section className="columns">
+          <article className="metadata col-6 col-12-xs">
             <dl>
               <dt className="label">Series</dt>
               <dd>{series}</dd>
@@ -112,7 +112,7 @@ const Episode = ({ data }) => {
               <dd>{episode.temporal}</dd>
             </dl>
           </article>
-          <article className="recording">
+          <article className="recording col-6 col-12-xs">
             <Player 
               transcript={`${s3Bucket}/data/transcripts/${id}/${id}.vtt`}
               audio={`${s3Bucket}/data/audio/${id}.mp3`} />

@@ -20,14 +20,14 @@ const RelatedItem = ({title, url, description}) => {
   localPath = localPath.replace(/^\/airwaves/, '')
 
   return (
-    <article className="related">
+    <div className="related col-3 col-4-lg col-4-md col-4-sm col-6-xs">
       <h3>
         <Link to={localPath}>{title}</Link>
       </h3>
-      <div>
+      <div className="description">
         {description}
       </div>
-    </article>
+    </div>
   )
 }
 
@@ -40,20 +40,20 @@ const Exhibit = ({ pageContext: exhibit }) => {
             <h1>{exhibit.title}</h1>
           </article>
         </section>
-        <section className="columns col_1_3">
-          <article className="col_main description"> 
+        <section className="columns">
+          <article className="col-8 col-7-lg col-6-md col-6-sm col-12-xs"> 
           <div 
               dangerouslySetInnerHTML={{__html: exhibit.description }} />
           </article>
-          <article className="col_sidebar visuals">
+          <article className="col-4 col-5-lg col-6-md col-6-sm col-12-xs visuals">
             {exhibit.visuals.map(v => (
               <Visual title={v.title} image={v.image} />
             ))}
           </article>
         </section>
-        <section className="columns col_full related_items">
+        <section className="related_items">
           <h2>Related Items</h2>
-          <article className="columns relateds">
+          <article className="columns">
             {exhibit.related.map(r => (
               <RelatedItem 
                 title={r.title}

@@ -138,14 +138,14 @@ const Document = ({ data }) => {
 
   return (
     <Layout>
-      <div id="document" className="">
+      <div id="document">
         <section className="leader">
           <article>
             <h1>{doc.title}</h1>
           </article>
         </section>
-        <section className="columns col_1_2">
-          <article className="metadata">
+        <section className="columns">
+          <article className="metadata col-6 col-12-xs">
             <dl>
               <dt className="label">Description</dt>
               <dd>{doc.description}</dd>
@@ -156,7 +156,7 @@ const Document = ({ data }) => {
               {browseLinks}
             </dl>
           </article>
-          <article id="doc-viewer">
+          <article id="doc-viewer" className="col-6 col-12-xs">
             <Mirador config={miradorConfig} plugins={[]} />
             <div className="internet-archive">
               <a href={`https://archive.org/details/${doc.iaId}`}>
