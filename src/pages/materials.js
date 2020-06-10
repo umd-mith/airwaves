@@ -77,8 +77,8 @@ class MaterialsPage extends Component {
             </article>
           </section>
 
-          <section className="columns col_full">
-            <article>
+          <section className="columns">
+            <article className="col-12">
               <List>
                 <ListItem id="i1" component="li" button onClick={this.handleClick}>
                   <ListItemText>Summary Information</ListItemText>

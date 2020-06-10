@@ -52,7 +52,7 @@ const Exhibit = ({ pageContext: exhibit }) => {
           </article>
         </section>
         <section className="related_items">
-          <h2>Related Items</h2>
+          <h2 className="hidden">Related Items</h2>
           <article className="columns">
             {exhibit.related.map(r => (
               <RelatedItem 
