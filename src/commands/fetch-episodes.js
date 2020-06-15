@@ -1,7 +1,10 @@
-const {fetch, makeIdExpander, writeJson} = require('./mapper')
+const {fetch, makeIdExpander, writeJson, subjectsToThemes} = require('./mapper')
 
 async function main() {
   const episodes = await fetch('PBCore Metadata (Audio)', episodeMap)
+
+  // add theme based subjects
+  addSubjectThemes(episodes)
 
   // add a smaller id for indexing
   let count = 0
@@ -44,8 +47,6 @@ const episodeMap = {
   },
 
   composed: {
-    // "pbcoreSubject":                     ["subject", "name"],
-    // "pbcoreSubject@subjectType":         ["subject", "type"],
     "pbcoreCreator":                     ["creator", "name"],
     "pbcoreCreatorRole":                 ["creator", "role"],
     "pbcoreContributor":                 ["contributor", "name"],
@@ -79,6 +80,12 @@ const episodeMap = {
 
   decade: "Broadcast Date"
 
+}
+
+function addSubjectThemes(episodes) {
+  for (const episode of episodes) {
+    episode.subject = subjectsToThemes(episode.subject)
+  }
 }
 
 if (require.main === module) {

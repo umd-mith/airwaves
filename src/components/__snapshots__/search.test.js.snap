@@ -11,6 +11,7 @@ exports[`Search renders correctly 1`] = `
       className=""
     >
       <input
+        aria-label="search"
         onKeyPress={[Function]}
         placeholder="Search"
         type="text"
@@ -18,10 +19,10 @@ exports[`Search renders correctly 1`] = `
     </article>
   </section>
   <section
-    className="columns col_1_3 hidden"
+    className="columns hidden"
   >
     <article
-      className="facets"
+      className="facets col-4 col-5-lg col-5-md col-6-sm col-12-xs"
     >
       <div
         className="facet-panel item-total"
@@ -113,12 +114,12 @@ exports[`Search renders correctly 1`] = `
       </div>
     </article>
     <article
-      className="results"
+      className="results col-8 col-7-lg col-7-md col-6-sm col-12-xs"
     >
       <div
         className="facet-panel item-sort"
       >
-        [sorting stuff here]
+         
       </div>
       <div
         className="result-panel"

@@ -6,6 +6,7 @@ require('dotenv').config()
 const fs = require('fs')
 const path = require('path')
 const Airtable = require('airtable')
+const themes = require('../../static/data/themes.json')
 
 const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('app0oWW3dO3b9gHQo')
 
@@ -91,9 +92,9 @@ function writeJson(o, filename) {
   console.log(`wrote ${fullPath}`)
 }
 
-// functions below are for doing different types of mapping. They all take an Airtable
-// entity object and an entityMap and return an object that is the result of applying that mapping
-// to the supplied object.
+// THe functions below are for doing different types of mapping. They all take an Airtable
+// entity object and an entityMap and return an object that is the result of applying that 
+// mapping to the supplied object.
 
 function mapId(e, entityMap) {
   if (entityMap.slugId) {
@@ -236,10 +237,67 @@ function mapDecade(e, entityMap) {
   return {decade: decade}
 }
 
+// This map of subject names to themes is used by the subjectToThemes function below.
+
+const subjectThemesMap = new Map()
+for (const theme of themes) {
+  for (const subject of theme.subjects) {
+    const themes = new Set(subjectThemesMap.get(subject.name) || [])
+    themes.add(theme.name)
+    subjectThemesMap.set(subject.name, themes)
+  }
+}
+
+/**
+ * Get a list of relevant themes for a subject.
+ * @param {*} subject 
+ */
+
+function subjectToThemes(subject) {
+  const themes = new Set()
+  const parts = subject.split('--')
+  for (let i = 1; i <= parts.length; i += 1) {
+    const partial = parts.slice(0, i).join('--')
+    if (subjectThemesMap.has(partial)) {
+      for (const theme of subjectThemesMap.get(partial)) {
+       themes.add(theme)
+      }
+    }
+  }
+  return Array.from(themes)
+}
+
+/**
+ * Takes a list of subject objects and returns the same list with relevant themes added.
+ * @param {*} subjects 
+ */
+
+function subjectsToThemes(subjects) {
+  if (! subjects) return []
+  const newSubjects = []
+  const seen = new Map()
+  for (const subject of subjects) {
+    newSubjects.push(Object.assign({}, subject))
+    for (const theme of subjectToThemes(subject.name)) {
+      if (! seen.get(theme)) {
+        newSubjects.push({
+          id: slugify(theme),
+          name: theme
+        })
+        seen.set(theme, true)
+      }
+    }
+  }
+  newSubjects.sort((a, b) => a.name.localeCompare(b.name))
+  return newSubjects
+}
+
 module.exports = {
   fetch,
   makeIdExpander,
   mapEntity,
   slugify,
-  writeJson
+  writeJson,
+  subjectToThemes,
+  subjectsToThemes,
 }
