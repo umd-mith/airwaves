@@ -54,5 +54,4 @@ test('map a list of subjects to a list of subjects with relevant themes', () => 
       name: 'U.S. Government'
     }
   ])
-
 }) 

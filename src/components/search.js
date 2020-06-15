@@ -35,6 +35,15 @@ class Search extends Component {
   componentWillUnmount() {
     document.removeEventListener('scroll', this.handleScroll)
   }
+  
+  componentDidUpdate(prevProps) {
+    if (this.props.facets !== prevProps.facets) {
+      this.setState({
+        activeFacets: this.unpackFacetParams(this.props.facets)
+      })
+      this.search(this.state.query, this.unpackFacetParams(this.props.facets))
+    }
+  }
 
   render() {
     const resultsHidden = this.state.displayedResults.length > 0 ? '' : 'hidden'

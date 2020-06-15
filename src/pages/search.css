@@ -1,0 +1,19 @@
+div.themes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.theme {
+  margin: 20px;
+  padding: 5px;
+  font-size: 14pt;
+  cursor: pointer;
+  border: thin solid #ccc;
+}
+
+div.theme:hover {
+  color: #b9a22a;
+  border-color: #b9a22a;
+}
