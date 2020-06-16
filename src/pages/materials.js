@@ -10,6 +10,20 @@ import ExpandLess from '@material-ui/icons/ExpandLess'
 import Layout from "../components/layout"
 import "./materials.css"
 
+const FolderItem = ({item}) => {
+  let description = item.description ? <><br />{item.description}</> : ''
+  return (
+    <div className="item">
+      <a 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        href={withPrefix(`/document/${item.iaId}/`)}>
+          {item.title}
+      </a>
+      {description}
+    </div>
+  )
+}
 
 const Folder = ({folder}) => {
 
@@ -29,7 +43,7 @@ const Folder = ({folder}) => {
         <ul className="items">
         {folder.items.map(item => (
           <li>
-            <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${item.iaId}/`)}>{item.title}</a>
+            <FolderItem item={item} />
           </li>
         ))}
         </ul>
