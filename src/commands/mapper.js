@@ -292,6 +292,12 @@ function subjectsToThemes(subjects) {
   return newSubjects
 }
 
+function addSubjectThemes(docs) {
+  for (const doc of docs) {
+    doc.subject = subjectsToThemes(doc.subject)
+  }
+}
+
 module.exports = {
   fetch,
   makeIdExpander,
@@ -300,4 +306,5 @@ module.exports = {
   writeJson,
   subjectToThemes,
   subjectsToThemes,
+  addSubjectThemes,
 }
