@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { graphql } from 'gatsby'
 import { navigate } from "gatsby"
 import Search from "../components/search"
 import queryString from "query-string"

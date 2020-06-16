@@ -34,6 +34,7 @@ export const query = graphql`
         id
         title
       }
+      seriesDescription
     }
   }
 `
@@ -96,8 +97,10 @@ const Episode = ({ data }) => {
               <dd>{episode.broadcastDate}</dd>
               <dt className="label">Duration</dt>
               <dd>{formatDuration(episode.duration)}</dd>
-              <dt className="label">Description</dt>
+              <dt className="label">Episode Description</dt>
               <dd>{episode.description}</dd>
+              <dt className="label">Series Description</dt>
+              <dd>{episode.seriesDescription}</dd>
               <dt className="label">Subject(s)</dt>
               <dd>{subjects}</dd>
               <dt className="label">Creator(s)</dt>
