@@ -54,4 +54,29 @@ test('map a list of subjects to a list of subjects with relevant themes', () => 
       name: 'U.S. Government'
     }
   ])
+})
+
+test('remove duplicates from results', () => {
+  const subjects = [
+    {
+      id: 'jazz-history',
+      name: 'Jazz--History'
+    },
+    {
+      id: 'music',
+      name: 'Music'
+    }
+  ]
+  const newSubjects = mapper.subjectsToThemes(subjects)
+  expect(newSubjects.length).toBe(2)
+  expect(newSubjects).toStrictEqual([
+    {
+      id: 'jazz-history',
+      name: 'Jazz--History'
+    },
+    {
+      id: 'music',
+      name: 'Music'
+    },
+  ])
 }) 

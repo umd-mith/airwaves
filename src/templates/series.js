@@ -3,9 +3,10 @@ import Layout from '../components/layout'
 import { graphql, Link } from 'gatsby'
 import { formatDuration } from '../utils.js'
 import HeadsetIcon from '@material-ui/icons/Headset';
+import RelatedDocuments from '../components/related-documents'
 import './series.css'
 
-export default ({ data }) => {
+export default ({ data, pageContext: { documents } }) => {
   const series = data.seriesJson
   const siteUrl = data.allSite.nodes[0].siteMetadata.siteUrl
 
@@ -73,7 +74,9 @@ export default ({ data }) => {
           </article>
           <article className="pgm-related col-6 col-12-xs">
             <h2>Related Materials</h2>
-            <p></p>
+            <RelatedDocuments 
+              subjects={subjects} 
+              documents={documents} />
           </article>
         </section>
         <section className="columns">

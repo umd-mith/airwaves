@@ -3,12 +3,13 @@ const path = require('path')
 const get = require('node-fetch')
 const minimist = require('minimist')
 
-const {fetch, makeIdExpander, writeJson} = require('./mapper')
+const {fetch, makeIdExpander, writeJson, addSubjectThemes} = require('./mapper')
 
 async function main(skipOcr=false) {
   const folders = await fetch('Dublin Core Metadata (Paper-Folders)', docMap)
   const items = await fetch('Dublin Core Metadata (Paper-Items)', docMap)
   const docs = folders.concat(items)
+  addSubjectThemes(docs)
 
   for (let i = 0; i < docs.length; i += 1) {
     doc = docs[i]

@@ -274,22 +274,20 @@ function subjectToThemes(subject) {
 
 function subjectsToThemes(subjects) {
   if (! subjects) return []
-  const newSubjects = []
-  const seen = new Map()
+  const newSubjects = new Map()
   for (const subject of subjects) {
-    newSubjects.push(Object.assign({}, subject))
+    newSubjects.set(subject.name, Object.assign({}, subject))
     for (const theme of subjectToThemes(subject.name)) {
-      if (! seen.get(theme)) {
-        newSubjects.push({
-          id: slugify(theme),
-          name: theme
-        })
-        seen.set(theme, true)
-      }
+      newSubjects.set(theme, {
+        id: slugify(theme),
+        name: theme
+      })
     }
   }
-  newSubjects.sort((a, b) => a.name.localeCompare(b.name))
-  return newSubjects
+
+  // remove duplicates & sort
+  return Array.from(newSubjects.values())
+    .sort((a, b) => a.name.localeCompare(b.name))
 }
 
 function addSubjectThemes(docs) {

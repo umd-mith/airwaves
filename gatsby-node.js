@@ -20,6 +20,10 @@ async function episodes(createPage, graphql) {
         edges {
           node {
             aapbId
+            subject {
+              id
+              name
+            }
           }
         }
       }
@@ -28,17 +32,16 @@ async function episodes(createPage, graphql) {
 
   results.data.allEpisodesJson.edges.forEach(edge => {
     const episode = edge.node
-    if (! episode.aapbId) {
-      console.log('episode missing aapbId', episode)
-      return
+    // I'm not sure why some rows lack an aapbId but there you go
+    if (episode.aapbId) {
+      createPage({
+        path: `/episode/${episode.aapbId}/`,
+        component: require.resolve(`./src/templates/episode.js`),
+        context: {
+          aapbId: episode.aapbId
+        }
+      })
     }
-    createPage({
-      path: `/episode/${episode.aapbId}/`,
-      component: require.resolve(`./src/templates/episode.js`),
-      context: {
-        aapbId: episode.aapbId
-      }
-    })
   })
 }
 
@@ -84,8 +87,23 @@ async function series(createPage, graphql) {
           }
         }
       }
+      allDocumentsJson {
+        edges {
+          node {
+            iaId
+            title
+            subject {
+              id
+              name
+            }
+          }
+        }
+      }
     }
   `)
+
+  // pass all the docs to the template so it can figure out related docs
+  const documents = results.data.allDocumentsJson.edges.map(e => e.node)
 
   results.data.allSeriesJson.edges.forEach(edge => {
     const series = edge.node
@@ -93,7 +111,8 @@ async function series(createPage, graphql) {
       path: `/programs/${series.id}/`,
       component: require.resolve(`./src/templates/series.js`),
       context: {
-        id: series.id
+        id: series.id,
+        documents: documents
       }
     })
   })
