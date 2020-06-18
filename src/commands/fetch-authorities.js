@@ -24,6 +24,17 @@ const seriesMap = {
   strings: {
     "Series Title": "title",
     "Description": "description",
+  },
+  things: {
+    "Folders Referencing Series": {
+      property: "relatedFolders",
+      expander: makeIdExpander('documents.json', d => {
+        return {
+          iaId: d.iaId,
+          title: d.title
+        }
+      })
+    }
   }
 }
 

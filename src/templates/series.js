@@ -54,6 +54,13 @@ export default ({ data, pageContext: { documents } }) => {
     )
   }
 
+  // create a unique set of all authority names for finding related items
+  const authorityNames = new Set(
+    Array.from(subjects),
+    Array.from(creators),
+    Array.from(contributors)
+  )
+
   return (
     <Layout feedUrl={`/rss/${series.id}.xml`} title={`${series.title}`}>
       <div className="series">
@@ -75,7 +82,8 @@ export default ({ data, pageContext: { documents } }) => {
           <article className="pgm-related col-6 col-12-xs">
             <h2>Related Materials</h2>
             <RelatedDocuments 
-              subjects={subjects} 
+              names={authorityNames}
+              relatedFolders={series.relatedFolders}
               documents={documents} />
           </article>
         </section>
@@ -134,6 +142,10 @@ export const query = graphql`
       id
       title
       description
+      relatedFolders {
+        iaId
+        title
+      }
     }
     allEpisodesJson(
       filter: {
