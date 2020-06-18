@@ -13,23 +13,24 @@ function getRelated(names, docs) {
         }
       }
     }
-    if (foundMatch) {
-      related.push(doc)
-    }
+    if (foundMatch) related.push(doc)
   }
-  return related.sort((a, b) => a.title.localeCompare(b.title))
+  return related
 }
 
 const RelatedDocuments = ({names, relatedFolders, documents}) => {
-  const related = getRelated(names, documents)
+  let related = getRelated(names, documents)
 
   // add any related folders that weren't already included
   const iaIds = new Set(related.map(r => r.iaId))
   for (const folder of relatedFolders || []) {
     if (! iaIds.has(folder.iaId)) {
-      related.unshift(folder)
+      related.push(folder)
     }
   }
+
+  // sort related alphabetically by title
+  related.sort((a, b) => a.title.localeCompare(b.title))
   
   return (
     <ul>
