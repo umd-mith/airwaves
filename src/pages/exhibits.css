@@ -1,10 +1,32 @@
+.exhibits {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
 .exhibit-summary {
+  text-align: center;
+  padding: 10px;
+  width: 250px;
   margin-top: 10px;
+  margin-bottom: 10px;
+  border: thin solid #ccc;
 }
 
 .exhibit-summary .title {
   font-weight: bold;
 }
+
+.exhibit-summary .excerpt {
+  text-align: left;
+  margin: 10px;
+}
+
 .exhibit-summary .excerpt a {
   display: block;
+}
+
+.exhibit-summary img {
+  height: 200px;
 }

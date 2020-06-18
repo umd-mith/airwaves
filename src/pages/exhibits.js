@@ -5,9 +5,7 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import "./exhibits.css"
 
-
 const ExhibitSummary = ({ title, visuals, excerpt, absPath }) => {
-  //const image = visuals[0]
   const slug = path.basename(absPath).replace(/\.md$/, '')
   const url = `/exhibits/${slug}/`
   return (
@@ -15,28 +13,30 @@ const ExhibitSummary = ({ title, visuals, excerpt, absPath }) => {
       <h2 className="title">
         <Link to={url}>{title}</Link>
       </h2>
-      <div className="excerpt">
-        {excerpt}
-        <Link to={url}>Read More...</Link>
-      </div>
+      <section>
+        <img src={visuals[0].image} />
+        <div className="excerpt">
+          {excerpt}
+          <Link to={url}>Read More...</Link>
+        </div>
+      </section>
     </div>
   )
 }
 
 const ExhibitsPage = ({ data }) => {
   const exhibits = data.allMarkdownRemark.nodes
-
   return (
     <Layout>
-      <div className="page-exhibits">
+      <div>
         <section className="leader">
           <h1>Exhibits</h1>
-          <article>
+          <article className="exhibits">
             { exhibits.map(e => (
               <ExhibitSummary 
                 key={e.frontmatter.title}
                 title={e.frontmatter.title} 
-                visuals={e.frontmatter.visuals.image}
+                visuals={e.frontmatter.visuals}
                 absPath={e.fileAbsolutePath}
                 excerpt={e.excerpt} />
             ))}
