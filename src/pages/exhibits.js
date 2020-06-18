@@ -1,20 +1,20 @@
 import path from 'path'
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql, Link, withPrefix } from "gatsby"
 
 import Layout from "../components/layout"
 import "./exhibits.css"
 
 const ExhibitSummary = ({ title, visuals, excerpt, absPath }) => {
   const slug = path.basename(absPath).replace(/\.md$/, '')
-  const url = `/exhibits/${slug}/`
+  const url = withPrefix(`/exhibits/${slug}/`)
   return (
     <div className="exhibit-summary">
       <h2 className="title">
         <Link to={url}>{title}</Link>
       </h2>
       <section>
-        <img src={visuals[0].image} />
+        <img src={withPrefix(visuals[0].image)} />
         <div className="excerpt">
           {excerpt}
           <Link to={url}>Read More...</Link>
