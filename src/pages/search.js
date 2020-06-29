@@ -19,18 +19,18 @@ const SearchPage = ({location, data}) => {
       <Loader>
         {facets}
         <Search query={query} facets={facets} />
-        <div className="themes">
-        {themes.map(t => (
-          <div className="theme"
-            key={`theme-${t.name}`}
-            onClick={e => {
-              setFacets(`subject:${t.name}`)
-              navigate(`/search/?f=subject:${t.name}`)
-            }}>
-            {t.name}
-          </div>
-        ))}
-        </div>
+        <ul className="columns themes">
+          {themes.map(t => (
+            <li className="theme col-3 col-4-lg col-6-md col-6-sm col-6-xs"
+              key={`theme-${t.name}`}
+              onClick={e => {
+                setFacets(`subject:${t.name}`)
+                navigate(`/search/?f=subject:${t.name}`)
+              }}>
+              {t.name}
+            </li>
+          ))}
+        </ul>
       </Loader>
     </Layout>
   )

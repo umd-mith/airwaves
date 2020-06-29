@@ -1,19 +1,18 @@
-div.themes {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+.themes {
+  grid-column-gap: 2rem;
+  grid-row-gap: 1.5rem;
+  justify-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-
-div.theme {
-  margin: 20px;
-  padding: 5px;
-  font-size: 14pt;
+.theme {
+  justify-self: stretch;
+  text-align: center;
+  background-color: #e0ca59;
+  padding: 8px 12px;
+}
+.theme:hover {
+  background-color: #e0c959d3;
   cursor: pointer;
-  border: thin solid #ccc;
-}
-
-div.theme:hover {
-  color: #b9a22a;
-  border-color: #b9a22a;
 }
