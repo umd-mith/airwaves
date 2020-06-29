@@ -110,7 +110,7 @@ Replace PUT_THE_KEY_HERE with the key that they give you in the command below:
 
     echo "AIRTABLE_API_KEY=PUT_KEY_HERE" > .env
 
-## Install Dependencies
+## 4. Install Dependencies
 
 The first time you build the site you will need to install the libraries that
 the site depends on:
@@ -119,7 +119,7 @@ the site depends on:
 
 It can't hurt to run this command occasionally in the future in case someone adds new dependencies to the *package.json*.
 
-## 4. Development Server
+## 5. Development Server
 
 Usually whey you are developing the site you will want to run a development
 server to see what the application looks like as you make changes to the source code:
@@ -127,7 +127,7 @@ server to see what the application looks like as you make changes to the source 
     npm run start
     open http://localhost:8000
 
-## 5. Refreshing the Data
+## 6. Refreshing the Data
 
 The GitHub repository contains snapshots of the Airtable and Internet Archive
 data. If you would like to get the latest data from these sources and regenerate
@@ -150,7 +150,7 @@ If you'd like to fetch the latest document metadata without checking for OCR dat
 
     npm run fetch-docs -- skip-ocr
 
-## 6. Deploy to Staging
+## 7. Deploy to Staging
 
 In order to deploy to the staging site at [unlocking.netlify.app] you will need to *commit* and *push* your changes back to GitHub. The first step in this process is to make your commit with a message indicating what has been changed:
 
@@ -167,7 +167,7 @@ Once you have committed your changes locally you can push them up to GitHub:
 If successful your push will trigger a build process to kick off at Netlify, and
 after a few minutes you should see your changes reflected at the staging site: unlocking.netlify.app.
 
-## 7. Deploy to Production
+## 8. Deploy to Production
 
 The website is currently published on the MITH website at
 https://mith.umd.edu/airwaves In order to publish there your SSH pubkey
@@ -188,7 +188,7 @@ This command will build the site and then use the rsync command to push the new
 files up to the MITH webserver. You may need to wait for the Varnish cache to
 expire for your changes to become available.
 
-## 8. Exhibit Creation with Netlify
+## 9. Exhibit Creation with Netlify
 
 Finally there are administration forms available on the staging site that
 allow for the creation of exhibits. You can find these at
