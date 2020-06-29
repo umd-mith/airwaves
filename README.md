@@ -200,40 +200,35 @@ When exhibits are saved here they should be viewable on the staging site at
 airwaves.netlify.app once the build has completed. In order to publish these
 changes to the 
 
+## 10. Updating this Documentation
+
+The easiest way to edit this documentation or ask questions about it is to use
+GitHub. If you click on [README.md] in the file listing above you will be shown
+a rendered view of the Markdown documentation. If you click the pencil icon to
+edit you can than make changes and save them.
+
+If you have questions about anything to do with the application, even if you are
+an interested member of the public please use the [issue tracker] here on
+GitHub.
+
 [Unlocking the Airwaves]: https://mith.umd.edu/research/unlocking-the-airwaves/
-
 [NAEB]: https://en.wikipedia.org/wiki/National_Association_of_Educational_Broadcasters 
-
 [Gatsby]: https://www.gatsbyjs.org/
-
 [Internet Archive]: https://archive.org/search.php?query=creator%3A%22National+Association+of+Educational+Broadcasters%22
-
 [Netlify]: https://www.netlify.com
-
 [NodeJS]: https://nodejs.org
-
 [Windows Subsystem for Linux]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
-
 [upload]: https://github.com/umd-mith/airwaves-cli/
-
 [IIIF Service]: https://iiif.archivelab.org/iiif/documentation
-
 [staging site]: https://unlocking.netlify.app
-
 [WSL 2.0]: https://docs.microsoft.com/en-us/windows/wsl/install-win10  
-
 [GitHub]: https://github.com/umd-mith/airwaves
-
 [Airtable]: https://airtable.com/
-
 [Amazon S3]: https://aws.amazon.com/s3/
-
 [XCode]: https://developer.apple.com/xcode/
-
 [Homebrew]: https://brew.sh
-
 [Ubuntu 20.04 LTS]: https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71
-
 [add your ssh key]: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
-
 [unlocking.netlify.app]: https://unlocking.netlify.app
+[README.md]: https://github.com/umd-mith/airwaves/blob/master/README.md
+[issue tracker]: https://github.com/umd-mith/airwaves/issues
