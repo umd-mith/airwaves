@@ -28,8 +28,9 @@ of this documentation is concerned with how to build and deploy the site.
 
 *airwaves* is built with [Gatsby] which requires a [NodeJS] development
 environment. If you already have NodeJS setup on your computer you can jump
-forward to the [#GitHub Account](#2-github-account) section. Otherwise here are
-some operating system specific instructions for getting NodeJS on your computer.
+forward to the section [2. GitHub Account](#2-github-account). Otherwise here
+are some operating system specific instructions for getting NodeJS on your
+computer.
 
 ### OS X
 
