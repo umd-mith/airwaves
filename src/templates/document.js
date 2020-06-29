@@ -145,7 +145,7 @@ const Document = ({ data }) => {
           </article>
         </section>
         <section className="columns">
-          <article className="metadata col-6 col-12-xs">
+          <article className="metadata col-6 col-12-sm col-12-xs">
             <dl>
               <dt className="label">Description</dt>
               <dd>{doc.description}</dd>
@@ -156,7 +156,7 @@ const Document = ({ data }) => {
               {browseLinks}
             </dl>
           </article>
-          <article id="doc-viewer" className="col-6 col-12-xs">
+          <article id="doc-viewer" className="col-6 col-12-sm col-12-xs">
             <Mirador config={miradorConfig} plugins={[]} />
             <div className="internet-archive">
               <a href={`https://archive.org/details/${doc.iaId}`}>
