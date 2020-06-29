@@ -17,7 +17,6 @@ const SearchPage = ({location, data}) => {
   return (
     <Layout title="Search">
       <Loader>
-        {facets}
         <Search query={query} facets={facets} />
         <ul className="columns themes">
           {themes.map(t => (
