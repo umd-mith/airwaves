@@ -14,7 +14,7 @@ const ExhibitSummary = ({ title, visuals, excerpt, absPath }) => {
         <Link to={url}>{title}</Link>
       </h2>
       <section>
-        <img src={withPrefix(visuals[0].image)} />
+        <img src={withPrefix(visuals[0].image)} alt={visuals[0].title} />
         <div className="excerpt">
           {excerpt}
           <Link to={url}>Read More...</Link>
@@ -60,6 +60,7 @@ export const query = graphql`
           title
           visuals {
             image
+            title
           }
         }
         excerpt(format: PLAIN)
