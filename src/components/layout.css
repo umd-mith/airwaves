@@ -67,7 +67,7 @@ header, .main-head {
 /***** GRID *****/
 .columns {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12, minmax(0, 1fr));
   grid-column-gap: 3rem;
   grid-row-gap: 1.5rem;
   align-items: start;
@@ -292,10 +292,10 @@ dd {
 dt, dd {
   margin: 0;
   padding: .5em .7em .5em 0;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-top: 1px solid #dedede
 }
 dt:last-of-type, dd:last-of-type {
-  border-bottom: 1px solid rgba(0,0,0,.1);  
+  border-bottom: 1px solid #dedede
 }
 a {
   text-decoration: none;

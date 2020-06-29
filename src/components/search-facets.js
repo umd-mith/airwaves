@@ -11,23 +11,25 @@ class SearchFacets extends Component {
       <article className="facets col-4 col-5-lg col-5-md col-6-sm col-12-xs">
 
 		    <div className="facet-panel item-total">
-			    Refine Results <span className="item-count">{this.props.results.length}</span>
+			    <span>Refine Results</span> <span className="item-count">{this.props.results.length}</span>
 		    </div>
 
         {facets.map(facet => (
         <div key={`facet-${facet.name}`} className={`facet-panel facet-${facet.name}`}>
           <label className={`facet-label facet-label-${facet.name}`}>Filter By {facet.name}</label>
-          <dl className="facet-list">
+          <div className="facet-list">
             {facet.counts.map((f, i) => (
-              <Facet
-                key={`${this.props.query}-${facet.name}-${f[0]}`}
-                activeFacets={this.props.activeFacets}
-                updateFacets={this.props.updateFacets}
-                type={facet.name}
-                name={f[0]}
-                count={f[1]} />
+              <div className="facet-item">
+                <Facet
+                  key={`${this.props.query}-${facet.name}-${f[0]}`}
+                  activeFacets={this.props.activeFacets}
+                  updateFacets={this.props.updateFacets}
+                  type={facet.name}
+                  name={f[0]}
+                  count={f[1]} />
+              </div>
             ))}
-          </dl>
+          </div>
         </div>
         ))}
 
@@ -54,18 +56,18 @@ class Facet extends Component {
   render() {
     return (
       <>
-        <dd className="item-count">{this.props.count}</dd>
-        <dt>
-          <input
-            aria-label={this.props.name}
-            type="checkbox"
-            name="item-type"
-            defaultChecked={this.state.active} 
-            onClick={(e) => {this.toggle(e)}} />
-          <label title={this.props.name}>
-            {this.props.name}
-          </label>
-        </dt>
+        <input
+          aria-label={this.props.name}
+          type="checkbox"
+          name="item-type"
+          defaultChecked={this.state.active} 
+          onClick={(e) => {this.toggle(e)}} 
+          className="cb-input cb-toggle"
+        />
+        <label title={this.props.name} className="cb-label">
+          {this.props.name}
+        </label>
+        <span className="item-count">{this.props.count}</span>
       </>
     )
   }

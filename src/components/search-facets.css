@@ -1,64 +1,52 @@
+.page-search .columns {
+  grid-column-gap: 2rem;
+}
 .search .facet-panel {
   padding: 10px 12px;
   margin-bottom: 10px;
   border: 1px dotted #d8d8d8;
   background-color: #fff;
 }
-
-.search .facet-panel.item-total, .search .facet-panel.item-sort {
+.search .facet-panel.item-total, 
+.search .facet-panel.item-sort {
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  grid-column-gap: 0.25rem;
   background-color: #ececec;
   font-size: 14px;
   text-transform: uppercase;
 }
-
 .search .facet-label {
-  display: block;
   color: #333333;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
 }
-
-.search .facets dl {
-  margin: 0.5em 0 0 0;
-  display: inherit;
-}
-
-.search .facets dt, .search .facets dd {
+.search .facet-item { 
+  display: grid;
+  grid-template-columns: 25px 7fr 1fr;
+  grid-column-gap: 0.25rem;
+  grid-row-gap: 1rem;
+  position: relative;
   padding: 4px 0;
   font-size: 9pt;
+  border-bottom: 1px solid #dedede;
 }
-
 .search .facets .item-count {
-  min-width: 30px;
-  float: right;
-  margin-left: 5px;
-  display: inline-block;
-  text-align: right;
-  position: relative;
+  justify-self: end;
   z-index: 2;
 }
-
-.search .facets dt {
-  display: block;
-  position: relative;
-  white-space: nowrap;
-  z-index: 1;
-  cursor: pointer;
+.search .facets input {
+  justify-self: start;
 }
-
-.search .facets dt input {
-  position: absolute;
-  left: -4px;
-  /*margin-top: 0px;*/
-}
-
-.search .facets dt label {
-  display: block;
-  padding-left: 20px;
+.search .facets label {
+  max-width: 100%;
   white-space: nowrap;
   text-overflow: ellipsis;
   -o-text-overflow: ellipsis;
   -ms-text-overflow: ellipsis;
   overflow: hidden;  
+}
+.search .facet-item:last-of-type, .search .facet-item:last-of-type {
+  border-bottom: none;
 }
