@@ -24,12 +24,12 @@ process. Fortunately, this build process happens just once when the site is
 deployed, rather than every time a resource is fetched by a user. The remainder
 of this documentation is concerned with how to build and deploy the site.
 
-## NodeJS
+## 1. NodeJS
 
 *airwaves* is built with [Gatsby] which requires a [NodeJS] development
 environment. If you already have NodeJS setup on your computer you can jump
-forward to the *GitHub* section. Otherwise here are some operating system
-specific instructions for getting NodeJS on your computer.
+forward to the [#GitHub Account](#2-github-account) section. Otherwise here are
+some operating system specific instructions for getting NodeJS on your computer.
 
 ### OS X
 
@@ -64,7 +64,7 @@ Next you will need to tell Ubuntu to install the latest version of NodeJS:
     curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
     sudo apt-get install -y nodejs npm
 
-## GitHub Account
+## 2. GitHub Account
 
 In order to push changes back to GitHub you will need a GitHub account that
 has been granted access to the airwaves repository.
@@ -96,7 +96,7 @@ As a last step you need to tell the git command line utility who you are on GitH
 Whew, that was a lot! But fortunately you'll only need to do these steps once
 on the computer you are using.
 
-## Build
+## 3. Build
 
 Now you should be able to fetch the code to your workstation from GitHub:
 
@@ -118,7 +118,7 @@ the site depends on:
 
 It can't hurt to run this command occasionally in the future in case someone adds new dependencies to the *package.json*.
 
-## Development Server
+## 4. Development Server
 
 Usually whey you are developing the site you will want to run a development
 server to see what the application looks like as you make changes to the source code:
@@ -126,7 +126,7 @@ server to see what the application looks like as you make changes to the source 
     npm run start
     open http://localhost:8000
 
-## Refreshing the Data
+## 5. Refreshing the Data
 
 The GitHub repository contains snapshots of the Airtable and Internet Archive
 data. If you would like to get the latest data from these sources and regenerate
@@ -149,7 +149,7 @@ If you'd like to fetch the latest document metadata without checking for OCR dat
 
     npm run fetch-docs -- skip-ocr
 
-## Deploy to Staging
+## 6. Deploy to Staging
 
 In order to deploy to the staging site at [unlocking.netlify.app] you will need to *commit* and *push* your changes back to GitHub. The first step in this process is to make your commit with a message indicating what has been changed:
 
@@ -166,7 +166,7 @@ Once you have committed your changes locally you can push them up to GitHub:
 If successful your push will trigger a build process to kick off at Netlify, and
 after a few minutes you should see your changes reflected at the staging site: unlocking.netlify.app.
 
-## Deploy to Production
+## 7. Deploy to Production
 
 The website is currently published on the MITH website at
 https://mith.umd.edu/airwaves In order to publish there your SSH pubkey
@@ -174,19 +174,30 @@ https://mith.umd.edu/airwaves In order to publish there your SSH pubkey
 `/home/ubuntu/.ssh/authorized_keys` file on wordpress.mith.us server. Email
 your public key to edsu@umd.edu and he will do that for you if you don't have permission to do it yourself.
 
-Once your key is set up you can publish the site using the `publish` command:
+Once your key is set up you will want to ensure you have the latest code on
+GitHub:
+
+    git pull 
+
+And then you can publish to mith.umd.edu:
 
     npm run publish
 
-That command will build the site and then use the rsync command to push the new files up to the MITH webserver. You may need to wait for the Varnish cache to expire for your changes to become available.
+This command will build the site and then use the rsync command to push the new
+files up to the MITH webserver. You may need to wait for the Varnish cache to
+expire for your changes to become available.
 
-## Netlify
+## 8. Exhibit Creation with Netlify
 
 Finally there are administration forms available on the staging site that
 allow for the creation of exhibits. You can find these at
 https://unlocking.netlify.app/admin/ In order to use these forms you will
 need to be added to MITH's Netlify account. Please email edsu@umd.edu to
 request access.
+
+When exhibits are saved here they should be viewable on the staging site at
+airwaves.netlify.app once the build has completed. In order to publish these
+changes to the 
 
 [Unlocking the Airwaves]: https://mith.umd.edu/research/unlocking-the-airwaves/
 
