@@ -6,11 +6,11 @@
 .MuiList-padding .MuiList-root {
   margin-left: 20px;
 }
+
 /* content */
 .MuiCollapse-container .MuiTypography-body1 {
   font-size: 0.875rem;
 }
-
 article .li-text .MuiCollapse-wrapperInner,
 article .li-box .MuiCollapse-wrapperInner {
   padding: 8px 16px; 
@@ -19,6 +19,10 @@ article .li-box .MuiCollapse-wrapperInner {
   font-size: 0.875rem;
   font-family: inherit;
 }
+li[class^="folder-naeb-"], li[class*=" folder-naeb-"] {
+  padding-left: 0px;
+}
+
 /* buttons */
 .MuiListItem-button .MuiTypography-body1 {
   font-size: 1rem;
@@ -30,6 +34,7 @@ article .li-box .MuiCollapse-wrapperInner {
   font-family: inherit;
   font-weight: bold;
 }
+
 /* tables */
 .MuiCollapse-wrapper dl {
   display: grid;
@@ -49,6 +54,7 @@ article .li-box .MuiCollapse-wrapperInner {
   padding: .3em .7em;
   border-top: 1px solid rgba(0,0,0,.1);
 }
+
 /* box description */
 .li-box .MuiCollapse-wrapperInner {
   display: grid;
@@ -58,37 +64,39 @@ article .li-box .MuiCollapse-wrapperInner {
   justify-self: end;
   align-self: start;
 }
-
 .li-box .button {
   padding: 6px 10px;
   margin-top: 0;
 }
-
 .folder {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+  grid-column-gap: 0.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px dashed rgba(0,0,0,0.2)
 }
-
+.folder.has-items {
+  grid-row-gap: 0;
+}
+.MuiList-root li:last-child .folder {
+  border-bottom: 0;
+  padding-bottom: 0.25rem;
+}
+.MuiList-root li:first-child .folder {
+  margin-top: 0.75rem;
+}
 .folder-title {
-  width: 80%;
+  margin-bottom: 0.5em;
 }
-
 .folder-link {
-  width: 20%;
-  text-align: right;
+  justify-self: right;
 }
-
-.items {
+.folder-items .item:first-child {
   margin-top: 10px;
 }
-
-.item {
+.folder-item {
   margin-left: 10px;
   margin-top: 5px;
 }
-
 .folder-link a.button {
-  padding: 2px 3px 2px 3px; 
+  padding: 3px 7px; 
   margin: 0px;
 }

@@ -26,27 +26,31 @@ const FolderItem = ({item}) => {
 }
 
 const Folder = ({folder}) => {
-
+  const itemCount = folder.items.length
+  let hasItems = ''
+  if (itemCount > 0) {
+    hasItems = 'has-items'
+  }
   const folderLink = folder.digitized ? <a target="_blank" rel="noopener noreferrer" href={withPrefix(`/document/${folder.iaId}/`)} className="button" >View Folder</a> : ''
   return (
-    <ListItem key={`${folder.iaId}`} component="li">
+    <ListItem key={`${folder.iaId}`} component="li" className={`folder-${folder.iaId}`}>
       <ListItemText>
-        <div className="folder">
-          <div className="folder-title">
-            Folder {folder.number} &mdash; {folder.title} <br />
-            {folder.description}
+        <div className={`folder columns ${hasItems}`}>
+          <div className="folder-details col-10">
+            <h4 className="folder-title">Folder {folder.number} &mdash; {folder.title}</h4>
+            <div className="folder-description">{folder.description}</div>
           </div>
-          <div className="folder-link">
+          <div className="folder-link col-2">
             {folderLink}
           </div>
+          <ul className="folder-items col-12">
+            {folder.items.map(item => (
+              <li>
+                <FolderItem item={item} />
+              </li>
+            ))}
+          </ul>
         </div>
-        <ul className="items">
-        {folder.items.map(item => (
-          <li>
-            <FolderItem item={item} />
-          </li>
-        ))}
-        </ul>
       </ListItemText>
     </ListItem> 
   )
