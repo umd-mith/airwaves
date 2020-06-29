@@ -31,13 +31,13 @@ environment. If you already have NodeJS setup on your computer you can jump
 forward to the *GitHub* section. Otherwise here are some operating system
 specific instructions for getting NodeJS on your computer.
 
-## OS X
+### OS X
 
 1. Install [XCode] or alternatively just the XCode Command Line Tools
 2. Install [Homebrew]
 3. Open Terminal window and type: `brew install node`
 
-## Windows
+### Windows
 
 Installing NodeJS on Windows isn't difficult, but Gatsby requires a working
 C++ compiler which isn't the easiest thing to get set up on Windows.
@@ -52,7 +52,7 @@ you easily run an Ubuntu Linux system on Windows.
 
 Now you are ready to follow the installation instructions below for Linux.
 
-## Linux (Ubuntu)
+### Linux (Ubuntu)
 
 First make sure the operating system is up to date:
 
