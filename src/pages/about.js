@@ -36,11 +36,11 @@ const AboutPage = () => (
 
       </article>
     </section>
-    <section id="contributors" className="columns" style={{rowGap: "0"}}>
+    <section id="contributors" className="columns contributors">
       <article className="col-12">
         <h2>Contributors</h2>
       </article>
-      <article className="col-4 col-12-xs">
+      <article className="col-4 col-6-md col-12-sm col-12-xs project-directors">
         <h3>Project Directors</h3>
         <ul>
           <li>Stephanie Sapienza (Principal Investigator, MITH)</li>
@@ -55,9 +55,9 @@ const AboutPage = () => (
           <li>Josh Shepperd (Assistant Professor, Catholic University)</li>
         </ul>
       </article>
-      <article className="col-8 col-12-xs columns" style={{rowGap: "0"}}>
+      <article className="col-8 col-6-md col-12-sm col-12-xs project-team">
         <h3 className="col-12">Project Team</h3>
-        <ul className="col-6 col-12-xs">
+        <ul className="col-6 col-12-md col-12-sm col-12-xs">
           <li>J.J. Bersch (Production Assistant, UW)</li>
           <li>Matthew Blessing (Administrator of the Division of Library-Archives, WHS)</li>
           <li>Alison Bridger (Archivist, WHS)</li>
@@ -65,7 +65,7 @@ const AboutPage = () => (
           <li>Kirsten Keister (Designer, MITH)</li>
           <li>Jacob Mertens (Production Assistant, UW)</li>
         </ul>
-        <ul className="col-6 col-12-xs">
+        <ul className="col-6 col-12-md col-12-sm col-12-xs">
           <li>Trevor Muñoz (Director, MITH)</li>
           <li>Connor Perkins (Production Assistant, UW)</li>
           <li>Matthew St. John (Production Assistant, UW)</li>
