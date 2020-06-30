@@ -101,8 +101,7 @@ on the computer you are using.
 
 Now you should be able to fetch the code to your workstation from GitHub:
 
-    git clone https://github.com/umd-mith/airwaves
-    cd airwaves
+    git clone git@github.com:umd-mith/airwaves.git
 
 In order to collect data from the Airtable database you will need to set a
 configuration variable using a key which one of the team members can give you.
