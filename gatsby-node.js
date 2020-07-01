@@ -1,6 +1,7 @@
 const fs = require('fs')
 const RSS = require('rss')
 const path = require('path')
+const xmlescape = require('xml-escape')
 
 exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) => {
   await episodes(createPage, graphql, pathPrefix)
@@ -218,8 +219,10 @@ async function rss(graphql, force=false) {
       fs.writeFileSync(feedPath, feed.xml()) 
     }
 
+    const escapedTitle = xmlescape(series.title)
+
     // add to opml file
-    opml += `    <outline type="rss" text="${series.title}" title="${series.title}" xmlUrl="${feedUrl}" htmlUrl="${seriesUrl}"/>\n`
+    opml += `    <outline type="rss" text="${escapedTitle}" title="${escapedTitle}" xmlUrl="${feedUrl}" htmlUrl="${seriesUrl}"/>\n`
   
   })
 
