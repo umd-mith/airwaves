@@ -8,13 +8,18 @@ import "./exhibits.css"
 const ExhibitSummary = ({ title, visuals, excerpt, absPath }) => {
   const slug = path.basename(absPath).replace(/\.md$/, '')
   const url = `/exhibits/${slug}/`
+
+  let img = ''
+  if (visuals && visuals.length > 0) {
+    img = <img src={withPrefix(visuals[0].image)} alt={visuals[0].title} />
+  }
   return (
     <div className="exhibit-summary">
       <h2 className="title">
         <Link to={url}>{title}</Link>
       </h2>
       <section>
-        <img src={withPrefix(visuals[0].image)} alt={visuals[0].title} />
+        {img}
         <div className="excerpt">
           {excerpt}
           <Link to={url}>Read More...</Link>

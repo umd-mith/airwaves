@@ -32,6 +32,7 @@ const RelatedItem = ({title, url, description}) => {
 }
 
 const Exhibit = ({ pageContext: exhibit }) => {
+  if (! exhibit.visuals) exhibit.visuals = []
   return (
     <Layout title={exhibit.title}>
       <div className="exhibit">
