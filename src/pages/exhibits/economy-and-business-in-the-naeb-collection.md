@@ -11,13 +11,15 @@ visuals:
       represented—along with other relevant materials—in NAEB document
       collections. "
     image: /images/kit_image_1.jpg
-  - title: Script for The Last Citizen episode on Black employment––an example of
-      materials exploring race and the economy.
+  - title: Visit the African American History theme in the collection for additional
+      materials exploring race and the economy, like this script for The Last
+      Citizen episode on Black employment.
     image: /images/kit_image_2.jpg
   - title: Script for Report from Japan hosted by John Lerch (c1956). Although many
       economy-themed recordings focus on the U.S., documents hint at the extent
       to which U.S. postwar foreign policy sought to protect and expand
-      capitalism abroad.
+      capitalism abroad. See also the War and Civil Defense theme in the
+      collection.
     image: /images/kit_image_3.jpg
   - title: "Promotional materials for People under Communism. Communism’s threat to
       the self-evident righteousness of capitalism pops up in docudramas and
@@ -25,7 +27,8 @@ visuals:
     image: /images/kit_image_4.jpg
   - title: Another example of Communism's threat, in this letter from Don Nelson to
       Robert Underwood, Jr. (June 30, 1958) regarding “updates” made to
-      Stretching Your Family Income to prepare it for NAEB distribution.
+      Stretching Your Family Income to prepare it for NAEB distribution. See
+      also World Politics and U.S. Government themes in the collection.
     image: /images/kit_image_5.jpg
 related:
   - title: "Pathways to Progress: The Great Lakes"
