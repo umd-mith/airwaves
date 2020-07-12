@@ -1,6 +1,9 @@
 ---
 title: Music Programs in the NAEB Collection
 creator: Laura Schnitker
+visuals:
+  - image: /images/music_image.jpg
+    title: Flyer for a 1962 conference on music programming in educational radio.
 related:
   - url: https://mith.umd.edu/airwaves/programs/beethoven-the-man-who-freed-music/
     title: "Beethoven: The Man Who Freed Music"
