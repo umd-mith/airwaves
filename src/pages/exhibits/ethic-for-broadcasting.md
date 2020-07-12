@@ -1,6 +1,10 @@
 ---
 title: Ethic for Broadcasting
 creator: Michele Hilmes
+visuals:
+  - image: /images/ethic_image.jpg
+    title: A brochure for the NAEB grants-in-aid program, which funded the
+      production of series like Ethic for Broadcasting.
 related:
   - title: Ethic for Broadcasting
     url: https://mith.umd.edu/airwaves/programs/ethic-for-broadcasting/
