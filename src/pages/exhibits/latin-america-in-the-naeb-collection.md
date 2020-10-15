@@ -3,9 +3,9 @@ title: Latin America in the NAEB Collection
 creator: Arcelia Gutiérrez
 visuals:
   - image: /images/wnth_sample_programs.png
-    title: A list of representative broadcast programs including Contemporary
-      Revolution in Latin America for WNTH, a high school radio station in
-      Winnetka, Illinois.
+    title: "A 1961 list of representative broadcast programs, including Contemporary
+      Revolution in Latin America, from high school radio station WNTH in
+      Winnetka, Illinois. "
 related:
   - title: Contemporary Revolution in Latin America
     url: https://mith.umd.edu/airwaves/programs/contemporary-revolution-in-latin-america/
