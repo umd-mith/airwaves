@@ -40,6 +40,9 @@ related:
       takes the form of a panel discussion with poets, academics, and literary
       editors.
     title: "Success in the Arts: Poetry"
+  - title: A test link
+    url: https://mith.umd.edu/airwaves/document/naeb-b057-f09/#42
+    description: Linking right to a page!
 ---
 The three programs devoted to poetry in the NAEB collection—*Poetry and the American*, *Poetry in Song*, and *What Is Modern Poetry*—remind us how much norms of poetry performance have changed since the 1950s. Not one of these program features poets reading their own poems. Instead, lecture-recitals are common, with professors and actors reading poems in a slow and typically solemn tone, embedded in instructive lectures that contextualize and interpret the poems for the audience, often with paeans to the universal and unchanging nature of poetic subject matter.
 
