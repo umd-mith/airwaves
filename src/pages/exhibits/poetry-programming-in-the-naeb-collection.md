@@ -9,7 +9,8 @@ visuals:
       Wikimedia Commons)
   - image: /images/naeb-b057-f09_0042.jpg
     title: Excerpt from a Rockefeller Foundation proposal for a six-month experiment
-      in broadcasting poetry.
+      in broadcasting poetry. Available at [Unlocking the
+      Airwaves](https://mith.umd.edu/airwaves/document/naeb-b057-f09/#42).
 related:
   - url: https://mith.umd.edu/airwaves/programs/poetry-and-the-american/
     title: Poetry and the American (full series)
