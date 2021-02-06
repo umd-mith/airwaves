@@ -1,12 +1,18 @@
 import React from 'react'
 import Layout from '../components/layout'
 import { Link, withPrefix } from 'gatsby'
+import remark from 'remark'
+import remarkHtml from 'remark-html'
+import recommended from 'remark-preset-lint-recommended'
+
 import './exhibit.css'
+
+const convertMarkdown = remark().use(recommended).use(remarkHtml).processSync
 
 const Visual = ({title, image}) => (
   <figure className="visual">
     <img alt={title} title={title} src={withPrefix(image)} />
-    <figcaption>{title}</figcaption>
+    <figcaption dangerouslySetInnerHTML={{__html: convertMarkdown(title).toString() }} />
   </figure>
 )
 
