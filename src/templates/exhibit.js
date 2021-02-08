@@ -22,7 +22,7 @@ const RelatedItem = ({title, url, description}) => {
   // when building with --prefix-paths
 
   const uri = new URL(url)
-  let localPath = uri.pathname + uri.search
+  let localPath = uri.pathname + uri.search + uri.hash
   localPath = localPath.replace(/^\/airwaves/, '')
 
   return (
