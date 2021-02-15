@@ -1,6 +1,17 @@
 ---
 title: Labor and the NAEB
 creator: Allison Perlman
+visuals:
+  - image: /images/naeb-b067-f02_0158-crop.png
+    title: Portrait of Morris Novik at the head of a Broadcasting Magazine piece
+      entitled ‘Labor Turns to Radio.' [Read the entire piece at the *Unlocking
+      the Airwave*s
+      website](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#159).
+  - image: /images/mnovik_egoldberger_election-wnyc.jpg
+    title: 'Morris Novik and the WNYC election night news team circa 1941. Photo
+      courtesy of WNYC Archive Collections, from the feature piece "[Morris S.
+      Novik: Public Radio
+      Pioneer](https://www.wnyc.org/story/218821-morris-s-novik-public-radio-pioneer/)."'
 related:
   - title: ‘Labor Turns to Radio’ Broadcasting Magazine Piece by Morris Novik
     description: “Put this in your briefcase and next time you take a trip maybe
@@ -9,6 +20,13 @@ related:
       about labor and radio for their recent special issue.” - Morris Novik to
       Frank Schooley, 1956
     url: https://mith.umd.edu/airwaves/document/naeb-b067-f02/#159
+  - title: "Morris Novik: 1953-1954 NAEB Correspondence"
+    url: https://mith.umd.edu/airwaves/document/naeb-b069-f10/
+    description: Correspondence of Morris Novik with the NAEB in the years leading
+      up to his consultancy. "As new television stations go on the air, they ask
+      NAEB about labor relations, and union relations. Radio stations also have
+      questions and problems in this area from time to time." - Harry Skornia,
+      Director of the NAEB, to Novik in 1953
   - title: The Hiring of Morris Novik (NAEB Correspondence)
     url: https://mith.umd.edu/airwaves/document/naeb-b020-f01/#67
     description: “Morris’ services will be on a local station rather than on a
@@ -59,6 +77,14 @@ related:
       possible, for as many television stations as possible, in as many
       communities as possible.'\""
     url: https://mith.umd.edu/airwaves/document/naeb-b067-f02/#209
+  - url: https://mith.umd.edu/airwaves/document/naeb-b111-f06-09/#18
+    title: NAEB Newsletter (May 31, 1948)
+    description: Novik, during his years as the NAEB Secretary, was highlighted in
+      this 1948 NAEB newsletter. "Morris S. Novik, NAEB Secretary, says news
+      analysts and commentators belonging to the American Civil Liberties Union
+      wants a free hand in what they say. Their statement to this effect was
+      presented to the NAB at the Los Angeles convention when Novik appeared as
+      spokesman for the organization on civil liberties."
 ---
 Organized labor and educational broadcasters often found common cause in the US. Educational broadcasters feared commercial interests would dominate radio and later television, and displace their vision of broadcasting as an instrument for edification and enlightenment with one that imagined it as a technology for entertainment and profit. Whereas unions saw in commercial broadcasting an existential threat, constituted by a pro-corporate orientation that, utilizing the most powerful form of communication, could inculcate business values as neutral, demands for workers’ rights as radical. Along with others, unions and educational broadcasters joined forces in the late 1920s and early 1930s to resist a regulatory paradigm that favored commercial radio. One of the resolutions passed at the first meeting of the newly merged American Federation of Labor (AFL)-Congress of Industrial Organizations (CIO) union [was in support](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#209) of the continued expansion of educational television.
 
