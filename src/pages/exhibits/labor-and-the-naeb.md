@@ -116,8 +116,6 @@ Given this diversity, stations insisted that labor negotiations should be exclus
 
 Most educational television stations operated on very small budgets, especially in comparison to commercial telecasters. Their budgets foreclosed their ability to pay represented workers the same wages they received at commercial stations. As Richard Goggin, station manager of KETC in St. Louis, [wrote to Novik in December 1953](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#9), “no educational television station can financially face a future in which everyone on staff is unionized at union commercial television pay scales. We are now at a crucial point.”
 
-### Norris’ Advocacy
-
 Accordingly, a key service that Novik provided to stations [was educating union leaders](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#32) about the mission, function, and finances of educational television stations. He [successfully persuaded many unions,](https://mith.umd.edu/airwaves/document/naeb-b056-f02/#34) especially those representing technicians, to forego the rates they charged commercial stations and adopt lower rates for educational stations. He also supported stations who were at the center of turf battles between locals and, importantly, advised stations to work fairly and honestly with local unions.
 
 This was a crucial facet of Novik’s work. On the one hand, he sought advantageous labor contracts for local stations, and on the other hand he [insisted that educational television](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#204) respect the rights of organized labor and its import in local communities. [He encouraged](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#235) newly licensed stations to build relationships with local unions, appoint union leaders to station boards of directors, and coordinate with unions to build community support for the station. Not only would such actions forestall future labor strife but, for Novik, they also would assure that the interests of workers were central to the mission of educational television.
@@ -134,26 +132,24 @@ Novik’s work for the NAEB occurred against this backdrop, in which the transfo
 
 #### Works Cited and Further Reading
 
-Dolber, Brian. “Strange Bedfellows: Yiddish Socialist Radio and the Collapse of Broadcasting Reform in the United States, 1927-1938,” Historical Journal of Film, Radio and Television 33, no. 2 (2013): 289-307.
+Dolber, Brian. “Strange Bedfellows: Yiddish Socialist Radio and the Collapse of Broadcasting Reform in the United States, 1927-1938,” *Historical Journal of Film, Radio and Television* 33, no. 2 (2013): 289-307.
 
-Dolber, Brian. “Unmaking ‘Hegemonic Jewishness’: Anti-Communism, Gender Politics, and Communication in the ILGWU, 1924-1934,” Race, Gender & Class 15, no. 1/2 (2008): 188-203.
+Dolber, Brian. “Unmaking ‘Hegemonic Jewishness’: Anti-Communism, Gender Politics, and Communication in the ILGWU, 1924-1934,” *Race, Gender & Class* 15, no. 1/2 (2008): 188-203.
 
-Fones-Wolf, Elizabeth. “Broadcasting Unionism: Labor and FM Radio in Postwar America.” In Radio Cultures: The Sound Medium in American Life, edited by Michael C. Keith, 151-170. New York: Peter Lang, 2008.
+Fones-Wolf, Elizabeth. “Broadcasting Unionism: Labor and FM Radio in Postwar America.” In *Radio Cultures: The Sound Medium in American Life*, edited by Michael C. Keith, 151-170. New York: Peter Lang, 2008.
 
-Fones-Wolf, Elizabeth. Waves of Opposition: Labor and the Struggle for Democratic Radio. Urbana: University of Illinois Press, 2006.
+Fones-Wolf, Elizabeth. *Waves of Opposition: Labor and the Struggle for Democratic Radio*. Urbana: University of Illinois Press, 2006.
 
-Godfried, Nathan. “Struggling Over Politics and Culture: Organized Labor and Radio Station WEVD During the 1930s,” Labor History 42, no. 2 (2001): 347-369.
+Godfried, Nathan. “Struggling Over Politics and Culture: Organized Labor and Radio Station WEVD During the 1930s,” *Labor History* 42, no. 2 (2001): 347-369.
 
-Godfried, Nathan. WCFL: Chicago’s Voice of Labor, 1926-78. Urbana: University of Illinois Press, 1997.
+Godfried, Nathan. *WCFL: Chicago’s Voice of Labor, 1926-78*. Urbana: University of Illinois Press, 1997.
 
-Hill, Harold E. The National Association of Educational Broadcasters: A History. Urbana: NAEB, 1954.
+Hill, Harold E. *The National Association of Educational Broadcasters: A History*. Urbana: NAEB, 1954.
 
-Lichtenstein, Nelson. State of the Union: A Century of American Labor. Princeton: Princeton University Press, 2002.
+Lichtenstein, Nelson. *State of the Union: A Century of American Labor*. Princeton: Princeton University Press, 2002.
 
-Lichtenstein, Nelson. “The Unions’ Retreat in the Postwar Era.” In Major Problems in the History of American Workers, edited by Eileen Boris and Nelson Lichtenstein, 384-396. Boston: Wadsworth, 2003.
+Lichtenstein, Nelson. “The Unions’ Retreat in the Postwar Era.” In *Major Problems in the History of American Workers*, edited by Eileen Boris and Nelson Lichtenstein, 384-396. Boston: Wadsworth, 2003.
 
-McChesney, Robert W. Telecommunications, Mass Media, and Democracy: The Battle for the **Control of U.S. Broadcasting, 1928-1935. New York: Oxford University Press, 1993.**
-
-
+McChesney, Robert W. *Telecommunications, Mass Media, and Democracy: The Battle for the Control of U.S. Broadcasting, 1928-1935*. New York: Oxford University Press, 1993.
 
 **[Allison Perlman](https://www.faculty.uci.edu/profile.cfm?faculty_id=5878)** is an Associate Professor in the Departments of History and Film and Media Studies at the University of California, Irvine. She is the author of *Public Interests: Media Advocacy and Struggles Over US Television* (Rutgers UP, 2016), which won the Outstanding Book Prize from the Popular Culture Division of the International Communication Association. She is currently writing a history of National Educational Television (NET). In addition, she and Josh Shepperd are currently revising *The History of Public Broadcasting* for the Corporation of Public Broadcasting. She has served in leadership roles for the Library of Congress’ Radio Preservation Task Force and currently is the co-chair of the Scholars Advisory Committee for the American Archive for Public Broadcasting.
