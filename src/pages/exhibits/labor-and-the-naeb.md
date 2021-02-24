@@ -120,7 +120,7 @@ Accordingly, a key service that Novik provided to stations [was educating union 
 
 This was a crucial facet of Novik’s work. On the one hand, he sought advantageous labor contracts for local stations, and on the other hand he [insisted that educational television](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#204) respect the rights of organized labor and its import in local communities. [He encouraged](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#235) newly licensed stations to build relationships with local unions, appoint union leaders to station boards of directors, and coordinate with unions to build community support for the station. Not only would such actions forestall future labor strife but, for Novik, they also would assure that the interests of workers were central to the mission of educational television.
 
-![](/images/naeb-b067-f02_0203-crop.png)
+![](/images/naeb-b067-f02_0203.png)
 
 ### Educational TV & Labor after the Taft-Hartley Act
 
