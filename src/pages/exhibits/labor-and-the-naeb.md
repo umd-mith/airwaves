@@ -104,13 +104,13 @@ Novik joined the NAEB in 1939. He served on the NAEB’s Board of Directors from
 
 The previous year, the Federal Communications Commission had reserved 242 frequencies for noncommercial educational television. Subsequently the NAEB, along with a range of other national organizations, worked to assure the growth of educational television, by drumming up popular support for a noncommercial television sector, advocating for policies conducive to its continued development, and providing aid – technical, legal, tactical – to local stations. Novik’s position as the NAEB’s Management and Community Relations consultant, which was codified in 1954 a grant from the [Ford Foundation’s Fund for Adult Education](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#218), was consistent with these practices.
 
-![](https://lh5.googleusercontent.com/V3AsQMCO0VfjJyf4p5xSgvWvaiDf56_Tp8H4GEeTxUc02m8DrkQbT4wxcZM_ee-k-Edkw2FHwMV_1V7ma810OmDlRn4vq7KHIHMDF2FucpNx4IGInhC0Xliyu9d5xw)
+![](/images/naeb-b067-f02_0217-crop.png)
 
 [Novik’s work would be coordinated](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#80) through the NAEB Executive Director’s office; he would assist local stations in negotiating relationships with unions and work with other national organizations, especially the Educational Television and Radio Center (ETRC), to navigate rights for nationally circulating programming.
 
 The issues around unions and the educational television sector were multiple and thorny. The sector in the 1950s encompassed a heterogeneous range of stations; some were controlled by universities or public-school systems, others by state commissions, and still others by community organizations. Some were located in right-to-work states, while others were in strong union cities. Some envisioned educational television as instructional television, others an instrument of adult education, cultural uplift, or counter-programming to commercial stations. Accordingly, not all stations employed represented workers – some, [like KCTS in Seattle](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#129), were run by a public university and staffed by students and college personnel – and stations varied in their support of organized labor.
 
-![](https://lh4.googleusercontent.com/9iYq9dTNJRCTcV-opql3qBeVwXTFQd78zcCjSsNFJAuLuzO55j0W9jSP_YIk2REnOkYVu_RLGLduXr6Tt5RfYGi7c4k6uHQDlIHwrG3dFPKiKXosjYngAn1hKlQalA)
+![](/images/naeb-b067-f02_0128-crop.png)
 
 Given this diversity, stations insisted that labor negotiations should be exclusively local, responsive to local conditions, and not applicable to the sector on whole. As [Skornia relayed to Novik](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#25), station managers were “afraid that in many areas where there’s no trouble, a national agreement would be a disadvantage.” So much of Novik’s work was on a station-by-station basis and drew on his longstanding relationships with labor leaders.
 
@@ -120,7 +120,7 @@ Accordingly, a key service that Novik provided to stations [was educating union 
 
 This was a crucial facet of Novik’s work. On the one hand, he sought advantageous labor contracts for local stations, and on the other hand he [insisted that educational television](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#204) respect the rights of organized labor and its import in local communities. [He encouraged](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#235) newly licensed stations to build relationships with local unions, appoint union leaders to station boards of directors, and coordinate with unions to build community support for the station. Not only would such actions forestall future labor strife but, for Novik, they also would assure that the interests of workers were central to the mission of educational television.
 
-![](https://lh4.googleusercontent.com/AgCmTlnMyczWRRI7vTxvdUTjBf3eHselNaCYo2G4NpdriEIxaZJrhCste6yhruzIufYz7DeXTOzXaMA-8jjMO-PRGNATvwWOIHuRaeWroPhVacU8JOYYHQg_Vq9uDA)
+![](/images/naeb-b067-f02_0203-crop.png)
 
 ### Educational TV & Labor after the Taft-Hartley Act
 
