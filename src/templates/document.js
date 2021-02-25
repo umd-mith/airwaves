@@ -12,6 +12,7 @@ const miradorConfig = {
     allowMaximize: false,
     defaultSideBarPanel: 'info',
     defaultView: 'single',
+    allowFullscreen: true,
   },
   thumbnailNavigation: {
     defaultPosition: 'off',
@@ -72,6 +73,10 @@ export const query = graphql`
 class Mirador extends React.Component {
 
   componentDidMount() {
+    // when arriving with a page number hash fragment reset the scroll to the
+    // top of the page since Gatsby keeps the scroll position otherwise
+    window.scrollTo(0, 0)
+
     const {config, plugins} = this.props
     let mirador = require('mirador').default
     mirador.viewer(config, plugins)
@@ -139,12 +144,10 @@ const Document = ({ data }) => {
   return (
     <Layout>
       <div id="document">
-        <section className="leader">
-          <article>
-            <h1>{doc.title}</h1>
+        <section>
+          <article id="doc-viewer" className="col-6 col-12-sm col-12-xs">
+            <Mirador config={miradorConfig} plugins={[]} />
           </article>
-        </section>
-        <section className="columns">
           <article className="metadata col-6 col-12-sm col-12-xs">
             <dl>
               <dt className="label">Description</dt>
@@ -155,10 +158,8 @@ const Document = ({ data }) => {
               <dd>{contributors}</dd>
               {browseLinks}
             </dl>
-          </article>
-          <article id="doc-viewer" className="col-6 col-12-sm col-12-xs">
-            <Mirador config={miradorConfig} plugins={[]} />
             <div className="internet-archive">
+              Image hosting provided by: <br /> 
               <a href={`https://archive.org/details/${doc.iaId}`}>
                 <img alt="View at Internet Archive" title="View this document at the Internet Archive" src={InternetArchive} />
               </a>
