@@ -11,7 +11,7 @@ const SearchPage = ({location, data}) => {
   const qs = queryString.parse(location.search)
   const themes = data.allThemesJson.nodes
   
-  const [query, setQuery] = useState(qs.q)
+  const [query] = useState(qs.q)
   const [facets, setFacets] = useState(qs.f)
 
   return (
