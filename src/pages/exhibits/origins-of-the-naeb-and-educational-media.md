@@ -2,6 +2,16 @@
 title: Origins of the NAEB and Educational Media
 creator: Josh Shepperd
 visuals:
+  - image: /images/service-pnp-cph-3g10000-3g14000-3g14700-3g14733r.jpg
+    title: Beall, L. When I think back, Rural Electrification Administration, U.S.
+      Department of Agriculture, Poster shows an elderly man sitting in a
+      rocking chair and adjusting the dials on a radio. \[193-] \[Photograph]
+      Retrieved from the Library of Congress,
+      https://www.loc.gov/item/2010650608/.
+  - image: /images/service-pnp-cph-3b30000-3b39000-3b39700-3b39715r.jpg
+    title: (ca. 1922) Youthful Radio Expert. Illinois Chicago, ca. 1922.
+      \[Photograph] Retrieved from the Library of Congress,
+      https://www.loc.gov/item/93510755/.
   - image: /images/acubs-font.png
     title: Letterhead branding from The Association of College and University
       Broadcasting Stations (ACUBS), the NAEB's original moniker. From a [1933
