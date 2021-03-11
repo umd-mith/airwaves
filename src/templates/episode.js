@@ -3,7 +3,7 @@ import { graphql, Link } from 'gatsby'
 import { Player } from 'webvtt-player'
 import { formatDuration } from '../utils'
 import './episode.css'
-
+import Disclaimer from '../components/transcript-disclaimer'
 import Layout from '../components/layout'
 
 export const query = graphql`
@@ -116,6 +116,7 @@ const Episode = ({ data }) => {
             </dl>
           </article>
           <article className="recording col-6 col-12-sm col-12-xs">
+            <Disclaimer />
             <Player 
               transcript={`${s3Bucket}/data/transcripts/${id}/${id}.vtt`}
               audio={`${s3Bucket}/data/audio/${id}.mp3`} />
