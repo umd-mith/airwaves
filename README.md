@@ -6,10 +6,12 @@ the Humanities. You can find the production deployment of this website at:
 
 https://mith.umd.edu/airwaves/
 
-*airwaves* is built using [Gatsby] which is a *static* website
-generator written in [NodeJS]. Even though the *airwaves* website is deployed
-as a set of static files to MITH's webserver, it relies on several other
-services during its *build* and *runtime*. The *build* is a process that happens once when the site is deployed, and the *runtime* is the process run by your browser when you access the website. These services include:
+*airwaves* is built using [Gatsby] which is a *static* website generator
+written in [NodeJS]. Even though the website is deployed as a set of static
+files to MITH's webserver, it relies on several other services during its
+*build* and *runtime*. The *build* is a process that happens once when the site
+is deployed, and the *runtime* is the process run by your browser when you
+access the website. These services include:
 
 * [GitHub]: probably the site you are looking at now in your browser, and where the source code for the website is stored and versioned (*build*)
 * [Airtable]: a web accessible database where the audio and document metadata are curated. (*build*)
