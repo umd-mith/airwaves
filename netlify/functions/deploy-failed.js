@@ -1,6 +1,9 @@
-const slack_webhook = process.env.SLACK_WEBHOOK
+const slack = require('./slack')
 
 exports.handler = async (event, context) => {
-  console.log('SLACK_WEBHOOK', slack_webhook)
-  console.log(JSON.stringify(event))
+  slack.notify({
+      username: "Netlify",
+      text: "The staging site build just failed.",
+      icon_emoji: ":fire:"
+  })
 }
