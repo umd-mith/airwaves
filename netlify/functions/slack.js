@@ -21,6 +21,9 @@ exports.notify = msg => {
     }
   }
 
+  console.log(options)
+  console.log(msg)
+
   const req = https.request(options, res => {
     res.on('data', d => {
       console.log(d)
