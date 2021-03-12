@@ -17,12 +17,13 @@ services during its *build* and *runtime*. The *build* is a process that happens
 * [Amazon S3]: MP3 audio files and WebVTT transcripts of radio episodes are stored in an Amazon S3 bucket. (*runtime*)
 * [Netlify]: provides a service that watches the airwaves GitHub repositry and automatically builds a [staging site] distinct from our production site, which is used for development and testing. (*build*)
 
-Static websites are useful for sustainability since they require very little in
-terms of maintenance and monitoring. But this sustainability is achieved by
-pushing some of the complexity of a dynamic website into the static website's build
-process. Fortunately, this build process happens just once when the site is
-deployed, rather than every time a resource is fetched by a user. The remainder
-of this documentation is concerned with how to build and deploy the site.
+Static websites have significant benefits in terms of sustainability since they
+require very little in terms of maintenance and monitoring. But this
+sustainability is achieved by pushing some of the complexity of a dynamic
+website into the static website's build process. Fortunately, this build
+process happens just once when the site is deployed, rather than every time
+a resource is fetched by a user. The remainder of this documentation is
+concerned with how to build and deploy the site.
 
 ## 1. NodeJS
 
