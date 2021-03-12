@@ -17,7 +17,7 @@ access the website. These services include:
 * [Airtable]: a web accessible database where the audio and document metadata are curated. (*build*)
 * [Internet Archive]: document digitization processes [upload] page scans to the Internet Archive which are made available through their [IIIF Service]. (*build* + *runtime*)
 * [Amazon S3]: MP3 audio files and WebVTT transcripts of radio episodes are stored in an Amazon S3 bucket. (*runtime*)
-* [Netlify]: provides a service that watches the airwaves GitHub repositry and automatically builds a [staging site] distinct from our production site, which is used for development and testing. (*build*)
+* [Netlify]: provides a service that watches the airwaves GitHub repository and automatically builds a [staging site] distinct from our production site, which is used for development and testing. (*build*)
 
 Static websites have significant benefits in terms of sustainability since they
 require very little in terms of maintenance and monitoring. But this
