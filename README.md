@@ -1,8 +1,8 @@
 # Airwaves
 
 This repository contains a static web application that was developed as part of
-the [Unlocking the Airwaves] project. You can find the production deployment of
-this website at:
+the [Unlocking the Airwaves] project with upport from the National Endowment
+for the Humanities. You can find the production deployment of this website at:
 
 https://mith.umd.edu/airwaves/
 
