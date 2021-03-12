@@ -7,3 +7,5 @@ exports.handler = async (event, context) => {
       icon_emoji: ":construction:"
   })
 }
+
+exports.handler()
