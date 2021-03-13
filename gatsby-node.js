@@ -298,3 +298,16 @@ async function exhibits(createPage, graphql) {
 function safeMap(l, f) {
   return l === null ? [] : l.map(f)
 }
+
+exports.onCreateWebpackConfig = ({actions}) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        path: require.resolve("path-browserify")
+      },
+      fallback: {
+        fs: false,
+      }
+    }
+  })
+}
