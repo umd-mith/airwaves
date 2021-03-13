@@ -6,7 +6,7 @@ import HeadsetIcon from '@material-ui/icons/Headset';
 import RelatedDocuments from '../components/related-documents'
 import './series.css'
 
-export default ({ data, pageContext: { documents } }) => {
+const Series = ({ data, pageContext: { documents } }) => {
   const series = data.seriesJson
   const siteUrl = data.allSite.nodes[0].siteMetadata.siteUrl
 
@@ -128,6 +128,8 @@ function displayMetadataValues(s, facetName, facetTitle) {
       return ''
   }
 }
+
+export default Series
 
 export const query = graphql`
   query($id: String!) {
