@@ -2,6 +2,9 @@ const fs = require('fs')
 const path = require('path')
 
 module.exports = {
+  flags: { 
+    PRESERVE_WEBPACK_CACHE: true 
+  },
   siteMetadata: {
     title: 'Unlocking the Airwaves',
     description: 'An online collection of early educational public radio content from the National Association of Educational Broadcasters (NAEB).',
