@@ -172,9 +172,9 @@ async function rss(graphql, force=false) {
 
   results.data.allSeriesJson.nodes.forEach(series => {
     const feedPath = `./static/rss/${series.id}.xml`
-    const imageUrl = `${siteUrl}/images/podcast.png`
-    const feedUrl = `${siteUrl}/rss/${series.id}.xml`
-    const seriesUrl = `${siteUrl}/programs/${series.id}/`
+    const imageUrl = `${siteUrl}images/podcast.png`
+    const feedUrl = `${siteUrl}rss/${series.id}.xml`
+    const seriesUrl = `${siteUrl}programs/${series.id}/`
 
     // only write the RSS file if it's not there already
     // or we have been asked to force a rewrite.
