@@ -3,7 +3,7 @@ import React from "react"
 import { graphql, Link, withPrefix } from "gatsby"
 
 import Layout from "../components/layout"
-import "./exhibits.css"
+// import "./exhibits.css"
 
 const ExhibitSummary = ({ title, visuals, excerpt, absPath }) => {
   const slug = path.basename(absPath).replace(/\.md$/, '')

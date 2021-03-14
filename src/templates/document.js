@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import './document.css'
+// import './document.css'
 import InternetArchive from '../images/internet-archive.jpg'
 
 import Layout from '../components/layout'

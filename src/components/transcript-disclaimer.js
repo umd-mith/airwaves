@@ -1,5 +1,5 @@
 import React from "react"
-import './transcript-disclaimer.css'
+// import './transcript-disclaimer.css'
 
 export default function Disclaimer() {
     return (

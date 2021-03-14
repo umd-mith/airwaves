@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 
-import "./about.css"
+// import "./about.css"
 
 const AboutPage = () => (
   <Layout url="/about/">

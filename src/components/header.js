@@ -2,7 +2,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import './header.css'
+// import './header.css'
 import Logo from '../svg/uta-header.svg'
 
 const Header = () => {

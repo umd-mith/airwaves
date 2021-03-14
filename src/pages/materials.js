@@ -8,7 +8,7 @@ import ExpandMore from '@material-ui/icons/ExpandMore'
 import ExpandLess from '@material-ui/icons/ExpandLess'
 
 import Layout from "../components/layout"
-import "./materials.css"
+// import "./materials.css"
 
 const FolderItem = ({item}) => {
   let description = item.description ? <><br />{item.description}</> : ''

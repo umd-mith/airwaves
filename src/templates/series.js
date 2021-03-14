@@ -4,7 +4,7 @@ import { graphql, Link } from 'gatsby'
 import { formatDuration } from '../utils.js'
 import HeadsetIcon from '@material-ui/icons/Headset';
 import RelatedDocuments from '../components/related-documents'
-import './series.css'
+// import './series.css'
 
 const Series = ({ data, pageContext: { documents } }) => {
   const series = data.seriesJson
