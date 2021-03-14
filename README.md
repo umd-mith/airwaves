@@ -97,6 +97,12 @@ As a last step you need to tell the git command line utility who you are on GitH
 
     git config --global user.email ehs@pobox.com
 
+Recently we have updated our repository to use `main` as the name for the default branch. If you have an existing copy of the repository on your local machine, you'll want to update to match this change:
+
+    git branch -m master main
+    git fetch origin
+    git branch -u origin/main main
+
 Whew, that was a lot! But fortunately you'll only need to do these steps once
 on the computer you are using.
 
@@ -164,7 +170,7 @@ This will commit *all* changed files, so you may want to be careful. If you'd li
 
 Once you have committed your changes locally you can push them up to GitHub:
 
-    git push origin master
+    git push origin main
 
 If successful your push will trigger a build process to kick off at Netlify, and
 after a few minutes you should see your changes reflected at the staging site: unlocking.netlify.app.
@@ -232,5 +238,5 @@ GitHub.
 [Ubuntu 20.04 LTS]: https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71
 [add your ssh key]: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
 [unlocking.netlify.app]: https://unlocking.netlify.app
-[README.md]: https://github.com/umd-mith/airwaves/blob/master/README.md
+[README.md]: https://github.com/umd-mith/airwaves/blob/main/README.md
 [issue tracker]: https://github.com/umd-mith/airwaves/issues
