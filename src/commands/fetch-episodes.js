@@ -11,6 +11,10 @@ async function main() {
   for (const e of episodes) {
     count += 1
     e.id = `e${count}`
+
+    if (e.title == null || e.title == "") {
+      console.error(`Missing title for episode ${e.aapbId}`)
+    }
   }
 
   writeJson(episodes, 'episodes.json')
