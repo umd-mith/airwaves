@@ -4,7 +4,7 @@ import { FaAngleUp } from 'react-icons/fa'
 
 import Layout from "../components/layout"
 
-export default ({ data }) => {
+const Programs = ({ data }) => {
 
   // keep track of the query in the input box
   const [searchQuery, setSearchQuery] = useState('')
@@ -76,6 +76,8 @@ export default ({ data }) => {
     </Layout>
   )
 }
+
+export default Programs
 
 export const query = graphql`
   query {
