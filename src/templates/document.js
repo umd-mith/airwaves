@@ -145,6 +145,9 @@ const Document = ({ data }) => {
     <Layout>
       <div id="document">
         <section>
+        <article id="doc-viewer" className="col-6 col-12-sm col-12-xs">
+            <Mirador config={miradorConfig} plugins={[]} />
+        </article>
           <article className="metadata col-6 col-12-sm col-12-xs">
             <h3>{doc.title}</h3>
             <dl>
@@ -156,9 +159,6 @@ const Document = ({ data }) => {
               <dd>{contributors}</dd>
               {browseLinks}
             </dl>
-          </article>
-          <article id="doc-viewer" className="col-6 col-12-sm col-12-xs">
-            <Mirador config={miradorConfig} plugins={[]} />
             <div className="internet-archive">
               Image hosting provided by: <br /> 
               <a href={`https://archive.org/details/${doc.iaId}`}>
