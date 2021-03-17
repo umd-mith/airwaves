@@ -293,13 +293,11 @@ async function exhibits(createPage, graphql) {
 
 }
 
-
-
 function safeMap(l, f) {
   return l === null ? [] : l.map(f)
 }
 
-exports.onCreateWebpackConfig = ({actions}) => {
+exports.onCreateWebpackConfig = ({actions, stage, plugins}) => {
   actions.setWebpackConfig({
     resolve: {
       alias: {
@@ -310,4 +308,11 @@ exports.onCreateWebpackConfig = ({actions}) => {
       }
     }
   })
+  if (stage == 'build-javascript' || stage == 'develop') {
+    actions.setWebpackConfig({
+      plugins: [
+        plugins.provide({process: 'process/browser'})
+      ]
+    })
+  }
 }
