@@ -18,6 +18,12 @@ collections:
       preview: false
     fields:
 
+      - label: Featured
+        name: featured
+        widget: boolean
+        hint: Should this exhibit be featured on the home page
+        required: false
+
       - label: Title
         name: title
         widget: string
