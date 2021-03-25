@@ -1,0 +1,20 @@
+.site-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-template-areas:
+        "header"
+        "page-content"
+        "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: page-content;
+}
+
+footer {
+    grid-area: footer;
+}
