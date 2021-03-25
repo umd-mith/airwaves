@@ -139,7 +139,7 @@ async function rss(graphql, force=false) {
     }
     allSeriesJson(
       sort: {
-        fields: episodes___broadcastDate,
+        fields: [episodes___broadcastDate, episodes___title]
         order: DESC
       }
     ) {
