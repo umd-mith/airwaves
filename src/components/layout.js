@@ -10,7 +10,7 @@ const Layout = ({ children, feedUrl, title}) => {
     <div className="site-wrapper">
       <Header />
       <SiteMetadata feedUrl={feedUrl} title={title} />
-      <main className="content">
+      <main id="main-content">
         {children}
       </main>
       <Footer />
