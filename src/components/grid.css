@@ -19,3 +19,17 @@ main {
 footer {
     grid-area: footer;
 }
+
+/* Media queries for grid layouts */
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 45em) {
+    .main-nav-menu {
+        flex-direction: row;
+    }
+}
+
+/* large screens — 976px and up */
+@media screen and (min-width: 61em) {}
+
+/* x-large screens — 1072px and up */
+@media screen and (min-width: 67em) {}
