@@ -1,17 +1,44 @@
+@import 'variables.css';
+
 nav {
-    padding: 0 1rem;
+    text-align: center;
 }
 
 .main-nav-menu {
+    background-color: var(--color-gray-100);
+    border-bottom: 1px solid var(--color-gray-300);
     display: flex;
     flex: 1 0 100%;
     flex-direction: column;
     justify-content: flex-start;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
+    display: inline-block;
     position: relative;
-    margin: 0;
+    margin: 0 1rem;
     padding: 0 1rem 0 0;
+}
+
+.main-nav a {
+    border-bottom: 3px solid transparent;
+    color: var(--color-gray-500);
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .75rem .5rem .5rem .5rem;
+}
+
+.main-nav a:hover, .main-nav a.active {
+    border-bottom-color: var(--color-brand-primary);
+}
+
+@media screen and (min-width: 45em) {
+    .main-nav-menu {
+        flex-direction: row;
+        justify-content: center;
+    }
 }
