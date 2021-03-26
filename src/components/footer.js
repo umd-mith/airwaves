@@ -1,5 +1,5 @@
 import React from 'react'
-// import './footer.css'
+import './footer.css'
 
 import MITH from '../svg/logo_mith.svg'
 import WHS from '../svg/logo_whs.svg'

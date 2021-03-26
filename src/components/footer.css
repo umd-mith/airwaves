@@ -1,17 +1,12 @@
+@import 'variables.css';
+
 footer {
-  grid-area: footer;
-  padding: 30px 0 10px;
-  border-top: 1px solid #dadada;
-  background-color: #efefef;
+    background-color: var(--color-gray-100);
+    border-top: 1px solid var(--color-gray-300);
+    padding: var(--spacing-base-content);
 }
-footer section {
-  max-width: 1000px; 
-  padding: 0 30px;
-  margin: 0 auto;
-  text-align: center;
-}
-footer p {
-  padding-top: 30px;
-  font-size: 12px; 
-  font-style: italic;
+
+.sponsors {
+    display: grid;
+    gap: var(--spacing-base-content);
 }
