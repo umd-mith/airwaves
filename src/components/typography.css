@@ -4,3 +4,40 @@ html {
     color: var(--color-gray-900);
     font-family: var(--font-stack);
 }
+
+body {
+    font-weight: 400;
+    line-height: 1.31;
+    word-wrap: break-word;
+}
+
+h3 {
+    font-size: 1.18rem;
+    line-height: 1.31;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.25;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 2.25rem;
+    line-height: 1.11;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+p {
+    margin-bottom: --var(--spacing-base-content);
+}
+
+@media screen and (min-width: 45em) {
+    html {
+        font-size: 19px;
+    }
+}
