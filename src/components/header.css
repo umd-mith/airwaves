@@ -1,44 +1,23 @@
 header {
-  width: 100%;
-  text-align: center;
-  overflow: hidden;
+    overflow: hidden;
+    width: 100%;
+}
+
+.alt-logo {
+    display: initial;
+    height: 125px;
 }
 
 .main-logo {
-  height: 200px;
-  min-height: 200px;
-  overflow: hidden;
-  display: block;
+    display: none;
 }
 
-header #uta_logo {
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-.main-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  border-bottom: 1px solid #efefef;
-  background-color: #fff;
-}
+@media screen and (min-width: 45em) {
+    .alt-logo {
+        display: none;
+    }
 
-.main-nav ul li {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-.main-nav a { 
-  color: #777;
-  font-weight: 600;   
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 15px;
-  padding: 12px 10px 8px 10px;
-  border-bottom: 3px solid transparent;
-  display: block;
-}
-
-.main-nav a:hover, .main-nav a.active {
-  border-bottom-color: #e0ca59;
+    .main-logo {
+        display: initial;
+    }
 }
