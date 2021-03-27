@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import { Player } from 'webvtt-player'
 import { formatDuration } from '../utils'
-// import './episode.css'
+import './episode.css'
 import Disclaimer from '../components/transcript-disclaimer'
 import Layout from '../components/layout'
 

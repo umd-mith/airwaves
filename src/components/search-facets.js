@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import './search-facets.css'
+import './search-facets.css'
 
 class SearchFacets extends Component {
 

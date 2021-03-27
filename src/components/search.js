@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import SearchFacets from './search-facets'
 import SearchResult from './search-result'
 import { navigate } from '@reach/router'
-// import './search.css'
+import './search.css'
 
 class Search extends Component {
 
