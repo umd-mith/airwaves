@@ -1,19 +1,37 @@
 @import 'variables.css';
 
+.header-menu-button {
+    background: none;
+    border: 1px solid var(--color-gray-900);
+    border-radius: 5px;
+    display: block;
+    padding: var(--spacing-base-content) var(--spacing-large-content);
+    position: absolute;
+    right: 0;
+    top: 2rem;
+}
+
 nav {
     text-align: center;
 }
 
-.main-nav-menu {
+#main-nav-menu {
     background-color: var(--color-gray-100);
     border-bottom: 1px solid var(--color-gray-300);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-open {
     display: flex;
     flex: 1 0 100%;
     flex-direction: column;
     justify-content: flex-start;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 nav ul li {
@@ -37,7 +55,11 @@ nav ul li {
 }
 
 @media screen and (min-width: 45em) {
-    .main-nav-menu {
+    .menu {
+        display: flex;
+    }
+
+    #main-nav-menu {
         flex-direction: row;
         justify-content: center;
     }
