@@ -14,3 +14,15 @@ main {
 main section {
   padding-top: var(--spacing-large-content);
 }
+
+.internal-jump-links {
+  display: grid;
+  gap: var(--spacing-base-content);
+  padding: var(--spacing-large-content) 0;
+}
+
+@media screen and (min-width: 45em) {
+  .internal-jump-links {
+    grid-template-columns: 1fr 1fr;
+  }
+}
