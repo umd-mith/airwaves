@@ -11,11 +11,13 @@ const Header = () => {
 
     return (
       <header>
-        <Link to="/">
-          <Logo className="main-logo" alt="Unlocking the Airwaves" />
-          <MobileLogo className="alt-logo" alt="Unlocking the Airwaves" />
-        </Link>
-        <Nav />
+        <div className="header-content">
+          <Link to="/">
+            <Logo className="main-logo" alt="Unlocking the Airwaves" />
+            <MobileLogo className="alt-logo" alt="Unlocking the Airwaves" />
+          </Link>
+          <Nav />
+        </div>
       </header>
     )
 }
