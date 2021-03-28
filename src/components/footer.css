@@ -6,7 +6,37 @@ footer {
     padding: var(--spacing-base-content);
 }
 
+.footer-content-wrapper {
+    margin: 0 auto;
+    padding-top: var(--spacing-base-content);
+}
+
 .sponsors {
     display: grid;
-    gap: var(--spacing-base-content);
+    gap: var(--spacing-large-content);
+}
+
+.disclaimer {
+    font-style: italic;
+    margin: var(--spacing-base-content) 0 var(--spacing-large-content) 0;
+}
+
+@media screen and (min-width: 45em) {
+    .footer-content-wrapper {
+        max-width: 250px;
+    }
+    
+    .sponsors {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .sponsors a:last-child {
+        grid-column-start: 2;
+    }
+}
+
+@media screen and (min-width: 67em) {
+    .footer-content-wrapper {
+        max-width: 1000px;
+    }
 }
