@@ -68,6 +68,15 @@ const IndexPage = () => (
       <section>
         <h2>Featured Exhibits</h2>
         {/* Insert real content */}
+        <div className="exhibit-summary-card">
+          <img src="https://via.placeholder.com/340x200" />
+        </div>
+        <div className="exhibit-summary-card">
+          <img src="https://via.placeholder.com/340x200" />
+        </div>
+        <div className="exhibit-summary-card">
+          <img src="https://via.placeholder.com/340x200" />
+        </div>
         <div className="internal-jump-links">
           <Link to="/exhibits/">More Exhibits</Link>
         </div>                           
