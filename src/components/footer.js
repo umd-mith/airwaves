@@ -8,14 +8,16 @@ import NEH from '../svg/logo_neh.svg'
 
 const Footer = () => (
   <footer>
-    <div className="sponsors">
-      <a href="https://mith.umd.edu/"> <MITH /> </a>
-      <a href="https://www.wisconsinhistory.org/"> <WHS /> </a>
-      <a href="https://www.wisc.edu/"> <UWM /> </a>
-      <a href="https://www.neh.gov/"> <NEH /> </a>
-    </div>
-    <div className="disclaimer">
-      <p>Unlocking the Airwaves has been made possible in part by a major grant from the National Endowment for the Humanities' Humanities Collections and Reference Resources (HCRR) program.</p>
+    <div className="footer-content-wrapper">
+      <div className="sponsors">
+        <a href="https://mith.umd.edu/"> <MITH /> </a>
+        <a href="https://www.wisconsinhistory.org/"> <WHS /> </a>
+        <a href="https://www.wisc.edu/"> <UWM /> </a>
+        <a href="https://www.neh.gov/"> <NEH /> </a>
+      </div>
+      <div className="disclaimer">
+        <p><small>Unlocking the Airwaves has been made possible in part by a major grant from the National Endowment for the Humanities' Humanities Collections and Reference Resources (HCRR) program.</small></p>
+      </div>
     </div>
   </footer>
 )
