@@ -45,14 +45,6 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-remark`,
     {
-      resolve: `gatsby-plugin-purgecss`,
-      options: {
-        printRejected: true,
-        develop: true,
-        ignore: ['node_modules']
-      }
-    },
-    {
       resolve: `gatsby-plugin-react-svg`,
       options: {
         name: `svg`,
