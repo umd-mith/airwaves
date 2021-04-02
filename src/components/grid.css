@@ -1,0 +1,30 @@
+.site-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-template-areas:
+        "header"
+        "page-content"
+        "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: page-content;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* Media queries for grid layouts */
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 45em) {}
+
+/* large screens — 976px and up */
+@media screen and (min-width: 61em) {}
+
+/* x-large screens — 1072px and up */
+@media screen and (min-width: 67em) {}

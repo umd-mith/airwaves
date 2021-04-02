@@ -1,37 +1,22 @@
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
 import './header.css'
 import Logo from '../svg/uta-header.svg'
+import MobileLogo from '../svg/uta-header-core_only.svg'
+import Nav from './nav'
 
 const Header = () => {
-  const navData = useStaticQuery(graphql`
-  {
-    site {
-      siteMetadata {
-        siteNav {
-          name
-          link
-        }
-      }
-    }
-  }
-  `)
 
     return (
-      <header className="main-head">
-        <Link to="/" className="main-logo">
-          <Logo alt="Unlocking the Airwaves" />
-        </Link>
-        <div className="main-nav">
-          <ul className="main-nav-menu">
-            {navData.site.siteMetadata.siteNav.map(link => (
-              <li key={link.name}>
-                <Link activeClassName="active" to={link.link}>{link.name}</Link>
-              </li>
-            ))}
-          </ul>
+      <header>
+        <div className="header-content">
+          <Link to="/">
+            <Logo className="main-logo" alt="Unlocking the Airwaves" />
+            <MobileLogo className="alt-logo" alt="Unlocking the Airwaves" />
+          </Link>
+          <Nav />
         </div>
       </header>
     )
