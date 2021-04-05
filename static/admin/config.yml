@@ -17,13 +17,6 @@ collections:
     editor:
       preview: false
     fields:
-
-      - label: Featured
-        name: featured
-        widget: boolean
-        hint: Should this exhibit be featured on the home page
-        required: false
-
       - label: Title
         name: title
         widget: string
@@ -47,10 +40,10 @@ collections:
         widget: list
         collapsed: false
         hint: Images that you would like to diplay in the right panel.
-        fields: 
+        fields:
           - label: Title
             name: title
-            widget: markdown 
+            widget: markdown
             required: true
           - label: Image
             name: image
@@ -62,7 +55,7 @@ collections:
         widget: list
         collapsed: false
         hint: Related Unlocking the Airwaves content.
-        fields: 
+        fields:
           - label: Title
             name: title
             widget: string
@@ -78,3 +71,18 @@ collections:
             name: description
             widget: text
             required: true
+  - name: featured
+    label: "Featured Content"
+    files:
+      - label: "Featured Exhibits"
+        name: featured_exhibits
+        file: "src/pages/exhibits/featured.json"
+        fields:
+          - label: "Featured exhibits by title"
+            name: exhibits_by_title
+            widget: relation
+            collection: exhibits
+            search_fields: [title]
+            value_field: title
+            multiple: true
+            hint: "Starting typing or choose from dropdown to select exhibits"
