@@ -79,7 +79,7 @@ collections:
         file: "src/pages/exhibits/featured.json"
         fields:
           - label: "Featured exhibits by title"
-            name: exhibits_by_title
+            name: featured_by_title
             widget: relation
             collection: exhibits
             search_fields: [title]
