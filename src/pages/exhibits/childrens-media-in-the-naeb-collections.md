@@ -1,6 +1,14 @@
 ---
 title: Children's Media in the NAEB Collection
 creator: Alexander Russo
+lede: If there is one program that defined public media it is children’s media.
+  From *Sesame Street* to *Mr. Rogers Neighborhood*, to today’s PBS kids app,
+  child-oriented programs are the apotheosis of educational media’s desire to
+  use technology to address social and economic inequality. Its production was
+  aided by consultations with academic experts children’s psychology, behavior,
+  and educational development. But this ethos preexisted the 1967 Public
+  Broadcasting Act and the creation of the CPB; it was also a hallmark of the
+  NAEB.
 visuals:
   - title: The Daily Iowan coverage of "How's the Family?" on January 2, 1955
     image: /images/howsfamily.png
