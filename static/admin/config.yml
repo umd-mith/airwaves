@@ -29,7 +29,12 @@ collections:
         required: true
         hint: Your name
 
-      - label: Description
+      - label: Excerpt
+        name: excerpt
+        widget: markdown
+        hint: An excerpt introducing the exhibit
+
+      - label: Exhibit Text
         name: body
         widget: markdown
         hint: Please provide the body of your exhibit text here.
