@@ -1,30 +1,41 @@
 .site-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-    grid-template-areas:
-        "header"
-        "page-content"
-        "footer";
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-template-areas:
+    "header"
+    "page-content"
+    "footer";
 }
 
 header {
-    grid-area: header;
+  grid-area: header;
 }
 
 main {
-    grid-area: page-content;
+  grid-area: page-content;
 }
 
 footer {
-    grid-area: footer;
+  grid-area: footer;
 }
 
 /* Media queries for grid layouts */
 /* medium to large screens — starts at 720px */
-@media screen and (min-width: 45em) {}
+@media screen and (min-width: 45em) {
+  #main-content section {
+    margin: 0 auto;
+    max-width: 36rem;
+  }
+
+  #main-content section.page-hero {
+    max-width: 100vw;
+  }
+}
 
 /* large screens — 976px and up */
-@media screen and (min-width: 61em) {}
+@media screen and (min-width: 61em) {
+}
 
 /* x-large screens — 1072px and up */
-@media screen and (min-width: 67em) {}
+@media screen and (min-width: 67em) {
+}

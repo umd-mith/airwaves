@@ -33,7 +33,7 @@ const sliderSettings = {
 
 const IndexPage = () => (
   <Layout>
-    <section>
+    <section className="page-hero">
       <Slider {...sliderSettings}>
         <div>
           <img
