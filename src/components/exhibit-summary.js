@@ -13,7 +13,7 @@ const ExhibitSummaryCard = ({ title, keyImage, lede, absPath }) => {
       </h2>
       <img src={withPrefix(keyImage.image)} alt={keyImage.title} />
       <p>{lede}</p>
-      <Link to={url}>Read More...</Link>
+      <Link to={url}>Read More…</Link>
     </div>
   )
 }
