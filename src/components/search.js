@@ -1,21 +1,20 @@
-import React, { Component } from 'react'
-import SearchFacets from './search-facets'
-import SearchResult from './search-result'
-import { navigate } from '@reach/router'
-import './search.css'
+import React, { Component } from "react"
+import SearchFacets from "./search-facets"
+import SearchResult from "./search-result"
+import { navigate } from "@reach/router"
+import "./search.css"
 
 class Search extends Component {
-
   constructor(props) {
     super(props)
 
     this.state = {
-      category: 'all',
+      category: "all",
       query: this.props.query,
       results: [],
       displayedResults: [],
       activeFacets: [],
-      lastUpdate: new Date()
+      lastUpdate: new Date(),
     }
 
     // initialize active facets with any that were passed in from the URL query string
@@ -29,24 +28,24 @@ class Search extends Component {
 
   componentDidMount() {
     this.search()
-    document.addEventListener('scroll', this.handleScroll)
+    document.addEventListener("scroll", this.handleScroll)
   }
 
   componentWillUnmount() {
-    document.removeEventListener('scroll', this.handleScroll)
+    document.removeEventListener("scroll", this.handleScroll)
   }
-  
+
   componentDidUpdate(prevProps) {
     if (this.props.facets !== prevProps.facets) {
       this.setState({
-        activeFacets: this.unpackFacetParams(this.props.facets)
+        activeFacets: this.unpackFacetParams(this.props.facets),
       })
       this.search(this.state.query, this.unpackFacetParams(this.props.facets))
     }
   }
 
   render() {
-    const resultsHidden = this.state.displayedResults.length > 0 ? '' : 'hidden'
+    const resultsHidden = this.state.displayedResults.length > 0 ? "" : "hidden"
 
     return (
       <div className="page-search search">
@@ -75,7 +74,7 @@ class Search extends Component {
           </article>
         </section> 
       </div>
-	  )
+    )
   }
 
   handleScroll() {
@@ -83,36 +82,40 @@ class Search extends Component {
     const lastUpdate = this.state.lastUpdate
 
     const millisSinceLastUpdate = now - lastUpdate
-    const percentViewed = (window.innerHeight = window.scrollY) / document.body.offsetHeight
+    const percentViewed =
+      (window.innerHeight = window.scrollY) / document.body.offsetHeight
     const results = this.state.results
     const displayedResults = this.state.displayedResults
 
-    if (percentViewed > .8 
-        && millisSinceLastUpdate > 5000 
-        && displayedResults.length > 0
-        && results.length > displayedResults.length) {
+    if (
+      percentViewed > 0.8 &&
+      millisSinceLastUpdate > 5000 &&
+      displayedResults.length > 0 &&
+      results.length > displayedResults.length
+    ) {
       const start = displayedResults.length
       const end = start + 25
       results.slice(start, end).forEach((item, i) => {
         displayedResults.push(
-          <SearchResult 
+          <SearchResult
             item={item}
             query={this.state.query}
-            key={`result-${start + i}`} />
+            key={`result-${start + i}`}
+          />
         )
       })
       this.setState({
         lastUpdate: now,
-        displayedResults: displayedResults
+        displayedResults: displayedResults,
       })
     }
   }
 
   checkForEnter(event) {
-    if (event.key === 'Enter') {
+    if (event.key === "Enter") {
       const q = this.query.current.value
-      navigate(`?q=${q}`, {replace: true})
-      this.setState({activeFacets: []})
+      navigate(`?q=${q}`, { replace: true })
+      this.setState({ activeFacets: [] })
       this.search(q, [])
       event.preventDefault()
     }
@@ -123,9 +126,9 @@ class Search extends Component {
     if (facet.active) {
       activeFacets = [facet, ...this.state.activeFacets]
     } else {
-      activeFacets = this.state.activeFacets.filter(f => (
-        f.type !== facet.type || f.name !== facet.name
-      ))
+      activeFacets = this.state.activeFacets.filter(
+        f => f.type !== facet.type || f.name !== facet.name
+      )
     }
     this.search(this.state.query, activeFacets)
   }
@@ -140,7 +143,7 @@ class Search extends Component {
       results = window.__INDEX__.search(query)
       results = results.map(r => this.getFullResult(r))
     }
-  
+
     // if we don't have a query but we do have some facets get everything
     else if (facets.length > 0) {
       for (const d of window.__DOCUMENTS__.values()) {
@@ -155,12 +158,11 @@ class Search extends Component {
     results = results.filter(r => this.recordHasFacets(r, facets))
 
     // now generate the initial list of displayed results
-    const displayedResults = results.slice(0, 25).map((item, i) => (
-      <SearchResult 
-        item={item}
-        query={query}
-        key={`result-${i}`} />
-    ))
+    const displayedResults = results
+      .slice(0, 25)
+      .map((item, i) => (
+        <SearchResult item={item} query={query} key={`result-${i}`} />
+      ))
 
     // ready to update state!
     this.setState({
@@ -172,14 +174,14 @@ class Search extends Component {
   }
 
   getFullResult(r) {
-    if (r.ref[0] === 'd') {
-      const [docId, page] = r.ref.split('-')
-      const result = {...window.__DOCUMENTS__.get(docId), type: 'Document'}
-      result['page'] = page
-      result['text'] = r['text']
+    if (r.ref[0] === "d") {
+      const [docId, page] = r.ref.split("-")
+      const result = { ...window.__DOCUMENTS__.get(docId), type: "Document" }
+      result["page"] = page
+      result["text"] = r["text"]
       return result
-    } else if (r.ref[0] === 'e') {
-      return {...window.__EPISODES__.get(r.ref), type: 'Episode'}
+    } else if (r.ref[0] === "e") {
+      return { ...window.__EPISODES__.get(r.ref), type: "Episode" }
     }
   }
 
@@ -191,83 +193,67 @@ class Search extends Component {
     // facets are ANDed, so return false once a facet doesn't match
 
     for (const facet of facets) {
-
-      if (facet.type === 'type') {
+      if (facet.type === "type") {
         if (facet.name !== r.type) {
           return false
         }
-      }
-      
-      else if (facet.type === 'subject') {
-        if (! r.subject) {
+      } else if (facet.type === "subject") {
+        if (!r.subject) {
+          return false
+        } else if (!r.subject.find(s => s.name === facet.name)) {
           return false
         }
-        else if (! r.subject.find(s => s.name === facet.name)) {
+      } else if (facet.type === "creator") {
+        if (!r.creator) {
+          return false
+        } else if (!r.creator.find(c => c.name === facet.name)) {
           return false
         }
-      }
-
-      else if (facet.type === 'creator') {
-        if (! r.creator) {
+      } else if (facet.type === "contributor") {
+        if (!r.contributor) {
+          return false
+        } else if (!r.contributor.find(c => c.name === facet.name)) {
           return false
         }
-        else if (! r.creator.find(c => c.name === facet.name)) {
-          return false
-        }
-      }
-
-      else if (facet.type === 'contributor') {
-        if (! r.contributor) {
-          return false
-        }
-        else if (! r.contributor.find(c => c.name === facet.name)) {
-          return false
-        }
-      }
-
-      else if (facet.type === 'genre') {
         if (! r.genre) {
+      } else if (facet.type === "genre") {
+        if (!r.genre) {
           return false
-        } else if (! r.genre.find(g => g.name === facet.name)) {
+        } else if (!r.genre.find(g => g.name === facet.name)) {
+          return false
+        }
+      } else if (facet.type === "decade") {
+        if (!r.decade) {
+          return false
+        } else if (r.decade !== facet.name) {
           return false
         }
       }
-
-      else if (facet.type === 'decade') {
-        if (! r.decade) {
-          return false
-        }
-        else if (r.decade !== facet.name) {
-          return false
-        }
-      }
-
     }
 
     return true
   }
 
   unpackFacetParams(facetParams) {
-    if (! facetParams) {
+    if (!facetParams) {
       return []
     }
 
     // put into an array if a string was passed in
-    if (! Array.isArray(facetParams)) {
+    if (!Array.isArray(facetParams)) {
       facetParams = [facetParams]
     }
 
     // parse a facet, e.g. "subject:Nelson, Ted"
     // but be careful because the value could contain a colon
     return facetParams.map(f => {
-      const i = f.indexOf(':')
+      const i = f.indexOf(":")
       return {
         type: f.substr(0, i),
-        name: f.substr(i + 1)
+        name: f.substr(i + 1),
       }
     })
   }
-
 }
 
 export default Search
