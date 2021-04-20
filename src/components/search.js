@@ -49,30 +49,30 @@ class Search extends Component {
 
     return (
       <div className="page-search search">
-        <section className="leader">
-          <article className="">
-            <input
-              aria-label="search"
-              ref={this.query}
-              type="text"
-              defaultValue={this.state.query}
-              onKeyPress={this.checkForEnter}
-              placeholder={'Search'} />
-          </article>
-        </section>
-        <section className={`columns ${resultsHidden}`}>
-          <SearchFacets 
+        <div>
+          <input
+            aria-label="search"
+            ref={this.query}
+            type="text"
+            defaultValue={this.state.query}
+            onKeyPress={this.checkForEnter}
+            placeholder={"Search"}
+          />
+        </div>
+        <div className={resultsHidden}>
+          <SearchFacets
             results={this.state.results}
             query={this.state.query}
             activeFacets={this.state.activeFacets}
-            updateFacets={this.updateFacets} />
-          <article className="results col-8 col-7-lg col-7-md col-6-sm col-12-xs">
+            updateFacets={this.updateFacets}
+          />
+          <div className="results">
             <div className="facet-panel item-sort">&nbsp;</div>
             <div id="results" className="result-panel">
               {this.state.displayedResults}
             </div>
-          </article>
-        </section> 
+          </div>
+        </div>
       </div>
     )
   }
@@ -215,7 +215,6 @@ class Search extends Component {
         } else if (!r.contributor.find(c => c.name === facet.name)) {
           return false
         }
-        if (! r.genre) {
       } else if (facet.type === "genre") {
         if (!r.genre) {
           return false
