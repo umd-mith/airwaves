@@ -1,0 +1,297 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f329f6",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-04",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T17:42:39",
+            "standardDateTime": "2016-08-16T17:42:39",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T17:42:40",
+            "standardDateTime": "2016-08-16T17:42:40",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/305129985",
+            "id": "59600782",
+            "version": "8713577"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/umi\/bentley\/stellafr.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"610\" source=\"lcnaf\">Detroit Educational Television Foundation.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/quod.lib.umich.edu\/b\/bhlead\/umich-bhl-2012094?rgn=main;view=text",
+            "id": "59600781",
+            "version": "8713577"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "59600783",
+            "version": "8713577"
+        }
+    ],
+    "languagesUsed": [
+        {
+            "dataType": "Language",
+            "language": {
+                "id": "130",
+                "term": "eng",
+                "type": "language_code",
+                "description": "English"
+            },
+            "script": {
+                "id": "685",
+                "term": "Zyyy",
+                "type": "script_code",
+                "description": "Code for undetermined script"
+            },
+            "id": "59600784",
+            "version": "8713577"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Detroit Educational Television Foundation",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Detroit Educational Television Foundation",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "59600786",
+                    "version": "8713577"
+                }
+            ],
+            "id": "59600785",
+            "version": "8713577",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"umi\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81677955",
+                    "version": "8713577"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "59600780",
+            "targetConstellation": "1728264",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6f329f6",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jn75df",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Stella, Frank D.",
+            "id": "59600795",
+            "version": "8713577"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Detroit Educational Television Foundation",
+            "uri": "https:\/\/viaf.org\/viaf\/305129985",
+            "id": "59600792",
+            "version": "8713577"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no2012099194",
+            "id": "59600793",
+            "version": "8713577"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no2012099194",
+            "id": "59600794",
+            "version": "8713577"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/quod.lib.umich.edu\/b\/bhlead\/umich-bhl-2012094?rgn=main;view=text",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <origination>\n                     <persname>\n\nStella, Frank D.\n<\/persname>\n                  <\/origination>\n                  <unittitle>\n\nFrank D. Stella papers \n<unitdate>\n\nca. 1940-2010\n<\/unitdate>\n                  <\/unittitle>\n                  <physdesc>\n                     <extent>\n\n49 linear feet (in 51 boxes) and 12 oversize volumes\n<\/extent>\n                  <\/physdesc>\n                  <unitid>\n\n2012094 Aa 2\n<\/unitid>\n                  <langmaterial>The material is in <language>English<\/language>\n                  <\/langmaterial>\n                  <abstract>\n\nDetroit businessman, active in many civic and philanthropic activities, a founder and president of the National Italian American Foundation and a founding director of Legatus, an organization of Catholic business leaders. The Frank D. Stella collection documents the career of a Detroit businessman, who devoted much of his time and energy to many philanthropic, cultural, and civic endeavors. The collection consists of his files from a selection of his organizational responsibilities relating to Italian American organizations and causes, to state and national Republican Party fund raising and campaigns, to Roman Catholic schools and organizations, and to the betterment of life (cultural, health services, etc.) of the greater Detroit area. \n<\/abstract>\n                  <repository>\n                     <corpname>\n                        <subarea>Bentley Historical Library<\/subarea>, University of Michigan<\/corpname>\n                     <extptr\/>\n                  <\/repository>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Frank D. Stella papers ca. 1940-2010",
+                "abstract": "Detroit businessman, active in many civic and philanthropic activities, a founder and president of the National Italian American Foundation and a founding director of Legatus, an organization of Catholic business leaders. The Frank D. Stella collection documents the career of a Detroit businessman, who devoted much of his time and energy to many philanthropic, cultural, and civic endeavors. The collection consists of his files from a selection of his organizational responsibilities relating to Italian American organizations and causes, to state and national Republican Party fund raising and campaigns, to Roman Catholic schools and organizations, and to the betterment of life (cultural, health services, etc.) of the greater Detroit area.",
+                "extent": "49 linear feet (in 51 boxes) and 12 oversize volumes",
+                "displayEntry": "Frank D. Stella papers, ca. 1940-2010",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Stella, Frank D.",
+                        "id": "11442980",
+                        "version": "6388818"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11442981",
+                        "version": "6388818"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w65f9fmq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Bentley Historical Library , University of Michigan",
+                            "preferenceScore": "99",
+                            "id": "76792059",
+                            "version": "11236157"
+                        }
+                    ],
+                    "id": "76792058",
+                    "version": "11236160"
+                },
+                "id": "6388818",
+                "version": "6388818"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Frank D. Stella papers, ca. 1940-2010",
+            "id": "59600796",
+            "version": "8713577"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "8188",
+                "term": "Americans",
+                "type": "nationality"
+            },
+            "id": "59600789",
+            "version": "8713577"
+        }
+    ],
+    "id": "59600780",
+    "version": "8713578"
+}

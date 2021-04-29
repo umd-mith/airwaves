@@ -1,0 +1,445 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6zw8cc0",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T13:41:30",
+            "standardDateTime": "2016-08-18T13:41:30",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T13:41:30",
+            "standardDateTime": "2016-08-18T13:41:30",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/37248194",
+            "id": "69934602",
+            "version": "10223741"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/umd\/MdU.ead.npba.0038.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"610\" role=\"subject\">KSAC (Radio station : Manhattan, Kan.) -- History -- Sources.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/digital.lib.umd.edu\/archivesum\/actions.DisplayEADDoc.do?source=MdU.ead.npba.0038.xml&style=ead",
+            "id": "69934603",
+            "version": "10223741"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KSAC (Radio station : Manhattan, Kan.)",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KSAC (Radio station : Manhattan, Kan.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "69934605",
+                    "version": "10223741"
+                }
+            ],
+            "id": "69934604",
+            "version": "10223741",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"umd\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82521278",
+                    "version": "10223741"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69934601",
+            "targetConstellation": "40475773",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zw8cc0",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6qd4ts7",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Longsdorf, Lisle Leslie",
+            "id": "69934611",
+            "version": "10223741"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69934601",
+            "targetConstellation": "56577644",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zw8cc0",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vm8ns0",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Longsdorf, Lisle Leslie.",
+            "id": "69934610",
+            "version": "10223741"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/37248194",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:37248194<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Longsdorf, Lisle Leslie.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>KSAC (Radio station : Manhattan, Kan.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Lisle L. Longsdorf Papers, 1925-1974 and undated (bulk 1939-1956)<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection primarily documents Longsdorf's career at Kansas State College Extension Service and KSAC. <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Lisle L. Longsdorf Papers, 1925-1974 and undated (bulk 1939-1956)",
+                "abstract": "Collection primarily documents Longsdorf's career at Kansas State College Extension Service and KSAC. ",
+                "extent": "0.25 linear foot",
+                "displayEntry": "Longsdorf, Lisle Leslie. Lisle L. Longsdorf Papers, 1925-1974 and undated (bulk 1939-1956)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Longsdorf, Lisle Leslie.",
+                        "id": "9570147",
+                        "version": "7391584"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KSAC (Radio station : Manhattan, Kan.)",
+                        "id": "9570148",
+                        "version": "7391584"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7391584",
+                "version": "7391584"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Longsdorf, Lisle Leslie. Lisle L. Longsdorf Papers, 1925-1974 and undated (bulk 1939-1956)",
+            "id": "69934612",
+            "version": "10223741"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/digital.lib.umd.edu\/archivesum\/actions.DisplayEADDoc.do?source=MdU.ead.npba.0038.xml&style=ead",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Mass Media and Culture<\/corpname>\n                     <address>\n                        <addressline>Special Collections, University of Maryland Libraries, Hornbake Library, College Park, MD 20742. Tel: 301-405-9212, Fax: 301-314-2709, Email: askhornbake@umd.edu<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <origination>\n                     <persname>Longsdorf, Lisle L.<\/persname>\n                  <\/origination>\n                  <unittitle>Lisle L. Longsdorf Papers<\/unittitle>\n                  <unitdate>1925-1974 and undated<\/unitdate>\n                  <unitdate>1939-1956<\/unitdate>\n                  <physdesc>0.25 linear foot<\/physdesc>\n                  <unitid>NPBA 93-75<\/unitid>\n                  <physloc>Room 3210 (Showcase Room):70:B:Room 3210 (Showcase Room) 70 : B : <\/physloc>\n                  <abstract>Lisle Longsdorf served as station manager of KSAC from 1927 to 1953.  This job included financial, production and broadcasting, and research work. He directed the preparation and production of a daily 15-minute script service to seventy cooperating commercial radio stations in Kansas. He also planned and broadcast about 25 to 30 field programs each year in covering educational meetings, field days, and tours. In addition, he scheduled and supervised about 100 taped educational radio shows on campus for visiting commercial radio station interests and served on study committee in proposed development of education by television from a college-owned television outlet.  The collection documents Longsdorf's career at Kansas State College Extension Service and at KSAC.<\/abstract>\n                  <abstract>Lisle Longsdorf served as station manager of KSAC from 1927 to 1953.  This job included financial, production and broadcasting, and research work. He directed the preparation and production of a daily 15-minute script service to seventy cooperating commercial radio stations in Kansas. He also planned and broadcast about 25 to 30 field programs each year in covering educational meetings, field days, and tours. In addition, he scheduled and supervised about 100 taped educational radio shows on campus for visiting commercial radio station interests and served on study committee in proposed development of education by television from a college-owned television outlet.  The collection documents Longsdorf's career at Kansas State College Extension Service and at KSAC.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Lisle L. Longsdorf Papers 1925-1974 and undated 1939-1956",
+                "abstract": "Lisle Longsdorf served as station manager of KSAC from 1927 to 1953.  This job included financial, production and broadcasting, and research work. He directed the preparation and production of a daily 15-minute script service to seventy cooperating commercial radio stations in Kansas. He also planned and broadcast about 25 to 30 field programs each year in covering educational meetings, field days, and tours. In addition, he scheduled and supervised about 100 taped educational radio shows on campus for visiting commercial radio station interests and served on study committee in proposed development of education by television from a college-owned television outlet.  The collection documents Longsdorf's career at Kansas State College Extension Service and at KSAC. Lisle Longsdorf served as station manager of KSAC from 1927 to 1953.  This job included financial, production and broadcasting, and research work. He directed the preparation and production of a daily 15-minute script service to seventy cooperating commercial radio stations in Kansas. He also planned and broadcast about 25 to 30 field programs each year in covering educational meetings, field days, and tours. In addition, he scheduled and supervised about 100 taped educational radio shows on campus for visiting commercial radio station interests and served on study committee in proposed development of education by television from a college-owned television outlet.  The collection documents Longsdorf's career at Kansas State College Extension Service and at KSAC.",
+                "displayEntry": "Lisle L. Longsdorf Papers, 1925-1974 and undated, 1939-1956",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Longsdorf, Lisle L.",
+                        "id": "11355416",
+                        "version": "6326559"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "6326559",
+                "version": "6326559"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Lisle L. Longsdorf Papers, 1925-1974 and undated, 1939-1956",
+            "id": "69934613",
+            "version": "10223741"
+        }
+    ],
+    "id": "69934601",
+    "version": "10223742"
+}

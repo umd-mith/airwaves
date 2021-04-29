@@ -1,0 +1,541 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63v4h20",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T14:43:32",
+            "standardDateTime": "2016-08-16T14:43:32",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T14:43:32",
+            "standardDateTime": "2016-08-16T14:43:32",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/42688093",
+            "id": "58851287",
+            "version": "8604671"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nwda\/eastern_washington_state_historical_society_northwest_museum_of_arts_and_culture\/UAKMsSC53.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"610\" role=\"subject\" source=\"lcsh\">Spokane Chronicle (Spokane, Wash.: Newspaper)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv66400",
+            "id": "58851289",
+            "version": "8604671"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nwda\/eastern_washington_state_historical_society_northwest_museum_of_arts_and_culture\/UAKMsSC58.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"610\" role=\"subject\" source=\"lcsh\">Spokane Chronicle (Spokane, Wash.: Newspaper)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv70269",
+            "id": "58851288",
+            "version": "8604671"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Spokane Chronicle (Spokane, Wash.: Newspaper)",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Spokane Chronicle (Spokane, Wash.: Newspaper)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "58851291",
+                    "version": "8604671"
+                }
+            ],
+            "id": "58851290",
+            "version": "8604671",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"nwda\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81615297",
+                    "version": "8604671"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "58851286",
+            "targetConstellation": "38810037",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63v4h20",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w61g1mv0",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Cowley, Henry T., 1837-1917",
+            "id": "58851298",
+            "version": "8604671"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "58851286",
+            "targetConstellation": "14912808",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63v4h20",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mp64dm",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Knight, William D.",
+            "id": "58851297",
+            "version": "8604671"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv70269",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Eastern Washington State Historical\n\t\t\t Society\/Northwest Museum of Arts &amp; Culture<subarea>\n\t\t\t Joel E. Ferris Research Library and Archives<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline>2316 W. First Avenue<\/addressline>\n                        <addressline>Spokane, WA 99201<\/addressline>\n                        <addressline>Phone: (509) 363-5313<\/addressline>\n                        <addressline>Fax: (509) 363-5303<\/addressline>\n                        <addressline>Email: archives@northwestmuseum.org<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid>MsSC\n\t\t  58<\/unitid>\n                  <origination>\n                     <persname>Knight,\n\t\t\t William D.<\/persname>\n                  <\/origination>\n                  <unittitle>William D. Knight\n\t\t  Reminiscence<\/unittitle>\n                  <unitdate>1928<\/unitdate>\n                  <physdesc>\n                     <extent>3 p.<\/extent>\n                  <\/physdesc>\n                  <abstract>Reminiscence of owner and publisher of\n\t\t  the \n\t\t  <title>Spokane Chronicle<\/title>, 1889-1890. <\/abstract>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "William D. Knight  Reminiscence 1928",
+                "abstract": "Reminiscence of owner and publisher of  the , 1889-1890. Spokane Chronicle",
+                "extent": "3 p.",
+                "displayEntry": "William D. Knight Reminiscence, 1928",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Knight, William D.",
+                        "id": "11427560",
+                        "version": "6376908"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11427561",
+                        "version": "6376908"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61h190d",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Eastern Washington State Historical Society\/Northwest Museum of Arts and Culture Joel E. Ferris Research Library and Archives",
+                            "preferenceScore": "99",
+                            "id": "76793090",
+                            "version": "11237121"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Eastern Washington State Historical Society\/Northwest Museum of Arts and Culture Joel E. Ferris Research Library and Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "2316 W. First Avenue Spokane, WA 99201 Phone: (509) 363-5313 Fax: (509) 363-5303 Email: archives@northwestmuseum.org",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76793093",
+                                    "version": "11237121"
+                                }
+                            ],
+                            "id": "76793092",
+                            "version": "11237121"
+                        }
+                    ],
+                    "id": "76793089",
+                    "version": "11237124"
+                },
+                "id": "6376908",
+                "version": "6376908"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "William D. Knight Reminiscence, 1928",
+            "id": "58851300",
+            "version": "8604671"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv66400",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Eastern Washington State Historical\n\t\t\t Society\/Northwest Museum of Arts &amp; Culture<subarea>\n\t\t\t Joel E. Ferris Research Library and Archives<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline>2316 W. First Avenue<\/addressline>\n                        <addressline>Spokane, WA 99201<\/addressline>\n                        <addressline>Phone: (509) 363-5313<\/addressline>\n                        <addressline>Fax: (509) 363-5303<\/addressline>\n                        <addressline>Email: archives@northwestmuseum.org<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid>MsSC 53<\/unitid>\n                  <origination>\n                     <persname>Cowley,\n\t\t\t Henry T., 1837-1917<\/persname>\n                  <\/origination>\n                  <unittitle>Henry T. Cowley\n\t\t  Reminiscences<\/unittitle>\n                  <unitdate>1916<\/unitdate>\n                  <physdesc>\n                     <extent>1 v. and 1 folder<\/extent>\n                  <\/physdesc>\n                  <abstract>Presbyterian missionary, teacher, and\n\t\t  newspaper editor of Spokane Falls. The collection consists of\n\t\t  reminiscences.<\/abstract>\n                  <langmaterial>Materials are in\n\t\t<language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Henry T. Cowley  Reminiscences 1916",
+                "abstract": "Presbyterian missionary, teacher, and  newspaper editor of Spokane Falls. The collection consists of  reminiscences.",
+                "extent": "1 v. and 1 folder",
+                "displayEntry": "Henry T. Cowley Reminiscences, 1916",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cowley, Henry T., 1837-1917",
+                        "id": "11426314",
+                        "version": "6376155"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11426315",
+                        "version": "6376155"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61h190d",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Eastern Washington State Historical Society\/Northwest Museum of Arts and Culture Joel E. Ferris Research Library and Archives",
+                            "preferenceScore": "99",
+                            "id": "76793090",
+                            "version": "11237121"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Eastern Washington State Historical Society\/Northwest Museum of Arts and Culture Joel E. Ferris Research Library and Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "2316 W. First Avenue Spokane, WA 99201 Phone: (509) 363-5313 Fax: (509) 363-5303 Email: archives@northwestmuseum.org",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76793093",
+                                    "version": "11237121"
+                                }
+                            ],
+                            "id": "76793092",
+                            "version": "11237121"
+                        }
+                    ],
+                    "id": "76793089",
+                    "version": "11237124"
+                },
+                "id": "6376155",
+                "version": "6376155"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Henry T. Cowley Reminiscences, 1916",
+            "id": "58851301",
+            "version": "8604671"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/42688093",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:42688093<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UAK<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Knight, William D.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Reminiscence, 1928.<\/title>\n                  <\/titleInfo>\n                  <abstract>The collection consists of a three page typed reminiscence, with corrections and annotations, detailing Knight's arrival in Spokane in 1889, his purchase of the \"Spokane Chronicle\", and his subsequent career until sale of the newspaper in 1890. <\/abstract>\n                  <name>\n                     <namePart>Eastern Washington State Historical Society<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Reminiscence, 1928.",
+                "abstract": "The collection consists of a three page typed reminiscence, with corrections and annotations, detailing Knight's arrival in Spokane in 1889, his purchase of the \"Spokane Chronicle\", and his subsequent career until sale of the newspaper in 1890. ",
+                "extent": "3 p.",
+                "displayEntry": "Knight, William D. Reminiscence, 1928.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Knight, William D.",
+                        "id": "9665921",
+                        "version": "7452405"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6j785bs",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Eastern Washington State Historical Society",
+                            "preferenceScore": "99",
+                            "id": "76766671",
+                            "version": "11226477"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Eastern Washington State Historical Society",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "NW Mus of Arts & Culture",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766676",
+                                    "version": "11226477"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "2316 W 1st Ave",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766677",
+                                    "version": "11226477"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Spokane",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766678",
+                                    "version": "11226477"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766679",
+                                    "version": "11226477"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "99204-1006",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766680",
+                                    "version": "11226477"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766681",
+                                    "version": "11226477"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16471",
+                                "name": "Eastern Washington State Historical Society",
+                                "latitude": "47.6654590",
+                                "longitude": "-117.4332660"
+                            },
+                            "confirmed": true,
+                            "id": "76766675",
+                            "version": "11226477"
+                        }
+                    ],
+                    "id": "76766670",
+                    "version": "11226480"
+                },
+                "id": "7452405",
+                "version": "7452405"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Knight, William D. Reminiscence, 1928.",
+            "id": "58851299",
+            "version": "8604671"
+        }
+    ],
+    "id": "58851286",
+    "version": "8604672"
+}

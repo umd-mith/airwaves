@@ -1,0 +1,753 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6g85k8f",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-02-25",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T13:51:25",
+            "standardDateTime": "2016-08-12T13:51:25",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T13:51:25",
+            "standardDateTime": "2016-08-12T13:51:25",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nypl\/rha20502.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Benny Goodman Sextet<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archives.nypl.org\/rha\/20502",
+            "id": "31050724",
+            "version": "4531436"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/stanford\/cstmus\/ars_0043.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" role=\"Performer (prf)\" source=\"naf\">Benny Goodman Sextet.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt3q2nf194",
+            "id": "31050725",
+            "version": "4531436"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/mus00006.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Benny Goodman Sextet;<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/mus00006\/catalog",
+            "id": "31050723",
+            "version": "4531436"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/134611948",
+            "id": "31050726",
+            "version": "4531436"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "31050727",
+            "version": "4531436"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Benny Goodman sextet",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Benny Goodman sextet",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "31050729",
+                    "version": "4531436"
+                }
+            ],
+            "id": "31050728",
+            "version": "4531436",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"nypl\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"NLA\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LAC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79337404",
+                    "version": "4531436"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Bennie Goodman Sextet",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Bennie Goodman Sextet",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "31050738",
+                    "version": "4531436"
+                }
+            ],
+            "id": "31050737",
+            "version": "4531436",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79337405",
+                    "version": "4531436"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Goodman (Benny) Sextet",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Goodman (Benny) Sextet",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "31050741",
+                    "version": "4531436"
+                }
+            ],
+            "id": "31050740",
+            "version": "4531436",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79337406",
+                    "version": "4531436"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Benny Goodman and His Sextet",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Benny Goodman and His Sextet",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "31050744",
+                    "version": "4531436"
+                }
+            ],
+            "id": "31050743",
+            "version": "4531436",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79337407",
+                    "version": "4531436"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Goodman and His Sextet",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Goodman and His Sextet",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "31050747",
+                    "version": "4531436"
+                }
+            ],
+            "id": "31050746",
+            "version": "4531436",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79337408",
+                    "version": "4531436"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Goodman Sextet",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Goodman Sextet",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "31050750",
+                    "version": "4531436"
+                }
+            ],
+            "id": "31050749",
+            "version": "4531436",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79337409",
+                    "version": "4531436"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "31050722",
+            "targetConstellation": "50129775",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6g85k8f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sr6wsw",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Dodge, Joseph Jeffers",
+            "id": "31050760",
+            "version": "4531436"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Benny Goodman sextet",
+            "uri": "https:\/\/viaf.org\/viaf\/134611948",
+            "id": "31050757",
+            "version": "4531436"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no91-024375",
+            "id": "31050758",
+            "version": "4531436"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no91024375",
+            "id": "31050759",
+            "version": "4531436"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archives.nypl.org\/rha\/20502",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>The Bell Telephone Hour collection of sound recordings [sound recording]<\/unittitle>\n                  <unitdate>1940-1968<\/unitdate>\n                  <unitid>*L (Special) 89-33<\/unitid>\n                  <unitid>20502<\/unitid>\n                  <repository>\n                     <corpname>The New York Public Library. Rodgers and Hammerstein Archives of Recorded Sound.<\/corpname>\n                     <address>\n                        <addressline>New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center<\/addressline>\n                        <addressline>40 Lincoln Center Plaza, New York, NY 10023-7498<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <physdesc>\n                     <extent>1579 sound discs<\/extent>\n                     <physfacet>analog, acetate, 33 rpm<\/physfacet>\n                     <dimensions>16 in.<\/dimensions>\n                  <\/physdesc>\n                  <abstract>Weekly 30-minute NBC radio broadcasts, featuring classical and light classical music, which began on Apr. 29, 1940 and continued until 1958. In September, 1959, the Bell Telephone Hour made its television debut as a monthly musical special. It remained a regular television program until April 26, 1968. Library's holdings incomplete. Broadcasts chiefly originated from New York City, sponsored by the Bell Telephone Company (American Telephone and Telegraph). Each 30-minute program generally features a guest singer or instrumentalist, with the Bell Telephone Hour Orchestra, conducted by Donald Voorhees, and the Bell Telephone Hour Chorus. Frequent guest artists include Marian Anderson, Robert Casadesus, Nelson Eddy, Josef Hofmann, Fritz Kreisler, Oscar Levant, James Melton, Grace Moore, Ezio Pinza, Lily Pons, Bid\u00fa Say\u00e3o, Gladys Swarthout, John Charles Thomas, Helen Traubel, and Eileen Farrell. Chief announcer: Floyd Mack.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "The Bell Telephone Hour collection of sound recordings [sound recording] 1940-1968",
+                "abstract": "Weekly 30-minute NBC radio broadcasts, featuring classical and light classical music, which began on Apr. 29, 1940 and continued until 1958. In September, 1959, the Bell Telephone Hour made its television debut as a monthly musical special. It remained a regular television program until April 26, 1968. Library's holdings incomplete. Broadcasts chiefly originated from New York City, sponsored by the Bell Telephone Company (American Telephone and Telegraph). Each 30-minute program generally features a guest singer or instrumentalist, with the Bell Telephone Hour Orchestra, conducted by Donald Voorhees, and the Bell Telephone Hour Chorus. Frequent guest artists include Marian Anderson, Robert Casadesus, Nelson Eddy, Josef Hofmann, Fritz Kreisler, Oscar Levant, James Melton, Grace Moore, Ezio Pinza, Lily Pons, Bid\u00fa Say\u00e3o, Gladys Swarthout, John Charles Thomas, Helen Traubel, and Eileen Farrell. Chief announcer: Floyd Mack.",
+                "extent": "1579 sound discs",
+                "displayEntry": "The Bell Telephone Hour collection of sound recordings [sound recording], 1940-1968",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6jx93s2",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "The New York Public Library. Rodgers and Hammerstein Archives of Recorded Sound.",
+                            "preferenceScore": "99",
+                            "id": "76796836",
+                            "version": "11240665"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "The New York Public Library. Rodgers and Hammerstein Archives of Recorded Sound.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center 40 Lincoln Center Plaza, New York, NY 10023-7498",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76796839",
+                                    "version": "11240665"
+                                }
+                            ],
+                            "id": "76796838",
+                            "version": "11240665"
+                        }
+                    ],
+                    "id": "76796835",
+                    "version": "11240668"
+                },
+                "id": "6316795",
+                "version": "6316795"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "The Bell Telephone Hour collection of sound recordings [sound recording], 1940-1968",
+            "id": "31050762",
+            "version": "4531436"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt3q2nf194",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Ambassador Auditorium Collection<\/unittitle>\n                  <unitid>ARS.0043<\/unitid>\n                  <repository>\n                     <corpname>Archive of Recorded Sound, Stanford University Libraries<\/corpname>\n                     <address>\n                        <addressline>Stanford, California 94305-3076<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <physdesc>\n                     <extent>636<\/extent>\n                     <extent>containers of various sizes with multiple types of print materials, photographic materials, audio and video materials, realia, posters and original art work (682.05 linear feet).<\/extent>\n                  <\/physdesc>\n                  <unitdate>1974-1995<\/unitdate>\n                  <abstract>The Ambassador Auditorium Collection contains the files of the various organizational departments of the Ambassador Auditorium as well as audio and video recordings. The materials cover the entire time period of April 1974 through May 1995 when the Ambassador Auditorium was fully operational as an internationally recognized concert venue. The materials in this collection cover all aspects of concert production and presentation, including documentation of the concert artists and repertoire as well as many business documents, advertising, promotion and marketing files, correspondence, inter-office memos and negotiations with booking agents. The materials are widely varied and include concert program booklets, audio and video recordings, concert season planning materials, artist publicity materials, individual event files, posters, photographs, scrapbooks and original artwork used for publicity. Many of the print materials include handwritten comments from office personnel and administrators, and many of the artist photographs are autographed. Since the various office personnel maintained their own files, and the same information was often needed in more than one office at a time, the collection contains duplicate copies of many items. Although efforts were made to eliminate duplicate material from the same file or the same series, duplicate copies of items exist among the files from different offices. In an effort to maintain the original content of these files, the cross-file duplicate items were retained in the collection.<\/abstract>\n                  <physloc>Stanford Archive of Recorded Sound, Stanford University Libraries Stanford, California 94305-3076<\/physloc>\n                  <langmaterial>\n                     <language>English<\/language>, <language>French<\/language>, <language>German<\/language>, <language>Italian<\/language>, <language>Korean<\/language>, <language>Spanish<\/language>, <language>Russian<\/language>, <language>Hungarian<\/language>, <language>Dutch<\/language>, <language>Latin<\/language>, <language>Malay<\/language>, <language>Thai<\/language>, <language>Czech<\/language>, <language>Slovak<\/language>.<\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Ambassador Auditorium Collection 1974-1995",
+                "abstract": "The Ambassador Auditorium Collection contains the files of the various organizational departments of the Ambassador Auditorium as well as audio and video recordings. The materials cover the entire time period of April 1974 through May 1995 when the Ambassador Auditorium was fully operational as an internationally recognized concert venue. The materials in this collection cover all aspects of concert production and presentation, including documentation of the concert artists and repertoire as well as many business documents, advertising, promotion and marketing files, correspondence, inter-office memos and negotiations with booking agents. The materials are widely varied and include concert program booklets, audio and video recordings, concert season planning materials, artist publicity materials, individual event files, posters, photographs, scrapbooks and original artwork used for publicity. Many of the print materials include handwritten comments from office personnel and administrators, and many of the artist photographs are autographed. Since the various office personnel maintained their own files, and the same information was often needed in more than one office at a time, the collection contains duplicate copies of many items. Although efforts were made to eliminate duplicate material from the same file or the same series, duplicate copies of items exist among the files from different offices. In an effort to maintain the original content of these files, the cross-file duplicate items were retained in the collection.",
+                "extent": "636; containers of various sizes with multiple types of print materials, photographic materials, audio and video materials, realia, posters and original art work (682.05 linear feet).",
+                "displayEntry": "Ambassador Auditorium Collection, 1974-1995",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11286667",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "144",
+                            "term": "fre",
+                            "type": "language_code",
+                            "description": "French"
+                        },
+                        "id": "11286668",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "159",
+                            "term": "ger",
+                            "type": "language_code",
+                            "description": "German"
+                        },
+                        "id": "11286669",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "214",
+                            "term": "ita",
+                            "type": "language_code",
+                            "description": "Italian"
+                        },
+                        "id": "11286670",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "243",
+                            "term": "kor",
+                            "type": "language_code",
+                            "description": "Korean"
+                        },
+                        "id": "11286671",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "419",
+                            "term": "spa",
+                            "type": "language_code",
+                            "description": "Spanish; Castilian"
+                        },
+                        "id": "11286672",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "380",
+                            "term": "rus",
+                            "type": "language_code",
+                            "description": "Russian"
+                        },
+                        "id": "11286673",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "194",
+                            "term": "hun",
+                            "type": "language_code",
+                            "description": "Hungarian"
+                        },
+                        "id": "11286674",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "122",
+                            "term": "dut",
+                            "type": "language_code",
+                            "description": "Dutch; Flemish"
+                        },
+                        "id": "11286675",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "258",
+                            "term": "lat",
+                            "type": "language_code",
+                            "description": "Latin"
+                        },
+                        "id": "11286676",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "288",
+                            "term": "may",
+                            "type": "language_code",
+                            "description": "Malay"
+                        },
+                        "id": "11286677",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "444",
+                            "term": "tha",
+                            "type": "language_code",
+                            "description": "Thai"
+                        },
+                        "id": "11286678",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "106",
+                            "term": "cze",
+                            "type": "language_code",
+                            "description": "Czech"
+                        },
+                        "id": "11286679",
+                        "version": "6654551"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "403",
+                            "term": "slk",
+                            "type": "language_code",
+                            "description": "Slovak"
+                        },
+                        "id": "11286680",
+                        "version": "6654551"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60684n3",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archive of Recorded Sound, Stanford University Libraries",
+                            "preferenceScore": "99",
+                            "id": "76791756",
+                            "version": "11235853"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Archive of Recorded Sound, Stanford University Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford, California 94305-3076",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791759",
+                                    "version": "11235853"
+                                }
+                            ],
+                            "id": "76791758",
+                            "version": "11235853"
+                        }
+                    ],
+                    "id": "76791755",
+                    "version": "11235856"
+                },
+                "id": "6654551",
+                "version": "6654551"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Ambassador Auditorium Collection, 1974-1995",
+            "id": "31050763",
+            "version": "4531436"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/mus00006\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Eda Kuhn Loeb\nMusic Library, Harvard College Library<\/repository>\n                  <origination>\n                     <persname>Dodge, Joseph\nJeffers, <\/persname>collector. <\/origination>\n                  <unittitle>Duke Ellington recordings collection<\/unittitle>\n                  <physloc>Eda Kuhn Loeb Music Library<\/physloc>\n                  <unitid>Record Coll.\n34000-35036, 10-35037-10-35330, C-35331-C-35469, T-35470-T-35506<\/unitid>\n                  <physdesc>\n                     <extent>Sound recordings (33 linear feet) and accompanying materials (1 box).<\/extent>\n                  <\/physdesc>\n                  <abstract>Recordings of Duke Ellington, American pianist, band leader, and\ncomposer, collected by Joseph Jeffers Dodge, jazz aficionado, artist, museum director, and\nHarvard University Class of 1940.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Duke Ellington recordings collection",
+                "abstract": "Recordings of Duke Ellington, American pianist, band leader, andcomposer, collected by Joseph Jeffers Dodge, jazz aficionado, artist, museum director, andHarvard University Class of 1940.",
+                "extent": "Sound recordings (33 linear feet) and accompanying materials (1 box).",
+                "displayEntry": "Duke Ellington recordings collection",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dodge, JosephJeffers, ",
+                        "id": "11439792",
+                        "version": "6386006"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6815rd1",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Eda Kuhn Loeb Music Library, Harvard College Library",
+                            "preferenceScore": "99",
+                            "id": "76793118",
+                            "version": "11237145"
+                        }
+                    ],
+                    "id": "76793117",
+                    "version": "11237148"
+                },
+                "id": "6386006",
+                "version": "6386006"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Duke Ellington recordings collection",
+            "id": "31050761",
+            "version": "4531436"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "8188",
+                "term": "Americans",
+                "type": "nationality"
+            },
+            "id": "31050752",
+            "version": "4531436"
+        }
+    ],
+    "id": "31050722",
+    "version": "4531437"
+}

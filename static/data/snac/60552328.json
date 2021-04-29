@@ -1,0 +1,261 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hs025g",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-08-12",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T21:38:32",
+            "standardDateTime": "2016-08-16T21:38:32",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T21:38:32",
+            "standardDateTime": "2016-08-16T21:38:32",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "\/10574983",
+            "id": "60552329",
+            "version": "8856524"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/305032217",
+            "id": "60552330",
+            "version": "8856524"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "60552331",
+            "version": "8856524"
+        }
+    ],
+    "languagesUsed": [
+        {
+            "dataType": "Language",
+            "language": {
+                "id": "130",
+                "term": "eng",
+                "type": "language_code",
+                "description": "English"
+            },
+            "script": {
+                "id": "586",
+                "term": "Latn",
+                "type": "script_code",
+                "description": "Latin"
+            },
+            "id": "60552332",
+            "version": "8856524"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Bardos, Arthur",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Bardos, Arthur",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "60552334",
+                    "version": "8856524"
+                }
+            ],
+            "id": "60552333",
+            "version": "8856524",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nara\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81757379",
+                    "version": "8856524"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "60552328",
+            "targetConstellation": "63765862",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hs025g",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w51qk9",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Bardos, Arthur A."
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Bardos, Arthur",
+            "uri": "https:\/\/id.loc.gov\/authorities\/no93008403",
+            "id": "60552339",
+            "version": "8856524"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Bardos, Arthur",
+            "uri": "https:\/\/catalog.archives.gov\/id\/10574983",
+            "id": "60552340",
+            "version": "8856524"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Bardos, Arthur",
+            "uri": "https:\/\/viaf.org\/viaf\/305032217",
+            "id": "60552341",
+            "version": "8856524"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no93008403",
+            "id": "60552342",
+            "version": "8856524"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no93008403",
+            "id": "60552343",
+            "version": "8856524"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "https:\/\/catalog.archives.gov\/id\/5989363",
+                "title": "Records of the U.S. Information Agency. 1900 - 2003. Subject Files",
+                "displayEntry": "Records of the U.S. Information Agency. 1900 - 2003. Subject Files",
+                "id": "6485837",
+                "version": "6485837"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Records of the U.S. Information Agency. 1900 - 2003. Subject Files",
+            "id": "60552345",
+            "version": "8856524"
+        }
+    ],
+    "id": "60552328",
+    "version": "8856525"
+}

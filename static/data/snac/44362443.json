@@ -1,0 +1,258 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6wb8xdx",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-09",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T08:31:51",
+            "standardDateTime": "2016-08-14T08:31:51",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T08:31:51",
+            "standardDateTime": "2016-08-14T08:31:51",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/244170342",
+            "id": "44362445",
+            "version": "6480053"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/div00104.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Mondo<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/div00104\/catalog",
+            "id": "44362444",
+            "version": "6480053"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "44362446",
+            "version": "6480053"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Mondo",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Mondo",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "44362448",
+                    "version": "6480053"
+                }
+            ],
+            "id": "44362447",
+            "version": "6480053",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80426549",
+                    "version": "6480053"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "44362443",
+            "targetConstellation": "76221297",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wb8xdx",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6k66hb4",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "La Piana, George, 1879-1971",
+            "id": "44362454",
+            "version": "6480053"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Mondo",
+            "uri": "https:\/\/viaf.org\/viaf\/244170342",
+            "id": "44362453",
+            "version": "6480053"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/div00104\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Andover-Harvard Theological Library, Harvard Divinity School  <\/repository>\n                  <unitid>bMS 104  <\/unitid>\n                  <origination>\n                     <persname>La Piana, George, 1879-1971.  <\/persname>\n                  <\/origination>\n                  <unittitle>Papers, <unitdate>1878-1972.  <\/unitdate>\n                  <\/unittitle>\n                  <physdesc>\n                     <extent>13.3 linear ft. (41 boxes)  <\/extent>\n                  <\/physdesc>\n                  <abstract>Papers of George La Piana,  John H. Morison Professor of Church History at\nHarvard Divinity School and leading figure in the modernist controversy in the Catholic\nChurch during the early twentieth century.  Materials include memoirs (English and\nItalian versions); manuscripts; college lecture notes; correspondence, 1908-1970;\nsubject files; and biographical material as well as correspondence, 1919-1952, with\nAntonio Borgese, author and university professor; and correspondence, 1908-1946,\nwith Ernesto Buonaiuti, Catholic priest, church historian, and leader in the modernist\nmovement.  <\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1878-1972.",
+                "abstract": "Papers of George La Piana,  John H. Morison Professor of Church History atHarvard Divinity School and leading figure in the modernist controversy in the CatholicChurch during the early twentieth century.  Materials include memoirs (English andItalian versions); manuscripts; college lecture notes; correspondence, 1908-1970;subject files; and biographical material as well as correspondence, 1919-1952, withAntonio Borgese, author and university professor; and correspondence, 1908-1946,with Ernesto Buonaiuti, Catholic priest, church historian, and leader in the modernistmovement.",
+                "extent": "13.3 linear ft. (41 boxes)",
+                "displayEntry": "Papers, 1878-1972.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "La Piana, George, 1879-1971.  ",
+                        "id": "11437024",
+                        "version": "6382755"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gk07zg",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Andover-Harvard Theological Library",
+                            "preferenceScore": "99",
+                            "id": "84920396",
+                            "version": "11441118"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Andover-Harvard Theological Library, Harvard Divinity School",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "45 Francis Avenue Cambridge, MA 02138-1911",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84920403",
+                                    "version": "11441109"
+                                }
+                            ],
+                            "id": "84920402",
+                            "version": "11441109"
+                        }
+                    ],
+                    "id": "84920365",
+                    "version": "11441119"
+                },
+                "id": "6382755",
+                "version": "6382755"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Papers, 1878-1972.",
+            "id": "44362455",
+            "version": "6480053"
+        }
+    ],
+    "id": "44362443",
+    "version": "6480054"
+}

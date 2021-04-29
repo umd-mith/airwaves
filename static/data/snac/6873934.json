@@ -1,0 +1,294 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w69j251d",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T02:08:10",
+            "standardDateTime": "2016-08-10T02:08:10",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T02:08:10",
+            "standardDateTime": "2016-08-10T02:08:10",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/taro\/tamucush\/00074.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"710\" source=\"lcnaf\">WTAW (Radio station : College Station, Tex.)--History--Sources.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.lib.utexas.edu\/taro\/tamucush\/00074\/00074-P.html",
+            "id": "6873935",
+            "version": "994313"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/137445870",
+            "id": "6873936",
+            "version": "994313"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "6873937",
+            "version": "994313"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WTAW (Radio station : College Station, Tex.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WTAW (Radio station : College Station, Tex.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "6873939",
+                    "version": "994313"
+                }
+            ],
+            "id": "6873938",
+            "version": "994313",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"taro\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77362512",
+                    "version": "994313"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "6873934",
+            "targetConstellation": "27187055",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w69j251d",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w69t8735",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Kent, Jack T.",
+            "id": "6873947",
+            "version": "994313"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "WTAW (Radio station : College Station, Tex.)",
+            "uri": "https:\/\/viaf.org\/viaf\/137445870",
+            "id": "6873944",
+            "version": "994313"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n2010047716",
+            "id": "6873945",
+            "version": "994313"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n2010047716",
+            "id": "6873946",
+            "version": "994313"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.lib.utexas.edu\/taro\/tamucush\/00074\/00074-P.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Cushing Memorial Library<\/corpname>\n                     <address>\n                        <addressline>College Station, TX  77843-5000<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <origination>\n                     <persname>\nKent, Jack T.<\/persname>\n                  <\/origination>\n                  <unittitle>\nInventory of the Jack T. Kent Radio Scripts \n<\/unittitle>\n                  <unitdate>\n1945-1950<\/unitdate>\n                  <physdesc>.5 linear ft.<\/physdesc>\n                  <abstract>Jack Thurston Kent joined the Agricultural and Mechanical College of Texas faculty in 1936 as an instructor of mathematics and astronomy. In 1952 he was promoted to Associate Professor. Kent received his A.B. from Lambuth College in Jackson, Tennessee in 1930 and his M.A. from the University of Arkansas in 1931. While at Texas A &amp; M, Kent was head of the Moonwatch team during the International Geophysical Year of 1959. This team was cited for its achievements in spotting artificial satellites. Kent received the Ford Foundation Fellowship in 1951. He also received the Outstanding Achievement Award given by the alumni of Lambuth College in 1960. Kent traveled throughout Texas as a visiting instructor for the National Science Foundation and Texas Academy of Science. He retired from Texas A &amp; M in 1975 as an Associate Professor.\nThe Jack T. Kent Radio Scripts (1945-1950) consist of one five-inch box (.5 linear ft.) containing sixteen legal size file folders. The folders contain manuscripts of radio lectures on mathematics, mathematicians and the solar system by Jack T. Kent, Albert Edward Finlay, W. E. Ross, Roger Valentine McGee, Walter Lee Porter, and James Wendell Ross which were aired on radio station 1620 WTAW-AM in College Station, Tex. between 1945 and 1950.<\/abstract>\n                  <unitid>\nTAMU \nMSS \n00074<\/unitid>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Inventory of the Jack T. Kent Radio Scripts 1945-1950",
+                "abstract": "Jack Thurston Kent joined the Agricultural and Mechanical College of Texas faculty in 1936 as an instructor of mathematics and astronomy. In 1952 he was promoted to Associate Professor. Kent received his A.B. from Lambuth College in Jackson, Tennessee in 1930 and his M.A. from the University of Arkansas in 1931. While at Texas A & M, Kent was head of the Moonwatch team during the International Geophysical Year of 1959. This team was cited for its achievements in spotting artificial satellites. Kent received the Ford Foundation Fellowship in 1951. He also received the Outstanding Achievement Award given by the alumni of Lambuth College in 1960. Kent traveled throughout Texas as a visiting instructor for the National Science Foundation and Texas Academy of Science. He retired from Texas A & M in 1975 as an Associate Professor.The Jack T. Kent Radio Scripts (1945-1950) consist of one five-inch box (.5 linear ft.) containing sixteen legal size file folders. The folders contain manuscripts of radio lectures on mathematics, mathematicians and the solar system by Jack T. Kent, Albert Edward Finlay, W. E. Ross, Roger Valentine McGee, Walter Lee Porter, and James Wendell Ross which were aired on radio station 1620 WTAW-AM in College Station, Tex. between 1945 and 1950.",
+                "displayEntry": "Inventory of the Jack T. Kent Radio Scripts TAMU MSS 00074., 1945-1950",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kent, Jack T.",
+                        "id": "11264388",
+                        "version": "6639950"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11264389",
+                        "version": "6639950"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gv69zb",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Cushing Memorial Library,",
+                            "preferenceScore": "99",
+                            "id": "76792888",
+                            "version": "11236921"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Cushing Memorial Library,",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Station, TX 77843-5000",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76792891",
+                                    "version": "11236921"
+                                }
+                            ],
+                            "id": "76792890",
+                            "version": "11236921"
+                        }
+                    ],
+                    "id": "76792887",
+                    "version": "11236924"
+                },
+                "id": "6639950",
+                "version": "6639950"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Inventory of the Jack T. Kent Radio Scripts TAMU MSS 00074., 1945-1950",
+            "id": "6873948",
+            "version": "994313"
+        }
+    ],
+    "id": "6873934",
+    "version": "994314"
+}

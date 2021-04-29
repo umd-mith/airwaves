@@ -1,0 +1,325 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60w6dg9",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T20:23:17",
+            "standardDateTime": "2016-08-09T20:23:17",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T20:23:17",
+            "standardDateTime": "2016-08-09T20:23:17",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/138561237",
+            "id": "3941341",
+            "version": "571442"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/70958525",
+            "id": "3941340",
+            "version": "571442"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "3941342",
+            "version": "571442"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WMEB-FM (Radio station : Orono, Me.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WMEB-FM (Radio station : Orono, Me.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "3941344",
+                    "version": "571442"
+                }
+            ],
+            "id": "3941343",
+            "version": "571442",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77124283",
+                    "version": "571442"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "University of Maine at Orono. WMEB-FM",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "University of Maine at Orono. WMEB-FM",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "3941348",
+                    "version": "571442"
+                }
+            ],
+            "id": "3941347",
+            "version": "571442",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77124284",
+                    "version": "571442"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "3941338",
+            "targetConstellation": "22437184",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60w6dg9",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6km010q",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Seyford, Frederick.",
+            "id": "3941355",
+            "version": "571442"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "WMEB-FM (Radio station : Orono, Me.)",
+            "uri": "https:\/\/viaf.org\/viaf\/138561237",
+            "id": "3941352",
+            "version": "571442"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n99270408",
+            "id": "3941353",
+            "version": "571442"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n99270408",
+            "id": "3941354",
+            "version": "571442"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/70958525",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:70958525<\/recordOrigin>\n                     <recordContentSource>ISIL:MeOrAFO<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Seyford, Frederick.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WMEB-FM (Radio station : Orono, Me.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Radio program, 1970 [sound recording].<\/title>\n                  <\/titleInfo>\n                  <abstract>Audiotape (no catalog or transcript), of a 30 min. radio program recorded by Seyford, Jan. 10, 1970, aired on WMEB-FM (Orono, Me.), Jan. 14, 1970, entitled \"Music from the South: Tradition and Innovation\", tracing the history of country-western, bluegrass, and rock and roll from black and white folk roots. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Radio program, 1970 [sound recording].",
+                "abstract": "Audiotape (no catalog or transcript), of a 30 min. radio program recorded by Seyford, Jan. 10, 1970, aired on WMEB-FM (Orono, Me.), Jan. 14, 1970, entitled \"Music from the South: Tradition and Innovation\", tracing the history of country-western, bluegrass, and rock and roll from black and white folk roots. ",
+                "extent": "1 audiotape (1\/2 hr.)",
+                "displayEntry": "Seyford, Frederick. Radio program, 1970 [sound recording].",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Seyford, Frederick.",
+                        "id": "10774725",
+                        "version": "8052590"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WMEB-FM (Radio station : Orono, Me.)",
+                        "id": "10774726",
+                        "version": "8052590"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6c648c2",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Northeast Archives of Folklore and Oral History, Maine Folklife Center",
+                            "preferenceScore": "99",
+                            "id": "76777852",
+                            "version": "11230693"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Northeast Archives of Folklore and Oral History, Maine Folklife Center",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "5773 S. Stevens Hall, Univ. of Maine  Orono, Maine 04469  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777856",
+                                    "version": "11230693"
+                                }
+                            ],
+                            "id": "76777855",
+                            "version": "11230693"
+                        }
+                    ],
+                    "id": "76777851",
+                    "version": "11230696"
+                },
+                "id": "8052590",
+                "version": "8052590"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Seyford, Frederick. Radio program, 1970 [sound recording].",
+            "id": "3941356",
+            "version": "571442"
+        }
+    ],
+    "id": "3941338",
+    "version": "571443",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDateOriginal": "active 1970",
+            "id": "3941339",
+            "version": "571442"
+        }
+    ]
+}

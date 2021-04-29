@@ -1,0 +1,285 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w694781d",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T16:17:17",
+            "standardDateTime": "2016-08-14T16:17:17",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T16:17:17",
+            "standardDateTime": "2016-08-14T16:17:17",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/214687161",
+            "id": "46594831",
+            "version": "6805451"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/taro\/utcah\/00181.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"700\" source=\"lcnaf\">Springer, William L.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.lib.utexas.edu\/taro\/utcah\/00181\/00181-P.html",
+            "id": "46594830",
+            "version": "6805451"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "46594832",
+            "version": "6805451"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Springer, William L",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Springer, William L",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "46594834",
+                    "version": "6805451"
+                }
+            ],
+            "id": "46594833",
+            "version": "6805451",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"taro\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80608201",
+                    "version": "6805451"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "46594829",
+            "targetConstellation": "53446517",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w694781d",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cn71v2",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Rayburn, Sam, 1882-1961",
+            "id": "46594840",
+            "version": "6805451"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Springer, William L",
+            "uri": "https:\/\/viaf.org\/viaf\/214687161",
+            "id": "46594839",
+            "version": "6805451"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.lib.utexas.edu\/taro\/utcah\/00181\/00181-P.html",
+                "title": "Sam Rayburn papers, 1822, 1831, 1845, 1903-2007",
+                "abstract": "Rayburn served as a Texas legislator from 1906 to 1912, when he was elected to the United States Congress. He was elected House majority leader, Democratic Party, in 1937, holding that position until 1940 when he was named Speaker of the House. He continued in that office until his death in 1961, except for two periods of Republican control when he served as minority leader. Correspondence, speeches, interviews, newspaper clippings, printed materials, financial records, maps, charts, and reports document the political career of Sam Rayburn.",
+                "extent": "144 linear feet",
+                "date": "1822, 1831, 1845, 1903-2007",
+                "displayEntry": "Rayburn, Sam, 1882-1961, Papers, 1822, 1831, 1845, 1903-2007",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rayburn, Sam, 1882-1961",
+                        "id": "11267062",
+                        "version": "6642225"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11267063",
+                        "version": "6642225"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f58d5t",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Dolph Briscoe Center for American History",
+                            "preferenceScore": "99",
+                            "id": "84872258",
+                            "version": "11434801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "role": {
+                                "id": "400625",
+                                "term": "Work",
+                                "type": "place_role"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "78712",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84872277",
+                                    "version": "11434801"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "634",
+                                "uri": "http:\/\/www.geonames.org\/4671654",
+                                "name": "Austin",
+                                "latitude": "30.2671500",
+                                "longitude": "-97.7430600",
+                                "administrationCode": "TX",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "84872276",
+                            "version": "11434801"
+                        }
+                    ],
+                    "id": "84872256",
+                    "version": "11434848"
+                },
+                "id": "6642225",
+                "version": "6642225"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Rayburn, Sam, papers 92-172, 92-257, 92-389, 92-415, 94-017, 96-066, 96-177, 97-347, 98-130, 2008-225, 2009-008. 29749116., 1831, 1845, 1903-2007",
+            "id": "46594841",
+            "version": "6805451"
+        }
+    ],
+    "id": "46594829",
+    "version": "6805452"
+}

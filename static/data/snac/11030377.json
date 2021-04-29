@@ -1,0 +1,221 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64k6sfj",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-07-31",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T10:39:27",
+            "standardDateTime": "2016-08-10T10:39:27",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T10:39:27",
+            "standardDateTime": "2016-08-10T10:39:27",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/ual\/u0003_0000289.ead.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" rules=\"dacs\" source=\"Library_of_Congress_Name_Authority_File\">University of Alabama. Extension Division.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/acumen.lib.ua.edu\/u0003_0000289",
+            "id": "11030378",
+            "version": "1606844"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/133808737",
+            "id": "11030379",
+            "version": "1606844"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "11030380",
+            "version": "1606844"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "University of Alabama. Extension Division",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "University of Alabama. Extension Division",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "11030382",
+                    "version": "1606844"
+                }
+            ],
+            "id": "11030381",
+            "version": "1606844",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"ual\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77704439",
+                    "version": "1606844"
+                }
+            ]
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "University of Alabama. Extension Division",
+            "uri": "https:\/\/viaf.org\/viaf\/133808737",
+            "id": "11030387",
+            "version": "1606844"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n88637411",
+            "id": "11030388",
+            "version": "1606844"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n88637411",
+            "id": "11030389",
+            "version": "1606844"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/acumen.lib.ua.edu\/u0003_0000289",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Cemeteries and Local History collection<\/unittitle>\n                  <unitid>MSS.0289<\/unitid>\n                  <repository>\n                     <corpname>W.S. Hoole Special Collections Library, The University of Alabama<\/corpname>\n                  <\/repository>\n                  <langmaterial>\n                     <language\/>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>10.0 Linear feet<\/extent>\n                  <\/physdesc>\n                  <unitdate>1989-2009<\/unitdate>\n                  <abstract>Papers submitted for credit in University of Alabama course EXT318 \u201cCemeteries and Local History,\u201d a course in the New College Life Track. The focus of the papers is on cemeteries as reflecting the history of a locale and may examine burial patterns, customs, ornamentation, or simply be an inventory of interments.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Cemeteries and Local History collection 1989-2009",
+                "abstract": "Papers submitted for credit in University of Alabama course EXT318 \u201cCemeteries and Local History,\u201d a course in the New College Life Track. The focus of the papers is on cemeteries as reflecting the history of a locale and may examine burial patterns, customs, ornamentation, or simply be an inventory of interments.",
+                "extent": "10.0 Linear feet",
+                "displayEntry": "Cemeteries and Local History collection MSS. 0289., 1989-2009",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6qg9gt4",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "W.S. Hoole Special Collections Library, The University of Alabama",
+                            "preferenceScore": "99",
+                            "id": "76798525",
+                            "version": "11242301"
+                        }
+                    ],
+                    "id": "76798524",
+                    "version": "11242304"
+                },
+                "id": "6279475",
+                "version": "6279475"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Cemeteries and Local History collection MSS. 0289., 1989-2009",
+            "id": "11030390",
+            "version": "1606844"
+        }
+    ],
+    "id": "11030377",
+    "version": "1606845"
+}

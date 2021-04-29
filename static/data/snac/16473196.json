@@ -1,0 +1,289 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61x17kb",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T23:04:12",
+            "standardDateTime": "2016-08-10T23:04:12",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T23:04:12",
+            "standardDateTime": "2016-08-10T23:04:12",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/duke\/classic-EADs\/stephen.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Bettersworth, John K.,<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/stephen\/",
+            "id": "16473197",
+            "version": "2404709"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/213835874",
+            "id": "16473198",
+            "version": "2404709"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "16473199",
+            "version": "2404709"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Bettersworth, John K.",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Bettersworth, John K.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "16473201",
+                    "version": "2404709"
+                }
+            ],
+            "id": "16473200",
+            "version": "2404709",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"duke\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78150829",
+                    "version": "2404709"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "16473196",
+            "targetConstellation": "62010433",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61x17kb",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zw2c8c",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Stephenson, Wendell Holmes, 1899-1970",
+            "id": "16473207",
+            "version": "2404709"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Bettersworth, John K.",
+            "uri": "https:\/\/viaf.org\/viaf\/213835874",
+            "id": "16473206",
+            "version": "2404709"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/stephen\/",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Wendell Holmes Stephenson Papers, <unitdate>1820-1968<\/unitdate>\n                  <\/unittitle>\n                  <origination>Stephenson, Wendell Holmes, 1899-1970<\/origination>\n                  <physdesc>\n                     <extent>Linear feet of space occupied: 34.6<\/extent>\n                     <extent>Number of items: ca. 25,950<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library<\/corpname>\n                     <address>\n                        <addressline>Durham, North Carolina 27708-0185<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <physloc>For current information on the location of these\nmaterials, please consult the library's online catalog.<\/physloc>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Wendell Holmes Stephenson Papers, 1820-1968",
+                "extent": "Linear feet of space occupied: 34.6; Number of items: ca. 25,950",
+                "displayEntry": "Wendell Holmes Stephenson Papers, 1820-1968",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11398575",
+                        "version": "6360195"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6290xn7",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "David M. Rubenstein Rare Book & Manuscript Library",
+                            "preferenceScore": "99",
+                            "id": "83577506",
+                            "version": "11278291"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "David M. Rubenstein Rare Book and Manuscript Library, Duke University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "David M. Rubenstein Rare Book & Manuscript Library, Duke University",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83577539",
+                                    "version": "11278279"
+                                }
+                            ],
+                            "id": "83577538",
+                            "version": "11278279"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Duke University. David M. Rubenstein Rare Book & Manuscript Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Durham, North Carolina 27708-0185",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83577541",
+                                    "version": "11278279"
+                                }
+                            ],
+                            "id": "83577540",
+                            "version": "11278279"
+                        }
+                    ],
+                    "id": "83577500",
+                    "version": "11278299"
+                },
+                "id": "6360195",
+                "version": "6360195"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Wendell Holmes Stephenson Papers, 1820-1968",
+            "id": "16473208",
+            "version": "2404709"
+        }
+    ],
+    "id": "16473196",
+    "version": "2404710"
+}

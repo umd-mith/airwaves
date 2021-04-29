@@ -1,0 +1,586 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hf4z4v",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T22:02:52",
+            "standardDateTime": "2016-08-17T22:02:52",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T22:02:52",
+            "standardDateTime": "2016-08-17T22:02:52",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/155871274",
+            "id": "66358226",
+            "version": "9703436"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/613225403",
+            "id": "66358225",
+            "version": "9703436"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/145760915",
+            "id": "66358227",
+            "version": "9703436"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "66358228",
+            "version": "9703436"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WMHT (Television station : Schenectady, N.Y.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WMHT (Television station : Schenectady, N.Y.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "66358230",
+                    "version": "9703436"
+                }
+            ],
+            "id": "66358229",
+            "version": "9703436",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82230918",
+                    "version": "9703436"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "66358223",
+            "targetConstellation": "12307260",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hf4z4v",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wm8wfq",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Lapp, Joan.",
+            "id": "66358240",
+            "version": "9703436"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "66358223",
+            "targetConstellation": "46608978",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hf4z4v",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6545b17",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Schein, Donald, 1920-2002.",
+            "id": "66358239",
+            "version": "9703436"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "WMHT (Television station : Schenectady, N.Y.)",
+            "uri": "https:\/\/viaf.org\/viaf\/145760915",
+            "id": "66358236",
+            "version": "9703436"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no2003036225",
+            "id": "66358237",
+            "version": "9703436"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no2003036225",
+            "id": "66358238",
+            "version": "9703436"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/155871274",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:155871274<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-PAU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Lapp, Joan.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WMHT (Television station : Schenectady, N.Y.).<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Letters, 1975-1977, to Lewis Mumford.<\/title>\n                  <\/titleInfo>\n                  <abstract>This correspondence is on the letterhead of and concerns WMHT, a television station in Schenectady, N.Y.  Joan Lapp was public affairs director for this station. <\/abstract>\n                  <name>\n                     <namePart>University of Pennsylvania Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Letters, 1975-1977, to Lewis Mumford.",
+                "abstract": "This correspondence is on the letterhead of and concerns WMHT, a television station in Schenectady, N.Y.  Joan Lapp was public affairs director for this station. ",
+                "extent": "7 items (12 l.).",
+                "displayEntry": "Lapp, Joan. Letters, 1975-1977, to Lewis Mumford.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lapp, Joan.",
+                        "id": "8733958",
+                        "version": "6890898"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WMHT (Television station : Schenectady, N.Y.).",
+                        "id": "8733959",
+                        "version": "6890898"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tn80tm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "preferenceScore": "99",
+                            "id": "76787724",
+                            "version": "11234301"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787729",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "3420 Walnut St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787730",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Philadelphia",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787731",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787732",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "19104-6206",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787733",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787734",
+                                    "version": "11234301"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16503",
+                                "name": "University of Pennsylvania Libraries, Van Pelt Library",
+                                "latitude": "39.9526900",
+                                "longitude": "-75.1940670"
+                            },
+                            "confirmed": true,
+                            "id": "76787728",
+                            "version": "11234301"
+                        }
+                    ],
+                    "id": "76787723",
+                    "version": "11234304"
+                },
+                "id": "6890898",
+                "version": "6890898"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Lapp, Joan. Letters, 1975-1977, to Lewis Mumford.",
+            "id": "66358242",
+            "version": "9703436"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/613225403",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:613225403<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NAM<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Schein, Donald, 1920-2002.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Public Broadcasting Service (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Corporation for Public Broadcasting.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Donald Schein papers, 1920-2005.<\/title>\n                  <\/titleInfo>\n                  <abstract>The chronological organization of Schein's papers have been maintained as he organized them. Folders are arranged by year; within each year they are arranged alphabetically by subject. The collection includes extensive internal records which document the administrative history of the Mohawk-Hudson Council on Educational Television (MHCET) and its broadcast station WMHT via meeting minutes, correspondence, reports and memoranda. It contains a complete run of WMHT's monthly program guide from 1963 through 2005. The collection also includes material received by WMHT in its capacity as a member of educational television and public broadcasting organizations including the National Association of Educational Broadcasters (NAEB), the Corporation for Public Broadcasting (CPB) and the Public Broadcasting System (PBS). This material consists primarily of reports, newsletters, internal circulars, memoranda and trade periodicals. Schein kept a journal throughout much of his adult life. During his career at WMHT, the journal describes meetings and work activities. Following his retirement its contents became more personal and reflective. The collection also includes Schein's Day-Timer pocket planners and associated expense sheets. There is approximately 1 cubic foot of photographic material, consisting largely of promotional photographs from the first decade of MHCET's existence. <\/abstract>\n                  <name>\n                     <namePart>University at Albany<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Donald Schein papers, 1920-2005.",
+                "abstract": "The chronological organization of Schein's papers have been maintained as he organized them. Folders are arranged by year; within each year they are arranged alphabetically by subject. The collection includes extensive internal records which document the administrative history of the Mohawk-Hudson Council on Educational Television (MHCET) and its broadcast station WMHT via meeting minutes, correspondence, reports and memoranda. It contains a complete run of WMHT's monthly program guide from 1963 through 2005. The collection also includes material received by WMHT in its capacity as a member of educational television and public broadcasting organizations including the National Association of Educational Broadcasters (NAEB), the Corporation for Public Broadcasting (CPB) and the Public Broadcasting System (PBS). This material consists primarily of reports, newsletters, internal circulars, memoranda and trade periodicals. Schein kept a journal throughout much of his adult life. During his career at WMHT, the journal describes meetings and work activities. Following his retirement its contents became more personal and reflective. The collection also includes Schein's Day-Timer pocket planners and associated expense sheets. There is approximately 1 cubic foot of photographic material, consisting largely of promotional photographs from the first decade of MHCET's existence. ",
+                "displayEntry": "Schein, Donald, 1920-2002. Donald Schein papers, 1920-2005.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Schein, Donald, 1920-2002.",
+                        "id": "10185439",
+                        "version": "7803812"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Public Broadcasting Service (U.S.)",
+                        "id": "10185440",
+                        "version": "7803812"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Corporation for Public Broadcasting.",
+                        "id": "10185441",
+                        "version": "7803812"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6m14v2h",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University at Albany, University Libraries",
+                            "preferenceScore": "99",
+                            "id": "76785589",
+                            "version": "11233565"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University at Albany, University Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Univ Libraries -Sb23",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785594",
+                                    "version": "11233565"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1400 Washington Ave",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785595",
+                                    "version": "11233565"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Albany",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785596",
+                                    "version": "11233565"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785597",
+                                    "version": "11233565"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "12222-0100",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785598",
+                                    "version": "11233565"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785599",
+                                    "version": "11233565"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15695",
+                                "name": "University at Albany, University Libraries",
+                                "latitude": "42.6850281",
+                                "longitude": "-73.8218994"
+                            },
+                            "confirmed": true,
+                            "id": "76785593",
+                            "version": "11233565"
+                        }
+                    ],
+                    "id": "76785588",
+                    "version": "11233568"
+                },
+                "id": "7803812",
+                "version": "7803812"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Schein, Donald, 1920-2002. Donald Schein papers, 1920-2005.",
+            "id": "66358241",
+            "version": "9703436"
+        }
+    ],
+    "id": "66358223",
+    "version": "9703437",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1975",
+            "fromDateOriginal": "active 1975",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1977",
+            "toDateOriginal": "active 1977",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "66358224",
+            "version": "9703436"
+        }
+    ]
+}

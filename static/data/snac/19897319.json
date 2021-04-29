@@ -1,0 +1,600 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w68j1wwm",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-04",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T07:31:48",
+            "standardDateTime": "2016-08-11T07:31:48",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T07:31:48",
+            "standardDateTime": "2016-08-11T07:31:48",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/295840392",
+            "id": "19897325",
+            "version": "2905811"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nwu\/inu:inu-ead-nua-archon-1294.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"610\" role=\"subject\" source=\"lcnaf\">American Hospital Supply Corporation<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/findingaids.library.northwestern.edu\/catalog\/inu-ead-nua-archon-1294",
+            "id": "19897322",
+            "version": "2905811"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nwu\/inu:inu-ead-nua-archon-164.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"110\" role=\"Collector\" source=\"lcnaf\">American Hospital Supply Corporation<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/findingaids.library.northwestern.edu\/catalog\/inu-ead-nua-archon-164",
+            "id": "19897324",
+            "version": "2905811"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nwu\/inu:inu-ead-nua-archon-710.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"110\" role=\"Collector\" source=\"lcnaf\">American Hospital Supply Corporation<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/findingaids.library.northwestern.edu\/catalog\/inu-ead-nua-archon-710",
+            "id": "19897323",
+            "version": "2905811"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "19897326",
+            "version": "2905811"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "American Hospital Supply Corporation",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "American Hospital Supply Corporation",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "19897329",
+                    "version": "2905811"
+                }
+            ],
+            "id": "19897328",
+            "version": "2905811",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nwu\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78431160",
+                    "version": "2905811"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "AHSC",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "AHSC",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "19897333",
+                    "version": "2905811"
+                }
+            ],
+            "id": "19897332",
+            "version": "2905811",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78431161",
+                    "version": "2905811"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "19897321",
+                "version": "2905811"
+            },
+            "text": "<biogHist>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Founded in 1922 by Foster G. McGaw (1897-1986), the American Hospital Supply Corporation (AHSC) served as a major supplier of health care products to hospitals in the United States and around the world through subsidiaries for over half a century. The AHSC maintained its position of leader in the health care industry until the corporation was acquired by competitor Baxter Travenol in a merger on November 25, 1985.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">The AHSC dominated the hospital supply field during the 1930s and 1940s by changing the way hospital supplies were marketed, designating regional salesman who made frequent sales calls. The AHSC continued to dominate the field by diversifying its product line and later by pursuing vertical integration of suppliers.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">The 1950s and 1960s was a period of strong growth for the AHSC. In 1953, the AHSC reported sales surpassing $37.5 million. Ten years later, sales had jumped to $150 million. By 1964, the AHSC sold to 19 out of 20 hospitals in America. The AHSC also employed one out of every 46 workers in America as well. While the tremendous success enjoyed by the AHSC was a result of the corporations strong leadership, the growth of the hospital industry also played a vital role increasing sales for the AHSC. From 1946 to 1962, the number of hospital beds rose 15%. During that same time, hospital admissions rose by 70%.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Throughout the history of the AHSC, Foster G. McGaw played a prominent role in the direction of the corporation. McGaw's influence on the day-to-day operations of the AHSC lessened as the corporation expanded and branched out into manufacturing during the 1960s and 1970s. Despite McGaw's waning influence within the AHSC executive structure, he still maintained a role of father figure to the corporation.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">For more information about the AHSC, see Growth Through Service: The Story of the American Hospital Supply Corporation by Frederick D. Sturdivant (Evanston: Northwestern University Press, 1970).<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the guide to the American Hospital Supply Corporation Records, 1920-1986, (Northwestern University Archives)<\/citation>\n         <\/biogHist>",
+            "id": "19897320",
+            "version": "2905811"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "19897319",
+            "targetConstellation": "73439397",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w68j1wwm",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6xb714h",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "McGaw, Foster G., 1897-",
+            "id": "19897343",
+            "version": "2905811"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "19897319",
+            "targetConstellation": "7694515",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w68j1wwm",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hk1n68",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "American Hospital Supply Corp."
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "American Hospital Supply Corporation",
+            "uri": "https:\/\/viaf.org\/viaf\/295840392",
+            "id": "19897339",
+            "version": "2905811"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n50-063578",
+            "id": "19897340",
+            "version": "2905811"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n50063578",
+            "id": "19897341",
+            "version": "2905811"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/findingaids.library.northwestern.edu\/catalog\/inu-ead-nua-archon-710",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>American Hospital Supply Corporation Catalogs and Publications                              <unitdate>1928-1986<\/unitdate>\n                  <\/unittitle>\n                  <unitid>55\/28\/1<\/unitid>\n                  <origination>\n                     <corpname>American Hospital Supply Corporation<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>28.00<\/extent>\n                  <\/physdesc>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n                  <repository>\n                     <corpname>Northwestern University Archives<\/corpname>\n                     <address>\n                        <addressline>Deering Library, Room 110<\/addressline>\n                        <addressline>1970 Campus Dr.<\/addressline>\n                        <addressline>Evanston, IL, 60208-2300<\/addressline>\n                        <addressline>URL: http:\/\/www.library.northwestern.edu\/archives<\/addressline>\n                        <addressline>Email: archives@northwestern.edu<\/addressline>\n                        <addressline>Phone: 847-491-3354<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <abstract>Foster G. McGaw, founder of the American Hospital Supply Corporation, was an entrepreneur and philanthropist whose generosity to Northwestern University enhanced both the Evanston and Chicago campuses. His close relationship with the university resulted from the proximity of his corporate headquarters in Evanston to Northwestern. The American Hospital Supply Corporation was for decades the major supplier of health care products in the United States. Filling twenty-one boxes, this series dates between 1928 and 1986. Included are a variety of product catalogs from American Hospital Supply Corporation and from subsidiaries. Also included are a collection of corporate annual reports, product listings, price bulletins and newsletters.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "American Hospital Supply Corporation Catalogs and Publications 1928-1986",
+                "abstract": "Foster G. McGaw, founder of the American Hospital Supply Corporation, was an entrepreneur and philanthropist whose generosity to Northwestern University enhanced both the Evanston and Chicago campuses. His close relationship with the university resulted from the proximity of his corporate headquarters in Evanston to Northwestern. The American Hospital Supply Corporation was for decades the major supplier of health care products in the United States. Filling twenty-one boxes, this series dates between 1928 and 1986. Included are a variety of product catalogs from American Hospital Supply Corporation and from subsidiaries. Also included are a collection of corporate annual reports, product listings, price bulletins and newsletters.",
+                "extent": "28.00",
+                "displayEntry": "American Hospital Supply Corporation Catalogs and Publications, 1928-1986",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11380530",
+                        "version": "6348549"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60684rf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Northwestern University Archives",
+                            "preferenceScore": "99",
+                            "id": "76794981",
+                            "version": "11238949"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Northwestern University Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Deering Library, Room 110 1970 Campus Dr. Evanston, IL, 60208-2300 URL: http:\/\/www.library.northwestern.edu\/archives Email: archives@northwestern.edu Phone: 847-491-3354",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76794984",
+                                    "version": "11238949"
+                                }
+                            ],
+                            "id": "76794983",
+                            "version": "11238949"
+                        }
+                    ],
+                    "id": "76794980",
+                    "version": "11238952"
+                },
+                "id": "6348549",
+                "version": "6348549"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "American Hospital Supply Corporation Catalogs and Publications, 1928-1986",
+            "id": "19897346",
+            "version": "2905811"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/findingaids.library.northwestern.edu\/catalog\/inu-ead-nua-archon-164",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>American Hospital Supply Corporation Records                              <unitdate>1920-1986<\/unitdate>\n                     <unitdate\/>\n                  <\/unittitle>\n                  <unitid>55\/28\/3<\/unitid>\n                  <origination>\n                     <corpname>American Hospital Supply Corporation<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>22.00<\/extent>\n                  <\/physdesc>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n                  <repository>\n                     <corpname>Northwestern University Archives<\/corpname>\n                     <address>\n                        <addressline>Deering Library, Room 110<\/addressline>\n                        <addressline>1970 Campus Dr.<\/addressline>\n                        <addressline>Evanston, IL, 60208-2300<\/addressline>\n                        <addressline>URL: http:\/\/www.library.northwestern.edu\/archives<\/addressline>\n                        <addressline>Email: archives@northwestern.edu<\/addressline>\n                        <addressline>Phone: 847-491-3354<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <abstract>Filling twenty-two boxes, this series dates between 1920 to 1986. Records are included for the following categories: advertising; marketing; corporate correspondence; divisional records for acquisitions and subsidiaries; mergers; scrapbooks; stocks and securities; legal records.<\/abstract>\n                  <note>\n                     <p>Other Information:<\/p>\n                  <\/note>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "American Hospital Supply Corporation Records 1920-1986",
+                "abstract": "Filling twenty-two boxes, this series dates between 1920 to 1986. Records are included for the following categories: advertising; marketing; corporate correspondence; divisional records for acquisitions and subsidiaries; mergers; scrapbooks; stocks and securities; legal records.",
+                "extent": "22.00",
+                "displayEntry": "American Hospital Supply Corporation Records, 1920-1986",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11379898",
+                        "version": "6348134"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60684rf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Northwestern University Archives",
+                            "preferenceScore": "99",
+                            "id": "76794981",
+                            "version": "11238949"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Northwestern University Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Deering Library, Room 110 1970 Campus Dr. Evanston, IL, 60208-2300 URL: http:\/\/www.library.northwestern.edu\/archives Email: archives@northwestern.edu Phone: 847-491-3354",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76794984",
+                                    "version": "11238949"
+                                }
+                            ],
+                            "id": "76794983",
+                            "version": "11238949"
+                        }
+                    ],
+                    "id": "76794980",
+                    "version": "11238952"
+                },
+                "id": "6348134",
+                "version": "6348134"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "American Hospital Supply Corporation Records, 1920-1986",
+            "id": "19897347",
+            "version": "2905811"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/findingaids.library.northwestern.edu\/catalog\/inu-ead-nua-archon-1294",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Foster G. McGaw (1897-1986) Papers                              <unitdate>1885-1986<\/unitdate>\n                  <\/unittitle>\n                  <unitid>55\/28\/5<\/unitid>\n                  <origination>\n                     <persname>McGaw, Foster G., 1897-<\/persname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>96.00<\/extent>\n                  <\/physdesc>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n                  <repository>\n                     <corpname>Northwestern University Archives<\/corpname>\n                     <address>\n                        <addressline>Deering Library, Room 110<\/addressline>\n                        <addressline>1970 Campus Dr.<\/addressline>\n                        <addressline>Evanston, IL, 60208-2300<\/addressline>\n                        <addressline>URL: http:\/\/www.library.northwestern.edu\/archives<\/addressline>\n                        <addressline>Email: archives@northwestern.edu<\/addressline>\n                        <addressline>Phone: 847-491-3354<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <abstract>The Foster McGaw papers document McGaw's life between 1908 and 1986 and fill 95 boxes. They are divided into three subseries: Personal Files, Philanthropic Records, and Financial Records. The papers illuminate both McGaw's personal concerns and, to a lesser extent, his business affairs, although these areas sometimes overlap. McGaw's original arrangement of his papers, alphabetical by subject folder and chronological within folders, has been retained in most cases.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Foster G. McGaw (1897-1986) Papers 1885-1986",
+                "abstract": "The Foster McGaw papers document McGaw's life between 1908 and 1986 and fill 95 boxes. They are divided into three subseries: Personal Files, Philanthropic Records, and Financial Records. The papers illuminate both McGaw's personal concerns and, to a lesser extent, his business affairs, although these areas sometimes overlap. McGaw's original arrangement of his papers, alphabetical by subject folder and chronological within folders, has been retained in most cases.",
+                "extent": "96.00",
+                "displayEntry": "Foster G. McGaw (1897-1986) Papers, 1885-1986",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "McGaw, Foster G., 1897-",
+                        "id": "11379760",
+                        "version": "6348033"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11379761",
+                        "version": "6348033"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60684rf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Northwestern University Archives",
+                            "preferenceScore": "99",
+                            "id": "76794981",
+                            "version": "11238949"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Northwestern University Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Deering Library, Room 110 1970 Campus Dr. Evanston, IL, 60208-2300 URL: http:\/\/www.library.northwestern.edu\/archives Email: archives@northwestern.edu Phone: 847-491-3354",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76794984",
+                                    "version": "11238949"
+                                }
+                            ],
+                            "id": "76794983",
+                            "version": "11238949"
+                        }
+                    ],
+                    "id": "76794980",
+                    "version": "11238952"
+                },
+                "id": "6348033",
+                "version": "6348033"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Foster G. McGaw (1897-1986) Papers, 1885-1986",
+            "id": "19897345",
+            "version": "2905811"
+        }
+    ],
+    "functions": [
+        {
+            "dataType": "SNACFunction",
+            "term": {
+                "id": "2267",
+                "term": "Collectors",
+                "type": "function"
+            },
+            "id": "19897327",
+            "version": "2905811"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "274628",
+                "term": "Pharmaceutical industry",
+                "type": "subject"
+            },
+            "id": "19897342",
+            "version": "2905811"
+        }
+    ],
+    "id": "19897319",
+    "version": "2905812"
+}

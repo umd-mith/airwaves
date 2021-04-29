@@ -1,0 +1,360 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w62m1t90",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T08:55:58",
+            "standardDateTime": "2016-08-14T08:55:58",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T08:55:58",
+            "standardDateTime": "2016-08-14T08:55:58",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/uct\/MSS19910002.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Federal Communications Commission (FCC)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/Cotter\/MSS19910002.html",
+            "id": "44473869",
+            "version": "6497192"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/duke\/classic-EADs\/jwtwilsoneg.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Federal Communications Commission (FCC)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/jwtwilsoneg\/",
+            "id": "44473870",
+            "version": "6497192"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Federal Communications Commission (FCC)",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Federal Communications Commission (FCC)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "44473872",
+                    "version": "6497192"
+                }
+            ],
+            "id": "44473871",
+            "version": "6497192",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"duke\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"uct\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80436554",
+                    "version": "6497192"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "44473868",
+            "targetConstellation": "56608975",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w62m1t90",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w65z5nd5",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Cotter, William R.",
+            "id": "44473877",
+            "version": "6497192"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "44473868",
+            "targetConstellation": "12599903",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w62m1t90",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w70fpn",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "J. Walter Thompson Company.",
+            "id": "44473878",
+            "version": "6497192"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/jwtwilsoneg\/",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke\n\t\t\t University<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <corpname>J. Walter Thompson\n\t\t\t Company.<\/corpname>\n                  <\/origination>\n                  <unittitle>J. Walter Thompson Company.\n\t\t  Edward G. Wilson Papers,\n\t\t  <unitdate>1906-1991, bulk\n\t\t\t 1946-1971<\/unitdate>\n                  <\/unittitle>\n                  <langmaterial>Material\n\t\t  is in <language> English<\/language>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>43 Linear Feet<\/extent>\n                     <lb\/>\n                     <extent>30,500\n\t\t  Items<\/extent>\n                  <\/physdesc>\n                  <physloc>For current information on the location of\n\t\t  these materials, please consult the Library's online catalog.<\/physloc>\n                  <abstract>The J. Walter Thompson\n\t\t  Company (JWT), founded in 1864, is one of the oldest and largest enduring\n\t\t  advertising agencies in the United States. Edward G. Wilson was an executive\n\t\t  with JWT from 1930 until his retirement in 1971, and held the positions of\n\t\t  General Counsel, Executive Vice-President and Secretary of the\n\t\t  Company.<\/abstract>\n                  <abstract>The Edward G. Wilson Papers span the\n\t\t  period 1906-1991 and includes clippings, correspondence, inter-office\n\t\t  memoranda, reports, writings, speeches and personal diaries that highlight\n\t\t  Wilson's 40 year career (1930-1971) as an executive with the J. Walter Thompson\n\t\t  Company (JWT). The bulk of materials fall between 1946 and 1971, and covers the\n\t\t  period from Wilson's return to JWT following military service in World War II\n\t\t  until his retirement. As General Counsel and head of JWT's Legal Department,\n\t\t  Wilson oversaw contractual relations pertaining primarily to the sponsorship of\n\t\t  radio and television programs for a number of clients--including DeBeers\n\t\t  Consolidated Mines, Ltd., the Eastman Kodak Company, the Ford Motor Company,\n\t\t  the Scott Paper Company and Unilever. The collection reveals JWT's\n\t\t  relationships with radio and television personalities--such as Fred Allen and\n\t\t  Edgar Bergen--and professional organizations including the Radio Writers Guild\n\t\t  and the Television Writers of America. In addition, materials in the collection\n\t\t  touch on the anti-communist movement and blacklisting within the U.S.\n\t\t  entertainment industry of the 1950s--involving personalities such as Jean Muir\n\t\t  and John Henry Faulk, among others. The collection also includes records from a\n\t\t  number of JWT international offices, with heavier representation from offices\n\t\t  in London; Bombay (Mumbai), India; and Johannesburg, South Africa, along with\n\t\t  records kept by some of Wilson's predecessors, such as Donald Foote and Sam\n\t\t  Meek, and the South African advertising executive and politician James Hamilton\n\t\t  Russell.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "J. Walter Thompson Company.  Edward G. Wilson Papers, 1906-1991, bulk 1946-1971",
+                "abstract": "The J. Walter Thompson  Company (JWT), founded in 1864, is one of the oldest and largest enduring  advertising agencies in the United States. Edward G. Wilson was an executive  with JWT from 1930 until his retirement in 1971, and held the positions of  General Counsel, Executive Vice-President and Secretary of the  Company. The Edward G. Wilson Papers span the  period 1906-1991 and includes clippings, correspondence, inter-office  memoranda, reports, writings, speeches and personal diaries that highlight  Wilson's 40 year career (1930-1971) as an executive with the J. Walter Thompson  Company (JWT). The bulk of materials fall between 1946 and 1971, and covers the  period from Wilson's return to JWT following military service in World War II  until his retirement. As General Counsel and head of JWT's Legal Department,  Wilson oversaw contractual relations pertaining primarily to the sponsorship of  radio and television programs for a number of clients--including DeBeers  Consolidated Mines, Ltd., the Eastman Kodak Company, the Ford Motor Company,  the Scott Paper Company and Unilever. The collection reveals JWT's  relationships with radio and television personalities--such as Fred Allen and  Edgar Bergen--and professional organizations including the Radio Writers Guild  and the Television Writers of America. In addition, materials in the collection  touch on the anti-communist movement and blacklisting within the U.S.  entertainment industry of the 1950s--involving personalities such as Jean Muir  and John Henry Faulk, among others. The collection also includes records from a  number of JWT international offices, with heavier representation from offices  in London; Bombay (Mumbai), India; and Johannesburg, South Africa, along with  records kept by some of Wilson's predecessors, such as Donald Foote and Sam  Meek, and the South African advertising executive and politician James Hamilton  Russell.",
+                "extent": "43 Linear Feet; 30,500  Items",
+                "displayEntry": "J. Walter Thompson Company. Edward G. Wilson Papers, 1906-1991, bulk 1946-1971",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11592956",
+                        "version": "6359772"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6290xn7",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "David M. Rubenstein Rare Book & Manuscript Library",
+                            "preferenceScore": "99",
+                            "id": "83577506",
+                            "version": "11278291"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "David M. Rubenstein Rare Book and Manuscript Library, Duke University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "David M. Rubenstein Rare Book & Manuscript Library, Duke University",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83577539",
+                                    "version": "11278279"
+                                }
+                            ],
+                            "id": "83577538",
+                            "version": "11278279"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Duke University. David M. Rubenstein Rare Book & Manuscript Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Durham, North Carolina 27708-0185",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83577541",
+                                    "version": "11278279"
+                                }
+                            ],
+                            "id": "83577540",
+                            "version": "11278279"
+                        }
+                    ],
+                    "id": "83577500",
+                    "version": "11278299"
+                },
+                "id": "6359772",
+                "version": "6359772"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "J. Walter Thompson Company. Edward G. Wilson Papers, 1906-1991, bulk 1946-1971",
+            "id": "44473880",
+            "version": "6497192"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/Cotter\/MSS19910002.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Archives &amp; Special Collections at the Thomas J. Dodd Center<\/corpname>.<\/repository>\n                  <origination>\n                     <persname>Cotter, William R.<\/persname>\n                  <\/origination>\n                  <unittitle>William R. Cotter Papers.<\/unittitle>\n                  <unitdate>undated, 1970-1981.<\/unitdate>\n                  <physdesc>179.8 linear feet.<\/physdesc>\n                  <abstract>William R. Cotter, Democratic Member of Congress for the First District of Connecticut, was born in Hartford, Connecticut on 18 July 1926. In 1953, Cotter was elected to the Hartford Court of Common Council, and served as an aide to United States Senator Abraham Ribicoff, 1955-1957, as Deputy Insurance Commissioner, 1957-1964, and as Insurance Commissioner of Connecticut from 1964-1970. He developed and introduced laws to regulate rates and solvency of insurance companies in Connecticut, and developed a comprehensive automobile liability insurance reform program. Cotter was elected to the ninety-second Congress on November 3, 1970 and was reelected five times. He represented the First District in Connecticut from 1971 until his death. <\/abstract>\n                  <unitid>MSS19910002<\/unitid>\n                  <langmaterial>\n                     <language>English<\/language>.<\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "William R. Cotter Papers. undated, 1970-1981.",
+                "abstract": "William R. Cotter, Democratic Member of Congress for the First District of Connecticut, was born in Hartford, Connecticut on 18 July 1926. In 1953, Cotter was elected to the Hartford Court of Common Council, and served as an aide to United States Senator Abraham Ribicoff, 1955-1957, as Deputy Insurance Commissioner, 1957-1964, and as Insurance Commissioner of Connecticut from 1964-1970. He developed and introduced laws to regulate rates and solvency of insurance companies in Connecticut, and developed a comprehensive automobile liability insurance reform program. Cotter was elected to the ninety-second Congress on November 3, 1970 and was reelected five times. He represented the First District in Connecticut from 1971 until his death.",
+                "displayEntry": "William R. Cotter Papers., undated, 1970-1981.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cotter, William R.",
+                        "id": "11358594",
+                        "version": "6332153"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11358595",
+                        "version": "6332153"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64r8hnd",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archives & Special Collections at the Thomas J. Dodd Center.",
+                            "preferenceScore": "99",
+                            "id": "76791827",
+                            "version": "11235941"
+                        }
+                    ],
+                    "id": "76791826",
+                    "version": "11235944"
+                },
+                "id": "6332153",
+                "version": "6332153"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "William R. Cotter Papers., undated, 1970-1981.",
+            "id": "44473879",
+            "version": "6497192"
+        }
+    ],
+    "id": "44473868",
+    "version": "6497193"
+}

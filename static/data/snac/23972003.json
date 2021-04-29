@@ -1,0 +1,405 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tt7nj7",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T17:59:53",
+            "standardDateTime": "2016-08-11T17:59:53",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T17:59:54",
+            "standardDateTime": "2016-08-11T17:59:54",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/11349135",
+            "id": "23972006",
+            "version": "3504884"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/31188488",
+            "id": "23972005",
+            "version": "3504884"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "23972007",
+            "version": "3504884"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Staggers, Harley O.",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Staggers, Harley O.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "23972009",
+                    "version": "3504884"
+                }
+            ],
+            "id": "23972008",
+            "version": "3504884",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78765173",
+                    "version": "3504884"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "23972003",
+            "targetConstellation": "23388196",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tt7nj7",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6qk17vp",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Oklahoma. Political Commercial Archive.",
+            "id": "23972019",
+            "version": "3504884"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Staggers, Harley O.",
+            "uri": "https:\/\/viaf.org\/viaf\/11349135",
+            "id": "23972014",
+            "version": "3504884"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n86866276",
+            "id": "23972015",
+            "version": "3504884"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n86866276",
+            "id": "23972016",
+            "version": "3504884"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/31188488",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:31188488<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-POI<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Staggers, Harley O.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>University of Oklahoma. Political Commercial Archive.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Harley O. Staggers : commercials , 1986-1990.<\/title>\n                  <\/titleInfo>\n                  <abstract>Commercials used during Staggers' campaigns for the 1986 and 1990 U.S. congressional elections in district 2 of West Virginia, Democratic party. <\/abstract>\n                  <name>\n                     <namePart>University of Oklahoma, Political Community Archives<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Harley O. Staggers : commercials , 1986-1990.",
+                "abstract": "Commercials used during Staggers' campaigns for the 1986 and 1990 U.S. congressional elections in district 2 of West Virginia, Democratic party. ",
+                "extent": "2 commercials (on 2 videocassettes)(U-matic) : sd., col. ; 3\/4 in.",
+                "displayEntry": "Staggers, Harley O. Harley O. Staggers : commercials , 1986-1990.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Staggers, Harley O.",
+                        "id": "9412823",
+                        "version": "7308538"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of Oklahoma. Political Commercial Archive.",
+                        "id": "9412824",
+                        "version": "7308538"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6vn51w3",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Oklahoma, Political Community Archives",
+                            "preferenceScore": "99",
+                            "id": "76787633",
+                            "version": "11234269"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Oklahoma, Political Community Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Burton Hall",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787638",
+                                    "version": "11234269"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "610 Elm Ave",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787639",
+                                    "version": "11234269"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Norman",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787640",
+                                    "version": "11234269"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-OK",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787641",
+                                    "version": "11234269"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "73019-2081",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787642",
+                                    "version": "11234269"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787643",
+                                    "version": "11234269"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16178",
+                                "name": "University of Oklahoma, Political Community Archives",
+                                "latitude": "35.1967050",
+                                "longitude": "-97.4427490"
+                            },
+                            "confirmed": true,
+                            "id": "76787637",
+                            "version": "11234269"
+                        }
+                    ],
+                    "id": "76787632",
+                    "version": "11234272"
+                },
+                "id": "7308538",
+                "version": "7308538"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Staggers, Harley O. Harley O. Staggers : commercials , 1986-1990.",
+            "id": "23972020",
+            "version": "3504884"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "32277",
+                "term": "Advertising, political",
+                "type": "subject"
+            },
+            "id": "23972018",
+            "version": "3504884"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "353301",
+                "term": "Television advertising",
+                "type": "subject"
+            },
+            "id": "23972017",
+            "version": "3504884"
+        }
+    ],
+    "id": "23972003",
+    "version": "3504885",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1986",
+            "fromDateOriginal": "active 1986",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1990",
+            "toDateOriginal": "active 1990",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "23972004",
+            "version": "3504884"
+        }
+    ]
+}

@@ -1,0 +1,534 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6m48b56",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T15:13:09",
+            "standardDateTime": "2016-08-15T15:13:09",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T15:13:09",
+            "standardDateTime": "2016-08-15T15:13:09",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/144214541",
+            "id": "52834031",
+            "version": "7725683"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/duke\/classic-EADs\/jwtinternationalads.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Aer Lingus<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/jwtinternationalads\/",
+            "id": "52834030",
+            "version": "7725683"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "52834032",
+            "version": "7725683"
+        }
+    ],
+    "languagesUsed": [
+        {
+            "dataType": "Language",
+            "language": {
+                "id": "130",
+                "term": "eng",
+                "type": "language_code",
+                "description": "English"
+            },
+            "script": {
+                "id": "685",
+                "term": "Zyyy",
+                "type": "script_code",
+                "description": "Code for undetermined script"
+            },
+            "id": "52834033",
+            "version": "7725683"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Aer Lingus",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Aer Lingus",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "52834035",
+                    "version": "7725683"
+                }
+            ],
+            "id": "52834034",
+            "version": "7725683",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"duke\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81124018",
+                    "version": "7725683"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Aer Loingeas",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Aer Loingeas",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "52834039",
+                    "version": "7725683"
+                }
+            ],
+            "id": "52834038",
+            "version": "7725683",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81124019",
+                    "version": "7725683"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Irish International Airlines",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Irish International Airlines",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "52834042",
+                    "version": "7725683"
+                }
+            ],
+            "id": "52834041",
+            "version": "7725683",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81124020",
+                    "version": "7725683"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Aer Lingus Group Plc",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Aer Lingus Group Plc",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "52834045",
+                    "version": "7725683"
+                }
+            ],
+            "id": "52834044",
+            "version": "7725683",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81124021",
+                    "version": "7725683"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "52834029",
+            "targetConstellation": "12599903",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6m48b56",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w70fpn",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "J. Walter Thompson Company.",
+            "id": "52834053",
+            "version": "7725683"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Aer Lingus",
+            "uri": "https:\/\/viaf.org\/viaf\/144214541",
+            "id": "52834050",
+            "version": "7725683"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n50-054772",
+            "id": "52834051",
+            "version": "7725683"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n50054772",
+            "id": "52834052",
+            "version": "7725683"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/jwtinternationalads\/",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke\n\t\t\t University<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <corpname>J. Walter Thompson\n\t\t\t Company.<\/corpname>\n                  <\/origination>\n                  <unittitle>J. Walter Thompson Company.\n\t\t  International Advertisements Collection,\n\t\t  <unitdate>1900-2004 and\n\t\t\t undated<\/unitdate>,\n\t\t  <unitdate>bulk 1965-1990<\/unitdate>\n                  <\/unittitle>\n                  <langmaterial>Material\n\t\t  in<language> English<\/language>\n                     <language>,\n\t\t  Dutch<\/language>\n                     <language>, French<\/language>\n                     <language>, German<\/language>\n                     <language>,\n\t\t  Italian<\/language>\n                     <language>, Spanish<\/language>\n                     <language>, Chinese<\/language>\n                     <language>,\n\t\t  Hindi<\/language>\n                     <language>, Japanese<\/language>\n                     <language>, Thai<\/language>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>40 Linear Feet<\/extent>\n                     <lb\/>\n                     <extent>18,000\n\t\t  Items<\/extent>\n                  <\/physdesc>\n                  <physloc>For current information on the location of\n\t\t  these materials, please consult the Library's online catalog.<\/physloc>\n                  <abstract>The J. Walter Thompson\n\t\t  Company (JWT), founded in 1864, is one of the oldest and largest enduring\n\t\t  advertising agencies in the world. It opened its first international office in\n\t\t  London in 1899, and by 1930 the agency had established offices in some 30\n\t\t  countries. At present, JWT manages offices or partnership arrangements in\n\t\t  approximately 90 countries.<\/abstract>\n                  <abstract>The J. Walter Thompson Company (JWT)\n\t\t  International Advertisements Collection spans the years 1900-2004 and consists\n\t\t  primarily of print advertisements, along with some transparencies, photocopies\n\t\t  of advertising, and other collateral material that document some of JWT's\n\t\t  international advertising campaigns through the 20th century. Clients include a\n\t\t  variety of local, national and multinational commercial firms, as well as\n\t\t  government institutions and public service organizations. The holdings of the\n\t\t  collection are uneven, with the bulk of the advertisements dating from the\n\t\t  mid-1960s up to about 1990. There are limited early advertisements from\n\t\t  Chesebrough-Pond's, General Motors, and other clients dating from the late\n\t\t  1920s and early 1930s in print and on microfilm from the various offices\n\t\t  established during those years. There are almost no international\n\t\t  advertisements from roughly 1933 to the middle of the 1950s. The United\n\t\t  Kingdom, the British Commonwealth countries, and Latin America account for most\n\t\t  of the advertisements from the mid-1950s to the late 1970s. While the holdings\n\t\t  since about 1980 are much larger than earlier holdings, they are by no means\n\t\t  complete, and vary substantially from office to office. Key multinational\n\t\t  clients represented in the collection include Chesebrough-Pond's, Eastman\n\t\t  Kodak, Ford, General Motors, Kraft, IBM, Pepsi, R.J. Reynolds, and\n\t\t  Unilever. English translations of foreign-language advertisements are often\n\t\t  provided by JWT's Asian and Pacific Offices. European and Latin American\n\t\t  Offices provided translations far less frequently. Advertisements for members\n\t\t  of the British Commonwealth are generally available in English only or in both\n\t\t  English and the local language. Spanish-language advertisements produced by JWT\n\t\t  offices in the United States, intended for the domestic Spanish-speaking\n\t\t  population as well as for Latin America, may be found in the\n\t\t  J. Walter Thompson Company Domestic Advertisements Collection.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "J. Walter Thompson Company.  International Advertisements Collection, , 1900-2004 and undated bulk 1965-1990",
+                "abstract": "The J. Walter Thompson  Company (JWT), founded in 1864, is one of the oldest and largest enduring  advertising agencies in the world. It opened its first international office in  London in 1899, and by 1930 the agency had established offices in some 30  countries. At present, JWT manages offices or partnership arrangements in  approximately 90 countries. The J. Walter Thompson Company (JWT)  International Advertisements Collection spans the years 1900-2004 and consists  primarily of print advertisements, along with some transparencies, photocopies  of advertising, and other collateral material that document some of JWT's  international advertising campaigns through the 20th century. Clients include a  variety of local, national and multinational commercial firms, as well as  government institutions and public service organizations. The holdings of the  collection are uneven, with the bulk of the advertisements dating from the  mid-1960s up to about 1990. There are limited early advertisements from  Chesebrough-Pond's, General Motors, and other clients dating from the late  1920s and early 1930s in print and on microfilm from the various offices  established during those years. There are almost no international  advertisements from roughly 1933 to the middle of the 1950s. The United  Kingdom, the British Commonwealth countries, and Latin America account for most  of the advertisements from the mid-1950s to the late 1970s. While the holdings  since about 1980 are much larger than earlier holdings, they are by no means  complete, and vary substantially from office to office. Key multinational  clients represented in the collection include Chesebrough-Pond's, Eastman  Kodak, Ford, General Motors, Kraft, IBM, Pepsi, R.J. Reynolds, and  Unilever. English translations of foreign-language advertisements are often  provided by JWT's Asian and Pacific Offices. European and Latin American  Offices provided translations far less frequently. Advertisements for members  of the British Commonwealth are generally available in English only or in both  English and the local language. Spanish-language advertisements produced by JWT  offices in the United States, intended for the domestic Spanish-speaking  population as well as for Latin America, may be found in the  J. Walter Thompson Company Domestic Advertisements Collection.",
+                "extent": "40 Linear Feet; 18,000  Items",
+                "displayEntry": "J. Walter Thompson Company. International Advertisements Collection, 1900-2004 and undated, bulk 1965-1990",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11592946",
+                        "version": "6359731"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "122",
+                            "term": "dut",
+                            "type": "language_code",
+                            "description": "Dutch; Flemish"
+                        },
+                        "id": "11592947",
+                        "version": "6359731"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "144",
+                            "term": "fre",
+                            "type": "language_code",
+                            "description": "French"
+                        },
+                        "id": "11592948",
+                        "version": "6359731"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "159",
+                            "term": "ger",
+                            "type": "language_code",
+                            "description": "German"
+                        },
+                        "id": "11592949",
+                        "version": "6359731"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "214",
+                            "term": "ita",
+                            "type": "language_code",
+                            "description": "Italian"
+                        },
+                        "id": "11592950",
+                        "version": "6359731"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "419",
+                            "term": "spa",
+                            "type": "language_code",
+                            "description": "Spanish; Castilian"
+                        },
+                        "id": "11592951",
+                        "version": "6359731"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "83",
+                            "term": "chi",
+                            "type": "language_code",
+                            "description": "Chinese"
+                        },
+                        "id": "11592952",
+                        "version": "6359731"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "188",
+                            "term": "hin",
+                            "type": "language_code",
+                            "description": "Hindi"
+                        },
+                        "id": "11592953",
+                        "version": "6359731"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "217",
+                            "term": "jpn",
+                            "type": "language_code",
+                            "description": "Japanese"
+                        },
+                        "id": "11592954",
+                        "version": "6359731"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "444",
+                            "term": "tha",
+                            "type": "language_code",
+                            "description": "Thai"
+                        },
+                        "id": "11592955",
+                        "version": "6359731"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6290xn7",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "David M. Rubenstein Rare Book & Manuscript Library",
+                            "preferenceScore": "99",
+                            "id": "83577506",
+                            "version": "11278291"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "David M. Rubenstein Rare Book and Manuscript Library, Duke University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "David M. Rubenstein Rare Book & Manuscript Library, Duke University",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83577539",
+                                    "version": "11278279"
+                                }
+                            ],
+                            "id": "83577538",
+                            "version": "11278279"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Duke University. David M. Rubenstein Rare Book & Manuscript Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Durham, North Carolina 27708-0185",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83577541",
+                                    "version": "11278279"
+                                }
+                            ],
+                            "id": "83577540",
+                            "version": "11278279"
+                        }
+                    ],
+                    "id": "83577500",
+                    "version": "11278299"
+                },
+                "id": "6359731",
+                "version": "6359731"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "J. Walter Thompson Company. International Advertisements Collection, 1900-2004 and undated, bulk 1965-1990",
+            "id": "52834054",
+            "version": "7725683"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "400336",
+                "term": "Irish (Republic of Ireland)",
+                "type": "nationality"
+            },
+            "id": "52834047",
+            "version": "7725683"
+        }
+    ],
+    "id": "52834029",
+    "version": "7725684"
+}

@@ -1,0 +1,237 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fw1ngb",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-15",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T17:36:04",
+            "standardDateTime": "2016-08-13T17:36:04",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T17:36:04",
+            "standardDateTime": "2016-08-13T17:36:04",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nwda\/lane_community_college\/OLEM003.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" rules=\"dacs\">KLCC-FM<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv94744",
+            "id": "39988869",
+            "version": "5839511"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KLCC-FM",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KLCC-FM",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "39988871",
+                    "version": "5839511"
+                }
+            ],
+            "id": "39988870",
+            "version": "5839511",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nwda\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80068260",
+                    "version": "5839511"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "39988868",
+            "targetConstellation": "1674079",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fw1ngb",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ph46kt",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Peter Wotton",
+            "id": "39988874",
+            "version": "5839511"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv94744",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Lane Community College\n\t\t\t (Eugene, Or.)<subarea>Archives<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline>4000 East 30th Avenue<\/addressline>\n                        <addressline>Eugene, Oregon 97405<\/addressline>\n                        <addressline>Phone: 541-463-5466<\/addressline>\n                        <addressline>Fax: 541-463-3996<\/addressline>\n                        <addressline>E-mail: archives@lanecc.edu<\/addressline>\n                        <addressline>Web: http:\/\/www.lanecc.edu\/archives\/<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid>M-003<\/unitid>\n                  <origination>\n                     <persname>Peter Wotton<\/persname>\n                  <\/origination>\n                  <unittitle>Peter Wotton Papers<\/unittitle>\n                  <unitdate>1933-1998<\/unitdate>\n                  <physdesc>\n                     <extent>2.0 cubic feet<\/extent>\n                     <extent>5 document boxes, 33 audio cassette\n\t\t  tapes<\/extent>\n                  <\/physdesc>\n                  <abstract>Peter Wotton broadcast \"Elderberry Wine\"\n\t\t  commentaries, focusing on issues of interest to older people, on KLCC radio in\n\t\t  Eugene, Oregon, 1982-1996. The collection includes \"Elderberry Wine\" scripts,\n\t\t  audio recordings, and newspaper columns; correspondence, speeches, sermons,\n\t\t  poems, short stories, scrapbooks, and photographs.<\/abstract>\n                  <langmaterial>Collection materials are in\n\t\t<language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Peter Wotton Papers 1933-1998",
+                "abstract": "Peter Wotton broadcast \"Elderberry Wine\"  commentaries, focusing on issues of interest to older people, on KLCC radio in  Eugene, Oregon, 1982-1996. The collection includes \"Elderberry Wine\" scripts,  audio recordings, and newspaper columns; correspondence, speeches, sermons,  poems, short stories, scrapbooks, and photographs.",
+                "extent": "2.0 cubic feet; 5 document boxes, 33 audio cassette  tapes",
+                "displayEntry": "Peter Wotton Papers, 1933-1998",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Peter Wotton",
+                        "id": "11435329",
+                        "version": "6381491"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11435330",
+                        "version": "6381491"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w66v19gp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Lane Community College (Eugene, Or.) Archives",
+                            "preferenceScore": "99",
+                            "id": "76794114",
+                            "version": "11238137"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Lane Community College (Eugene, Or.) Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "4000 East 30th Avenue Eugene, Oregon 97405 Phone: 541-463-5466 Fax: 541-463-3996 E-mail: archives@lanecc.edu Web: http:\/\/www.lanecc.edu\/archives\/",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76794117",
+                                    "version": "11238137"
+                                }
+                            ],
+                            "id": "76794116",
+                            "version": "11238137"
+                        }
+                    ],
+                    "id": "76794113",
+                    "version": "11238140"
+                },
+                "id": "6381491",
+                "version": "6381491"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Peter Wotton Papers, 1933-1998",
+            "id": "39988875",
+            "version": "5839511"
+        }
+    ],
+    "id": "39988868",
+    "version": "5839512"
+}

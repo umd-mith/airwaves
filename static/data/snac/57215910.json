@@ -1,0 +1,222 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r07dbr",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T08:18:49",
+            "standardDateTime": "2016-08-16T08:18:49",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T08:18:49",
+            "standardDateTime": "2016-08-16T08:18:49",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/04882.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WUNC<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/inv\/k\/Kuralt,Charles.html",
+            "id": "57215911",
+            "version": "8371058"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WUNC",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WUNC",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "57215913",
+                    "version": "8371058"
+                }
+            ],
+            "id": "57215912",
+            "version": "8371058",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81485077",
+                    "version": "8371058"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "57215910",
+            "targetConstellation": "60758406",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6r07dbr",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fr045b",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Kuralt, Charles, 1934-1997",
+            "id": "57215916",
+            "version": "8371058"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/inv\/k\/Kuralt,Charles.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>University of North Carolina at Chapel Hill. Library. Southern Historical Collection.<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <persname>Kuralt, Charles, 1934-1997.<\/persname>\n                  <\/origination>\n                  <unittitle>Charles Kuralt Collection, <unitdate>1935-1997<\/unitdate>\n                  <\/unittitle>\n                  <unitid>4882<\/unitid>\n                  <langmaterial>Materials in \n<language>English<\/language>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>67,500<\/extent>\n                     <extent>198.5<\/extent>\n                  <\/physdesc>\n                  <abstract>Charles Bishop Kuralt (1934-1997), newspaper, radio, and television journalist and author, was born in Wilmington, N.C. Kuralt attended the University of North Carolina, Chapel Hill, 1951-1955, where he served as editor of the <title>Daily Tar Heel<\/title> and worked for WUNC radio. Kuralt then joined the staff of the <title>Charlotte News<\/title> and, in 1957, became a writer for CBS in New York. As a correspondent for CBS, Kuralt was best known for his long-running television series <title>On the Road<\/title> and <title>Sunday Morning<\/title>. He was the author of several best-selling books based on his CBS experiences and the recipient of thirteen Emmy awards and three George Foster Peabody awards.<\/abstract>\n                  <abstract>Papers, 1934-1997, of Charles Kuralt, include personal and office mail, with extensive fan mail files and many letters in response to his retirement; scripts; speeches; background research materials relating to shows and books; clippings and souvenirs; publicity materials; oral history interviews with Kuralt's friends, family, and colleagues; photographs; calendars and notebooks; and audiotapes, videotapes, films, and other media. Among topics documented are early radio and television news writing and broadcasting, including the work of foreign correspondents in Latin America, Vietnam, and the Soviet Union, 1953-1994; American popular culture and folklore, 1950s-1990s; United States and international politics, especially in the 1960s; Appalachian poverty and culture, 1960s-1970s; the Plaisted Polar Expedition, 1967; fly fishing, 1970s-1990s; Olympics coverage, 1992-1994; and Kuralt family history.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Charles Kuralt Collection, 1935-1997",
+                "abstract": "Charles Bishop Kuralt (1934-1997), newspaper, radio, and television journalist and author, was born in Wilmington, N.C. Kuralt attended the University of North Carolina, Chapel Hill, 1951-1955, where he served as editor of the and worked for WUNC radio. Kuralt then joined the staff of the and, in 1957, became a writer for CBS in New York. As a correspondent for CBS, Kuralt was best known for his long-running television series and . He was the author of several best-selling books based on his CBS experiences and the recipient of thirteen Emmy awards and three George Foster Peabody awards. Daily Tar Heel Charlotte News On the Road Sunday Morning Papers, 1934-1997, of Charles Kuralt, include personal and office mail, with extensive fan mail files and many letters in response to his retirement; scripts; speeches; background research materials relating to shows and books; clippings and souvenirs; publicity materials; oral history interviews with Kuralt's friends, family, and colleagues; photographs; calendars and notebooks; and audiotapes, videotapes, films, and other media. Among topics documented are early radio and television news writing and broadcasting, including the work of foreign correspondents in Latin America, Vietnam, and the Soviet Union, 1953-1994; American popular culture and folklore, 1950s-1990s; United States and international politics, especially in the 1960s; Appalachian poverty and culture, 1960s-1970s; the Plaisted Polar Expedition, 1967; fly fishing, 1970s-1990s; Olympics coverage, 1992-1994; and Kuralt family history.",
+                "extent": "67,500; 198.5",
+                "displayEntry": "Charles Kuralt Collection, 1935-1997",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kuralt, Charles, 1934-1997.",
+                        "id": "11607639",
+                        "version": "6627566"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11607640",
+                        "version": "6627566"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b38j9n",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill. Library. Southern Historical Collection",
+                            "preferenceScore": "99",
+                            "id": "83559850",
+                            "version": "11276388"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Southern States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83559866",
+                            "version": "11275999"
+                        }
+                    ],
+                    "id": "83559846",
+                    "version": "11276399"
+                },
+                "id": "6627566",
+                "version": "6627566"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Charles Kuralt Collection, 1935-1997",
+            "id": "57215917",
+            "version": "8371058"
+        }
+    ],
+    "id": "57215910",
+    "version": "8371059"
+}

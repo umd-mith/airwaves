@@ -1,0 +1,496 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6044qf7",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T04:04:19",
+            "standardDateTime": "2016-08-12T04:04:19",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T04:04:19",
+            "standardDateTime": "2016-08-12T04:04:19",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nyu\/rism\/vertical.xml<\/filename>\n                  <ead_entity en_type=\"persname\" source=\"ingest\">Massaquoi, Hans J.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/dlib.nyu.edu\/findingaids\/html\/rism\/vertical\/vertical.html",
+            "id": "27664963",
+            "version": "4041707"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/90696627",
+            "id": "27664964",
+            "version": "4041707"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "27664965",
+            "version": "4041707"
+        }
+    ],
+    "languagesUsed": [
+        {
+            "dataType": "Language",
+            "language": {
+                "id": "130",
+                "term": "eng",
+                "type": "language_code",
+                "description": "English"
+            },
+            "script": {
+                "id": "685",
+                "term": "Zyyy",
+                "type": "script_code",
+                "description": "Code for undetermined script"
+            },
+            "id": "27664966",
+            "version": "4041707"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Massaquoi, Hans J.",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Massaquoi, Hans J.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27664968",
+                    "version": "4041707"
+                }
+            ],
+            "id": "27664967",
+            "version": "4041707",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"nyu\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79063854",
+                    "version": "4041707"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Massaquoi, Hans J. 1926-2013",
+            "preferenceScore": "3",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Massaquoi, Hans J. 1926-2013",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27664973",
+                    "version": "4041707"
+                }
+            ],
+            "id": "27664972",
+            "version": "4041707",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79063855",
+                    "version": "4041707"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Massaquoi, Hans",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Massaquoi, Hans",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27664976",
+                    "version": "4041707"
+                }
+            ],
+            "id": "27664975",
+            "version": "4041707",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79063856",
+                    "version": "4041707"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Massaquoi, Hans J. (Hans-Ju\u0308rgen), 1926-",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Massaquoi, Hans J. (Hans-Ju\u0308rgen), 1926-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27664979",
+                    "version": "4041707"
+                }
+            ],
+            "id": "27664978",
+            "version": "4041707",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79063857",
+                    "version": "4041707"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Massaquoi, Hans J., 1926-....",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Massaquoi, Hans J., 1926-....",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27664982",
+                    "version": "4041707"
+                }
+            ],
+            "id": "27664981",
+            "version": "4041707",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79063858",
+                    "version": "4041707"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Massaquoi, Hans J\u00fcrgen.",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Massaquoi, Hans J\u00fcrgen.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27664985",
+                    "version": "4041707"
+                }
+            ],
+            "id": "27664984",
+            "version": "4041707",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79063859",
+                    "version": "4041707"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Massaquoi, Hans-Ju\u0308rgen 1926-2013",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Massaquoi, Hans-Ju\u0308rgen 1926-2013",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27664988",
+                    "version": "4041707"
+                }
+            ],
+            "id": "27664987",
+            "version": "4041707",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79063860",
+                    "version": "4041707"
+                }
+            ]
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Massaquoi, Hans J. 1926-2013",
+            "uri": "https:\/\/viaf.org\/viaf\/90696627",
+            "id": "27664993",
+            "version": "4041707"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n99-039102",
+            "id": "27664994",
+            "version": "4041707"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n99039102",
+            "id": "27664995",
+            "version": "4041707"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.wikidata.org\/entity\/Q73033",
+            "id": "27664996",
+            "version": "4041707"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/dlib.nyu.edu\/findingaids\/html\/rism\/vertical\/vertical.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>RISM Vertical Files<\/unittitle>\n                  <unitid>RISM VF 1<\/unitid>\n                  <repository>\n                     <corpname>New York University Archives<\/corpname>\n                  <\/repository>\n                  <langmaterial>\n                     <language\/>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>30.0 linear feet<\/extent>\n                  <\/physdesc>\n                  <unitdate>Bulk, 1960-2000<\/unitdate>\n                  <unitdate>Bulk, 1960-2000 1900-2004<\/unitdate>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "RISM Vertical Files Bulk, 1960-2000 Bulk, 1960-2000 1900-2004",
+                "extent": "30.0 linear feet",
+                "displayEntry": "RISM Vertical Files, Bulk, 1960-2000, Bulk, 1960-2000 1900-2004",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6wf4pnp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "New York University. Archives",
+                            "preferenceScore": "99",
+                            "id": "83696240",
+                            "version": "11327358"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "New York University Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "70 Washington Square South  10th Fl.  New York, New York 10012  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696245",
+                                    "version": "11285391"
+                                }
+                            ],
+                            "id": "83696244",
+                            "version": "11285391"
+                        }
+                    ],
+                    "id": "83696236",
+                    "version": "11327359"
+                },
+                "id": "6330788",
+                "version": "6330788"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "RISM Vertical Files, Bulk, 1960-2000, Bulk, 1960-2000 1900-2004",
+            "id": "27664997",
+            "version": "4041707"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "8188",
+                "term": "Americans",
+                "type": "nationality"
+            },
+            "id": "27664990",
+            "version": "4041707"
+        }
+    ],
+    "id": "27664961",
+    "version": "4041708",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1926-01-19",
+            "fromDateOriginal": "1926-01-19",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "toDate": "2013-01-21",
+            "toDateOriginal": "2013-01-21",
+            "toType": {
+                "id": "690",
+                "term": "Death",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Death",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "27664962",
+            "version": "4041707"
+        }
+    ]
+}

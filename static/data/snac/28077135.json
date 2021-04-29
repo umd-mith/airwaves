@@ -1,0 +1,352 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6d55jwf",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T05:22:24",
+            "standardDateTime": "2016-08-12T05:22:24",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T05:22:24",
+            "standardDateTime": "2016-08-12T05:22:24",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/32413800",
+            "id": "28077139",
+            "version": "4104590"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WFSU-TV (Television station : Tallahassee, Fla.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WFSU-TV (Television station : Tallahassee, Fla.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "28077141",
+                    "version": "4104590"
+                }
+            ],
+            "id": "28077140",
+            "version": "4104590",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79097717",
+                    "version": "4104590"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "28077137",
+                "version": "4104590"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">WFSU-TV is a public broadcast station for educational television located at Florida State University. It provides programming for county schools, university telecourses, and general community audiences. It is licensed to the Board of Regents on and in behalf of the Florida State University. The station is part of the state-wide educational television network that was developed by the Florida Educational Television Commission beginning in 1958 (Ch. 57-312, Laws).<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Films, 1960-1989. (Florida State Archive). WorldCat record id: 32413800<\/citation>\n         <\/biogHist>",
+            "id": "28077136",
+            "version": "4104590"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/32413800",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:32413800<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-FS3<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WFSU-TV (Television station : Tallahassee, Fla.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Films, 1960-1989.<\/title>\n                  <\/titleInfo>\n                  <abstract>This series contains 16 mm. films produced by WFSU-TV of Florida State University between 1960 and 1989. The films cover a broad spectrum of topics, such as famous people, historic sites, festivals, special events, recreation, interviews, and public affairs. <\/abstract>\n                  <name>\n                     <namePart>Florida State Archive<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Films, 1960-1989.",
+                "abstract": "This series contains 16 mm. films produced by WFSU-TV of Florida State University between 1960 and 1989. The films cover a broad spectrum of topics, such as famous people, historic sites, festivals, special events, recreation, interviews, and public affairs. ",
+                "extent": "482 items.",
+                "displayEntry": "WFSU-TV (Television station : Tallahassee, Fla.). Films, 1960-1989.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WFSU-TV (Television station : Tallahassee, Fla.)",
+                        "id": "9474561",
+                        "version": "7341373"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w65j84pj",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Florida State Archive",
+                            "preferenceScore": "99",
+                            "id": "76767582",
+                            "version": "11226829"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Florida State Archive",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "R A Gray Bldg",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76767586",
+                                    "version": "11226829"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Tallahassee",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76767587",
+                                    "version": "11226829"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-FL",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76767588",
+                                    "version": "11226829"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "32399-0250",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76767589",
+                                    "version": "11226829"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76767590",
+                                    "version": "11226829"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15209",
+                                "name": "Florida State Archive",
+                                "latitude": "30.4381000",
+                                "longitude": "-84.2793000"
+                            },
+                            "confirmed": true,
+                            "id": "76767585",
+                            "version": "11226829"
+                        }
+                    ],
+                    "id": "76767581",
+                    "version": "11226832"
+                },
+                "id": "7341373",
+                "version": "7341373"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "WFSU-TV (Television station : Tallahassee, Fla.). Films, 1960-1989.",
+            "id": "28077148",
+            "version": "4104590"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Florida",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "28077144",
+            "version": "4104590",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Florida",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "28077145",
+                    "version": "4104590"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "297317",
+                "term": "Public service television programs",
+                "type": "subject"
+            },
+            "id": "28077147",
+            "version": "4104590"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "297358",
+                "term": "Public television",
+                "type": "subject"
+            },
+            "id": "28077146",
+            "version": "4104590"
+        }
+    ],
+    "id": "28077135",
+    "version": "4104591",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1960",
+            "fromDateOriginal": "active 1960",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1989",
+            "toDateOriginal": "active 1989",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "28077138",
+            "version": "4104590"
+        }
+    ]
+}

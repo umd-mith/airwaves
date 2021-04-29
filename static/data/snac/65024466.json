@@ -1,0 +1,263 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6j82xqw",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T16:16:17",
+            "standardDateTime": "2016-08-17T16:16:17",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T16:16:17",
+            "standardDateTime": "2016-08-17T16:16:17",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/duke\/classic-EADs\/chesler.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WCET.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/chesler\/",
+            "id": "65024467",
+            "version": "9505349"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WCET.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WCET.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "65024469",
+                    "version": "9505349"
+                }
+            ],
+            "id": "65024468",
+            "version": "9505349",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"duke\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82119809",
+                    "version": "9505349"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "65024466",
+            "targetConstellation": "29257422",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6j82xqw",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tm8bfg",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Chesler, Phyllis",
+            "id": "65024472",
+            "version": "9505349"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/chesler\/",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Phyllis Chesler Papers,\n<unitdate>1968-1990<\/unitdate>\n                  <\/unittitle>\n                  <origination>\n                     <persname>Chesler, Phyllis<\/persname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>94 Linear Feet<\/extent>\n                     <extent>64,000 Items<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University<\/corpname>\n                  <\/repository>\n                  <physloc>For current information on the location of these materials, please consult the Library's online catalog.<\/physloc>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Phyllis Chesler Papers, 1968-1990",
+                "extent": "94 Linear Feet; 64,000 Items",
+                "displayEntry": "Phyllis Chesler Papers, 1968-1990",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Chesler, Phyllis",
+                        "id": "11390112",
+                        "version": "6359278"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11390113",
+                        "version": "6359278"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6290xn7",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "David M. Rubenstein Rare Book & Manuscript Library",
+                            "preferenceScore": "99",
+                            "id": "83577506",
+                            "version": "11278291"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "David M. Rubenstein Rare Book and Manuscript Library, Duke University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "David M. Rubenstein Rare Book & Manuscript Library, Duke University",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83577539",
+                                    "version": "11278279"
+                                }
+                            ],
+                            "id": "83577538",
+                            "version": "11278279"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Duke University. David M. Rubenstein Rare Book & Manuscript Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Durham, North Carolina 27708-0185",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83577541",
+                                    "version": "11278279"
+                                }
+                            ],
+                            "id": "83577540",
+                            "version": "11278279"
+                        }
+                    ],
+                    "id": "83577500",
+                    "version": "11278299"
+                },
+                "id": "6359278",
+                "version": "6359278"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Phyllis Chesler Papers, 1968-1990",
+            "id": "65024473",
+            "version": "9505349"
+        }
+    ],
+    "id": "65024466",
+    "version": "9505350"
+}

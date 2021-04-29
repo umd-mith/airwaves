@@ -1,0 +1,629 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w62r5rkn",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T11:59:55",
+            "standardDateTime": "2016-08-18T11:59:55",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T11:59:55",
+            "standardDateTime": "2016-08-18T11:59:55",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/73056935",
+            "id": "69566624",
+            "version": "10168481"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/63644086",
+            "id": "69566623",
+            "version": "10168481"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/63563682",
+            "id": "69566622",
+            "version": "10168481"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "69566625",
+            "version": "10168481"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Burdick, Richard S.",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Burdick, Richard S.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "69566627",
+                    "version": "10168481"
+                }
+            ],
+            "id": "69566626",
+            "version": "10168481",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82490423",
+                    "version": "10168481"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69566620",
+            "targetConstellation": "10331567",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w62r5rkn",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ht94tk",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WHYY (Radio Station : Philadelphia, Pa.).",
+            "id": "69566637",
+            "version": "10168481"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69566620",
+            "targetConstellation": "11905956",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w62r5rkn",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hb52jt",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WHYY (Television station : Philadelphia, Pa.).",
+            "id": "69566638",
+            "version": "10168481"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Burdick, Richard S.",
+            "uri": "https:\/\/viaf.org\/viaf\/73056935",
+            "id": "69566634",
+            "version": "10168481"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n92107575",
+            "id": "69566635",
+            "version": "10168481"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n92107575",
+            "id": "69566636",
+            "version": "10168481"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/63644086",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:63644086<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-PAU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WHYY (Television station : Philadelphia, Pa.).<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Burdick, Richard S.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Griffiths, David 1942-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hall, Roger Griffen, 1925-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hume, Paul, 1915-2001.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Karayn, Jim.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Kraetzer, Warren A.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Marcus, Norman, 1934-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Nesbitt, Albert J.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Correspondence with Eugene Ormandy, 1958-1978.<\/title>\n                  <\/titleInfo>\n                  <abstract>Comprises items from David Griffiths, Richard S. Burdick, Albert J. Nesbitt, Norman Marcus, Art Wolff, Paul Hume, Warren A. Kraetzer, Jim Karayn, and Roger Hall, including proposals for television programs of the Philadelphia Orchestra and items from Ormandy or his representative. <\/abstract>\n                  <name>\n                     <namePart>University of Pennsylvania Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Correspondence with Eugene Ormandy, 1958-1978.",
+                "abstract": "Comprises items from David Griffiths, Richard S. Burdick, Albert J. Nesbitt, Norman Marcus, Art Wolff, Paul Hume, Warren A. Kraetzer, Jim Karayn, and Roger Hall, including proposals for television programs of the Philadelphia Orchestra and items from Ormandy or his representative. ",
+                "extent": "36 items (62 leaves).",
+                "displayEntry": "WHYY (Television station : Philadelphia, Pa.). Correspondence with Eugene Ormandy, 1958-1978.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WHYY (Television station : Philadelphia, Pa.).",
+                        "id": "10495984",
+                        "version": "7900263"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Burdick, Richard S.",
+                        "id": "10495985",
+                        "version": "7900263"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Griffiths, David 1942-",
+                        "id": "10495986",
+                        "version": "7900263"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hall, Roger Griffen, 1925-",
+                        "id": "10495987",
+                        "version": "7900263"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hume, Paul, 1915-2001.",
+                        "id": "10495988",
+                        "version": "7900263"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Karayn, Jim.",
+                        "id": "10495989",
+                        "version": "7900263"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kraetzer, Warren A.",
+                        "id": "10495990",
+                        "version": "7900263"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Marcus, Norman, 1934-",
+                        "id": "10495991",
+                        "version": "7900263"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Nesbitt, Albert J.",
+                        "id": "10495992",
+                        "version": "7900263"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tn80tm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "preferenceScore": "99",
+                            "id": "76787724",
+                            "version": "11234301"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787729",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "3420 Walnut St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787730",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Philadelphia",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787731",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787732",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "19104-6206",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787733",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787734",
+                                    "version": "11234301"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16503",
+                                "name": "University of Pennsylvania Libraries, Van Pelt Library",
+                                "latitude": "39.9526900",
+                                "longitude": "-75.1940670"
+                            },
+                            "confirmed": true,
+                            "id": "76787728",
+                            "version": "11234301"
+                        }
+                    ],
+                    "id": "76787723",
+                    "version": "11234304"
+                },
+                "id": "7900263",
+                "version": "7900263"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "WHYY (Television station : Philadelphia, Pa.). Correspondence with Eugene Ormandy, 1958-1978.",
+            "id": "69566640",
+            "version": "10168481"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/63563682",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:63563682<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-PAU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WHYY (Radio Station : Philadelphia, Pa.).<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Burdick, Richard S.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Margolies-Mezvinsky, Marjorie.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Correspondence with Marian Anderson, 1959-1966.<\/title>\n                  <\/titleInfo>\n                  <abstract>Comprises 3 items, 4 leaves correspondence. Includes letters from Richard S. Burdick and Marjorie Margolies. <\/abstract>\n                  <name>\n                     <namePart>University of Pennsylvania Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Correspondence with Marian Anderson, 1959-1966.",
+                "abstract": "Comprises 3 items, 4 leaves correspondence. Includes letters from Richard S. Burdick and Marjorie Margolies. ",
+                "extent": "3 items (5 l.)",
+                "displayEntry": "WHYY (Radio Station : Philadelphia, Pa.). Correspondence with Marian Anderson, 1959-1966.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WHYY (Radio Station : Philadelphia, Pa.).",
+                        "id": "10490805",
+                        "version": "7896728"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Burdick, Richard S.",
+                        "id": "10490806",
+                        "version": "7896728"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Margolies-Mezvinsky, Marjorie.",
+                        "id": "10490807",
+                        "version": "7896728"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tn80tm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "preferenceScore": "99",
+                            "id": "76787724",
+                            "version": "11234301"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787729",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "3420 Walnut St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787730",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Philadelphia",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787731",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787732",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "19104-6206",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787733",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787734",
+                                    "version": "11234301"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16503",
+                                "name": "University of Pennsylvania Libraries, Van Pelt Library",
+                                "latitude": "39.9526900",
+                                "longitude": "-75.1940670"
+                            },
+                            "confirmed": true,
+                            "id": "76787728",
+                            "version": "11234301"
+                        }
+                    ],
+                    "id": "76787723",
+                    "version": "11234304"
+                },
+                "id": "7896728",
+                "version": "7896728"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "WHYY (Radio Station : Philadelphia, Pa.). Correspondence with Marian Anderson, 1959-1966.",
+            "id": "69566639",
+            "version": "10168481"
+        }
+    ],
+    "id": "69566620",
+    "version": "10168482",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1959",
+            "fromDateOriginal": "active 1959",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1966",
+            "toDateOriginal": "active 1966",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "69566621",
+            "version": "10168481"
+        }
+    ]
+}

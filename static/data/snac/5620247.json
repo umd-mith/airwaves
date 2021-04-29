@@ -1,0 +1,2189 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6w7129j",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T23:39:49",
+            "standardDateTime": "2016-08-09T23:39:49",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T23:39:49",
+            "standardDateTime": "2016-08-09T23:39:49",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/214880208",
+            "id": "5620254",
+            "version": "809417"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/syru\/cunningham_b.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"600\" source=\"lcnaf\">Bower, Warren.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/library.syr.edu\/digital\/guides\/c\/cunningham_b.htm",
+            "id": "5620253",
+            "version": "809417"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/647898536",
+            "id": "5620249",
+            "version": "809417"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/155896662",
+            "id": "5620250",
+            "version": "809417"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/53923292",
+            "id": "5620251",
+            "version": "809417"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/syru\/manuscript_per.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"600\" source=\"lcnaf\">Bower, Warren.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/library.syr.edu\/digital\/guides\/m\/manuscript_per.htm",
+            "id": "5620252",
+            "version": "809417"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "5620255",
+            "version": "809417"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Bower, Warren",
+            "preferenceScore": "3",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Bower, Warren",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "5620257",
+                    "version": "809417"
+                }
+            ],
+            "id": "5620256",
+            "version": "809417",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"syru\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77257751",
+                    "version": "809417"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5620247",
+            "targetConstellation": "41621677",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w7129j",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64j1jjr",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Cunningham, Ben, 1904-1975",
+            "id": "5620272",
+            "version": "809417"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5620247",
+            "targetConstellation": "740096",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w7129j",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p26x4z",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Glasgow, Ellen Anderson Gholson, 1873-1945.",
+            "id": "5620268",
+            "version": "809417"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5620247",
+            "targetConstellation": "76490988",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w7129j",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zb2pzj",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Manuscript (Athens, Ohio)",
+            "id": "5620271",
+            "version": "809417"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5620247",
+            "targetConstellation": "15773899",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w7129j",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6k96xpm",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "New York University.",
+            "id": "5620269",
+            "version": "809417"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5620247",
+            "targetConstellation": "69644232",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w7129j",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w37tn1",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Porter, Katherine Anne, 1890-1980.",
+            "id": "5620270",
+            "version": "809417"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5620247",
+            "targetConstellation": "63274214",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w7129j",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67f7hdq",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Bower, Warran."
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Bower, Warren",
+            "uri": "https:\/\/viaf.org\/viaf\/214880208",
+            "id": "5620267",
+            "version": "809417"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/647898536",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:647898536<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-VA064<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Glasgow, Ellen Anderson Gholson, 1873-1945.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Adams, J. Donald (James Donald), 1891-1968<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Allen, James Lane, 1849-1925<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Anderson, Henry W. (Henry Watkins), b. 1870.,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Angell, James Rowland, 1869-1949,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Beer, Thomas, 1889-1940,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Boatwright, Frederic William, 1868-1951,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bower, Warren,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Brooks, Van Wyck, 1886-1963<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bruce, William Cabell, 1860-1946,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bryan, Ella Howard,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bryan, John Stewart, 1871-1944<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Cabell, James Branch, 1879-1958<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Collins, Joseph, 1866-1950,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Comstock, Lillian A.,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Congreve, Ambrose, Mrs.,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Cowell, Katherine,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Damrosch, Walter, 1862-1950,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Darrow, Whitney, 1909-1999<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Dauban, Jeanne,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Delattre, Floris, 1880-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Doubleday, Frank Nelson, 1862-1934,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Duke, Caroline,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Eaton, Walter Prichard, 1878-1957<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Evans, C. S. (Charles Seddon), 1883-1944<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Fisher, Dorothy Canfield, 1879-1958<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Frackenthal, Frank d.,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Freeman, Douglas Southall, 1886-1953<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Geismar, Maxwell David, 1909-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Glasgow, Arthur Graham, b. 1865<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Glenn, Isa, 1874-1951<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Griswold, Francis, 1902-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Haardt, Sarah, 1898-1935,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Harcourt, Alfred, 1881-1954<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Harcourt, Ellen,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hardy, Florence Emily, 1881-1937<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hazlitt, Henry, 1894-1993<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Heyward, Dorothy, 1890-1961<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hoffman, Malvina, 1887-1966,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hubbell, Jay B. (Jay Broadus), 1885-1979<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hurst, Fannie, 1889-1968<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Jack, Peter Munro,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Johnson, Robert Underwood, 1853-1937<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Johnston, Mary, 1870-1936,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Jones, Bessie Zaban<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Jones, Howard Mumford, 1892-1980<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Lankes, Julius J., 1884-1960.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Leighton, Clare, 1898-1989<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Longwell, Daniel,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Loveman, Amy<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Lucas, Elizabeth, 1936-,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Lyon, John H. H. (John Henry Hobart), 1878-1961<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Mackenzie, Jeanne K.,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Marquand, John P. (John Phillips), 1893-1960<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Mencken, H. L. (Henry Louis), 1880-1956<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Mitchell, Margaret, 1900-1949<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Montz, Mary,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Moody, Paul O.,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Morley, F. V. (Frank Vigor), 1899-1980<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Morrow, Elizabeth, 1873-1955<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Munroe, Vernon, Mrs.,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Newman, Frances, d. 1928<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Perkins, Maxwell E. (Maxwell Evarts), 1884-1947<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Phelps, William Lyon, 1865-1943<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Powys, John Cowper, 1872-1963<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Quinn, Arthur Hobson, 1875-1960<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Rascoe, Burton, 1892-1957<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Rawlings, Marjorie Kinnan, 1896-1953<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Reese, Agnes B.,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Rives, Ame\u0301lie, 1863-1945<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Sanford, Millie,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Sellery, George C. (George Clarke), 1872-,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Sherman, Stuart Pratt, 1881-1926,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Sinclair, Mary<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Souverton, Frank,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Stagg, Hunter, 1895-1960,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Tarkington, Booth, 1869-1946<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Tate, Allen, 1899-1979<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Toksvig, Signe, 1891-1983,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Tree, Ronald, 1897-1976<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Tutwiler, Rebe Gordon Glasgow, 1877-1967,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Van Doren, Irita Taylor, 1891-1966,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Van Vechten, Carl, 1880-1964,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Villiard, Jean,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Walpole, Hugh, Sir, 1884-1941,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>White, William Allen, 1868-1944<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Wilson, James Southall, 1880-1963<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Woods, Katherine, 1886-1968<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Young, Stark, 1881-1963<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers of Ellen Glasgow [manuscript], 1880-1963.<\/title>\n                  <\/titleInfo>\n                  <abstract>Papers of Ellen Anderson Gholson Glasgow include drafts of and notes on several novels including \"Phases of an inferior planet,\" \"Vein of iron,\" \"A certain measure,\" \"In this our life,\" and \"The woman within,\" as well as copies of speeches and articles, and notes relating to her personal and literary affairs. Letters and telegrams, 1916 -1944, from Henry W. Anderson form about half of the correspondence; the more than 50 letters from James Lane Allen make up the second largest group. The collection also includes notebooks containing addresses, comments, bibliography, recipes and miscellaneous notes; and photographs and drawings of Miss Glasgow, her homes, pets, and other literary figures including a commercial strike of a woodcut of Glasgow's home by J.J. Lankes, 1926, commissioned as a design for her Christmas card. <\/abstract>\n                  <name>\n                     <namePart>University of Virginia<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers of Ellen Glasgow [manuscript], 1880-1963.",
+                "abstract": "Papers of Ellen Anderson Gholson Glasgow include drafts of and notes on several novels including \"Phases of an inferior planet,\" \"Vein of iron,\" \"A certain measure,\" \"In this our life,\" and \"The woman within,\" as well as copies of speeches and articles, and notes relating to her personal and literary affairs. Letters and telegrams, 1916 -1944, from Henry W. Anderson form about half of the correspondence; the more than 50 letters from James Lane Allen make up the second largest group. The collection also includes notebooks containing addresses, comments, bibliography, recipes and miscellaneous notes; and photographs and drawings of Miss Glasgow, her homes, pets, and other literary figures including a commercial strike of a woodcut of Glasgow's home by J.J. Lankes, 1926, commissioned as a design for her Christmas card. ",
+                "extent": "3385 items.",
+                "displayEntry": "Glasgow, Ellen Anderson Gholson, 1873-1945. Papers of Ellen Glasgow [manuscript], 1880-1963.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Glasgow, Ellen Anderson Gholson, 1873-1945.",
+                        "id": "10544738",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Adams, J. Donald (James Donald), 1891-1968",
+                        "id": "10544739",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Allen, James Lane, 1849-1925",
+                        "id": "10544740",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Anderson, Henry W. (Henry Watkins), b. 1870.,",
+                        "id": "10544741",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Angell, James Rowland, 1869-1949,",
+                        "id": "10544742",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Beer, Thomas, 1889-1940,",
+                        "id": "10544743",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Boatwright, Frederic William, 1868-1951,",
+                        "id": "10544744",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bower, Warren,",
+                        "id": "10544745",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Brooks, Van Wyck, 1886-1963",
+                        "id": "10544746",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bruce, William Cabell, 1860-1946,",
+                        "id": "10544747",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bryan, Ella Howard,",
+                        "id": "10544748",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bryan, John Stewart, 1871-1944",
+                        "id": "10544749",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cabell, James Branch, 1879-1958",
+                        "id": "10544750",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Collins, Joseph, 1866-1950,",
+                        "id": "10544751",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Comstock, Lillian A.,",
+                        "id": "10544752",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Congreve, Ambrose, Mrs.,",
+                        "id": "10544753",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cowell, Katherine,",
+                        "id": "10544754",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Damrosch, Walter, 1862-1950,",
+                        "id": "10544755",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Darrow, Whitney, 1909-1999",
+                        "id": "10544756",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dauban, Jeanne,",
+                        "id": "10544757",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Delattre, Floris, 1880-",
+                        "id": "10544758",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Doubleday, Frank Nelson, 1862-1934,",
+                        "id": "10544759",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Duke, Caroline,",
+                        "id": "10544760",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Eaton, Walter Prichard, 1878-1957",
+                        "id": "10544761",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Evans, C. S. (Charles Seddon), 1883-1944",
+                        "id": "10544762",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Fisher, Dorothy Canfield, 1879-1958",
+                        "id": "10544763",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Frackenthal, Frank d.,",
+                        "id": "10544764",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Freeman, Douglas Southall, 1886-1953",
+                        "id": "10544765",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Geismar, Maxwell David, 1909-",
+                        "id": "10544766",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Glasgow, Arthur Graham, b. 1865",
+                        "id": "10544767",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Glenn, Isa, 1874-1951",
+                        "id": "10544768",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Griswold, Francis, 1902-",
+                        "id": "10544769",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Haardt, Sarah, 1898-1935,",
+                        "id": "10544770",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Harcourt, Alfred, 1881-1954",
+                        "id": "10544771",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Harcourt, Ellen,",
+                        "id": "10544772",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hardy, Florence Emily, 1881-1937",
+                        "id": "10544773",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hazlitt, Henry, 1894-1993",
+                        "id": "10544774",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Heyward, Dorothy, 1890-1961",
+                        "id": "10544775",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hoffman, Malvina, 1887-1966,",
+                        "id": "10544776",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hubbell, Jay B. (Jay Broadus), 1885-1979",
+                        "id": "10544777",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hurst, Fannie, 1889-1968",
+                        "id": "10544778",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Jack, Peter Munro,",
+                        "id": "10544779",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Johnson, Robert Underwood, 1853-1937",
+                        "id": "10544780",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Johnston, Mary, 1870-1936,",
+                        "id": "10544781",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Jones, Bessie Zaban",
+                        "id": "10544782",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Jones, Howard Mumford, 1892-1980",
+                        "id": "10544783",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lankes, Julius J., 1884-1960.",
+                        "id": "10544784",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Leighton, Clare, 1898-1989",
+                        "id": "10544785",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Longwell, Daniel,",
+                        "id": "10544786",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Loveman, Amy",
+                        "id": "10544787",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lucas, Elizabeth, 1936-,",
+                        "id": "10544788",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lyon, John H. H. (John Henry Hobart), 1878-1961",
+                        "id": "10544789",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Mackenzie, Jeanne K.,",
+                        "id": "10544790",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Marquand, John P. (John Phillips), 1893-1960",
+                        "id": "10544791",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Mencken, H. L. (Henry Louis), 1880-1956",
+                        "id": "10544792",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Mitchell, Margaret, 1900-1949",
+                        "id": "10544793",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Montz, Mary,",
+                        "id": "10544794",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Moody, Paul O.,",
+                        "id": "10544795",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Morley, F. V. (Frank Vigor), 1899-1980",
+                        "id": "10544796",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Morrow, Elizabeth, 1873-1955",
+                        "id": "10544797",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Munroe, Vernon, Mrs.,",
+                        "id": "10544798",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Newman, Frances, d. 1928",
+                        "id": "10544799",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Perkins, Maxwell E. (Maxwell Evarts), 1884-1947",
+                        "id": "10544800",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Phelps, William Lyon, 1865-1943",
+                        "id": "10544801",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Powys, John Cowper, 1872-1963",
+                        "id": "10544802",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Quinn, Arthur Hobson, 1875-1960",
+                        "id": "10544803",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rascoe, Burton, 1892-1957",
+                        "id": "10544804",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rawlings, Marjorie Kinnan, 1896-1953",
+                        "id": "10544805",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Reese, Agnes B.,",
+                        "id": "10544806",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rives, Ame\u0301lie, 1863-1945",
+                        "id": "10544807",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Sanford, Millie,",
+                        "id": "10544808",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Sellery, George C. (George Clarke), 1872-,",
+                        "id": "10544809",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Sherman, Stuart Pratt, 1881-1926,",
+                        "id": "10544810",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Sinclair, Mary",
+                        "id": "10544811",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Souverton, Frank,",
+                        "id": "10544812",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Stagg, Hunter, 1895-1960,",
+                        "id": "10544813",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tarkington, Booth, 1869-1946",
+                        "id": "10544814",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tate, Allen, 1899-1979",
+                        "id": "10544815",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Toksvig, Signe, 1891-1983,",
+                        "id": "10544816",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tree, Ronald, 1897-1976",
+                        "id": "10544817",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tutwiler, Rebe Gordon Glasgow, 1877-1967,",
+                        "id": "10544818",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Van Doren, Irita Taylor, 1891-1966,",
+                        "id": "10544819",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Van Vechten, Carl, 1880-1964,",
+                        "id": "10544820",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Villiard, Jean,",
+                        "id": "10544821",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Walpole, Hugh, Sir, 1884-1941,",
+                        "id": "10544822",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "White, William Allen, 1868-1944",
+                        "id": "10544823",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Wilson, James Southall, 1880-1963",
+                        "id": "10544824",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Woods, Katherine, 1886-1968",
+                        "id": "10544825",
+                        "version": "7924700"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Young, Stark, 1881-1963",
+                        "id": "10544826",
+                        "version": "7924700"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6z71c2r",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Virginia. Library",
+                            "preferenceScore": "99",
+                            "id": "83610692",
+                            "version": "11280408"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610728",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610754",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "University of Virginia Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Special Collections Department Alderman Library University of Virginia Charlottesville, Virginia 22903 USA",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83610715",
+                                    "version": "11280400"
+                                }
+                            ],
+                            "id": "83610714",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610748",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610734",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610746",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610738",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610756",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610716",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610742",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610722",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Gwynn Island (Va.)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610744",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610732",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610750",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610736",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "University of Virginia, University of Virginia Libraries; University of Virginia Library; UVa Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "See individual libraries",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83610763",
+                                    "version": "11280400"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "University of Virginia",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83610764",
+                                    "version": "11280400"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Charlottesville",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83610765",
+                                    "version": "11280400"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-VA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83610766",
+                                    "version": "11280400"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83610767",
+                                    "version": "11280400"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15129",
+                                "name": "University of Virginia, University of Virginia Libraries; University of Virginia Library; UVa Library",
+                                "latitude": "38.0355520",
+                                "longitude": "-78.5034510"
+                            },
+                            "confirmed": true,
+                            "id": "83610762",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610760",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610740",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610720",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610724",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610752",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610758",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610730",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610726",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610718",
+                            "version": "11280400"
+                        }
+                    ],
+                    "id": "83610682",
+                    "version": "11280411"
+                },
+                "id": "7924700",
+                "version": "7924700"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Glasgow, Ellen Anderson Gholson, 1873-1945. Papers of Ellen Glasgow [manuscript], 1880-1963.",
+            "id": "5620274",
+            "version": "809417"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/53923292",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:53923292<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-VA064<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Porter, Katherine Anne, 1890-1980.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bower, Warren,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Correspondence with Dr. Warren Bower, 1955 March 17.<\/title>\n                  <\/titleInfo>\n                  <abstract>Bower writes to Porter inviting her to teach at New York University. Porter, New York City, replies that she would be interested in teaching courses in reading and understanding literature, but not in teaching or talking about writing. <\/abstract>\n                  <name>\n                     <namePart>University of Virginia<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Correspondence with Dr. Warren Bower, 1955 March 17.",
+                "abstract": "Bower writes to Porter inviting her to teach at New York University. Porter, New York City, replies that she would be interested in teaching courses in reading and understanding literature, but not in teaching or talking about writing. ",
+                "extent": "2 items.",
+                "displayEntry": "Porter, Katherine Anne, 1890-1980. Correspondence with Dr. Warren Bower, 1955 March 17.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Porter, Katherine Anne, 1890-1980.",
+                        "id": "9991219",
+                        "version": "7673192"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bower, Warren,",
+                        "id": "9991220",
+                        "version": "7673192"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6z71c2r",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Virginia. Library",
+                            "preferenceScore": "99",
+                            "id": "83610692",
+                            "version": "11280408"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610728",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610754",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "University of Virginia Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Special Collections Department Alderman Library University of Virginia Charlottesville, Virginia 22903 USA",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83610715",
+                                    "version": "11280400"
+                                }
+                            ],
+                            "id": "83610714",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610748",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610734",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610746",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610738",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610756",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610716",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610742",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610722",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Gwynn Island (Va.)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610744",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610732",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610750",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610736",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "University of Virginia, University of Virginia Libraries; University of Virginia Library; UVa Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "See individual libraries",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83610763",
+                                    "version": "11280400"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "University of Virginia",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83610764",
+                                    "version": "11280400"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Charlottesville",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83610765",
+                                    "version": "11280400"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-VA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83610766",
+                                    "version": "11280400"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83610767",
+                                    "version": "11280400"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15129",
+                                "name": "University of Virginia, University of Virginia Libraries; University of Virginia Library; UVa Library",
+                                "latitude": "38.0355520",
+                                "longitude": "-78.5034510"
+                            },
+                            "confirmed": true,
+                            "id": "83610762",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610760",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610740",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610720",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610724",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610752",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia--Charlottesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610758",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610730",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610726",
+                            "version": "11280400"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83610718",
+                            "version": "11280400"
+                        }
+                    ],
+                    "id": "83610682",
+                    "version": "11280411"
+                },
+                "id": "7673192",
+                "version": "7673192"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Porter, Katherine Anne, 1890-1980. Correspondence with Dr. Warren Bower, 1955 March 17.",
+            "id": "5620276",
+            "version": "809417"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/155896662",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:155896662<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-PAU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>New York University.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bower, Warren.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Correspondence to W. A. Swanberg, 1965.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence to W. A. Swanberg from Warren Bower, Division of General Education and Extension Services, New York University. <\/abstract>\n                  <name>\n                     <namePart>University of Pennsylvania Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Correspondence to W. A. Swanberg, 1965.",
+                "abstract": "Correspondence to W. A. Swanberg from Warren Bower, Division of General Education and Extension Services, New York University. ",
+                "extent": "2 items (5 leaves).",
+                "displayEntry": "New York University. Correspondence to W. A. Swanberg, 1965.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "New York University.",
+                        "id": "8713688",
+                        "version": "6899031"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bower, Warren.",
+                        "id": "8713689",
+                        "version": "6899031"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tn80tm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "preferenceScore": "99",
+                            "id": "76787724",
+                            "version": "11234301"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787729",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "3420 Walnut St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787730",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Philadelphia",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787731",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787732",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "19104-6206",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787733",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787734",
+                                    "version": "11234301"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16503",
+                                "name": "University of Pennsylvania Libraries, Van Pelt Library",
+                                "latitude": "39.9526900",
+                                "longitude": "-75.1940670"
+                            },
+                            "confirmed": true,
+                            "id": "76787728",
+                            "version": "11234301"
+                        }
+                    ],
+                    "id": "76787723",
+                    "version": "11234304"
+                },
+                "id": "6899031",
+                "version": "6899031"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "New York University. Correspondence to W. A. Swanberg, 1965.",
+            "id": "5620275",
+            "version": "809417"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/library.syr.edu\/digital\/guides\/c\/cunningham_b.htm",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n\t\t\tSpecial Collections Research Center, <lb\/> Syracuse University Libraries <lb\/>\n                     <address>\n                        <addressline>222 Waverly Avenue<lb\/>\n                        <\/addressline>\n                        <addressline>Syracuse, NY 13244-2010<lb\/>\n                        <\/addressline>\n                        <addressline>\n                           <ptr\/>\n                        <\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <origination>\n                     <persname>Cunningham, Ben, 1904-1975<\/persname>\n                  <\/origination>\n                  <unittitle>Ben Cunningham Papers<\/unittitle>\n                  <unitdate>1904-1969 <\/unitdate>\n                  <physdesc>\n                     <extent>2.25 linear ft.<\/extent>\n                  <\/physdesc>\n                  <abstract>Spanning 1904 to 1969, the Ben \n\t\t\tCunningham Papers comprises biographical material, correspondence, artwork, writings, \n\t\t\tand memorabilia of the American painter and art educator (1904-1975). The collection, \n\t\t\twhich is heavily annotated by Cunningham, illuminates a professional career which \n\t\t\tencompassed WPA Federal Art Project mural work as well as the op art movement of \n\t\t\tthe mid to late 1960s. Some of the items in the collection have been restricted to prevent \n\t\t\ttheir further deterioration. Photocopies of these embrittled items have been made available \n\t\t\tfor researcher use.<\/abstract>\n                  <unitid>149597<\/unitid>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Ben Cunningham Papers 1904-1969",
+                "abstract": "Spanning 1904 to 1969, the Ben Cunningham Papers comprises biographical material, correspondence, artwork, writings, and memorabilia of the American painter and art educator (1904-1975). The collection, which is heavily annotated by Cunningham, illuminates a professional career which encompassed WPA Federal Art Project mural work as well as the op art movement of the mid to late 1960s. Some of the items in the collection have been restricted to prevent their further deterioration. Photocopies of these embrittled items have been made available for researcher use.",
+                "extent": "2.25 linear ft.",
+                "displayEntry": "Ben Cunningham Papers, 1904-1969",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cunningham, Ben, 1904-1975",
+                        "id": "11400709",
+                        "version": "6361441"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11400710",
+                        "version": "6361441"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61w64wp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Syracuse University. Library. Special Collections Research Center",
+                            "preferenceScore": "99",
+                            "id": "84686122",
+                            "version": "11422184"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Special Collections Research Center, Syracuse University Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "222 Waverly Avenue Syracuse, NY 13244-2010",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84686143",
+                                    "version": "11422178"
+                                }
+                            ],
+                            "id": "84686142",
+                            "version": "11422178"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Special Collections Research Center, Syracuse University Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "222 Waverly Avenue Syracuse, NY 13244-2010",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84686141",
+                                    "version": "11422178"
+                                }
+                            ],
+                            "id": "84686140",
+                            "version": "11422178"
+                        }
+                    ],
+                    "id": "84686118",
+                    "version": "11422185"
+                },
+                "id": "6361441",
+                "version": "6361441"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Ben Cunningham Papers, 1904-1969",
+            "id": "5620278",
+            "version": "809417"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/library.syr.edu\/digital\/guides\/m\/manuscript_per.htm",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Special Collections Research Center, <lb\/> Syracuse University Libraries\n        <lb\/>\n                     <address>\n                        <addressline>222 Waverly Avenue<lb\/>\n                        <\/addressline>\n                        <addressline>Syracuse, NY 13244-2010<lb\/>\n                        <\/addressline>\n                        <addressline>\n                           <ptr\/>\n                        <\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <origination>\n                     <corpname>Manuscript (Athens, Ohio)<\/corpname>\n                  <\/origination>\n                  <unittitle>Manuscript (periodical) Records<\/unittitle>\n                  <unitdate>1933-1937<\/unitdate>\n                  <physdesc>\n                     <extent>1.5 linear ft.<\/extent>\n                  <\/physdesc>\n                  <abstract>\n                     <emph>Manuscript<\/emph>, a literary periodical edited by Flola Shepard, Mary Lawhead, and John Rood, was published 1934-1936.  Collection contains mostly incoming letters, also a few manuscript submissions, a complete run of the periodical, and miscellany. Correspondents include Nelson Algren, Frank Ankenbrand, Benjamin Appel, Ben Belitt, Oswell Blakeston, Warren Bower, John Malcolm Brinnin, Bob Brown, Dee Brown, Jack Conroy, Kyle Crichton, August Derleth, Peter De Vries, Murrell Edmunds, Zona Gale, Harlan Hatcher, Weldon Kees, Sherry Mangan, Alfred Mendes, Henry Miller, Alfred Morang, Irving Wallace, William Carlos Williams, and others.<\/abstract>\n                  <unitid>148790<\/unitid>\n                  <langmaterial>\n                     <language>\n                          English\n                       <\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Manuscript (periodical) Records 1933-1937",
+                "abstract": "Manuscript , a literary periodical edited by Flola Shepard, Mary Lawhead, and John Rood, was published 1934-1936.  Collection contains mostly incoming letters, also a few manuscript submissions, a complete run of the periodical, and miscellany. Correspondents include Nelson Algren, Frank Ankenbrand, Benjamin Appel, Ben Belitt, Oswell Blakeston, Warren Bower, John Malcolm Brinnin, Bob Brown, Dee Brown, Jack Conroy, Kyle Crichton, August Derleth, Peter De Vries, Murrell Edmunds, Zona Gale, Harlan Hatcher, Weldon Kees, Sherry Mangan, Alfred Mendes, Henry Miller, Alfred Morang, Irving Wallace, William Carlos Williams, and others.",
+                "extent": "1.5 linear ft.",
+                "displayEntry": "Manuscript (periodical) Records, 1933-1937",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11402169",
+                        "version": "6362183"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61w64wp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Syracuse University. Library. Special Collections Research Center",
+                            "preferenceScore": "99",
+                            "id": "84686122",
+                            "version": "11422184"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Special Collections Research Center, Syracuse University Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "222 Waverly Avenue Syracuse, NY 13244-2010",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84686143",
+                                    "version": "11422178"
+                                }
+                            ],
+                            "id": "84686142",
+                            "version": "11422178"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Special Collections Research Center, Syracuse University Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "222 Waverly Avenue Syracuse, NY 13244-2010",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84686141",
+                                    "version": "11422178"
+                                }
+                            ],
+                            "id": "84686140",
+                            "version": "11422178"
+                        }
+                    ],
+                    "id": "84686118",
+                    "version": "11422185"
+                },
+                "id": "6362183",
+                "version": "6362183"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Manuscript (periodical) Records, 1933-1937",
+            "id": "5620277",
+            "version": "809417"
+        }
+    ],
+    "id": "5620247",
+    "version": "809418",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1880",
+            "fromDateOriginal": "active 1880",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1963",
+            "toDateOriginal": "active 1963",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "5620248",
+            "version": "809417"
+        }
+    ]
+}

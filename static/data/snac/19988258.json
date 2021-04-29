@@ -1,0 +1,208 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fs500p",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T07:45:35",
+            "standardDateTime": "2016-08-11T07:45:35",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T07:45:35",
+            "standardDateTime": "2016-08-11T07:45:35",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/20410.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WTVI<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/inv\/h\/Hamilton,George_IV.html",
+            "id": "19988259",
+            "version": "2919362"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WTVI",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WTVI",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "19988261",
+                    "version": "2919362"
+                }
+            ],
+            "id": "19988260",
+            "version": "2919362",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78439473",
+                    "version": "2919362"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "19988258",
+            "targetConstellation": "40193611",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fs500p",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64t6gds",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Hamilton, George, 1937-",
+            "id": "19988264",
+            "version": "2919362"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/inv\/h\/Hamilton,George_IV.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>University of North Carolina at Chapel Hill. Library. Southern\n     Folklife Collection.<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <persname>Hamilton, George, 1937-<\/persname>\n                  <\/origination>\n                  <unittitle>George Hamilton IV Collection, <unitdate>1956-2006<\/unitdate>\n                  <\/unittitle>\n                  <unitid>20410<\/unitid>\n                  <langmaterial>Materials in <language>English<\/language>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>2300<\/extent>\n                     <extent>7.0<\/extent>\n                  <\/physdesc>\n                  <abstract>Country musician and native North Carolinian\n    George Hamilton IV was born on 19 July 1937. In 1956, while a student at the University of North\n    Carolina, Hamilton recorded the song <title>A Rose and a Baby Ruth<\/title>\n    for Colonial Records, a local label. From that recording, Hamilton went on make the transition\n    to country music. He soon became a mainstay at the Grand Ole Opry and, through his work abroad,\n    eventually became known as the International Ambassador of Country Music.<\/abstract>\n                  <abstract>The collection includes audiovisual materials, papers, posters,\n    and photographs pertaining to the life and career of George Hamilton IV. Audio recordings\n    consist of audiocassettes, open reel recordings, and transcription disc recordings of\n    perfomances, interviews, radio shows, and an early recording session, all featuring Hamilton.\n    Included are recordings of the BBC's <title>How the West Was Sung<\/title>;\n     <title>Country Crossroads<\/title>; <title>The Ralph Emery\n    Show<\/title>; a recording of Hamilton's first performance at the Grand Ole Opry; a 1956\n    recording session at Colonial Records; interviews for BBC Radio and Radio Scotland; and other\n    recorded performances and interviews. Also in the collection is a demo tape of <title>Gentle on My Mind<\/title> by John Hartford. Visual materials include films\n    and videotapes of television shows and promotional spots from the United States, Great Britain,\n    and Canada. Papers consist of newspaper clippings, press releases and other promotional\n    materials, programs, correspondence, posters, and other materials pertaining to Hamilton's\n    career. Photographs consist of both professional and candid photographs of George Hamilton IV,\n    his family and friends, and associated musicians and music industry professionals, including\n    David Allan, Chet Atkins, Jiri Brabec, Charles Chilton, Jim Clark, Patsy Cline, Mervyn Conn,\n    Clarence Count, Country Express, Skeeter Davis, Pat Derry, Bruce Eller, Connie B. Gay, Walt\n    Grealis, Rolf Harris, The Hillsiders, Frank Ifield, Gordon Lightfoot, John D. Loudermilk,\n    Loretta Lynn, Miki &amp; Griff, Jimmy Moore, Anne Murray, Olivia Newton-John, Jack Rodgers,\n    Slim Whitman, Wally Whyton, and Paul Yandell.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "George Hamilton IV Collection, 1956-2006",
+                "abstract": "Country musician and native North Carolinian    George Hamilton IV was born on 19 July 1937. In 1956, while a student at the University of North    Carolina, Hamilton recorded the song for Colonial Records, a local label. From that recording, Hamilton went on make the transition    to country music. He soon became a mainstay at the Grand Ole Opry and, through his work abroad,    eventually became known as the International Ambassador of Country Music. A Rose and a Baby Ruth The collection includes audiovisual materials, papers, posters,    and photographs pertaining to the life and career of George Hamilton IV. Audio recordings    consist of audiocassettes, open reel recordings, and transcription disc recordings of    perfomances, interviews, radio shows, and an early recording session, all featuring Hamilton.    Included are recordings of the BBC's ; ; ; a recording of Hamilton's first performance at the Grand Ole Opry; a 1956    recording session at Colonial Records; interviews for BBC Radio and Radio Scotland; and other    recorded performances and interviews. Also in the collection is a demo tape of by John Hartford. Visual materials include films    and videotapes of television shows and promotional spots from the United States, Great Britain,    and Canada. Papers consist of newspaper clippings, press releases and other promotional    materials, programs, correspondence, posters, and other materials pertaining to Hamilton's    career. Photographs consist of both professional and candid photographs of George Hamilton IV,    his family and friends, and associated musicians and music industry professionals, including    David Allan, Chet Atkins, Jiri Brabec, Charles Chilton, Jim Clark, Patsy Cline, Mervyn Conn,    Clarence Count, Country Express, Skeeter Davis, Pat Derry, Bruce Eller, Connie B. Gay, Walt    Grealis, Rolf Harris, The Hillsiders, Frank Ifield, Gordon Lightfoot, John D. Loudermilk,    Loretta Lynn, Miki & Griff, Jimmy Moore, Anne Murray, Olivia Newton-John, Jack Rodgers,    Slim Whitman, Wally Whyton, and Paul Yandell. How the West Was Sung Country Crossroads The Ralph Emery    Show Gentle on My Mind",
+                "extent": "2300; 7.0",
+                "displayEntry": "George Hamilton IV Collection, 1956-2006",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hamilton, George, 1937-",
+                        "id": "11592416",
+                        "version": "6626963"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11592417",
+                        "version": "6626963"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6q35",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill. Library. Southern Folklife Collection.",
+                            "preferenceScore": "99",
+                            "id": "76797871",
+                            "version": "11241653"
+                        }
+                    ],
+                    "id": "76797870",
+                    "version": "11241656"
+                },
+                "id": "6626963",
+                "version": "6626963"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "George Hamilton IV Collection, 1956-2006",
+            "id": "19988265",
+            "version": "2919362"
+        }
+    ],
+    "id": "19988258",
+    "version": "2919363"
+}

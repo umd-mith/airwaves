@@ -1,0 +1,782 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6c02826",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T02:07:36",
+            "standardDateTime": "2016-08-14T02:07:36",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T02:07:36",
+            "standardDateTime": "2016-08-14T02:07:36",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/41385792",
+            "id": "42550499",
+            "version": "6214487"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/155989609",
+            "id": "42550502",
+            "version": "6214487"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/umn\/sw0161.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"610\" rules=\"aacr2\" source=\"lcnaf\">Twin City Area Educational Television Corporation (Saint Paul, Minn.)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/special.lib.umn.edu\/findaid\/xml\/sw0161.xml",
+            "id": "42550501",
+            "version": "6214487"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/63285828",
+            "id": "42550498",
+            "version": "6214487"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/63313573",
+            "id": "42550500",
+            "version": "6214487"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "42550503",
+            "version": "6214487"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Twin City Area Educational Television Corporation (Saint Paul, Minn.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Twin City Area Educational Television Corporation (Saint Paul, Minn.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "42550505",
+                    "version": "6214487"
+                }
+            ],
+            "id": "42550504",
+            "version": "6214487",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"umn\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80277841",
+                    "version": "6214487"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "42550497",
+            "targetConstellation": "63242904",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6c02826",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6gw0zq4",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Heckman, Aldred A.",
+            "id": "42550518",
+            "version": "6214487"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "42550497",
+            "targetConstellation": "73929890",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6c02826",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w628384f",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Heckman, Aldred A.",
+            "id": "42550517",
+            "version": "6214487"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Twin City Area Educational Television Corporation (Saint Paul, Minn.)",
+            "uri": "https:\/\/viaf.org\/viaf\/155989609",
+            "id": "42550514",
+            "version": "6214487"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n84124839",
+            "id": "42550515",
+            "version": "6214487"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n84124839",
+            "id": "42550516",
+            "version": "6214487"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/63285828",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:63285828<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-MNU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Heckman, Aldred A.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Aldred A. Heckman papers, 1930-1979.<\/title>\n                  <\/titleInfo>\n                  <abstract>The collection includes Heckman's speeches, professional correspondence, and working files from his agency, foundation, and voluntary activities, reflecting his involvement in national professional associations, and in St. Paul civic affairs. Heckman's interest in social policy issues, such as the delivery and management of health care services, education, corrections, and family relief are well-documented. Also included are surveys Heckman conducted in the 1930s and 1940s of community chests and family service agencies. <\/abstract>\n                  <name>\n                     <namePart>University of Minnesota, Minneapolis<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Aldred A. Heckman papers, 1930-1979.",
+                "abstract": "The collection includes Heckman's speeches, professional correspondence, and working files from his agency, foundation, and voluntary activities, reflecting his involvement in national professional associations, and in St. Paul civic affairs. Heckman's interest in social policy issues, such as the delivery and management of health care services, education, corrections, and family relief are well-documented. Also included are surveys Heckman conducted in the 1930s and 1940s of community chests and family service agencies. ",
+                "extent": "1 linear ft.",
+                "displayEntry": "Heckman, Aldred A. Aldred A. Heckman papers, 1930-1979.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Heckman, Aldred A.",
+                        "id": "10473836",
+                        "version": "7885248"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6p66b5r",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Minnesota, Minneapolis",
+                            "preferenceScore": "99",
+                            "id": "76787104",
+                            "version": "11234089"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Minnesota, Minneapolis",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "499 Wilson Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787109",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "309 19th Ave S",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787110",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Minneapolis",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787111",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MN",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787112",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "55455-0414",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787113",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787114",
+                                    "version": "11234089"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16069",
+                                "name": "University of Minnesota, Minneapolis",
+                                "latitude": "44.9761000",
+                                "longitude": "-93.2309000"
+                            },
+                            "confirmed": true,
+                            "id": "76787108",
+                            "version": "11234089"
+                        }
+                    ],
+                    "id": "76787103",
+                    "version": "11234092"
+                },
+                "id": "7885248",
+                "version": "7885248"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Heckman, Aldred A. Aldred A. Heckman papers, 1930-1979.",
+            "id": "42550519",
+            "version": "6214487"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/special.lib.umn.edu\/findaid\/xml\/sw0161.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>University of\n\t\t  Minnesota Libraries. <subarea>Social Welfare History\n\t\t  Archives [swha]<\/subarea>\n                  <\/repository>\n                  <origination>Heckman, Aldred\n\t\t  A.<\/origination>\n                  <unittitle>Aldred A. Heckman\n\t\t  papers<\/unittitle>\n                  <unitdate>1930-1979<\/unitdate>\n                  <physdesc>\n                     <extent>1 linear\n\t\t  feet<\/extent>\n                  <\/physdesc>\n                  <abstract>The collection includes\n\t\t  Heckman's speeches, professional correspondence, and working files from his\n\t\t  agency, foundation, and voluntary activities, reflecting his involvement in\n\t\t  national professional associations, and in St. Paul civic affiars. Heckman's\n\t\t  interest in social policy issues, such as the delivery and management of health\n\t\t  care services, education, corrections, and family relief are well-documented.\n\t\t  Also included are surveys Heckman conducted in the 1930s and 1940s of community\n\t\t  chests and family service agencies. <\/abstract>\n                  <unitid>SW 161<\/unitid>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Aldred A. Heckman  papers 1930-1979",
+                "abstract": "The collection includes  Heckman's speeches, professional correspondence, and working files from his  agency, foundation, and voluntary activities, reflecting his involvement in  national professional associations, and in St. Paul civic affiars. Heckman's  interest in social policy issues, such as the delivery and management of health  care services, education, corrections, and family relief are well-documented.  Also included are surveys Heckman conducted in the 1930s and 1940s of community  chests and family service agencies.",
+                "extent": "1 linear  feet",
+                "displayEntry": "Aldred A. Heckman papers, 1930-1979",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11599475",
+                        "version": "6618617"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gv6b23",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Minnesota Libraries. Social Welfare History Archives. [swha]",
+                            "preferenceScore": "99",
+                            "id": "76797790",
+                            "version": "11241565"
+                        }
+                    ],
+                    "id": "76797789",
+                    "version": "11241568"
+                },
+                "id": "6618617",
+                "version": "6618617"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Aldred A. Heckman papers, 1930-1979",
+            "id": "42550522",
+            "version": "6214487"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/41385792",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:41385792<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-MHS<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>KTCA-TV (Television station : Saint Paul, Minn.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Twin City Area Educational Television Corporation (Saint Paul, Minn.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>KTCA-TV and KTCI-TV program guide collection, 1962-1974.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Minnesota Historical Society Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "KTCA-TV and KTCI-TV program guide collection, 1962-1974.",
+                "extent": "v. : ill.",
+                "displayEntry": "Twin City Area Educational Television Corporation (Saint Paul, Minn.). KTCA-TV and KTCI-TV program guide collection, 1962-1974.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KTCA-TV (Television station : Saint Paul, Minn.)",
+                        "id": "9639406",
+                        "version": "7436406"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Twin City Area Educational Television Corporation (Saint Paul, Minn.)",
+                        "id": "9639407",
+                        "version": "7436406"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6524mqf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Minnesota Historical Society Library",
+                            "preferenceScore": "99",
+                            "id": "76774860",
+                            "version": "11229585"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Minnesota Historical Society Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "345 Kellogg Boulevard West",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774865",
+                                    "version": "11229585"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "St. Paul",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774866",
+                                    "version": "11229585"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MN",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774867",
+                                    "version": "11229585"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "55102-1906",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774868",
+                                    "version": "11229585"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774869",
+                                    "version": "11229585"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16488",
+                                "name": "Minnesota Historical Society Library",
+                                "latitude": "44.9399986",
+                                "longitude": "-93.0899963"
+                            },
+                            "confirmed": true,
+                            "id": "76774864",
+                            "version": "11229585"
+                        }
+                    ],
+                    "id": "76774859",
+                    "version": "11229588"
+                },
+                "id": "7436406",
+                "version": "7436406"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Twin City Area Educational Television Corporation (Saint Paul, Minn.). KTCA-TV and KTCI-TV program guide collection, 1962-1974.",
+            "id": "42550520",
+            "version": "6214487"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/63313573",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:63313573<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-MNU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Heckman, Aldred A.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Aldred A. Heckman papers, [microfilm], 1930-1979.<\/title>\n                  <\/titleInfo>\n                  <abstract>The collection includes Heckman's speeches, professional correspondence, and working files from his agency, foundation, and voluntary activities, reflecting his involvement in national professional associations, and in St. Paul civic affairs. Heckman's interest in social policy issues, such as the delivery and management of health care services, education, corrections, and family relief are well-documented. Also included are surveys Heckman conducted in the 1930s and 1940s of community chests and family service agencies. <\/abstract>\n                  <name>\n                     <namePart>University of Minnesota, Minneapolis<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Aldred A. Heckman papers, [microfilm], 1930-1979.",
+                "abstract": "The collection includes Heckman's speeches, professional correspondence, and working files from his agency, foundation, and voluntary activities, reflecting his involvement in national professional associations, and in St. Paul civic affairs. Heckman's interest in social policy issues, such as the delivery and management of health care services, education, corrections, and family relief are well-documented. Also included are surveys Heckman conducted in the 1930s and 1940s of community chests and family service agencies. ",
+                "extent": "26 reels.",
+                "displayEntry": "Heckman, Aldred A. Aldred A. Heckman papers, [microfilm], 1930-1979.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Heckman, Aldred A.",
+                        "id": "10475172",
+                        "version": "7886107"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6p66b5r",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Minnesota, Minneapolis",
+                            "preferenceScore": "99",
+                            "id": "76787104",
+                            "version": "11234089"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Minnesota, Minneapolis",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "499 Wilson Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787109",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "309 19th Ave S",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787110",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Minneapolis",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787111",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MN",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787112",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "55455-0414",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787113",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787114",
+                                    "version": "11234089"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16069",
+                                "name": "University of Minnesota, Minneapolis",
+                                "latitude": "44.9761000",
+                                "longitude": "-93.2309000"
+                            },
+                            "confirmed": true,
+                            "id": "76787108",
+                            "version": "11234089"
+                        }
+                    ],
+                    "id": "76787103",
+                    "version": "11234092"
+                },
+                "id": "7886107",
+                "version": "7886107"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Heckman, Aldred A. Aldred A. Heckman papers, [microfilm], 1930-1979.",
+            "id": "42550521",
+            "version": "6214487"
+        }
+    ],
+    "id": "42550497",
+    "version": "6214488"
+}

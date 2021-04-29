@@ -1,0 +1,389 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6th9f41",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-21",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T20:51:24",
+            "standardDateTime": "2016-08-11T20:51:24",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T20:51:24",
+            "standardDateTime": "2016-08-11T20:51:24",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122631632",
+            "id": "25041406",
+            "version": "3659579"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Wright, Kenneth D.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Wright, Kenneth D.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "25041408",
+                    "version": "3659579"
+                }
+            ],
+            "id": "25041407",
+            "version": "3659579",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78851242",
+                    "version": "3659579"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "25041404",
+            "targetConstellation": "25665254",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6th9f41",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6z36v05",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "H.W. Jacobs Co.",
+            "id": "25041418",
+            "version": "3659579"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "25041404",
+            "targetConstellation": "32677075",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6th9f41",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ms8nww",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Pleasant Grove Canning Company.",
+            "id": "25041419",
+            "version": "3659579"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122631632",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122631632<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UNU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Wright, Kenneth D.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>History of canning in northern Utah County : Pleasant Grove Canning Company; Clifford L. Wright, Manager, years 1927-1938. 1986.<\/title>\n                  <\/titleInfo>\n                  <abstract>Documentary history of H.W. Jacobs Co. Cannery. <\/abstract>\n                  <name>\n                     <namePart>Utah Historical Society<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "History of canning in northern Utah County : Pleasant Grove Canning Company; Clifford L. Wright, Manager, years 1927-1938. 1986.",
+                "abstract": "Documentary history of H.W. Jacobs Co. Cannery. ",
+                "extent": "400 pp. : photocopy.",
+                "displayEntry": "Wright, Kenneth D. History of canning in northern Utah County : Pleasant Grove Canning Company; Clifford L. Wright, Manager, years 1927-1938. 1986.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Wright, Kenneth D.",
+                        "id": "8588354",
+                        "version": "6796429"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6cs6h13",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Utah Division of State History, Utah Historical Society",
+                            "preferenceScore": "99",
+                            "id": "76789317",
+                            "version": "11234841"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Utah Division of State History, Utah Historical Society",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "300 Rio Grande",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789322",
+                                    "version": "11234841"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Salt Lake City",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789323",
+                                    "version": "11234841"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-UT",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789324",
+                                    "version": "11234841"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "84101",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789325",
+                                    "version": "11234841"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789326",
+                                    "version": "11234841"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16367",
+                                "name": "Utah Division of State History, Utah Historical Society",
+                                "latitude": "40.7625923",
+                                "longitude": "-111.9042430"
+                            },
+                            "confirmed": true,
+                            "id": "76789321",
+                            "version": "11234841"
+                        }
+                    ],
+                    "id": "76789316",
+                    "version": "11234844"
+                },
+                "id": "6796429",
+                "version": "6796429"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Wright, Kenneth D. History of canning in northern Utah County : Pleasant Grove Canning Company; Clifford L. Wright, Manager, years 1927-1938. 1986.",
+            "id": "25041420",
+            "version": "3659579"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Pleasant Grove (Utah)",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "25041413",
+            "version": "3659579",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Pleasant Grove (Utah)",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "25041414",
+                    "version": "3659579"
+                }
+            ]
+        },
+        {
+            "dataType": "Place",
+            "original": "Utah--Utah County",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "25041411",
+            "version": "3659579",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Utah--Utah County",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "25041412",
+                    "version": "3659579"
+                }
+            ]
+        },
+        {
+            "dataType": "Place",
+            "original": "Utah County (Utah)",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "25041415",
+            "version": "3659579",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Utah County (Utah)",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "25041416",
+                    "version": "3659579"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "81685",
+                "term": "Canned foods industry--History",
+                "type": "subject"
+            },
+            "id": "25041417",
+            "version": "3659579"
+        }
+    ],
+    "id": "25041404",
+    "version": "3659580",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDateOriginal": "active 1986",
+            "id": "25041405",
+            "version": "3659579"
+        }
+    ]
+}

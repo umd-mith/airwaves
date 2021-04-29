@@ -1,0 +1,214 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w66z4p8q",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T21:33:09",
+            "standardDateTime": "2016-08-17T21:33:09",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T21:33:09",
+            "standardDateTime": "2016-08-17T21:33:09",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/04589.xml<\/filename>\n                  <ead_entity en_type=\"persname\">William Bowden<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/inv\/s\/Southern_Growth_Policies_Board.html",
+            "id": "66246537",
+            "version": "9686924"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "William Bowden",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "William Bowden",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "66246539",
+                    "version": "9686924"
+                }
+            ],
+            "id": "66246538",
+            "version": "9686924",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82221660",
+                    "version": "9686924"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "66246536",
+            "targetConstellation": "13916625",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66z4p8q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w68968wn",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Southern Growth Policies Board.",
+            "id": "66246542",
+            "version": "9686924"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/inv\/s\/Southern_Growth_Policies_Board.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Southern Growth Policies Board Records, <unitdate>1971-1999<\/unitdate>\n                  <\/unittitle>\n                  <origination>\n                     <corpname>Southern Growth Policies Board.<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>85,000<\/extent>\n                     <extent>204<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Southern Historical Collection<\/corpname>\n                  <\/repository>\n                  <abstract>The Southern Growth Policies Board (SGPB),\n    established in 1971, is a public research agency governed and supported by the state governments\n    of the southern United States, which analyzes information and makes policy recommendations to\n    promote sound economic development of the region. Its offices are located in Research Triangle\n    Park, N.C.<\/abstract>\n                  <abstract>Records include the SGPB's organizational files, including\n    administrative, financial, and business papers; records on the administration and performance of\n    grants and special projects; records on the administration and activities of adjunct\n    organizations; copies of SGPB's major publications; subject files on individual states, internal\n    committees, outside organizations, and miscellaneous topics; and other materials, mostly\n    nonprint. The records cover a wide variety of topics, including growth management, natural\n    resources, vocational education, urban and rural growth, transportation, international trade\n    opportunities, and technological advancement in the South. Record types include correspondence\n    and memoranda, financial and business papers, personnel records, subject files, reports and\n    publications, promotional and conference materials, photographs, slides, audio and video tapes,\n    films, and computer tapes.<\/abstract>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Southern Growth Policies Board Records, 1971-1999",
+                "abstract": "The Southern Growth Policies Board (SGPB),    established in 1971, is a public research agency governed and supported by the state governments    of the southern United States, which analyzes information and makes policy recommendations to    promote sound economic development of the region. Its offices are located in Research Triangle    Park, N.C. Records include the SGPB's organizational files, including    administrative, financial, and business papers; records on the administration and performance of    grants and special projects; records on the administration and activities of adjunct    organizations; copies of SGPB's major publications; subject files on individual states, internal    committees, outside organizations, and miscellaneous topics; and other materials, mostly    nonprint. The records cover a wide variety of topics, including growth management, natural    resources, vocational education, urban and rural growth, transportation, international trade    opportunities, and technological advancement in the South. Record types include correspondence    and memoranda, financial and business papers, personnel records, subject files, reports and    publications, promotional and conference materials, photographs, slides, audio and video tapes,    films, and computer tapes.",
+                "extent": "85,000; 204",
+                "displayEntry": "Southern Growth Policies Board Records, 1971-1999",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11610415",
+                        "version": "6629084"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b38j9n",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill. Library. Southern Historical Collection",
+                            "preferenceScore": "99",
+                            "id": "83559850",
+                            "version": "11276388"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Southern States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83559866",
+                            "version": "11275999"
+                        }
+                    ],
+                    "id": "83559846",
+                    "version": "11276399"
+                },
+                "id": "6629084",
+                "version": "6629084"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Southern Growth Policies Board Records, 1971-1999",
+            "id": "66246543",
+            "version": "9686924"
+        }
+    ],
+    "id": "66246536",
+    "version": "9686925"
+}

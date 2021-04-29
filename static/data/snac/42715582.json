@@ -1,0 +1,474 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fk5ssf",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-04",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T02:41:45",
+            "standardDateTime": "2016-08-14T02:41:45",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T02:41:45",
+            "standardDateTime": "2016-08-14T02:41:45",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/140589842",
+            "id": "42715584",
+            "version": "6239093"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/sch01266.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Canadian Institute on Public Affairs,<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/sch01266\/catalog",
+            "id": "42715583",
+            "version": "6239093"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "42715585",
+            "version": "6239093"
+        }
+    ],
+    "languagesUsed": [
+        {
+            "dataType": "Language",
+            "language": {
+                "id": "144",
+                "term": "fre",
+                "type": "language_code",
+                "description": "French"
+            },
+            "script": {
+                "id": "685",
+                "term": "Zyyy",
+                "type": "script_code",
+                "description": "Code for undetermined script"
+            },
+            "id": "42715586",
+            "version": "6239093"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Canadian Institute on Public Affairs",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Canadian Institute on Public Affairs",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "42715588",
+                    "version": "6239093"
+                }
+            ],
+            "id": "42715587",
+            "version": "6239093",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    },\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LAC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80291534",
+                    "version": "6239093"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Institut canadien des affaires publiques",
+            "preferenceScore": "98",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Institut canadien des affaires publiques",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "42715594",
+                    "version": "6239093"
+                }
+            ],
+            "id": "42715593",
+            "version": "6239093",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LAC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80291535",
+                    "version": "6239093"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Canadian Institute of Public Affairs",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Canadian Institute of Public Affairs",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "42715598",
+                    "version": "6239093"
+                }
+            ],
+            "id": "42715597",
+            "version": "6239093",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80291536",
+                    "version": "6239093"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": " ICAP",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": " ICAP",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "42715601",
+                    "version": "6239093"
+                }
+            ],
+            "id": "42715600",
+            "version": "6239093",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80291537",
+                    "version": "6239093"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "42715582",
+            "targetConstellation": "17401030",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fk5ssf",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dz129f",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Calderone, Mary Steichen, 1904-1998",
+            "id": "42715609",
+            "version": "6239093"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Canadian Institute on Public Affairs",
+            "uri": "https:\/\/viaf.org\/viaf\/140589842",
+            "id": "42715606",
+            "version": "6239093"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n50-039289",
+            "id": "42715607",
+            "version": "6239093"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n50039289",
+            "id": "42715608",
+            "version": "6239093"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/sch01266\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unitid>MC 622, T-367; MP-11; Phon-53<\/unitid>\n                  <repository>\n                     <extref>Schlesinger Library, Radcliffe Institute<\/extref>\n                  <\/repository>\n                  <origination>\n                     <persname>Calderone, Mary Steichen, 1904-1998<\/persname>\n                  <\/origination>\n                  <unittitle>Additional papers of Mary Steichen Calderone, <unitdate>1914-1989<\/unitdate> (inclusive), <unitdate>1960-1989<\/unitdate> (bulk)<\/unittitle>\n                  <physdesc>\n                     <extent>19.31 linear ft.<\/extent> (44 \u00bd files boxes, 3 card file boxes) plus 1 folio+ folder, 1 oversize folder, 1 supersize folder, 8 photograph folders, 1 folio photograph folder, 26 audiotapes, 1 motion picture, 4 phonograph disks.<\/physdesc>\n                  <langmaterial>Materials in English.<\/langmaterial>\n                  <abstract>Additional papers of Mary Steichen Calderone, physician and pioneer in the field of sex education, consisting of biographical material, speeches, conference material, correspondence, writings, audiotapes, photographs, clippings, etc.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Additional papers of Mary Steichen Calderone, (inclusive), (bulk) 1914-1989 1960-1989",
+                "abstract": "Additional papers of Mary Steichen Calderone, physician and pioneer in the field of sex education, consisting of biographical material, speeches, conference material, correspondence, writings, audiotapes, photographs, clippings, etc.",
+                "extent": "19.31 linear ft.",
+                "displayEntry": "Additional papers of Mary Steichen Calderone, (inclusive), (bulk), 1914-1989, 1960-1989",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Calderone, Mary Steichen, 1904-1998",
+                        "id": "11440566",
+                        "version": "6387297"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6q060rg",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Arthur and Elizabeth Schlesinger Library on the History of Women in America\u200f",
+                            "preferenceScore": "99",
+                            "id": "84708946",
+                            "version": "11425596"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts--Cambridge",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84708988",
+                            "version": "11425596"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Schlesinger Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10 Garden St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708982",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708983",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708984",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708985",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708986",
+                                    "version": "11425596"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16330",
+                                "name": "Harvard University, Schlesinger Library",
+                                "latitude": "42.3782959",
+                                "longitude": "-71.1304474"
+                            },
+                            "confirmed": true,
+                            "id": "84708981",
+                            "version": "11425596"
+                        }
+                    ],
+                    "id": "84708935",
+                    "version": "11425606"
+                },
+                "id": "6387297",
+                "version": "6387297"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Additional papers of Mary Steichen Calderone, (inclusive), (bulk), 1914-1989, 1960-1989",
+            "id": "42715610",
+            "version": "6239093"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "400281",
+                "term": "Canadians",
+                "type": "nationality"
+            },
+            "id": "42715603",
+            "version": "6239093"
+        }
+    ],
+    "id": "42715582",
+    "version": "6239094"
+}

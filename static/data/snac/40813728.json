@@ -1,0 +1,594 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6mq77qm",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-02-25",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T20:19:23",
+            "standardDateTime": "2016-08-13T20:19:23",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T20:19:23",
+            "standardDateTime": "2016-08-13T20:19:23",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/stanford\/cstmus\/heifetz_ars_0046.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" role=\"Performer (prf)\" source=\"naf\">New Symphony Orchestra of London<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt409nf2jz",
+            "id": "40813729",
+            "version": "5961605"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/290086771",
+            "id": "40813730",
+            "version": "5961605"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "40813731",
+            "version": "5961605"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "New symphony orchestra of London",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "New symphony orchestra of London",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40813733",
+                    "version": "5961605"
+                }
+            ],
+            "id": "40813732",
+            "version": "5961605",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"NLA\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80136734",
+                    "version": "5961605"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "New Symphony Orchestra (Londyn).",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "New Symphony Orchestra (Londyn).",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40813740",
+                    "version": "5961605"
+                }
+            ],
+            "id": "40813739",
+            "version": "5961605",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80136735",
+                    "version": "5961605"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "NSO",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "NSO",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40813743",
+                    "version": "5961605"
+                }
+            ],
+            "id": "40813742",
+            "version": "5961605",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80136736",
+                    "version": "5961605"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Nouvel orchestre symphonique de Londres",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Nouvel orchestre symphonique de Londres",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40813746",
+                    "version": "5961605"
+                }
+            ],
+            "id": "40813745",
+            "version": "5961605",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80136737",
+                    "version": "5961605"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "New Symphony Orchestra (London, England)",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "New Symphony Orchestra (London, England)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40813749",
+                    "version": "5961605"
+                }
+            ],
+            "id": "40813748",
+            "version": "5961605",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80136738",
+                    "version": "5961605"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": " New orchestra of London",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": " New orchestra of London",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40813752",
+                    "version": "5961605"
+                }
+            ],
+            "id": "40813751",
+            "version": "5961605",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80136739",
+                    "version": "5961605"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "New Symphony Orchestra (Lond\u00fdn, Anglie)",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "New Symphony Orchestra (Lond\u00fdn, Anglie)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40813755",
+                    "version": "5961605"
+                }
+            ],
+            "id": "40813754",
+            "version": "5961605",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80136740",
+                    "version": "5961605"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "New Symphony Orchestra",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "New Symphony Orchestra",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40813758",
+                    "version": "5961605"
+                }
+            ],
+            "id": "40813757",
+            "version": "5961605",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80136741",
+                    "version": "5961605"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "New Symphony Orchestra (Londona, Lielbrit\u0101nija)",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "New Symphony Orchestra (Londona, Lielbrit\u0101nija)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40813761",
+                    "version": "5961605"
+                }
+            ],
+            "id": "40813760",
+            "version": "5961605",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80136742",
+                    "version": "5961605"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "New Symphony Orchestra, London.",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "New Symphony Orchestra, London.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40813764",
+                    "version": "5961605"
+                }
+            ],
+            "id": "40813763",
+            "version": "5961605",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80136743",
+                    "version": "5961605"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "New London Symphony Orchestra.",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "New London Symphony Orchestra.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40813767",
+                    "version": "5961605"
+                }
+            ],
+            "id": "40813766",
+            "version": "5961605",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80136744",
+                    "version": "5961605"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "40813728",
+            "targetConstellation": "5498414",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mq77qm",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bs6g9z",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Pfeiffer, John, 1920-",
+            "id": "40813775",
+            "version": "5961605"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "New symphony orchestra of London",
+            "uri": "https:\/\/viaf.org\/viaf\/290086771",
+            "id": "40813772",
+            "version": "5961605"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n84-043320",
+            "id": "40813773",
+            "version": "5961605"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n84043320",
+            "id": "40813774",
+            "version": "5961605"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt409nf2jz",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Jascha Heifetz Collection<\/unittitle>\n                  <unitid>ARS.0046<\/unitid>\n                  <repository>\n                     <corpname>Archive of Recorded Sound, Stanford University Libraries<\/corpname>\n                     <address>\n                        <addressline>Stanford, California 94305-3076<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <physdesc>\n                     <extent>26 boxes (16.8 linear ft.): <\/extent>\n                     <extent>21 boxes of 10\" and 12\" sound discs (11.4 linear ft.); 5 boxes of 12\" open reel tapes (5.4 linear ft.)<\/extent>\n                  <\/physdesc>\n                  <unitdate>1911-1972<\/unitdate>\n                  <abstract>The collection contains primarily sound recordings of performances of Jascha Heifetz, but it also includes recordings of other artists, some of whom were collaborators with Heifetz, as well as one recording of his teacher, Leopold Auer. There are 920 10\" and 12\" sound discs, including test pressings, instantaneous discs and commercially released records. Most of the discs are 78 rpm recordings, but there are also a few 33 1\/3 rpm discs. In addition to audio discs, the collection contains 1\/4\" magnetic tape recordings on 88 open reels. 61 of the tapes, made between December 14, 1954 and November 21, 1972, include date information on the boxes. 27 of the tapes are in boxes which are undated; however, recording dates for most of those tapes have been provided in the donor's inventory, which is also included in the collection.<\/abstract>\n                  <langmaterial>English, French, German, Spanish, Hungarian, Arabic, Italian, Japanese<\/langmaterial>\n                  <origination>\n                     <persname>Pfeiffer, John, 1920-<\/persname>\n                  <\/origination>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Jascha Heifetz Collection 1911-1972",
+                "abstract": "The collection contains primarily sound recordings of performances of Jascha Heifetz, but it also includes recordings of other artists, some of whom were collaborators with Heifetz, as well as one recording of his teacher, Leopold Auer. There are 920 10\" and 12\" sound discs, including test pressings, instantaneous discs and commercially released records. Most of the discs are 78 rpm recordings, but there are also a few 33 1\/3 rpm discs. In addition to audio discs, the collection contains 1\/4\" magnetic tape recordings on 88 open reels. 61 of the tapes, made between December 14, 1954 and November 21, 1972, include date information on the boxes. 27 of the tapes are in boxes which are undated; however, recording dates for most of those tapes have been provided in the donor's inventory, which is also included in the collection.",
+                "extent": "26 boxes (16.8 linear ft.):; 21 boxes of 10\" and 12\" sound discs (11.4 linear ft.); 5 boxes of 12\" open reel tapes (5.4 linear ft.)",
+                "displayEntry": "Jascha Heifetz Collection, 1911-1972",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Pfeiffer, John, 1920-",
+                        "id": "11287299",
+                        "version": "6654923"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60684n3",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archive of Recorded Sound, Stanford University Libraries",
+                            "preferenceScore": "99",
+                            "id": "76791756",
+                            "version": "11235853"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Archive of Recorded Sound, Stanford University Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford, California 94305-3076",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791759",
+                                    "version": "11235853"
+                                }
+                            ],
+                            "id": "76791758",
+                            "version": "11235853"
+                        }
+                    ],
+                    "id": "76791755",
+                    "version": "11235856"
+                },
+                "id": "6654923",
+                "version": "6654923"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Jascha Heifetz Collection, 1911-1972",
+            "id": "40813776",
+            "version": "5961605"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "400318",
+                "term": "Britons",
+                "type": "nationality"
+            },
+            "id": "40813769",
+            "version": "5961605"
+        }
+    ],
+    "id": "40813728",
+    "version": "5961606"
+}

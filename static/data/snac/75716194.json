@@ -1,0 +1,207 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6h00btc",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-05",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T16:01:34",
+            "standardDateTime": "2016-08-19T16:01:34",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T16:01:34",
+            "standardDateTime": "2016-08-19T16:01:34",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/uct\/MSS19980369.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WTIC<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/Kennelly\/MSS19980369.html",
+            "id": "75716195",
+            "version": "11067089"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WTIC",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WTIC",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "75716197",
+                    "version": "11067089"
+                }
+            ],
+            "id": "75716196",
+            "version": "11067089",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"uct\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82996832",
+                    "version": "11067089"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75716194",
+            "targetConstellation": "57938287",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6h00btc",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6r65w1t",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Kennelly, Barabara B.",
+            "id": "75716200",
+            "version": "11067089"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/Kennelly\/MSS19980369.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Archives &amp; Special Collections at the Thomas J. Dodd Research Center<\/corpname>.\n\t\t<\/repository>\n                  <origination>\n                     <persname>Kennelly, Barabara B.<\/persname>\n                  <\/origination>\n                  <unittitle>Barbara B. Kennelly Papers.<\/unittitle>\n                  <unitdate>undated, 1977-1998.<\/unitdate>\n                  <physdesc>79.3 linear feet.<\/physdesc>\n                  <abstract>Barbara Bailey Kennelly represented Connecticut in Congress for 17 years, leaving in 1999 as the highest ranking woman member in the history of the House of Representatives to that time. The collection includes correspondence to and from  constituents and colleagues, notes, research materials, speeches, official congressional  documents, congressional records,  press clips, photographs, audio and video tapes, and  special interest reports.<\/abstract>\n                  <unitid>MSS19980369<\/unitid>\n                  <langmaterial>The records are in <language>English<\/language>.\n\t<\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Barbara B. Kennelly Papers. undated, 1977-1998.",
+                "abstract": "Barbara Bailey Kennelly represented Connecticut in Congress for 17 years, leaving in 1999 as the highest ranking woman member in the history of the House of Representatives to that time. The collection includes correspondence to and from  constituents and colleagues, notes, research materials, speeches, official congressional  documents, congressional records,  press clips, photographs, audio and video tapes, and  special interest reports.",
+                "displayEntry": "Barbara B. Kennelly Papers., undated, 1977-1998.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kennelly, Barabara B.",
+                        "id": "11358853",
+                        "version": "6332351"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11358854",
+                        "version": "6332351"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6mt4ghq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archives & Special Collections at the Thomas J. Dodd Research Center.",
+                            "preferenceScore": "99",
+                            "id": "76791841",
+                            "version": "11235957"
+                        }
+                    ],
+                    "id": "76791840",
+                    "version": "11235960"
+                },
+                "id": "6332351",
+                "version": "6332351"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Barbara B. Kennelly Papers., undated, 1977-1998.",
+            "id": "75716201",
+            "version": "11067089"
+        }
+    ],
+    "id": "75716194",
+    "version": "11067090"
+}

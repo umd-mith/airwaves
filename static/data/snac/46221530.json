@@ -1,0 +1,300 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w67t4trk",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T14:56:35",
+            "standardDateTime": "2016-08-14T14:56:35",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T14:56:35",
+            "standardDateTime": "2016-08-14T14:56:35",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/228812409",
+            "id": "46221531",
+            "version": "6749240"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WMUK (Radio station : Kalamazoo, Mich.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WMUK (Radio station : Kalamazoo, Mich.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "46221533",
+                    "version": "6749240"
+                }
+            ],
+            "id": "46221532",
+            "version": "6749240",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80577892",
+                    "version": "6749240"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "46221530",
+            "targetConstellation": "76558061",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w67t4trk",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vq3323",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Anderson, Marian, 1897-1993.",
+            "id": "46221536",
+            "version": "6749240"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/228812409",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:228812409<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-PAULM<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Anderson, Marian, 1897-1993.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Dawn, Robert.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WMUK (Radio station : Kalamazoo, Mich.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Western Michigan University.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Interview of Marian Anderson conducted by Robert Dawn, Oct. 14, 1974 [sound recording] : for WMUK at Western Michigan University, Kalamzaoo, Michigan. [1975]<\/title>\n                  <\/titleInfo>\n                  <abstract>Marian Anderson discusses her narration of Aaron Copland's A Lincoln Portrait: when she began performing it and the meaning of the text for her, her meetings with presidents of the United States, her association with Eleanor Roosevelt, her experiences as delegate to the Human Rights Commission to the United Nations, her recollections of the 1939 Lincoln Memorial concert which came about from the refusal of the D.A.R. to allow her to perform in Constitution Hall in Washington, D.C., her views on Abraham Lincoln, the perspective on her life that her own recordings provide, the reactions of audiences to her performances of spirituals, her interpretation of the spiritual He's got the whole world in His hands, the modern harmonization of spirituals, her recollections of Roland Hayes and his influences on her, her performance at the Metropolitan Opera, the role of her mother in her life, the importance of staying in touch with family and friends, her impressions of President John Kennedy, and some of her beliefs concerning human values. <\/abstract>\n                  <name>\n                     <namePart>University of Pennsylvania Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Interview of Marian Anderson conducted by Robert Dawn, Oct. 14, 1974 [sound recording] : for WMUK at Western Michigan University, Kalamzaoo, Michigan. [1975]",
+                "abstract": "Marian Anderson discusses her narration of Aaron Copland's A Lincoln Portrait: when she began performing it and the meaning of the text for her, her meetings with presidents of the United States, her association with Eleanor Roosevelt, her experiences as delegate to the Human Rights Commission to the United Nations, her recollections of the 1939 Lincoln Memorial concert which came about from the refusal of the D.A.R. to allow her to perform in Constitution Hall in Washington, D.C., her views on Abraham Lincoln, the perspective on her life that her own recordings provide, the reactions of audiences to her performances of spirituals, her interpretation of the spiritual He's got the whole world in His hands, the modern harmonization of spirituals, her recollections of Roland Hayes and his influences on her, her performance at the Metropolitan Opera, the role of her mother in her life, the importance of staying in touch with family and friends, her impressions of President John Kennedy, and some of her beliefs concerning human values. ",
+                "extent": "1 sound tape reel : analog, 7 1\/2 ips, 2 tracks ; 7 in., 1\/4 in. tape.1 sound tape reel : analog, 7 1\/2 ips, 2 tracks, NAB standard ; 10 1\/2 in., 1\/4 in. tape.1 sound cassette : analog, Dolby B processed.",
+                "displayEntry": "Anderson, Marian, 1897-1993. Interview of Marian Anderson conducted by Robert Dawn, Oct. 14, 1974 [sound recording] : for WMUK at Western Michigan University, Kalamzaoo, Michigan.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Anderson, Marian, 1897-1993.",
+                        "id": "9007310",
+                        "version": "7088580"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dawn, Robert.",
+                        "id": "9007311",
+                        "version": "7088580"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WMUK (Radio station : Kalamazoo, Mich.)",
+                        "id": "9007312",
+                        "version": "7088580"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Western Michigan University.",
+                        "id": "9007313",
+                        "version": "7088580"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6pw782v",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Pennsylvania Library",
+                            "preferenceScore": "99",
+                            "id": "76787737",
+                            "version": "11234305"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Pennsylvania Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "3420 Walnut Street",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787741",
+                                    "version": "11234305"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Philadephia",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787742",
+                                    "version": "11234305"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787743",
+                                    "version": "11234305"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "19104-6206",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787744",
+                                    "version": "11234305"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787745",
+                                    "version": "11234305"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15431",
+                                "name": "University of Pennsylvania Library",
+                                "latitude": "39.9616120",
+                                "longitude": "-75.1995700"
+                            },
+                            "confirmed": true,
+                            "id": "76787740",
+                            "version": "11234305"
+                        }
+                    ],
+                    "id": "76787736",
+                    "version": "11234308"
+                },
+                "id": "7088580",
+                "version": "7088580"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Anderson, Marian, 1897-1993. Interview of Marian Anderson conducted by Robert Dawn, Oct. 14, 1974 [sound recording] : for WMUK at Western Michigan University, Kalamzaoo, Michigan.",
+            "id": "46221537",
+            "version": "6749240"
+        }
+    ],
+    "id": "46221530",
+    "version": "6749241"
+}

@@ -1,0 +1,287 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gc5f1p",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-04",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T08:45:45",
+            "standardDateTime": "2016-08-14T08:45:45",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T08:45:45",
+            "standardDateTime": "2016-08-14T08:45:45",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/sch01237.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Trapezoid,<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/sch01237\/catalog",
+            "id": "44427043",
+            "version": "6490124"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Trapezoid",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Trapezoid",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "44427045",
+                    "version": "6490124"
+                }
+            ],
+            "id": "44427044",
+            "version": "6490124",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80432464",
+                    "version": "6490124"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "44427042",
+            "targetConstellation": "41476577",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6gc5f1p",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w60x1jdh",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Sojourner (Cambridge, Mass.)",
+            "id": "44427048",
+            "version": "6490124"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/sch01237\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unitid>MC 586; T-351<\/unitid>\n                  <repository>\n                     <extref>Schlesinger Library, Radcliffe Institute<\/extref>\n                  <\/repository>\n                  <origination>\n                     <corpname>\n                        <emph>Sojourner<\/emph> (Cambridge, Mass.)<\/corpname>\n                  <\/origination>\n                  <unittitle>Records of   <corpname>\n                        <emph>Sojourner<\/emph>\n                     <\/corpname>, <unitdate>1920-2004<\/unitdate> (inclusive), <unitdate>1975-2002<\/unitdate> (bulk)<\/unittitle>\n                  <physdesc>\n                     <extent>36.12 linear ft.<\/extent>\n                     <extent>(81 file boxes, 3 folio+ boxes, 2 card file boxes) plus 1,032 photo folders, 2 oversize folders, 5 supersize folders, 3 audiotapes, 1 object<\/extent>\n                  <\/physdesc>\n                  <langmaterial>Materials in English.<\/langmaterial>\n                  <abstract>Records of the feminist newspaper <title>Sojourner<\/title>, including correspondence, administrative records, photographs, and promotional materials.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Records of , (inclusive), (bulk) Sojourner 1920-2004 1975-2002",
+                "abstract": "Records of the feminist newspaper , including correspondence, administrative records, photographs, and promotional materials. Sojourner",
+                "extent": "36.12 linear ft.; (81 file boxes, 3 folio+ boxes, 2 card file boxes) plus 1,032 photo folders, 2 oversize folders, 5 supersize folders, 3 audiotapes, 1 object",
+                "displayEntry": "Records of, Sojourner, (inclusive), (bulk), 1920-2004, 1975-2002",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6q060rg",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Arthur and Elizabeth Schlesinger Library on the History of Women in America\u200f",
+                            "preferenceScore": "99",
+                            "id": "84708946",
+                            "version": "11425596"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts--Cambridge",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84708988",
+                            "version": "11425596"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Schlesinger Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10 Garden St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708982",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708983",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708984",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708985",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708986",
+                                    "version": "11425596"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16330",
+                                "name": "Harvard University, Schlesinger Library",
+                                "latitude": "42.3782959",
+                                "longitude": "-71.1304474"
+                            },
+                            "confirmed": true,
+                            "id": "84708981",
+                            "version": "11425596"
+                        }
+                    ],
+                    "id": "84708935",
+                    "version": "11425606"
+                },
+                "id": "6387270",
+                "version": "6387270"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Records of, Sojourner, (inclusive), (bulk), 1920-2004, 1975-2002",
+            "id": "44427049",
+            "version": "6490124"
+        }
+    ],
+    "id": "44427042",
+    "version": "6490125"
+}

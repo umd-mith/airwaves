@@ -1,0 +1,269 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gz709h",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-09",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T02:45:53",
+            "standardDateTime": "2016-08-17T02:45:53",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T02:45:53",
+            "standardDateTime": "2016-08-17T02:45:53",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/aps\/Mss.B.J44-ead.xml<\/filename>\n                  <ead_entity en_type=\"persname\" source=\"ingest\">The Science press<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.amphilsoc.org\/mole\/view?docId=ead\/Mss.B.J44-ead.xml",
+            "id": "61776919",
+            "version": "9037187"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "The Science press",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "The Science press",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "61776921",
+                    "version": "9037187"
+                }
+            ],
+            "id": "61776920",
+            "version": "9037187",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"aps\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81856838",
+                    "version": "9037187"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "61776918",
+            "targetConstellation": "8471407",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6gz709h",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6z89mbm",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Jennings, H. S., (Herbert Spencer), 1868-1947",
+            "id": "61776924",
+            "version": "9037187"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.amphilsoc.org\/mole\/view?docId=ead\/Mss.B.J44-ead.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>H. S. (Herbert Spencer) Jennings papers, ca. 1893-1947<\/unittitle>\n                  <unitid>Mss.B.J44<\/unitid>\n                  <repository>\n                     <corpname>American Philosophical Society<\/corpname>\n                  <\/repository>\n                  <langmaterial>\n                     <language\/>\n                  <\/langmaterial>\n                  <container>1-29<\/container>\n                  <physdesc>\n                     <extent>14.5 Linear feet<\/extent>\n                  <\/physdesc>\n                  <unitdate>Circa 1893-1947<\/unitdate>\n                  <abstract>This is a diverse collection, including correspondence, drafts of letters, notes and notebooks (on biometric methods; tables and formulae; science, nature and method; coefficient and correlation; vitalism; Japanese language); commonplace book (1924); autobiography; and over one hundred folders of unpublished writings. The correspondence and other material covers a variety of topics, including biology, eugenics, evolution and natural selection, human heredity, paramecia, protozoa genetics, U.S. immigration policy. There is much on the Seventh International Congress of Zoology (1907); letters to his father and wives, and from students and colleagues on his seventy-fifth birthday, 1943 (1 v.); diplomas and certificates of membership; and photographs.<\/abstract>\n                  <physloc>LH-B-18-2; LH-SB-Black Case-28 (OS Diplomas, certifs.); LH-SB-XOS Case 1-5 (XOS Diplomas)<\/physloc>\n                  <physdesc>\n                     <extent>Ca. 7000 items<\/extent>\n                  <\/physdesc>\n                  <physdesc>Ca. 7000 items, 14.5 linear ft.<\/physdesc>\n                  <origination>\n                     <persname>Jennings, H. S., (Herbert Spencer), 1868-1947<\/persname>\n                  <\/origination>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "H. S. (Herbert Spencer) Jennings papers, ca. 1893-1947 Circa 1893-1947",
+                "abstract": "This is a diverse collection, including correspondence, drafts of letters, notes and notebooks (on biometric methods; tables and formulae; science, nature and method; coefficient and correlation; vitalism; Japanese language); commonplace book (1924); autobiography; and over one hundred folders of unpublished writings. The correspondence and other material covers a variety of topics, including biology, eugenics, evolution and natural selection, human heredity, paramecia, protozoa genetics, U.S. immigration policy. There is much on the Seventh International Congress of Zoology (1907); letters to his father and wives, and from students and colleagues on his seventy-fifth birthday, 1943 (1 v.); diplomas and certificates of membership; and photographs.",
+                "extent": "14.5 Linear feet; Ca. 7000 items",
+                "displayEntry": "H. S. (Herbert Spencer) Jennings papers, ca. 1893-1947, Circa 1893-1947",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Jennings, H. S., (Herbert Spencer), 1868-1947",
+                        "id": "11256322",
+                        "version": "6631628"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gn8xhn",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "American Philosophical Society",
+                            "preferenceScore": "99",
+                            "id": "84198487",
+                            "version": "11323308"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84198505",
+                            "version": "11323301"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84198499",
+                            "version": "11323301"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Pennsylvania--Philadelphia",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84198501",
+                            "version": "11323301"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84198497",
+                            "version": "11323301"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84198507",
+                            "version": "11323301"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Philadelphia (Pa.)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84198503",
+                            "version": "11323301"
+                        }
+                    ],
+                    "id": "84198437",
+                    "version": "11323310"
+                },
+                "id": "6631628",
+                "version": "6631628"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "H. S. (Herbert Spencer) Jennings papers, ca. 1893-1947, Circa 1893-1947",
+            "id": "61776925",
+            "version": "9037187"
+        }
+    ],
+    "id": "61776918",
+    "version": "9037188"
+}

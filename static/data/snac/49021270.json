@@ -1,0 +1,300 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6wf2s13",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T01:02:37",
+            "standardDateTime": "2016-08-15T01:02:37",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T01:02:37",
+            "standardDateTime": "2016-08-15T01:02:37",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/30485624",
+            "id": "49021271",
+            "version": "7162817"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Scott, Kerr.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Scott, Kerr.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "49021273",
+                    "version": "7162817"
+                }
+            ],
+            "id": "49021272",
+            "version": "7162817",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80806710",
+                    "version": "7162817"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "49021270",
+            "targetConstellation": "61397952",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wf2s13",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jm7t3x",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Medical Society of the State of North Carolina.",
+            "id": "49021276",
+            "version": "7162817"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "49021270",
+            "targetConstellation": "50149841",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wf2s13",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6r78xdn",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Scott, William Kerr, 1896-1958"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/30485624",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:30485624<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NGB<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Medical Society of the State of North Carolina.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Medical Society of the State of North Carolina letters from governors, legislators, and others, 1880- 1962 [manuscript].<\/title>\n                  <\/titleInfo>\n                  <abstract>Letters from North Carolina governors, legislators, and others, most written to members of the Medical Society of the State of North Carolina or their colleagues. Included are one lettr, 1912, from Charles B. Aycock about his health; 38 letters, 1910-1947, to and from J. Melville Broughton about several topics, including his activities as legal representative for the Flue-Cured Tobacco Cooperative Stabilization Corporation, 1946-1947; 7 letters, 1932-1942, to and from John Ehringhaus about appointments and routine activities; from Clyde Hoey acknowledging supoort and other routine matters; 2 letters, 1931, to and from O. Max Gardner acknowledging receipt of other letters; 3 letters, 1904-1909, from R. B. Glenn acknowledging support and reminiscing about old times; one letter, 1966, from Luther Hodges acknowledging a sympathy card; 4 letters, 1936- 1951, from Clyde Hoey acknowledging supoort and other routine matters; one letter, 1933, from Cameron Morrison acknowledging support; one letter, 1946, from Terry Sanford, declining to pursue a position with the Medical Society; one letter, 1955, from Kerr Scott transmitting U.S. Senate gallery passes; one letter, 1969, from Robert Scott on routine matters; one letter, 1953, from William B. Umstead acknowledging the Medical Society's input about building a sanatorium; and 12 letters, 1880- 1962, from other state officials chiefly acknowledging support or discussing routine matters. <\/abstract>\n                  <name>\n                     <namePart>Oceanside Free Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Medical Society of the State of North Carolina letters from governors, legislators, and others, 1880- 1962 [manuscript].",
+                "abstract": "Letters from North Carolina governors, legislators, and others, most written to members of the Medical Society of the State of North Carolina or their colleagues. Included are one lettr, 1912, from Charles B. Aycock about his health; 38 letters, 1910-1947, to and from J. Melville Broughton about several topics, including his activities as legal representative for the Flue-Cured Tobacco Cooperative Stabilization Corporation, 1946-1947; 7 letters, 1932-1942, to and from John Ehringhaus about appointments and routine activities; from Clyde Hoey acknowledging supoort and other routine matters; 2 letters, 1931, to and from O. Max Gardner acknowledging receipt of other letters; 3 letters, 1904-1909, from R. B. Glenn acknowledging support and reminiscing about old times; one letter, 1966, from Luther Hodges acknowledging a sympathy card; 4 letters, 1936- 1951, from Clyde Hoey acknowledging supoort and other routine matters; one letter, 1933, from Cameron Morrison acknowledging support; one letter, 1946, from Terry Sanford, declining to pursue a position with the Medical Society; one letter, 1955, from Kerr Scott transmitting U.S. Senate gallery passes; one letter, 1969, from Robert Scott on routine matters; one letter, 1953, from William B. Umstead acknowledging the Medical Society's input about building a sanatorium; and 12 letters, 1880- 1962, from other state officials chiefly acknowledging support or discussing routine matters. ",
+                "extent": "About 160 items (3 folders).",
+                "displayEntry": "Medical Society of the State of North Carolina. Medical Society of the State of North Carolina letters from governors, legislators, and others, 1880- 1962 [manuscript].",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Medical Society of the State of North Carolina.",
+                        "id": "9388969",
+                        "version": "7287092"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6xj0ds0",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill",
+                            "preferenceScore": "99",
+                            "id": "76787444",
+                            "version": "11234205"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of North Carolina at Chapel Hill",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Davis Library, CB#3914, 208 Raleigh St.",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787449",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chapel Hill",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787450",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NC",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787451",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "27514-8890",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787452",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787453",
+                                    "version": "11234205"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15097",
+                                "name": "University of North Carolina at Chapel Hill",
+                                "latitude": "35.9369000",
+                                "longitude": "-79.0397000"
+                            },
+                            "confirmed": true,
+                            "id": "76787448",
+                            "version": "11234205"
+                        }
+                    ],
+                    "id": "76787443",
+                    "version": "11363791"
+                },
+                "id": "7287092",
+                "version": "7287092"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Medical Society of the State of North Carolina. Medical Society of the State of North Carolina letters from governors, legislators, and others, 1880- 1962 [manuscript].",
+            "id": "49021278",
+            "version": "7162817"
+        }
+    ],
+    "id": "49021270",
+    "version": "7162818"
+}

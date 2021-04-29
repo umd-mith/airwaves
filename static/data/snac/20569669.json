@@ -1,0 +1,226 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6mt9b98",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T09:13:51",
+            "standardDateTime": "2016-08-11T09:13:51",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T09:13:51",
+            "standardDateTime": "2016-08-11T09:13:51",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nyu\/tamwag\/periodicals_001.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Motion Picture Laboratory Technicians, Local 702, IATSE<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/dlib.nyu.edu\/findingaids\/html\/tamwag\/periodicals_001\/periodicals_001.html",
+            "id": "20569670",
+            "version": "3004691"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Motion Picture Laboratory Technicians, Local 702, IATSE",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Motion Picture Laboratory Technicians, Local 702, IATSE",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "20569672",
+                    "version": "3004691"
+                }
+            ],
+            "id": "20569671",
+            "version": "3004691",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nyu\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78487005",
+                    "version": "3004691"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "20569669",
+            "targetConstellation": "63938418",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mt9b98",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6m94pr5",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Tamiment Library.",
+            "id": "20569675",
+            "version": "3004691"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/dlib.nyu.edu\/findingaids\/html\/tamwag\/periodicals_001\/periodicals_001.html",
+                "title": "Guide to the Tamiment Library Newspapers, 1873-2014",
+                "abstract": "The collection contains some 523 titles to date (September 2018). They were published by international and local labor unions in the United States and Canada, radical political parties (Anarchist, Communist, Maoist, Socialist, Trotskyist), the New Left, and by organizations representing civil rights movements (African-Americans, prisoners, etc.), peace movements, protest against the war in Vietnam (including titles published by American soldiers), activity in support of national liberation movements, student and youth activism, the counterculture, feminism and gay liberation, and other activism. While most of the titles are from the U.S., and of these about one fourth are from New York State, there are also some foreign titles, most from Western Europe, primarily Great Britain, France, Italy and Spain. The holdings continue to grow through donations and subscriptions. While the majority of the titles lack catalog records in BobCat, NYU's electronic library catalog, retrospective cataloging is taking place. An unpublished guide available in the library shows holdings information for each title.",
+                "extent": "290 Linear Feet in 657 boxes",
+                "date": "1873-2014",
+                "displayEntry": "Guide to the Tamiment Library Newspapers, 1873-2014",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11644902",
+                        "version": "8385959"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63p2tmd",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Tamiment Library and Robert F. Wagner Labor Archives",
+                            "preferenceScore": "99",
+                            "id": "85255849",
+                            "version": "11480834"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "16896",
+                                "name": "New York University, Elmer Holmes Bobst Library",
+                                "latitude": "40.7253000",
+                                "longitude": "-73.9977000"
+                            },
+                            "confirmed": true,
+                            "id": "85255857",
+                            "version": "11480834"
+                        }
+                    ],
+                    "id": "85255845",
+                    "version": "11480852"
+                },
+                "id": "6331138",
+                "version": "6331138"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Tamiment Library Newspapers, Bulk, 1960-1990, 1873-, (Bulk 1960-1990)",
+            "id": "20569676",
+            "version": "3004691"
+        }
+    ],
+    "id": "20569669",
+    "version": "3004692"
+}

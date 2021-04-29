@@ -1,0 +1,200 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r07qbg",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T20:44:08",
+            "standardDateTime": "2016-08-09T20:44:08",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T20:44:08",
+            "standardDateTime": "2016-08-09T20:44:08",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/40106.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Wynn, Earl Raymond<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/uars\/ead\/40106.html",
+            "id": "4121775",
+            "version": "599687"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Wynn, Earl Raymond",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Wynn, Earl Raymond",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "4121777",
+                    "version": "599687"
+                }
+            ],
+            "id": "4121776",
+            "version": "599687",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77139863",
+                    "version": "599687"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "4121774",
+            "targetConstellation": "23565740",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6r07qbg",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6xd7fdr",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of North Carolina at Chapel Hill. General Faculty.",
+            "id": "4121780",
+            "version": "599687"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/uars\/ead\/40106.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>University of North Carolina at Chapel Hill. Library. University Archives.<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <corpname>University of North Carolina at Chapel Hill. General Faculty.<\/corpname>\n                  <\/origination>\n                  <unittitle>General Faculty and Faculty Council of the University of North Carolina at Chapel Hill Records, <unitdate>1799-2011<\/unitdate>\n                  <\/unittitle>\n                  <unitid>40106<\/unitid>\n                  <langmaterial>Materials in \n<language>English<\/language>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>About 36600 items, including 76 volumes (60.0 linear feet)<\/extent>\n                  <\/physdesc>\n                  <abstract>The university's earliest <title>Laws and Regulations<\/title>, adopted by its Board of Trustees in 1795, defined the duties and rights of the faculty. Formal faculty meetings have been held since at least 1799; the amended <title>Laws of the University<\/title> adopted by the trustees in December 1799 included guidelines for the conduct of such meetings. Throughout the antebellum period, the faculty was responsible for enforcing social as well as academic regulations and for handling cases of student misconduct. After 1875 the faculty assumed an increasing role in establishing policies governing educational activities and the awarding of degrees by the university. The <title>Faculty Code of University Government<\/title>, originally titled <title>Faculty Legislation<\/title>, was adopted by the General Faculty in 1947 and has been amended numerous times. In 1950 the General Faculty authorized the creation of the Faculty Council to act as its legislative body. The council, composed of elected members from the various faculty divisions and ex-officio members from the university administration, held its first meeting on 5 January 1951. Officers of the faculty include the chair and the secretary. The university's chancellor presides over meetings of the Faculty Council. Much of the Faculty Council's work is carried on by its standing and special committees.<\/abstract>\n                  <abstract>Records include minutes of meetings of the General Faculty, 1799-2011, and of the Faculty Council, 1951-2011; files of the secretary of the faculty and of the chair of the faculty; minutes of the meetings of various faculty divisions; and files of standing and special committees. Beginning in the mid-1990s, there are scattered meeting transcripts among the minutes. There are also recordings of many General Faculty and Faculty Council meetings, 1984-2010, on 283 audiocassettes, 31 data compact discs, and three digital video discs.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "General Faculty and Faculty Council of the University of North Carolina at Chapel Hill Records, 1799-2011",
+                "abstract": "The university's earliest , adopted by its Board of Trustees in 1795, defined the duties and rights of the faculty. Formal faculty meetings have been held since at least 1799; the amended adopted by the trustees in December 1799 included guidelines for the conduct of such meetings. Throughout the antebellum period, the faculty was responsible for enforcing social as well as academic regulations and for handling cases of student misconduct. After 1875 the faculty assumed an increasing role in establishing policies governing educational activities and the awarding of degrees by the university. The , originally titled , was adopted by the General Faculty in 1947 and has been amended numerous times. In 1950 the General Faculty authorized the creation of the Faculty Council to act as its legislative body. The council, composed of elected members from the various faculty divisions and ex-officio members from the university administration, held its first meeting on 5 January 1951. Officers of the faculty include the chair and the secretary. The university's chancellor presides over meetings of the Faculty Council. Much of the Faculty Council's work is carried on by its standing and special committees. Laws and Regulations Laws of the University Faculty Code of University Government Faculty Legislation Records include minutes of meetings of the General Faculty, 1799-2011, and of the Faculty Council, 1951-2011; files of the secretary of the faculty and of the chair of the faculty; minutes of the meetings of various faculty divisions; and files of standing and special committees. Beginning in the mid-1990s, there are scattered meeting transcripts among the minutes. There are also recordings of many General Faculty and Faculty Council meetings, 1984-2010, on 283 audiocassettes, 31 data compact discs, and three digital video discs.",
+                "extent": "About 36600 items, including 76 volumes (60.0 linear feet)",
+                "displayEntry": "General Faculty and Faculty Council of the University of North Carolina at Chapel Hill Records, 1799-2011",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11611868",
+                        "version": "6629917"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6d03x2r",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill. Library. University Archives.",
+                            "preferenceScore": "99",
+                            "id": "76797879",
+                            "version": "11241661"
+                        }
+                    ],
+                    "id": "76797878",
+                    "version": "11241664"
+                },
+                "id": "6629917",
+                "version": "6629917"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "General Faculty and Faculty Council of the University of North Carolina at Chapel Hill Records, 1799-2011",
+            "id": "4121781",
+            "version": "599687"
+        }
+    ],
+    "id": "4121774",
+    "version": "599688"
+}

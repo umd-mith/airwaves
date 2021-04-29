@@ -1,0 +1,208 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w66v5q0w",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T20:08:49",
+            "standardDateTime": "2016-08-11T20:08:49",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T20:08:50",
+            "standardDateTime": "2016-08-11T20:08:50",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/20280.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">The Whitstein Brothers<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/inv\/h\/Huddle,John_T.html",
+            "id": "24784767",
+            "version": "3620723"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "The Whitstein Brothers",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "The Whitstein Brothers",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "24784769",
+                    "version": "3620723"
+                }
+            ],
+            "id": "24784768",
+            "version": "3620723",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78829676",
+                    "version": "3620723"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "24784766",
+            "targetConstellation": "44618457",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66v5q0w",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w62z2v97",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Huddle, John T.",
+            "id": "24784772",
+            "version": "3620723"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/inv\/h\/Huddle,John_T.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>University of North Carolina at Chapel Hill. Library. Southern Folklife Collection.<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <persname>Huddle, John T.<\/persname>\n                  <\/origination>\n                  <unittitle>John T. Huddle Collection, <unitdate>1936-1993<\/unitdate>\n                  <\/unittitle>\n                  <unitid>20280<\/unitid>\n                  <langmaterial>Materials in \n<language>English<\/language>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>246<\/extent>\n                     <extent>5.0<\/extent>\n                  <\/physdesc>\n                  <abstract>John T. Huddle was a lawyer, a clawhammer banjo player, and old-time music aficionado of Lancaster, Ohio.<\/abstract>\n                  <abstract>The collection consists of audiocassettes recorded and collected by Huddle. The cassettes contain live recordings of old-time music festivals, concerts, contests, workshops and jams recorded by Huddle and others, dubs of commercial cassettes, and compilations of recordings of 78's. Artists include Alice Gerrard, Andy Cahan, Bela Fleck, Bill Schmidt, Doc Watson, Joe LaRose, Kerry Blech, Lowe Stokes, the Kimble Family, the Red Clay Ramblers, and Tommy Jarrell, among many others.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "John T. Huddle Collection, 1936-1993",
+                "abstract": "John T. Huddle was a lawyer, a clawhammer banjo player, and old-time music aficionado of Lancaster, Ohio. The collection consists of audiocassettes recorded and collected by Huddle. The cassettes contain live recordings of old-time music festivals, concerts, contests, workshops and jams recorded by Huddle and others, dubs of commercial cassettes, and compilations of recordings of 78's. Artists include Alice Gerrard, Andy Cahan, Bela Fleck, Bill Schmidt, Doc Watson, Joe LaRose, Kerry Blech, Lowe Stokes, the Kimble Family, the Red Clay Ramblers, and Tommy Jarrell, among many others.",
+                "extent": "246; 5.0",
+                "displayEntry": "John T. Huddle Collection, 1936-1993",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Huddle, John T.",
+                        "id": "11607084",
+                        "version": "6627269"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11607085",
+                        "version": "6627269"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6q35",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill. Library. Southern Folklife Collection.",
+                            "preferenceScore": "99",
+                            "id": "76797871",
+                            "version": "11241653"
+                        }
+                    ],
+                    "id": "76797870",
+                    "version": "11241656"
+                },
+                "id": "6627269",
+                "version": "6627269"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "John T. Huddle Collection, 1936-1993",
+            "id": "24784773",
+            "version": "3620723"
+        }
+    ],
+    "id": "24784766",
+    "version": "3620724"
+}

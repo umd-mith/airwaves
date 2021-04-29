@@ -1,0 +1,301 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64z0c08",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T21:29:43",
+            "standardDateTime": "2016-08-16T21:29:43",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T21:29:43",
+            "standardDateTime": "2016-08-16T21:29:43",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/44639483",
+            "id": "60513677",
+            "version": "8850545"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Memphis-Plough Community Foundation (Memphis, Tenn.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Memphis-Plough Community Foundation (Memphis, Tenn.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "60513679",
+                    "version": "8850545"
+                }
+            ],
+            "id": "60513678",
+            "version": "8850545",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81754104",
+                    "version": "8850545"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "60513676",
+            "targetConstellation": "50496990",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w64z0c08",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rc27j8",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Community Foundation of Greater Memphis (Memphis, Tenn.)",
+            "id": "60513682",
+            "version": "8850545"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/44639483",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:44639483<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-IUP<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Community Foundation of Greater Memphis (Memphis, Tenn.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Memphis-Plough Community Foundation (Memphis, Tenn.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>[Annual reports], 1976-.<\/title>\n                  <\/titleInfo>\n                  <abstract>Annual reports detailing the accomplishments, programs, and financial information of the Foundation. <\/abstract>\n                  <name>\n                     <namePart>Indiana University - Purdue University Indianapolis<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "[Annual reports], 1976-.",
+                "abstract": "Annual reports detailing the accomplishments, programs, and financial information of the Foundation. ",
+                "extent": "v.",
+                "displayEntry": "Community Foundation of Greater Memphis (Memphis, Tenn.). [Annual reports], 1976-.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Community Foundation of Greater Memphis (Memphis, Tenn.)",
+                        "id": "9782611",
+                        "version": "7544401"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Memphis-Plough Community Foundation (Memphis, Tenn.)",
+                        "id": "9782612",
+                        "version": "7544401"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6qs5knq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Indiana University - Purdue University Indianapolis, IUPUI",
+                            "preferenceScore": "99",
+                            "id": "76770815",
+                            "version": "11228081"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Indiana University - Purdue University Indianapolis, IUPUI",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "University Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76770820",
+                                    "version": "11228081"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "755 W Michigan St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76770821",
+                                    "version": "11228081"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Indianapolis",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76770822",
+                                    "version": "11228081"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-IN",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76770823",
+                                    "version": "11228081"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "46202-5195",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76770824",
+                                    "version": "11228081"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76770825",
+                                    "version": "11228081"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16267",
+                                "name": "Indiana University - Purdue University Indianapolis, IUPUI",
+                                "latitude": "39.7729874",
+                                "longitude": "-86.1721268"
+                            },
+                            "confirmed": true,
+                            "id": "76770819",
+                            "version": "11228081"
+                        }
+                    ],
+                    "id": "76770814",
+                    "version": "11228084"
+                },
+                "id": "7544401",
+                "version": "7544401"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Community Foundation of Greater Memphis (Memphis, Tenn.). [Annual reports], 1976-.",
+            "id": "60513683",
+            "version": "8850545"
+        }
+    ],
+    "id": "60513676",
+    "version": "8850546"
+}

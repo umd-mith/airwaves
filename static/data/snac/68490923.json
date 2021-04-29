@@ -1,0 +1,583 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6z73wps",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T07:17:22",
+            "standardDateTime": "2016-08-18T07:17:22",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T07:17:22",
+            "standardDateTime": "2016-08-18T07:17:22",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/291183218",
+            "id": "68490925",
+            "version": "10013465"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/hou01977.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WBUR (Radio Station : Boston, Mass.),<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/hou01977\/catalog",
+            "id": "68490924",
+            "version": "10013465"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "68490926",
+            "version": "10013465"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WBUR (Radio station : Boston, Mass.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WBUR (Radio station : Boston, Mass.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "68490928",
+                    "version": "10013465"
+                }
+            ],
+            "id": "68490927",
+            "version": "10013465",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82404803",
+                    "version": "10013465"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "WBUR 90.9 (Radio station : Boston, Mass.)",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WBUR 90.9 (Radio station : Boston, Mass.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "68490932",
+                    "version": "10013465"
+                }
+            ],
+            "id": "68490931",
+            "version": "10013465",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82404804",
+                    "version": "10013465"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "68490923",
+            "targetConstellation": "63005195",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6z73wps",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6571d5c",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Sakharov, Andre\u012d, 1921-1989",
+            "id": "68490939",
+            "version": "10013465"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "WBUR (Radio station : Boston, Mass.)",
+            "uri": "https:\/\/viaf.org\/viaf\/291183218",
+            "id": "68490936",
+            "version": "10013465"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no2012146404",
+            "id": "68490937",
+            "version": "10013465"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no2012146404",
+            "id": "68490938",
+            "version": "10013465"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/hou01977\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Houghton Library, Harvard College Library, Harvard University <\/repository>\n                  <physloc>b <\/physloc>\n                  <unitid>MS Russ 79 <\/unitid>\n                  <origination>\n                     <persname>Sakharov, Andre\u012d, 1921-1989. <\/persname>\n                  <\/origination>\n                  <unittitle>Andre\u012d Sakharov papers, <\/unittitle>\n                  <unitdate>1852-2002 (inclusive), <\/unitdate>\n                  <unitdate>1960-1990 (bulk). <\/unitdate>\n                  <physdesc>\n                     <extent>137 boxes (57 linear ft.) <\/extent>\n                  <\/physdesc>\n                  <abstract>Papers of Russian physicist and human rights activist Andre\u012d Sakharov. <\/abstract>\n                  <langmaterial>The collection is predominantly in <language>English <\/language>and <language>Russian; <\/language>there is also material in <language>Bulgarian, <\/language>\n                     <language>Czech, <\/language>\n                     <language>Danish, <\/language>\n                     <language>Dutch, <\/language>\n                     <language>French, <\/language>\n                     <language>German, <\/language>\n                     <language>Hebrew, <\/language>\n                     <language>Hungarian, <\/language>\n                     <language>Icelandic, <\/language>\n                     <language>Italian, <\/language>\n                     <language>Japanese, <\/language>\n                     <language>Norwegian, <\/language>\n                     <language>Polish, <\/language>\n                     <language>Portuguese, <\/language>\n                     <language>Spanish, <\/language>and <language>Ukrainian. <\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Andre\u012d Sakharov papers, 1852-2002 (inclusive), 1960-1990 (bulk).",
+                "abstract": "Papers of Russian physicist and human rights activist Andre\u012d Sakharov.",
+                "extent": "137 boxes (57 linear ft.)",
+                "displayEntry": "Andre\u012d Sakharov papers, 1852-2002 (inclusive), 1960-1990 (bulk).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Sakharov, Andre\u012d, 1921-1989. ",
+                        "id": "11438859",
+                        "version": "6385044"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11438860",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "380",
+                            "term": "rus",
+                            "type": "language_code",
+                            "description": "Russian"
+                        },
+                        "id": "11438861",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "68",
+                            "term": "bul",
+                            "type": "language_code",
+                            "description": "Bulgarian"
+                        },
+                        "id": "11438862",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "106",
+                            "term": "cze",
+                            "type": "language_code",
+                            "description": "Czech"
+                        },
+                        "id": "11438863",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "109",
+                            "term": "dan",
+                            "type": "language_code",
+                            "description": "Danish"
+                        },
+                        "id": "11438864",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "122",
+                            "term": "dut",
+                            "type": "language_code",
+                            "description": "Dutch; Flemish"
+                        },
+                        "id": "11438865",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "144",
+                            "term": "fre",
+                            "type": "language_code",
+                            "description": "French"
+                        },
+                        "id": "11438866",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "159",
+                            "term": "ger",
+                            "type": "language_code",
+                            "description": "German"
+                        },
+                        "id": "11438867",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "184",
+                            "term": "heb",
+                            "type": "language_code",
+                            "description": "Hebrew"
+                        },
+                        "id": "11438868",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "194",
+                            "term": "hun",
+                            "type": "language_code",
+                            "description": "Hungarian"
+                        },
+                        "id": "11438869",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "198",
+                            "term": "ice",
+                            "type": "language_code",
+                            "description": "Icelandic"
+                        },
+                        "id": "11438870",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "214",
+                            "term": "ita",
+                            "type": "language_code",
+                            "description": "Italian"
+                        },
+                        "id": "11438871",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "217",
+                            "term": "jpn",
+                            "type": "language_code",
+                            "description": "Japanese"
+                        },
+                        "id": "11438872",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "331",
+                            "term": "nor",
+                            "type": "language_code",
+                            "description": "Norwegian"
+                        },
+                        "id": "11438873",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "362",
+                            "term": "pol",
+                            "type": "language_code",
+                            "description": "Polish"
+                        },
+                        "id": "11438874",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "364",
+                            "term": "por",
+                            "type": "language_code",
+                            "description": "Portuguese"
+                        },
+                        "id": "11438875",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "419",
+                            "term": "spa",
+                            "type": "language_code",
+                            "description": "Spanish; Castilian"
+                        },
+                        "id": "11438876",
+                        "version": "6385044"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "471",
+                            "term": "ukr",
+                            "type": "language_code",
+                            "description": "Ukrainian"
+                        },
+                        "id": "11438877",
+                        "version": "6385044"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64n9vjj",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Houghton Library",
+                            "preferenceScore": "99",
+                            "id": "84972051",
+                            "version": "11443403"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Houghton Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Harvard Yard",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937835",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937836",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937837",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138-6534",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937838",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937839",
+                                    "version": "11443394"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15160",
+                                "name": "Harvard University, Houghton Library",
+                                "latitude": "42.3731728",
+                                "longitude": "-71.1159515"
+                            },
+                            "confirmed": true,
+                            "id": "84937834",
+                            "version": "11443394"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts--Cambridge",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84937840",
+                            "version": "11443394"
+                        }
+                    ],
+                    "id": "84937800",
+                    "version": "11443404"
+                },
+                "id": "6385044",
+                "version": "6385044"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Andre\u012d Sakharov papers, 1852-2002 (inclusive), 1960-1990 (bulk).",
+            "id": "68490940",
+            "version": "10013465"
+        }
+    ],
+    "id": "68490923",
+    "version": "10013466"
+}

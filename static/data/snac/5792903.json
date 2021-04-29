@@ -1,0 +1,679 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6xd66c1",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-20",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T23:59:11",
+            "standardDateTime": "2016-08-09T23:59:11",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T23:59:11",
+            "standardDateTime": "2016-08-09T23:59:11",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/23196764",
+            "id": "5792904",
+            "version": "834659"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/61935763",
+            "id": "5792905",
+            "version": "834659"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/138691270",
+            "id": "5792907",
+            "version": "834659"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/cmalp\/youngs0014.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" role=\"subject\" rules=\"aacr\" source=\"lcnaf\">Abilene Christian College.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/c82z13xh",
+            "id": "5792906",
+            "version": "834659"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "5792908",
+            "version": "834659"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Abilene Christian College",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Abilene Christian College",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "5792910",
+                    "version": "834659"
+                }
+            ],
+            "id": "5792909",
+            "version": "834659",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77272150",
+                    "version": "834659"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5792903",
+            "targetConstellation": "60046684",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6xd66c1",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6991z7t",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "American Council of Learned Societies.",
+            "id": "5792921",
+            "version": "834659"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5792903",
+            "targetConstellation": "67928526",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6xd66c1",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w62k0kzw",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Morris, Don H. (Don Heath), 1902-1974.",
+            "id": "5792922",
+            "version": "834659"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5792903",
+            "targetConstellation": "73887572",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6xd66c1",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6pd57wm",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Young, Helen, 1918-",
+            "id": "5792923",
+            "version": "834659"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5792903",
+            "targetConstellation": "52657630",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6xd66c1",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t560h0",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Young, M. Norvel (Matt Norvel), 1915-",
+            "id": "5792924",
+            "version": "834659"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Abilene Christian College",
+            "uri": "https:\/\/viaf.org\/viaf\/138691270",
+            "id": "5792918",
+            "version": "834659"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no98099744",
+            "id": "5792919",
+            "version": "834659"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no98099744",
+            "id": "5792920",
+            "version": "834659"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/61935763",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:61935763<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-TXC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Morris, Don H. (Don Heath), 1902-1974.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>The American Studies Program at Abilene Christian College 1958-1968 \/ Don H. Morris. 1958-1968.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Abilene Christian University, Brown Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "The American Studies Program at Abilene Christian College 1958-1968 \/ Don H. Morris. 1958-1968.",
+                "extent": "1 v. : ill., photos., ports. ; 24 cm.",
+                "displayEntry": "Morris, Don H. (Don Heath), 1902-1974. The American Studies Program at Abilene Christian College 1958-1968 \/ Don H. Morris.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Morris, Don H. (Don Heath), 1902-1974.",
+                        "id": "10193355",
+                        "version": "7808614"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6zt3jvr",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Abilene Christian University, Brown Library, Brown Library",
+                            "preferenceScore": "99",
+                            "id": "76759468",
+                            "version": "11223801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Abilene Christian University, Brown Library, Brown Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1850 Campus Ct",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76759473",
+                                    "version": "11223801"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Abilene",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76759474",
+                                    "version": "11223801"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-TX",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76759475",
+                                    "version": "11223801"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "79699",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76759476",
+                                    "version": "11223801"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76759477",
+                                    "version": "11223801"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16613",
+                                "name": "Abilene Christian University, Brown Library, Brown Library",
+                                "latitude": "32.4520683",
+                                "longitude": "-99.7408066"
+                            },
+                            "confirmed": true,
+                            "id": "76759472",
+                            "version": "11223801"
+                        }
+                    ],
+                    "id": "76759467",
+                    "version": "11223804"
+                },
+                "id": "7808614",
+                "version": "7808614"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Morris, Don H. (Don Heath), 1902-1974. The American Studies Program at Abilene Christian College 1958-1968 \/ Don H. Morris.",
+            "id": "5792926",
+            "version": "834659"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/23196764",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:23196764<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-ILU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>American Council of Learned Societies.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Collection, 1956-1964.<\/title>\n                  <\/titleInfo>\n                  <abstract>Includes correspondence and printed material pertaining to the organization, its activities and concerns, and its function with universities, particularly those of West Texas.  Collection bulks (1958-1964) with newsletters and annual reports of the American Council of Learned Societies.  Correspondence consists primarily of letters from colleges and universities in the West Texas area describing their humanities programs and coursework. <\/abstract>\n                  <name>\n                     <namePart>Texas Tech University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Collection, 1956-1964.",
+                "abstract": "Includes correspondence and printed material pertaining to the organization, its activities and concerns, and its function with universities, particularly those of West Texas.  Collection bulks (1958-1964) with newsletters and annual reports of the American Council of Learned Societies.  Correspondence consists primarily of letters from colleges and universities in the West Texas area describing their humanities programs and coursework. ",
+                "extent": "1,078 leaves",
+                "displayEntry": "American Council of Learned Societies. Collection, 1956-1964.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "American Council of Learned Societies.",
+                        "id": "9017910",
+                        "version": "7094730"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kt7f63",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Texas Tech University Libraries, Academic Library",
+                            "preferenceScore": "99",
+                            "id": "76784012",
+                            "version": "11232977"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Texas Tech University Libraries, Academic Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "18th Street and Boston Avenue, Ms 40002",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76784017",
+                                    "version": "11232977"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Box 40002",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76784018",
+                                    "version": "11232977"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Lubbock",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76784019",
+                                    "version": "11232977"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-TX",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76784020",
+                                    "version": "11232977"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "79409-0002",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76784021",
+                                    "version": "11232977"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76784022",
+                                    "version": "11232977"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16042",
+                                "name": "Texas Tech University Libraries, Academic Library",
+                                "latitude": "33.5870361",
+                                "longitude": "-101.8523560"
+                            },
+                            "confirmed": true,
+                            "id": "76784016",
+                            "version": "11232977"
+                        }
+                    ],
+                    "id": "76784011",
+                    "version": "11232980"
+                },
+                "id": "7094730",
+                "version": "7094730"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "American Council of Learned Societies. Collection, 1956-1964.",
+            "id": "5792925",
+            "version": "834659"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/c82z13xh",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>M. Norvel and Helen Young papers<\/unittitle>\n                  <unitid>0014<\/unitid>\n                  <repository>\n                     <corpname>Pepperdine University. Special Collections and University Archives.<\/corpname>\n                  <\/repository>\n                  <physdesc>\n                     <extent>225.59 linear feet<\/extent>\n                     <extent>(181 boxes)<\/extent>\n                  <\/physdesc>\n                  <unitdate>1900s-2000s<\/unitdate>\n                  <unitdate>1759,1882,1900s-2000s<\/unitdate>\n                  <abstract>The collection contains the personal and professional papers of M. Norvel and Helen Young. The bulk of the materials range from the 1900s to early 2000s and document the Youngs' involvement with Pepperdine University; their families' lives; and their activities while based in Tennessee, Texas, and California.<\/abstract>\n                  <physloc>Pepperdine University. Special Collections and University Archives.<\/physloc>\n                  <langmaterial>Materials are in <language>English<\/language>.<\/langmaterial>\n                  <origination>\n                     <persname>Young, Helen, 1918-<\/persname>\n                  <\/origination>\n                  <origination>\n                     <persname>Young, M. Norvel (Matt Norvel), 1915-<\/persname>\n                  <\/origination>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "M. Norvel and Helen Young papers 1900s-2000s 1759,1882,1900s-2000s",
+                "abstract": "The collection contains the personal and professional papers of M. Norvel and Helen Young. The bulk of the materials range from the 1900s to early 2000s and document the Youngs' involvement with Pepperdine University; their families' lives; and their activities while based in Tennessee, Texas, and California.",
+                "extent": "225.59 linear feet; (181 boxes)",
+                "displayEntry": "M. Norvel and Helen Young papers, 1900s-2000s, 1759, 1882, 1900s-2000s",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11277052",
+                        "version": "6648943"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6rg6htq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Pepperdine University. Special Collections and University Archives.",
+                            "preferenceScore": "99",
+                            "id": "76795248",
+                            "version": "11239173"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Pepperdine University. Special Collections and University Archives.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "24255 Pacific Coast Highway Malibu, CA, 90263-4786 (310) 506-4434 specialcollections@pepperdine.edu",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76795251",
+                                    "version": "11239173"
+                                }
+                            ],
+                            "id": "76795250",
+                            "version": "11239173"
+                        }
+                    ],
+                    "id": "76795247",
+                    "version": "11239176"
+                },
+                "id": "6648943",
+                "version": "6648943"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "M. Norvel and Helen Young papers, 1900s-2000s, 1759, 1882, 1900s-2000s",
+            "id": "5792927",
+            "version": "834659"
+        }
+    ],
+    "id": "5792903",
+    "version": "834660"
+}

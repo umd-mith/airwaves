@@ -1,0 +1,216 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w66v656b",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T04:12:45",
+            "standardDateTime": "2016-08-17T04:12:45",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T04:12:45",
+            "standardDateTime": "2016-08-17T04:12:45",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nyu\/archives\/wnyu.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" rules=\"dacs\" source=\"local\">Inter-Collegiate Broadcasting System.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/dlib.nyu.edu\/findingaids\/html\/archives\/wnyu\/wnyu.html",
+            "id": "62105805",
+            "version": "9086468"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Inter-Collegiate Broadcasting System.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Inter-Collegiate Broadcasting System.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "62105807",
+                    "version": "9086468"
+                }
+            ],
+            "id": "62105806",
+            "version": "9086468",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nyu\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81885016",
+                    "version": "9086468"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "62105804",
+            "targetConstellation": "27858291",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66v656b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w61w0k8q",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WNYU (Radio station : New York, N.Y.).",
+            "id": "62105810",
+            "version": "9086468"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/dlib.nyu.edu\/findingaids\/html\/archives\/wnyu\/wnyu.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Records of WNYU (Radio Station: New York, N.Y.)<\/unittitle>\n                  <unitid>RG 39.5<\/unitid>\n                  <repository>\n                     <corpname>New York University Archives<\/corpname>\n                  <\/repository>\n                  <langmaterial>\n                     <language\/>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>3.5 linear feet<\/extent>\n                     <extent>(8 boxes)<\/extent>\n                  <\/physdesc>\n                  <unitdate>1949-1969<\/unitdate>\n                  <abstract>WNYU was formed in 1949 on the University Heights campus of New York University by a group of engineers. The records of WNYU Radio Station were transferred to the New York University Archives when the radio station was moved from Gould Memorial Library at the University Heights campus to Loeb Student Center on Washington Square in June 1973. The records cover the years 1949-1969 and deal with the activities of WNYU radio station and the efforts and persistence of WNYU's staff to build up an AM-FM radio station and maintain its broadcasting as one of the best educational radio stations in the New York metropolitan area. The collection is predominantly composed of correspondence between WNYU's staff and other constituent parts of the University. Other correspondence relates to the broader media and metropolitan community.<\/abstract>\n                  <origination>\n                     <corpname>WNYU (Radio station : New York, N.Y.).<\/corpname>\n                  <\/origination>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Records of WNYU (Radio Station: New York, N.Y.) 1949-1969",
+                "abstract": "WNYU was formed in 1949 on the University Heights campus of New York University by a group of engineers. The records of WNYU Radio Station were transferred to the New York University Archives when the radio station was moved from Gould Memorial Library at the University Heights campus to Loeb Student Center on Washington Square in June 1973. The records cover the years 1949-1969 and deal with the activities of WNYU radio station and the efforts and persistence of WNYU's staff to build up an AM-FM radio station and maintain its broadcasting as one of the best educational radio stations in the New York metropolitan area. The collection is predominantly composed of correspondence between WNYU's staff and other constituent parts of the University. Other correspondence relates to the broader media and metropolitan community.",
+                "extent": "3.5 linear feet; (8 boxes)",
+                "displayEntry": "Records of WNYU (Radio Station: New York, N.Y.), 1949-1969",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6wf4pnp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "New York University. Archives",
+                            "preferenceScore": "99",
+                            "id": "83696240",
+                            "version": "11327358"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "New York University Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "70 Washington Square South  10th Fl.  New York, New York 10012  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696245",
+                                    "version": "11285391"
+                                }
+                            ],
+                            "id": "83696244",
+                            "version": "11285391"
+                        }
+                    ],
+                    "id": "83696236",
+                    "version": "11327359"
+                },
+                "id": "6328928",
+                "version": "6328928"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Records of WNYU (Radio Station: New York, N.Y.), 1949-1969",
+            "id": "62105811",
+            "version": "9086468"
+        }
+    ],
+    "id": "62105804",
+    "version": "9086469"
+}

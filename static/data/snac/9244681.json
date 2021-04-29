@@ -1,0 +1,585 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6bs3w16",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T06:59:20",
+            "standardDateTime": "2016-08-10T06:59:20",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T06:59:20",
+            "standardDateTime": "2016-08-10T06:59:20",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/41434279",
+            "id": "9244682",
+            "version": "1343666"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/41552132",
+            "id": "9244683",
+            "version": "1343666"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/141924559",
+            "id": "9244684",
+            "version": "1343666"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "9244685",
+            "version": "1343666"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Group W Productions",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Group W Productions",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "9244687",
+                    "version": "1343666"
+                }
+            ],
+            "id": "9244686",
+            "version": "1343666",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77558243",
+                    "version": "1343666"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Westinghouse Broadcasting and Cable, Inc. Group W Productions",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Westinghouse Broadcasting and Cable, Inc. Group W Productions",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "9244691",
+                    "version": "1343666"
+                }
+            ],
+            "id": "9244690",
+            "version": "1343666",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77558244",
+                    "version": "1343666"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "9244681",
+            "targetConstellation": "5479589",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bs3w16",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67d7gpj",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Chaseman, Joel.",
+            "id": "9244700",
+            "version": "1343666"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "9244681",
+            "targetConstellation": "21277941",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bs3w16",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6qn7dt8",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Douglas, Mike.",
+            "id": "9244699",
+            "version": "1343666"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Group W Productions",
+            "uri": "https:\/\/viaf.org\/viaf\/141924559",
+            "id": "9244696",
+            "version": "1343666"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n82221113",
+            "id": "9244697",
+            "version": "1343666"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n82221113",
+            "id": "9244698",
+            "version": "1343666"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/41552132",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:41552132<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-SYB<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Chaseman, Joel.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Epstein, Michael M.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>[Interview with Joel Chaseman] [sound recording] \/ Joel Chaseman ; [interviewed by] Michael Epstein, Chevy Chase, MD, June 24, 1998. 1998.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Syracuse University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "[Interview with Joel Chaseman] [sound recording] \/ Joel Chaseman ; [interviewed by] Michael Epstein, Chevy Chase, MD, June 24, 1998. 1998.",
+                "extent": "2 sound cassettes (ca. 135 min.) : analog, 1 7\/8 ips, mono.",
+                "displayEntry": "Chaseman, Joel. [Interview with Joel Chaseman] [sound recording] \/ Joel Chaseman ; [interviewed by] Michael Epstein, Chevy Chase, MD, June 24, 1998.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Chaseman, Joel.",
+                        "id": "9643472",
+                        "version": "7438537"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Epstein, Michael M.",
+                        "id": "9643473",
+                        "version": "7438537"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6z71bnz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Syracuse University",
+                            "preferenceScore": "99",
+                            "id": "76783735",
+                            "version": "11232873"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Syracuse University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "222 Waverly Ave",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783740",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Suite 219 - Administration",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783741",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Syracuse",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783742",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783743",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "13244-2010",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783744",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783745",
+                                    "version": "11232873"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15784",
+                                "name": "Syracuse University",
+                                "latitude": "43.0404000",
+                                "longitude": "-76.1340000"
+                            },
+                            "confirmed": true,
+                            "id": "76783739",
+                            "version": "11232873"
+                        }
+                    ],
+                    "id": "76783734",
+                    "version": "11232876"
+                },
+                "id": "7438537",
+                "version": "7438537"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Chaseman, Joel. [Interview with Joel Chaseman] [sound recording] \/ Joel Chaseman ; [interviewed by] Michael Epstein, Chevy Chase, MD, June 24, 1998.",
+            "id": "9244702",
+            "version": "1343666"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/41434279",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:41434279<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-SYB<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Douglas, Mike.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Kuney, Jack, 1919-2007.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>[Interview with Mike Douglas] [sound recording] \/ Mike Douglas ; [interviewed by] Jack Kuney, Palm Beach, Florida, Oct. 21, 1998. 1998.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Syracuse University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "[Interview with Mike Douglas] [sound recording] \/ Mike Douglas ; [interviewed by] Jack Kuney, Palm Beach, Florida, Oct. 21, 1998. 1998.",
+                "extent": "1 sound cassette (ca. 45 min.) : analog, 1 7\/8 ips, mono.",
+                "displayEntry": "Douglas, Mike. [Interview with Mike Douglas] [sound recording] \/ Mike Douglas ; [interviewed by] Jack Kuney, Palm Beach, Florida, Oct. 21, 1998.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Douglas, Mike.",
+                        "id": "9640277",
+                        "version": "7436930"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kuney, Jack, 1919-2007.",
+                        "id": "9640278",
+                        "version": "7436930"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6z71bnz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Syracuse University",
+                            "preferenceScore": "99",
+                            "id": "76783735",
+                            "version": "11232873"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Syracuse University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "222 Waverly Ave",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783740",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Suite 219 - Administration",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783741",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Syracuse",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783742",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783743",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "13244-2010",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783744",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783745",
+                                    "version": "11232873"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15784",
+                                "name": "Syracuse University",
+                                "latitude": "43.0404000",
+                                "longitude": "-76.1340000"
+                            },
+                            "confirmed": true,
+                            "id": "76783739",
+                            "version": "11232873"
+                        }
+                    ],
+                    "id": "76783734",
+                    "version": "11232876"
+                },
+                "id": "7436930",
+                "version": "7436930"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Douglas, Mike. [Interview with Mike Douglas] [sound recording] \/ Mike Douglas ; [interviewed by] Jack Kuney, Palm Beach, Florida, Oct. 21, 1998.",
+            "id": "9244701",
+            "version": "1343666"
+        }
+    ],
+    "id": "9244681",
+    "version": "1343667"
+}

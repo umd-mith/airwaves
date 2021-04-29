@@ -1,0 +1,474 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6v7126w",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-23",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T10:17:29",
+            "standardDateTime": "2016-08-12T10:17:29",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T10:17:29",
+            "standardDateTime": "2016-08-12T10:17:29",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122513001",
+            "id": "29831849",
+            "version": "4354637"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/173701435",
+            "id": "29831848",
+            "version": "4354637"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Cohn, Marcus, 1913- .",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Cohn, Marcus, 1913- .",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29831851",
+                    "version": "4354637"
+                }
+            ],
+            "id": "29831850",
+            "version": "4354637",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79236425",
+                    "version": "4354637"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "29831846",
+            "targetConstellation": "24044779",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6v7126w",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w679484q",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Connell, Sally Fly,",
+            "id": "29831856",
+            "version": "4354637"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "29831846",
+            "targetConstellation": "10644243",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6v7126w",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64j0g0c",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Fly, James Lawrence, 1898-1966.",
+            "id": "29831855",
+            "version": "4354637"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122513001",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122513001<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-ZCU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Cohn, Marcus, 1913-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Connell, Sally Fly,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Reminiscences of Marcus Cohn : oral history, 1967.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Columbia University In the City of New York<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Reminiscences of Marcus Cohn : oral history, 1967.",
+                "extent": "Transcript: 39 leaves.Tape: 3 reels.",
+                "displayEntry": "Cohn, Marcus, 1913-. Reminiscences of Marcus Cohn : oral history, 1967.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cohn, Marcus, 1913-",
+                        "id": "8487662",
+                        "version": "6742805"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Connell, Sally Fly,",
+                        "id": "8487663",
+                        "version": "6742805"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nt1h9m",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Columbia University in the City of New York, Columbia University Libraries",
+                            "preferenceScore": "99",
+                            "id": "76765055",
+                            "version": "11225885"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Columbia University in the City of New York, Columbia University Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "535 West 114th Street",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765060",
+                                    "version": "11225885"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New York",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765061",
+                                    "version": "11225885"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765062",
+                                    "version": "11225885"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10027-7035",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765063",
+                                    "version": "11225885"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765064",
+                                    "version": "11225885"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17187",
+                                "name": "Columbia University in the City of New York, Columbia University Libraries",
+                                "latitude": "40.8062000",
+                                "longitude": "-73.9633000"
+                            },
+                            "confirmed": true,
+                            "id": "76765059",
+                            "version": "11225885"
+                        }
+                    ],
+                    "id": "76765054",
+                    "version": "11225888"
+                },
+                "id": "6742805",
+                "version": "6742805"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Cohn, Marcus, 1913-. Reminiscences of Marcus Cohn : oral history, 1967.",
+            "id": "29831858",
+            "version": "4354637"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/173701435",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:173701435<\/recordOrigin>\n                     <recordContentSource>ISIL:WHi<\/recordContentSource>\n                  <\/recordInfo>\n                  <titleInfo>\n                     <title>Public television's roots oral history project, 1979-1982.<\/title>\n                  <\/titleInfo>\n                  <abstract>Fifty-six interviews with transcripts from an oral history project on the beginnings of non-commercial educational television, conducted by James and Anabel Robertson with public TV pioneers from the 1950s and 1960s, and funded primarily by the Corporation for Public Broadcasting.  The interviews concern the ideological split between proponents of educational television and proponents of public television, the primitive conditions under which some of the early stations began, problems of early programming, efforts to interest professional educators in the medium, the role of the Federal Communications Commission, and other topics.  They emphasize the dreams the interviewees had for their field and how they feel public television today measures up to those dreams. Interviewees include Gerard Appy, George Arms, James Armsey, Roy Barthold, Robert J. Blakely, Frederick Breitenfeld, Jr., Gertrude Broderick, Elizabeth Campbell, Everett Case, Henry J. Cauthen, Jr., Kenneth Christiansen, Marcus Cohn, Norman Cousins, John C. Crabbe, David Davis, James Day, Lee DuBridge, Keith Engar, C. Scott Fletcher, Lee Frischknecht, Martha Gable, Hyman Goldin, G. H. Griffiths, Hartford N. Gunn, William Harley, Robert Hudson, Richard Hull, Arthur Hungerford, Armand Hunter, Raymond Hurlbert, Rosel Hyde, James R. Killian, Jr., James L. Loper, James Macandrew, Jack McBride, William McCarter, Harold B. McCarty, Leonard Marks, Chalmers Marquis, Newton Minow, Stanley Neustadt, Morris S. Novik, Kenneth Oberholtzer, Jonathan Rice, James Robertson, Frank Schooley, Rhea Sikes, Harry J. Skornia, Ralph Steetle, Loren Stone, Donald Taverner, John W. Taylor, I. Keith Tyler, Parker Wheatley, John F. White, and Raymond Wittcoff. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Public television's roots oral history project, 1979-1982.",
+                "abstract": "Fifty-six interviews with transcripts from an oral history project on the beginnings of non-commercial educational television, conducted by James and Anabel Robertson with public TV pioneers from the 1950s and 1960s, and funded primarily by the Corporation for Public Broadcasting.  The interviews concern the ideological split between proponents of educational television and proponents of public television, the primitive conditions under which some of the early stations began, problems of early programming, efforts to interest professional educators in the medium, the role of the Federal Communications Commission, and other topics.  They emphasize the dreams the interviewees had for their field and how they feel public television today measures up to those dreams. Interviewees include Gerard Appy, George Arms, James Armsey, Roy Barthold, Robert J. Blakely, Frederick Breitenfeld, Jr., Gertrude Broderick, Elizabeth Campbell, Everett Case, Henry J. Cauthen, Jr., Kenneth Christiansen, Marcus Cohn, Norman Cousins, John C. Crabbe, David Davis, James Day, Lee DuBridge, Keith Engar, C. Scott Fletcher, Lee Frischknecht, Martha Gable, Hyman Goldin, G. H. Griffiths, Hartford N. Gunn, William Harley, Robert Hudson, Richard Hull, Arthur Hungerford, Armand Hunter, Raymond Hurlbert, Rosel Hyde, James R. Killian, Jr., James L. Loper, James Macandrew, Jack McBride, William McCarter, Harold B. McCarty, Leonard Marks, Chalmers Marquis, Newton Minow, Stanley Neustadt, Morris S. Novik, Kenneth Oberholtzer, Jonathan Rice, James Robertson, Frank Schooley, Rhea Sikes, Harry J. Skornia, Ralph Steetle, Loren Stone, Donald Taverner, John W. Taylor, I. Keith Tyler, Parker Wheatley, John F. White, and Raymond Wittcoff. ",
+                "extent": "1.2 c.f. (4 archives boxes) and93 tape recordings.",
+                "displayEntry": "Public television's roots oral history project, 1979-1982.",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fv98qm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "preferenceScore": "99",
+                            "id": "76791151",
+                            "version": "11235489"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "816 State St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791156",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Madison",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791157",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WI",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791158",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "53706",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791159",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791160",
+                                    "version": "11235489"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16409",
+                                "name": "Wisconsin Historical Society, Newspaper Project",
+                                "latitude": "43.0750000",
+                                "longitude": "-89.3992000"
+                            },
+                            "confirmed": true,
+                            "id": "76791155",
+                            "version": "11235489"
+                        }
+                    ],
+                    "id": "76791150",
+                    "version": "11235492"
+                },
+                "id": "6925845",
+                "version": "6925845"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Public television's roots oral history project, 1979-1982.",
+            "id": "29831857",
+            "version": "4354637"
+        }
+    ],
+    "id": "29831846",
+    "version": "4354638",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1913",
+            "fromDateOriginal": "1913",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "29831847",
+            "version": "4354637"
+        }
+    ]
+}

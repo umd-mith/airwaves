@@ -1,0 +1,295 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sc0t0p",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T03:12:27",
+            "standardDateTime": "2016-08-11T03:12:27",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T03:12:27",
+            "standardDateTime": "2016-08-11T03:12:27",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/28499353",
+            "id": "18182526",
+            "version": "2654381"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "William H. Rice Institute",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "William H. Rice Institute",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "18182528",
+                    "version": "2654381"
+                }
+            ],
+            "id": "18182527",
+            "version": "2654381",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78290670",
+                    "version": "2654381"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "18182525",
+            "targetConstellation": "28866919",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sc0t0p",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w69w30g0",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Vandiver, Frank Everson, 1925-2005.",
+            "id": "18182531",
+            "version": "2654381"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/28499353",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:28499353<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-RCE<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Vandiver, Frank Everson, 1925-2005.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Frank E. Vandiver papers, 1947-1977.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence, mss. of writings, notes, maps, clippings, photos, and other papers, chiefly relating to Vandiver's work as history professor at Rice University (earlier William M. Rice Institute) and as provost of Rice University. Topics include the Civil War. <\/abstract>\n                  <name>\n                     <namePart>Rice University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Frank E. Vandiver papers, 1947-1977.",
+                "abstract": "Correspondence, mss. of writings, notes, maps, clippings, photos, and other papers, chiefly relating to Vandiver's work as history professor at Rice University (earlier William M. Rice Institute) and as provost of Rice University. Topics include the Civil War. ",
+                "extent": "13 linear ft.",
+                "displayEntry": "Vandiver, Frank Everson, 1925-2005. Frank E. Vandiver papers, 1947-1977.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Vandiver, Frank Everson, 1925-2005.",
+                        "id": "9345067",
+                        "version": "7261708"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6q63c77",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Rice University, Fondren Library",
+                            "preferenceScore": "99",
+                            "id": "76780467",
+                            "version": "11231673"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Rice University, Fondren Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Fondren Library - Rice Univ",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76780472",
+                                    "version": "11231673"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "6100 Main St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76780473",
+                                    "version": "11231673"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Houston",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76780474",
+                                    "version": "11231673"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-TX",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76780475",
+                                    "version": "11231673"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "77005",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76780476",
+                                    "version": "11231673"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76780477",
+                                    "version": "11231673"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17130",
+                                "name": "Rice University, Fondren Library",
+                                "latitude": "29.7184391",
+                                "longitude": "-95.4224243"
+                            },
+                            "confirmed": true,
+                            "id": "76780471",
+                            "version": "11231673"
+                        }
+                    ],
+                    "id": "76780466",
+                    "version": "11430288"
+                },
+                "id": "7261708",
+                "version": "7261708"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Vandiver, Frank Everson, 1925-2005. Frank E. Vandiver papers, 1947-1977.",
+            "id": "18182532",
+            "version": "2654381"
+        }
+    ],
+    "id": "18182525",
+    "version": "2654382"
+}

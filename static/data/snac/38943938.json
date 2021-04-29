@@ -1,0 +1,295 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6jr454r",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T14:12:29",
+            "standardDateTime": "2016-08-13T14:12:29",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T14:12:29",
+            "standardDateTime": "2016-08-13T14:12:29",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/hou00066.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">State Radio Council Station,<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/hou00066\/catalog",
+            "id": "38943939",
+            "version": "5684555"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "State Radio Council Station",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "State Radio Council Station",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "38943941",
+                    "version": "5684555"
+                }
+            ],
+            "id": "38943940",
+            "version": "5684555",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79981447",
+                    "version": "5684555"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "38943938",
+            "targetConstellation": "43152735",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jr454r",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tt4pr6",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Kolisch, Rudolf, 1896-1978",
+            "id": "38943944",
+            "version": "5684555"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/hou00066\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Houghton Library, Harvard College Library, Harvard University <\/repository>\n                  <physloc>b <\/physloc>\n                  <unitid>MS Mus 195 <\/unitid>\n                  <origination>\n                     <persname>Kolisch, Rudolf, 1896-1978. <\/persname>\n                  <\/origination>\n                  <unittitle>Rudolf Kolisch papers, <\/unittitle>\n                  <unitdate>1886-1978. <\/unitdate>\n                  <physdesc>\n                     <extent>141 boxes, 18 volumes (47.5 linear ft.) <\/extent>\n                  <\/physdesc>\n                  <abstract>Papers of musician Rudolf Kolisch including correspondence, musical and\n                literary compositions, recordings, performance records, teaching materials, subject\n                files, and biographical materials. <\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Rudolf Kolisch papers, 1886-1978.",
+                "abstract": "Papers of musician Rudolf Kolisch including correspondence, musical and                literary compositions, recordings, performance records, teaching materials, subject                files, and biographical materials.",
+                "extent": "141 boxes, 18 volumes (47.5 linear ft.)",
+                "displayEntry": "Rudolf Kolisch papers, 1886-1978.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kolisch, Rudolf, 1896-1978. ",
+                        "id": "11437144",
+                        "version": "6383226"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64n9vjj",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Houghton Library",
+                            "preferenceScore": "99",
+                            "id": "84972051",
+                            "version": "11443403"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Houghton Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Harvard Yard",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937835",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937836",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937837",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138-6534",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937838",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937839",
+                                    "version": "11443394"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15160",
+                                "name": "Harvard University, Houghton Library",
+                                "latitude": "42.3731728",
+                                "longitude": "-71.1159515"
+                            },
+                            "confirmed": true,
+                            "id": "84937834",
+                            "version": "11443394"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts--Cambridge",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84937840",
+                            "version": "11443394"
+                        }
+                    ],
+                    "id": "84937800",
+                    "version": "11443404"
+                },
+                "id": "6383226",
+                "version": "6383226"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Rudolf Kolisch papers, 1886-1978.",
+            "id": "38943945",
+            "version": "5684555"
+        }
+    ],
+    "id": "38943938",
+    "version": "5684556"
+}

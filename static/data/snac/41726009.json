@@ -1,0 +1,346 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6dr9nr8",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T23:17:52",
+            "standardDateTime": "2016-08-13T23:17:52",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T23:17:52",
+            "standardDateTime": "2016-08-13T23:17:52",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/715307215",
+            "id": "41726010",
+            "version": "6091088"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/123480664",
+            "id": "41726011",
+            "version": "6091088"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "41726012",
+            "version": "6091088"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WBEZ (Radio station : Chicago, Ill.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WBEZ (Radio station : Chicago, Ill.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "41726014",
+                    "version": "6091088"
+                }
+            ],
+            "id": "41726013",
+            "version": "6091088",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80209542",
+                    "version": "6091088"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "41726009",
+            "targetConstellation": "41603176",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dr9nr8",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz1p1m",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Nolan, Carole R.",
+            "id": "41726022",
+            "version": "6091088"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "WBEZ (Radio station : Chicago, Ill.)",
+            "uri": "https:\/\/viaf.org\/viaf\/123480664",
+            "id": "41726019",
+            "version": "6091088"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no99075606",
+            "id": "41726020",
+            "version": "6091088"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no99075606",
+            "id": "41726021",
+            "version": "6091088"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/715307215",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:715307215<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-KAI<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Nolan, Carole R.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Chicago (Ill.). Board of Education.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Carole R. Nolan papers, ca. 1941-1976 (bulk 1966-1968).<\/title>\n                  <\/titleInfo>\n                  <abstract>Technical reports, meeting minutes, financial information, field surveys, correspondence, and other items relative to Carole R. Nolan's work as a consultant on closed circuit instructional television in the public schools for the Chicago Board of Education, 1966-1968. The collection also contains the Radio Art Workshop guest book from Congress Hotel, December 1, 1941 and a Radio Station WBEZ guest book, 1974-1976. <\/abstract>\n                  <name>\n                     <namePart>Chicago History Museum<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Carole R. Nolan papers, ca. 1941-1976 (bulk 1966-1968).",
+                "abstract": "Technical reports, meeting minutes, financial information, field surveys, correspondence, and other items relative to Carole R. Nolan's work as a consultant on closed circuit instructional television in the public schools for the Chicago Board of Education, 1966-1968. The collection also contains the Radio Art Workshop guest book from Congress Hotel, December 1, 1941 and a Radio Station WBEZ guest book, 1974-1976. ",
+                "extent": "0.5 linear ft. (1 box containing 3 folders and 2 v.)",
+                "displayEntry": "Nolan, Carole R. Carole R. Nolan papers, ca. 1941-1976 (bulk 1966-1968).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Nolan, Carole R.",
+                        "id": "10829213",
+                        "version": "8084413"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Chicago (Ill.). Board of Education.",
+                        "id": "10829214",
+                        "version": "8084413"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6815r2j",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Chicago History Museum",
+                            "preferenceScore": "99",
+                            "id": "76764154",
+                            "version": "11225557"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Chicago History Museum",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Clark Street at North Avenue",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764159",
+                                    "version": "11225557"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chicago",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764160",
+                                    "version": "11225557"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-IL",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764161",
+                                    "version": "11225557"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "60614",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764162",
+                                    "version": "11225557"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764163",
+                                    "version": "11225557"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17311",
+                                "name": "Chicago History Museum",
+                                "latitude": "41.9120000",
+                                "longitude": "-87.6315000"
+                            },
+                            "confirmed": true,
+                            "id": "76764158",
+                            "version": "11225557"
+                        }
+                    ],
+                    "id": "76764153",
+                    "version": "11225560"
+                },
+                "id": "8084413",
+                "version": "8084413"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Nolan, Carole R. Carole R. Nolan papers, ca. 1941-1976 (bulk 1966-1968).",
+            "id": "41726023",
+            "version": "6091088"
+        }
+    ],
+    "id": "41726009",
+    "version": "6091089"
+}

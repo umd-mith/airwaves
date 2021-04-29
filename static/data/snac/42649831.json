@@ -1,0 +1,326 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6ps4jrz",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T02:28:17",
+            "standardDateTime": "2016-08-14T02:28:17",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T02:28:17",
+            "standardDateTime": "2016-08-14T02:28:17",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/42645179",
+            "id": "42649832",
+            "version": "6228965"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WFDD (Radio station : Winston-Salem, N.C.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WFDD (Radio station : Winston-Salem, N.C.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "42649834",
+                    "version": "6228965"
+                }
+            ],
+            "id": "42649833",
+            "version": "6228965",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80285913",
+                    "version": "6228965"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "42649831",
+            "targetConstellation": "39343637",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ps4jrz",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64v0qnw",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Mark, Charles Christopher, 1927-",
+            "id": "42649837",
+            "version": "6228965"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/42645179",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:42645179<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NZG<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Mark, Charles Christopher, 1927-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Arts Reporting Service.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Public Radio (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WFDD (Radio station : Winston-Salem, N.C.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Commentary on NCSA for Arts Reporting Service, National Public Radio [sound recording]. 1999.<\/title>\n                  <\/titleInfo>\n                  <abstract>Radio commentaries by Charles Christopher Mark on the North Carolina School of the Arts ; its graduates and their successes ; a brief history of NCSA ; the state of the school ; its curriculum ; and Mr. Mark's impressions of the school. <\/abstract>\n                  <name>\n                     <namePart>University of North Carolina School of the Arts<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Commentary on NCSA for Arts Reporting Service, National Public Radio [sound recording]. 1999.",
+                "abstract": "Radio commentaries by Charles Christopher Mark on the North Carolina School of the Arts ; its graduates and their successes ; a brief history of NCSA ; the state of the school ; its curriculum ; and Mr. Mark's impressions of the school. ",
+                "extent": "1 sound disc (8:13) : digital, mono. ; 4 3\/4 in.",
+                "displayEntry": "Mark, Charles Christopher, 1927-. Commentary on NCSA for Arts Reporting Service, National Public Radio [sound recording].",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Mark, Charles Christopher, 1927-",
+                        "id": "9664827",
+                        "version": "7451784"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Arts Reporting Service.",
+                        "id": "9664828",
+                        "version": "7451784"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Public Radio (U.S.)",
+                        "id": "9664829",
+                        "version": "7451784"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WFDD (Radio station : Winston-Salem, N.C.)",
+                        "id": "9664830",
+                        "version": "7451784"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "9664831",
+                        "version": "7451784"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6dk64bt",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina School of the Arts, Semans Library",
+                            "preferenceScore": "99",
+                            "id": "76787494",
+                            "version": "11234221"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of North Carolina School of the Arts, Semans Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1533 S Main St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787499",
+                                    "version": "11234221"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "PO Box 12189",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787500",
+                                    "version": "11234221"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Winston-Salem",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787501",
+                                    "version": "11234221"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NC",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787502",
+                                    "version": "11234221"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "27117-2189",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787503",
+                                    "version": "11234221"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787504",
+                                    "version": "11234221"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15910",
+                                "name": "University of North Carolina School of the Arts, Semans Library",
+                                "latitude": "36.0780000",
+                                "longitude": "-80.2374000"
+                            },
+                            "confirmed": true,
+                            "id": "76787498",
+                            "version": "11234221"
+                        }
+                    ],
+                    "id": "76787493",
+                    "version": "11234224"
+                },
+                "id": "7451784",
+                "version": "7451784"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Mark, Charles Christopher, 1927-. Commentary on NCSA for Arts Reporting Service, National Public Radio [sound recording].",
+            "id": "42649838",
+            "version": "6228965"
+        }
+    ],
+    "id": "42649831",
+    "version": "6228966"
+}

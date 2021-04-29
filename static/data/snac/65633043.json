@@ -1,0 +1,195 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r62xb4",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T18:52:54",
+            "standardDateTime": "2016-08-17T18:52:54",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T18:52:54",
+            "standardDateTime": "2016-08-17T18:52:54",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/mus00006.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Radio WNEW<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/mus00006\/catalog",
+            "id": "65633044",
+            "version": "9596027"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Radio WNEW",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Radio WNEW",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "65633046",
+                    "version": "9596027"
+                }
+            ],
+            "id": "65633045",
+            "version": "9596027",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82170886",
+                    "version": "9596027"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "65633043",
+            "targetConstellation": "50129775",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6r62xb4",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sr6wsw",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Dodge, Joseph Jeffers",
+            "id": "65633049",
+            "version": "9596027"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/mus00006\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Eda Kuhn Loeb\nMusic Library, Harvard College Library<\/repository>\n                  <origination>\n                     <persname>Dodge, Joseph\nJeffers, <\/persname>collector. <\/origination>\n                  <unittitle>Duke Ellington recordings collection<\/unittitle>\n                  <physloc>Eda Kuhn Loeb Music Library<\/physloc>\n                  <unitid>Record Coll.\n34000-35036, 10-35037-10-35330, C-35331-C-35469, T-35470-T-35506<\/unitid>\n                  <physdesc>\n                     <extent>Sound recordings (33 linear feet) and accompanying materials (1 box).<\/extent>\n                  <\/physdesc>\n                  <abstract>Recordings of Duke Ellington, American pianist, band leader, and\ncomposer, collected by Joseph Jeffers Dodge, jazz aficionado, artist, museum director, and\nHarvard University Class of 1940.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Duke Ellington recordings collection",
+                "abstract": "Recordings of Duke Ellington, American pianist, band leader, andcomposer, collected by Joseph Jeffers Dodge, jazz aficionado, artist, museum director, andHarvard University Class of 1940.",
+                "extent": "Sound recordings (33 linear feet) and accompanying materials (1 box).",
+                "displayEntry": "Duke Ellington recordings collection",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dodge, JosephJeffers, ",
+                        "id": "11439792",
+                        "version": "6386006"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6815rd1",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Eda Kuhn Loeb Music Library, Harvard College Library",
+                            "preferenceScore": "99",
+                            "id": "76793118",
+                            "version": "11237145"
+                        }
+                    ],
+                    "id": "76793117",
+                    "version": "11237148"
+                },
+                "id": "6386006",
+                "version": "6386006"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Duke Ellington recordings collection",
+            "id": "65633050",
+            "version": "9596027"
+        }
+    ],
+    "id": "65633043",
+    "version": "9596028"
+}

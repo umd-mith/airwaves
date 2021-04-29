@@ -1,0 +1,314 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fj6dpk",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T19:13:35",
+            "standardDateTime": "2016-08-09T19:13:35",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T19:13:35",
+            "standardDateTime": "2016-08-09T19:13:35",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/174967270",
+            "id": "3321517",
+            "version": "478826"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Press, O. Leonard,",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Press, O. Leonard,",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "3321519",
+                    "version": "478826"
+                }
+            ],
+            "id": "3321518",
+            "version": "478826",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77072735",
+                    "version": "478826"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "3321515",
+            "targetConstellation": "35842798",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fj6dpk",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64v0gbz",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Schulman, Robert",
+            "id": "3321522",
+            "version": "478826"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/174967270",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:174967270<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-KNU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Schulman, Robert<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Press, O. Leonard,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Milligan, Sarah,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Kentucky Historical Society.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Kentucky Oral History Commission.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Robert Schulman Interviews, 2007.<\/title>\n                  <\/titleInfo>\n                  <abstract>Five interviews in which Robert Schulman discusses his career as a journalist.  Topics include college training, his time as a reporter for Time and Life magazines, and his job as a columnist for the Louisville Courier-Journal. <\/abstract>\n                  <name>\n                     <namePart>Kentucky Historical Society<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Robert Schulman Interviews, 2007.",
+                "abstract": "Five interviews in which Robert Schulman discusses his career as a journalist.  Topics include college training, his time as a reporter for Time and Life magazines, and his job as a columnist for the Louisville Courier-Journal. ",
+                "extent": "11 sound discs (ca. 11 hr.) : digital, stereo.",
+                "displayEntry": "Schulman, Robert. Robert Schulman Interviews, 2007.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Schulman, Robert",
+                        "id": "8798245",
+                        "version": "6929447"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Press, O. Leonard,",
+                        "id": "8798246",
+                        "version": "6929447"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Milligan, Sarah,",
+                        "id": "8798247",
+                        "version": "6929447"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kentucky Historical Society.",
+                        "id": "8798248",
+                        "version": "6929447"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kentucky Oral History Commission.",
+                        "id": "8798249",
+                        "version": "6929447"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6pd3qwn",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Kentucky Historical Society, Martin F. Schmidt Research Library",
+                            "preferenceScore": "99",
+                            "id": "76771879",
+                            "version": "11228485"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Kentucky Historical Society, Martin F. Schmidt Research Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "100 W Broadway",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76771884",
+                                    "version": "11228485"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Frankfort",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76771885",
+                                    "version": "11228485"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-KY",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76771886",
+                                    "version": "11228485"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "40601",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76771887",
+                                    "version": "11228485"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76771888",
+                                    "version": "11228485"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16655",
+                                "name": "Kentucky Historical Society, Martin F. Schmidt Research Library",
+                                "latitude": "38.1991158",
+                                "longitude": "-84.8747559"
+                            },
+                            "confirmed": true,
+                            "id": "76771883",
+                            "version": "11228485"
+                        }
+                    ],
+                    "id": "76771878",
+                    "version": "11228488"
+                },
+                "id": "6929447",
+                "version": "6929447"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Schulman, Robert. Robert Schulman Interviews, 2007.",
+            "id": "3321523",
+            "version": "478826"
+        }
+    ],
+    "id": "3321515",
+    "version": "478827",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDateOriginal": "active 2007",
+            "id": "3321516",
+            "version": "478826"
+        }
+    ]
+}

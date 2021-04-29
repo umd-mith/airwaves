@@ -1,0 +1,1073 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6th9jt7",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-21",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T09:31:15",
+            "standardDateTime": "2016-08-16T09:31:15",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T09:31:15",
+            "standardDateTime": "2016-08-16T09:31:15",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/33348969",
+            "id": "57520235",
+            "version": "8415374"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/32409654",
+            "id": "57520234",
+            "version": "8415374"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/34241695",
+            "id": "57520236",
+            "version": "8415374"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/30047208",
+            "id": "57520237",
+            "version": "8415374"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Schooley, Frank E.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Schooley, Frank E.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "57520239",
+                    "version": "8415374"
+                }
+            ],
+            "id": "57520238",
+            "version": "8415374",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81509214",
+                    "version": "8415374"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "57520232",
+                "version": "8415374"
+            },
+            "text": "<biogHist>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Broadcasting executive.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Station manager, WILL-FM and WILL-TV; professor, radio and television, University of Illinois; president, National Association of Educational Broadcasters.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Papers. 1918-1987. (University of Maryland Libraries). WorldCat record id: 32409654<\/citation>\n         <\/biogHist>",
+            "id": "57520231",
+            "version": "8415374"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "57520230",
+            "targetConstellation": "22270978",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6th9jt7",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6r258mm",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Corporation for Public Broadcasting.",
+            "id": "57520251",
+            "version": "8415374"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "57520230",
+            "targetConstellation": "53212838",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6th9jt7",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fx87sd",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Harley, William G., 1911-1998.",
+            "id": "57520249",
+            "version": "8415374"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "57520230",
+            "targetConstellation": "72541048",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6th9jt7",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Harrison, Burt.",
+            "id": "57520254",
+            "version": "8415374"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "57520230",
+            "targetConstellation": "20354954",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6th9jt7",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rn70pt",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "National Association of Educational Broadcasters.",
+            "id": "57520250",
+            "version": "8415374"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "57520230",
+            "targetConstellation": "40241977",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6th9jt7",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6992rpj",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Robertson, Jim, 1918-",
+            "id": "57520255",
+            "version": "8415374"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "57520230",
+            "targetConstellation": "42986771",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6th9jt7",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6640n0x",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Sarnoff, Robert W.",
+            "id": "57520248",
+            "version": "8415374"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "57520230",
+            "targetConstellation": "47319411",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6th9jt7",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jd8r3d",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Illinois (Urbana-Champaign campus)",
+            "id": "57520252",
+            "version": "8415374"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "57520230",
+            "targetConstellation": "44837214",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6th9jt7",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dr7s60",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WILL (Radio\/television station : Urbana, Ill.)",
+            "id": "57520253",
+            "version": "8415374"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "57520230",
+            "targetConstellation": "32045768",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6th9jt7",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6x654fn",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Schooley, Frank."
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/34241695",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:34241695<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Robertson, Jim, 1918-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Educational Television and Radio Center.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Jim Robertson papers, 1946-1989, and undated (bulk 1970-1982).<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection primarily documents Robertson's extensive oral history project as well as his work at National Educational Radio and at Robertson Associates, Inc. Types of documents include: oral history transcripts, correspondence, reports, articles, slides, audio tapes, audio cassettes, and one video cassette. Notable correspondents are: Robert J. Blakely; Elizabeth Campbell; Norman Cousins; John C. Crabbe; James Day; C. Scott Fetcher; Lee Frischknecht; Hartford N. Gunn; William Harley; James R. Killian, Jr.; Chalmers Marquis; Jack McBride; Newton Minow; Morris S. Novik; Frank Schooley; Ralph Steetle; John F. White; National Educational Radio. <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Jim Robertson papers, 1946-1989, and undated (bulk 1970-1982).",
+                "abstract": "Collection primarily documents Robertson's extensive oral history project as well as his work at National Educational Radio and at Robertson Associates, Inc. Types of documents include: oral history transcripts, correspondence, reports, articles, slides, audio tapes, audio cassettes, and one video cassette. Notable correspondents are: Robert J. Blakely; Elizabeth Campbell; Norman Cousins; John C. Crabbe; James Day; C. Scott Fetcher; Lee Frischknecht; Hartford N. Gunn; William Harley; James R. Killian, Jr.; Chalmers Marquis; Jack McBride; Newton Minow; Morris S. Novik; Frank Schooley; Ralph Steetle; John F. White; National Educational Radio. ",
+                "extent": "7.25 linear feet.",
+                "displayEntry": "Robertson, Jim, 1918-. Jim Robertson papers, 1946-1989, and undated (bulk 1970-1982).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Robertson, Jim, 1918-",
+                        "id": "9499643",
+                        "version": "7354713"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Educational Television and Radio Center.",
+                        "id": "9499644",
+                        "version": "7354713"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7354713",
+                "version": "7354713"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Robertson, Jim, 1918-. Jim Robertson papers, 1946-1989, and undated (bulk 1970-1982).",
+            "id": "57520258",
+            "version": "8415374"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/33348969",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:33348969<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Harrison, Burt.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Crabbe, John C.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Harley, William G., 1911-1998.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Norwood, Frank W.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Novik, Morris S., 1903-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Quayle, Donald R.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Paulu, Burton, 1910-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Schooley, Frank E.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Witherspoon, John.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Robertson, James.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Young, Elizabeth L.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Burt Harrison papers, 1977-1982.<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection documents the interviews conducted in the Public Radio Oral History Project. <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Burt Harrison papers, 1977-1982.",
+                "abstract": "Collection documents the interviews conducted in the Public Radio Oral History Project. ",
+                "extent": "5.00 linear feet including 65 audiocassettes.",
+                "displayEntry": "Harrison, Burt. Burt Harrison papers, 1977-1982.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Harrison, Burt.",
+                        "id": "9490231",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Crabbe, John C.",
+                        "id": "9490232",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Harley, William G., 1911-1998.",
+                        "id": "9490233",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Norwood, Frank W.",
+                        "id": "9490234",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Novik, Morris S., 1903-",
+                        "id": "9490235",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Quayle, Donald R.",
+                        "id": "9490236",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Paulu, Burton, 1910-",
+                        "id": "9490237",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Schooley, Frank E.",
+                        "id": "9490238",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Witherspoon, John.",
+                        "id": "9490239",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Robertson, James.",
+                        "id": "9490240",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Young, Elizabeth L.",
+                        "id": "9490241",
+                        "version": "7349776"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7349776",
+                "version": "7349776"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Harrison, Burt. Burt Harrison papers, 1977-1982.",
+            "id": "57520257",
+            "version": "8415374"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/32409654",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:32409654<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Schooley, Frank E.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Sarnoff, Robert W.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Harley, William G., 1911-1998.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Association of Educational Broadcasters.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Corporation for Public Broadcasting.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>University of Illinois (Urbana-Champaign campus)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WILL (Radio\/television station : Urbana, Ill.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers. 1918-1987.<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection primarily documents Schooley's career in educational and public broadcasting. <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers. 1918-1987.",
+                "abstract": "Collection primarily documents Schooley's career in educational and public broadcasting. ",
+                "extent": "ca. 400 pieces : photographs.",
+                "displayEntry": "Schooley, Frank E. Papers.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Sarnoff, Robert W.",
+                        "id": "9473347",
+                        "version": "7340765"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Schooley, Frank E.",
+                        "id": "9473346",
+                        "version": "7340765"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Harley, William G., 1911-1998.",
+                        "id": "9473348",
+                        "version": "7340765"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Association of Educational Broadcasters.",
+                        "id": "9473349",
+                        "version": "7340765"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Corporation for Public Broadcasting.",
+                        "id": "9473350",
+                        "version": "7340765"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of Illinois (Urbana-Champaign campus)",
+                        "id": "9473351",
+                        "version": "7340765"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WILL (Radio\/television station : Urbana, Ill.)",
+                        "id": "9473352",
+                        "version": "7340765"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7340765",
+                "version": "7340765"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Schooley, Frank E. Papers.",
+            "id": "57520256",
+            "version": "8415374"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/30047208",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:30047208<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Harley, William G., 1911-1998.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Schooley, Frank E.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>William G. Harley papers, 1942-1965 (bulk 1960-1965)<\/title>\n                  <\/titleInfo>\n                  <abstract>The collection documents funding at the NAEB and comments on professionalization and the future of educational broadcasting. <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "William G. Harley papers, 1942-1965 (bulk 1960-1965)",
+                "abstract": "The collection documents funding at the NAEB and comments on professionalization and the future of educational broadcasting. ",
+                "extent": "3 folders",
+                "displayEntry": "Harley, William G., 1911-1998. William G. Harley papers, 1942-1965 (bulk 1960-1965)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Harley, William G., 1911-1998.",
+                        "id": "9381015",
+                        "version": "7282469"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Schooley, Frank E.",
+                        "id": "9381016",
+                        "version": "7282469"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7282469",
+                "version": "7282469"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Harley, William G., 1911-1998. William G. Harley papers, 1942-1965 (bulk 1960-1965)",
+            "id": "57520259",
+            "version": "8415374"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "United States",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "57520245",
+            "version": "8415374",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "United States",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "57520246",
+                    "version": "8415374"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "295534",
+                "term": "Public broadcasting--History--Sources",
+                "type": "subject"
+            },
+            "id": "57520247",
+            "version": "8415374"
+        }
+    ],
+    "id": "57520230",
+    "version": "8415375",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1977",
+            "fromDateOriginal": "active 1977",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1982",
+            "toDateOriginal": "active 1982",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "57520233",
+            "version": "8415374"
+        }
+    ]
+}

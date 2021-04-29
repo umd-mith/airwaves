@@ -1,0 +1,199 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6d94s14",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T23:33:20",
+            "standardDateTime": "2016-08-15T23:33:20",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T23:33:20",
+            "standardDateTime": "2016-08-15T23:33:20",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/crnlu\/RMM04904.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"MARC 110\">WHCU.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/rmc.library.cornell.edu\/EAD\/xml\/dlxs\/RMM04904.xml",
+            "id": "55038477",
+            "version": "8047952"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WHCU.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WHCU.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "55038479",
+                    "version": "8047952"
+                }
+            ],
+            "id": "55038478",
+            "version": "8047952",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"crnlu\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81305396",
+                    "version": "8047952"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "55038476",
+            "targetConstellation": "37753863",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6d94s14",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6m19m5v",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WHCU Department of Black Affairs.",
+            "id": "55038482",
+            "version": "8047952"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/rmc.library.cornell.edu\/EAD\/xml\/dlxs\/RMM04904.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>WHCU Department of\n        Black Affairs records, \n        <unitdate>1971-1991.<\/unitdate>\n                  <\/unittitle>\n                  <unitid>4904<\/unitid>\n                  <origination>\n                     <corpname>WHCU Department of Black\n          Affairs.<\/corpname>\n                  <\/origination>\n                  <physdesc>.1 cubic ft.; 173\n        tape recordings.<\/physdesc>\n                  <physdesc>Tape recordings and\n        scripts.<\/physdesc>\n                  <repository>Division of Rare and Manuscript\n        Collections, Cornell University Library<\/repository>\n                  <abstract>Tape recordings and scripts of the Night\n        Sounds program broadcast on radio station WHCU in Ithaca, New York; interviews,\n        promotional advertisements for local businesses, local news broadcasts, and\n        other programs for the African American listening audience in Central New York\n        State.<\/abstract>\n                  <langmaterial>Collection material in\n        <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "WHCU Department of        Black Affairs records, 1971-1991.",
+                "abstract": "Tape recordings and scripts of the Night        Sounds program broadcast on radio station WHCU in Ithaca, New York; interviews,        promotional advertisements for local businesses, local news broadcasts, and        other programs for the African American listening audience in Central New York        State.",
+                "displayEntry": "WHCU Department of Black Affairs records, 1971-1991.",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11463526",
+                        "version": "6401092"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6pzz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Division of Rare and Manuscript Collections, Cornell University Library.",
+                            "preferenceScore": "99",
+                            "id": "76792986",
+                            "version": "11237009"
+                        }
+                    ],
+                    "id": "76792985",
+                    "version": "11237012"
+                },
+                "id": "6401092",
+                "version": "6401092"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "WHCU Department of Black Affairs records, 1971-1991.",
+            "id": "55038483",
+            "version": "8047952"
+        }
+    ],
+    "id": "55038476",
+    "version": "8047953"
+}

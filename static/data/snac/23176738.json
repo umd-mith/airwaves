@@ -1,0 +1,420 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63v5p7p",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T15:54:44",
+            "standardDateTime": "2016-08-11T15:54:44",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T15:54:44",
+            "standardDateTime": "2016-08-11T15:54:44",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/stanford\/cstmus\/ars0067.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" role=\"Host (hst)\" source=\"ingest\">KALW (Radio station : San Francisco, Calif.)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt600037sv",
+            "id": "23176740",
+            "version": "3388991"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/712779372",
+            "id": "23176739",
+            "version": "3388991"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KALW (Radio station : San Francisco, Calif.)",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KALW (Radio station : San Francisco, Calif.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "23176742",
+                    "version": "3388991"
+                }
+            ],
+            "id": "23176741",
+            "version": "3388991",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78701026",
+                    "version": "3388991"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "23176738",
+            "targetConstellation": "11563295",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63v5p7p",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w63c8b5z",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Farley, Alan",
+            "id": "23176748",
+            "version": "3388991"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "23176738",
+            "targetConstellation": "42641344",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63v5p7p",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cz6fvr",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Farley, Alan, radio host.",
+            "id": "23176747",
+            "version": "3388991"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt600037sv",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Alan Farley Collection<\/unittitle>\n                  <unitid>ARS.0067<\/unitid>\n                  <repository>\n                     <corpname>Archive of Recorded Sound<\/corpname>\n                  <\/repository>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>8.75 linear feet<\/extent>\n                  <\/physdesc>\n                  <unitdate>1994-2009<\/unitdate>\n                  <abstract>The Alan Farley Collection consists primarily of recordings made for the radio program Book Talk recorded on audio cassette tapes, digital audio tapes and compact discs. Book Talk airs on KALW 91.7 FM in San Francisco, California, though some of the recordings are used for other radio programs Farley hosts on KALW, such as the show Open Air.<\/abstract>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n                  <physloc>Stanford Archive of Recorded Sound Stanford University Libraries Stanford, California 94305-3076<\/physloc>\n                  <origination>\n                     <persname>Farley, Alan<\/persname>\n                  <\/origination>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Alan Farley Collection 1994-2009",
+                "abstract": "The Alan Farley Collection consists primarily of recordings made for the radio program Book Talk recorded on audio cassette tapes, digital audio tapes and compact discs. Book Talk airs on KALW 91.7 FM in San Francisco, California, though some of the recordings are used for other radio programs Farley hosts on KALW, such as the show Open Air.",
+                "extent": "8.75 linear feet",
+                "displayEntry": "Alan Farley Collection, 1994-2009",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Farley, Alan",
+                        "id": "11291515",
+                        "version": "6657357"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63z8wdk",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archive of Recorded Sound",
+                            "preferenceScore": "99",
+                            "id": "76791753",
+                            "version": "11235849"
+                        }
+                    ],
+                    "id": "76791752",
+                    "version": "11235852"
+                },
+                "id": "6657357",
+                "version": "6657357"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Alan Farley Collection, 1994-2009",
+            "id": "23176750",
+            "version": "3388991"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/712779372",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:712779372<\/recordOrigin>\n                     <recordContentSource>ISIL:CSt<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Farley, Alan, radio host.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>KALW (Radio station : San Francisco, Calif.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Alan Farley Collection.<\/title>\n                  <\/titleInfo>\n                  <abstract>The Alan Farley Collection consists of recordings made by Alan Farley for the Book Talk radio program on KALW 91.7 in San Francisco, California. The recordings are on audio cassette tapes, digital audio tapes and compact discs. The recordings are interviews between Alan Farley and numerous local, national and international authors of fiction and nonfiction works. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Alan Farley Collection.",
+                "abstract": "The Alan Farley Collection consists of recordings made by Alan Farley for the Book Talk radio program on KALW 91.7 in San Francisco, California. The recordings are on audio cassette tapes, digital audio tapes and compact discs. The recordings are interviews between Alan Farley and numerous local, national and international authors of fiction and nonfiction works. ",
+                "extent": "9.4 linear feet (13 boxes of sound recordings)",
+                "displayEntry": "Farley, Alan, radio host. Alan Farley Collection.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Farley, Alan, radio host.",
+                        "id": "10823152",
+                        "version": "8080727"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KALW (Radio station : San Francisco, Calif.)",
+                        "id": "10823153",
+                        "version": "8080727"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r60dtf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Stanford University. Department of Special Collections and University Archives",
+                            "preferenceScore": "99",
+                            "id": "83740282",
+                            "version": "11288677"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Stanford University, Interlibrary Service",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Green Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740287",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Arguello Way",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740288",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740289",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740290",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "94305-6004",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740291",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740292",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15165",
+                                "name": "Stanford University, Interlibrary Service",
+                                "latitude": "37.4313698",
+                                "longitude": "-122.1689224"
+                            },
+                            "confirmed": true,
+                            "id": "83740286",
+                            "version": "11288638"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Department of Special Collections and University Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford University Libraries 557 Escondido Mall Stanford, CA 94305-6064 Email: speccollref@stanford.edu Phone: (650) 725-1022 URL: http:\/\/www-sul.stanford.edu\/depts\/spc\/spc.html",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740294",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "id": "83740293",
+                            "version": "11288638"
+                        }
+                    ],
+                    "id": "83740278",
+                    "version": "11288678"
+                },
+                "id": "8080727",
+                "version": "8080727"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Farley, Alan, radio host. Alan Farley Collection.",
+            "id": "23176749",
+            "version": "3388991"
+        }
+    ],
+    "id": "23176738",
+    "version": "3388992"
+}

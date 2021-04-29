@@ -1,0 +1,550 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61p3wbd",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T02:47:13",
+            "standardDateTime": "2016-08-12T02:47:13",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T02:47:13",
+            "standardDateTime": "2016-08-12T02:47:13",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/stanford\/uarc\/scm0033.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" role=\" \" rules=\"dacs\" source=\"ingest\">Stanford University. Hoover Library.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt8d5nf4dq",
+            "id": "27208238",
+            "version": "3974435"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/703840624",
+            "id": "27208237",
+            "version": "3974435"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Stanford University. Hoover Library.",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Stanford University. Hoover Library.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27208240",
+                    "version": "3974435"
+                }
+            ],
+            "id": "27208239",
+            "version": "3974435",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79026644",
+                    "version": "3974435"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "27208236",
+            "targetConstellation": "48869483",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61p3wbd",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6q81cm3",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Hoover, Herbert, 1874-1964.",
+            "id": "27208245",
+            "version": "3974435"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "27208236",
+            "targetConstellation": "76782964",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61p3wbd",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w60h47t5",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Stanford University, Hoover Institution Library"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/703840624",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:703840624<\/recordOrigin>\n                     <recordContentSource>ISIL:CSt<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Hoover, Herbert, 1874-1964.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Herbert Hoover letter to Frank A. Golder, 1924.<\/title>\n                  <\/titleInfo>\n                  <abstract>Letter from Hoover to Frank A. Golder, director of the Hoover War Library, indicating the forwarding of documents relating to the history of the Library. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Herbert Hoover letter to Frank A. Golder, 1924.",
+                "abstract": "Letter from Hoover to Frank A. Golder, director of the Hoover War Library, indicating the forwarding of documents relating to the history of the Library. ",
+                "extent": "1 item.",
+                "displayEntry": "Hoover, Herbert, 1874-1964. Herbert Hoover letter to Frank A. Golder, 1924.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hoover, Herbert, 1874-1964.",
+                        "id": "10734519",
+                        "version": "8031202"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r60dtf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Stanford University. Department of Special Collections and University Archives",
+                            "preferenceScore": "99",
+                            "id": "83740282",
+                            "version": "11288677"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Stanford University, Interlibrary Service",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Green Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740287",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Arguello Way",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740288",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740289",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740290",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "94305-6004",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740291",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740292",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15165",
+                                "name": "Stanford University, Interlibrary Service",
+                                "latitude": "37.4313698",
+                                "longitude": "-122.1689224"
+                            },
+                            "confirmed": true,
+                            "id": "83740286",
+                            "version": "11288638"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Department of Special Collections and University Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford University Libraries 557 Escondido Mall Stanford, CA 94305-6064 Email: speccollref@stanford.edu Phone: (650) 725-1022 URL: http:\/\/www-sul.stanford.edu\/depts\/spc\/spc.html",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740294",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "id": "83740293",
+                            "version": "11288638"
+                        }
+                    ],
+                    "id": "83740278",
+                    "version": "11288678"
+                },
+                "id": "8031202",
+                "version": "8031202"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Hoover, Herbert, 1874-1964. Herbert Hoover letter to Frank A. Golder, 1924.",
+            "id": "27208246",
+            "version": "3974435"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt8d5nf4dq",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unitid>SCM0033<\/unitid>\n                  <origination>\n                     <persname>Hoover, Herbert, 1874-1964.<\/persname>\n                  <\/origination>\n                  <unittitle>Herbert Hoover letter to Frank A. Golder<\/unittitle>\n                  <unitdate>1924<\/unitdate>\n                  <physdesc>\n                     <extent>1 item<\/extent>\n                  <\/physdesc>\n                  <langmaterial>The materials are in <language>English<\/language>.<\/langmaterial>\n                  <repository>\n                     <corpname>Department of Special Collections and University Archives<\/corpname>\n                     <address>\n                        <addressline>Stanford University Libraries<\/addressline>\n                        <addressline>557 Escondido Mall<\/addressline>\n                        <addressline>Stanford, CA 94305-6064<\/addressline>\n                        <addressline>Email: speccollref@stanford.edu<\/addressline>\n                        <addressline>Phone: (650) 725-1022<\/addressline>\n                        <addressline>URL: http:\/\/www-sul.stanford.edu\/depts\/spc\/spc.html<\/addressline>\n                     <\/address>\n                  <\/repository>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Herbert Hoover letter to Frank A. Golder 1924",
+                "extent": "1 item",
+                "displayEntry": "Herbert Hoover letter to Frank A. Golder, 1924",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hoover, Herbert, 1874-1964.",
+                        "id": "11296748",
+                        "version": "6660445"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11296749",
+                        "version": "6660445"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r60dtf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Stanford University. Department of Special Collections and University Archives",
+                            "preferenceScore": "99",
+                            "id": "83740282",
+                            "version": "11288677"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Stanford University, Interlibrary Service",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Green Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740287",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Arguello Way",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740288",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740289",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740290",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "94305-6004",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740291",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740292",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15165",
+                                "name": "Stanford University, Interlibrary Service",
+                                "latitude": "37.4313698",
+                                "longitude": "-122.1689224"
+                            },
+                            "confirmed": true,
+                            "id": "83740286",
+                            "version": "11288638"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Department of Special Collections and University Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford University Libraries 557 Escondido Mall Stanford, CA 94305-6064 Email: speccollref@stanford.edu Phone: (650) 725-1022 URL: http:\/\/www-sul.stanford.edu\/depts\/spc\/spc.html",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740294",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "id": "83740293",
+                            "version": "11288638"
+                        }
+                    ],
+                    "id": "83740278",
+                    "version": "11288678"
+                },
+                "id": "6660445",
+                "version": "6660445"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Herbert Hoover letter to Frank A. Golder, 1924",
+            "id": "27208247",
+            "version": "3974435"
+        }
+    ],
+    "id": "27208236",
+    "version": "3974436"
+}

@@ -1,0 +1,228 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6jg135g",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-05",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T17:41:25",
+            "standardDateTime": "2016-08-17T17:41:25",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T17:41:25",
+            "standardDateTime": "2016-08-17T17:41:25",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/uct\/MSS19840025.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Marvin Miller<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/COH\/MSS19840025.html",
+            "id": "65352101",
+            "version": "9554162"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Marvin Miller",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Marvin Miller",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "65352103",
+                    "version": "9554162"
+                }
+            ],
+            "id": "65352102",
+            "version": "9554162",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"uct\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82146817",
+                    "version": "9554162"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "65352100",
+            "targetConstellation": "457902",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jg135g",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zf439s",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Center for Oral History.",
+            "id": "65352106",
+            "version": "9554162"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "65352100",
+            "targetConstellation": "52612209",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jg135g",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6pw07nd",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Connecticut.",
+            "id": "65352107",
+            "version": "9554162"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/COH\/MSS19840025.html",
+                "title": "University of Connecticut, Center for Oral History Interviews Collection undated, 1967-2008.",
+                "abstract": "The collection contains transcripts and sound recordings of interviews conducted by the University of Connecticut Center for Oral History, and individuals and programs associated with the Center.",
+                "extent": "32.0 Linear feet",
+                "date": "1967-2008",
+                "displayEntry": "University of Connecticut, Center for Oral History Interviews Collection, undated, 1967-2008.",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11626303",
+                        "version": "8370903"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6m14v4d",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archives and Special Collections at the Thomas J. Dodd Research Center, University of Connecticut Libraries",
+                            "preferenceScore": "99",
+                            "id": "76791767",
+                            "version": "11235865"
+                        }
+                    ],
+                    "id": "76791766",
+                    "version": "11316775"
+                },
+                "id": "6332137",
+                "version": "6332137"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "University of Connecticut, Center for Oral History Interviews Collection, undated, 1967-2008.",
+            "id": "65352108",
+            "version": "9554162"
+        }
+    ],
+    "id": "65352100",
+    "version": "9554163"
+}

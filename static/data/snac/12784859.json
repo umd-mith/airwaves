@@ -1,0 +1,225 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60d7b0r",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-06",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T14:31:17",
+            "standardDateTime": "2016-08-10T14:31:17",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T14:31:17",
+            "standardDateTime": "2016-08-10T14:31:17",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nwda\/washington_state_university_libraries_manuscripts_archives_and_special_collections\/NTE2ua202.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"100\" role=\"interviewee\">Brain, George<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv22586",
+            "id": "12784860",
+            "version": "1857584"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Brain, George",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Brain, George",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "12784862",
+                    "version": "1857584"
+                }
+            ],
+            "id": "12784861",
+            "version": "1857584",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nwda\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77844918",
+                    "version": "1857584"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "12784859",
+            "targetConstellation": "22621114",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60d7b0r",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6gb3v5b",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Brain, George C."
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv22586",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Washington State University Libraries<subarea> Manuscripts, Archives, and Special Collections<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline>Pullman, WA 99164-5610 USA<\/addressline>\n                        <addressline>(509) 335-6691<\/addressline>\n                        <addressline>http:\/\/www.wsulibs.wsu.edu\/masc\/<\/addressline>\n                        <addressline>mascref@wsu.edu<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid>Archives 202<\/unitid>\n                  <unittitle>Centennial Oral History Project Oral Histories <\/unittitle>\n                  <unitdate>1982-1988<\/unitdate>\n                  <physdesc>\n                     <extent> 11 linear feet<\/extent>\n                     <extent> 22 containers<\/extent>\n                  <\/physdesc>\n                  <abstract>Interviews and records from Washington State University Centennial Oral History Project.<\/abstract>\n                  <langmaterial>Materials are in <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Centennial Oral History Project Oral Histories 1982-1988",
+                "abstract": "Interviews and records from Washington State University Centennial Oral History Project.",
+                "extent": "11 linear feet; 22 containers",
+                "displayEntry": "Centennial Oral History Project Oral Histories, 1982-1988",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11412018",
+                        "version": "6367981"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sk28fq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Washington State University Libraries: Manuscripts, Archives, and Special Collections",
+                            "preferenceScore": "99",
+                            "id": "76798320",
+                            "version": "11242113"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Washington State University Libraries: Manuscripts, Archives, and Special Collections",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Holland and Terrell Libraries Pullman, WA 99164-5610 USA (509) 335-6691 http:\/\/www.wsulibs.wsu.edu\/masc\/ mascref@wsu.edu",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76798323",
+                                    "version": "11242113"
+                                }
+                            ],
+                            "id": "76798322",
+                            "version": "11242113"
+                        }
+                    ],
+                    "id": "76798319",
+                    "version": "11242116"
+                },
+                "id": "6367981",
+                "version": "6367981"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Centennial Oral History Project Oral Histories, 1982-1988",
+            "id": "12784866",
+            "version": "1857584"
+        }
+    ],
+    "id": "12784859",
+    "version": "1857585"
+}

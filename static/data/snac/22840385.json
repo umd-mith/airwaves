@@ -1,0 +1,637 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60c600w",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-22",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T15:02:52",
+            "standardDateTime": "2016-08-11T15:02:52",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T15:02:52",
+            "standardDateTime": "2016-08-11T15:02:52",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122574728",
+            "id": "22840388",
+            "version": "3338135"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/102988425",
+            "id": "22840389",
+            "version": "3338135"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122452138",
+            "id": "22840387",
+            "version": "3338135"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "22840390",
+            "version": "3338135"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Bartlett, Kenneth G. (Kenneth Gill), 1906-1983",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Bartlett, Kenneth G. (Kenneth Gill), 1906-1983",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "22840392",
+                    "version": "3338135"
+                }
+            ],
+            "id": "22840391",
+            "version": "3338135",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78673028",
+                    "version": "3338135"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Bartlett, Kenneth G. 1906-1983.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Bartlett, Kenneth G. 1906-1983.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "22840396",
+                    "version": "3338135"
+                }
+            ],
+            "id": "22840395",
+            "version": "3338135",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78673029",
+                    "version": "3338135"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "22840385",
+            "targetConstellation": "16178185",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60c600w",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64r2vvz",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "S.I. Newhouse School of Public Communications.",
+            "id": "22840407",
+            "version": "3338135"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "22840385",
+            "targetConstellation": "62449376",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60c600w",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rn761s",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Syracuse University.",
+            "id": "22840408",
+            "version": "3338135"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Bartlett, Kenneth G. (Kenneth Gill), 1906-1983",
+            "uri": "https:\/\/viaf.org\/viaf\/102988425",
+            "id": "22840401",
+            "version": "3338135"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no2009174687",
+            "id": "22840402",
+            "version": "3338135"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no2009174687",
+            "id": "22840403",
+            "version": "3338135"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122574728",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122574728<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-SYB<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Bartlett, Kenneth G. (Kenneth Gill), 1906-1983.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Office for Administrative Operations, Vice President for Public Affairs, Kenneth G. Bartlett records, 1940-1971. 1940-1971.<\/title>\n                  <\/titleInfo>\n                  <abstract>General office files including correspondence, memoranda, meeting minutes, and reports. Materials pertain to the Board of Trustees Executive Committee, commencements, honorary degrees, parents' weekend and other special events, finances, and relations with the State University. <\/abstract>\n                  <name>\n                     <namePart>Syracuse University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Office for Administrative Operations, Vice President for Public Affairs, Kenneth G. Bartlett records, 1940-1971. 1940-1971.",
+                "abstract": "General office files including correspondence, memoranda, meeting minutes, and reports. Materials pertain to the Board of Trustees Executive Committee, commencements, honorary degrees, parents' weekend and other special events, finances, and relations with the State University. ",
+                "extent": "30.0 linear feet.",
+                "displayEntry": "Bartlett, Kenneth G. (Kenneth Gill), 1906-1983. Office for Administrative Operations, Vice President for Public Affairs, Kenneth G. Bartlett records, 1940-1971.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bartlett, Kenneth G. (Kenneth Gill), 1906-1983.",
+                        "id": "8542577",
+                        "version": "6771374"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6z71bnz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Syracuse University",
+                            "preferenceScore": "99",
+                            "id": "76783735",
+                            "version": "11232873"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Syracuse University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "222 Waverly Ave",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783740",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Suite 219 - Administration",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783741",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Syracuse",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783742",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783743",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "13244-2010",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783744",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783745",
+                                    "version": "11232873"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15784",
+                                "name": "Syracuse University",
+                                "latitude": "43.0404000",
+                                "longitude": "-76.1340000"
+                            },
+                            "confirmed": true,
+                            "id": "76783739",
+                            "version": "11232873"
+                        }
+                    ],
+                    "id": "76783734",
+                    "version": "11232876"
+                },
+                "id": "6771374",
+                "version": "6771374"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Bartlett, Kenneth G. (Kenneth Gill), 1906-1983. Office for Administrative Operations, Vice President for Public Affairs, Kenneth G. Bartlett records, 1940-1971.",
+            "id": "22840410",
+            "version": "3338135"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122452138",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122452138<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-SYB<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>S.I. Newhouse School of Public Communications.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bartlett, Kenneth G. 1906-1983.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>School of Speech and Dramatic Art, Radio and Television Center records, 1938-1960. 1938-1960.<\/title>\n                  <\/titleInfo>\n                  <abstract>Scripts of daily student broadcasts, 1942-48; correspondence of Dean Kenneth Bartlett relating to development of television station; information on faculty and students, 1946-60; and reports of various committees with which the Center was associated, 1946-49. <\/abstract>\n                  <name>\n                     <namePart>Syracuse University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "School of Speech and Dramatic Art, Radio and Television Center records, 1938-1960. 1938-1960.",
+                "abstract": "Scripts of daily student broadcasts, 1942-48; correspondence of Dean Kenneth Bartlett relating to development of television station; information on faculty and students, 1946-60; and reports of various committees with which the Center was associated, 1946-49. ",
+                "extent": "10.0 linear feet.",
+                "displayEntry": "S.I. Newhouse School of Public Communications. School of Speech and Dramatic Art, Radio and Television Center records, 1938-1960.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "S.I. Newhouse School of Public Communications.",
+                        "id": "8440911",
+                        "version": "6717939"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bartlett, Kenneth G. 1906-1983.",
+                        "id": "8440912",
+                        "version": "6717939"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6z71bnz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Syracuse University",
+                            "preferenceScore": "99",
+                            "id": "76783735",
+                            "version": "11232873"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Syracuse University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "222 Waverly Ave",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783740",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Suite 219 - Administration",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783741",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Syracuse",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783742",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783743",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "13244-2010",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783744",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783745",
+                                    "version": "11232873"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15784",
+                                "name": "Syracuse University",
+                                "latitude": "43.0404000",
+                                "longitude": "-76.1340000"
+                            },
+                            "confirmed": true,
+                            "id": "76783739",
+                            "version": "11232873"
+                        }
+                    ],
+                    "id": "76783734",
+                    "version": "11232876"
+                },
+                "id": "6717939",
+                "version": "6717939"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "S.I. Newhouse School of Public Communications. School of Speech and Dramatic Art, Radio and Television Center records, 1938-1960.",
+            "id": "22840409",
+            "version": "3338135"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "105864",
+                "term": "Commencement ceremonies",
+                "type": "subject"
+            },
+            "id": "22840404",
+            "version": "3338135"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "216745",
+                "term": "Letters",
+                "type": "subject"
+            },
+            "id": "22840406",
+            "version": "3338135"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "364076",
+                "term": "Trusts and trustees",
+                "type": "subject"
+            },
+            "id": "22840405",
+            "version": "3338135"
+        }
+    ],
+    "id": "22840385",
+    "version": "3338136",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1906-03-13",
+            "fromDateOriginal": "1906-03-13",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "toDate": "1983",
+            "toDateOriginal": "1983",
+            "toType": {
+                "id": "690",
+                "term": "Death",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Death",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "22840386",
+            "version": "3338135"
+        }
+    ]
+}

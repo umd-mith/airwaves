@@ -1,0 +1,195 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b12ksc",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-06",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T23:43:25",
+            "standardDateTime": "2016-08-18T23:43:25",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T23:43:25",
+            "standardDateTime": "2016-08-18T23:43:25",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/mus00010.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Nat Hentoff (<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/mus00010\/catalog",
+            "id": "72204282",
+            "version": "10551836"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Nat Hentoff (",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Nat Hentoff (",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "72204284",
+                    "version": "10551836"
+                }
+            ],
+            "id": "72204283",
+            "version": "10551836",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82707474",
+                    "version": "10551836"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "72204281",
+            "targetConstellation": "42698197",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b12ksc",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cd5nfz",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Charles Mingus",
+            "id": "72204287",
+            "version": "10551836"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/mus00010\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Eda Kuhn Loeb Music Library, Harvard College Library<\/repository>\n                  <origination>\n                     <persname>Charles Mingus<\/persname>\n                  <\/origination>\n                  <unittitle>Papers, <\/unittitle>\n                  <unitdate>1965-1967<\/unitdate>\n                  <physloc>Merritt Room<\/physloc>\n                  <unitid>Ms. Coll. \n109<\/unitid>\n                  <physdesc>\n                     <extent>1 file box<\/extent>\n                  <\/physdesc>\n                  <abstract>Correspondence and \nother documents of the American jazz double bass player, pianist, composer, and bandleader, \nCharles Mingus.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1965-1967",
+                "abstract": "Correspondence and other documents of the American jazz double bass player, pianist, composer, and bandleader, Charles Mingus.",
+                "extent": "1 file box",
+                "displayEntry": "Papers, 1965-1967",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Charles Mingus",
+                        "id": "11439849",
+                        "version": "6386010"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6815rd1",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Eda Kuhn Loeb Music Library, Harvard College Library",
+                            "preferenceScore": "99",
+                            "id": "76793118",
+                            "version": "11237145"
+                        }
+                    ],
+                    "id": "76793117",
+                    "version": "11237148"
+                },
+                "id": "6386010",
+                "version": "6386010"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Papers, 1965-1967",
+            "id": "72204288",
+            "version": "10551836"
+        }
+    ],
+    "id": "72204281",
+    "version": "10551837"
+}

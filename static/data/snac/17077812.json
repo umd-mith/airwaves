@@ -1,0 +1,644 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6rj4m21",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T00:30:37",
+            "standardDateTime": "2016-08-11T00:30:37",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T00:30:37",
+            "standardDateTime": "2016-08-11T00:30:37",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/155877073",
+            "id": "17077816",
+            "version": "2493608"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122376663",
+            "id": "17077817",
+            "version": "2493608"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Marks, Leonard Harold, 1916-",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Marks, Leonard Harold, 1916-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "17077819",
+                    "version": "2493608"
+                }
+            ],
+            "id": "17077818",
+            "version": "2493608",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78200136",
+                    "version": "2493608"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "17077814",
+                "version": "2493608"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">Lawyer.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Reminiscences of Leonard Harold Marks : oral history, 1967. (Columbia University In the City of New York). WorldCat record id: 122376663<\/citation>\n         <\/biogHist>",
+            "id": "17077813",
+            "version": "2493608"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "17077812",
+            "targetConstellation": "24044779",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rj4m21",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w679484q",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Connell, Sally Fly,",
+            "id": "17077831",
+            "version": "2493608"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "17077812",
+            "targetConstellation": "10644243",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rj4m21",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64j0g0c",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Fly, James Lawrence, 1898-1966.",
+            "id": "17077828",
+            "version": "2493608"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "17077812",
+            "targetConstellation": "51433156",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rj4m21",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w66d9prc",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "United States. Dept. of Justice.",
+            "id": "17077829",
+            "version": "2493608"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "17077812",
+            "targetConstellation": "48943365",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rj4m21",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w62k046n",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "United States. Federal Communications Commission.",
+            "id": "17077830",
+            "version": "2493608"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "17077812",
+            "targetConstellation": "58823682",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rj4m21",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p886f4",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "United States. President (1963-1969 : Johnson)",
+            "id": "17077827",
+            "version": "2493608"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/155877073",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:155877073<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-PAU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>United States. President (1963-1969 : Johnson)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Johnson, Lyndon B. 1908-1973.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Marks, Leonard Harold, 1916-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Letters, 1964 : to Lewis Mumford.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence to Lewis Mumford from Lyndon B. Johnson, President, U.S., and Leonard H. Marks, Presidential Representative to the Inaugural Committee. <\/abstract>\n                  <name>\n                     <namePart>University of Pennsylvania Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Letters, 1964 : to Lewis Mumford.",
+                "abstract": "Correspondence to Lewis Mumford from Lyndon B. Johnson, President, U.S., and Leonard H. Marks, Presidential Representative to the Inaugural Committee. ",
+                "extent": "2 items : (3 leaves)",
+                "displayEntry": "United States. President (1963-1969 : Johnson). Letters, 1964 : to Lewis Mumford.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "United States. President (1963-1969 : Johnson)",
+                        "id": "8736662",
+                        "version": "6892605"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Johnson, Lyndon B. 1908-1973.",
+                        "id": "8736663",
+                        "version": "6892605"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Marks, Leonard Harold, 1916-",
+                        "id": "8736664",
+                        "version": "6892605"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tn80tm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "preferenceScore": "99",
+                            "id": "76787724",
+                            "version": "11234301"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787729",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "3420 Walnut St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787730",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Philadelphia",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787731",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787732",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "19104-6206",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787733",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787734",
+                                    "version": "11234301"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16503",
+                                "name": "University of Pennsylvania Libraries, Van Pelt Library",
+                                "latitude": "39.9526900",
+                                "longitude": "-75.1940670"
+                            },
+                            "confirmed": true,
+                            "id": "76787728",
+                            "version": "11234301"
+                        }
+                    ],
+                    "id": "76787723",
+                    "version": "11234304"
+                },
+                "id": "6892605",
+                "version": "6892605"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "United States. President (1963-1969 : Johnson). Letters, 1964 : to Lewis Mumford.",
+            "id": "17077832",
+            "version": "2493608"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122376663",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122376663<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-ZCU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Marks, Leonard Harold, 1916-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Connell, Sally Fly,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Reminiscences of Leonard Harold Marks : oral history, 1967.<\/title>\n                  <\/titleInfo>\n                  <abstract>Federal Communications Commission foreign language field; Alien Enemies unit of Justice Department; Cox Committee. <\/abstract>\n                  <name>\n                     <namePart>Columbia University In the City of New York<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Reminiscences of Leonard Harold Marks : oral history, 1967.",
+                "abstract": "Federal Communications Commission foreign language field; Alien Enemies unit of Justice Department; Cox Committee. ",
+                "extent": "Transcript: 25 leaves.Tape: 1 reel.",
+                "displayEntry": "Marks, Leonard Harold, 1916-. Reminiscences of Leonard Harold Marks : oral history, 1967.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Marks, Leonard Harold, 1916-",
+                        "id": "8401478",
+                        "version": "6694680"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Connell, Sally Fly,",
+                        "id": "8401479",
+                        "version": "6694680"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nt1h9m",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Columbia University in the City of New York, Columbia University Libraries",
+                            "preferenceScore": "99",
+                            "id": "76765055",
+                            "version": "11225885"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Columbia University in the City of New York, Columbia University Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "535 West 114th Street",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765060",
+                                    "version": "11225885"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New York",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765061",
+                                    "version": "11225885"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765062",
+                                    "version": "11225885"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10027-7035",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765063",
+                                    "version": "11225885"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765064",
+                                    "version": "11225885"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17187",
+                                "name": "Columbia University in the City of New York, Columbia University Libraries",
+                                "latitude": "40.8062000",
+                                "longitude": "-73.9633000"
+                            },
+                            "confirmed": true,
+                            "id": "76765059",
+                            "version": "11225885"
+                        }
+                    ],
+                    "id": "76765054",
+                    "version": "11225888"
+                },
+                "id": "6694680",
+                "version": "6694680"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Marks, Leonard Harold, 1916-. Reminiscences of Leonard Harold Marks : oral history, 1967.",
+            "id": "17077833",
+            "version": "2493608"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "United States",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "17077823",
+            "version": "2493608",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "United States",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "17077824",
+                    "version": "2493608"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "170819",
+                "term": "Government executives--Interviews",
+                "type": "subject"
+            },
+            "id": "17077825",
+            "version": "2493608"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "214252",
+                "term": "Lawyers--Interviews",
+                "type": "subject"
+            },
+            "id": "17077826",
+            "version": "2493608"
+        }
+    ],
+    "id": "17077812",
+    "version": "2493609",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1916",
+            "fromDateOriginal": "1916",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "17077815",
+            "version": "2493608"
+        }
+    ]
+}

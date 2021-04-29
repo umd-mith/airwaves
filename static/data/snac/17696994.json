@@ -1,0 +1,555 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6vx58ht",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T01:59:43",
+            "standardDateTime": "2016-08-11T01:59:43",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T01:59:43",
+            "standardDateTime": "2016-08-11T01:59:43",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/17867549",
+            "id": "17696995",
+            "version": "2582861"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/30047219",
+            "id": "17696996",
+            "version": "2582861"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/146676004",
+            "id": "17696997",
+            "version": "2582861"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "17696998",
+            "version": "2582861"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Greater Washington Educational Telecommunications Association",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Greater Washington Educational Telecommunications Association",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "17697000",
+                    "version": "2582861"
+                }
+            ],
+            "id": "17696999",
+            "version": "2582861",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"NLA\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78251153",
+                    "version": "2582861"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "17696994",
+            "targetConstellation": "49755014",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vx58ht",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w60s4gdf",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Ethnic Heritage Studies Program (U.S.)",
+            "id": "17697012",
+            "version": "2582861"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "17696994",
+            "targetConstellation": "27229685",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vx58ht",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6qr8b77",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Lloyd, Frank, 1941-",
+            "id": "17697013",
+            "version": "2582861"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Greater Washington Educational Telecommunications Association",
+            "uri": "https:\/\/viaf.org\/viaf\/146676004",
+            "id": "17697007",
+            "version": "2582861"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n87850752",
+            "id": "17697008",
+            "version": "2582861"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n87850752",
+            "id": "17697009",
+            "version": "2582861"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/17867549",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:17867549<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-BAI<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Greater Washington Educational Telecommunications Association.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ethnic Heritage Studies Program (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>The Folklore of Black America : a Television-Based Curriculum For Ethnic Heritage Studies. 1977.<\/title>\n                  <\/titleInfo>\n                  <abstract>Contains J\u0332u\u0332b\u0332a\u0332 a series of 15 minute programs (A\u0332n\u0332a\u0332n\u0332s\u0332e\u0332 S\u0332t\u0332o\u0332r\u0332i\u0332e\u0332s\u0332; B\u0332r\u0332e\u0332r\u0332 R\u0332a\u0332b\u0332b\u0332i\u0332t\u0332 S\u0332t\u0332o\u0332r\u0332i\u0332e\u0332s\u0332, W\u0332h\u0332y\u0332 S\u0332t\u0332o\u0332r\u0332i\u0332e\u0332s\u0332, T\u0332h\u0332e\u0332 L\u0332e\u0332g\u0332e\u0332n\u0332d\u0332 o\u0332f\u0332 H\u0332a\u0332r\u0332r\u0332i\u0332e\u0332t\u0332 T\u0332u\u0332b\u0332m\u0332a\u0332n\u0332) on one 60 minute 3\/4\" color U-matic tape; A\u0332 T\u0332e\u0332a\u0332c\u0332h\u0332e\u0332r\u0332'\u0332s\u0332 G\u0332u\u0332i\u0332d\u0332e\u0332 t\u0332o\u0332 J\u0332u\u0332b\u0332a\u0332:\u0332 A\u0332n\u0332 A\u0332f\u0332r\u0332o\u0332-\u0332A\u0332m\u0332e\u0332r\u0332i\u0332c\u0332a\u0332n\u0332 F\u0332o\u0332l\u0332k\u0332l\u0332o\u0332r\u0332e\u0332 S\u0332e\u0332r\u0332i\u0332e\u0332s\u0332 f\u0332o\u0332r\u0332 I\u0332n\u0332t\u0332e\u0332r\u0332m\u0332e\u0332d\u0332i\u0332a\u0332t\u0332e\u0332 G\u0332r\u0332a\u0332d\u0332e\u0332s\u0332 a 30 page guide by Kathryn Elmes Parker and Bettye W. Topps to supplement the videotape program; and C\u0332l\u0332a\u0332s\u0332s\u0332r\u0332o\u0332o\u0332m\u0332 T\u0332e\u0332a\u0332c\u0332h\u0332e\u0332r\u0332'\u0332s\u0332 G\u0332u\u0332i\u0332d\u0332e\u0332 a 47 leave draft of the teacher's guide. <\/abstract>\n                  <name>\n                     <namePart>Balch Institute for Ethnic Studies Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "The Folklore of Black America : a Television-Based Curriculum For Ethnic Heritage Studies. 1977.",
+                "abstract": "Contains J\u0332u\u0332b\u0332a\u0332 a series of 15 minute programs (A\u0332n\u0332a\u0332n\u0332s\u0332e\u0332 S\u0332t\u0332o\u0332r\u0332i\u0332e\u0332s\u0332; B\u0332r\u0332e\u0332r\u0332 R\u0332a\u0332b\u0332b\u0332i\u0332t\u0332 S\u0332t\u0332o\u0332r\u0332i\u0332e\u0332s\u0332, W\u0332h\u0332y\u0332 S\u0332t\u0332o\u0332r\u0332i\u0332e\u0332s\u0332, T\u0332h\u0332e\u0332 L\u0332e\u0332g\u0332e\u0332n\u0332d\u0332 o\u0332f\u0332 H\u0332a\u0332r\u0332r\u0332i\u0332e\u0332t\u0332 T\u0332u\u0332b\u0332m\u0332a\u0332n\u0332) on one 60 minute 3\/4\" color U-matic tape; A\u0332 T\u0332e\u0332a\u0332c\u0332h\u0332e\u0332r\u0332'\u0332s\u0332 G\u0332u\u0332i\u0332d\u0332e\u0332 t\u0332o\u0332 J\u0332u\u0332b\u0332a\u0332:\u0332 A\u0332n\u0332 A\u0332f\u0332r\u0332o\u0332-\u0332A\u0332m\u0332e\u0332r\u0332i\u0332c\u0332a\u0332n\u0332 F\u0332o\u0332l\u0332k\u0332l\u0332o\u0332r\u0332e\u0332 S\u0332e\u0332r\u0332i\u0332e\u0332s\u0332 f\u0332o\u0332r\u0332 I\u0332n\u0332t\u0332e\u0332r\u0332m\u0332e\u0332d\u0332i\u0332a\u0332t\u0332e\u0332 G\u0332r\u0332a\u0332d\u0332e\u0332s\u0332 a 30 page guide by Kathryn Elmes Parker and Bettye W. Topps to supplement the videotape program; and C\u0332l\u0332a\u0332s\u0332s\u0332r\u0332o\u0332o\u0332m\u0332 T\u0332e\u0332a\u0332c\u0332h\u0332e\u0332r\u0332'\u0332s\u0332 G\u0332u\u0332i\u0332d\u0332e\u0332 a 47 leave draft of the teacher's guide. ",
+                "extent": "3 items.",
+                "displayEntry": "Greater Washington Educational Telecommunications Association. The Folklore of Black America : a Television-Based Curriculum For Ethnic Heritage Studies.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Greater Washington Educational Telecommunications Association.",
+                        "id": "8806511",
+                        "version": "6933969"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ethnic Heritage Studies Program (U.S.)",
+                        "id": "8806512",
+                        "version": "6933969"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w65j84k6",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Balch Institute for Ethnic Studies Library",
+                            "preferenceScore": "99",
+                            "id": "76761171",
+                            "version": "11224445"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Balch Institute for Ethnic Studies Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761176",
+                                    "version": "11224445"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "18 S 7Th St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761177",
+                                    "version": "11224445"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Philadelphia",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761178",
+                                    "version": "11224445"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761179",
+                                    "version": "11224445"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "19106",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761180",
+                                    "version": "11224445"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761181",
+                                    "version": "11224445"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16916",
+                                "name": "Balch Institute for Ethnic Studies Library",
+                                "latitude": "39.9504320",
+                                "longitude": "-75.1522330"
+                            },
+                            "confirmed": true,
+                            "id": "76761175",
+                            "version": "11224445"
+                        }
+                    ],
+                    "id": "76761170",
+                    "version": "11224448"
+                },
+                "id": "6933969",
+                "version": "6933969"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Greater Washington Educational Telecommunications Association. The Folklore of Black America : a Television-Based Curriculum For Ethnic Heritage Studies.",
+            "id": "17697014",
+            "version": "2582861"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/30047219",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:30047219<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Lloyd, Frank, 1941-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Public Affairs Center for Television<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Frank W. Lloyd Papers, 1952-1973.<\/title>\n                  <\/titleInfo>\n                  <abstract>The papers document Lloyd's involvement with the National Public Affairs Center for Television (NACT) and the Greater Washington Educational Telecommunications Association (GWETA). <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Frank W. Lloyd Papers, 1952-1973.",
+                "abstract": "The papers document Lloyd's involvement with the National Public Affairs Center for Television (NACT) and the Greater Washington Educational Telecommunications Association (GWETA). ",
+                "extent": "1.50 linear feet",
+                "displayEntry": "Lloyd, Frank, 1941-. Frank W. Lloyd Papers, 1952-1973.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lloyd, Frank, 1941-",
+                        "id": "9381017",
+                        "version": "7282470"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Public Affairs Center for Television",
+                        "id": "9381018",
+                        "version": "7282470"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7282470",
+                "version": "7282470"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Lloyd, Frank, 1941-. Frank W. Lloyd Papers, 1952-1973.",
+            "id": "17697015",
+            "version": "2582861"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "35368",
+                "term": "African Americans--Folklore--Study and teaching",
+                "type": "subject"
+            },
+            "id": "17697010",
+            "version": "2582861"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "34127",
+                "term": "African Americans--Folklore",
+                "type": "subject"
+            },
+            "id": "17697011",
+            "version": "2582861"
+        }
+    ],
+    "id": "17696994",
+    "version": "2582862"
+}

@@ -1,0 +1,636 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6n89x02",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T07:58:27",
+            "standardDateTime": "2016-08-11T07:58:27",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T07:58:27",
+            "standardDateTime": "2016-08-11T07:58:27",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/313811001",
+            "id": "20074170",
+            "version": "2932235"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/188412372",
+            "id": "20074171",
+            "version": "2932235"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/320273069",
+            "id": "20074169",
+            "version": "2932235"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "20074172",
+            "version": "2932235"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Rostenkowski, Dan",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Rostenkowski, Dan",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "20074174",
+                    "version": "2932235"
+                }
+            ],
+            "id": "20074173",
+            "version": "2932235",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78446692",
+                    "version": "2932235"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "20074167",
+                "version": "2932235"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">Born Jaunary 2, 1928, Chicago, IL; died August 11, 2010. Politician, United States Congressman. Illinois state representative in the 68th general assembly in 1952 and a member of the Illinois state senate from 1954 to 1956. Rostenkowski was first elected as a Democrat to the 86th United States Congress in 1959 and served in seventeen succeeding Congresses (1959 to 1995). While in Congress he served as the chairman of the Committee on Ways and Means from the 97th through the 103rd Congresses, and the Joint Committe on Taxation during the 97th through 101st Congresses.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Dan Rostenkowski papers, 1958-1995. (Unknown). WorldCat record id: 320273069<\/citation>\n         <\/biogHist>",
+            "id": "20074166",
+            "version": "2932235"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "20074165",
+            "targetConstellation": "14978785",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6n89x02",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vm70nz",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Frenzel, Bill.",
+            "id": "20074188",
+            "version": "2932235"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "20074165",
+            "targetConstellation": "22095818",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6n89x02",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w68d8cx4",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Loyola University of Chicago. Archives.",
+            "id": "20074187",
+            "version": "2932235"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "20074165",
+            "targetConstellation": "25765844",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6n89x02",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vt5xzg",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "United States. Congress. House. Committee on Ways and Means.",
+            "id": "20074186",
+            "version": "2932235"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Rostenkowski, Dan",
+            "uri": "https:\/\/viaf.org\/viaf\/188412372",
+            "id": "20074180",
+            "version": "2932235"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/313811001",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:313811001<\/recordOrigin>\n                     <recordContentSource>ISIL:MnHi-Ar<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Frenzel, Bill.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Christiansen, Maybeth.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Eveland, Patricia.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Gibbons, Sam B.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>MacMillan, Whitney.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>McNeely, Harry G.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Nelson, Marlys.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Rostenkowski, Dan.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Eurasia Foundation (Washington, D.C.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Transatlantic Policy Network.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>William E. Frenzel papers, 1962-2010.<\/title>\n                  <\/titleInfo>\n                  <abstract>Congressional papers and office files (1970-1992) of a third district Republican congressman from Minnesota (1971-1991) who later (1990- ) served as a guest scholar at the Brookings Institution. The material focuses largely on Frenzel's work on the House Ways and Means Committee Subcommittee on Trade and the House Administration Committee, and his efforts at Brookings to secure passage of the North American Free Trade Agreement (1993). Brookings Institution files (1990-2000) include information about Frenzel's efforts to secure passage of the North American Free Trade Agreement (1993). There is a small amount of material from Frenzel's years in the Minnesota House of Representatives (1963-1969). Congressional Papers include chronlogical office files, legislative bills and subject files, trade mission files, campaign and political files, personal papers, voting records, Congressional Record statements, press releases, newspaper clippings, speeches, and audio-visual materials. There is correspondence with constituents, other legislators, and interest groups. Legislative bill files contain background material, and copies of bills. Many files concern foreign trade, tariffs, taxation, the federal budget, and election law. Many trade-related subject files are those of Patricia Eveland, Frenzel's administrative assistant. Brookings Institution files document Frenzel's activities at the Institution and his involvement with a variety of organizations, including the Eurasia Foundation and the Transatlantic Policy Network. They also contain information about the General Agreement on Tariffs and Trade and the North American Free Trade Agreement. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "William E. Frenzel papers, 1962-2010.",
+                "abstract": "Congressional papers and office files (1970-1992) of a third district Republican congressman from Minnesota (1971-1991) who later (1990- ) served as a guest scholar at the Brookings Institution. The material focuses largely on Frenzel's work on the House Ways and Means Committee Subcommittee on Trade and the House Administration Committee, and his efforts at Brookings to secure passage of the North American Free Trade Agreement (1993). Brookings Institution files (1990-2000) include information about Frenzel's efforts to secure passage of the North American Free Trade Agreement (1993). There is a small amount of material from Frenzel's years in the Minnesota House of Representatives (1963-1969). Congressional Papers include chronlogical office files, legislative bills and subject files, trade mission files, campaign and political files, personal papers, voting records, Congressional Record statements, press releases, newspaper clippings, speeches, and audio-visual materials. There is correspondence with constituents, other legislators, and interest groups. Legislative bill files contain background material, and copies of bills. Many files concern foreign trade, tariffs, taxation, the federal budget, and election law. Many trade-related subject files are those of Patricia Eveland, Frenzel's administrative assistant. Brookings Institution files document Frenzel's activities at the Institution and his involvement with a variety of organizations, including the Eurasia Foundation and the Transatlantic Policy Network. They also contain information about the General Agreement on Tariffs and Trade and the North American Free Trade Agreement. ",
+                "extent": "273.9 cubic feet (267 boxes)",
+                "displayEntry": "Frenzel, Bill. William E. Frenzel papers, 1962-2010.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Frenzel, Bill.",
+                        "id": "9420782",
+                        "version": "7313907"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Christiansen, Maybeth.",
+                        "id": "9420783",
+                        "version": "7313907"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Eveland, Patricia.",
+                        "id": "9420784",
+                        "version": "7313907"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Gibbons, Sam B.",
+                        "id": "9420785",
+                        "version": "7313907"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "MacMillan, Whitney.",
+                        "id": "9420786",
+                        "version": "7313907"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "McNeely, Harry G.",
+                        "id": "9420787",
+                        "version": "7313907"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Nelson, Marlys.",
+                        "id": "9420788",
+                        "version": "7313907"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rostenkowski, Dan.",
+                        "id": "9420789",
+                        "version": "7313907"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Eurasia Foundation (Washington, D.C.)",
+                        "id": "9420790",
+                        "version": "7313907"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Transatlantic Policy Network.",
+                        "id": "9420791",
+                        "version": "7313907"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w68t5cg9",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Minnesota Historical Society, Division of Archives and Manuscripts",
+                            "preferenceScore": "99",
+                            "id": "76774853",
+                            "version": "11229581"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Minnesota Historical Society, Division of Archives and Manuscripts",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Saint Paul, Minnesota 55101  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774857",
+                                    "version": "11229581"
+                                }
+                            ],
+                            "id": "76774856",
+                            "version": "11229581"
+                        }
+                    ],
+                    "id": "76774852",
+                    "version": "11229584"
+                },
+                "id": "7313907",
+                "version": "7313907"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Frenzel, Bill. William E. Frenzel papers, 1962-2010.",
+            "id": "20074190",
+            "version": "2932235"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/320273069",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:320273069<\/recordOrigin>\n                     <recordContentSource>ISIL:IAL<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Rostenkowski, Dan.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Loyola University of Chicago. Archives.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Dan Rostenkowski papers, 1958-1995.<\/title>\n                  <\/titleInfo>\n                  <abstract>The Dan Rostenkowski papers consist of approximately 900 linear feet spanning the years 1958 to 1995. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Dan Rostenkowski papers, 1958-1995.",
+                "abstract": "The Dan Rostenkowski papers consist of approximately 900 linear feet spanning the years 1958 to 1995. ",
+                "extent": "900 linear feet.",
+                "displayEntry": "Rostenkowski, Dan. Dan Rostenkowski papers, 1958-1995.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rostenkowski, Dan.",
+                        "id": "9459135",
+                        "version": "7333814"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Loyola University of Chicago. Archives.",
+                        "id": "9459136",
+                        "version": "7333814"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6mt4g91",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Cudahy Library",
+                            "preferenceScore": "99",
+                            "id": "76773317",
+                            "version": "11315882"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Loyola University Chicago, Cudahy\/Lewis Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cudahy Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773322",
+                                    "version": "11229013"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1032 W. Sheridan Rd.",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773323",
+                                    "version": "11229013"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chicago",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773324",
+                                    "version": "11229013"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-IL",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773325",
+                                    "version": "11229013"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "60660",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773326",
+                                    "version": "11229013"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773327",
+                                    "version": "11229013"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16012",
+                                "name": "Loyola University Chicago, Cudahy\/Lewis Library",
+                                "latitude": "42.0005569",
+                                "longitude": "-87.6570587"
+                            },
+                            "confirmed": true,
+                            "id": "76773321",
+                            "version": "11229013"
+                        }
+                    ],
+                    "id": "76773316",
+                    "version": "11315887"
+                },
+                "id": "7333814",
+                "version": "7333814"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Rostenkowski, Dan. Dan Rostenkowski papers, 1958-1995.",
+            "id": "20074189",
+            "version": "2932235"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "United States",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "20074181",
+            "version": "2932235",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "United States",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "20074182",
+                    "version": "2932235"
+                }
+            ]
+        },
+        {
+            "dataType": "Place",
+            "original": "Chicago (Ill.)",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "20074183",
+            "version": "2932235",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Chicago (Ill.)",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "20074184",
+                    "version": "2932235"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "76644",
+                "term": "Budget--Law and legislation",
+                "type": "subject"
+            },
+            "id": "20074185",
+            "version": "2932235"
+        }
+    ],
+    "id": "20074165",
+    "version": "2932236",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1958",
+            "fromDateOriginal": "active 1958",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1995",
+            "toDateOriginal": "active 1995",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "20074168",
+            "version": "2932235"
+        }
+    ]
+}

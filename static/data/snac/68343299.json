@@ -1,0 +1,263 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hc4n87",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T06:37:57",
+            "standardDateTime": "2016-08-18T06:37:57",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T06:37:57",
+            "standardDateTime": "2016-08-18T06:37:57",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/duke\/classic-EADs\/inman.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WAMU- FM<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/inman\/",
+            "id": "68343300",
+            "version": "9990980"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WAMU- FM",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WAMU- FM",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "68343302",
+                    "version": "9990980"
+                }
+            ],
+            "id": "68343301",
+            "version": "9990980",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"duke\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82392637",
+                    "version": "9990980"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "68343299",
+            "targetConstellation": "9911916",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hc4n87",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67w6r3p",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Inman, Will, 1923-",
+            "id": "68343305",
+            "version": "9990980"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/inman\/",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Will Inman Papers,\n\t\t  <unitdate>1910-2009<\/unitdate>\n                  <\/unittitle>\n                  <origination>\n                     <persname>Inman, Will, 1923- <\/persname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>69.5 Linear Feet<\/extent>\n                     <extent>42,754 Items<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke\n\t\t\t University<\/corpname>\n                  <\/repository>\n                  <physloc>For current information on\n\t\t  the location of these materials, please consult the\n\t\t  Library's online catalog.<\/physloc>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Will Inman Papers, 1910-2009",
+                "extent": "69.5 Linear Feet; 42,754 Items",
+                "displayEntry": "Will Inman Papers, 1910-2009",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Inman, Will, 1923- ",
+                        "id": "11592943",
+                        "version": "6359643"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11592944",
+                        "version": "6359643"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6290xn7",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "David M. Rubenstein Rare Book & Manuscript Library",
+                            "preferenceScore": "99",
+                            "id": "83577506",
+                            "version": "11278291"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "David M. Rubenstein Rare Book and Manuscript Library, Duke University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "David M. Rubenstein Rare Book & Manuscript Library, Duke University",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83577539",
+                                    "version": "11278279"
+                                }
+                            ],
+                            "id": "83577538",
+                            "version": "11278279"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Duke University. David M. Rubenstein Rare Book & Manuscript Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Durham, North Carolina 27708-0185",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83577541",
+                                    "version": "11278279"
+                                }
+                            ],
+                            "id": "83577540",
+                            "version": "11278279"
+                        }
+                    ],
+                    "id": "83577500",
+                    "version": "11278299"
+                },
+                "id": "6359643",
+                "version": "6359643"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Will Inman Papers, 1910-2009",
+            "id": "68343306",
+            "version": "9990980"
+        }
+    ],
+    "id": "68343299",
+    "version": "9990981"
+}

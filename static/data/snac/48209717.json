@@ -1,0 +1,982 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hn1j58",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T22:09:38",
+            "standardDateTime": "2016-08-14T22:09:38",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T22:09:38",
+            "standardDateTime": "2016-08-14T22:09:38",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/lc\/mu012012.xml<\/filename>\n                  <ead_entity altrender=\":::PWEBRECON=^Berkshire+Quartet.^\" en_type=\"corpname\" encodinganalog=\"610$a\" role=\"subject\" source=\"lcnaf\">Berkshire Quartet.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/hdl.loc.gov\/loc.music\/eadmus.mu012012",
+            "id": "48209719",
+            "version": "7045217"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/137290413",
+            "id": "48209718",
+            "version": "7045217"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nypl\/rha20475.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Berkshire Quartet<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archives.nypl.org\/rha\/20475",
+            "id": "48209720",
+            "version": "7045217"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/153728595",
+            "id": "48209722",
+            "version": "7045217"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/inu\/ohrc071.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Berkshire Quartet<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/webapp1.dlib.indiana.edu\/findingaids\/view?doc.view=entire_text&docId=ohrc071",
+            "id": "48209721",
+            "version": "7045217"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "48209723",
+            "version": "7045217"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Berkshire Quartet.",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Berkshire Quartet.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "48209725",
+                    "version": "7045217"
+                }
+            ],
+            "id": "48209724",
+            "version": "7045217",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"inu\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"nypl\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"lc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80740601",
+                    "version": "7045217"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Berkshire string quartet",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Berkshire string quartet",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "48209733",
+                    "version": "7045217"
+                }
+            ],
+            "id": "48209732",
+            "version": "7045217",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80740602",
+                    "version": "7045217"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "The Berkshire Quartet.",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "The Berkshire Quartet.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "48209737",
+                    "version": "7045217"
+                }
+            ],
+            "id": "48209736",
+            "version": "7045217",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80740603",
+                    "version": "7045217"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "48209717",
+            "targetConstellation": "20859405",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hn1j58",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6gh9wh7",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Coolidge, Elizabeth Sprague, 1864-1953",
+            "id": "48209749",
+            "version": "7045217"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "48209717",
+            "targetConstellation": "10785754",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hn1j58",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6pz5bn7",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Finney, Ross Lee, 1906-1997",
+            "id": "48209750",
+            "version": "7045217"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "48209717",
+            "targetConstellation": "27556845",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hn1j58",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kf7fpk",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Indiana University Center for the Study of History and Memory",
+            "id": "48209751",
+            "version": "7045217"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "48209717",
+            "targetConstellation": "26423794",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hn1j58",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6930vzj",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Magg, Fritz.",
+            "id": "48209748",
+            "version": "7045217"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Berkshire Quartet.",
+            "uri": "https:\/\/viaf.org\/viaf\/153728595",
+            "id": "48209745",
+            "version": "7045217"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n84221350",
+            "id": "48209746",
+            "version": "7045217"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n84221350",
+            "id": "48209747",
+            "version": "7045217"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/webapp1.dlib.indiana.edu\/findingaids\/view?doc.view=entire_text&docId=ohrc071",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Indiana University Center for the Study of History and Memory<\/corpname>\n                     <address>\n                        <addressline>Indiana University<\/addressline>\n                        <addressline>400 North Sunrise Drive<\/addressline>\n                        <addressline>Weatherly Hall North, Room 122<\/addressline>\n                        <addressline>Bloomington, IN 47405<\/addressline>\n                        <addressline>Phone: 812\/855-2856<\/addressline>\n                        <addressline>Fax: 812\/855-0002<\/addressline>\n                        <addressline>E-mail: ohrc@indiana.edu<\/addressline>\n                     <\/address>\n                     <extref>http:\/\/www.indiana.edu\/~cshm<\/extref>\n                  <\/repository>\n                  <origination>\n                     <corpname>Indiana University Center for the\n                    Study of History and Memory<\/corpname>\n                  <\/origination>\n                  <unittitle>IU School of Music<\/unittitle>\n                  <unitdate>1983<\/unitdate>\n                  <unitid>ohrc071<\/unitid>\n                  <physdesc>\n                     <extent>1 interview<\/extent>. <extent>Audiotapes, transcripts, and collateral\n                    materials<\/extent>. <\/physdesc>\n                  <physloc>Interviews are housed in Weatherly Hall North, Room\n                122. Copies are also housed at the Indiana University Archives in Herman B Wells\n                Library E460. For other locations housing the interviews from this project, please\n                contact the Center for the Study of History and Memory office.<\/physloc>\n                  <langmaterial>Materials are in <language>English<\/language>\n                  <\/langmaterial>\n                  <abstract>Wilfred C. Bain, dean of the School of Music from 1947 to 1973, discusses his career\n                as an administrator in various colleges. He focuses on his time at the Indiana\n                University School of Music, discussing the policies he feels made the school the\n                success it is today. He also discusses his theories and philosophies behind music\n                education and how he has tried to implement them at the School of Music.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "IU School of Music 1983",
+                "abstract": "Wilfred C. Bain, dean of the School of Music from 1947 to 1973, discusses his career                as an administrator in various colleges. He focuses on his time at the Indiana                University School of Music, discussing the policies he feels made the school the                success it is today. He also discusses his theories and philosophies behind music                education and how he has tried to implement them at the School of Music.",
+                "extent": "1 interview; Audiotapes, transcripts, and collateral                    materials",
+                "displayEntry": "IU School of Music, 1983",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11603303",
+                        "version": "6625175"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hj7873",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Indiana University, Bloomington. Center for the Study of History and Memory",
+                            "preferenceScore": "99",
+                            "id": "84154686",
+                            "version": "11317681"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "1296",
+                                "uri": "http:\/\/www.geonames.org\/4254679",
+                                "name": "Bloomington",
+                                "latitude": "39.1653200",
+                                "longitude": "-86.5263900",
+                                "administrationCode": "IN",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "84154697",
+                            "version": "11317681"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Indiana University Center for the Study of History and Memoryhttp:\/\/www.indiana.edu\/~cshm",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Indiana University 400 North Sunrise Drive Weatherly Hall North, Room 122 Bloomington, IN 47405 Phone: 812\/855-2856 Fax: 812\/855-0002 E-mail: ohrc@indiana.edu",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84154699",
+                                    "version": "11317681"
+                                }
+                            ],
+                            "id": "84154698",
+                            "version": "11317681"
+                        }
+                    ],
+                    "id": "84154672",
+                    "version": "11317689"
+                },
+                "id": "6625175",
+                "version": "6625175"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "IU School of Music, 1983",
+            "id": "48209755",
+            "version": "7045217"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/137290413",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:137290413<\/recordOrigin>\n                     <recordContentSource>ISIL:US-NGU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Magg, Fritz.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Rossi, Urico.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Lazan, Albert.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Dawson, David, 1913-1975.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Coolidge, Elizabeth Sprague, 1864-1953.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Berkshire Quartet.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>A birthday greeting from the Berkshire Quartet to Mrs. Elizabeth Sprague Coolidge : played on October 30, 1950 over the telephone from Bloomington, Indiana to Washington, D.C. \/ Fritz Magg. [1950]<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>University of North Carolina at Greensboro, University Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "A birthday greeting from the Berkshire Quartet to Mrs. Elizabeth Sprague Coolidge : played on October 30, 1950 over the telephone from Bloomington, Indiana to Washington, D.C. \/ Fritz Magg. [1950]",
+                "extent": "1 score ([3] p.) ; 32 cm.",
+                "displayEntry": "Magg, Fritz. A birthday greeting from the Berkshire Quartet to Mrs. Elizabeth Sprague Coolidge : played on October 30, 1950 over the telephone from Bloomington, Indiana to Washington, D.C. \/ Fritz Magg.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Magg, Fritz.",
+                        "id": "8634214",
+                        "version": "6822388"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rossi, Urico.",
+                        "id": "8634215",
+                        "version": "6822388"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lazan, Albert.",
+                        "id": "8634216",
+                        "version": "6822388"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dawson, David, 1913-1975.",
+                        "id": "8634217",
+                        "version": "6822388"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Coolidge, Elizabeth Sprague, 1864-1953.",
+                        "id": "8634218",
+                        "version": "6822388"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Berkshire Quartet.",
+                        "id": "8634219",
+                        "version": "6822388"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "8634220",
+                        "version": "6822388"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6p37msg",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Greensboro, University Libraries, UNCG University Libraries",
+                            "preferenceScore": "99",
+                            "id": "76787469",
+                            "version": "11234213"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of North Carolina at Greensboro, University Libraries, UNCG University Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "UNCG University Libraries",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787474",
+                                    "version": "11234213"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "320 College Ave.",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787475",
+                                    "version": "11234213"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Greensboro",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787476",
+                                    "version": "11234213"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NC",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787477",
+                                    "version": "11234213"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "27412-5201",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787478",
+                                    "version": "11234213"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787479",
+                                    "version": "11234213"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15886",
+                                "name": "University of North Carolina at Greensboro, University Libraries, UNCG University Libraries",
+                                "latitude": "36.0682182",
+                                "longitude": "-79.8096008"
+                            },
+                            "confirmed": true,
+                            "id": "76787473",
+                            "version": "11234213"
+                        }
+                    ],
+                    "id": "76787468",
+                    "version": "11234216"
+                },
+                "id": "6822388",
+                "version": "6822388"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Magg, Fritz. A birthday greeting from the Berkshire Quartet to Mrs. Elizabeth Sprague Coolidge : played on October 30, 1950 over the telephone from Bloomington, Indiana to Washington, D.C. \/ Fritz Magg.",
+            "id": "48209752",
+            "version": "7045217"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/hdl.loc.gov\/loc.music\/eadmus.mu012012",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Correspondence from the Elizabeth Sprague Coolidge Foundation Collection\n\t\t  <unitdate>1894-1953<\/unitdate>\n                     <unitdate>(bulk 1920-1953)<\/unitdate>\n                  <\/unittitle>\n                  <unitid>ML29j.C66<\/unitid>\n                  <origination>\n                     <persname>Coolidge, Elizabeth Sprague, 1864-1953<\/persname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>around 56,680 items<\/extent>\n                     <extent>109 containers<\/extent>\n                     <extent>48.50 linear feet<\/extent>\n                  <\/physdesc>\n                  <langmaterial>Collection material in\n\t\t<language>English<\/language>\n                  <\/langmaterial>\n                  <repository>\n                     <corpname>\n                        <subarea>Music Division<\/subarea> Library of\n\t\t\t Congress<\/corpname>\n                     <address>\n                        <addressline>Washington, D.C.<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <abstract>Elizabeth Sprague Coolidge was a composer, pianist, and patron of music. In 1925, she created the Elizabeth Sprague Coolidge Foundation at the Library of Congress in support of chamber music. The collection contains Coolidge's correspondence to and from many of the prominent musical artists of the first half of the twentieth century. Extensive correspondence between Coolidge and Library of Congress librarians and administrators is also included. The remaining materials in the collection, including photographs, scrapbooks, business papers, programs, publicity materials, iconography, realia, and clippings, are available for research and will be incorporated into the finding aid at a later date. Music manuscripts of works commissioned by Elizabeth Sprague Coolidge or the Elizabeth Sprague Coolidge Foundation in the Library of Congress comprise a substantial portion of the collection and are cataloged individually.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Correspondence from the Elizabeth Sprague Coolidge Foundation Collection 1894-1953 (bulk 1920-1953)",
+                "abstract": "Elizabeth Sprague Coolidge was a composer, pianist, and patron of music. In 1925, she created the Elizabeth Sprague Coolidge Foundation at the Library of Congress in support of chamber music. The collection contains Coolidge's correspondence to and from many of the prominent musical artists of the first half of the twentieth century. Extensive correspondence between Coolidge and Library of Congress librarians and administrators is also included. The remaining materials in the collection, including photographs, scrapbooks, business papers, programs, publicity materials, iconography, realia, and clippings, are available for research and will be incorporated into the finding aid at a later date. Music manuscripts of works commissioned by Elizabeth Sprague Coolidge or the Elizabeth Sprague Coolidge Foundation in the Library of Congress comprise a substantial portion of the collection and are cataloged individually.",
+                "extent": "around 56,680 items; 109 containers; 48.50 linear feet",
+                "displayEntry": "Correspondence from the Elizabeth Sprague Coolidge Foundation Collection, 1894-1953, (bulk 1920-1953)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Coolidge, Elizabeth Sprague, 1864-1953",
+                        "id": "11391973",
+                        "version": "6357919"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11391974",
+                        "version": "6357919"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sp10dm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Library of Congress. Music Division",
+                            "preferenceScore": "99",
+                            "id": "84528638",
+                            "version": "11384248"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Music Division Library of Congress",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Washington, D.C.",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528660",
+                                    "version": "11384248"
+                                }
+                            ],
+                            "id": "84528659",
+                            "version": "11384248"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Library of Congress, Music Division \/ Research Series",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "101 Independence Avenue, SE",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528664",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "LM 113",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528665",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Washington",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528666",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-DC",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528667",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20540-0002",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528668",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528669",
+                                    "version": "11384248"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16793",
+                                "name": "Library of Congress, Music Division \/ Research Series",
+                                "latitude": "38.8870500",
+                                "longitude": "-77.0049860"
+                            },
+                            "confirmed": true,
+                            "id": "84528663",
+                            "version": "11384248"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States, Library of Congress, Music Division",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "101 Independence Ave., S. E.  Washington, District Of Columbia 20540-4820  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528662",
+                                    "version": "11384248"
+                                }
+                            ],
+                            "id": "84528661",
+                            "version": "11384248"
+                        }
+                    ],
+                    "id": "84528631",
+                    "version": "11392009"
+                },
+                "id": "6357919",
+                "version": "6357919"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Correspondence from the Elizabeth Sprague Coolidge Foundation Collection, 1894-1953, (bulk 1920-1953)",
+            "id": "48209753",
+            "version": "7045217"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archives.nypl.org\/rha\/20475",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Ross Lee Finney collection : sound and video recordings<\/unittitle>\n                  <unitdate>1938-1986<\/unitdate>\n                  <unitid>*L (Special) 98-16<\/unitid>\n                  <unitid>20475<\/unitid>\n                  <origination>\n                     <persname>Finney, Ross Lee, 1906-1997<\/persname>\n                  <\/origination>\n                  <repository>\n                     <corpname>The New York Public Library. Rodgers and Hammerstein Archives of Recorded Sound.<\/corpname>\n                     <address>\n                        <addressline>New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center<\/addressline>\n                        <addressline>40 Lincoln Center Plaza, New York, NY 10023-7498<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <physdesc>137 sound recordings.<\/physdesc>\n                  <abstract>Ross Lee Finney (1906-1997) was an American composer and teacher. Born in Wells, MN, he studied at the University of Minnesota with Donald Ferguson, in Paris with Nadia Boulanger,and at Harvard with Edward Burlingame Hill. He also studied with Roger Sessions (1935), Alban Berg (1931-1932), and Gian Francesco Malipiero (1937). Finney taught at Smith College (1929-49) ; Mt. Holyoke College (1938-40) ; Hartt School of Music (1941-42), and Amherst College (1946-1947). He was a visiting lecturer at the University of Michigan in Ann Arbor (1948-1949), and later became a professor there (1949-73). During his time at the University of Michigan in Ann Arbor, Finney served as chairman of the composition department, and established an electronic music laboratory.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Ross Lee Finney collection : sound and video recordings 1938-1986",
+                "abstract": "Ross Lee Finney (1906-1997) was an American composer and teacher. Born in Wells, MN, he studied at the University of Minnesota with Donald Ferguson, in Paris with Nadia Boulanger,and at Harvard with Edward Burlingame Hill. He also studied with Roger Sessions (1935), Alban Berg (1931-1932), and Gian Francesco Malipiero (1937). Finney taught at Smith College (1929-49) ; Mt. Holyoke College (1938-40) ; Hartt School of Music (1941-42), and Amherst College (1946-1947). He was a visiting lecturer at the University of Michigan in Ann Arbor (1948-1949), and later became a professor there (1949-73). During his time at the University of Michigan in Ann Arbor, Finney served as chairman of the composition department, and established an electronic music laboratory.",
+                "displayEntry": "Ross Lee Finney collection : sound and video recordings, 1938-1986",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Finney, Ross Lee, 1906-1997",
+                        "id": "11347453",
+                        "version": "6316769"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6jx93s2",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "The New York Public Library. Rodgers and Hammerstein Archives of Recorded Sound.",
+                            "preferenceScore": "99",
+                            "id": "76796836",
+                            "version": "11240665"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "The New York Public Library. Rodgers and Hammerstein Archives of Recorded Sound.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center 40 Lincoln Center Plaza, New York, NY 10023-7498",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76796839",
+                                    "version": "11240665"
+                                }
+                            ],
+                            "id": "76796838",
+                            "version": "11240665"
+                        }
+                    ],
+                    "id": "76796835",
+                    "version": "11240668"
+                },
+                "id": "6316769",
+                "version": "6316769"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Ross Lee Finney collection : sound and video recordings, 1938-1986",
+            "id": "48209754",
+            "version": "7045217"
+        }
+    ],
+    "id": "48209717",
+    "version": "7045218"
+}

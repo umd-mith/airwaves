@@ -1,0 +1,288 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6wh9z8n",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T13:23:21",
+            "standardDateTime": "2016-08-14T13:23:21",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T13:23:21",
+            "standardDateTime": "2016-08-14T13:23:21",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/63936225",
+            "id": "45782205",
+            "version": "6685307"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Rural Radio Network.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Rural Radio Network.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "45782207",
+                    "version": "6685307"
+                }
+            ],
+            "id": "45782206",
+            "version": "6685307",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80542488",
+                    "version": "6685307"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45782204",
+            "targetConstellation": "5423748",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wh9z8n",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6q317td",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "New York State College of Agriculture and Life Sciences. Department of Animal Science.",
+            "id": "45782210",
+            "version": "6685307"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/63936225",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:63936225<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-COO<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>New York State College of Agriculture and Life Sciences. Department of Animal Science.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>American Dairy Science Association.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Dept. of Animal Science records, 1949-1990.<\/title>\n                  <\/titleInfo>\n                  <abstract>Records pertaining to research and extension, including the New York State Fair, particularly with sheep, swine, and goats, 1949-1973. Also, two video cassettes of \"The Legacy of C. R. Henderson,\" from the American Dairy Science Association Symposium, June 1990 and radio talks (1949-1955) given by faculty over the Rural Radio Network. <\/abstract>\n                  <name>\n                     <namePart>Cornell University Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Dept. of Animal Science records, 1949-1990.",
+                "abstract": "Records pertaining to research and extension, including the New York State Fair, particularly with sheep, swine, and goats, 1949-1973. Also, two video cassettes of \"The Legacy of C. R. Henderson,\" from the American Dairy Science Association Symposium, June 1990 and radio talks (1949-1955) given by faculty over the Rural Radio Network. ",
+                "extent": "3.2 cubic ft.",
+                "displayEntry": "New York State College of Agriculture and Life Sciences. Department of Animal Science. Dept. of Animal Science records, 1949-1990.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "New York State College of Agriculture and Life Sciences. Department of Animal Science.",
+                        "id": "10503358",
+                        "version": "7905394"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "American Dairy Science Association.",
+                        "id": "10503359",
+                        "version": "7905394"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sc4v5v",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Cornell University Library",
+                            "preferenceScore": "99",
+                            "id": "76765388",
+                            "version": "11226005"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Cornell University Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "201 Olin Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765393",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Ithaca",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765394",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765395",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "14853-5301",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765396",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765397",
+                                    "version": "11226005"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15986",
+                                "name": "Cornell University Library",
+                                "latitude": "42.4467000",
+                                "longitude": "-76.4957000"
+                            },
+                            "confirmed": true,
+                            "id": "76765392",
+                            "version": "11226005"
+                        }
+                    ],
+                    "id": "76765387",
+                    "version": "11226008"
+                },
+                "id": "7905394",
+                "version": "7905394"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "New York State College of Agriculture and Life Sciences. Department of Animal Science. Dept. of Animal Science records, 1949-1990.",
+            "id": "45782211",
+            "version": "6685307"
+        }
+    ],
+    "id": "45782204",
+    "version": "6685308"
+}

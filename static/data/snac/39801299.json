@@ -1,0 +1,329 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6mp8g4x",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T16:59:51",
+            "standardDateTime": "2016-08-13T16:59:51",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T16:59:51",
+            "standardDateTime": "2016-08-13T16:59:51",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/14075022",
+            "id": "39801301",
+            "version": "5811674"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Ashley, Thomas Ludlow, 1923-",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Ashley, Thomas Ludlow, 1923-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "39801303",
+                    "version": "5811674"
+                }
+            ],
+            "id": "39801302",
+            "version": "5811674",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80052325",
+                    "version": "5811674"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "39801299",
+            "targetConstellation": "28961628",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mp8g4x",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bp352x",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Gosser, Richard T., 1900-1969.",
+            "id": "39801306",
+            "version": "5811674"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "39801299",
+            "targetConstellation": "62729515",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mp8g4x",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67w93pk",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Ashley, Thomas William Ludlow, 1923-"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/14075022",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:14075022<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-TOL<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Gosser, Richard T., 1900-1969.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers, 1943-1974.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence, scrapbooks, and miscellany concerning Local 12; personal correspondence, 1961-1969; briefs and other material relating to his Federal conspiracy trial; material concerning Toledo Health and Retiree Center; UAW International Executive Board minutes, 1947-1962; proceedings of UAW and CIO conventions; UAW newspapers United Automobile Worker and Solidarity, 1942-1963. <\/abstract>\n                  <name>\n                     <namePart>University of Toledo<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1943-1974.",
+                "abstract": "Correspondence, scrapbooks, and miscellany concerning Local 12; personal correspondence, 1961-1969; briefs and other material relating to his Federal conspiracy trial; material concerning Toledo Health and Retiree Center; UAW International Executive Board minutes, 1947-1962; proceedings of UAW and CIO conventions; UAW newspapers United Automobile Worker and Solidarity, 1942-1963. ",
+                "extent": "15 linear ft.",
+                "displayEntry": "Gosser, Richard T., 1900-1969. Papers, 1943-1974.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Gosser, Richard T., 1900-1969.",
+                        "id": "8636704",
+                        "version": "6823887"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6pm14vg",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Toledo, William S. Carlson Library",
+                            "preferenceScore": "99",
+                            "id": "76788469",
+                            "version": "11234553"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Toledo, William S. Carlson Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Univ of Toledo Carlson Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788474",
+                                    "version": "11234553"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "2801 W Bancroft ST MS 509",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788475",
+                                    "version": "11234553"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Toledo",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788476",
+                                    "version": "11234553"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-OH",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788477",
+                                    "version": "11234553"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "43606-3399",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788478",
+                                    "version": "11234553"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788479",
+                                    "version": "11234553"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15946",
+                                "name": "University of Toledo, William S. Carlson Library",
+                                "latitude": "41.6598549",
+                                "longitude": "-83.6151123"
+                            },
+                            "confirmed": true,
+                            "id": "76788473",
+                            "version": "11234553"
+                        }
+                    ],
+                    "id": "76788468",
+                    "version": "11234556"
+                },
+                "id": "6823887",
+                "version": "6823887"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Gosser, Richard T., 1900-1969. Papers, 1943-1974.",
+            "id": "39801308",
+            "version": "5811674"
+        }
+    ],
+    "id": "39801299",
+    "version": "5811675",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1923",
+            "fromDateOriginal": "1923",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "39801300",
+            "version": "5811674"
+        }
+    ]
+}

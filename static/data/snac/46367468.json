@@ -1,0 +1,575 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6qs1248",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T15:28:32",
+            "standardDateTime": "2016-08-14T15:28:32",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T15:28:32",
+            "standardDateTime": "2016-08-14T15:28:32",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/151677043",
+            "id": "46367472",
+            "version": "6770966"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/757553858",
+            "id": "46367471",
+            "version": "6770966"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/30677853",
+            "id": "46367470",
+            "version": "6770966"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "46367473",
+            "version": "6770966"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Northern State Teachers College (Mich.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Northern State Teachers College (Mich.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "46367475",
+                    "version": "6770966"
+                }
+            ],
+            "id": "46367474",
+            "version": "6770966",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80589325",
+                    "version": "6770966"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "46367468",
+            "targetConstellation": "35588667",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6qs1248",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w69m0ck0",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Northern Michigan College of Education",
+            "id": "46367484",
+            "version": "6770966"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "46367468",
+            "targetConstellation": "16986797",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6qs1248",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kd52qc",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Russo, Nancy",
+            "id": "46367485",
+            "version": "6770966"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Northern State Teachers College (Mich.)",
+            "uri": "https:\/\/viaf.org\/viaf\/151677043",
+            "id": "46367481",
+            "version": "6770966"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no2009185520",
+            "id": "46367482",
+            "version": "6770966"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no2009185520",
+            "id": "46367483",
+            "version": "6770966"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/30677853",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:30677853<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-EZN<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Northern State Teachers College (Mich.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Northern Michigan College of Education<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Scrapbooks, 1899-1942.<\/title>\n                  <\/titleInfo>\n                  <abstract>Description: Scrapbooks of newspaper clippings relating to what is now Northern Michigan University. <\/abstract>\n                  <name>\n                     <namePart>Olson Library, Northern Michigan University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Scrapbooks, 1899-1942.",
+                "abstract": "Description: Scrapbooks of newspaper clippings relating to what is now Northern Michigan University. ",
+                "extent": "9 ln. ft. (9 boxes) (21 vols.)",
+                "displayEntry": "Northern State Teachers College (Mich.). Scrapbooks, 1899-1942.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Northern State Teachers College (Mich.)",
+                        "id": "9391608",
+                        "version": "7288490"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Northern Michigan College of Education",
+                        "id": "9391609",
+                        "version": "7288490"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hf8j86",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Olson Library, Northern Michigan University, Lydia M. Olson Library",
+                            "preferenceScore": "99",
+                            "id": "76778751",
+                            "version": "11231029"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Olson Library, Northern Michigan University, Lydia M. Olson Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Olson Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778756",
+                                    "version": "11231029"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1401 Presque Isle Ave",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778757",
+                                    "version": "11231029"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Marquette",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778758",
+                                    "version": "11231029"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MI",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778759",
+                                    "version": "11231029"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "49855-5376",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778760",
+                                    "version": "11231029"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778761",
+                                    "version": "11231029"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17092",
+                                "name": "Olson Library, Northern Michigan University, Lydia M. Olson Library",
+                                "latitude": "46.5306702",
+                                "longitude": "-87.3973007"
+                            },
+                            "confirmed": true,
+                            "id": "76778755",
+                            "version": "11231029"
+                        }
+                    ],
+                    "id": "76778750",
+                    "version": "11231032"
+                },
+                "id": "7288490",
+                "version": "7288490"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Northern State Teachers College (Mich.). Scrapbooks, 1899-1942.",
+            "id": "46367486",
+            "version": "6770966"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/757553858",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:757553858<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-EZN<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Russo, Nancy<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Nancy Russo school memorabilia 1936-1939<\/title>\n                  <\/titleInfo>\n                  <abstract>This collection contains memorabilia of Nancy Russo's school days at Northern State Teachers College (now Northern Michigan University) from 1936 to 1939.  The collection contains programs for the Men's and Women's Glee Clubs, Student Girls League Programs, a senior booklet for 1939, and a wallet size photograph of Pete Ellis. <\/abstract>\n                  <name>\n                     <namePart>Olson Library, Northern Michigan University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Nancy Russo school memorabilia 1936-1939",
+                "abstract": "This collection contains memorabilia of Nancy Russo's school days at Northern State Teachers College (now Northern Michigan University) from 1936 to 1939.  The collection contains programs for the Men's and Women's Glee Clubs, Student Girls League Programs, a senior booklet for 1939, and a wallet size photograph of Pete Ellis. ",
+                "extent": "1.0 item",
+                "displayEntry": "Russo, Nancy. Nancy Russo school memorabilia 1936-1939",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Russo, Nancy",
+                        "id": "10919405",
+                        "version": "8144066"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hf8j86",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Olson Library, Northern Michigan University, Lydia M. Olson Library",
+                            "preferenceScore": "99",
+                            "id": "76778751",
+                            "version": "11231029"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Olson Library, Northern Michigan University, Lydia M. Olson Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Olson Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778756",
+                                    "version": "11231029"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1401 Presque Isle Ave",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778757",
+                                    "version": "11231029"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Marquette",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778758",
+                                    "version": "11231029"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MI",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778759",
+                                    "version": "11231029"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "49855-5376",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778760",
+                                    "version": "11231029"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778761",
+                                    "version": "11231029"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17092",
+                                "name": "Olson Library, Northern Michigan University, Lydia M. Olson Library",
+                                "latitude": "46.5306702",
+                                "longitude": "-87.3973007"
+                            },
+                            "confirmed": true,
+                            "id": "76778755",
+                            "version": "11231029"
+                        }
+                    ],
+                    "id": "76778750",
+                    "version": "11231032"
+                },
+                "id": "8144066",
+                "version": "8144066"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Russo, Nancy. Nancy Russo school memorabilia 1936-1939",
+            "id": "46367487",
+            "version": "6770966"
+        }
+    ],
+    "id": "46367468",
+    "version": "6770967",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1899",
+            "fromDateOriginal": "active 1899",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1942",
+            "toDateOriginal": "active 1942",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "46367469",
+            "version": "6770966"
+        }
+    ]
+}

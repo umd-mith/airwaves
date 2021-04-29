@@ -1,0 +1,967 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60c93br",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T06:51:45",
+            "standardDateTime": "2016-08-18T06:51:45",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T06:51:45",
+            "standardDateTime": "2016-08-18T06:51:45",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/hou01943.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">KRMA-TV (Television station : Denver, Colo.),<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/hou01943\/catalog",
+            "id": "68400198",
+            "version": "9999263"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/123122194",
+            "id": "68400199",
+            "version": "9999263"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/55038877",
+            "id": "68400197",
+            "version": "9999263"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/28185065",
+            "id": "68400196",
+            "version": "9999263"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "68400200",
+            "version": "9999263"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KRMA-TV (Television station : Denver, Colo.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KRMA-TV (Television station : Denver, Colo.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "68400202",
+                    "version": "9999263"
+                }
+            ],
+            "id": "68400201",
+            "version": "9999263",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82397172",
+                    "version": "9999263"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Denver (Colo.). KRMA-TV (Television station)",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Denver (Colo.). KRMA-TV (Television station)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "68400207",
+                    "version": "9999263"
+                }
+            ],
+            "id": "68400206",
+            "version": "9999263",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82397173",
+                    "version": "9999263"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "K.R.M.A.-T.V. (Television station : Denver, Colo.)",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "K.R.M.A.-T.V. (Television station : Denver, Colo.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "68400210",
+                    "version": "9999263"
+                }
+            ],
+            "id": "68400209",
+            "version": "9999263",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82397174",
+                    "version": "9999263"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Denver Public Schools. KRMA-TV (Television station : Denver, Colo.)",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Denver Public Schools. KRMA-TV (Television station : Denver, Colo.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "68400213",
+                    "version": "9999263"
+                }
+            ],
+            "id": "68400212",
+            "version": "9999263",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82397175",
+                    "version": "9999263"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Denver. Television station KRMA-TV",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Denver. Television station KRMA-TV",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "68400216",
+                    "version": "9999263"
+                }
+            ],
+            "id": "68400215",
+            "version": "9999263",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82397176",
+                    "version": "9999263"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "KRMATV (Television station : Denver, Colo.)",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KRMATV (Television station : Denver, Colo.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "68400219",
+                    "version": "9999263"
+                }
+            ],
+            "id": "68400218",
+            "version": "9999263",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82397177",
+                    "version": "9999263"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "68400194",
+                "version": "9999263"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">Program 13 aired March 1, 1971. Program 14 aired March 15, 1971.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Environmental hotline, 1971. (Denver Public Library). WorldCat record id: 55038877<\/citation>\n         <\/biogHist>",
+            "id": "68400193",
+            "version": "9999263"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "68400192",
+            "targetConstellation": "35785480",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60c93br",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w95mkz",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Clifford, Peggy.",
+            "id": "68400229",
+            "version": "9999263"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "68400192",
+            "targetConstellation": "69895379",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60c93br",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sf31pz",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Vidal, Gore, 1925-",
+            "id": "68400231",
+            "version": "9999263"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "68400192",
+            "targetConstellation": "16311109",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60c93br",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6m67g72",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Winter Olympic Games (12th : 1976 : Innsbruck, Austria)",
+            "id": "68400230",
+            "version": "9999263"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "KRMA-TV (Television station : Denver, Colo.)",
+            "uri": "https:\/\/viaf.org\/viaf\/123122194",
+            "id": "68400225",
+            "version": "9999263"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n50002550",
+            "id": "68400226",
+            "version": "9999263"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n50002550",
+            "id": "68400227",
+            "version": "9999263"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/28185065",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:28185065<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-CFD<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Clifford, Peggy.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>KRMA-TV (Television station : Denver, Colo.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>The naturalists. Henry Thoreau : \"The captain of a huckleberry party \" : typed production notes and script for Denver KRMA-TV broadcast [1971] \/ by Peggy Clifford.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Concord Public Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "The naturalists. Henry Thoreau : \"The captain of a huckleberry party \" : typed production notes and script for Denver KRMA-TV broadcast [1971] \/ by Peggy Clifford.",
+                "extent": "1 item ([1], 23 leaves) ; 28 cm.",
+                "displayEntry": "Clifford, Peggy. The naturalists. Henry Thoreau : \"The captain of a huckleberry party \" : typed production notes and script for Denver KRMA-TV broadcast [1971] \/ by Peggy Clifford.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Clifford, Peggy.",
+                        "id": "9334862",
+                        "version": "7255845"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KRMA-TV (Television station : Denver, Colo.)",
+                        "id": "9334863",
+                        "version": "7255845"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w67j26z9",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Concord Free Public Library, Special Collection",
+                            "preferenceScore": "99",
+                            "id": "76765180",
+                            "version": "11225929"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Concord Free Public Library, Special Collection",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "129 Main Street",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765184",
+                                    "version": "11225929"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Concord",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765185",
+                                    "version": "11225929"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765186",
+                                    "version": "11225929"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "01742-2436",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765187",
+                                    "version": "11225929"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765188",
+                                    "version": "11225929"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16669",
+                                "name": "Concord Free Public Library, Special Collection",
+                                "latitude": "42.4590454",
+                                "longitude": "-71.3548737"
+                            },
+                            "confirmed": true,
+                            "id": "76765183",
+                            "version": "11225929"
+                        }
+                    ],
+                    "id": "76765179",
+                    "version": "11225932"
+                },
+                "id": "7255845",
+                "version": "7255845"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Clifford, Peggy. The naturalists. Henry Thoreau : \"The captain of a huckleberry party \" : typed production notes and script for Denver KRMA-TV broadcast [1971] \/ by Peggy Clifford.",
+            "id": "68400232",
+            "version": "9999263"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/hou01943\/catalog",
+                "title": "Gore Vidal papers, 1850-2020 (inclusive), 1936-2008 (bulk)",
+                "abstract": "Papers of American author, Gore Vidal (1925-), including literary manuscripts, correspondence, photographs, political papers, legal and business records, and other material. Also includes papers of his companion, Howard Austen (1929-2003).",
+                "extent": "414 linear feet (449 boxes, cartons, and film reels)",
+                "displayEntry": "Gore Vidal papers, 1850-2020 (inclusive), 1936-2008 (bulk)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Vidal, Gore, 1925-. ",
+                        "id": "11438824",
+                        "version": "6385010"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11438825",
+                        "version": "6385010"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "144",
+                            "term": "fre",
+                            "type": "language_code",
+                            "description": "French"
+                        },
+                        "id": "11438826",
+                        "version": "6385010"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "159",
+                            "term": "ger",
+                            "type": "language_code",
+                            "description": "German"
+                        },
+                        "id": "11438827",
+                        "version": "6385010"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "214",
+                            "term": "ita",
+                            "type": "language_code",
+                            "description": "Italian"
+                        },
+                        "id": "11438828",
+                        "version": "6385010"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "419",
+                            "term": "spa",
+                            "type": "language_code",
+                            "description": "Spanish; Castilian"
+                        },
+                        "id": "11438829",
+                        "version": "6385010"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64n9vjj",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Houghton Library",
+                            "preferenceScore": "99",
+                            "id": "84972051",
+                            "version": "11443403"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Houghton Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Harvard Yard",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937835",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937836",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937837",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138-6534",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937838",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937839",
+                                    "version": "11443394"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15160",
+                                "name": "Harvard University, Houghton Library",
+                                "latitude": "42.3731728",
+                                "longitude": "-71.1159515"
+                            },
+                            "confirmed": true,
+                            "id": "84937834",
+                            "version": "11443394"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts--Cambridge",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84937840",
+                            "version": "11443394"
+                        }
+                    ],
+                    "id": "84937800",
+                    "version": "11443404"
+                },
+                "id": "6385010",
+                "version": "6385010"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Gore Vidal papers, 1875-2004 (inclusive), 1936-2000 (bulk).",
+            "id": "68400234",
+            "version": "9999263"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/55038877",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:55038877<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-DPL<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>KRMA-TV (Television station : Denver, Colo.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Environmental hotline, 1971.<\/title>\n                  <\/titleInfo>\n                  <abstract>Tapes cover auto air pollution (program 13); 1976 Winter Olympics (program 14). <\/abstract>\n                  <name>\n                     <namePart>Denver Public Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Environmental hotline, 1971.",
+                "abstract": "Tapes cover auto air pollution (program 13); 1976 Winter Olympics (program 14). ",
+                "extent": "2 magnetic tapes.",
+                "displayEntry": "KRMA-TV (Television station : Denver, Colo.). Environmental hotline, 1971.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KRMA-TV (Television station : Denver, Colo.)",
+                        "id": "10010864",
+                        "version": "7685803"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6ds3hv1",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Denver Public Library, Central Library",
+                            "preferenceScore": "99",
+                            "id": "76766019",
+                            "version": "11226233"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Denver Public Library, Central Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10 West Fourteenth Avenue Parkway",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766024",
+                                    "version": "11226233"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Denver",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766025",
+                                    "version": "11226233"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CO",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766026",
+                                    "version": "11226233"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "80204",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766027",
+                                    "version": "11226233"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766028",
+                                    "version": "11226233"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15106",
+                                "name": "Denver Public Library, Central Library",
+                                "latitude": "39.7383000",
+                                "longitude": "-104.9880000"
+                            },
+                            "confirmed": true,
+                            "id": "76766023",
+                            "version": "11226233"
+                        }
+                    ],
+                    "id": "76766018",
+                    "version": "11226236"
+                },
+                "id": "7685803",
+                "version": "7685803"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "KRMA-TV (Television station : Denver, Colo.). Environmental hotline, 1971.",
+            "id": "68400233",
+            "version": "9999263"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "61966",
+                "term": "Automobiles--Motors--Exhaust gas--Environmental aspects",
+                "type": "subject"
+            },
+            "id": "68400228",
+            "version": "9999263"
+        }
+    ],
+    "id": "68400192",
+    "version": "9999264",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDateOriginal": "active 1971",
+            "id": "68400195",
+            "version": "9999263"
+        }
+    ]
+}

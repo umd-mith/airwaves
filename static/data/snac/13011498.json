@@ -1,0 +1,1057 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63r64kw",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-20",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T15:02:23",
+            "standardDateTime": "2016-08-10T15:02:23",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T15:02:23",
+            "standardDateTime": "2016-08-10T15:02:23",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/70979988",
+            "id": "13011499",
+            "version": "1891520"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/hou00145.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Edward L. Bernays Foundation<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/hou00145\/catalog",
+            "id": "13011503",
+            "version": "1891520"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/138554077",
+            "id": "13011504",
+            "version": "1891520"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/lc\/ms003016.xml<\/filename>\n                  <ead_entity altrender=\":::PWEBRECON=^Edward+L.+Bernays+Foundation.^\" en_type=\"corpname\" encodinganalog=\"610$a\" role=\"subject\" source=\"lcnaf\">Edward L. Bernays Foundation.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/hdl.loc.gov\/loc.mss\/eadmss.ms003016",
+            "id": "13011502",
+            "version": "1891520"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/539584835",
+            "id": "13011501",
+            "version": "1891520"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/232007067",
+            "id": "13011500",
+            "version": "1891520"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "13011505",
+            "version": "1891520"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Edward L. Bernays Foundation",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Edward L. Bernays Foundation",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "13011507",
+                    "version": "1891520"
+                }
+            ],
+            "id": "13011506",
+            "version": "1891520",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"lc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77864011",
+                    "version": "1891520"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Bernays Foundation",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Bernays Foundation",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "13011513",
+                    "version": "1891520"
+                }
+            ],
+            "id": "13011512",
+            "version": "1891520",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77864012",
+                    "version": "1891520"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "13011498",
+            "targetConstellation": "17752000",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63r64kw",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jd6gpz",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Bernays, Doris Fleischman, 1891-",
+            "id": "13011525",
+            "version": "1891520"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "13011498",
+            "targetConstellation": "33282676",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63r64kw",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vd708z",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Bernays, Edward L., 1891-1995.",
+            "id": "13011524",
+            "version": "1891520"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "13011498",
+            "targetConstellation": "33391186",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63r64kw",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6476d89",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Manning, Robert, 1919-",
+            "id": "13011526",
+            "version": "1891520"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Edward L. Bernays Foundation",
+            "uri": "https:\/\/viaf.org\/viaf\/138554077",
+            "id": "13011521",
+            "version": "1891520"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n98048660",
+            "id": "13011522",
+            "version": "1891520"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n98048660",
+            "id": "13011523",
+            "version": "1891520"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/539584835",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:539584835<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-SLR<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Bernays, Doris Fleischman, 1891-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Additional papers, 1915-1978 (inclusive).<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection contains correspondence, published articles, photographs, and announcements and programs for events at which Bernays was a speaker. The correspondence consists largely of reader responses to \"Notes of a Retiring Feminist\" (1948), \"Plus ca Change, Plus C'e\u0301st la Me\u0302me Chose\" (1977), and Progression (1977). Also included are clippings of book reviews by Bernays and about her work, an address by Bernays for Theta Sigma Phi, and \"Drought\" (1965), a poem by Bernays. <\/abstract>\n                  <name>\n                     <namePart>Harvard University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Additional papers, 1915-1978 (inclusive).",
+                "abstract": "Collection contains correspondence, published articles, photographs, and announcements and programs for events at which Bernays was a speaker. The correspondence consists largely of reader responses to \"Notes of a Retiring Feminist\" (1948), \"Plus ca Change, Plus C'e\u0301st la Me\u0302me Chose\" (1977), and Progression (1977). Also included are clippings of book reviews by Bernays and about her work, an address by Bernays for Theta Sigma Phi, and \"Drought\" (1965), a poem by Bernays. ",
+                "extent": ".42 linear ft. (1 file box)",
+                "displayEntry": "Bernays, Doris Fleischman, 1891-. Additional papers, 1915-1978 (inclusive).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bernays, Doris Fleischman, 1891-",
+                        "id": "9992456",
+                        "version": "7673862"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6q060rg",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Arthur and Elizabeth Schlesinger Library on the History of Women in America\u200f",
+                            "preferenceScore": "99",
+                            "id": "84708946",
+                            "version": "11425596"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts--Cambridge",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84708988",
+                            "version": "11425596"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Schlesinger Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10 Garden St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708982",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708983",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708984",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708985",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708986",
+                                    "version": "11425596"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16330",
+                                "name": "Harvard University, Schlesinger Library",
+                                "latitude": "42.3782959",
+                                "longitude": "-71.1304474"
+                            },
+                            "confirmed": true,
+                            "id": "84708981",
+                            "version": "11425596"
+                        }
+                    ],
+                    "id": "84708935",
+                    "version": "11425606"
+                },
+                "id": "7673862",
+                "version": "7673862"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Bernays, Doris Fleischman, 1891-. Additional papers, 1915-1978 (inclusive).",
+            "id": "13011529",
+            "version": "1891520"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/232007067",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:232007067<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-SLR<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Bernays, Doris Fleischman, 1891-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers, 1914-1978 (inclusive).<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection includes correspondence, writings, photographs; source notes for A Wife Is Many Women; background material on equal pay, household employment, and the status of women; and announcements and programs for events at which Bernays was a speaker. The bulk of the correspondence is professional and covers the genesis and development of A Wife Is Many Women (1949-1955) and DFB's work with the Lucy Stone League (1950-1952), the Woman Pays Club (1956-1973), and Women in Communications (1971-1973); it includes reader responses to her writings. Writings include typescripts of stories and articles, clippings of articles and book reviews, and a portion of an unpublished science fiction novel. <\/abstract>\n                  <name>\n                     <namePart>Harvard University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1914-1978 (inclusive).",
+                "abstract": "Collection includes correspondence, writings, photographs; source notes for A Wife Is Many Women; background material on equal pay, household employment, and the status of women; and announcements and programs for events at which Bernays was a speaker. The bulk of the correspondence is professional and covers the genesis and development of A Wife Is Many Women (1949-1955) and DFB's work with the Lucy Stone League (1950-1952), the Woman Pays Club (1956-1973), and Women in Communications (1971-1973); it includes reader responses to her writings. Writings include typescripts of stories and articles, clippings of articles and book reviews, and a portion of an unpublished science fiction novel. ",
+                "extent": "1.75 linear ft.",
+                "displayEntry": "Bernays, Doris Fleischman, 1891-. Papers, 1914-1978 (inclusive).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bernays, Doris Fleischman, 1891-",
+                        "id": "9018545",
+                        "version": "7095291"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6q060rg",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Arthur and Elizabeth Schlesinger Library on the History of Women in America\u200f",
+                            "preferenceScore": "99",
+                            "id": "84708946",
+                            "version": "11425596"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts--Cambridge",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84708988",
+                            "version": "11425596"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Schlesinger Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10 Garden St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708982",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708983",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708984",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708985",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708986",
+                                    "version": "11425596"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16330",
+                                "name": "Harvard University, Schlesinger Library",
+                                "latitude": "42.3782959",
+                                "longitude": "-71.1304474"
+                            },
+                            "confirmed": true,
+                            "id": "84708981",
+                            "version": "11425596"
+                        }
+                    ],
+                    "id": "84708935",
+                    "version": "11425606"
+                },
+                "id": "7095291",
+                "version": "7095291"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Bernays, Doris Fleischman, 1891-. Papers, 1914-1978 (inclusive).",
+            "id": "13011528",
+            "version": "1891520"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/70979988",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:70979988<\/recordOrigin>\n                     <recordContentSource>ISIL:DLC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Bernays, Edward L., 1891-1995.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bernays, Doris Fleischman, 1891-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Edward L. Bernays papers, 1777-1994 (bulk 1920-1990).<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence, publicity material, and scrapbooks, together with memoranda, research notes, speeches, articles, drafts of books, lists, surveys, reports, printed matter, photographs, and other material documenting Bernays's career as a pioneer in the field of public relations and the development of that profession and its influence on American society. Bernays represented leading figures and organizations in the arts, finance, health, industry, philanthropy, and world and national politics. Much of the collection was used as the basis for Bernays's memoir, Biography of an Idea (1965). Topics include the celebration of the fiftieth anniversary of Edison's invention of the electric light (1929); the stock market crash of 1929 and the Depression; President Herbert Hoover's Emergency Committee for Employment and Committee on the Cost of Medical Care; New York City mayoral election of 1940; economic conditions, government agencies, international politics, and loan campaigns during World War II; postwar corporate and theater industry development in New York City; Jawaharlal Nehru's efforts to regain American goodwill following India's neutrality during the Korean War; and the Vietnamese conflict. Includes material on Bernays's public relations work for the automobile, bread, brewing, magazine publishing, pharmaceutical, and radio broadcasting industries. Also includes material on his interest in environmental affairs, the Edward L. Bernays Foundation, and such social issues as crime, cigarette smoking, and aging. Family papers (1831-1993) include correspondence between Bernays and his wife, Doris Fleischman Bernays; a draft of her book, A Wife Is Many Women (1955); and letters and other papers of or relating to Bernays's uncle, Sigmund Freud, and other members of the Freud and Bernays families. Clients include Allied Chemical &amp; Dye Corporation, American Nurses' Association, American Psychological Association, American Tobacco Company, Ballets russes, Bank of America, Book Publishers Research Institute, Brotherhood of Railroad Trainmen, Cartier (Firm), Columbia Broadcasting System, Committee for America Self-Contained, Committee on Foreign Affairs, Exposition internationale des arts de\u0301coratifs et industriels modernes (Paris, France, 1925), General Motors Corporation, Jacques Seligmann &amp; Co., Light's Golden Jubilee (1929), Mack Trucks, Inc., Mayor's Committee for the Commemoration of the Golden Anniversary of the City of New York, Philco Radio and Television Corp., Procter &amp; Gamble Company, United Brewers Industrial Foundation, United Fruit Company, United States Information Agency, United States Sugar Beet Association, and Ward Baking Company. Correspondents include Paul Bern, Sam Black, Frances Payne Bingham Bolton, Lucius M. Boomer, Daniel J. Boorstin, Homer E. Capehart, Jacques Cartier, Willoughby S. Chesley, Myron M. Cowen, George Creel, E. A. Filene, Sigmund Freud, James Watson Gerard, Norman Bel Geddes, Amadeo Peter Giannini, Eric Frederick Goldman, George W. Hill, Herbert Hoover, Hubert H. Humphrey, Lyndon B. Johnson, Otto Hermann Kahn, Marc Klaw, Alfred A. Knopf, Gypsy Rose Lee, Ivy L. Lee, Erich Leinsdorf, Sinclair Lewis, Clare Boothe Luce, Henry Robinson Luce, William McChesney Martin, Joseph V. McKee, H. L. Mencken, David Page, William S. Paley, Vijaya Lakshmi Pandit, George H. Phelps, A. N. Spanel, Arthur B. Spingarn, Lawrence E. Spivak, Albert Payson Terhune, Robert F. Wagner, Henry Agard Wallace, William B. Ward, and Edmund S. Whitman. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Edward L. Bernays papers, 1777-1994 (bulk 1920-1990).",
+                "abstract": "Correspondence, publicity material, and scrapbooks, together with memoranda, research notes, speeches, articles, drafts of books, lists, surveys, reports, printed matter, photographs, and other material documenting Bernays's career as a pioneer in the field of public relations and the development of that profession and its influence on American society. Bernays represented leading figures and organizations in the arts, finance, health, industry, philanthropy, and world and national politics. Much of the collection was used as the basis for Bernays's memoir, Biography of an Idea (1965). Topics include the celebration of the fiftieth anniversary of Edison's invention of the electric light (1929); the stock market crash of 1929 and the Depression; President Herbert Hoover's Emergency Committee for Employment and Committee on the Cost of Medical Care; New York City mayoral election of 1940; economic conditions, government agencies, international politics, and loan campaigns during World War II; postwar corporate and theater industry development in New York City; Jawaharlal Nehru's efforts to regain American goodwill following India's neutrality during the Korean War; and the Vietnamese conflict. Includes material on Bernays's public relations work for the automobile, bread, brewing, magazine publishing, pharmaceutical, and radio broadcasting industries. Also includes material on his interest in environmental affairs, the Edward L. Bernays Foundation, and such social issues as crime, cigarette smoking, and aging. Family papers (1831-1993) include correspondence between Bernays and his wife, Doris Fleischman Bernays; a draft of her book, A Wife Is Many Women (1955); and letters and other papers of or relating to Bernays's uncle, Sigmund Freud, and other members of the Freud and Bernays families. Clients include Allied Chemical & Dye Corporation, American Nurses' Association, American Psychological Association, American Tobacco Company, Ballets russes, Bank of America, Book Publishers Research Institute, Brotherhood of Railroad Trainmen, Cartier (Firm), Columbia Broadcasting System, Committee for America Self-Contained, Committee on Foreign Affairs, Exposition internationale des arts de\u0301coratifs et industriels modernes (Paris, France, 1925), General Motors Corporation, Jacques Seligmann & Co., Light's Golden Jubilee (1929), Mack Trucks, Inc., Mayor's Committee for the Commemoration of the Golden Anniversary of the City of New York, Philco Radio and Television Corp., Procter & Gamble Company, United Brewers Industrial Foundation, United Fruit Company, United States Information Agency, United States Sugar Beet Association, and Ward Baking Company. Correspondents include Paul Bern, Sam Black, Frances Payne Bingham Bolton, Lucius M. Boomer, Daniel J. Boorstin, Homer E. Capehart, Jacques Cartier, Willoughby S. Chesley, Myron M. Cowen, George Creel, E. A. Filene, Sigmund Freud, James Watson Gerard, Norman Bel Geddes, Amadeo Peter Giannini, Eric Frederick Goldman, George W. Hill, Herbert Hoover, Hubert H. Humphrey, Lyndon B. Johnson, Otto Hermann Kahn, Marc Klaw, Alfred A. Knopf, Gypsy Rose Lee, Ivy L. Lee, Erich Leinsdorf, Sinclair Lewis, Clare Boothe Luce, Henry Robinson Luce, William McChesney Martin, Joseph V. McKee, H. L. Mencken, David Page, William S. Paley, Vijaya Lakshmi Pandit, George H. Phelps, A. N. Spanel, Arthur B. Spingarn, Lawrence E. Spivak, Albert Payson Terhune, Robert F. Wagner, Henry Agard Wallace, William B. Ward, and Edmund S. Whitman. ",
+                "extent": "227,000 items.860 containers plus 54 oversize.160.2 linear feet.",
+                "displayEntry": "Bernays, Edward L., 1891-1995. Edward L. Bernays papers, 1777-1994 (bulk 1920-1990).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bernays, Edward L., 1891-1995.",
+                        "id": "10800942",
+                        "version": "8067514"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bernays, Doris Fleischman, 1891-",
+                        "id": "10800943",
+                        "version": "8067514"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f58cnp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Library of Congress",
+                            "preferenceScore": "99",
+                            "id": "84584414",
+                            "version": "11391735"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Library of Congress",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "role": {
+                                "id": "400241",
+                                "term": "Residence",
+                                "type": "place_role"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "101 Independence Avenue, SE",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400244",
+                                        "term": "Street",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Street",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84584609",
+                                    "version": "11391774"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Washington",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84584610",
+                                    "version": "11391774"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "DC",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84584611",
+                                    "version": "11391774"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20540",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84584612",
+                                    "version": "11391774"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84584613",
+                                    "version": "11391774"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16296",
+                                "name": "Library of Congress",
+                                "latitude": "38.8886299",
+                                "longitude": "-77.0047531"
+                            },
+                            "confirmed": true,
+                            "id": "84584608",
+                            "version": "11391774"
+                        }
+                    ],
+                    "id": "84584398",
+                    "version": "11391775"
+                },
+                "id": "8067514",
+                "version": "8067514"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Bernays, Edward L., 1891-1995. Edward L. Bernays papers, 1777-1994 (bulk 1920-1990).",
+            "id": "13011527",
+            "version": "1891520"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/hdl.loc.gov\/loc.mss\/eadmss.ms003016",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Edward L. Bernays Papers \n\t\t  <unitdate>1777-1994<\/unitdate>\n                     <unitdate>(bulk 1920-1990)<\/unitdate>\n                  <\/unittitle>\n                  <unitid>MSS12534<\/unitid>\n                  <origination>\n                     <persname>Bernays, Edward L., 1891-1995<\/persname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>227,000\n\t\t  items<\/extent>\n                     <extent>860 containers plus 54 oversize<\/extent>\n                     <extent>160.2 linear feet<\/extent>\n                  <\/physdesc>\n                  <langmaterial>Collection material in\n\t\t<language>English<\/language>\n                  <\/langmaterial>\n                  <repository>\n                     <corpname>\n                        <subarea>Manuscript Division<\/subarea> Library of\n\t\t\t Congress<\/corpname>\n                     <address>\n                        <addressline>Washington, D.C.<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <abstract>Public relations\n\t\t  counsel. Correspondence, memoranda, research notes, speeches, articles, book\n\t\t  drafts, surveys, reports, publicity material, scrapbooks, photographs, printed\n\t\t  matter, and other material documenting Bernays's career as a pioneer in the\n\t\t  field of public relations and the development of that profession and its\n\t\t  influence on American society.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Edward L. Bernays Papers 1777-1994 (bulk 1920-1990)",
+                "abstract": "Public relations  counsel. Correspondence, memoranda, research notes, speeches, articles, book  drafts, surveys, reports, publicity material, scrapbooks, photographs, printed  matter, and other material documenting Bernays's career as a pioneer in the  field of public relations and the development of that profession and its  influence on American society.",
+                "extent": "227,000  items; 860 containers plus 54 oversize; 160.2 linear feet",
+                "displayEntry": "Edward L. Bernays Papers, 1777-1994, (bulk 1920-1990)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bernays, Edward L., 1891-1995",
+                        "id": "11391497",
+                        "version": "6356125"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11391498",
+                        "version": "6356125"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6107sr5",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Library of Congress.  Manuscript Division",
+                            "preferenceScore": "99",
+                            "id": "84586160",
+                            "version": "11392034"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "role": {
+                                "id": "400241",
+                                "term": "Residence",
+                                "type": "place_role"
+                            },
+                            "geoplace": {
+                                "id": "3512",
+                                "uri": "http:\/\/www.geonames.org\/4138106",
+                                "name": "District of Columbia",
+                                "latitude": "38.9170600",
+                                "longitude": "-77.0002500",
+                                "administrationCode": "DC",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "84586614",
+                            "version": "11392054"
+                        }
+                    ],
+                    "id": "84586155",
+                    "version": "11392063"
+                },
+                "id": "6356125",
+                "version": "6356125"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Edward L. Bernays Papers, 1777-1994, (bulk 1920-1990)",
+            "id": "13011530",
+            "version": "1891520"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/hou00145\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Houghton Library, Harvard College Library, Harvard University<\/repository>\n                  <physloc>Harvard Depository <\/physloc>\n                  <note>\n                     <p>A portion of this collection is shelved\noffsite at the Harvard Depository. See access restrictions below for additional information. <\/p>\n                  <\/note>\n                  <physloc>b, pf<\/physloc>\n                  <unitid>MS Am 2109<\/unitid>\n                  <origination>\n                     <persname>Manning, Robert, 1919-.  <\/persname>\n                  <\/origination>\n                  <unittitle>Robert Manning papers, <\/unittitle>\n                  <unitdate>1938-1993.<\/unitdate>\n                  <physdesc>\n                     <extent>68 boxes and 1 portfolio box (22 linear ft.) <\/extent>\n                  <\/physdesc>\n                  <langmaterial>Collection materials are in <language>English.   <\/language>\n                  <\/langmaterial>\n                  <abstract>Correspondence, speeches, other compositions, and notes by Robert Manning, Assistant Secretary of State for Public Affairs,\n1962-1964, and editor of the <emph>Atlantic<\/emph>, 1964-1980. <\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Robert Manning papers, 1938-1993.",
+                "abstract": "Correspondence, speeches, other compositions, and notes by Robert Manning, Assistant Secretary of State for Public Affairs,1962-1964, and editor of the , 1964-1980. Atlantic",
+                "extent": "68 boxes and 1 portfolio box (22 linear ft.)",
+                "displayEntry": "Robert Manning papers, 1938-1993.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Manning, Robert, 1919-.  ",
+                        "id": "11437200",
+                        "version": "6383300"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11437201",
+                        "version": "6383300"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64n9vjj",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Houghton Library",
+                            "preferenceScore": "99",
+                            "id": "84972051",
+                            "version": "11443403"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Houghton Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Harvard Yard",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937835",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937836",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937837",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138-6534",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937838",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937839",
+                                    "version": "11443394"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15160",
+                                "name": "Harvard University, Houghton Library",
+                                "latitude": "42.3731728",
+                                "longitude": "-71.1159515"
+                            },
+                            "confirmed": true,
+                            "id": "84937834",
+                            "version": "11443394"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts--Cambridge",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84937840",
+                            "version": "11443394"
+                        }
+                    ],
+                    "id": "84937800",
+                    "version": "11443404"
+                },
+                "id": "6383300",
+                "version": "6383300"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Robert Manning papers, 1938-1993.",
+            "id": "13011531",
+            "version": "1891520"
+        }
+    ],
+    "id": "13011498",
+    "version": "1891521"
+}

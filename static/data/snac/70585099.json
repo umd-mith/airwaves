@@ -1,0 +1,562 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w68s8rvk",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T16:35:47",
+            "standardDateTime": "2016-08-18T16:35:47",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T16:35:47",
+            "standardDateTime": "2016-08-18T16:35:47",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/146552001",
+            "id": "70585103",
+            "version": "10318553"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/51333385",
+            "id": "70585101",
+            "version": "10318553"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/762137484",
+            "id": "70585102",
+            "version": "10318553"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "70585104",
+            "version": "10318553"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WXXI (Television station : Rochester, N.Y.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WXXI (Television station : Rochester, N.Y.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "70585106",
+                    "version": "10318553"
+                }
+            ],
+            "id": "70585105",
+            "version": "10318553",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82575641",
+                    "version": "10318553"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Rochester (N.Y.). WXXI (Television station)",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Rochester (N.Y.). WXXI (Television station)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "70585111",
+                    "version": "10318553"
+                }
+            ],
+            "id": "70585110",
+            "version": "10318553",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82575642",
+                    "version": "10318553"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "70585099",
+            "targetConstellation": "27429903",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w68s8rvk",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w63n4gw8",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Porter, John S. (John Stephen), 1932-",
+            "id": "70585119",
+            "version": "10318553"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "WXXI (Television station : Rochester, N.Y.)",
+            "uri": "https:\/\/viaf.org\/viaf\/146552001",
+            "id": "70585116",
+            "version": "10318553"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n50067866",
+            "id": "70585117",
+            "version": "10318553"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n50067866",
+            "id": "70585118",
+            "version": "10318553"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/762137484",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:762137484<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-MMX<\/recordContentSource>\n                  <\/recordInfo>\n                  <titleInfo>\n                     <title>Video organization file : WXXI (Television station : Rochester, N.Y.) : miscellaneous uncataloged material.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Museum of Modern Art (MOMA)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Video organization file : WXXI (Television station : Rochester, N.Y.) : miscellaneous uncataloged material.",
+                "extent": "1 folder.",
+                "displayEntry": "Video organization file : WXXI (Television station : Rochester, N.Y.) : miscellaneous uncataloged material.",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64k13ph",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Museum of Modern Art (MOMA)",
+                            "preferenceScore": "99",
+                            "id": "76775856",
+                            "version": "11229957"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Museum of Modern Art (MOMA)",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "The Lewis B. and Dorothy Cullman Education and Research Building",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76775860",
+                                    "version": "11229957"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "4 West 54 St.",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76775861",
+                                    "version": "11229957"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New York",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76775862",
+                                    "version": "11229957"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76775863",
+                                    "version": "11229957"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10019",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76775864",
+                                    "version": "11229957"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76775865",
+                                    "version": "11229957"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15404",
+                                "name": "Museum of Modern Art (MOMA)",
+                                "latitude": "40.7615380",
+                                "longitude": "-73.9776380"
+                            },
+                            "confirmed": true,
+                            "id": "76775859",
+                            "version": "11229957"
+                        }
+                    ],
+                    "id": "76775855",
+                    "version": "11229960"
+                },
+                "id": "8150864",
+                "version": "8150864"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Video organization file : WXXI (Television station : Rochester, N.Y.) : miscellaneous uncataloged material.",
+            "id": "70585121",
+            "version": "10318553"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/51333385",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:51333385<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Porter, John S. (John Stephen), 1932-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Rochester Area Educational Television Association.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WXXI (Television station : Rochester, N.Y.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>United States. Federal Communications Commission.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>John S. Porter papers, 1958-2000 and undated (bulk 1958-1969)<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection primarily documents Porter's career with the Rochester (NY) Area Educational Television Association, Inc. <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "John S. Porter papers, 1958-2000 and undated (bulk 1958-1969)",
+                "abstract": "Collection primarily documents Porter's career with the Rochester (NY) Area Educational Television Association, Inc. ",
+                "extent": "1.50 linear feet.",
+                "displayEntry": "Porter, John S. (John Stephen), 1932-. John S. Porter papers, 1958-2000 and undated (bulk 1958-1969)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Porter, John S. (John Stephen), 1932-",
+                        "id": "9934976",
+                        "version": "7637913"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rochester Area Educational Television Association.",
+                        "id": "9934977",
+                        "version": "7637913"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WXXI (Television station : Rochester, N.Y.)",
+                        "id": "9934978",
+                        "version": "7637913"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "United States. Federal Communications Commission.",
+                        "id": "9934979",
+                        "version": "7637913"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7637913",
+                "version": "7637913"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Porter, John S. (John Stephen), 1932-. John S. Porter papers, 1958-2000 and undated (bulk 1958-1969)",
+            "id": "70585120",
+            "version": "10318553"
+        }
+    ],
+    "id": "70585099",
+    "version": "10318554",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1958",
+            "fromDateOriginal": "active 1958",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "2000",
+            "toDateOriginal": "active 2000",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "70585100",
+            "version": "10318553"
+        }
+    ]
+}

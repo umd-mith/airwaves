@@ -1,0 +1,363 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6777jfh",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-02-25",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T13:32:28",
+            "standardDateTime": "2016-08-10T13:32:28",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T13:32:28",
+            "standardDateTime": "2016-08-10T13:32:28",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/lc\/mu003006.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">ASCAP<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/hdl.loc.gov\/loc.music\/eadmus.mu003006",
+            "id": "12347984",
+            "version": "1795592"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "ASCAP",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "ASCAP",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "12347986",
+                    "version": "1795592"
+                }
+            ],
+            "id": "12347985",
+            "version": "1795592",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"lc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77809917",
+                    "version": "1795592"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "12347983",
+            "targetConstellation": "39340121",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6777jfh",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6k937bq",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Bacon, Ernst, 1898-1990",
+            "id": "12347989",
+            "version": "1795592"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/hdl.loc.gov\/loc.music\/eadmus.mu003006",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Ernst Bacon Collection<unitdate>1907-1990<\/unitdate>\n                     <unitdate>(bulk 1930-1980)<\/unitdate>\n                  <\/unittitle>\n                  <unitid>ML31.B23<\/unitid>\n                  <origination>\n                     <persname>Bacon, Ernst, 1898-1990<\/persname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>around 6,000 items<\/extent>\n                     <extent>54 boxes<\/extent>\n                     <extent>16 linear feet<\/extent>\n                  <\/physdesc>\n                  <langmaterial>Collection material in <language>English<\/language>\n                  <\/langmaterial>\n                  <repository>\n                     <corpname>\n                        <subarea>Music Division<\/subarea> Library of Congress<\/corpname>\n                     <address>\n                        <addressline>Washington, D.C.<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <abstract>Ernst Bacon was an American composer, pianist, and conductor. The collection contains music, writings, correspondence, iconography, programs, clippings, publicity materials, and other miscellaneous items.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Ernst Bacon Collection 1907-1990 (bulk 1930-1980)",
+                "abstract": "Ernst Bacon was an American composer, pianist, and conductor. The collection contains music, writings, correspondence, iconography, programs, clippings, publicity materials, and other miscellaneous items.",
+                "extent": "around 6,000 items; 54 boxes; 16 linear feet",
+                "displayEntry": "Ernst Bacon Collection, 1907-1990, (bulk 1930-1980)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bacon, Ernst, 1898-1990",
+                        "id": "11395167",
+                        "version": "6357818"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11395168",
+                        "version": "6357818"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sp10dm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Library of Congress. Music Division",
+                            "preferenceScore": "99",
+                            "id": "84528638",
+                            "version": "11384248"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Music Division Library of Congress",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Washington, D.C.",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528660",
+                                    "version": "11384248"
+                                }
+                            ],
+                            "id": "84528659",
+                            "version": "11384248"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Library of Congress, Music Division \/ Research Series",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "101 Independence Avenue, SE",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528664",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "LM 113",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528665",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Washington",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528666",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-DC",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528667",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20540-0002",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528668",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528669",
+                                    "version": "11384248"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16793",
+                                "name": "Library of Congress, Music Division \/ Research Series",
+                                "latitude": "38.8870500",
+                                "longitude": "-77.0049860"
+                            },
+                            "confirmed": true,
+                            "id": "84528663",
+                            "version": "11384248"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States, Library of Congress, Music Division",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "101 Independence Ave., S. E.  Washington, District Of Columbia 20540-4820  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528662",
+                                    "version": "11384248"
+                                }
+                            ],
+                            "id": "84528661",
+                            "version": "11384248"
+                        }
+                    ],
+                    "id": "84528631",
+                    "version": "11392009"
+                },
+                "id": "6357818",
+                "version": "6357818"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Ernst Bacon Collection, 1907-1990, (bulk 1930-1980)",
+            "id": "12347990",
+            "version": "1795592"
+        }
+    ],
+    "id": "12347983",
+    "version": "1795593"
+}

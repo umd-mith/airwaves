@@ -1,0 +1,839 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fn60rj",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T10:31:35",
+            "standardDateTime": "2016-08-11T10:31:35",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T10:31:35",
+            "standardDateTime": "2016-08-11T10:31:35",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/754930001",
+            "id": "21105234",
+            "version": "3081104"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/taro\/utcah\/01652.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"610\">KUT (Radio station : Austin, Tex.)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.lib.utexas.edu\/taro\/utcah\/01652\/01652-P.html",
+            "id": "21105231",
+            "version": "3081104"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/775505303",
+            "id": "21105233",
+            "version": "3081104"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/taro\/utcah\/02477.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"610\">KUT (Radio station : Austin, Tex.) -- 20th century.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.lib.utexas.edu\/taro\/utcah\/02477\/02477-P.html",
+            "id": "21105232",
+            "version": "3081104"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/151372221",
+            "id": "21105235",
+            "version": "3081104"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "21105236",
+            "version": "3081104"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KUT (Radio station : Austin, Tex.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KUT (Radio station : Austin, Tex.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "21105238",
+                    "version": "3081104"
+                }
+            ],
+            "id": "21105237",
+            "version": "3081104",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"taro\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78530959",
+                    "version": "3081104"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "21105230",
+            "targetConstellation": "70053854",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fn60rj",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6d38cf0",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Baughman, Pat",
+            "id": "21105251",
+            "version": "3081104"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "21105230",
+            "targetConstellation": "40753828",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fn60rj",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w61557rh",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Baughman, Pat",
+            "id": "21105252",
+            "version": "3081104"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "21105230",
+            "targetConstellation": "18863988",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fn60rj",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67m3qdd",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Werden, Frieda",
+            "id": "21105253",
+            "version": "3081104"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "21105230",
+            "targetConstellation": "65111724",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fn60rj",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6113jjd",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Werden, Frieda",
+            "id": "21105250",
+            "version": "3081104"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "KUT (Radio station : Austin, Tex.)",
+            "uri": "https:\/\/viaf.org\/viaf\/151372221",
+            "id": "21105247",
+            "version": "3081104"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n88028199",
+            "id": "21105248",
+            "version": "3081104"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n88028199",
+            "id": "21105249",
+            "version": "3081104"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/775505303",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:775505303<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-IXA<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Baughman, Pat<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Baughman, Pat, Items, 1991-1992<\/title>\n                  <\/titleInfo>\n                  <abstract>Comprised of a circular and an audiotape, the Pat Baughman Items, 1991-1992, document Mary Baughman's tribute to her father, Pat Baughman. <\/abstract>\n                  <name>\n                     <namePart>University of Texas Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Baughman, Pat, Items, 1991-1992",
+                "abstract": "Comprised of a circular and an audiotape, the Pat Baughman Items, 1991-1992, document Mary Baughman's tribute to her father, Pat Baughman. ",
+                "extent": "2 items",
+                "displayEntry": "Baughman, Pat. Baughman, Pat, Items, 1991-1992",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Baughman, Pat",
+                        "id": "11013704",
+                        "version": "8197868"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w67j276v",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Texas Libraries",
+                            "preferenceScore": "99",
+                            "id": "76788333",
+                            "version": "11434794"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Texas Libraries, University of Texas Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "University of Texas Libraries",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788338",
+                                    "version": "11234505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "P. O. Box P",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788339",
+                                    "version": "11234505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Austin",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788340",
+                                    "version": "11234505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-TX",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788341",
+                                    "version": "11234505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "78713-8916",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788342",
+                                    "version": "11234505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788343",
+                                    "version": "11234505"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16519",
+                                "name": "University of Texas Libraries, University of Texas Libraries",
+                                "latitude": "30.2827816",
+                                "longitude": "-97.7381744"
+                            },
+                            "confirmed": true,
+                            "id": "76788337",
+                            "version": "11234505"
+                        }
+                    ],
+                    "id": "76788332",
+                    "version": "11434903"
+                },
+                "id": "8197868",
+                "version": "8197868"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Baughman, Pat. Baughman, Pat, Items, 1991-1992",
+            "id": "21105256",
+            "version": "3081104"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.lib.utexas.edu\/taro\/utcah\/02477\/02477-P.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <origination>\n                     <persname>Baughman, Pat<\/persname>\n                  <\/origination>\n                  <unittitle>Baughman, Pat, Items<\/unittitle>\n                  <unitdate>1991-1992<\/unitdate>\n                  <langmaterial>Materials are written in <language>English<\/language>.<\/langmaterial>\n                  <unitid>92-032<\/unitid>\n                  <physdesc>2 items<\/physdesc>\n                  <repository>\n                     <extref>\n                        <corpname>\n                           <subarea>Dolph Briscoe Center for American History, <\/subarea>The\n\t\t\t\t\t\tUniversity of Texas at Austin<\/corpname>\n                     <\/extref>\n                  <\/repository>\n                  <abstract>Comprised of a circular and an audiotape, the Pat Baughman Items, 1991-1992, document Mary Baughman\u2019s tribute to her father, Pat Baughman.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Baughman, Pat, Items 1991-1992",
+                "abstract": "Comprised of a circular and an audiotape, the Pat Baughman Items, 1991-1992, document Mary Baughman\u2019s tribute to her father, Pat Baughman.",
+                "displayEntry": "Baughman, Pat, Items 92-032., 1991-1992",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Baughman, Pat",
+                        "id": "11271206",
+                        "version": "6644514"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11271207",
+                        "version": "6644514"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f58d5t",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Dolph Briscoe Center for American History",
+                            "preferenceScore": "99",
+                            "id": "84872258",
+                            "version": "11434801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "role": {
+                                "id": "400625",
+                                "term": "Work",
+                                "type": "place_role"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "78712",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84872277",
+                                    "version": "11434801"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "634",
+                                "uri": "http:\/\/www.geonames.org\/4671654",
+                                "name": "Austin",
+                                "latitude": "30.2671500",
+                                "longitude": "-97.7430600",
+                                "administrationCode": "TX",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "84872276",
+                            "version": "11434801"
+                        }
+                    ],
+                    "id": "84872256",
+                    "version": "11434848"
+                },
+                "id": "6644514",
+                "version": "6644514"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Baughman, Pat, Items 92-032., 1991-1992",
+            "id": "21105255",
+            "version": "3081104"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/754930001",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:754930001<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-IXA<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Werden, Frieda<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Werden, Frieda, Papers, 1968-1985<\/title>\n                  <\/titleInfo>\n                  <abstract>The Frieda Werden Papers, 1968-1985, include correspondence, literary productions, research notes, and articles published by Werden throughout her career. <\/abstract>\n                  <name>\n                     <namePart>University of Texas Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Werden, Frieda, Papers, 1968-1985",
+                "abstract": "The Frieda Werden Papers, 1968-1985, include correspondence, literary productions, research notes, and articles published by Werden throughout her career. ",
+                "extent": "ca. 27 ft.",
+                "displayEntry": "Werden, Frieda. Werden, Frieda, Papers, 1968-1985",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Werden, Frieda",
+                        "id": "10908264",
+                        "version": "8135438"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w67j276v",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Texas Libraries",
+                            "preferenceScore": "99",
+                            "id": "76788333",
+                            "version": "11434794"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Texas Libraries, University of Texas Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "University of Texas Libraries",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788338",
+                                    "version": "11234505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "P. O. Box P",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788339",
+                                    "version": "11234505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Austin",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788340",
+                                    "version": "11234505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-TX",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788341",
+                                    "version": "11234505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "78713-8916",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788342",
+                                    "version": "11234505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788343",
+                                    "version": "11234505"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16519",
+                                "name": "University of Texas Libraries, University of Texas Libraries",
+                                "latitude": "30.2827816",
+                                "longitude": "-97.7381744"
+                            },
+                            "confirmed": true,
+                            "id": "76788337",
+                            "version": "11234505"
+                        }
+                    ],
+                    "id": "76788332",
+                    "version": "11434903"
+                },
+                "id": "8135438",
+                "version": "8135438"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Werden, Frieda. Werden, Frieda, Papers, 1968-1985",
+            "id": "21105257",
+            "version": "3081104"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.lib.utexas.edu\/taro\/utcah\/01652\/01652-P.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <origination>\n                     <persname>Werden, Frieda<\/persname>\n                  <\/origination>\n                  <unittitle>Werden, Frieda, Papers<\/unittitle>\n                  <unitdate>1968-1985<\/unitdate>\n                  <langmaterial>Materials are written in <language>English.<\/language>\n                  <\/langmaterial>\n                  <unitid>81-113, 83-49, 83-272, 84-27, 85-293, 86-182, 86-269,\n\t\t\t\t88-7, 88-193, 88-353, 89-66, 91-110-1, 91-154, 91-188, 91-331, 96-110-2, 96-337,\n\t\t\t\t97-004, 97-076<\/unitid>\n                  <physdesc>ca. 27 ft.<\/physdesc>\n                  <repository>\n                     <extref>\n                        <corpname>\n                           <subarea> Dolph Briscoe Center for American History, <\/subarea>The\n\t\t\t\t\t\tUniversity of Texas at Austin<\/corpname>\n                     <\/extref>\n                  <\/repository>\n                  <abstract>The Frieda Werden Papers, 1968-1985,\n\t\t\t\tinclude correspondence, literary productions, research notes, and articles published by\n\t\t\t\tWerden throughout her career.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Werden, Frieda, Papers 1968-1985",
+                "abstract": "The Frieda Werden Papers, 1968-1985,include correspondence, literary productions, research notes, and articles published byWerden throughout her career.",
+                "displayEntry": "Werden, Frieda, Papers 81-113, 83-49, 83-272, 84-27, 85-293, 86-182, 86-269, 88-7, 88-193, 88-353, 89-66, 91-110-1, 91-154, 91-188, 91-331, 96-110-2, 96-337, 97-004, 97-076., 1968-1985",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Werden, Frieda",
+                        "id": "11269705",
+                        "version": "6643699"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11269706",
+                        "version": "6643699"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f58d5t",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Dolph Briscoe Center for American History",
+                            "preferenceScore": "99",
+                            "id": "84872258",
+                            "version": "11434801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "role": {
+                                "id": "400625",
+                                "term": "Work",
+                                "type": "place_role"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "78712",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84872277",
+                                    "version": "11434801"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "634",
+                                "uri": "http:\/\/www.geonames.org\/4671654",
+                                "name": "Austin",
+                                "latitude": "30.2671500",
+                                "longitude": "-97.7430600",
+                                "administrationCode": "TX",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "84872276",
+                            "version": "11434801"
+                        }
+                    ],
+                    "id": "84872256",
+                    "version": "11434848"
+                },
+                "id": "6643699",
+                "version": "6643699"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Werden, Frieda, Papers 81-113, 83-49, 83-272, 84-27, 85-293, 86-182, 86-269, 88-7, 88-193, 88-353, 89-66, 91-110-1, 91-154, 91-188, 91-331, 96-110-2, 96-337, 97-004, 97-076., 1968-1985",
+            "id": "21105254",
+            "version": "3081104"
+        }
+    ],
+    "id": "21105230",
+    "version": "3081105"
+}

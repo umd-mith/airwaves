@@ -1,0 +1,862 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w67d6pvw",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T05:32:34",
+            "standardDateTime": "2016-08-16T05:32:34",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T05:32:34",
+            "standardDateTime": "2016-08-16T05:32:34",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/420463340",
+            "id": "56526436",
+            "version": "8268620"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/420487195",
+            "id": "56526435",
+            "version": "8268620"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/sdsu\/spcoll\/h_keen.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"600\" source=\"lcnaf\">Keen, Harold, 1912-1981<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt0s2029k3",
+            "id": "56526437",
+            "version": "8268620"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/243798953",
+            "id": "56526434",
+            "version": "8268620"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Keen, Harold, 1912-1981",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Keen, Harold, 1912-1981",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "56526439",
+                    "version": "8268620"
+                }
+            ],
+            "id": "56526438",
+            "version": "8268620",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81429069",
+                    "version": "8268620"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "56526432",
+                "version": "8268620"
+            },
+            "text": "<biogHist>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">\n               <span localType=\"http:\/\/socialarchive.iath.virginia.edu\/control\/term#ead\/head\">Biographical Note<\/span>\n            <\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Born in the Bronx and educated at UCLA, Keen arrived in San Diego in 1936 as a reporter for The San Diego Sun. He later became a reporter for The San Diego Union, a contributing editor of San Diego Magazine, and the editorial director for KFMB-TV. Keen received numerous prestigious awards for his investigative reporting and was referred to by his colleagues as \"The Dean of San Diego Journalists.\"<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the guide to the Harold Keen Papers, 1936-1981, (Special Collections &amp; University Archives: Finding Aid Database)<\/citation>\n         <\/biogHist>",
+            "id": "56526431",
+            "version": "8268620"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "56526430",
+            "targetConstellation": "28752751",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w67d6pvw",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w38phz",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Marcuse, Herbert, 1898-1979,",
+            "id": "56526450",
+            "version": "8268620"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "56526430",
+            "targetConstellation": "64700566",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w67d6pvw",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6n62fs7",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Stull, John, 1920-",
+            "id": "56526451",
+            "version": "8268620"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/420487195",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:420487195<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-CUS<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Marcuse, Herbert, 1898-1979,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Keen, Harold, 1912-1981.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>KFMB (Television Station : San Diego, Calif.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Interview with Dr. Herbert Marcuse, February 25, 1969 \/ [interviewed by] Harold Keen. 1969 Feb. 25.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>University of California, San Diego<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Interview with Dr. Herbert Marcuse, February 25, 1969 \/ [interviewed by] Harold Keen. 1969 Feb. 25.",
+                "extent": "16 leaves ; 28 cm.",
+                "displayEntry": "Marcuse, Herbert, 1898-1979,. Interview with Dr. Herbert Marcuse, February 25, 1969 \/ [interviewed by] Harold Keen.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Marcuse, Herbert, 1898-1979,",
+                        "id": "9649816",
+                        "version": "7443302"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Keen, Harold, 1912-1981.",
+                        "id": "9649817",
+                        "version": "7443302"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KFMB (Television Station : San Diego, Calif.)",
+                        "id": "9649818",
+                        "version": "7443302"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6g55czw",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of California, San Diego, UC San Diego Library; UCSD Library",
+                            "preferenceScore": "99",
+                            "id": "76785967",
+                            "version": "11233693"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of California, San Diego, UC San Diego Library; UCSD Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "9500 Gilman Drive, Dept. 0175G",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785972",
+                                    "version": "11233693"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "La Jolla",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785973",
+                                    "version": "11233693"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785974",
+                                    "version": "11233693"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "92093-0175",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785975",
+                                    "version": "11233693"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785976",
+                                    "version": "11233693"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16743",
+                                "name": "University of California, San Diego, UC San Diego Library; UCSD Library",
+                                "latitude": "32.8811000",
+                                "longitude": "-117.2370000"
+                            },
+                            "confirmed": true,
+                            "id": "76785971",
+                            "version": "11233693"
+                        }
+                    ],
+                    "id": "76785966",
+                    "version": "11233696"
+                },
+                "id": "7443302",
+                "version": "7443302"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Marcuse, Herbert, 1898-1979,. Interview with Dr. Herbert Marcuse, February 25, 1969 \/ [interviewed by] Harold Keen.",
+            "id": "56526453",
+            "version": "8268620"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/243798953",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:243798953<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-CDS<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Keen, Harold, 1912-1981<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Harold Keen papers, 1936-1981.<\/title>\n                  <\/titleInfo>\n                  <abstract>The collection includes documentation on local arts and artists, city planning, commerce and manufacturing, crime and criminals, education - higher, entertainment, government and politics - City of San Diego, government and politics- State of California, journalist and journalism, law and legal profession, newspapers, police, radio and television, tourism, and transportation. <\/abstract>\n                  <name>\n                     <namePart>San Diego State University Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Harold Keen papers, 1936-1981.",
+                "abstract": "The collection includes documentation on local arts and artists, city planning, commerce and manufacturing, crime and criminals, education - higher, entertainment, government and politics - City of San Diego, government and politics- State of California, journalist and journalism, law and legal profession, newspapers, police, radio and television, tourism, and transportation. ",
+                "extent": "10.42 linear feet  (10 boxes)",
+                "displayEntry": "Harold Keen papers, 1936-1981.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Keen, Harold, 1912-1981",
+                        "id": "9087060",
+                        "version": "7129913"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6330jgp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "San Diego State University Library, SDSU Library and Information Access",
+                            "preferenceScore": "99",
+                            "id": "76781471",
+                            "version": "11232033"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "San Diego State University Library, SDSU Library and Information Access",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "5500 Campanile Drive",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76781475",
+                                    "version": "11232033"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "San Diego",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76781476",
+                                    "version": "11232033"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76781477",
+                                    "version": "11232033"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "92182-8050",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76781478",
+                                    "version": "11232033"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76781479",
+                                    "version": "11232033"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16635",
+                                "name": "San Diego State University Library, SDSU Library and Information Access",
+                                "latitude": "32.7722626",
+                                "longitude": "-117.0719070"
+                            },
+                            "confirmed": true,
+                            "id": "76781474",
+                            "version": "11232033"
+                        }
+                    ],
+                    "id": "76781470",
+                    "version": "11232036"
+                },
+                "id": "7129913",
+                "version": "7129913"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Harold Keen papers, 1936-1981.",
+            "id": "56526452",
+            "version": "8268620"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt0s2029k3",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Special Collections &amp; University Archives: Finding Aid Database<\/corpname>\n                     <address>\n                        <addressline>5500 Campanile Dr. MC 8050<\/addressline>\n                        <addressline>San Diego, CA, 92182-8050<\/addressline>\n                        <addressline>URL: http:\/\/hobbit.sdsu.edu\/archon<\/addressline>\n                        <addressline>Email: scref@rohan.sdsu.edu<\/addressline>\n                        <addressline>Phone: 619-594-6791<\/addressline>\n                        <addressline>Fax: 619-594-0466<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <origination>\n                     <persname>Keen, Harold, 1912-1981<\/persname>\n                  <\/origination>\n                  <unittitle>Harold Keen Papers<\/unittitle>\n                  <unitdate>1936-1981<\/unitdate>\n                  <physdesc>\n                     <extent>10.42<\/extent>\n                  <\/physdesc>\n                  <abstract>The collection includes documentation on local arts and artists, city planning, commerce and manufacturing, crime and criminals, education - higher, entertainment, government and politics - City of San Diego, government and politics- State of California, journalist and journalism, law and legal profession, newspapers, police, radio and television, tourism, and transportation.<\/abstract>\n                  <unitid>MS-0014<\/unitid>\n                  <langmaterial>\n\t  The papers are in:\n<language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Harold Keen Papers 1936-1981",
+                "abstract": "The collection includes documentation on local arts and artists, city planning, commerce and manufacturing, crime and criminals, education - higher, entertainment, government and politics - City of San Diego, government and politics- State of California, journalist and journalism, law and legal profession, newspapers, police, radio and television, tourism, and transportation.",
+                "extent": "10.42",
+                "displayEntry": "Harold Keen Papers, 1936-1981",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Keen, Harold, 1912-1981",
+                        "id": "11280225",
+                        "version": "6650871"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11280226",
+                        "version": "6650871"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6ds3j98",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Special Collections & University Archives: Finding Aid Database",
+                            "preferenceScore": "99",
+                            "id": "76796362",
+                            "version": "11240205"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Special Collections & University Archives: Finding Aid Database",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "5500 Campanile Dr. MC 8050 San Diego, CA, 92182-8050 URL: http:\/\/hobbit.sdsu.edu\/archon Email: scref@rohan.sdsu.edu Phone: 619-594-6791 Fax: 619-594-0466",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76796365",
+                                    "version": "11240205"
+                                }
+                            ],
+                            "id": "76796364",
+                            "version": "11240205"
+                        }
+                    ],
+                    "id": "76796361",
+                    "version": "11240208"
+                },
+                "id": "6650871",
+                "version": "6650871"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Harold Keen Papers, 1936-1981",
+            "id": "56526455",
+            "version": "8268620"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/420463340",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:420463340<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-CUS<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Stull, John, 1920-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Foster, Harry, American legionnaire,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Keen, Harold, 1912-1981.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>KFMB (Television Station: San Dieog, Calif.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>An interview with Mr. John Stull (Assemblyman, 80th District) and Mr. Harry Foster (representing the American Legion) \/ [interviewed by] Harold Keen. 1969 Feb 22.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>University of California, San Diego<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "An interview with Mr. John Stull (Assemblyman, 80th District) and Mr. Harry Foster (representing the American Legion) \/ [interviewed by] Harold Keen. 1969 Feb 22.",
+                "extent": "18 leaves ; 28 cm.",
+                "displayEntry": "Stull, John, 1920-. An interview with Mr. John Stull (Assemblyman, 80th District) and Mr. Harry Foster (representing the American Legion) \/ [interviewed by] Harold Keen.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Stull, John, 1920-",
+                        "id": "9649857",
+                        "version": "7443286"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Foster, Harry, American legionnaire,",
+                        "id": "9649858",
+                        "version": "7443286"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Keen, Harold, 1912-1981.",
+                        "id": "9649859",
+                        "version": "7443286"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KFMB (Television Station: San Dieog, Calif.)",
+                        "id": "9649860",
+                        "version": "7443286"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6g55czw",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of California, San Diego, UC San Diego Library; UCSD Library",
+                            "preferenceScore": "99",
+                            "id": "76785967",
+                            "version": "11233693"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of California, San Diego, UC San Diego Library; UCSD Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "9500 Gilman Drive, Dept. 0175G",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785972",
+                                    "version": "11233693"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "La Jolla",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785973",
+                                    "version": "11233693"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785974",
+                                    "version": "11233693"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "92093-0175",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785975",
+                                    "version": "11233693"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785976",
+                                    "version": "11233693"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16743",
+                                "name": "University of California, San Diego, UC San Diego Library; UCSD Library",
+                                "latitude": "32.8811000",
+                                "longitude": "-117.2370000"
+                            },
+                            "confirmed": true,
+                            "id": "76785971",
+                            "version": "11233693"
+                        }
+                    ],
+                    "id": "76785966",
+                    "version": "11233696"
+                },
+                "id": "7443286",
+                "version": "7443286"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Stull, John, 1920-. An interview with Mr. John Stull (Assemblyman, 80th District) and Mr. Harry Foster (representing the American Legion) \/ [interviewed by] Harold Keen.",
+            "id": "56526454",
+            "version": "8268620"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "San Diego (Calif.)",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "geoplace": {
+                "id": "11595",
+                "uri": "http:\/\/www.geonames.org\/5391811",
+                "name": "San Diego",
+                "latitude": "32.7153300",
+                "longitude": "-117.1572600",
+                "administrationCode": "CA",
+                "countryCode": "US"
+            },
+            "score": "1",
+            "id": "56526446",
+            "version": "8268620",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "San Diego (Calif.)",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "56526447",
+                    "version": "8268620"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "204394",
+                "term": "Journalists--California--San Diego",
+                "type": "subject"
+            },
+            "id": "56526449",
+            "version": "8268620"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "353753",
+                "term": "Television producers and directors--California--San Diego--Biography--Sources",
+                "type": "subject"
+            },
+            "id": "56526448",
+            "version": "8268620"
+        }
+    ],
+    "id": "56526430",
+    "version": "8268621",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1912",
+            "fromDateOriginal": "1912",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "toDate": "1981",
+            "toDateOriginal": "1981",
+            "toType": {
+                "id": "690",
+                "term": "Death",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Death",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "56526433",
+            "version": "8268620"
+        }
+    ]
+}

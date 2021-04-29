@@ -1,0 +1,335 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hf3kkr",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T14:16:07",
+            "standardDateTime": "2016-08-16T14:16:07",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T14:16:07",
+            "standardDateTime": "2016-08-16T14:16:07",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/173692814",
+            "id": "58748377",
+            "version": "8589659"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WLBL (Radio station : Stevens Point, Wis.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WLBL (Radio station : Stevens Point, Wis.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "58748379",
+                    "version": "8589659"
+                }
+            ],
+            "id": "58748378",
+            "version": "8589659",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81606920",
+                    "version": "8589659"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "58748375",
+            "targetConstellation": "50563159",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hf3kkr",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6qj91cm",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Doudna, Edgar George, 1877-1948.",
+            "id": "58748386",
+            "version": "8589659"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/173692814",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:173692814<\/recordOrigin>\n                     <recordContentSource>ISIL:WHi<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WLBL (Radio station : Stevens Point, Wis.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Recordings [sound recording], ca. 1940.<\/title>\n                  <\/titleInfo>\n                  <abstract>Transcriptions of a series of programs on early Wisconsin history based on writings by Edgar G. Doudna, broadcast by WLBL, an educational radio station on the campus of Stevens Point State Teachers College. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Recordings [sound recording], ca. 1940.",
+                "abstract": "Transcriptions of a series of programs on early Wisconsin history based on writings by Edgar G. Doudna, broadcast by WLBL, an educational radio station on the campus of Stevens Point State Teachers College. ",
+                "extent": "8 disc recordings.",
+                "displayEntry": "WLBL (Radio station : Stevens Point, Wis.). Recordings [sound recording], ca. 1940.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WLBL (Radio station : Stevens Point, Wis.)",
+                        "id": "8787934",
+                        "version": "6923146"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fv98qm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "preferenceScore": "99",
+                            "id": "76791151",
+                            "version": "11235489"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "816 State St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791156",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Madison",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791157",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WI",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791158",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "53706",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791159",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791160",
+                                    "version": "11235489"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16409",
+                                "name": "Wisconsin Historical Society, Newspaper Project",
+                                "latitude": "43.0750000",
+                                "longitude": "-89.3992000"
+                            },
+                            "confirmed": true,
+                            "id": "76791155",
+                            "version": "11235489"
+                        }
+                    ],
+                    "id": "76791150",
+                    "version": "11235492"
+                },
+                "id": "6923146",
+                "version": "6923146"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "WLBL (Radio station : Stevens Point, Wis.). Recordings [sound recording], ca. 1940.",
+            "id": "58748387",
+            "version": "8589659"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Wisconsin",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "58748382",
+            "version": "8589659",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Wisconsin",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "58748383",
+                    "version": "8589659"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302079",
+                "term": "Radio in education",
+                "type": "subject"
+            },
+            "id": "58748385",
+            "version": "8589659"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302344",
+                "term": "Radio programs",
+                "type": "subject"
+            },
+            "id": "58748384",
+            "version": "8589659"
+        }
+    ],
+    "id": "58748375",
+    "version": "8589660",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDateOriginal": "active approximately 1940",
+            "id": "58748376",
+            "version": "8589659"
+        }
+    ]
+}

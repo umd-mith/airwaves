@@ -1,0 +1,249 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b40wv8",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-15",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T01:14:37",
+            "standardDateTime": "2016-08-18T01:14:37",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T01:14:37",
+            "standardDateTime": "2016-08-18T01:14:37",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nwda\/washington_state_university_libraries_manuscripts_archives_and_special_collections\/NTE2cg216.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"110\" role=\"creator\" rules=\"aacr2\" source=\"lcnaf\">KWSC Radio<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv54037",
+            "id": "67125020",
+            "version": "9810926"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KWSC Radio",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KWSC Radio",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "67125022",
+                    "version": "9810926"
+                }
+            ],
+            "id": "67125021",
+            "version": "9810926",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nwda\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82290763",
+                    "version": "9810926"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "67125019",
+            "targetConstellation": "58420378",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b40wv8",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cp9jzq",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Avery, Mary",
+            "id": "67125026",
+            "version": "9810926"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv54037",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Washington State University Libraries<subarea> Manuscripts, Archives, and Special Collections<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline>Pullman, WA 99164-5610 USA<\/addressline>\n                        <addressline>(509) 335-6691<\/addressline>\n                        <addressline>http:\/\/www.wsulibs.wsu.edu\/masc\/<\/addressline>\n                        <addressline>mascref@wsu.edu<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid>Cage\n\t\t  216<\/unitid>\n                  <origination>\n                     <persname>Avery, Mary<\/persname>\n                     <corpname>KWSC Radio<\/corpname>\n                  <\/origination>\n                  <unittitle>Mary Avery Washington\n\t\t  Archives KWSC Radio Scripts,<\/unittitle>\n                  <unitdate>1960-1965<\/unitdate>\n                  <physdesc>\n                     <extent>2 containers.<\/extent>\n                     <extent>1 linear feet of shelf space.<\/extent>\n                     <extent>325 items.<\/extent>\n                  <\/physdesc>\n                  <abstract>Radio scripts of a program on Northwest\n\t\t  history based on primary source materials, mostly manuscripts in the Washington\n\t\t  State University Library.<\/abstract>\n                  <langmaterial>Collection materials are in\n\t\t  <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Mary Avery Washington  Archives KWSC Radio Scripts, 1960-1965",
+                "abstract": "Radio scripts of a program on Northwest  history based on primary source materials, mostly manuscripts in the Washington  State University Library.",
+                "extent": "2 containers.; 1 linear feet of shelf space.; 325 items.",
+                "displayEntry": "Mary Avery Washington Archives KWSC Radio Scripts, 1960-1965",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Avery, Mary",
+                        "id": "11422372",
+                        "version": "6373797"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11422373",
+                        "version": "6373797"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sk28fq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Washington State University Libraries: Manuscripts, Archives, and Special Collections",
+                            "preferenceScore": "99",
+                            "id": "76798320",
+                            "version": "11242113"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Washington State University Libraries: Manuscripts, Archives, and Special Collections",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Holland and Terrell Libraries Pullman, WA 99164-5610 USA (509) 335-6691 http:\/\/www.wsulibs.wsu.edu\/masc\/ mascref@wsu.edu",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76798323",
+                                    "version": "11242113"
+                                }
+                            ],
+                            "id": "76798322",
+                            "version": "11242113"
+                        }
+                    ],
+                    "id": "76798319",
+                    "version": "11242116"
+                },
+                "id": "6373797",
+                "version": "6373797"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Mary Avery Washington Archives KWSC Radio Scripts, 1960-1965",
+            "id": "67125027",
+            "version": "9810926"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302386",
+                "term": "Radio programs--Northwest, Pacific--History--Sources",
+                "type": "subject"
+            },
+            "id": "67125025",
+            "version": "9810926"
+        }
+    ],
+    "id": "67125019",
+    "version": "9810927"
+}

@@ -1,0 +1,434 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fs30zg",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-16",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T02:22:29",
+            "standardDateTime": "2016-08-15T02:22:29",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T02:22:29",
+            "standardDateTime": "2016-08-15T02:22:29",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/aao\/uoa_university_of_az\/UAMS421.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Eureka Brass Band<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.azarchivesonline.org\/xtf\/view?docId=ead\/uoa\/UAMS421.xml",
+            "id": "49385942",
+            "version": "7217696"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/137331878",
+            "id": "49385943",
+            "version": "7217696"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "49385944",
+            "version": "7217696"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Eureka Brass Band",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Eureka Brass Band",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "49385946",
+                    "version": "7217696"
+                }
+            ],
+            "id": "49385945",
+            "version": "7217696",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"aao\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80837332",
+                    "version": "7217696"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "49385941",
+            "targetConstellation": "47185312",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fs30zg",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zh22mb",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "American Museum of Vaudeville",
+            "id": "49385958",
+            "version": "7217696"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "49385941",
+            "targetConstellation": "13433504",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fs30zg",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w68j1m30",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Cullen, Frank, 1936-",
+            "id": "49385956",
+            "version": "7217696"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "49385941",
+            "targetConstellation": "60247447",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fs30zg",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w61q11np",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "McNeilly, Donald, 1945-",
+            "id": "49385957",
+            "version": "7217696"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Eureka Brass Band",
+            "uri": "https:\/\/viaf.org\/viaf\/137331878",
+            "id": "49385953",
+            "version": "7217696"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no98-010481",
+            "id": "49385954",
+            "version": "7217696"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no98010481",
+            "id": "49385955",
+            "version": "7217696"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.azarchivesonline.org\/xtf\/view?docId=ead\/uoa\/UAMS421.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle> American Vaudeville Museum collection \n\t\t<unitdate>1845-2007<\/unitdate>\n                     <unitdate>(bulk\n\t\t  1910-1940)<\/unitdate>\n                  <\/unittitle>\n                  <unitid>MS 421<\/unitid>\n                  <origination>\n                     <persname>Cullen, Frank, 1936-?<\/persname>, \n\t\t<persname>McNeilly, Donald, 1945-<\/persname>, \n\t\t<corpname>American Museum of Vaudeville<\/corpname>\n                  <\/origination>\n                  <abstract>This collection consists of materials\n\t\tdocumenting vaudeville and other entertainment in the United States,\n\t\tparticularly in the 1910s through 1940s. Primary materials such as photographs,\n\t\tscrapbooks and handwritten stage scripts document the careers of particular\n\t\tperformers. There are substantial numbers of sheet music and theatre programs,\n\t\tand a large LP collection. The collection focuses on vaudeville but encompasses\n\t\tother forms and eras of American entertainment as well. <\/abstract>\n                  <physdesc>\n                     <extent>66.8\n\t\tlinear feet<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>University of Arizona Libraries, Special Collections<\/corpname>\n                     <address>\n                        <addressline>University of Arizona<\/addressline>\n                        <addressline>PO Box 210055<\/addressline>\n                        <addressline>Tucson, AZ 85721-0055<\/addressline>\n                        <addressline>Phone: 520-621-6423<\/addressline>\n                        <addressline>Fax: 520-621-9733<\/addressline>\n                        <addressline>URL: http:\/\/speccoll.library.arizona.edu\/<\/addressline>\n                     <\/address>\n                  <\/repository>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "American Vaudeville Museum collection 1845-2007 (bulk  1910-1940)",
+                "abstract": "This collection consists of materialsdocumenting vaudeville and other entertainment in the United States,particularly in the 1910s through 1940s. Primary materials such as photographs,scrapbooks and handwritten stage scripts document the careers of particularperformers. There are substantial numbers of sheet music and theatre programs,and a large LP collection. The collection focuses on vaudeville but encompassesother forms and eras of American entertainment as well.",
+                "extent": "66.8linear feet",
+                "displayEntry": "American Vaudeville Museum collection, 1845-2007, (bulk 1910-1940)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cullen, Frank, 1936-?",
+                        "id": "11259218",
+                        "version": "6634053"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "McNeilly, Donald, 1945-",
+                        "id": "11259219",
+                        "version": "6634053"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6jj49dx",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Arizona Libraries, Library Special Collections",
+                            "preferenceScore": "99",
+                            "id": "84195661",
+                            "version": "11323110"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Arizona Libraries, Special Collections",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "University of Arizona PO Box 210055 Tucson, AZ 85721-0055 Phone: 520-621-6423 Fax: 520-621-9733 URL:http:\/\/www.library.arizona.edu\/speccoll\/",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84195684",
+                                    "version": "11323110"
+                                }
+                            ],
+                            "id": "84195683",
+                            "version": "11323110"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "University of Arizona Libraries, Library Special Collections",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "University of Arizona PO Box 210055 Tucson, AZ 85721-0055 Phone: 520-621-6423 Fax: 520-621-9733 URL:http:\/\/speccoll.library.arizona.edu\/",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84195680",
+                                    "version": "11323110"
+                                }
+                            ],
+                            "id": "84195679",
+                            "version": "11323110"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Mexican-American Border Region",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84195687",
+                            "version": "11323110"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Arizona",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84195685",
+                            "version": "11323110"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Sonora (Mexico : State)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84195689",
+                            "version": "11323110"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "University of Arizona Libraries, Special Collection",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "University of Arizona PO Box 210055 Tucson, AZ 85721-0055 Phone: 520-621-6423 Fax: 520-621-9733 URL: http:\/\/speccoll.library.arizona.edu\/",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84195682",
+                                    "version": "11323110"
+                                }
+                            ],
+                            "id": "84195681",
+                            "version": "11323110"
+                        }
+                    ],
+                    "id": "84195656",
+                    "version": "11323112"
+                },
+                "id": "6634053",
+                "version": "6634053"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "American Vaudeville Museum collection, 1845-2007, (bulk 1910-1940)",
+            "id": "49385959",
+            "version": "7217696"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "8188",
+                "term": "Americans",
+                "type": "nationality"
+            },
+            "id": "49385950",
+            "version": "7217696"
+        }
+    ],
+    "id": "49385941",
+    "version": "7217697"
+}

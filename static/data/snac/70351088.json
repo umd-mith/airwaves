@@ -1,0 +1,509 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61p391b",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-20",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T15:32:16",
+            "standardDateTime": "2016-08-18T15:32:16",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T15:32:16",
+            "standardDateTime": "2016-08-18T15:32:16",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/184905199",
+            "id": "70351092",
+            "version": "10283327"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WGST (Radio station : Atlanta, Ga.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WGST (Radio station : Atlanta, Ga.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "70351094",
+                    "version": "10283327"
+                }
+            ],
+            "id": "70351093",
+            "version": "10283327",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82555529",
+                    "version": "10283327"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "70351090",
+                "version": "10283327"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">In 1922 the Atlanta Constitution founded a radio station in response to its rival newspaper's station, WSB, which was owned by the Atlanta Journal. Clark Howell, newspaper editor and owner of the Constitution, offered the station to Georgia Tech in 1923 as a gift, which President Marion L. Brittain accepted on behalf of the state. At first the station operated under the call letters WBBF. The station's license was allowed to expire in 1924, but in the following year, a new license was granted with the call letters WGST, standing for the Georgia School of Technology. Following a lawsuit, the Board of Regents of the University System of Georgia took over operations from 1946 to 1973, when the station was bought by the Meredith Corporation.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of WGST Radio records, 1928-1976. (Georgia Institute of Technology). WorldCat record id: 184905199<\/citation>\n         <\/biogHist>",
+            "id": "70351089",
+            "version": "10283327"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "70351088",
+            "targetConstellation": "4216541",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61p391b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6k11393",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "American Broadcasting Company.",
+            "id": "70351102",
+            "version": "10283327"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "70351088",
+            "targetConstellation": "67237370",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61p391b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bp1kc5",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Barnes, Ewell.",
+            "id": "70351103",
+            "version": "10283327"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "70351088",
+            "targetConstellation": "41099294",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61p391b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w609024j",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Columbia Broadcasting System, inc.",
+            "id": "70351104",
+            "version": "10283327"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "70351088",
+            "targetConstellation": "71348818",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61p391b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6546c11",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Georgia Institute of Technology",
+            "id": "70351105",
+            "version": "10283327"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "70351088",
+            "targetConstellation": "44415829",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61p391b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w69g9w69",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Georgia School of Technology",
+            "id": "70351106",
+            "version": "10283327"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "70351088",
+            "targetConstellation": "28702466",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61p391b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wd5gz8",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Pettit, Joseph M.",
+            "id": "70351107",
+            "version": "10283327"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/184905199",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:184905199<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-GAT<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WGST (Radio station : Atlanta, Ga.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>WGST Radio records, 1928-1976.<\/title>\n                  <\/titleInfo>\n                  <abstract>The WGST records document the history of the station, from its founding to its eventual sale, spanning a total of 52 years. Administrative files in Series 1 document the daily operations, lawsuits, and sale of the radio station. The studio logs of Series 2 provide detailed lists of the station's programming, advertising, and public service announcements for the period from 1940 to 1970. <\/abstract>\n                  <name>\n                     <namePart>Georgia Institute of Technology<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "WGST Radio records, 1928-1976.",
+                "abstract": "The WGST records document the history of the station, from its founding to its eventual sale, spanning a total of 52 years. Administrative files in Series 1 document the daily operations, lawsuits, and sale of the radio station. The studio logs of Series 2 provide detailed lists of the station's programming, advertising, and public service announcements for the period from 1940 to 1970. ",
+                "extent": "70.8 linear feet (223 archival boxes)",
+                "displayEntry": "WGST (Radio station : Atlanta, Ga.). WGST Radio records, 1928-1976.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WGST (Radio station : Atlanta, Ga.)",
+                        "id": "8830856",
+                        "version": "6948720"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6mb0z3s",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Georgia Institute of Technology, Georgia Tech",
+                            "preferenceScore": "99",
+                            "id": "76768341",
+                            "version": "11227125"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Georgia Institute of Technology, Georgia Tech",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768346",
+                                    "version": "11227125"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Clough Commons, 266 4th St. NW",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768347",
+                                    "version": "11227125"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Atlanta",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768348",
+                                    "version": "11227125"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-GA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768349",
+                                    "version": "11227125"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "30332-0900",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768350",
+                                    "version": "11227125"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768351",
+                                    "version": "11227125"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16959",
+                                "name": "Georgia Institute of Technology, Georgia Tech",
+                                "latitude": "33.7756844",
+                                "longitude": "-84.3990021"
+                            },
+                            "confirmed": true,
+                            "id": "76768345",
+                            "version": "11227125"
+                        }
+                    ],
+                    "id": "76768340",
+                    "version": "11227128"
+                },
+                "id": "6948720",
+                "version": "6948720"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "WGST (Radio station : Atlanta, Ga.). WGST Radio records, 1928-1976.",
+            "id": "70351108",
+            "version": "10283327"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Georgia--Atlanta",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "70351097",
+            "version": "10283327",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Georgia--Atlanta",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "70351098",
+                    "version": "10283327"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302465",
+                "term": "Radio stations",
+                "type": "subject"
+            },
+            "id": "70351101",
+            "version": "10283327"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "301799",
+                "term": "Radio broadcasting",
+                "type": "subject"
+            },
+            "id": "70351099",
+            "version": "10283327"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "221469",
+                "term": "Logbooks",
+                "type": "subject"
+            },
+            "id": "70351100",
+            "version": "10283327"
+        }
+    ],
+    "id": "70351088",
+    "version": "10283328",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1928",
+            "fromDateOriginal": "active 1928",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1976",
+            "toDateOriginal": "active 1976",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "70351091",
+            "version": "10283327"
+        }
+    ]
+}

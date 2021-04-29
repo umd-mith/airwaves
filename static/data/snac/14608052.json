@@ -1,0 +1,308 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tx9w0r",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T18:41:55",
+            "standardDateTime": "2016-08-10T18:41:55",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T18:41:55",
+            "standardDateTime": "2016-08-10T18:41:55",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122555655",
+            "id": "14608054",
+            "version": "2130185"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WCVE-FM (Radio station : Richmond, Va.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WCVE-FM (Radio station : Richmond, Va.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "14608056",
+                    "version": "2130185"
+                }
+            ],
+            "id": "14608055",
+            "version": "2130185",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77998041",
+                    "version": "2130185"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "14608052",
+            "targetConstellation": "72582481",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tx9w0r",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mm2t43",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Central Virginia Education Telecommunications Corporation.",
+            "id": "14608059",
+            "version": "2130185"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122555655",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122555655<\/recordOrigin>\n                     <recordContentSource>ISIL:Vi<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Central Virginia Education Telecommunications Corporation.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Greater Richmond Community Foundation.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WCVE-FM (Radio station : Richmond, Va.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WCVEFM (Radio station : Richmond, Va.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Oral history tapes of five Richmond, Virginia, neighborhoods, 1991.<\/title>\n                  <\/titleInfo>\n                  <abstract>These tapes examine the history, status, and future of five different Richmond, Virginia, neighborhoods: Bon Air, Forest Hill, Lakeside, Sandston, and West of the Boulevard. The tapes were produced by Central Virginia Education Telecommunications Corporation\/WCVE-FM, Richmond's Public Broadcasting Corporation affiliate, through a grant from Greater Richmond Community Foundation. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Oral history tapes of five Richmond, Virginia, neighborhoods, 1991.",
+                "abstract": "These tapes examine the history, status, and future of five different Richmond, Virginia, neighborhoods: Bon Air, Forest Hill, Lakeside, Sandston, and West of the Boulevard. The tapes were produced by Central Virginia Education Telecommunications Corporation\/WCVE-FM, Richmond's Public Broadcasting Corporation affiliate, through a grant from Greater Richmond Community Foundation. ",
+                "extent": "5 sound cassettes.",
+                "displayEntry": "Central Virginia Education Telecommunications Corporation. Oral history tapes of five Richmond, Virginia, neighborhoods, 1991.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Central Virginia Education Telecommunications Corporation.",
+                        "id": "8523811",
+                        "version": "6761920"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Greater Richmond Community Foundation.",
+                        "id": "8523812",
+                        "version": "6761920"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WCVE-FM (Radio station : Richmond, Va.)",
+                        "id": "8523813",
+                        "version": "6761920"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WCVEFM (Radio station : Richmond, Va.)",
+                        "id": "8523814",
+                        "version": "6761920"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fc5rck",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Library of Virginia",
+                            "preferenceScore": "99",
+                            "id": "76772831",
+                            "version": "11228833"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Library of Virginia",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "800 E Broad St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772836",
+                                    "version": "11228833"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Richmond",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772837",
+                                    "version": "11228833"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-VA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772838",
+                                    "version": "11228833"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "23219-1905",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772839",
+                                    "version": "11228833"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772840",
+                                    "version": "11228833"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16989",
+                                "name": "Library of Virginia",
+                                "latitude": "37.5413666",
+                                "longitude": "-77.4346085"
+                            },
+                            "confirmed": true,
+                            "id": "76772835",
+                            "version": "11228833"
+                        }
+                    ],
+                    "id": "76772830",
+                    "version": "11228836"
+                },
+                "id": "6761920",
+                "version": "6761920"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Central Virginia Education Telecommunications Corporation. Oral history tapes of five Richmond, Virginia, neighborhoods, 1991.",
+            "id": "14608060",
+            "version": "2130185"
+        }
+    ],
+    "id": "14608052",
+    "version": "2130186",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDateOriginal": "active 1991",
+            "id": "14608053",
+            "version": "2130185"
+        }
+    ]
+}

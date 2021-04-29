@@ -1,0 +1,241 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w65c58f6",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T22:18:42",
+            "standardDateTime": "2016-08-10T22:18:42",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T22:18:42",
+            "standardDateTime": "2016-08-10T22:18:42",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/ahub\/f_22858.xml<\/filename>\n                  <ead_entity en_type=\"persname\" normal=\"Hale, Lionel\">Lionel Hale<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archiveshub.ac.uk\/data\/gb71-thm\/31",
+            "id": "16157133",
+            "version": "2357450"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/200507545",
+            "id": "16157134",
+            "version": "2357450"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "16157135",
+            "version": "2357450"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Hale, Lionel",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Hale, Lionel",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "16157137",
+                    "version": "2357450"
+                }
+            ],
+            "id": "16157136",
+            "version": "2357450",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"ahub\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78124502",
+                    "version": "2357450"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "16157132",
+            "targetConstellation": "73437477",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w65c58f6",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sc8642",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Redgrave, Michael",
+            "id": "16157143",
+            "version": "2357450"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Hale, Lionel",
+            "uri": "https:\/\/viaf.org\/viaf\/200507545",
+            "id": "16157142",
+            "version": "2357450"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archiveshub.ac.uk\/data\/gb71-thm\/31",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>V&amp;A Museum: Department of Theatre and Performance<\/corpname>\n                  <\/repository>\n                  <unittitle>Sir          <persname>Michael Redgrave<\/persname> Archive<\/unittitle>\n                  <unitdate>1890-1996<\/unitdate>\n                  <unitid>THM\/31<\/unitid>\n                  <physdesc>\n                     <extent>204 boxes (1411 files)<\/extent>\n                  <\/physdesc>\n                  <origination>Sir          <persname>Michael Redgrave<\/persname>\n                  <\/origination>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Sir Archive Michael Redgrave 1890-1996",
+                "extent": "204 boxes (1411 files)",
+                "displayEntry": "Sir, Michael Redgrave, Archive, 1890-1996",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Michael Redgrave",
+                        "id": "11330500",
+                        "version": "6300730"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11330501",
+                        "version": "6300730"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6g843jv",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "V&A Museum: Department of Theatre and Performance",
+                            "preferenceScore": "99",
+                            "id": "76798275",
+                            "version": "11242061"
+                        }
+                    ],
+                    "id": "76798274",
+                    "version": "11242064"
+                },
+                "id": "6300730",
+                "version": "6300730"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Sir, Michael Redgrave, Archive, 1890-1996",
+            "id": "16157144",
+            "version": "2357450"
+        }
+    ],
+    "id": "16157132",
+    "version": "2357451"
+}

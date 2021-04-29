@@ -1,0 +1,582 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6h16d02",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T16:10:04",
+            "standardDateTime": "2016-08-15T16:10:04",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T16:10:04",
+            "standardDateTime": "2016-08-15T16:10:04",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122526547",
+            "id": "53094269",
+            "version": "7764050"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/55444814",
+            "id": "53094270",
+            "version": "7764050"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/63560316",
+            "id": "53094268",
+            "version": "7764050"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "53094271",
+            "version": "7764050"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Wallerstein, Edward",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Wallerstein, Edward",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "53094273",
+                    "version": "7764050"
+                }
+            ],
+            "id": "53094272",
+            "version": "7764050",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81145364",
+                    "version": "7764050"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "53094266",
+            "targetConstellation": "65357877",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6h16d02",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jq77q0",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "National Music League.",
+            "id": "53094283",
+            "version": "7764050"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "53094266",
+            "targetConstellation": "48895239",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6h16d02",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w61g4fxz",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Radio Corporation of America.",
+            "id": "53094284",
+            "version": "7764050"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Wallerstein, Edward",
+            "uri": "https:\/\/viaf.org\/viaf\/55444814",
+            "id": "53094280",
+            "version": "7764050"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n80055977",
+            "id": "53094281",
+            "version": "7764050"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n80055977",
+            "id": "53094282",
+            "version": "7764050"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/63560316",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:63560316<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-PAU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>National Music League.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Simon, Robert E.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Wallerstein, Edward.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Correspondence with Marian Anderson, 1948.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>University of Pennsylvania Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Correspondence with Marian Anderson, 1948.",
+                "extent": "3 items (2 l. and 1 pamphlet)",
+                "displayEntry": "National Music League. Correspondence with Marian Anderson, 1948.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Music League.",
+                        "id": "10488024",
+                        "version": "7894654"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Simon, Robert E.",
+                        "id": "10488025",
+                        "version": "7894654"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Wallerstein, Edward.",
+                        "id": "10488026",
+                        "version": "7894654"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tn80tm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "preferenceScore": "99",
+                            "id": "76787724",
+                            "version": "11234301"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787729",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "3420 Walnut St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787730",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Philadelphia",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787731",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787732",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "19104-6206",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787733",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787734",
+                                    "version": "11234301"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16503",
+                                "name": "University of Pennsylvania Libraries, Van Pelt Library",
+                                "latitude": "39.9526900",
+                                "longitude": "-75.1940670"
+                            },
+                            "confirmed": true,
+                            "id": "76787728",
+                            "version": "11234301"
+                        }
+                    ],
+                    "id": "76787723",
+                    "version": "11234304"
+                },
+                "id": "7894654",
+                "version": "7894654"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "National Music League. Correspondence with Marian Anderson, 1948.",
+            "id": "53094285",
+            "version": "7764050"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122526547",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122526547<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-PAU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Radio Corporation of America.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>O'Connell, Charles, 1900-1962.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Wallerstein, Edward.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Victor Talking Machine Company.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Correspondence with Leopold Stokowski, 1929-1940.<\/title>\n                  <\/titleInfo>\n                  <abstract>Comprises 1 item from Stokowski regarding Stokowski's Electric Symphony Orchestra; 3 items to and from E. Wallerstein regarding Stokowski's recordings of The Sorcerer's Apprentice; and 3 items with Charles O'Connell. Additional correspondence with Charles O'Connell regarding contracts is filed with the contracts. <\/abstract>\n                  <name>\n                     <namePart>University of Pennsylvania Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Correspondence with Leopold Stokowski, 1929-1940.",
+                "abstract": "Comprises 1 item from Stokowski regarding Stokowski's Electric Symphony Orchestra; 3 items to and from E. Wallerstein regarding Stokowski's recordings of The Sorcerer's Apprentice; and 3 items with Charles O'Connell. Additional correspondence with Charles O'Connell regarding contracts is filed with the contracts. ",
+                "extent": "14 items (36 leaves).",
+                "displayEntry": "Radio Corporation of America. Correspondence with Leopold Stokowski, 1929-1940.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Radio Corporation of America.",
+                        "id": "8500474",
+                        "version": "6750087"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "O'Connell, Charles, 1900-1962.",
+                        "id": "8500475",
+                        "version": "6750087"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Wallerstein, Edward.",
+                        "id": "8500476",
+                        "version": "6750087"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Victor Talking Machine Company.",
+                        "id": "8500477",
+                        "version": "6750087"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tn80tm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "preferenceScore": "99",
+                            "id": "76787724",
+                            "version": "11234301"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Pennsylvania Libraries, Van Pelt Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787729",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "3420 Walnut St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787730",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Philadelphia",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787731",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787732",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "19104-6206",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787733",
+                                    "version": "11234301"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787734",
+                                    "version": "11234301"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16503",
+                                "name": "University of Pennsylvania Libraries, Van Pelt Library",
+                                "latitude": "39.9526900",
+                                "longitude": "-75.1940670"
+                            },
+                            "confirmed": true,
+                            "id": "76787728",
+                            "version": "11234301"
+                        }
+                    ],
+                    "id": "76787723",
+                    "version": "11234304"
+                },
+                "id": "6750087",
+                "version": "6750087"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Radio Corporation of America. Correspondence with Leopold Stokowski, 1929-1940.",
+            "id": "53094286",
+            "version": "7764050"
+        }
+    ],
+    "id": "53094266",
+    "version": "7764051",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDateOriginal": "active 1948",
+            "id": "53094267",
+            "version": "7764050"
+        }
+    ]
+}

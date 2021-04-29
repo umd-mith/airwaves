@@ -1,0 +1,307 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6p33w90",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T19:14:54",
+            "standardDateTime": "2016-08-15T19:14:54",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T19:14:54",
+            "standardDateTime": "2016-08-15T19:14:54",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/190800367",
+            "id": "53924673",
+            "version": "7883465"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Maba Maskin Nordic AB.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Maba Maskin Nordic AB.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "53924675",
+                    "version": "7883465"
+                }
+            ],
+            "id": "53924674",
+            "version": "7883465",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81212209",
+                    "version": "7883465"
+                }
+            ]
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/190800367",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:190800367<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-S3O<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Maba Maskin Nordic AB.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>[Maba Maskin Nordic ] [Samling] 2007-<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>National Library of Sweden<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "[Maba Maskin Nordic ] [Samling] 2007-",
+                "displayEntry": "Maba Maskin Nordic AB. [Maba Maskin Nordic ] [Samling] 2007-",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Maba Maskin Nordic AB.",
+                        "id": "8841225",
+                        "version": "6955365"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w69q3q5x",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Libris Consortium",
+                            "preferenceScore": "99",
+                            "id": "76772843",
+                            "version": "11228837"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Libris Consortium",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Humleg\u00e5rdsgatan 26",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772847",
+                                    "version": "11228837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Box 5039",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772848",
+                                    "version": "11228837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stockholm",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772849",
+                                    "version": "11228837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "S-102 41",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772850",
+                                    "version": "11228837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "SE",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772851",
+                                    "version": "11228837"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16320",
+                                "name": "Libris Consortium",
+                                "latitude": "59.3381462",
+                                "longitude": "18.0721073"
+                            },
+                            "confirmed": true,
+                            "id": "76772846",
+                            "version": "11228837"
+                        }
+                    ],
+                    "id": "76772842",
+                    "version": "11228840"
+                },
+                "id": "6955365",
+                "version": "6955365"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Maba Maskin Nordic AB. [Maba Maskin Nordic ] [Samling] 2007-",
+            "id": "53924681",
+            "version": "7883465"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Sverige",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "53924678",
+            "version": "7883465",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Sverige",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "53924679",
+                    "version": "7883465"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "169145",
+                "term": "Glasindustri",
+                "type": "subject"
+            },
+            "id": "53924680",
+            "version": "7883465"
+        }
+    ],
+    "id": "53924671",
+    "version": "7883466",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "2007",
+            "fromDateOriginal": "active 2007",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "53924672",
+            "version": "7883465"
+        }
+    ]
+}

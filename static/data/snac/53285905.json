@@ -1,0 +1,314 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6j23c6v",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-03",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T16:53:10",
+            "standardDateTime": "2016-08-15T16:53:10",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T16:53:10",
+            "standardDateTime": "2016-08-15T16:53:10",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/hou00366.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Illinois Manufacturer's Association<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/hou00366\/catalog",
+            "id": "53285906",
+            "version": "7791425"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Illinois Manufacturer's Association",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Illinois Manufacturer's Association",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "53285908",
+                    "version": "7791425"
+                }
+            ],
+            "id": "53285907",
+            "version": "7791425",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81160651",
+                    "version": "7791425"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "53285905",
+            "targetConstellation": "58210018",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6j23c6v",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w68d0314",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Grew, Joseph C. (Joseph Clark), 1880-1965",
+            "id": "53285911",
+            "version": "7791425"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/hou00366\/catalog",
+                "title": "Joseph Clark Grew papers",
+                "abstract": "Contains letters, diaries, speeches, essays, transcripts of conversations, photographs, and clippings that cover Grew's entire diplomatic career. Included are minutes; correspondence and memos of the American Commission to Negotiate Peace, 1918-1919; Grew's official report to Roosevelt upon his return to the U.S. from Japan, 1942; and a typescript of his book, Ten Years in Japan. \"Letters,\" by far the largest series, are to family members and friends from his various posts overseas, as well as to many professional associates. Two volumes of letters for 1939 were destroyed by enemy action after the Japanese attack on Pearl Harbor on December 7, 1941.",
+                "extent": "120  volumes and 39 boxes (34 linear ft.)",
+                "date": "1904-1948",
+                "displayEntry": "Joseph Clark Grew papers, 1904-1948",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Grew, Joseph C. (Joseph Clark), 1880-1965. ",
+                        "id": "11437450",
+                        "version": "6383514"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11632098",
+                        "version": "8375017"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64n9vjj",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Houghton Library",
+                            "preferenceScore": "99",
+                            "id": "84972051",
+                            "version": "11443403"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Houghton Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Harvard Yard",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937835",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937836",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937837",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138-6534",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937838",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937839",
+                                    "version": "11443394"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15160",
+                                "name": "Harvard University, Houghton Library",
+                                "latitude": "42.3731728",
+                                "longitude": "-71.1159515"
+                            },
+                            "confirmed": true,
+                            "id": "84937834",
+                            "version": "11443394"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts--Cambridge",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84937840",
+                            "version": "11443394"
+                        }
+                    ],
+                    "id": "84937800",
+                    "version": "11443404"
+                },
+                "id": "6383514",
+                "version": "6383514"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Joseph Clark Grew papers, 1904-1948.",
+            "id": "53285912",
+            "version": "7791425"
+        }
+    ],
+    "id": "53285905",
+    "version": "7791426"
+}

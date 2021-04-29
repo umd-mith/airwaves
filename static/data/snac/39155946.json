@@ -1,0 +1,195 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6d38425",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-05",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T14:53:50",
+            "standardDateTime": "2016-08-13T14:53:50",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T14:53:50",
+            "standardDateTime": "2016-08-13T14:53:50",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/uct\/MSS19940065.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Peter Dominick<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/Dodd_Thomas\/MSS19940065.html",
+            "id": "39155947",
+            "version": "5716121"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Peter Dominick",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Peter Dominick",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "39155949",
+                    "version": "5716121"
+                }
+            ],
+            "id": "39155948",
+            "version": "5716121",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"uct\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79998295",
+                    "version": "5716121"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "39155946",
+            "targetConstellation": "29880233",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6d38425",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w62j70gw",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Dodd, Thomas J. (Thomas Joseph), 1907-1971",
+            "id": "39155952",
+            "version": "5716121"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/Dodd_Thomas\/MSS19940065.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Thomas J. Dodd Papers<\/unittitle>\n                  <unitid>1994.0065<\/unitid>\n                  <repository>\n                     <corpname>Archives &amp; Special Collections at the Thomas J. Dodd Research Center, University of Connecticut Libraries<\/corpname>\n                  <\/repository>\n                  <langmaterial>\n                     <language\/>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>220.0 Linear feet<\/extent>\n                  <\/physdesc>\n                  <unitdate>undated, 1919-1971.<\/unitdate>\n                  <abstract>The Thomas J. Dodd Papers illuminate the diverse public life of a self-styled crusader. The collection consists primarily of material from Dodd's Senate years (1959-1971) and the Nuremberg war crimes trial before the International Military Tribunal from 1945-1946.<\/abstract>\n                  <origination>\n                     <persname>Dodd, Thomas J.<\/persname>\n                  <\/origination>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Thomas J. Dodd Papers undated, 1919-1971.",
+                "abstract": "The Thomas J. Dodd Papers illuminate the diverse public life of a self-styled crusader. The collection consists primarily of material from Dodd's Senate years (1959-1971) and the Nuremberg war crimes trial before the International Military Tribunal from 1945-1946.",
+                "extent": "220.0 Linear feet",
+                "displayEntry": "Thomas J. Dodd Papers, undated, 1919-1971.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dodd, Thomas J.",
+                        "id": "11358635",
+                        "version": "6332190"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6m14v4d",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archives and Special Collections at the Thomas J. Dodd Research Center, University of Connecticut Libraries",
+                            "preferenceScore": "99",
+                            "id": "76791767",
+                            "version": "11235865"
+                        }
+                    ],
+                    "id": "76791766",
+                    "version": "11316775"
+                },
+                "id": "6332190",
+                "version": "6332190"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Thomas J. Dodd Papers, undated, 1919-1971.",
+            "id": "39155953",
+            "version": "5716121"
+        }
+    ],
+    "id": "39155946",
+    "version": "5716122"
+}

@@ -1,0 +1,224 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61q1480",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-16",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T19:16:06",
+            "standardDateTime": "2016-08-14T19:16:06",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T19:16:06",
+            "standardDateTime": "2016-08-14T19:16:06",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nypl\/rha20492.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">University of Wisconsin-Eau Claire. Concert Choir<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archives.nypl.org\/rha\/20492",
+            "id": "47427019",
+            "version": "6925643"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "University of Wisconsin-Eau Claire. Concert Choir",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "University of Wisconsin-Eau Claire. Concert Choir",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "47427021",
+                    "version": "6925643"
+                }
+            ],
+            "id": "47427020",
+            "version": "6925643",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nypl\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80674456",
+                    "version": "6925643"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "47427018",
+            "targetConstellation": "63744550",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61q1480",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6st8438",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Druckman, Jacob, 1928-1996",
+            "id": "47427024",
+            "version": "6925643"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archives.nypl.org\/rha\/20492",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Jacob Druckman collection of noncommercial sound recordings [sound recording]<\/unittitle>\n                  <unitid>*L (Special) 00-08<\/unitid>\n                  <unitid>20492<\/unitid>\n                  <origination>\n                     <persname>Druckman, Jacob, 1928-1996<\/persname>\n                  <\/origination>\n                  <repository>\n                     <corpname>The New York Public Library. Rodgers and Hammerstein Archives of Recorded Sound.<\/corpname>\n                     <address>\n                        <addressline>New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center<\/addressline>\n                        <addressline>40 Lincoln Center Plaza, New York, NY 10023-7498<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <physdesc>\n                     <extent>655<\/extent>\n                     <physfacet>sound recordings<\/physfacet>\n                  <\/physdesc>\n                  <abstract>This collection contains noncommercial recordings from Druckman's private collection. These recordings include live performances of Druckman's works as well as works of other composers. Some of the artists featured are Leonard Bernstein, Pierre Boulez, Phyllis Curtin, Jan DeGaetani, Lorin Maazel, Zubin Mehta, Leonard Slatkin and many others. Orchestras include the New York Philharmonic, the Philadelphia Orchestra, the Cleveland Orchestra, the Chicago Symphony Orchestra and the Boston Orchestra.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Jacob Druckman collection of noncommercial sound recordings [sound recording]",
+                "abstract": "This collection contains noncommercial recordings from Druckman's private collection. These recordings include live performances of Druckman's works as well as works of other composers. Some of the artists featured are Leonard Bernstein, Pierre Boulez, Phyllis Curtin, Jan DeGaetani, Lorin Maazel, Zubin Mehta, Leonard Slatkin and many others. Orchestras include the New York Philharmonic, the Philadelphia Orchestra, the Cleveland Orchestra, the Chicago Symphony Orchestra and the Boston Orchestra.",
+                "extent": "655",
+                "displayEntry": "Jacob Druckman collection of noncommercial sound recordings [sound recording]",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Druckman, Jacob, 1928-1996",
+                        "id": "11347470",
+                        "version": "6316786"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6jx93s2",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "The New York Public Library. Rodgers and Hammerstein Archives of Recorded Sound.",
+                            "preferenceScore": "99",
+                            "id": "76796836",
+                            "version": "11240665"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "The New York Public Library. Rodgers and Hammerstein Archives of Recorded Sound.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center 40 Lincoln Center Plaza, New York, NY 10023-7498",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76796839",
+                                    "version": "11240665"
+                                }
+                            ],
+                            "id": "76796838",
+                            "version": "11240665"
+                        }
+                    ],
+                    "id": "76796835",
+                    "version": "11240668"
+                },
+                "id": "6316786",
+                "version": "6316786"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Jacob Druckman collection of noncommercial sound recordings [sound recording]",
+            "id": "47427025",
+            "version": "6925643"
+        }
+    ],
+    "id": "47427018",
+    "version": "6925644"
+}

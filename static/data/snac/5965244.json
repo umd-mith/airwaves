@@ -1,0 +1,369 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64f88v3",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T00:19:35",
+            "standardDateTime": "2016-08-10T00:19:35",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T00:19:35",
+            "standardDateTime": "2016-08-10T00:19:35",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/34421429",
+            "id": "5965245",
+            "version": "860990"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/umi\/bentley\/wuom.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"610\" source=\"lcnaf\">WVGR (Radio station : Grand Rapids, Mich.)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/quod.lib.umich.edu\/b\/bhlead\/umich-bhl-8738?rgn=main;view=text",
+            "id": "5965246",
+            "version": "860990"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WVGR (Radio station : Grand Rapids, Mich.)",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WVGR (Radio station : Grand Rapids, Mich.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "5965248",
+                    "version": "860990"
+                }
+            ],
+            "id": "5965247",
+            "version": "860990",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"umi\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77287035",
+                    "version": "860990"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5965244",
+            "targetConstellation": "53517751",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w64f88v3",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6m10q2b",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WUOM (Radio station : Ann Arbor, Mich.)",
+            "id": "5965253",
+            "version": "860990"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/34421429",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:34421429<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-BEU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WUOM (Radio station : Ann Arbor, Mich.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Abbot, Waldo, 1888-1964.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Burrows, Edgar G.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>WUOM records, 1914-1982.<\/title>\n                  <\/titleInfo>\n                  <abstract>Administrative records documenting the development of radio broadcasting at the University of Michigan; radio scripts, transcripts of talks given by faculty, publicity, scrapbooks, and photographs; and sound recordings of radio programs produced and broadcast by WUOM, as well as recordings of various University conferences, ceremonies, etc. <\/abstract>\n                  <name>\n                     <namePart>University of Michigan<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "WUOM records, 1914-1982.",
+                "abstract": "Administrative records documenting the development of radio broadcasting at the University of Michigan; radio scripts, transcripts of talks given by faculty, publicity, scrapbooks, and photographs; and sound recordings of radio programs produced and broadcast by WUOM, as well as recordings of various University conferences, ceremonies, etc. ",
+                "extent": "33.25 linear ft. and 1 oversize v.",
+                "displayEntry": "WUOM (Radio station : Ann Arbor, Mich.). WUOM records, 1914-1982.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WUOM (Radio station : Ann Arbor, Mich.)",
+                        "id": "9516053",
+                        "version": "7361956"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Abbot, Waldo, 1888-1964.",
+                        "id": "9516054",
+                        "version": "7361956"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Burrows, Edgar G.",
+                        "id": "9516055",
+                        "version": "7361956"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6zq4vrg",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Michigan, Bentley Historical Library",
+                            "preferenceScore": "99",
+                            "id": "76786992",
+                            "version": "11234049"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Michigan, Bentley Historical Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1150 Beal Avenue",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786997",
+                                    "version": "11234049"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Ann Arbor",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786998",
+                                    "version": "11234049"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MI",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786999",
+                                    "version": "11234049"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "48109-2113",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787000",
+                                    "version": "11234049"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787001",
+                                    "version": "11234049"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15652",
+                                "name": "University of Michigan, Bentley Historical Library",
+                                "latitude": "42.2894669",
+                                "longitude": "-83.7129059"
+                            },
+                            "confirmed": true,
+                            "id": "76786996",
+                            "version": "11234049"
+                        }
+                    ],
+                    "id": "76786991",
+                    "version": "11234052"
+                },
+                "id": "7361956",
+                "version": "7361956"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "WUOM (Radio station : Ann Arbor, Mich.). WUOM records, 1914-1982.",
+            "id": "5965254",
+            "version": "860990"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/quod.lib.umich.edu\/b\/bhlead\/umich-bhl-8738?rgn=main;view=text",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <origination>\n                     <corpname>\n\nWUOM (Radio station : Ann Arbor, Mich.)\n<\/corpname>\n                  <\/origination>\n                  <unittitle>\n\nWUOM records\n<unitdate>\n\n1914-1982\n<\/unitdate>\n                     <unitdate>\n\n1940s-1960s\n<\/unitdate>\n                  <\/unittitle>\n                  <physdesc>\n                     <extent>\n\n33.25 linear ft. and 1 oversize v\n<\/extent>\n                  <\/physdesc>\n                  <unitid>\n\n8738 Bimu C471 2\n<\/unitid>\n                  <langmaterial>The material is in <language>English<\/language>\n                  <\/langmaterial>\n                  <abstract>\n\nUniversity of Michigan radio station, founded 1948. Administrative records documenting the development of radio broadcasting at the University of Michigan; radio scripts, transcripts of talks given by faculty, publicity, scrapbooks, and photographs; and sound recordings of radio programs produced and broadcast by WUOM, as well as recordings of various University conferences, ceremonies, etc.\n<\/abstract>\n                  <repository>\n                     <corpname>\n                        <subarea>Bentley Historical Library<\/subarea>, University of Michigan<\/corpname>\n                     <extptr\/>\n                  <\/repository>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "WUOM records 1914-1982 1940s-1960s",
+                "abstract": "University of Michigan radio station, founded 1948. Administrative records documenting the development of radio broadcasting at the University of Michigan; radio scripts, transcripts of talks given by faculty, publicity, scrapbooks, and photographs; and sound recordings of radio programs produced and broadcast by WUOM, as well as recordings of various University conferences, ceremonies, etc.",
+                "extent": "33.25 linear ft. and 1 oversize v",
+                "displayEntry": "WUOM records, 1914-1982, 1940s-1960s",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11445394",
+                        "version": "6390210"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w65f9fmq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Bentley Historical Library , University of Michigan",
+                            "preferenceScore": "99",
+                            "id": "76792059",
+                            "version": "11236157"
+                        }
+                    ],
+                    "id": "76792058",
+                    "version": "11236160"
+                },
+                "id": "6390210",
+                "version": "6390210"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "WUOM records, 1914-1982, 1940s-1960s",
+            "id": "5965255",
+            "version": "860990"
+        }
+    ],
+    "id": "5965244",
+    "version": "860991"
+}

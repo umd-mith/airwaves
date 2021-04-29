@@ -1,0 +1,975 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6jm8c11",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T05:54:46",
+            "standardDateTime": "2016-08-13T05:54:46",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T05:54:47",
+            "standardDateTime": "2016-08-13T05:54:47",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/638993284",
+            "id": "36307276",
+            "version": "5305499"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/291099199",
+            "id": "36307277",
+            "version": "5305499"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/313854470",
+            "id": "36307279",
+            "version": "5305499"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/260484094",
+            "id": "36307278",
+            "version": "5305499"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/mhs\/00671.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Millikin University.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.mnhs.org\/library\/findaids\/00671.xml",
+            "id": "36307280",
+            "version": "5305499"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/123456807",
+            "id": "36307281",
+            "version": "5305499"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "36307282",
+            "version": "5305499"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Millikin University",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Millikin University",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "36307284",
+                    "version": "5305499"
+                }
+            ],
+            "id": "36307283",
+            "version": "5305499",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"mhs\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79768113",
+                    "version": "5305499"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "36307275",
+            "targetConstellation": "7309975",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jm8c11",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zw9f25",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Power, Camille Barnett.",
+            "id": "36307298",
+            "version": "5305499"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "36307275",
+            "targetConstellation": "62829925",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jm8c11",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6nw110g",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Reed, Lawrence.",
+            "id": "36307300",
+            "version": "5305499"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "36307275",
+            "targetConstellation": "76656940",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jm8c11",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rg1w69",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Richards Treat (Restaurant: Minneapolis, Minn.).",
+            "id": "36307301",
+            "version": "5305499"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "36307275",
+            "targetConstellation": "39845876",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jm8c11",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6xx26wd",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Roney, Janet Shuman.",
+            "id": "36307299",
+            "version": "5305499"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Millikin University",
+            "uri": "https:\/\/viaf.org\/viaf\/123456807",
+            "id": "36307295",
+            "version": "5305499"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no96015409",
+            "id": "36307296",
+            "version": "5305499"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no96015409",
+            "id": "36307297",
+            "version": "5305499"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/638993284",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:638993284<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-OIP<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Power, Camille Barnett.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Rockwell, Charles Victory, 1833-1888.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Barnett, Estella Rockwell, b. 1872.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Camille B. Power papers, 1863-1984.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence (1924-1980), diaries (1911-1923), travel journals, essays, family papers, teaching material, photos, and other papers. Diaries cover Power's childhood in Cody, Wyoming and Monmouth, Illinois, and student life at Millikin University (Decatur, Ill.). Later papers relate to Power's study in France (1930-1931), teaching career at Boise Junior College (1936-1967), and her interest in the French language, Basque culture, and the history of Boise State University. Family papers include papers of Power's grandfather, Charles Victory Rockwell (1833-1888), and mother, Estella Rockwell Barnett (b. 1872). Correspondents include: Jon Bilbao and Marti\u0301n de Ugalde. <\/abstract>\n                  <name>\n                     <namePart>Boise State University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Camille B. Power papers, 1863-1984.",
+                "abstract": "Correspondence (1924-1980), diaries (1911-1923), travel journals, essays, family papers, teaching material, photos, and other papers. Diaries cover Power's childhood in Cody, Wyoming and Monmouth, Illinois, and student life at Millikin University (Decatur, Ill.). Later papers relate to Power's study in France (1930-1931), teaching career at Boise Junior College (1936-1967), and her interest in the French language, Basque culture, and the history of Boise State University. Family papers include papers of Power's grandfather, Charles Victory Rockwell (1833-1888), and mother, Estella Rockwell Barnett (b. 1872). Correspondents include: Jon Bilbao and Marti\u0301n de Ugalde. ",
+                "extent": "ca. 2 ft,",
+                "displayEntry": "Power, Camille Barnett. Camille B. Power papers, 1863-1984.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Power, Camille Barnett.",
+                        "id": "10501873",
+                        "version": "7904257"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rockwell, Charles Victory, 1833-1888.",
+                        "id": "10501874",
+                        "version": "7904257"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Barnett, Estella Rockwell, b. 1872.",
+                        "id": "10501875",
+                        "version": "7904257"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6553b28",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Boise State University, Albertsons Library",
+                            "preferenceScore": "99",
+                            "id": "76762145",
+                            "version": "11224817"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Boise State University, Albertsons Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1910 University Drive",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76762150",
+                                    "version": "11224817"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Boise",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76762151",
+                                    "version": "11224817"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-ID",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76762152",
+                                    "version": "11224817"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "83725-1430",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76762153",
+                                    "version": "11224817"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76762154",
+                                    "version": "11224817"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17185",
+                                "name": "Boise State University, Albertsons Library",
+                                "latitude": "43.6039310",
+                                "longitude": "-116.2004010"
+                            },
+                            "confirmed": true,
+                            "id": "76762149",
+                            "version": "11224817"
+                        }
+                    ],
+                    "id": "76762144",
+                    "version": "11224820"
+                },
+                "id": "7904257",
+                "version": "7904257"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Power, Camille Barnett. Camille B. Power papers, 1863-1984.",
+            "id": "36307302",
+            "version": "5305499"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/260484094",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:260484094<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-ICK<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Reed, Lawrence.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>T.W. Samuels Lecture Series : Promise of Privatization [sound recording] \/ Lawrence Reed.<\/title>\n                  <\/titleInfo>\n                  <abstract>The 15th annual T.W. Samuels Lecture Series features Lawrence Reed, President Emeritus of the Mackinac Center of Public Policy, discussing privatization and the role of government in our lives. <\/abstract>\n                  <name>\n                     <namePart>Millikin University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "T.W. Samuels Lecture Series : Promise of Privatization [sound recording] \/ Lawrence Reed.",
+                "abstract": "The 15th annual T.W. Samuels Lecture Series features Lawrence Reed, President Emeritus of the Mackinac Center of Public Policy, discussing privatization and the role of government in our lives. ",
+                "extent": "1 sound cassette (60 min.) : analog.",
+                "displayEntry": "Reed, Lawrence. T.W. Samuels Lecture Series : Promise of Privatization [sound recording] \/ Lawrence Reed.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Reed, Lawrence.",
+                        "id": "9128191",
+                        "version": "7153785"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tr6q2q",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Millikin University, Staley Library",
+                            "preferenceScore": "99",
+                            "id": "76774728",
+                            "version": "11229533"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Millikin University, Staley Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Staley Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774733",
+                                    "version": "11229533"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1184 W Main St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774734",
+                                    "version": "11229533"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Decatur",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774735",
+                                    "version": "11229533"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-IL",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774736",
+                                    "version": "11229533"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "62522",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774737",
+                                    "version": "11229533"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774738",
+                                    "version": "11229533"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16081",
+                                "name": "Millikin University, Staley Library",
+                                "latitude": "39.8431000",
+                                "longitude": "-89.0011000"
+                            },
+                            "confirmed": true,
+                            "id": "76774732",
+                            "version": "11229533"
+                        }
+                    ],
+                    "id": "76774727",
+                    "version": "11229536"
+                },
+                "id": "7153785",
+                "version": "7153785"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Reed, Lawrence. T.W. Samuels Lecture Series : Promise of Privatization [sound recording] \/ Lawrence Reed.",
+            "id": "36307304",
+            "version": "5305499"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/313854470",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:313854470<\/recordOrigin>\n                     <recordContentSource>ISIL:MnHi-Ar<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Richards Treat (Restaurant: Minneapolis, Minn.).<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Richards, Charles Russ, 1871-1941.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Richards, Lenore.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Treat, Mary Jane Walker, 1853-1945.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Treat, Nola.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Treat, R.A. Wallace, 1895-1929.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Business records and family papers, 1776-1996 (bulk 1907-1980).<\/title>\n                  <\/titleInfo>\n                  <abstract>Records relating to the Richards Treat restaurant (1924-1957) and to the families of its proprietors, Nola Treat (1885-1983) and Lenore Richards (1892-1971). <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Business records and family papers, 1776-1996 (bulk 1907-1980).",
+                "abstract": "Records relating to the Richards Treat restaurant (1924-1957) and to the families of its proprietors, Nola Treat (1885-1983) and Lenore Richards (1892-1971). ",
+                "extent": "14.5 cu. ft. (14 boxes).",
+                "displayEntry": "Richards Treat (Restaurant: Minneapolis, Minn.). Business records and family papers, 1776-1996 (bulk 1907-1980).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Richards Treat (Restaurant: Minneapolis, Minn.).",
+                        "id": "9427230",
+                        "version": "7315816"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Richards, Charles Russ, 1871-1941.",
+                        "id": "9427231",
+                        "version": "7315816"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Richards, Lenore.",
+                        "id": "9427232",
+                        "version": "7315816"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Treat, Mary Jane Walker, 1853-1945.",
+                        "id": "9427233",
+                        "version": "7315816"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Treat, Nola.",
+                        "id": "9427234",
+                        "version": "7315816"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Treat, R.A. Wallace, 1895-1929.",
+                        "id": "9427235",
+                        "version": "7315816"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w68t5cg9",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Minnesota Historical Society, Division of Archives and Manuscripts",
+                            "preferenceScore": "99",
+                            "id": "76774853",
+                            "version": "11229581"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Minnesota Historical Society, Division of Archives and Manuscripts",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Saint Paul, Minnesota 55101  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774857",
+                                    "version": "11229581"
+                                }
+                            ],
+                            "id": "76774856",
+                            "version": "11229581"
+                        }
+                    ],
+                    "id": "76774852",
+                    "version": "11229584"
+                },
+                "id": "7315816",
+                "version": "7315816"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Richards Treat (Restaurant: Minneapolis, Minn.). Business records and family papers, 1776-1996 (bulk 1907-1980).",
+            "id": "36307305",
+            "version": "5305499"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/291099199",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:291099199<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-JFK<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Roney, Janet Shuman.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>DePue, Mark R.,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Abraham Lincoln Presidential Library.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Illinois State Museum.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>An interview with Janet Shuman Roney \/ Janet Shuman Roney ; Mark DePue, interviewer. 2008.<\/title>\n                  <\/titleInfo>\n                  <abstract>An interview of Janet Shuman Roney conducted by Mark DePue for the Abraham Lincoln Presidential Library. Topics discussed include George Rogers Clark; Major Addison McPheeters; Civil War; Charles Shuman, President, American Farm Bureau, 1954-1971; Illinois Farm Bureau; American Farm Bureau; National Farmers' Union; Wheat Referendum of 1963; William Irving Shuman; Chicago Sub-Treasury; Rural Electrification Association; Ida Shuman; Mabel Shuman; importance of education in farming; Methodist Church; Millikin University; and teacher tenure. <\/abstract>\n                  <name>\n                     <namePart>Abraham Lincoln Presidential Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "An interview with Janet Shuman Roney \/ Janet Shuman Roney ; Mark DePue, interviewer. 2008.",
+                "abstract": "An interview of Janet Shuman Roney conducted by Mark DePue for the Abraham Lincoln Presidential Library. Topics discussed include George Rogers Clark; Major Addison McPheeters; Civil War; Charles Shuman, President, American Farm Bureau, 1954-1971; Illinois Farm Bureau; American Farm Bureau; National Farmers' Union; Wheat Referendum of 1963; William Irving Shuman; Chicago Sub-Treasury; Rural Electrification Association; Ida Shuman; Mabel Shuman; importance of education in farming; Methodist Church; Millikin University; and teacher tenure. ",
+                "extent": "2 data discs (96 min.) : digital ; 4 3\/4 in.4 film cassettes : digital ; 3\/8 in.",
+                "displayEntry": "Roney, Janet Shuman. An interview with Janet Shuman Roney \/ Janet Shuman Roney ; Mark DePue, interviewer.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Roney, Janet Shuman.",
+                        "id": "9356817",
+                        "version": "7268461"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "DePue, Mark R.,",
+                        "id": "9356818",
+                        "version": "7268461"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Abraham Lincoln Presidential Library.",
+                        "id": "9356819",
+                        "version": "7268461"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Illinois State Museum.",
+                        "id": "9356820",
+                        "version": "7268461"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6q922fv",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Abraham Lincoln Presidential Library",
+                            "preferenceScore": "99",
+                            "id": "76759491",
+                            "version": "11223809"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Abraham Lincoln Presidential Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "112 N. Sixth St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76759496",
+                                    "version": "11223809"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Springfield",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76759497",
+                                    "version": "11223809"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-IL",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76759498",
+                                    "version": "11223809"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "62701-1507",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76759499",
+                                    "version": "11223809"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76759500",
+                                    "version": "11223809"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17131",
+                                "name": "Abraham Lincoln Presidential Library",
+                                "latitude": "39.8024990",
+                                "longitude": "-89.6475580"
+                            },
+                            "confirmed": true,
+                            "id": "76759495",
+                            "version": "11223809"
+                        }
+                    ],
+                    "id": "76759490",
+                    "version": "11223812"
+                },
+                "id": "7268461",
+                "version": "7268461"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Roney, Janet Shuman. An interview with Janet Shuman Roney \/ Janet Shuman Roney ; Mark DePue, interviewer.",
+            "id": "36307303",
+            "version": "5305499"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.mnhs.org\/library\/findaids\/00671.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unitid\/>\n                  <repository>Minnesota Historical Society<\/repository>\n                  <origination>\n                     <corpname>\n\t \t\t\tRichards Treat\n\t \t\t\t(Restaurant: Minneapolis, Minn.).<\/corpname>\n                  <\/origination>\n                  <unittitle>Business records and\n\t\t  family papers.<\/unittitle>\n                  <unitdate>1776-1996\n\t\t  (bulk 1907-1980). <\/unitdate>\n                  <abstract>Includes the corporate records of Richards\n\t\t  Treat, Inc., a cafeteria, bakeshop, and coffee shop owned and operated by two\n\t\t  women, Nola Treat and Lenore Richards, in Minneapolis, Minnesota between 1924\n\t\t  and 1957. Included are financial records, menus and recipes, drafts of their\n\t\t  book <emph>Quantity Cookery, <\/emph> comments from customers,\n\t\t  and employee reminisciences. About half the collection contains family papers\n\t\t  of the Treat and Richards families, including numerous letters between Lenore\n\t\t  Richards and Nola Treat and from Mary W. Treat to her daughter. The careers of\n\t\t  Charles Russ Richards and R.A. Wallace Treat are documented as well.\n\t\t  <\/abstract>\n                  <physdesc>14.5 cu. ft. (14\n\t\t  boxes).<\/physdesc>\n                  <physloc>See <ref>Detailed Description<\/ref> for shelf\n\t\t  locations.<\/physloc>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Business records and  family papers. 1776-1996  (bulk 1907-1980).",
+                "abstract": "Includes the corporate records of Richards  Treat, Inc., a cafeteria, bakeshop, and coffee shop owned and operated by two  women, Nola Treat and Lenore Richards, in Minneapolis, Minnesota between 1924  and 1957. Included are financial records, menus and recipes, drafts of their  book comments from customers,  and employee reminisciences. About half the collection contains family papers  of the Treat and Richards families, including numerous letters between Lenore  Richards and Nola Treat and from Mary W. Treat to her daughter. The careers of  Charles Russ Richards and R.A. Wallace Treat are documented as well. Quantity Cookery,",
+                "displayEntry": "Business records and family papers., 1776-1996 (bulk 1907-1980).",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6s57frk",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Minnesota Historical Society",
+                            "preferenceScore": "99",
+                            "id": "76794565",
+                            "version": "11431540"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "11470",
+                                "uri": "http:\/\/www.geonames.org\/5045360",
+                                "name": "Saint Paul",
+                                "latitude": "44.9444100",
+                                "longitude": "-93.0932700",
+                                "administrationCode": "MN",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "84846225",
+                            "version": "11431540"
+                        }
+                    ],
+                    "id": "76794564",
+                    "version": "11431541"
+                },
+                "id": "6646986",
+                "version": "6646986"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Business records and family papers., 1776-1996 (bulk 1907-1980).",
+            "id": "36307306",
+            "version": "5305499"
+        }
+    ],
+    "id": "36307275",
+    "version": "5305500"
+}

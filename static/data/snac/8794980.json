@@ -1,0 +1,266 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6zk8ctq",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T06:03:05",
+            "standardDateTime": "2016-08-10T06:03:05",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T06:03:05",
+            "standardDateTime": "2016-08-10T06:03:05",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/55706240",
+            "id": "8794982",
+            "version": "1277387"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Sears, Ralph E., 1873-",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Sears, Ralph E., 1873-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "8794984",
+                    "version": "1277387"
+                }
+            ],
+            "id": "8794983",
+            "version": "1277387",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77520773",
+                    "version": "1277387"
+                }
+            ]
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/55706240",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:55706240<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-GES<\/recordContentSource>\n                  <\/recordInfo>\n                  <titleInfo>\n                     <title>Bible record for the Elisha and Ralph Sears families, 1776-1914.<\/title>\n                  <\/titleInfo>\n                  <abstract>Original bible record (without title page) with entries for the families of Elisha B. Sears of Fitchburg, MA and Ralph E. Sears of Brooklyn, NY. <\/abstract>\n                  <name>\n                     <namePart>New England Historic Genealogical Society<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Bible record for the Elisha and Ralph Sears families, 1776-1914.",
+                "abstract": "Original bible record (without title page) with entries for the families of Elisha B. Sears of Fitchburg, MA and Ralph E. Sears of Brooklyn, NY. ",
+                "extent": "[4] p. ; 30 cm.",
+                "displayEntry": "Bible record for the Elisha and Ralph Sears families, 1776-1914.",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6p08xt0",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "New England Historic Genealogical Society",
+                            "preferenceScore": "99",
+                            "id": "84071617",
+                            "version": "11306733"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "New England Historic Genealogical Society, NEHGS",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "99-101 Newbury Street",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84071630",
+                                    "version": "11306722"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Boston",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84071631",
+                                    "version": "11306722"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84071632",
+                                    "version": "11306722"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02116",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84071633",
+                                    "version": "11306722"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84071634",
+                                    "version": "11306722"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15795",
+                                "name": "New England Historic Genealogical Society, NEHGS",
+                                "latitude": "42.3484000",
+                                "longitude": "-71.0737000"
+                            },
+                            "confirmed": true,
+                            "id": "84071629",
+                            "version": "11306722"
+                        }
+                    ],
+                    "id": "84071591",
+                    "version": "11306734"
+                },
+                "id": "7711073",
+                "version": "7711073"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Bible record for the Elisha and Ralph Sears families, 1776-1914.",
+            "id": "8794987",
+            "version": "1277387"
+        }
+    ],
+    "id": "8794980",
+    "version": "1277388",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1873",
+            "fromDateOriginal": "1873",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "8794981",
+            "version": "1277387"
+        }
+    ]
+}

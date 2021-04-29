@@ -1,0 +1,300 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w69b179c",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-15",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T16:05:47",
+            "standardDateTime": "2016-08-10T16:05:47",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T16:05:47",
+            "standardDateTime": "2016-08-10T16:05:47",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nypl\/mss18809.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Rowe, John M.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archives.nypl.org\/mss\/18809",
+            "id": "13476561",
+            "version": "1961945"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/104369070",
+            "id": "13476562",
+            "version": "1961945"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "13476563",
+            "version": "1961945"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Rowe, John M. (John Max)",
+            "preferenceScore": "98",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Rowe, John M. (John Max)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "13476565",
+                    "version": "1961945"
+                }
+            ],
+            "id": "13476564",
+            "version": "1961945",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"LAC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77902703",
+                    "version": "1961945"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Rowe, John M.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Rowe, John M.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "13476568",
+                    "version": "1961945"
+                }
+            ],
+            "id": "13476567",
+            "version": "1961945",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nypl\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77902704",
+                    "version": "1961945"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "13476560",
+            "targetConstellation": "62459435",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w69b179c",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6h45hzh",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "United States Sanitary Commission",
+            "id": "13476573",
+            "version": "1961945"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Rowe, John M. (John Max)",
+            "uri": "https:\/\/viaf.org\/viaf\/104369070",
+            "id": "13476572",
+            "version": "1961945"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archives.nypl.org\/mss\/18809",
+                "title": "United States Sanitary Commission records. Army and Navy Claim Agency archives 1861-1870",
+                "abstract": "The United States Sanitary Commission established the Army and Navy Claim Agency (ANCA) in Washington, D.C. on April 1, 1864 to serve as the USSC\u2019s central office to assist Union soldiers, sailors, and their families in prosecuting claims on the federal government for pensions, back pay, bounty, commutation of rations, prize money, and other benefits, without cost. The Army and Navy Claim Agency Archives comprise the records of the Army and Navy Claim Agency; the records of the Pension Agency, its predecessor organization; the registers and cash books of its subsidiary local agencies; and the records of two quasi-independent USSC claim agencies whose origins predate the establishment of the Army and Navy Claim Agency: the Protective War Claim Association of the State of New York, located in New York City, and the Protective War Claim and Pension Agency, located in Philadelphia.",
+                "extent": "506.37 linear feet; 1190 boxes, 46 volumes",
+                "date": "1861-1870",
+                "displayEntry": "United States Sanitary Commission records. Army and Navy Claim Agency archives, 1861-1870",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11640515",
+                        "version": "8382090"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6cs6hd1",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "New York Public Library. Manuscripts and Archives Division",
+                            "preferenceScore": "99",
+                            "id": "83852678",
+                            "version": "11294014"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "The New York Public Library. Manuscripts and Archives Division.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stephen A. Schwarzman Building Fifth Avenue at 42nd Street, New York, NY 10018-2788",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400244",
+                                        "term": "Street",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Street",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83852691",
+                                    "version": "11294014"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15028",
+                                "name": "New York Public Library System, NYPL",
+                                "latitude": "40.7534981",
+                                "longitude": "-73.9808884"
+                            },
+                            "confirmed": true,
+                            "id": "83852690",
+                            "version": "11294014"
+                        }
+                    ],
+                    "id": "83852674",
+                    "version": "11294016"
+                },
+                "id": "6312135",
+                "version": "6312135"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "United States Sanitary Commission records. Army and Navy Claim Agency archives, 1861-1870",
+            "id": "13476574",
+            "version": "1961945"
+        }
+    ],
+    "id": "13476560",
+    "version": "1961946"
+}

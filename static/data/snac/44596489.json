@@ -1,0 +1,241 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6zj24sr",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T09:20:22",
+            "standardDateTime": "2016-08-14T09:20:22",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T09:20:22",
+            "standardDateTime": "2016-08-14T09:20:22",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/20376.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Larry Clinton<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/inv\/e\/Earle,Eugene.html",
+            "id": "44596490",
+            "version": "6514430"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Larry Clinton",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Larry Clinton",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "44596492",
+                    "version": "6514430"
+                }
+            ],
+            "id": "44596491",
+            "version": "6514430",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80447055",
+                    "version": "6514430"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "44596489",
+            "targetConstellation": "38921038",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zj24sr",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tt50t6",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Earle, Eugene.",
+            "id": "44596495",
+            "version": "6514430"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/inv\/e\/Earle,Eugene.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>University of North Carolina at Chapel Hill. Library.\n\t\t\t\t\tSouthern Folklife Collection.<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <persname>Earle, Eugene.<\/persname>\n                  <\/origination>\n                  <unittitle>Eugene Earle Collection, <unitdate>1939-1980s<\/unitdate>\n                  <\/unittitle>\n                  <unitid>20376<\/unitid>\n                  <langmaterial>Materials in <language>English<\/language>, <language>German<\/language>,\n\t\t\t\t\t<language>Norwegian<\/language>, and <language>Japanese<\/language>. <\/langmaterial>\n                  <physdesc>\n                     <extent>17,000<\/extent>\n                     <extent>40.0<\/extent>\n                  <\/physdesc>\n                  <abstract>Eugene Earle was born in Cleveland\n\t\t\t\tHeights, Ohio, in 1926. In addition to amassing a large collection of country and\n\t\t\t\twestern, blues, and jazz sound recordings, he also became a discographer and a\n\t\t\t\tfounder and president of the John Edwards Memorial Foundation (JEMF). Earle is also\n\t\t\t\tresponsible for rediscovering and recording a number of country musicians, including\n\t\t\t\tDoc Watson, Jimmie Tarlton, and the Carolina Tarheels.<\/abstract>\n                  <abstract>The collection consists of recordings, films, images, and\n\t\t\t\tpapers collected by Eugene Earle. The recordings consists of commercial and\n\t\t\t\tnon-commercial transcription discs, audiocassettes, and open reel recordings\n\t\t\t\tdocumenting a wide array of radio programs and performers of blues, country music,\n\t\t\t\tjazz, old-time music, popular music, swing, and other types of music from 1939\n\t\t\t\tthrough the early 1980s. One series of the collection is government-sponsored Army\n\t\t\t\tV-Discs and Navy V-Discs from World War II. These discs were issued, October\n\t\t\t\t1943-May 1949, and feature material from a variety of sources, including special\n\t\t\t\trecording sessions, radio broadcasts, broadcast rehearsals, film soundtracks, and\n\t\t\t\tissued and unissued commercial recordings. Along with the Armed Forces Radio\n\t\t\t\tService, the V-Disc group was a morale-building unit that addressed the need for\n\t\t\t\tcurrent music by the troops overseas. As V-Discs were produced exclusively for use\n\t\t\t\tby military personnel and the many artists who volunteered to perform on the\n\t\t\t\trecordings were adamant about the discs not being commercially sold or used, many of\n\t\t\t\tthe V-Disc metal pressing parts were destroyed by the United States Army.\n\t\t\t\tConsequently, the V-Discs that survived document performances by artists unavailable\n\t\t\t\ton any other recordings. Other transcription discs are of the <title>Ralph Emery Show,<\/title> which aired on WSM radio in Nashville, Tenn.,\n\t\t\t\t1971-1974, and showcased some of the leading country music performers of the day;\n\t\t\t\tthe <title>Lawrence Welk Show<\/title>; and various\n\t\t\t\tgovernment-sponsored radio shows, such as <title>Country\n\t\t\t\t\tRoads,<\/title>\n                     <title>Navy Hoedown,<\/title>\n                     <title>Sounds of Solid Country,<\/title>\n                     <title>The Veterans Administration Presents Here's to\n\t\t\t\t\tVeterans,<\/title>\n                     <title>The United States Army Presents Country Express,<\/title>\n                     <title>The United States Air Force Presents Country Music\n\t\t\t\t\tTime,<\/title> and <title>Country Cookin'.<\/title> Another series\n\t\t\t\tis comprised of open reel recordings, some documenting live performances of old\n\t\t\t\ttime, country, and bluegrass musicians. They also include several private interviews\n\t\t\t\twith musicians. Other open reel recordings are dubbed copies of rare 78 rpm\n\t\t\t\trecordings, unreleased test recordings of early country and blues musicians, and\n\t\t\t\ttranscription discs. There are also posters, audiocassettes, films, printed music,\n\t\t\t\timages, serials, papers relating to Earle's discographical and collecting\n\t\t\t\tactivities, and promotional materials. Posters include full-sheet posters,\n\t\t\t\thalf-sheet posters, and lobby cards for commercial feature-length motion pictures\n\t\t\t\tfeaturing country and western recording stars from the 1930s to the 1960s.\n\t\t\t\tAudiocassettes include commercial and non-commercial recordings of many early\n\t\t\t\tcountry, jazz, and Hawaiian musicians. Films consist of 16mm reels of early country\n\t\t\t\tand western artists and other topics. Printed music includes a number of song folios\n\t\t\t\tand sheet music, largely focused on Hawaiian and early country and western music,\n\t\t\t\twith a significant number of pre-1930 song sheets. Images consist of photographs,\n\t\t\t\tcollectors' cards, and other images of country and western musicians and related\n\t\t\t\tsubjects. Serials consist of journals and other publications pertaining to\n\t\t\t\tindividual musicians, early radio stations, record collecting in general, fan clubs,\n\t\t\t\tand other topics. Papers relating to Earle's discographical and collecting\n\t\t\t\tactivities include discographical research, tape logs, correspondence with record\n\t\t\t\tcompanies and other collectors, materials related to the John Edwards Memorial\n\t\t\t\tFoundation, record label catalogs, and extensive documentation of Earle's own vast\n\t\t\t\trecord and research collection. Promotional materials include small flyers, picture\n\t\t\t\tcards, and other materials for commercial feature-length motion pictures featuring\n\t\t\t\tcountry and western recording stars from the 1930s to the 1960s. Performers\n\t\t\t\tsignificant in the collection appear as subject headings below.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Eugene Earle Collection, 1939-1980s",
+                "abstract": "Eugene Earle was born in ClevelandHeights, Ohio, in 1926. In addition to amassing a large collection of country andwestern, blues, and jazz sound recordings, he also became a discographer and afounder and president of the John Edwards Memorial Foundation (JEMF). Earle is alsoresponsible for rediscovering and recording a number of country musicians, includingDoc Watson, Jimmie Tarlton, and the Carolina Tarheels. The collection consists of recordings, films, images, andpapers collected by Eugene Earle. The recordings consists of commercial andnon-commercial transcription discs, audiocassettes, and open reel recordingsdocumenting a wide array of radio programs and performers of blues, country music,jazz, old-time music, popular music, swing, and other types of music from 1939through the early 1980s. One series of the collection is government-sponsored ArmyV-Discs and Navy V-Discs from World War II. These discs were issued, October1943-May 1949, and feature material from a variety of sources, including specialrecording sessions, radio broadcasts, broadcast rehearsals, film soundtracks, andissued and unissued commercial recordings. Along with the Armed Forces RadioService, the V-Disc group was a morale-building unit that addressed the need forcurrent music by the troops overseas. As V-Discs were produced exclusively for useby military personnel and the many artists who volunteered to perform on therecordings were adamant about the discs not being commercially sold or used, many ofthe V-Disc metal pressing parts were destroyed by the United States Army.Consequently, the V-Discs that survived document performances by artists unavailableon any other recordings. Other transcription discs are of the which aired on WSM radio in Nashville, Tenn.,1971-1974, and showcased some of the leading country music performers of the day;the ; and variousgovernment-sponsored radio shows, such as and Another seriesis comprised of open reel recordings, some documenting live performances of oldtime, country, and bluegrass musicians. They also include several private interviewswith musicians. Other open reel recordings are dubbed copies of rare 78 rpmrecordings, unreleased test recordings of early country and blues musicians, andtranscription discs. There are also posters, audiocassettes, films, printed music,images, serials, papers relating to Earle's discographical and collectingactivities, and promotional materials. Posters include full-sheet posters,half-sheet posters, and lobby cards for commercial feature-length motion picturesfeaturing country and western recording stars from the 1930s to the 1960s.Audiocassettes include commercial and non-commercial recordings of many earlycountry, jazz, and Hawaiian musicians. Films consist of 16mm reels of early countryand western artists and other topics. Printed music includes a number of song foliosand sheet music, largely focused on Hawaiian and early country and western music,with a significant number of pre-1930 song sheets. Images consist of photographs,collectors' cards, and other images of country and western musicians and relatedsubjects. Serials consist of journals and other publications pertaining toindividual musicians, early radio stations, record collecting in general, fan clubs,and other topics. Papers relating to Earle's discographical and collectingactivities include discographical research, tape logs, correspondence with recordcompanies and other collectors, materials related to the John Edwards MemorialFoundation, record label catalogs, and extensive documentation of Earle's own vastrecord and research collection. Promotional materials include small flyers, picturecards, and other materials for commercial feature-length motion pictures featuringcountry and western recording stars from the 1930s to the 1960s. Performerssignificant in the collection appear as subject headings below. Ralph Emery Show, Lawrence Welk Show CountryRoads, Navy Hoedown, Sounds of Solid Country, The Veterans Administration Presents Here's toVeterans, The United States Army Presents Country Express, The United States Air Force Presents Country MusicTime, Country Cookin'.",
+                "extent": "17,000; 40.0",
+                "displayEntry": "Eugene Earle Collection, 1939-1980s",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Earle, Eugene.",
+                        "id": "11605637",
+                        "version": "6626491"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11605638",
+                        "version": "6626491"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "159",
+                            "term": "ger",
+                            "type": "language_code",
+                            "description": "German"
+                        },
+                        "id": "11605639",
+                        "version": "6626491"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "331",
+                            "term": "nor",
+                            "type": "language_code",
+                            "description": "Norwegian"
+                        },
+                        "id": "11605640",
+                        "version": "6626491"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "217",
+                            "term": "jpn",
+                            "type": "language_code",
+                            "description": "Japanese"
+                        },
+                        "id": "11605641",
+                        "version": "6626491"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6q35",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill. Library. Southern Folklife Collection.",
+                            "preferenceScore": "99",
+                            "id": "76797871",
+                            "version": "11241653"
+                        }
+                    ],
+                    "id": "76797870",
+                    "version": "11241656"
+                },
+                "id": "6626491",
+                "version": "6626491"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Eugene Earle Collection, 1939-1980s",
+            "id": "44596496",
+            "version": "6514430"
+        }
+    ],
+    "id": "44596489",
+    "version": "6514431"
+}

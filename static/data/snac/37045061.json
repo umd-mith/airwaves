@@ -1,0 +1,205 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6975n17",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-05",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T08:17:00",
+            "standardDateTime": "2016-08-13T08:17:00",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T08:17:00",
+            "standardDateTime": "2016-08-13T08:17:00",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/uct\/MSS19980185.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Newburn, Harry<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/President\/MSS19980185.html",
+            "id": "37045062",
+            "version": "5415947"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Newburn, Harry",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Newburn, Harry",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "37045064",
+                    "version": "5415947"
+                }
+            ],
+            "id": "37045063",
+            "version": "5415947",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"uct\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79830066",
+                    "version": "5415947"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "37045061",
+            "targetConstellation": "22860694",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6975n17",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w68j4kgn",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Connecticut. President's Office.",
+            "id": "37045067",
+            "version": "5415947"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "37045061",
+            "targetConstellation": "27614347",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6975n17",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ng6r55",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Newburn, Harry Kenneth, 1906-"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/President\/MSS19980185.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>University of Connecticut, President's Office Records [Albert N. Jorgensen, 1935-1962]<\/unittitle>\n                  <unitid>1998.0185<\/unitid>\n                  <repository>\n                     <corpname>Archives &amp; Special Collections at the Thomas J. Dodd Research Center, University of Connecticut Libraries<\/corpname>\n                  <\/repository>\n                  <langmaterial>\n                     <language\/>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>16.0 Linear feet<\/extent>\n                  <\/physdesc>\n                  <unitdate>undated, 1935-1962.<\/unitdate>\n                  <abstract>When Connecticut State College became the University of Connecticut in 1939, the new laws and By-laws stated that, \u201cthe President of the University is the executive and administrative officer of the Board [of Trustees]. In this capacity he is responsible for the operations of the University and is given authority requisite to that end.\u201d This is the mandate under which President Jorgensen worked throughout his long service as President of the University. The President was also designated as \u201cchairman of the University Senate and of the several schools and colleges.\u201d \u201d The administrative reorganization authorized by President Jorgensen for the University in 1939 placed direct responsibility for the schools and colleges. President Jorgensen was thus able to devote all his energies chiefly to the fulfillment of his plans for the overall development of the University.<\/abstract>\n                  <origination>\n                     <corpname>University of Connecticut. President's Office.<\/corpname>\n                  <\/origination>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "University of Connecticut, President's Office Records [Albert N. Jorgensen, 1935-1962] undated, 1935-1962.",
+                "abstract": "When Connecticut State College became the University of Connecticut in 1939, the new laws and By-laws stated that, \u201cthe President of the University is the executive and administrative officer of the Board [of Trustees]. In this capacity he is responsible for the operations of the University and is given authority requisite to that end.\u201d This is the mandate under which President Jorgensen worked throughout his long service as President of the University. The President was also designated as \u201cchairman of the University Senate and of the several schools and colleges.\u201d \u201d The administrative reorganization authorized by President Jorgensen for the University in 1939 placed direct responsibility for the schools and colleges. President Jorgensen was thus able to devote all his energies chiefly to the fulfillment of his plans for the overall development of the University.",
+                "extent": "16.0 Linear feet",
+                "displayEntry": "University of Connecticut, President's Office Records [Albert N. Jorgensen, 1935-1962], undated, 1935-1962.",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6m14v4d",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archives and Special Collections at the Thomas J. Dodd Research Center, University of Connecticut Libraries",
+                            "preferenceScore": "99",
+                            "id": "76791767",
+                            "version": "11235865"
+                        }
+                    ],
+                    "id": "76791766",
+                    "version": "11316775"
+                },
+                "id": "6332506",
+                "version": "6332506"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "University of Connecticut, President's Office Records [Albert N. Jorgensen, 1935-1962], undated, 1935-1962.",
+            "id": "37045069",
+            "version": "5415947"
+        }
+    ],
+    "id": "37045061",
+    "version": "5415948"
+}

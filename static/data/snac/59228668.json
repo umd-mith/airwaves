@@ -1,0 +1,289 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6t23361",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T16:12:34",
+            "standardDateTime": "2016-08-16T16:12:34",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T16:12:34",
+            "standardDateTime": "2016-08-16T16:12:34",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/31905113",
+            "id": "59228669",
+            "version": "8660765"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "National Educational Radio.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "National Educational Radio.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "59228671",
+                    "version": "8660765"
+                }
+            ],
+            "id": "59228670",
+            "version": "8660765",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81648078",
+                    "version": "8660765"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "59228668",
+            "targetConstellation": "48936913",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t23361",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w63f7zdv",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Young, Elizabeth L.",
+            "id": "59228674",
+            "version": "8660765"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/31905113",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:31905113<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Young, Elizabeth L.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Public Radio (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Educational Radio.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Public Broadcasting Service (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers. 1969-1974.<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection primarily documents Young's work in radio for the Corporation for Public Broadcasting and at National Public Radio during its formative period. <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers. 1969-1974.",
+                "abstract": "Collection primarily documents Young's work in radio for the Corporation for Public Broadcasting and at National Public Radio during its formative period. ",
+                "extent": "ca. 400 items.",
+                "displayEntry": "Young, Elizabeth L. Papers.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Young, Elizabeth L.",
+                        "id": "9453003",
+                        "version": "7330039"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Public Radio (U.S.)",
+                        "id": "9453004",
+                        "version": "7330039"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Educational Radio.",
+                        "id": "9453005",
+                        "version": "7330039"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Public Broadcasting Service (U.S.)",
+                        "id": "9453006",
+                        "version": "7330039"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7330039",
+                "version": "7330039"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Young, Elizabeth L. Papers.",
+            "id": "59228675",
+            "version": "8660765"
+        }
+    ],
+    "id": "59228668",
+    "version": "8660766"
+}

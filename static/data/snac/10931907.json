@@ -1,0 +1,830 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6zq79tw",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-16",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T10:28:45",
+            "standardDateTime": "2016-08-10T10:28:45",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T10:28:45",
+            "standardDateTime": "2016-08-10T10:28:45",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/rmoa\/nmuunma170.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">KNME Television, New Mexico Public Broadcasting Service<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/rmoa.unm.edu\/docviewer.php?docId=nmuunma170.xml",
+            "id": "10931908",
+            "version": "1592477"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KNME Television, New Mexico Public Broadcasting Service",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KNME Television, New Mexico Public Broadcasting Service",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "10931910",
+                    "version": "1592477"
+                }
+            ],
+            "id": "10931909",
+            "version": "1592477",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"rmoa\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77696575",
+                    "version": "1592477"
+                }
+            ]
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/rmoa.unm.edu\/docviewer.php?docId=nmuunma170.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>KNME Television<\/unittitle>\n                  <unitdate>1994-2003<\/unitdate>\n                  <unitdate\/>\n                  <unitid>UNMA 170<\/unitid>\n                  <origination>\n                     <corpname>KNME Television, New Mexico Public Broadcasting Service<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>13 boxes <\/extent>\n                  <\/physdesc>\n                  <physloc>B3-UNMA backlog area<\/physloc>\n                  <repository>\n                     <corpname>University of New Mexico Center for Southwest Research<\/corpname>\n                  <\/repository>\n                  <abstract>Correspondence, viewer comments, financial data, reports, strategic plans, meeting minutes, and video cassettes from KNME Television, New Mexico's Public Broadcasting Services station. <\/abstract>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "KNME Television 1994-2003 ",
+                "abstract": "Correspondence, viewer comments, financial data, reports, strategic plans, meeting minutes, and video cassettes from KNME Television, New Mexico's Public Broadcasting Services station.",
+                "extent": "13 boxes",
+                "displayEntry": "KNME Television, 1994-2003",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11469152",
+                        "version": "6405031"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w606852w",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of New Mexico. Center for Southwest Research",
+                            "preferenceScore": "99",
+                            "id": "83953347",
+                            "version": "11303057"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "New Mexico",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "9185",
+                                "uri": "http:\/\/www.geonames.org\/5481136",
+                                "name": "New Mexico",
+                                "latitude": "34.5003400",
+                                "longitude": "-106.0008500",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953411",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Santo Domingo Pueblo Grant (N.M.)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "11796",
+                                "uri": "http:\/\/www.geonames.org\/5490386",
+                                "name": "Santo Domingo Pueblo Grant",
+                                "latitude": "35.5228100",
+                                "longitude": "-106.3716900",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953387",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Abiquiu (N.M.)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "24",
+                                "uri": "http:\/\/www.geonames.org\/5454116",
+                                "name": "Abiquiu",
+                                "latitude": "36.2072400",
+                                "longitude": "-106.3186400",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953403",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Latin America - Industries",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "300",
+                                "uri": "http:\/\/www.geonames.org\/7185666",
+                                "name": "American Indian Opportunities Industrialization Center",
+                                "latitude": "44.9619000",
+                                "longitude": "-93.2462200",
+                                "administrationCode": "MN",
+                                "countryCode": "US"
+                            },
+                            "score": "0.01",
+                            "id": "83953409",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Taos Pueblo (N.M.)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "12943",
+                                "uri": "http:\/\/www.geonames.org\/5493798",
+                                "name": "Taos Pueblo",
+                                "latitude": "36.4386400",
+                                "longitude": "-105.5444500",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "0.333333333333333",
+                            "id": "83953385",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "U.S.",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "13587",
+                                "uri": "http:\/\/www.geonames.org\/6252001",
+                                "name": "United States",
+                                "latitude": "39.7600000",
+                                "longitude": "-98.5000000",
+                                "administrationCode": "00",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953381",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Spain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "6773",
+                                "uri": "http:\/\/www.geonames.org\/2510769",
+                                "name": "Kingdom of Spain",
+                                "latitude": "40.0000000",
+                                "longitude": "-4.0000000",
+                                "administrationCode": "00",
+                                "countryCode": "ES"
+                            },
+                            "score": "1",
+                            "id": "83953373",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Zacatecas (Mexico : State)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83953415",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Latin America - Foreign relations - United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "13581",
+                                "uri": "http:\/\/www.geonames.org\/290557",
+                                "name": "United Arab Emirates",
+                                "latitude": "24.0000000",
+                                "longitude": "54.0000000",
+                                "administrationCode": "00",
+                                "countryCode": "AE"
+                            },
+                            "score": "0.005",
+                            "id": "83953405",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "New Mexico",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "9185",
+                                "uri": "http:\/\/www.geonames.org\/5481136",
+                                "name": "New Mexico",
+                                "latitude": "34.5003400",
+                                "longitude": "-106.0008500",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953397",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Bernalillo County (N.M.)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "1099",
+                                "uri": "http:\/\/www.geonames.org\/5457180",
+                                "name": "Bernalillo County",
+                                "latitude": "35.0513100",
+                                "longitude": "-106.6701700",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953377",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Arizona",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "467",
+                                "uri": "http:\/\/www.geonames.org\/5551752",
+                                "name": "Arizona",
+                                "latitude": "34.5003000",
+                                "longitude": "-111.5009800",
+                                "administrationCode": "AZ",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953401",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Sandoval County (N.M.)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "11607",
+                                "uri": "http:\/\/www.geonames.org\/5490135",
+                                "name": "Sandoval County",
+                                "latitude": "35.6885500",
+                                "longitude": "-106.8658400",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953407",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Mexico",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "8324",
+                                "uri": "http:\/\/www.geonames.org\/3996063",
+                                "name": "Mexico",
+                                "latitude": "23.0000000",
+                                "longitude": "-102.0000000",
+                                "administrationCode": "00",
+                                "countryCode": "MX"
+                            },
+                            "score": "1",
+                            "id": "83953371",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Mexico",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "8324",
+                                "uri": "http:\/\/www.geonames.org\/3996063",
+                                "name": "Mexico",
+                                "latitude": "23.0000000",
+                                "longitude": "-102.0000000",
+                                "administrationCode": "00",
+                                "countryCode": "MX"
+                            },
+                            "score": "1",
+                            "id": "83953395",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Tierra Amarilla (N.M.)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "13147",
+                                "uri": "http:\/\/www.geonames.org\/5494507",
+                                "name": "Tierra Amarilla",
+                                "latitude": "36.7002900",
+                                "longitude": "-106.5497600",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953375",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Cuba",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "10939",
+                                "uri": "http:\/\/www.geonames.org\/3562981",
+                                "name": "Republic of Cuba",
+                                "latitude": "22.0000000",
+                                "longitude": "-79.5000000",
+                                "administrationCode": "00",
+                                "countryCode": "CU"
+                            },
+                            "score": "1",
+                            "id": "83953419",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Ohkay Owingeh (N.M.)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "9582",
+                                "uri": "http:\/\/www.geonames.org\/7262027",
+                                "name": "Ohkay Owingeh",
+                                "latitude": "36.0508200",
+                                "longitude": "-106.0689700",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "0.333333333333333",
+                            "id": "83953379",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Provincias Internas (New Spain)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83953365",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "New Mexico",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "9185",
+                                "uri": "http:\/\/www.geonames.org\/5481136",
+                                "name": "New Mexico",
+                                "latitude": "34.5003400",
+                                "longitude": "-106.0008500",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953363",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Austria",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "10925",
+                                "uri": "http:\/\/www.geonames.org\/2782113",
+                                "name": "Republic of Austria",
+                                "latitude": "47.3333300",
+                                "longitude": "13.3333300",
+                                "administrationCode": "00",
+                                "countryCode": "AT"
+                            },
+                            "score": "1",
+                            "id": "83953359",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Texas",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "13048",
+                                "uri": "http:\/\/www.geonames.org\/4736286",
+                                "name": "Texas",
+                                "latitude": "31.2504400",
+                                "longitude": "-99.2506100",
+                                "administrationCode": "TX",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953391",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Vienna (Austria)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "13861",
+                                "uri": "http:\/\/www.geonames.org\/2761369",
+                                "name": "Vienna",
+                                "latitude": "48.2084900",
+                                "longitude": "16.3720800",
+                                "administrationCode": "09",
+                                "countryCode": "AT"
+                            },
+                            "score": "0.25",
+                            "id": "83953361",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Latin America - Social conditions - 20th century",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83953417",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "New Mexico",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "9185",
+                                "uri": "http:\/\/www.geonames.org\/5481136",
+                                "name": "New Mexico",
+                                "latitude": "34.5003400",
+                                "longitude": "-106.0008500",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953413",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "New Mexico",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "9185",
+                                "uri": "http:\/\/www.geonames.org\/5481136",
+                                "name": "New Mexico",
+                                "latitude": "34.5003400",
+                                "longitude": "-106.0008500",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953399",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Southwest, New",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "12442",
+                                "uri": "http:\/\/www.geonames.org\/4140551",
+                                "name": "Southwest",
+                                "latitude": "38.8812200",
+                                "longitude": "-77.0163700",
+                                "administrationCode": "DC",
+                                "countryCode": "US"
+                            },
+                            "score": "0.1",
+                            "id": "83953389",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Santo Domingo Pueblo (N.M.)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "11795",
+                                "uri": "http:\/\/www.geonames.org\/5490385",
+                                "name": "Santo Domingo Pueblo",
+                                "latitude": "35.5147600",
+                                "longitude": "-106.3658600",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "0.333333333333333",
+                            "id": "83953369",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Mexico",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "8324",
+                                "uri": "http:\/\/www.geonames.org\/3996063",
+                                "name": "Mexico",
+                                "latitude": "23.0000000",
+                                "longitude": "-102.0000000",
+                                "administrationCode": "00",
+                                "countryCode": "MX"
+                            },
+                            "score": "1",
+                            "id": "83953367",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "France",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "10947",
+                                "uri": "http:\/\/www.geonames.org\/3017382",
+                                "name": "Republic of France",
+                                "latitude": "46.0000000",
+                                "longitude": "2.0000000",
+                                "administrationCode": "00",
+                                "countryCode": "FR"
+                            },
+                            "score": "1",
+                            "id": "83953393",
+                            "version": "11303045"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "New Mexico",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "9185",
+                                "uri": "http:\/\/www.geonames.org\/5481136",
+                                "name": "New Mexico",
+                                "latitude": "34.5003400",
+                                "longitude": "-106.0008500",
+                                "administrationCode": "NM",
+                                "countryCode": "US"
+                            },
+                            "score": "1",
+                            "id": "83953383",
+                            "version": "11303045"
+                        }
+                    ],
+                    "id": "83953330",
+                    "version": "11303063"
+                },
+                "id": "6405031",
+                "version": "6405031"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "KNME Television, 1994-2003",
+            "id": "10931913",
+            "version": "1592477"
+        }
+    ],
+    "id": "10931907",
+    "version": "1592478"
+}

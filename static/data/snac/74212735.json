@@ -1,0 +1,411 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60k7fpp",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-20",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T08:58:33",
+            "standardDateTime": "2016-08-19T08:58:33",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T08:58:33",
+            "standardDateTime": "2016-08-19T08:58:33",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/754864301",
+            "id": "74212736",
+            "version": "10846595"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/stanford\/cstmus\/ars0065.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" source=\"ingest\">KCSM (Radio station : San Mateo, Calif.)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt0z09r4w0",
+            "id": "74212737",
+            "version": "10846595"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KCSM (Radio station: San Mateo, Calif.)",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KCSM (Radio station: San Mateo, Calif.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "74212739",
+                    "version": "10846595"
+                }
+            ],
+            "id": "74212738",
+            "version": "10846595",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82872538",
+                    "version": "10846595"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "74212735",
+            "targetConstellation": "31490645",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60k7fpp",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6np3gjq",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Hadlock, Richard.",
+            "id": "74212744",
+            "version": "10846595"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt0z09r4w0",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Richard Hadlock Annals of Jazz Collection<\/unittitle>\n                  <unitdate>1982-1991<\/unitdate>\n                  <unitid>ARS.0065<\/unitid>\n                  <origination>\n                     <persname>Hadlock, Richard<\/persname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>12 boxes, <\/extent>\n                     <extent>231 open reel tapes<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Archive of Recorded Sound<\/corpname>\n                  <\/repository>\n                  <abstract>Open reel tape recordings of the Annals of Jazz radio program produced and hosted by historian and educator Richard Hadlock, broadcast on KCSM, San Mateo between 1982 and 1991.<\/abstract>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Richard Hadlock Annals of Jazz Collection 1982-1991",
+                "abstract": "Open reel tape recordings of the Annals of Jazz radio program produced and hosted by historian and educator Richard Hadlock, broadcast on KCSM, San Mateo between 1982 and 1991.",
+                "extent": "12 boxes,; 231 open reel tapes",
+                "displayEntry": "Richard Hadlock Annals of Jazz Collection, 1982-1991",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hadlock, Richard",
+                        "id": "11592578",
+                        "version": "6651103"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11592579",
+                        "version": "6651103"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63z8wdk",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archive of Recorded Sound",
+                            "preferenceScore": "99",
+                            "id": "76791753",
+                            "version": "11235849"
+                        }
+                    ],
+                    "id": "76791752",
+                    "version": "11235852"
+                },
+                "id": "6651103",
+                "version": "6651103"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Richard Hadlock Annals of Jazz Collection, 1982-1991",
+            "id": "74212746",
+            "version": "10846595"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/754864301",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:754864301<\/recordOrigin>\n                     <recordContentSource>ISIL:CSt<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Hadlock, Richard.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>KCSM (Radio station: San Mateo, Calif.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>[Richard Hadlock Annals of Jazz Collection].<\/title>\n                  <\/titleInfo>\n                  <abstract>Open reel tape recordings of the \"Annals of Jazz\" radio program produced and hosted by historian and educator Richard Hadlock, as broadcast on KCSM in San Mateo, California between 1982 and 1991. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "[Richard Hadlock Annals of Jazz Collection].",
+                "abstract": "Open reel tape recordings of the \"Annals of Jazz\" radio program produced and hosted by historian and educator Richard Hadlock, as broadcast on KCSM in San Mateo, California between 1982 and 1991. ",
+                "extent": "231 open reel tapes (12 boxes)",
+                "displayEntry": "Hadlock, Richard. [Richard Hadlock Annals of Jazz Collection].",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hadlock, Richard.",
+                        "id": "10901144",
+                        "version": "8130831"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KCSM (Radio station: San Mateo, Calif.)",
+                        "id": "10901145",
+                        "version": "8130831"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r60dtf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Stanford University. Department of Special Collections and University Archives",
+                            "preferenceScore": "99",
+                            "id": "83740282",
+                            "version": "11288677"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Stanford University, Interlibrary Service",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Green Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740287",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Arguello Way",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740288",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740289",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740290",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "94305-6004",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740291",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740292",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15165",
+                                "name": "Stanford University, Interlibrary Service",
+                                "latitude": "37.4313698",
+                                "longitude": "-122.1689224"
+                            },
+                            "confirmed": true,
+                            "id": "83740286",
+                            "version": "11288638"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Department of Special Collections and University Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford University Libraries 557 Escondido Mall Stanford, CA 94305-6064 Email: speccollref@stanford.edu Phone: (650) 725-1022 URL: http:\/\/www-sul.stanford.edu\/depts\/spc\/spc.html",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740294",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "id": "83740293",
+                            "version": "11288638"
+                        }
+                    ],
+                    "id": "83740278",
+                    "version": "11288678"
+                },
+                "id": "8130831",
+                "version": "8130831"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Hadlock, Richard. [Richard Hadlock Annals of Jazz Collection].",
+            "id": "74212745",
+            "version": "10846595"
+        }
+    ],
+    "id": "74212735",
+    "version": "10846596"
+}

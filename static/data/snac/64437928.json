@@ -1,0 +1,282 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6161f6n",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T13:52:06",
+            "standardDateTime": "2016-08-17T13:52:06",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T13:52:06",
+            "standardDateTime": "2016-08-17T13:52:06",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/221161773",
+            "id": "64437929",
+            "version": "9422102"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Flint (Mich.) Board of Education.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Flint (Mich.) Board of Education.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "64437931",
+                    "version": "9422102"
+                }
+            ],
+            "id": "64437930",
+            "version": "9422102",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82072498",
+                    "version": "9422102"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "64437928",
+            "targetConstellation": "15322514",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6161f6n",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zp8rvr",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Beasley, Olive R. 1903-1999.",
+            "id": "64437934",
+            "version": "9422102"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/221161773",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:221161773<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-EUQ<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Beasley, Olive R. 1903-1999.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers 1942-1995.<\/title>\n                  <\/titleInfo>\n                  <abstract>Files concerning her activity with the Michigan Civil Rights Commission, as liaison with voluntary organizations, governmental bodies, and also as officer of other organizations. <\/abstract>\n                  <name>\n                     <namePart>University of Michigan, Flint<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers 1942-1995.",
+                "abstract": "Files concerning her activity with the Michigan Civil Rights Commission, as liaison with voluntary organizations, governmental bodies, and also as officer of other organizations. ",
+                "extent": "58 linear ft.",
+                "displayEntry": "Beasley, Olive R. 1903-1999. Papers 1942-1995.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Beasley, Olive R. 1903-1999.",
+                        "id": "8932852",
+                        "version": "7028035"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tz4420",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Michigan-Flint, Frances Willson Thompson Library",
+                            "preferenceScore": "99",
+                            "id": "76787003",
+                            "version": "11234053"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Michigan-Flint, Frances Willson Thompson Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "303 East Kearsley Street",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787008",
+                                    "version": "11234053"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Flint",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787009",
+                                    "version": "11234053"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MI",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787010",
+                                    "version": "11234053"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "48502-1950",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787011",
+                                    "version": "11234053"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787012",
+                                    "version": "11234053"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16477",
+                                "name": "University of Michigan-Flint, Frances Willson Thompson Library",
+                                "latitude": "43.0183067",
+                                "longitude": "-83.6885452"
+                            },
+                            "confirmed": true,
+                            "id": "76787007",
+                            "version": "11234053"
+                        }
+                    ],
+                    "id": "76787002",
+                    "version": "11234056"
+                },
+                "id": "7028035",
+                "version": "7028035"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Beasley, Olive R. 1903-1999. Papers 1942-1995.",
+            "id": "64437935",
+            "version": "9422102"
+        }
+    ],
+    "id": "64437928",
+    "version": "9422103"
+}

@@ -1,0 +1,287 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64z8j8z",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-04",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T00:02:26",
+            "standardDateTime": "2016-08-10T00:02:26",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T00:02:26",
+            "standardDateTime": "2016-08-10T00:02:26",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/131704890",
+            "id": "5821028",
+            "version": "839147"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/hou02153.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Billboard.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/hou02153\/catalog",
+            "id": "5821027",
+            "version": "839147"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "5821029",
+            "version": "839147"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Billboard",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Billboard",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "5821031",
+                    "version": "839147"
+                }
+            ],
+            "id": "5821030",
+            "version": "839147",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77274641",
+                    "version": "839147"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5821026",
+            "targetConstellation": "46461210",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w64z8j8z",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tm8zzn",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Beal, George Brinton.",
+            "id": "5821038",
+            "version": "839147"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Billboard",
+            "uri": "https:\/\/viaf.org\/viaf\/131704890",
+            "id": "5821037",
+            "version": "839147"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/hou02153\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Harvard Theatre Collection, Houghton Library, Harvard College Library,\n\t\t\t\tHarvard University <\/repository>\n                  <physloc>Harvard Depository <\/physloc>\n                  <note>\n                     <p>This collection is shelved offsite at the Harvard Depository. See access\n\t\t\t\t\trestrictions below for additional information.<\/p>\n                  <\/note>\n                  <unitid>MS Thr 675 <\/unitid>\n                  <origination>\n                     <persname>Beal, George Brinton. <\/persname>\n                  <\/origination>\n                  <unittitle>George Brinton Beal papers, circus collection, and other theatrical\n\t\t\t\tcollections, <\/unittitle>\n                  <unitdate>1862-1969. <\/unitdate>\n                  <physdesc>\n                     <extent>31 boxes (12 linear ft.)<\/extent>\n                  <\/physdesc>\n                  <langmaterial>Collection materials are primarily in <language>English,\n\t\t\t\t<\/language>with a few in <language>German, <\/language>\n                     <language>Danish, <\/language>and <language>French.\n\t\t\t\t<\/language>\n                  <\/langmaterial>\n                  <abstract>Personal papers of and materials collected by American critic, editor,\n\t\t\t\tlecturer, and writer George Brinton Beal. Especially concerns the circus, rodeo,\n\t\t\t\ttheater, and other forms of popular entertainment. <\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "George Brinton Beal papers, circus collection, and other theatricalcollections, 1862-1969.",
+                "abstract": "Personal papers of and materials collected by American critic, editor,lecturer, and writer George Brinton Beal. Especially concerns the circus, rodeo,theater, and other forms of popular entertainment.",
+                "extent": "31 boxes (12 linear ft.)",
+                "displayEntry": "George Brinton Beal papers, circus collection, and other theatrical collections, 1862-1969.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Beal, George Brinton. ",
+                        "id": "11439175",
+                        "version": "6385213"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11439176",
+                        "version": "6385213"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "159",
+                            "term": "ger",
+                            "type": "language_code",
+                            "description": "German"
+                        },
+                        "id": "11439177",
+                        "version": "6385213"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "109",
+                            "term": "dan",
+                            "type": "language_code",
+                            "description": "Danish"
+                        },
+                        "id": "11439178",
+                        "version": "6385213"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "144",
+                            "term": "fre",
+                            "type": "language_code",
+                            "description": "French"
+                        },
+                        "id": "11439179",
+                        "version": "6385213"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6x45m72",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard Theatre Collection, Houghton Library, Harvard College Library, Harvard University.",
+                            "preferenceScore": "99",
+                            "id": "76793543",
+                            "version": "11237589"
+                        }
+                    ],
+                    "id": "76793542",
+                    "version": "11237592"
+                },
+                "id": "6385213",
+                "version": "6385213"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "George Brinton Beal papers, circus collection, and other theatrical collections, 1862-1969.",
+            "id": "5821039",
+            "version": "839147"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "7833",
+                "term": "French",
+                "type": "nationality"
+            },
+            "id": "5821034",
+            "version": "839147"
+        }
+    ],
+    "id": "5821026",
+    "version": "839148"
+}

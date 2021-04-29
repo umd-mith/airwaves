@@ -1,0 +1,522 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6h72h53",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T17:00:38",
+            "standardDateTime": "2016-08-10T17:00:38",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T17:00:38",
+            "standardDateTime": "2016-08-10T17:00:38",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/26485367",
+            "id": "13872706",
+            "version": "2019932"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Siegel, Seymour Nathaniel",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Siegel, Seymour Nathaniel",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "13872708",
+                    "version": "2019932"
+                }
+            ],
+            "id": "13872707",
+            "version": "2019932",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77936165",
+                    "version": "2019932"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "13872704",
+                "version": "2019932"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">Seymour Nathaniel Siegel was program director of New York City's public radio station, WNYC, from 1934-1947. In 1947, he was appointed director of New York City's Municipal Broadcasting System, a position he held until 1971. Throughout his career he taught broadcasting at colleges in New York and Boston. He became Dean of Educational Technology at the City College of New York in 1975. He passed away in 1978.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Seymour Nathaniel Siegel papers, 1918-1977 (University of Wyoming, American Heritage Center). WorldCat record id: 26485367<\/citation>\n         <\/biogHist>",
+            "id": "13872703",
+            "version": "2019932"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "13872702",
+            "targetConstellation": "55761148",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6h72h53",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zp92b4",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "New York (N.Y.). Municipal Broadcasting System.",
+            "id": "13872726",
+            "version": "2019932"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "13872702",
+            "targetConstellation": "9014579",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6h72h53",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bk5jh1",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WNYC (Radio station : New York, N.Y.)",
+            "id": "13872727",
+            "version": "2019932"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/26485367",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:26485367<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-AHJ<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Siegel, Seymour Nathaniel<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Seymour Nathaniel Siegel papers, 1918-1977<\/title>\n                  <\/titleInfo>\n                  <abstract>This collection contains material documenting Siegel's career in television and radio broadcasting in New York City.  Correspondence, meeting minutes, radio transcripts, reports, memos, speeches, and manuscripts can be found throughout the collection.  These materials pertain to radio and television stations and organizations such as Community Antenna TV (CATV); the Broadcasting Foundation of America; WNYC; and WUHF.  There are also audio reel tapes, scrapbooks and photos, radio program scripts, and editorials.  Additional material includes personal correspondence, family photos, and teaching material. <\/abstract>\n                  <name>\n                     <namePart>University of Wyoming, American Heritage Center<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Seymour Nathaniel Siegel papers, 1918-1977",
+                "abstract": "This collection contains material documenting Siegel's career in television and radio broadcasting in New York City.  Correspondence, meeting minutes, radio transcripts, reports, memos, speeches, and manuscripts can be found throughout the collection.  These materials pertain to radio and television stations and organizations such as Community Antenna TV (CATV); the Broadcasting Foundation of America; WNYC; and WUHF.  There are also audio reel tapes, scrapbooks and photos, radio program scripts, and editorials.  Additional material includes personal correspondence, family photos, and teaching material. ",
+                "extent": "63 cubic ft. (122 containers)",
+                "displayEntry": "Siegel, Seymour Nathaniel. Seymour Nathaniel Siegel papers, 1918-1977",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Siegel, Seymour Nathaniel",
+                        "id": "9146198",
+                        "version": "7163177"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6wx86cn",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Wyoming, American Heritage Center",
+                            "preferenceScore": "99",
+                            "id": "76788908",
+                            "version": "11234701"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Wyoming, American Heritage Center",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1000 E University Ave",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788913",
+                                    "version": "11234701"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Dept 3924",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788914",
+                                    "version": "11234701"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Laramie",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788915",
+                                    "version": "11234701"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WY",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788916",
+                                    "version": "11234701"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "82071-2000",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788917",
+                                    "version": "11234701"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788918",
+                                    "version": "11234701"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16165",
+                                "name": "University of Wyoming, American Heritage Center",
+                                "latitude": "41.3108000",
+                                "longitude": "-105.5900000"
+                            },
+                            "confirmed": true,
+                            "id": "76788912",
+                            "version": "11234701"
+                        }
+                    ],
+                    "id": "76788907",
+                    "version": "11234704"
+                },
+                "id": "7163177",
+                "version": "7163177"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Siegel, Seymour Nathaniel. Seymour Nathaniel Siegel papers, 1918-1977",
+            "id": "13872728",
+            "version": "2019932"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "New York (State)--New York",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "13872711",
+            "version": "2019932",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "New York (State)--New York",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "13872712",
+                    "version": "2019932"
+                }
+            ]
+        },
+        {
+            "dataType": "Place",
+            "original": "Massachusetts--Boston",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "13872713",
+            "version": "2019932",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Massachusetts--Boston",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "13872714",
+                    "version": "2019932"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "328877",
+                "term": "Short wave radio",
+                "type": "subject"
+            },
+            "id": "13872721",
+            "version": "2019932"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "296612",
+                "term": "Public radio",
+                "type": "subject"
+            },
+            "id": "13872720",
+            "version": "2019932"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "295521",
+                "term": "Public broadcasting",
+                "type": "subject"
+            },
+            "id": "13872718",
+            "version": "2019932"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "79523",
+                "term": "Cable television",
+                "type": "subject"
+            },
+            "id": "13872724",
+            "version": "2019932"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "297358",
+                "term": "Public television",
+                "type": "subject"
+            },
+            "id": "13872719",
+            "version": "2019932"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "301799",
+                "term": "Radio broadcasting",
+                "type": "subject"
+            },
+            "id": "13872723",
+            "version": "2019932"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "301692",
+                "term": "Radio addresses, debates, etc",
+                "type": "subject"
+            },
+            "id": "13872725",
+            "version": "2019932"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302325",
+                "term": "Radio producers and directors",
+                "type": "subject"
+            },
+            "id": "13872715",
+            "version": "2019932"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "106755",
+                "term": "Communication--Study and teaching",
+                "type": "subject"
+            },
+            "id": "13872716",
+            "version": "2019932"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "353970",
+                "term": "Television--Ultrahigh frequency apparatus and supplies",
+                "type": "subject"
+            },
+            "id": "13872722",
+            "version": "2019932"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302441",
+                "term": "Radio scripts",
+                "type": "subject"
+            },
+            "id": "13872717",
+            "version": "2019932"
+        }
+    ],
+    "id": "13872702",
+    "version": "2019933",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1918",
+            "fromDateOriginal": "active 1918",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1977",
+            "toDateOriginal": "active 1977",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "13872705",
+            "version": "2019932"
+        }
+    ]
+}

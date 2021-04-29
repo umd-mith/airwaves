@@ -1,0 +1,715 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6bs6328",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T20:14:02",
+            "standardDateTime": "2016-08-11T20:14:02",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T20:14:02",
+            "standardDateTime": "2016-08-11T20:14:02",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/617536263",
+            "id": "24818167",
+            "version": "3625715"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/umn\/uarc00255.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"700 1\" rules=\"aacr2\" source=\"lcnaf\">Tyler, Tracy Ferris, b. 1895 -- Archives.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/special.lib.umn.edu\/findaid\/xml\/uarc00255.xml",
+            "id": "24818169",
+            "version": "3625715"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/56986413",
+            "id": "24818170",
+            "version": "3625715"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/62703033",
+            "id": "24818168",
+            "version": "3625715"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "24818171",
+            "version": "3625715"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Tyler, Tracy Ferris, 1895-",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Tyler, Tracy Ferris, 1895-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "24818173",
+                    "version": "3625715"
+                }
+            ],
+            "id": "24818172",
+            "version": "3625715",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78832634",
+                    "version": "3625715"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Tyler, Tracy Ferris, b. 1895",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Tyler, Tracy Ferris, b. 1895",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "24818177",
+                    "version": "3625715"
+                }
+            ],
+            "id": "24818176",
+            "version": "3625715",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    },\n    {\n        \"contributor\": \"umn\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78832635",
+                    "version": "3625715"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Tyler, Tracy Ferris",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Tyler, Tracy Ferris",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "24818182",
+                    "version": "3625715"
+                }
+            ],
+            "id": "24818181",
+            "version": "3625715",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78832636",
+                    "version": "3625715"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "24818165",
+                "version": "3625715"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">Tracy Ferris Tyler, B.A., Doane College (Crete, NE) (1916); M.A., University of Nebraska (1923); Ph.D., Columbia University Teachers College (1933). Professor of education at the University of Minnesota and served as coordinator of the University's Foreign Operations Administration with Seoul National University. Pioneer in the field of radio and television education.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Tracy F. Tyler papers, 1933-1964. (University of Minnesota, Minneapolis). WorldCat record id: 617536263<\/citation>\n         \n            <p xmlns=\"urn:isbn:1-931666-33-4\">Tracy Ferris Tyler, B.A., Doane College (Crete, NE) (1916); M.A., University of Nebraska (1923); Ph.D., Columbia University Teachers College (1933). Professor of education at the University of Minnesota and served as coordinator of the University's Foreign Operations Administration with Seoul National University. Pioneer in the field of radio and television education.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Tracy Tyler was born on January 16, 1895 in Washington, D.C. He earned his B.A. degree in 1916 from Doane College (Crete, NE), his M.A. in 1923 from the University of Nebraska, and his Ph.D. in 1933 from Columbia University's Teachers College. From 1916-1930, Tyler was a teacher and superintendent of secondary education in Nebraska. He joined the faculty at the University of Minnesota in 1938 as a lecturer in the college of education. He was promoted to assistant professor in 1939, associate professor in 1949 and professor in 1954. He also served as assistant to the dean of the summer school, and assistant to the vice president for academic administration (1961-1963). During World War II, Tyler was appointed as coordinator for the University's defense committee, which planned and oversaw the University's war projects.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Tyler was appointed as coordinator of was appointed to the post of coordinator of the University's Foreign Operations Administration with Seoul National University of Korea (S\u014ful Taehakkyo) in 1954. He served in this capacity until the project ended in 1962. He retired from the University of Minnesota in 1963.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Tyler was considered a pioneer in the field of radio and television education. He began teaching radio and television courses at the University in 1938. He served as the secretary and research director of the National Committee on Education by Radio (1931-1936), was editor of the Journal of the Association for Education by Radio-Television, and served on the executive committee of the Educational Press Association of America.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the guide to the Tracy F. Tyler papers, 1933-1964, (University of Minnesota Libraries. University of Minnesota Archives [uarc])<\/citation>\n         <\/biogHist>",
+            "id": "24818164",
+            "version": "3625715"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "24818163",
+            "targetConstellation": "52986448",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bs6328",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64780st",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Minnesota",
+            "id": "24818195",
+            "version": "3625715"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Tyler, Tracy Ferris, 1895-",
+            "uri": "https:\/\/viaf.org\/viaf\/56986413",
+            "id": "24818188",
+            "version": "3625715"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no2001076852",
+            "id": "24818189",
+            "version": "3625715"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no2001076852",
+            "id": "24818190",
+            "version": "3625715"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/special.lib.umn.edu\/findaid\/xml\/uarc00255.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>University of\n\t\t  Minnesota Libraries. <subarea>University of Minnesota Archives [uarc]<\/subarea>\n                  <\/repository>\n                  <origination>\n                     <persname>Tyler, Tracy Ferris, b. 1895 <\/persname>\n                  <\/origination>\n                  <unittitle>Tracy F. Tyler\n\t\t  papers<\/unittitle>\n                  <unitdate>1933-1964<\/unitdate>\n                  <physdesc>\n                     <extent>1 box (1.0 cubic\n\t\t  feet)<\/extent>\n                  <\/physdesc>\n                  <abstract>Collection contains the\n\t\t  papers of Tracy F. Tyler, professor of education at the University of\n\t\t  Minnesota. <\/abstract>\n                  <unitid>uarc 255<\/unitid>\n                  <langmaterial>\n                     <language>Collection materials in\n\t\tEnglish<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Tracy F. Tyler  papers 1933-1964",
+                "abstract": "Collection contains the  papers of Tracy F. Tyler, professor of education at the University of  Minnesota.",
+                "extent": "1 box (1.0 cubic  feet)",
+                "displayEntry": "Tracy F. Tyler papers, 1933-1964",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tyler, Tracy Ferris, b. 1895 ",
+                        "id": "11599909",
+                        "version": "6618930"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kn01nk",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Minnesota Libraries. University of Minnesota Archives. [uarc]",
+                            "preferenceScore": "99",
+                            "id": "76797813",
+                            "version": "11241593"
+                        }
+                    ],
+                    "id": "76797812",
+                    "version": "11241596"
+                },
+                "id": "6618930",
+                "version": "6618930"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Tracy F. Tyler papers, 1933-1964",
+            "id": "24818198",
+            "version": "3625715"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/62703033",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:62703033<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-MNU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Tyler, Tracy Ferris, b. 1895.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>420 U of M staff in Who's who in America : an analysis \/ by Tracy F. Tyler. [1962]<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>University of Minnesota, Minneapolis<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "420 U of M staff in Who's who in America : an analysis \/ by Tracy F. Tyler. [1962]",
+                "extent": "20 leaves ; 28 cm.",
+                "displayEntry": "Tyler, Tracy Ferris, b. 1895. 420 U of M staff in Who's who in America : an analysis \/ by Tracy F. Tyler.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tyler, Tracy Ferris, b. 1895.",
+                        "id": "10354865",
+                        "version": "7858163"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6p66b5r",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Minnesota, Minneapolis",
+                            "preferenceScore": "99",
+                            "id": "76787104",
+                            "version": "11234089"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Minnesota, Minneapolis",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "499 Wilson Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787109",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "309 19th Ave S",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787110",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Minneapolis",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787111",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MN",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787112",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "55455-0414",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787113",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787114",
+                                    "version": "11234089"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16069",
+                                "name": "University of Minnesota, Minneapolis",
+                                "latitude": "44.9761000",
+                                "longitude": "-93.2309000"
+                            },
+                            "confirmed": true,
+                            "id": "76787108",
+                            "version": "11234089"
+                        }
+                    ],
+                    "id": "76787103",
+                    "version": "11234092"
+                },
+                "id": "7858163",
+                "version": "7858163"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Tyler, Tracy Ferris, b. 1895. 420 U of M staff in Who's who in America : an analysis \/ by Tracy F. Tyler.",
+            "id": "24818197",
+            "version": "3625715"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/617536263",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:617536263<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-MNU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Tyler, Tracy Ferris, b. 1895.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Tracy F. Tyler papers, 1933-1964.<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection contains the papers of Tracy F. Tyler, professor of education at the University of Minnesota. The collection documents Tracy Tyler's national role in broadcast and radio education. Materials include correspondence, speeches, and writings with such groups as the American Council on Education's Advisory Committee on Education, National Committee on Education by Radio, and the Federal Radio Education Committee. <\/abstract>\n                  <name>\n                     <namePart>University of Minnesota, Minneapolis<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Tracy F. Tyler papers, 1933-1964.",
+                "abstract": "Collection contains the papers of Tracy F. Tyler, professor of education at the University of Minnesota. The collection documents Tracy Tyler's national role in broadcast and radio education. Materials include correspondence, speeches, and writings with such groups as the American Council on Education's Advisory Committee on Education, National Committee on Education by Radio, and the Federal Radio Education Committee. ",
+                "extent": "1 box (1.0 cubic feet)",
+                "displayEntry": "Tyler, Tracy Ferris, b. 1895. Tracy F. Tyler papers, 1933-1964.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tyler, Tracy Ferris, b. 1895.",
+                        "id": "10190742",
+                        "version": "7807761"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6p66b5r",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Minnesota, Minneapolis",
+                            "preferenceScore": "99",
+                            "id": "76787104",
+                            "version": "11234089"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Minnesota, Minneapolis",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "499 Wilson Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787109",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "309 19th Ave S",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787110",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Minneapolis",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787111",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MN",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787112",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "55455-0414",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787113",
+                                    "version": "11234089"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787114",
+                                    "version": "11234089"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16069",
+                                "name": "University of Minnesota, Minneapolis",
+                                "latitude": "44.9761000",
+                                "longitude": "-93.2309000"
+                            },
+                            "confirmed": true,
+                            "id": "76787108",
+                            "version": "11234089"
+                        }
+                    ],
+                    "id": "76787103",
+                    "version": "11234092"
+                },
+                "id": "7807761",
+                "version": "7807761"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Tyler, Tracy Ferris, b. 1895. Tracy F. Tyler papers, 1933-1964.",
+            "id": "24818196",
+            "version": "3625715"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "353564",
+                "term": "Television in education",
+                "type": "subject"
+            },
+            "id": "24818191",
+            "version": "3625715"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302079",
+                "term": "Radio in education",
+                "type": "subject"
+            },
+            "id": "24818192",
+            "version": "3625715"
+        }
+    ],
+    "id": "24818163",
+    "version": "3625716",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1895",
+            "fromDateOriginal": "1895",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "24818166",
+            "version": "3625715"
+        }
+    ]
+}

@@ -1,0 +1,1683 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6wm7xm0",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T09:14:24",
+            "standardDateTime": "2016-08-12T09:14:24",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T09:14:24",
+            "standardDateTime": "2016-08-12T09:14:24",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122532404",
+            "id": "29462317",
+            "version": "4302197"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/39624692",
+            "id": "29462318",
+            "version": "4302197"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nypl\/rha20481.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">All India Radio<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archives.nypl.org\/rha\/20481",
+            "id": "29462319",
+            "version": "4302197"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/ahub\/f_19218.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"marc 610\" rules=\"ncarules\">All-India Radio<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archiveshub.ac.uk\/data\/gb102-ppms21",
+            "id": "29462322",
+            "version": "4302197"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/131263156",
+            "id": "29462323",
+            "version": "4302197"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/mus00008.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">All India Radio<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/mus00008\/catalog",
+            "id": "29462321",
+            "version": "4302197"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/hou00448.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">All India radio.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/hou00448\/catalog",
+            "id": "29462320",
+            "version": "4302197"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "29462324",
+            "version": "4302197"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "All-India Radio",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "All-India Radio",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462326",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462325",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"NLA\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"nypl\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"ahub\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207575",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "All-India Radio New Delhi",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "All-India Radio New Delhi",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462336",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462335",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207576",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "A.I.R",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "A.I.R",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462339",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462338",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207577",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Ministry of Information and Broadcasting (India) All India Radio",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Ministry of Information and Broadcasting (India) All India Radio",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462342",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462341",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207578",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "AIR (All India Radio)",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "AIR (All India Radio)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462345",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462344",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207579",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "\u0100k\u0101\u015bav\u0101\u1e47\u012b New Delhi",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "\u0100k\u0101\u015bav\u0101\u1e47\u012b New Delhi",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462348",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462347",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207580",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Akashvani New Delhi",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Akashvani New Delhi",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462351",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462350",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207581",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "India All India Radio",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "India All India Radio",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462354",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462353",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207582",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "AIR",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "AIR",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462357",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462356",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207583",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "A\u0304ka\u0304s\u0301ava\u0304n\u0323i\u0304",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "A\u0304ka\u0304s\u0301ava\u0304n\u0323i\u0304",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462360",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462359",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207584",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "\u0906\u0915\u093e\u0936\u0935\u093e\u0923\u0940",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "\u0906\u0915\u093e\u0936\u0935\u093e\u0923\u0940",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462363",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462362",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207585",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "A\u0304l Ind\u0323iya\u0304 Raid\u0323iyau",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "A\u0304l Ind\u0323iya\u0304 Raid\u0323iyau",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462366",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462365",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207586",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "A\u0304ka\u0304s\u0301ava\u0304n\u0323i\u0304 Maha\u0304nides\u0301a\u0304laya",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "A\u0304ka\u0304s\u0301ava\u0304n\u0323i\u0304 Maha\u0304nides\u0301a\u0304laya",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462369",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462368",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207587",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Akashvani",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Akashvani",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462372",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462371",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207588",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "A.I.R. (All India Radio)",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "A.I.R. (All India Radio)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462375",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462374",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207589",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Akasavani Mahanidesalya",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Akasavani Mahanidesalya",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462378",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462377",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207590",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "AIR Abkuerzung",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "AIR Abkuerzung",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462381",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462380",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207591",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "\u0100k\u0101\u015bav\u0101\u1e47\u012b Mah\u0101nide\u015b\u0101laya",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "\u0100k\u0101\u015bav\u0101\u1e47\u012b Mah\u0101nide\u015b\u0101laya",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462384",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462383",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207592",
+                    "version": "4302197"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "\u0100l In\u1e0diy\u0101 Rai\u1e0diyau",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "\u0100l In\u1e0diy\u0101 Rai\u1e0diyau",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29462387",
+                    "version": "4302197"
+                }
+            ],
+            "id": "29462386",
+            "version": "4302197",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79207593",
+                    "version": "4302197"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "29462315",
+            "targetConstellation": "49817362",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wm7xm0",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wd42r7",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Fischer, Ruth, 1895-",
+            "id": "29462400",
+            "version": "4302197"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "29462315",
+            "targetConstellation": "768077",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wm7xm0",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67518ds",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "James Rubin",
+            "id": "29462401",
+            "version": "4302197"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "29462315",
+            "targetConstellation": "43649678",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wm7xm0",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6m118r9",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Society for Asian Music.",
+            "id": "29462399",
+            "version": "4302197"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "All-India Radio",
+            "uri": "https:\/\/viaf.org\/viaf\/131263156",
+            "id": "29462396",
+            "version": "4302197"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n50046744",
+            "id": "29462397",
+            "version": "4302197"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n50046744",
+            "id": "29462398",
+            "version": "4302197"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archiveshub.ac.uk\/data\/gb102-ppms21",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository> School of Oriental and African Studies    <\/repository>\n                  <unitid>   GB 102 PP MS 21         <\/unitid>\n                  <unittitle>   Bak, Dr. Arnold Adrian         <\/unittitle>\n                  <unitdate>   c.1932-1961         <\/unitdate>\n                  <physdesc>\n                     <extent>   7 boxes          <\/extent>\n                  <\/physdesc>\n                  <langmaterial>\n                     <language>Sinhalese<\/language>,          <language>Tamil<\/language>,          <language>Urdu<\/language>,          <language>Sanskrit<\/language>,          <language>Marati<\/language>           and <language>Dutch.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Bak, Dr. Arnold Adrian c.1932-1961",
+                "extent": "7 boxes",
+                "displayEntry": "Bak, Dr. Arnold Adrian, c.1932-1961",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "398",
+                            "term": "sin",
+                            "type": "language_code",
+                            "description": "Sinhala; Sinhalese"
+                        },
+                        "id": "11308142",
+                        "version": "6280388"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "436",
+                            "term": "tam",
+                            "type": "language_code",
+                            "description": "Tamil"
+                        },
+                        "id": "11308143",
+                        "version": "6280388"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "474",
+                            "term": "urd",
+                            "type": "language_code",
+                            "description": "Urdu"
+                        },
+                        "id": "11308144",
+                        "version": "6280388"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "387",
+                            "term": "san",
+                            "type": "language_code",
+                            "description": "Sanskrit"
+                        },
+                        "id": "11308145",
+                        "version": "6280388"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "122",
+                            "term": "dut",
+                            "type": "language_code",
+                            "description": "Dutch; Flemish"
+                        },
+                        "id": "11308146",
+                        "version": "6280388"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w67n0xs1",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "School of Oriental and African Studies",
+                            "preferenceScore": "99",
+                            "id": "76795927",
+                            "version": "11239777"
+                        }
+                    ],
+                    "id": "76795926",
+                    "version": "11239780"
+                },
+                "id": "6280388",
+                "version": "6280388"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Bak, Dr. Arnold Adrian, c.1932-1961",
+            "id": "29462407",
+            "version": "4302197"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122532404",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122532404<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NYP<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Society for Asian Music.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Chakravarty, Amiya Chandra.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Cowell, Henry, 1897-1965.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Frost, Robert, 1874-1963.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Gor, Shirish.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hovhaness, Alan, 1911-2000.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Shankar, Ravi, 1920-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Vasanthakumari, M. L., 1928-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>All India Radio.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Collection of noncommercial recordings [sound recording], 1959-1966.<\/title>\n                  <\/titleInfo>\n                  <abstract>These music and spoken word recordings were collected under the auspices of the Society for Asian Music, and the contents of the recordings primarily concern Asian music, in both specific and general contexts. <\/abstract>\n                  <name>\n                     <namePart>New York Public Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Collection of noncommercial recordings [sound recording], 1959-1966.",
+                "abstract": "These music and spoken word recordings were collected under the auspices of the Society for Asian Music, and the contents of the recordings primarily concern Asian music, in both specific and general contexts. ",
+                "extent": "108 sound tape reels : analog.",
+                "displayEntry": "Society for Asian Music. Collection of noncommercial recordings [sound recording], 1959-1966.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Society for Asian Music.",
+                        "id": "8504155",
+                        "version": "6751741"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Chakravarty, Amiya Chandra.",
+                        "id": "8504156",
+                        "version": "6751741"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cowell, Henry, 1897-1965.",
+                        "id": "8504157",
+                        "version": "6751741"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Frost, Robert, 1874-1963.",
+                        "id": "8504158",
+                        "version": "6751741"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Gor, Shirish.",
+                        "id": "8504159",
+                        "version": "6751741"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hovhaness, Alan, 1911-2000.",
+                        "id": "8504160",
+                        "version": "6751741"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Shankar, Ravi, 1920-",
+                        "id": "8504161",
+                        "version": "6751741"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Vasanthakumari, M. L., 1928-",
+                        "id": "8504162",
+                        "version": "6751741"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "All India Radio.",
+                        "id": "8504163",
+                        "version": "6751741"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nt1hgv",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "New York Public Library System, NYPL",
+                            "preferenceScore": "99",
+                            "id": "76777394",
+                            "version": "11230529"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "New York Public Library System, NYPL",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Fifth Avenue at 42nd Street",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777399",
+                                    "version": "11230529"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New York",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777400",
+                                    "version": "11230529"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777401",
+                                    "version": "11230529"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10018-2788",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777402",
+                                    "version": "11230529"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777403",
+                                    "version": "11230529"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15028",
+                                "name": "New York Public Library System, NYPL",
+                                "latitude": "40.7534981",
+                                "longitude": "-73.9808884"
+                            },
+                            "confirmed": true,
+                            "id": "76777398",
+                            "version": "11230529"
+                        }
+                    ],
+                    "id": "76777393",
+                    "version": "11230532"
+                },
+                "id": "6751741",
+                "version": "6751741"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Society for Asian Music. Collection of noncommercial recordings [sound recording], 1959-1966.",
+            "id": "29462402",
+            "version": "4302197"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/hou00448\/catalog",
+                "title": "Ruth Fischer papers",
+                "abstract": "Papers of German politician and Communist Party leader Ruth Fischer.",
+                "extent": "167 boxes and 1 volume (84 linear ft.)",
+                "date": "1925-1961",
+                "displayEntry": "Ruth Fischer papers, 1925-1961 (inclusive) 1940-1961 (bulk)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Fischer, Ruth, 1895-. ",
+                        "id": "11437547",
+                        "version": "6383594"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11437549",
+                        "version": "8373915"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "159",
+                            "term": "ger",
+                            "type": "language_code",
+                            "description": "German"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11437548",
+                        "version": "8373915"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "144",
+                            "term": "fre",
+                            "type": "language_code",
+                            "description": "French"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11437550",
+                        "version": "8373915"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "159",
+                            "term": "ger",
+                            "type": "language_code",
+                            "description": "German"
+                        },
+                        "id": "11437548",
+                        "version": "6383594"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11437549",
+                        "version": "6383594"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "144",
+                            "term": "fre",
+                            "type": "language_code",
+                            "description": "French"
+                        },
+                        "id": "11437550",
+                        "version": "6383594"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64n9vjj",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Houghton Library",
+                            "preferenceScore": "99",
+                            "id": "84972051",
+                            "version": "11443403"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Houghton Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Harvard Yard",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937835",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937836",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937837",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138-6534",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937838",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937839",
+                                    "version": "11443394"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15160",
+                                "name": "Harvard University, Houghton Library",
+                                "latitude": "42.3731728",
+                                "longitude": "-71.1159515"
+                            },
+                            "confirmed": true,
+                            "id": "84937834",
+                            "version": "11443394"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts--Cambridge",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84937840",
+                            "version": "11443394"
+                        }
+                    ],
+                    "id": "84937800",
+                    "version": "11443404"
+                },
+                "id": "6383594",
+                "version": "6383594"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Ruth Fischer papers, 1925-1961 (inclusive) 1940-1961 (bulk).",
+            "id": "29462405",
+            "version": "4302197"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/39624692",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:39624692<\/recordOrigin>\n                     <recordContentSource>ISIL:DLC<\/recordContentSource>\n                  <\/recordInfo>\n                  <titleInfo>\n                     <title>[South Asia Pamphlet Collection. Radio in India pamphlets]. &lt;1989- &gt;<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "[South Asia Pamphlet Collection. Radio in India pamphlets]. <1989- >",
+                "extent": "<1> v. : ill. ; 22 cm.",
+                "displayEntry": "[South Asia Pamphlet Collection. Radio in India pamphlets].",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f58cnp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Library of Congress",
+                            "preferenceScore": "99",
+                            "id": "84584414",
+                            "version": "11391735"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Library of Congress",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "role": {
+                                "id": "400241",
+                                "term": "Residence",
+                                "type": "place_role"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "101 Independence Avenue, SE",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400244",
+                                        "term": "Street",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Street",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84584609",
+                                    "version": "11391774"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Washington",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84584610",
+                                    "version": "11391774"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "DC",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84584611",
+                                    "version": "11391774"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20540",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84584612",
+                                    "version": "11391774"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84584613",
+                                    "version": "11391774"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16296",
+                                "name": "Library of Congress",
+                                "latitude": "38.8886299",
+                                "longitude": "-77.0047531"
+                            },
+                            "confirmed": true,
+                            "id": "84584608",
+                            "version": "11391774"
+                        }
+                    ],
+                    "id": "84584398",
+                    "version": "11391775"
+                },
+                "id": "7415602",
+                "version": "7415602"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "[South Asia Pamphlet Collection. Radio in India pamphlets].",
+            "id": "29462403",
+            "version": "4302197"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archives.nypl.org\/rha\/20481",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Society for Asian Music collection of noncommercial recordings [sound recording]<\/unittitle>\n                  <unitdate>1959-1966<\/unitdate>\n                  <unitid>*L (Special) 90-19<\/unitid>\n                  <unitid>20481<\/unitid>\n                  <origination>\n                     <corpname>Society for Asian Music<\/corpname>\n                  <\/origination>\n                  <repository>\n                     <corpname>The New York Public Library. Rodgers and Hammerstein Archives of Recorded Sound.<\/corpname>\n                     <address>\n                        <addressline>New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center<\/addressline>\n                        <addressline>40 Lincoln Center Plaza, New York, NY 10023-7498<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <physdesc>\n                     <extent>108 sound tape reels<\/extent>\n                     <physfacet>analog<\/physfacet>\n                  <\/physdesc>\n                  <abstract>These music and spoken word recordings were collected under the auspices of the Society for Asian Music, and the contents of the recordings primarily concern Asian music, in both specific and general contexts. The Society was also the sponsor of many of the music recitals and lectures within the collection.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Society for Asian Music collection of noncommercial recordings [sound recording] 1959-1966",
+                "abstract": "These music and spoken word recordings were collected under the auspices of the Society for Asian Music, and the contents of the recordings primarily concern Asian music, in both specific and general contexts. The Society was also the sponsor of many of the music recitals and lectures within the collection.",
+                "extent": "108 sound tape reels",
+                "displayEntry": "Society for Asian Music collection of noncommercial recordings [sound recording], 1959-1966",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6jx93s2",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "The New York Public Library. Rodgers and Hammerstein Archives of Recorded Sound.",
+                            "preferenceScore": "99",
+                            "id": "76796836",
+                            "version": "11240665"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "The New York Public Library. Rodgers and Hammerstein Archives of Recorded Sound.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center 40 Lincoln Center Plaza, New York, NY 10023-7498",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76796839",
+                                    "version": "11240665"
+                                }
+                            ],
+                            "id": "76796838",
+                            "version": "11240665"
+                        }
+                    ],
+                    "id": "76796835",
+                    "version": "11240668"
+                },
+                "id": "6316775",
+                "version": "6316775"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Society for Asian Music collection of noncommercial recordings [sound recording], 1959-1966",
+            "id": "29462404",
+            "version": "4302197"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/mus00008\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Archive of World Music, Eda Kuhn Loeb Music Library, Harvard College\n\t\t\t\tLibrary<\/repository>\n                  <origination>\n                     <persname>James Rubin<\/persname>\n                  <\/origination>\n                  <unittitle>Collection of Indian classical music<\/unittitle>\n                  <unitdate>1957-1989<\/unitdate>\n                  <physloc>Archive of World Music<\/physloc>\n                  <unitid>AWM RL 15077-16059<\/unitid>\n                  <physdesc>Sound recordings (1120 reels, 431 discs) and accompanying materials (4 linear\n\t\t\t\tfeet)<\/physdesc>\n                  <abstract>Sound recordings made in India and America between 1957 and 1989. The collection\n\t\t\t\tconsists mostly of Carnatic music with some programs of Hindustani music. These are primarily\n\t\t\t\tlive concert recordings with a few programs recorded from All India Radio. Most of the\n\t\t\t\trecordings were made during the annual concert season in Chennai in December. Several were also\n\t\t\t\tmade at the Ty\u0101gar\u0101ja Ar\u0101dhana Festival that takes place each January in the town of Tiruvay\u0101\u1e5fu.\n\t\t\t\tThe collection also includes copies of commercial recordings of both Indian and non-Indian music\n\t\t\t\tas well as a few miscellaneous recordings. The documentation consists of 32 small handwritten\n\t\t\t\tnotebooks and 15 program books printed by the Music Academy. The collection also includes 431 78\n\t\t\t\tRPM records of Indian and Middle Eastern music as well as several books about Indian\n\t\t\t\tmusic.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Collection of Indian classical music 1957-1989",
+                "abstract": "Sound recordings made in India and America between 1957 and 1989. The collectionconsists mostly of Carnatic music with some programs of Hindustani music. These are primarilylive concert recordings with a few programs recorded from All India Radio. Most of therecordings were made during the annual concert season in Chennai in December. Several were alsomade at the Ty\u0101gar\u0101ja Ar\u0101dhana Festival that takes place each January in the town of Tiruvay\u0101\u1e5fu.The collection also includes copies of commercial recordings of both Indian and non-Indian musicas well as a few miscellaneous recordings. The documentation consists of 32 small handwrittennotebooks and 15 program books printed by the Music Academy. The collection also includes 431 78RPM records of Indian and Middle Eastern music as well as several books about Indianmusic.",
+                "displayEntry": "Collection of Indian classical music, 1957-1989",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "James Rubin",
+                        "id": "11439847",
+                        "version": "6386008"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6vf7n4c",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archive of World Music, Eda Kuhn Loeb Music Library, Harvard College Library",
+                            "preferenceScore": "99",
+                            "id": "76791761",
+                            "version": "11235857"
+                        }
+                    ],
+                    "id": "76791760",
+                    "version": "11235860"
+                },
+                "id": "6386008",
+                "version": "6386008"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Collection of Indian classical music, 1957-1989",
+            "id": "29462406",
+            "version": "4302197"
+        }
+    ],
+    "id": "29462315",
+    "version": "4302198",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1959",
+            "fromDateOriginal": "active 1959",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1966",
+            "toDateOriginal": "active 1966",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "29462316",
+            "version": "4302197"
+        }
+    ]
+}

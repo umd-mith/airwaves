@@ -1,0 +1,833 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T11:40:53",
+            "standardDateTime": "2016-08-18T11:40:53",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T11:40:53",
+            "standardDateTime": "2016-08-18T11:40:53",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/30601848",
+            "id": "69487708",
+            "version": "10157900"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WUWM (Radio station : Milwaukee, Wis.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WUWM (Radio station : Milwaukee, Wis.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "69487710",
+                    "version": "10157900"
+                }
+            ],
+            "id": "69487709",
+            "version": "10157900",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82484607",
+                    "version": "10157900"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "42508659",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kh2wb8",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Bailey, George A.",
+            "id": "69487728",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "64181212",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6gq9wb2",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Barbee, Lloyd A., 1925-2002.",
+            "id": "69487730",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "6000894",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w66b0328",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Fairchild, Thomas E.",
+            "id": "69487731",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "545465",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sf4cjp",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Fish, Ody J., 1925-",
+            "id": "69487732",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "69065520",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6x959fr",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Hill, Ruane B.",
+            "id": "69487733",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "24048738",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kk99ht",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Kennedy, Robert F., 1925-1968.",
+            "id": "69487734",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "65943879",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sq9d11",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Knowles, Warren P.",
+            "id": "69487735",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "42594315",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6154gks",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "McCarthy, Eugene J., 1916-2005.",
+            "id": "69487736",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "9303731",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6x6436q",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Nelson, Gaylord, 1916-",
+            "id": "69487737",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "60831145",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fn267s",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Reuss, Henry S.",
+            "id": "69487738",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "66923740",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67m8nnm",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Wisconsin--Milwaukee",
+            "id": "69487729",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "48630860",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sc2kb1",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Wisconsin--Milwaukee. Dept. of Journalism.",
+            "id": "69487740",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "22360864",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w60m0p60",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Wisconsin--Milwaukee. Dept. of Mass Communication.",
+            "id": "69487741",
+            "version": "10157900"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69487706",
+            "targetConstellation": "61686991",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6385p9q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6v1374r",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Zablocki, Clement John, 1912-1983.",
+            "id": "69487739",
+            "version": "10157900"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/30601848",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:30601848<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-GZN<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WUWM (Radio station : Milwaukee, Wis.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Barbee, Lloyd A., 1925-2002.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Fairchild, Thomas E.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Fish, Ody J., 1925-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hill, Ruane B.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Kennedy, Robert F., 1925-1968.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Knowles, Warren P.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>McCarthy, Eugene J., 1916-2005.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Nelson, Gaylord, 1916-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Reuss, Henry S.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Zablocki, Clement John, 1912-1983.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>University of Wisconsin--Milwaukee. Dept. of Journalism.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>University of Wisconsin--Milwaukee. Dept. of Mass Communication.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>WUWM records, 1950-1991.<\/title>\n                  <\/titleInfo>\n                  <abstract>Records of the WUWM public radio station and the Mass Communication Department of UWM. Includes correspondence and subject files of WUWM (1963-1983) concerning the programming, financing and technical needs of the station, and records of the Mass Communication Department (1951-1976) documenting its relationship to the radio station as well as the curricular and publication activities of the department. Audio tape recordings of the \"College talk,\" \"East Side issues,\" \"Grass roots,\" and miscellaneous programs run on the station (1964-1974) document opinions and political campaigns of public officials, including Lloyd Barbee, John Doyne, Warren Knowles, Gaylord Nelson, Henry Reuss, and Clement Zablocki. Also includes a recording of Robert Kennedy speaking at a political rally for Patrick Lucey at UWM's Baker Field House on September 17, 1966. A number of recordings concern conditions and policies at Wisconsin prisons. <\/abstract>\n                  <name>\n                     <namePart>University of Wisconsin - Milwaukee<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "WUWM records, 1950-1991.",
+                "abstract": "Records of the WUWM public radio station and the Mass Communication Department of UWM. Includes correspondence and subject files of WUWM (1963-1983) concerning the programming, financing and technical needs of the station, and records of the Mass Communication Department (1951-1976) documenting its relationship to the radio station as well as the curricular and publication activities of the department. Audio tape recordings of the \"College talk,\" \"East Side issues,\" \"Grass roots,\" and miscellaneous programs run on the station (1964-1974) document opinions and political campaigns of public officials, including Lloyd Barbee, John Doyne, Warren Knowles, Gaylord Nelson, Henry Reuss, and Clement Zablocki. Also includes a recording of Robert Kennedy speaking at a political rally for Patrick Lucey at UWM's Baker Field House on September 17, 1966. A number of recordings concern conditions and policies at Wisconsin prisons. ",
+                "extent": "9.2 cubic ft.",
+                "displayEntry": "WUWM (Radio station : Milwaukee, Wis.). WUWM records, 1950-1991.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WUWM (Radio station : Milwaukee, Wis.)",
+                        "id": "9390486",
+                        "version": "7287927"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Barbee, Lloyd A., 1925-2002.",
+                        "id": "9390487",
+                        "version": "7287927"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Fairchild, Thomas E.",
+                        "id": "9390488",
+                        "version": "7287927"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Fish, Ody J., 1925-",
+                        "id": "9390489",
+                        "version": "7287927"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hill, Ruane B.",
+                        "id": "9390490",
+                        "version": "7287927"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kennedy, Robert F., 1925-1968.",
+                        "id": "9390491",
+                        "version": "7287927"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Knowles, Warren P.",
+                        "id": "9390492",
+                        "version": "7287927"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "McCarthy, Eugene J., 1916-2005.",
+                        "id": "9390493",
+                        "version": "7287927"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Nelson, Gaylord, 1916-",
+                        "id": "9390494",
+                        "version": "7287927"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Reuss, Henry S.",
+                        "id": "9390495",
+                        "version": "7287927"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Zablocki, Clement John, 1912-1983.",
+                        "id": "9390496",
+                        "version": "7287927"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of Wisconsin--Milwaukee. Dept. of Journalism.",
+                        "id": "9390497",
+                        "version": "7287927"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of Wisconsin--Milwaukee. Dept. of Mass Communication.",
+                        "id": "9390498",
+                        "version": "7287927"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w62p5qx1",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Wisconsin - Milwaukee, UWM Libraries",
+                            "preferenceScore": "99",
+                            "id": "76788800",
+                            "version": "11234665"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Wisconsin - Milwaukee, UWM Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "2311 East Hartford Avenue",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788805",
+                                    "version": "11234665"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "2311 E Hartford Ave",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788806",
+                                    "version": "11234665"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Milwaukee",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788807",
+                                    "version": "11234665"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WI",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788808",
+                                    "version": "11234665"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "53211",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788809",
+                                    "version": "11234665"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788810",
+                                    "version": "11234665"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16729",
+                                "name": "University of Wisconsin - Milwaukee, UWM Libraries",
+                                "latitude": "43.0768242",
+                                "longitude": "-87.8804855"
+                            },
+                            "confirmed": true,
+                            "id": "76788804",
+                            "version": "11234665"
+                        }
+                    ],
+                    "id": "76788799",
+                    "version": "11234668"
+                },
+                "id": "7287927",
+                "version": "7287927"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "WUWM (Radio station : Milwaukee, Wis.). WUWM records, 1950-1991.",
+            "id": "69487742",
+            "version": "10157900"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Wisconsin--Milwaukee",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "69487713",
+            "version": "10157900",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Wisconsin--Milwaukee",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "69487714",
+                    "version": "10157900"
+                }
+            ]
+        },
+        {
+            "dataType": "Place",
+            "original": "Wisconsin",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "69487715",
+            "version": "10157900",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Wisconsin",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "69487716",
+                    "version": "10157900"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "301799",
+                "term": "Radio broadcasting",
+                "type": "subject"
+            },
+            "id": "69487726",
+            "version": "10157900"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302090",
+                "term": "Radio in higher education",
+                "type": "subject"
+            },
+            "id": "69487718",
+            "version": "10157900"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "301718",
+                "term": "Radio and politics",
+                "type": "subject"
+            },
+            "id": "69487722",
+            "version": "10157900"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "204080",
+                "term": "Journalism, education",
+                "type": "subject"
+            },
+            "id": "69487717",
+            "version": "10157900"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302394",
+                "term": "Radio programs, Public service",
+                "type": "subject"
+            },
+            "id": "69487719",
+            "version": "10157900"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "352847",
+                "term": "Telecommunications in higher education",
+                "type": "subject"
+            },
+            "id": "69487721",
+            "version": "10157900"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "296612",
+                "term": "Public radio",
+                "type": "subject"
+            },
+            "id": "69487723",
+            "version": "10157900"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "103653",
+                "term": "College radio stations",
+                "type": "subject"
+            },
+            "id": "69487727",
+            "version": "10157900"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "291201",
+                "term": "Prisons",
+                "type": "subject"
+            },
+            "id": "69487720",
+            "version": "10157900"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302146",
+                "term": "Radio journalism",
+                "type": "subject"
+            },
+            "id": "69487724",
+            "version": "10157900"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "256599",
+                "term": "News radio stations",
+                "type": "subject"
+            },
+            "id": "69487725",
+            "version": "10157900"
+        }
+    ],
+    "id": "69487706",
+    "version": "10157901",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1950",
+            "fromDateOriginal": "active 1950",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1991",
+            "toDateOriginal": "active 1991",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "69487707",
+            "version": "10157900"
+        }
+    ]
+}

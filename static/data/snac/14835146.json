@@ -1,0 +1,274 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64z7c8h",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-02-25",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T19:11:49",
+            "standardDateTime": "2016-08-10T19:11:49",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T19:11:49",
+            "standardDateTime": "2016-08-10T19:11:49",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/hoover\/japmanus.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" source=\"aacr2\">Hoover Institution on War, Revolution, and Peace. East Asia Library.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt438nc6dk",
+            "id": "14835147",
+            "version": "2161868"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Hoover Institution on War, Revolution, and Peace. East Asia Library.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Hoover Institution on War, Revolution, and Peace. East Asia Library.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "14835149",
+                    "version": "2161868"
+                }
+            ],
+            "id": "14835148",
+            "version": "2161868",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78015545",
+                    "version": "2161868"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "14835146",
+            "targetConstellation": "54735244",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w64z7c8h",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w69m2587",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Hoover Institution on War, Revolution and Peace. East Asian Collection.",
+            "id": "14835155",
+            "version": "2161868"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt438nc6dk",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Japanese modern history manuscript collection, <\/unittitle>\n                  <unitdate>ca. 1868-1989<\/unitdate>\n                  <unitid>Consult repository<\/unitid>\n                  <origination>\n                     <corpname>Hoover Institution on War, Revolution, and Peace. East Asia Library.<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>82 ms. boxes<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Hoover Institution on War, Revolution, and Peace<\/corpname>\n                     <address>\n                        <addressline>Stanford, California 94305-6010<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <abstract>Manuscripts, ephemeral printed matter, and maps, relating to various aspects of Japanese history, including Nagano prefecture local government during the Meiji period; the Sino-Japanese War of 1894-1895; \npre-World War II domestic affairs; the post-World War II American occupation; the International Military Tribunal for the Far East; adoption of a constitution; political conditions; elections; agriculture; communism; labor; public safety issues; Ryukyu issues; and the U.S.-Japan Security Treaty. Collected by the Hoover Institution East Asia Library.<\/abstract>\n                  <langmaterial>\n                     <language>Japanese.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Japanese modern history manuscript collection, ca. 1868-1989",
+                "abstract": "Manuscripts, ephemeral printed matter, and maps, relating to various aspects of Japanese history, including Nagano prefecture local government during the Meiji period; the Sino-Japanese War of 1894-1895; pre-World War II domestic affairs; the post-World War II American occupation; the International Military Tribunal for the Far East; adoption of a constitution; political conditions; elections; agriculture; communism; labor; public safety issues; Ryukyu issues; and the U.S.-Japan Security Treaty. Collected by the Hoover Institution East Asia Library.",
+                "extent": "82 ms. boxes",
+                "displayEntry": "Japanese modern history manuscript collection, ca. 1868-1989",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "217",
+                            "term": "jpn",
+                            "type": "language_code",
+                            "description": "Japanese"
+                        },
+                        "id": "11287445",
+                        "version": "6655019"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gr7mhk",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Hoover Institution on War, Revolution, and Peace",
+                            "preferenceScore": "99",
+                            "id": "76793715",
+                            "version": "11237757"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Hoover Institution on War, Revolution, and Peace",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford, California 94305-6010",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76793718",
+                                    "version": "11237757"
+                                }
+                            ],
+                            "id": "76793717",
+                            "version": "11237757"
+                        }
+                    ],
+                    "id": "76793714",
+                    "version": "11237760"
+                },
+                "id": "6655019",
+                "version": "6655019"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Japanese modern history manuscript collection, ca. 1868-1989",
+            "id": "14835156",
+            "version": "2161868"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Japan",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "geoplace": {
+                "id": "6401",
+                "uri": "http:\/\/www.geonames.org\/1861060",
+                "name": "Japan",
+                "latitude": "35.6853600",
+                "longitude": "139.7530900",
+                "administrationCode": "00",
+                "countryCode": "JP"
+            },
+            "score": "1",
+            "id": "14835152",
+            "version": "2161868",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Japan",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "14835153",
+                    "version": "2161868"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "91047",
+                "term": "Chinese--Japanese War, 1894-1895",
+                "type": "subject"
+            },
+            "id": "14835154",
+            "version": "2161868"
+        }
+    ],
+    "id": "14835146",
+    "version": "2161869"
+}

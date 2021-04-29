@@ -1,0 +1,200 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w65g3v14",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T20:54:47",
+            "standardDateTime": "2016-08-12T20:54:47",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T20:54:47",
+            "standardDateTime": "2016-08-12T20:54:47",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/20289.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WKCR<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/inv\/b\/Broadside.html",
+            "id": "33435778",
+            "version": "4877732"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WKCR",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WKCR",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "33435780",
+                    "version": "4877732"
+                }
+            ],
+            "id": "33435779",
+            "version": "4877732",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79528280",
+                    "version": "4877732"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "33435777",
+            "targetConstellation": "25429698",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w65g3v14",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wz2m16",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Broadside.",
+            "id": "33435783",
+            "version": "4877732"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/inv\/b\/Broadside.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>University of North Carolina at Chapel Hill. Library. Southern Folklife Collection.<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <corpname>Broadside.<\/corpname>\n                  <\/origination>\n                  <unittitle>Broadside Collection, <unitdate>1962-1991<\/unitdate>\n                  <\/unittitle>\n                  <unitid>20289<\/unitid>\n                  <physdesc>\n                     <extent>280 items<\/extent>\n                  <\/physdesc>\n                  <abstract>Agnes (Sis) Cunningham, musician and magazine\n    publisher of New York, N.Y., founded <title>Broadside<\/title>, a magazine\n    devoted to topical songs, with her husband, Gordon Friesen, in the early 1960s. They recorded\n    and published many of the leading folksingers of the folk revival. The collection contains\n    materials from the <title>Broadside<\/title> offices. Sound recordings include\n    open reel tapes and audio cassettes, many of which were used to transcribe topical folk songs\n    for publication in <title>Broadside<\/title>. Additional recordings include demo\n    tapes, live concert performances, and interviews, which were sent to the <title>Broadside<\/title> offices by friends, folk singers, and subscribers. The work of numerous\n    performers is included (many of the most significant are listed in the online catalog terms\n    below). Documentation materials include a log of the <title>Broadside<\/title>\n    tapes, correspondence, and tape notes. The <title>Broadside<\/title> tape log is\n    a list of the tapes in their original order. Correspondence and tape notes consist of materials\n    included in the original tape boxes. Correspondence includes personal letters to Cunningham and\n    Friesen from friends and contributors. Tape notes contain track listings of songs, dates of\n    performances, and names of performers.<\/abstract>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Broadside Collection, 1962-1991",
+                "abstract": "Agnes (Sis) Cunningham, musician and magazine    publisher of New York, N.Y., founded , a magazine    devoted to topical songs, with her husband, Gordon Friesen, in the early 1960s. They recorded    and published many of the leading folksingers of the folk revival. The collection contains    materials from the offices. Sound recordings include    open reel tapes and audio cassettes, many of which were used to transcribe topical folk songs    for publication in . Additional recordings include demo    tapes, live concert performances, and interviews, which were sent to the offices by friends, folk singers, and subscribers. The work of numerous    performers is included (many of the most significant are listed in the online catalog terms    below). Documentation materials include a log of the tapes, correspondence, and tape notes. The tape log is    a list of the tapes in their original order. Correspondence and tape notes consist of materials    included in the original tape boxes. Correspondence includes personal letters to Cunningham and    Friesen from friends and contributors. Tape notes contain track listings of songs, dates of    performances, and names of performers. Broadside Broadside Broadside Broadside Broadside Broadside",
+                "extent": "280 items",
+                "displayEntry": "Broadside Collection, 1962-1991",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11604305",
+                        "version": "6625760"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6q35",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill. Library. Southern Folklife Collection.",
+                            "preferenceScore": "99",
+                            "id": "76797871",
+                            "version": "11241653"
+                        }
+                    ],
+                    "id": "76797870",
+                    "version": "11241656"
+                },
+                "id": "6625760",
+                "version": "6625760"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Broadside Collection, 1962-1991",
+            "id": "33435784",
+            "version": "4877732"
+        }
+    ],
+    "id": "33435777",
+    "version": "4877733"
+}

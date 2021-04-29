@@ -1,0 +1,199 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6z4597n",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-04",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T22:01:51",
+            "standardDateTime": "2016-08-10T22:01:51",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T22:01:51",
+            "standardDateTime": "2016-08-10T22:01:51",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/rutu\/uarchives\/clue.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"610\" source=\"lcnaf\">WBGO (Radio station: Newark, N.J.)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.scc.rutgers.edu\/ead\/uarchives\/cluef.html",
+            "id": "16032802",
+            "version": "2339450"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WBGO (Radio station: Newark, N.J.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WBGO (Radio station: Newark, N.J.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "16032804",
+                    "version": "2339450"
+                }
+            ],
+            "id": "16032803",
+            "version": "2339450",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"rutu\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78114706",
+                    "version": "2339450"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "16032801",
+            "targetConstellation": "51054308",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6z4597n",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6m74wrz",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "The Conference on Literature and Urban Experience (CLUE), Rutgers University Newark",
+            "id": "16032807",
+            "version": "2339450"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.scc.rutgers.edu\/ead\/uarchives\/cluef.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Inventory to the Records\n\t\t  of the Conference on Literature and Urban Experience (CLUE), Rutgers University\n\t\t  Newark, April 17-19, 1980<\/unittitle>\n                  <unitdate>1978-1983<\/unitdate>\n                  <origination>\n                     <corpname>The Conference on\n\t\t\t Literature and Urban Experience (CLUE), Rutgers University Newark <\/corpname>\n                  <\/origination>\n                  <physdesc>5.4 cubic feet (13\n\t\t  boxes, 1 oversized letter box)<\/physdesc>\n                  <repository>Rutgers\n\t\t  University. Special Collections and University Archives<\/repository>\n                  <abstract>The Conference on\n\t\t  Literature and the Urban Experience (hereafter referred to as \"CLUE\"), took\n\t\t  place on April 17, 18, and 19, 1980, in the Robeson Center, Rutgers University\n\t\t  in Newark, New Jersey. It featured more than 50 distinguished writers and\n\t\t  academics discussing a wide range of topics\u2014\"literature, theater, film,\n\t\t  education, and the visual arts\" focusing on the theme of urban experience.\n\t\t  Designed as an educational experiment intended to engage a larger, public\n\t\t  audience, CLUE intended to reach out to the public at large and involve it in a\n\t\t  broad discussion of the modern urban experience. CLUE was an important event in\n\t\t  several respects: first, it was an important humanities gathering focusing on a\n\t\t  timely theme; second, it was a community outreach experiment; and finally, it\n\t\t  succeeded in disseminating materials from the conference in a variety of\n\t\t  formats. The records are divided into five separate series: I. Participants'\n\t\t  Correspondence and Conference Papers, II. CLUE Organizational Papers, III.\n\t\t  Fundraising Efforts, IV. Information on the Rutgers University Press (RUP)\n\t\t  Publication Papers, V. Photographs<\/abstract>\n                  <unitid>R-MC 070<\/unitid>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Inventory to the Records  of the Conference on Literature and Urban Experience (CLUE), Rutgers University  Newark, April 17-19, 1980 1978-1983",
+                "abstract": "The Conference on  Literature and the Urban Experience (hereafter referred to as \"CLUE\"), took  place on April 17, 18, and 19, 1980, in the Robeson Center, Rutgers University  in Newark, New Jersey. It featured more than 50 distinguished writers and  academics discussing a wide range of topics\u2014\"literature, theater, film,  education, and the visual arts\" focusing on the theme of urban experience.  Designed as an educational experiment intended to engage a larger, public  audience, CLUE intended to reach out to the public at large and involve it in a  broad discussion of the modern urban experience. CLUE was an important event in  several respects: first, it was an important humanities gathering focusing on a  timely theme; second, it was a community outreach experiment; and finally, it  succeeded in disseminating materials from the conference in a variety of  formats. The records are divided into five separate series: I. Participants'  Correspondence and Conference Papers, II. CLUE Organizational Papers, III.  Fundraising Efforts, IV. Information on the Rutgers University Press (RUP)  Publication Papers, V. Photographs",
+                "displayEntry": "Inventory to the Records of the Conference on Literature and Urban Experience (CLUE), Rutgers University Newark, April 17-19, 1980, 1978-1983",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11255037",
+                        "version": "6630247"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w69t2dtc",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Rutgers University. Special Collections and University Archives.",
+                            "preferenceScore": "99",
+                            "id": "76795695",
+                            "version": "11239589"
+                        }
+                    ],
+                    "id": "76795694",
+                    "version": "11239592"
+                },
+                "id": "6630247",
+                "version": "6630247"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Inventory to the Records of the Conference on Literature and Urban Experience (CLUE), Rutgers University Newark, April 17-19, 1980, 1978-1983",
+            "id": "16032808",
+            "version": "2339450"
+        }
+    ],
+    "id": "16032801",
+    "version": "2339451"
+}

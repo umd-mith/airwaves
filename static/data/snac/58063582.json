@@ -1,0 +1,327 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6x705xs",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T11:32:36",
+            "standardDateTime": "2016-08-16T11:32:36",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T11:32:36",
+            "standardDateTime": "2016-08-16T11:32:36",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/32818948",
+            "id": "58063583",
+            "version": "8489642"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/126769432",
+            "id": "58063584",
+            "version": "8489642"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "58063585",
+            "version": "8489642"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WBJC (Radio station : Baltimore, Md.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WBJC (Radio station : Baltimore, Md.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "58063587",
+                    "version": "8489642"
+                }
+            ],
+            "id": "58063586",
+            "version": "8489642",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81551086",
+                    "version": "8489642"
+                }
+            ]
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "WBJC (Radio station : Baltimore, Md.)",
+            "uri": "https:\/\/viaf.org\/viaf\/126769432",
+            "id": "58063592",
+            "version": "8489642"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n88028200",
+            "id": "58063593",
+            "version": "8489642"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n88028200",
+            "id": "58063594",
+            "version": "8489642"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/32818948",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:32818948<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-HLM<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Brozoski, Milton.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hnat, Bill.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Lozosky, Mike.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Luh, Bob.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Miejon, Barb.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Polish radio programs in Baltimore interview, 1973.<\/title>\n                  <\/titleInfo>\n                  <abstract>Four hosts of Polish musical programs in Baltimore discuss the goals of the programs and play samples of the music: Milton Brozoski (WBJC); Bill Hnay (WKTK); Mike Lozosky (WISZ); and Barb Miejon (WBMD). <\/abstract>\n                  <name>\n                     <namePart>Maryland Historical Society<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Polish radio programs in Baltimore interview, 1973.",
+                "abstract": "Four hosts of Polish musical programs in Baltimore discuss the goals of the programs and play samples of the music: Milton Brozoski (WBJC); Bill Hnay (WKTK); Mike Lozosky (WISZ); and Barb Miejon (WBMD). ",
+                "extent": "Typescript : 1 p.Tape : cassette (60 min.)",
+                "displayEntry": "Brozoski, Milton. Polish radio programs in Baltimore interview, 1973.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Brozoski, Milton.",
+                        "id": "9481825",
+                        "version": "7345366"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hnat, Bill.",
+                        "id": "9481826",
+                        "version": "7345366"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lozosky, Mike.",
+                        "id": "9481827",
+                        "version": "7345366"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Luh, Bob.",
+                        "id": "9481828",
+                        "version": "7345366"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Miejon, Barb.",
+                        "id": "9481829",
+                        "version": "7345366"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60t0bzs",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Maryland Historical Society",
+                            "preferenceScore": "99",
+                            "id": "76773945",
+                            "version": "11229249"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Maryland Historical Society",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Baltimore",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773950",
+                                    "version": "11229249"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MD",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773951",
+                                    "version": "11229249"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "21201",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773952",
+                                    "version": "11229249"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773953",
+                                    "version": "11229249"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17105",
+                                "name": "Maryland Historical Society",
+                                "latitude": "39.2949000",
+                                "longitude": "-76.6223000"
+                            },
+                            "confirmed": true,
+                            "id": "76773949",
+                            "version": "11229249"
+                        }
+                    ],
+                    "id": "76773944",
+                    "version": "11229252"
+                },
+                "id": "7345366",
+                "version": "7345366"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Brozoski, Milton. Polish radio programs in Baltimore interview, 1973.",
+            "id": "58063595",
+            "version": "8489642"
+        }
+    ],
+    "id": "58063582",
+    "version": "8489643"
+}

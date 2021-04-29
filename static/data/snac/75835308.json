@@ -1,0 +1,514 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kf7fq1",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T16:35:20",
+            "standardDateTime": "2016-08-19T16:35:20",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T16:35:20",
+            "standardDateTime": "2016-08-19T16:35:20",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/158301883",
+            "id": "75835313",
+            "version": "11084684"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/inu\/InU-Ar-VAA6572.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"110\" source=\"lcnaf\">Indiana University. Department of Radio and Television<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/webapp1.dlib.indiana.edu\/findingaids\/view?doc.view=entire_text&docId=InU-Ar-VAA6572",
+            "id": "75835312",
+            "version": "11084684"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/inu\/ohrc053.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Indiana University Department of Radio and Television<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/webapp1.dlib.indiana.edu\/findingaids\/view?doc.view=entire_text&docId=ohrc053",
+            "id": "75835311",
+            "version": "11084684"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "75835314",
+            "version": "11084684"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Indiana University. Department of Radio and Television",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Indiana University. Department of Radio and Television",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "75835316",
+                    "version": "11084684"
+                }
+            ],
+            "id": "75835315",
+            "version": "11084684",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"inu\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "83006842",
+                    "version": "11084684"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Indiana University. Dept. of Radio and Television",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Indiana University. Dept. of Radio and Television",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "75835320",
+                    "version": "11084684"
+                }
+            ],
+            "id": "75835319",
+            "version": "11084684",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "83006843",
+                    "version": "11084684"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Indiana University. Radio and Television Department",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Indiana University. Radio and Television Department",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "75835323",
+                    "version": "11084684"
+                }
+            ],
+            "id": "75835322",
+            "version": "11084684",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "83006844",
+                    "version": "11084684"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "75835310",
+                "version": "11084684"
+            },
+            "text": "<biogHist>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">In 1938, Indiana University began to engage in radio activities. A room was set aside for use as a studio and control room and a radio director and program director were hired. Courses such as \"Radio Broadcasting\" and \"Radio Writing\" were offered through the Department of Speech and \"Radio News\" in the Department of Journalism. In addition, two graduate courses were initiated: \"Radio in Education\" in the School in Education and \"Radio Seminar\" in the Department of Speech.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">At the Board of Trustees September 20, 1945 meeting, they approved the establishment of a Department of Radio as an \"unattached department\" under the Dean of Faculties. Beginning the fall of 1950, IU offered a B.S. in Radio and listed the courses under the College of Arts and Sciences, but it wasn't until 1953 that Radio officially began a part COAS, when the Trustees approved the establishment of the Department of Radio and Television. In 1974, the Trustees approved a name change to the Department of Telecommunications in order to better reflect the expanded scope of their academic program. This change went into effect on July 1.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Harry Skornia served as Director of Radio Programs (and chair of the department once it was established) from 1942-1953. Following him was Elmer Sulzer, who chaired the department for the decade from 1954-1964. Sulzer was succeeded by Donley Feddersen, who served as department chair from 1966-1970.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Today the Department of Telecommunications is home to over forty faculty members. It offers courses in marketing strategies, multimedia design, radio and television production, processes and effects, and industry and management.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the guide to the Indiana University Department of Radio and Television Chair's records, 1939-1963, bulk 1945-1952, (Indiana University Office of University Archives and Records Management http:\/\/www.libraries.iub.edu\/archives)<\/citation>\n         <\/biogHist>",
+            "id": "75835309",
+            "version": "11084684"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75835308",
+            "targetConstellation": "27556845",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kf7fq1",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kf7fpk",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Indiana University Center for the Study of History and Memory",
+            "id": "75835331",
+            "version": "11084684"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Indiana University. Department of Radio and Television",
+            "uri": "https:\/\/viaf.org\/viaf\/158301883",
+            "id": "75835328",
+            "version": "11084684"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n82-128686",
+            "id": "75835329",
+            "version": "11084684"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n82128686",
+            "id": "75835330",
+            "version": "11084684"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/webapp1.dlib.indiana.edu\/findingaids\/view?doc.view=entire_text&docId=InU-Ar-VAA6572",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Indiana University Office of University Archives and Records\n                    Management<\/corpname>\n                     <address>\n                        <addressline>1320 East Tenth Street<\/addressline>\n                        <addressline>Herman B Wells Library E460<\/addressline>\n                        <addressline>Bloomington, IN 47405-7000<\/addressline>\n                        <addressline>Phone: 812-855-1127<\/addressline>\n                        <addressline>Fax: 812-855-8104<\/addressline>\n                        <addressline>Email: archives@indiana.edu<\/addressline>\n                     <\/address>\n                     <lb\/>\n                     <extref>http:\/\/www.libraries.iub.edu\/archives<\/extref>\n                  <\/repository>\n                  <origination>\n                     <corpname>Indiana University. Department of\n                    Radio and Television<\/corpname>\n                  <\/origination>\n                  <unittitle>Indiana University Department of Radio\n                and Television Chair's records, <\/unittitle>\n                  <unitdate>1939-1963, <\/unitdate>\n                  <unitdate>bulk 1945-1952<\/unitdate>\n                  <unitid>C104<\/unitid>\n                  <physdesc>\n                     <extent>14.8 cubic feet (16 boxes)<\/extent>\n                  <\/physdesc>\n                  <langmaterial>Materials are in <language>English<\/language>\n                  <\/langmaterial>\n                  <abstract> In 1938, Indiana University began to\n                engage in radio activities. A room was set aside for use as a studio and control\n                room, and a radio director and program director were hired. For years, radio classes\n                were taught through several already established departments such as Speech and\n                Journalism. At the Board of Trustees September 20, 1945 meeting, they approved the\n                establishment of a Dept. of Radio as an \"unattached\" department under the Dean of\n                Faculties. In 1953 it became the Department of Radio and Television within the\n                College of Arts and Sciences and in 1974 the Department of Telecommunications. This\n                collection contains the department chair's records from 1939-1963 and is comprised\n                of correspondence, budgetary information, annual reports, information on various\n                radio and television stations, and subject files. Records span the tenures of chairs\n                Harry Skornia (1942-1953) and Elmer Sulzer (1954-1964).<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Indiana University Department of Radio                and Television Chair's records, 1939-1963, bulk 1945-1952",
+                "abstract": "In 1938, Indiana University began to                engage in radio activities. A room was set aside for use as a studio and control                room, and a radio director and program director were hired. For years, radio classes                were taught through several already established departments such as Speech and                Journalism. At the Board of Trustees September 20, 1945 meeting, they approved the                establishment of a Dept. of Radio as an \"unattached\" department under the Dean of                Faculties. In 1953 it became the Department of Radio and Television within the                College of Arts and Sciences and in 1974 the Department of Telecommunications. This                collection contains the department chair's records from 1939-1963 and is comprised                of correspondence, budgetary information, annual reports, information on various                radio and television stations, and subject files. Records span the tenures of chairs                Harry Skornia (1942-1953) and Elmer Sulzer (1954-1964).",
+                "extent": "14.8 cubic feet (16 boxes)",
+                "displayEntry": "Indiana University Department of Radio and Television Chair's records, 1939-1963, bulk 1945-1952",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11602341",
+                        "version": "6624652"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6bw85ft",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Indiana University Office of University Archives and Records Managementhttp:\/\/www.libraries.iub.edu\/archives",
+                            "preferenceScore": "99",
+                            "id": "76793848",
+                            "version": "11237885"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Indiana University Office of University Archives and Records Managementhttp:\/\/www.libraries.iub.edu\/archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1320 East Tenth Street Herman B Wells Library E460 Bloomington, IN 47405-7000 Phone: 812-855-1127 Fax: 812-855-8104 Website: http:\/\/www.libraries.iub.edu\/archives Email: archives@indiana.edu",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76793851",
+                                    "version": "11237885"
+                                }
+                            ],
+                            "id": "76793850",
+                            "version": "11237885"
+                        }
+                    ],
+                    "id": "76793847",
+                    "version": "11237888"
+                },
+                "id": "6624652",
+                "version": "6624652"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Indiana University Department of Radio and Television Chair's records, 1939-1963, bulk 1945-1952",
+            "id": "75835333",
+            "version": "11084684"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/webapp1.dlib.indiana.edu\/findingaids\/view?doc.view=entire_text&docId=ohrc053",
+                "title": "History of Indiana University, 1968-1981",
+                "abstract": "This project is a compilation of interviews of subjects with strong ties to and memories of Indiana University, primarily at the Bloomington campus. The interviewees include former students, faculty, and staff, among others. The information contained in the interviews generally spans a little more than the first half of the twentieth century and often deals with the administrations under presidents William Lowe Bryan and Herman B Wells. The project is a survey of Indiana University's history as a whole including information about various academic departments, athletics, student organizations, campus growth, university development, living conditions, segregation and the treatment of African-Americans, the administration, and the importance of jazz at Indiana University. In addition, the impact of specific events, such as the Great Depression, World War I, World War II, the Vietnam War, and water shortages, is detailed in many of the interviews in this project.",
+                "extent": "90 interviews; Audiotapes, transcripts, and collateral                    materials",
+                "date": "1968-1981",
+                "displayEntry": "History of Indiana University, 1968-1981",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11603282",
+                        "version": "8368908"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11603282",
+                        "version": "6625157"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hj7873",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Indiana University, Bloomington. Center for the Study of History and Memory",
+                            "preferenceScore": "99",
+                            "id": "84154686",
+                            "version": "11317681"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "1296",
+                                "uri": "http:\/\/www.geonames.org\/4254679",
+                                "name": "Bloomington",
+                                "latitude": "39.1653200",
+                                "longitude": "-86.5263900",
+                                "administrationCode": "IN",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "84154697",
+                            "version": "11317681"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Indiana University Center for the Study of History and Memoryhttp:\/\/www.indiana.edu\/~cshm",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Indiana University 400 North Sunrise Drive Weatherly Hall North, Room 122 Bloomington, IN 47405 Phone: 812\/855-2856 Fax: 812\/855-0002 E-mail: ohrc@indiana.edu",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84154699",
+                                    "version": "11317681"
+                                }
+                            ],
+                            "id": "84154698",
+                            "version": "11317681"
+                        }
+                    ],
+                    "id": "84154672",
+                    "version": "11317689"
+                },
+                "id": "6625157",
+                "version": "6625157"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "History of Indiana University, 1968-1981",
+            "id": "75835332",
+            "version": "11084684"
+        }
+    ],
+    "id": "75835308",
+    "version": "11084685"
+}

@@ -1,0 +1,249 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6cs8vvr",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-15",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T09:38:01",
+            "standardDateTime": "2016-08-13T09:38:01",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T09:38:01",
+            "standardDateTime": "2016-08-13T09:38:01",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nwda\/university_of_washington_libraries\/WAUPHColl622.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" role=\"photographer\">Tacoma Morning News Tribune<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv75937",
+            "id": "37523483",
+            "version": "5475380"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Tacoma Morning News Tribune",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Tacoma Morning News Tribune",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "37523486",
+                    "version": "5475380"
+                }
+            ],
+            "id": "37523485",
+            "version": "5475380",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nwda\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79864460",
+                    "version": "5475380"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "37523482",
+            "targetConstellation": "74241291",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cs8vvr",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w63n4nz7",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Adams, Brock, \u00a01927-",
+            "id": "37523489",
+            "version": "5475380"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv75937",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>University of Washington Libraries \n\t\t\t <subarea>Special Collections<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline>Box 352900<\/addressline>\n                        <addressline>Seattle, WA 98195-2900<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid>622<\/unitid>\n                  <origination>\n                     <persname>Adams, Brock,\u00a01927-<\/persname>\n                  <\/origination>\n                  <unittitle>Brock Adams\n\t\t  photograph collection<\/unittitle>\n                  <unitdate>circa\n\t\t  1920-1992<\/unitdate>\n                  <unitdate>1959-1992<\/unitdate>\n                  <physdesc>\n                     <extent>approximately 4,500\n\t\t  photographs<\/extent>\n                     <extent>10 boxes<\/extent>\n                  <\/physdesc>\n                  <abstract>Photographs\n\t\t  documenting Brock Adams's political career in the U.S. House of Representatives\n\t\t  and Senate<\/abstract>\n                  <langmaterial>Collection materials are in \n\t\t\t\t\t\t\t\t\t\t<language>English<\/language>.\n\t\t\t\t\t\t\t\t\t<\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Brock Adams  photograph collection circa  1920-1992 1959-1992",
+                "abstract": "Photographs  documenting Brock Adams's political career in the U.S. House of Representatives  and Senate",
+                "extent": "approximately 4,500  photographs; 10 boxes",
+                "displayEntry": "Brock Adams photograph collection, circa 1920-1992, 1959-1992",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Adams, Brock,\u00a01927-",
+                        "id": "11429373",
+                        "version": "6377976"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11429374",
+                        "version": "6377976"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6zd8rs3",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Washington Libraries Special Collections",
+                            "preferenceScore": "99",
+                            "id": "76798158",
+                            "version": "11241953"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Washington Libraries Special Collections",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Box 352900 Seattle, WA 98195-2900",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76798161",
+                                    "version": "11241953"
+                                }
+                            ],
+                            "id": "76798160",
+                            "version": "11241953"
+                        }
+                    ],
+                    "id": "76798157",
+                    "version": "11241956"
+                },
+                "id": "6377976",
+                "version": "6377976"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Brock Adams photograph collection, circa 1920-1992, 1959-1992",
+            "id": "37523490",
+            "version": "5475380"
+        }
+    ],
+    "functions": [
+        {
+            "dataType": "SNACFunction",
+            "term": {
+                "id": "5338",
+                "term": "Photographers",
+                "type": "function"
+            },
+            "id": "37523484",
+            "version": "5475380"
+        }
+    ],
+    "id": "37523482",
+    "version": "5475381"
+}

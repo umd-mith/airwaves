@@ -1,0 +1,250 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nm8xsf",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T01:52:55",
+            "standardDateTime": "2016-08-13T01:52:55",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T01:52:55",
+            "standardDateTime": "2016-08-13T01:52:55",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/inu\/ohrc070.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WFIU<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/webapp1.dlib.indiana.edu\/findingaids\/view?doc.view=entire_text&docId=ohrc070",
+            "id": "35050070",
+            "version": "5118125"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WFIU",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WFIU",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35050072",
+                    "version": "5118125"
+                }
+            ],
+            "id": "35050071",
+            "version": "5118125",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"inu\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79662524",
+                    "version": "5118125"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "35050069",
+            "targetConstellation": "27556845",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6nm8xsf",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kf7fpk",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Indiana University Center for the Study of History and Memory",
+            "id": "35050075",
+            "version": "5118125"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/webapp1.dlib.indiana.edu\/findingaids\/view?doc.view=entire_text&docId=ohrc070",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Indiana University Center for the Study of History and Memory<\/corpname>\n                     <address>\n                        <addressline>Indiana University<\/addressline>\n                        <addressline>400 North Sunrise Drive<\/addressline>\n                        <addressline>Weatherly Hall North, Room 122<\/addressline>\n                        <addressline>Bloomington, IN 47405<\/addressline>\n                        <addressline>Phone: 812\/855-2856<\/addressline>\n                        <addressline>Fax: 812\/855-0002<\/addressline>\n                        <addressline>E-mail: ohrc@indiana.edu<\/addressline>\n                     <\/address>\n                     <extref>http:\/\/www.indiana.edu\/~cshm<\/extref>\n                  <\/repository>\n                  <origination>\n                     <corpname>Indiana University Center for the\n                    Study of History and Memory<\/corpname>\n                  <\/origination>\n                  <unittitle>IU Folklore Institute<\/unittitle>\n                  <unitdate>1987<\/unitdate>\n                  <unitid>ohrc070<\/unitid>\n                  <physdesc>\n                     <extent>41 interviews<\/extent>. <extent>Audiotapes, transcripts, and collateral\n                    materials<\/extent>. <\/physdesc>\n                  <physloc>Interviews are housed in Weatherly Hall North, Room\n                122. Copies are also housed at the Indiana University Archives in Herman B Wells\n                Library E460. For other locations housing the interviews from this project, please\n                contact the Center for the Study of History and Memory office.<\/physloc>\n                  <langmaterial>Materials are in <language>English<\/language>\n                  <\/langmaterial>\n                  <abstract>The project deals with the beginning, the building, and the growth\n                of the Indiana University (IU) Folklore Institute into an internationally\n                recognized program. The interviewees are mostly students and\/or faculty of the\n                folklore program from the 1940s to the 1980s. They discuss those who most\n                influenced and impacted the institute, namely Stith Thompson and Richard M.\n                Dorson. They share their memories and experiences of the time they spent, or\n                continue to spend, in the IU Folklore Institute.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "IU Folklore Institute 1987",
+                "abstract": "The project deals with the beginning, the building, and the growth                of the Indiana University (IU) Folklore Institute into an internationally                recognized program. The interviewees are mostly students and\/or faculty of the                folklore program from the 1940s to the 1980s. They discuss those who most                influenced and impacted the institute, namely Stith Thompson and Richard M.                Dorson. They share their memories and experiences of the time they spent, or                continue to spend, in the IU Folklore Institute.",
+                "extent": "41 interviews; Audiotapes, transcripts, and collateral                    materials",
+                "displayEntry": "IU Folklore Institute, 1987",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11603302",
+                        "version": "6625174"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hj7873",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Indiana University, Bloomington. Center for the Study of History and Memory",
+                            "preferenceScore": "99",
+                            "id": "84154686",
+                            "version": "11317681"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "1296",
+                                "uri": "http:\/\/www.geonames.org\/4254679",
+                                "name": "Bloomington",
+                                "latitude": "39.1653200",
+                                "longitude": "-86.5263900",
+                                "administrationCode": "IN",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "84154697",
+                            "version": "11317681"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Indiana University Center for the Study of History and Memoryhttp:\/\/www.indiana.edu\/~cshm",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Indiana University 400 North Sunrise Drive Weatherly Hall North, Room 122 Bloomington, IN 47405 Phone: 812\/855-2856 Fax: 812\/855-0002 E-mail: ohrc@indiana.edu",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84154699",
+                                    "version": "11317681"
+                                }
+                            ],
+                            "id": "84154698",
+                            "version": "11317681"
+                        }
+                    ],
+                    "id": "84154672",
+                    "version": "11317689"
+                },
+                "id": "6625174",
+                "version": "6625174"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "IU Folklore Institute, 1987",
+            "id": "35050076",
+            "version": "5118125"
+        }
+    ],
+    "id": "35050069",
+    "version": "5118126"
+}

@@ -1,0 +1,200 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sg7zcz",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T07:52:28",
+            "standardDateTime": "2016-08-14T07:52:28",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T07:52:28",
+            "standardDateTime": "2016-08-14T07:52:28",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/20004.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WDCN-TV<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/inv\/s\/Southern_Folk_Cultural_Revival_Project,Inc.html",
+            "id": "44162492",
+            "version": "6452522"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WDCN-TV",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WDCN-TV",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "44162494",
+                    "version": "6452522"
+                }
+            ],
+            "id": "44162493",
+            "version": "6452522",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80411030",
+                    "version": "6452522"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "44162491",
+            "targetConstellation": "5008931",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sg7zcz",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6z9807s",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Southern Folk Cultural Revival Project, Inc.",
+            "id": "44162497",
+            "version": "6452522"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/inv\/s\/Southern_Folk_Cultural_Revival_Project,Inc.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Southern Folk Cultural Revival Project Collection, <unitdate>1965-1989<\/unitdate>\n                  <\/unittitle>\n                  <origination>\n                     <corpname>Southern Folk Cultural Revival Project, Inc.<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>9,200<\/extent>\n                     <extent>34.0<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>University of North Carolina at Chapel Hill. Library. Southern Folklife Collection.<\/corpname>\n                  <\/repository>\n                  <abstract>Founded in 1966 by Anne Romaine and Bernice Johnson Reagon, the\n    Southern Folk Cultural Revival Project (SFCRP), based in Nashville, Tenn., worked to present\n    traditional musicians from black and white cultures in performance together at a time when this\n    was considered controversial. The SFCRP continued presenting musical performances throughout the\n    South until the late 1980s, keeping close ties with the civil rights movement.<\/abstract>\n                  <abstract>Records of the\n    SFCRP document performing folk musicians from or associated with the southeastern United States.\n    Included are letters, artist files, contracts, photographs, and recordings of a large number of\n    musicians who worked for the organization, among them Dewey Balfa, Dock Boggs, Reverend Pearly\n    Brown, Alice Gerrard, Hazel Dickens, Mable Hillary, Jane Sapp, Lily May Ledford, Furry Lewis,\n    Bernice Johnson Reagon, Ola Belle Reed, Frazier Moss, Sparky Rucker, Mike Seeger, Johnny Shines,\n    Hedy West, and Nimrod Workman. Also included are files from SFCRP tours and festivals, music in\n    the schools series, prison performances, benefit concerts, and Romaine's work with the Alex\n    Haley House Museum. There are also general office and grant files; photographs of musicians;\n    audio recordings and videotapes from meetings, workshops, and musical performances at festivals,\n    schools, and prisons; and posters advertising performances, tours, events and artists associated\n    with the SFCRP.<\/abstract>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Southern Folk Cultural Revival Project Collection, 1965-1989",
+                "abstract": "Founded in 1966 by Anne Romaine and Bernice Johnson Reagon, the    Southern Folk Cultural Revival Project (SFCRP), based in Nashville, Tenn., worked to present    traditional musicians from black and white cultures in performance together at a time when this    was considered controversial. The SFCRP continued presenting musical performances throughout the    South until the late 1980s, keeping close ties with the civil rights movement. Records of the    SFCRP document performing folk musicians from or associated with the southeastern United States.    Included are letters, artist files, contracts, photographs, and recordings of a large number of    musicians who worked for the organization, among them Dewey Balfa, Dock Boggs, Reverend Pearly    Brown, Alice Gerrard, Hazel Dickens, Mable Hillary, Jane Sapp, Lily May Ledford, Furry Lewis,    Bernice Johnson Reagon, Ola Belle Reed, Frazier Moss, Sparky Rucker, Mike Seeger, Johnny Shines,    Hedy West, and Nimrod Workman. Also included are files from SFCRP tours and festivals, music in    the schools series, prison performances, benefit concerts, and Romaine's work with the Alex    Haley House Museum. There are also general office and grant files; photographs of musicians;    audio recordings and videotapes from meetings, workshops, and musical performances at festivals,    schools, and prisons; and posters advertising performances, tours, events and artists associated    with the SFCRP.",
+                "extent": "9,200; 34.0",
+                "displayEntry": "Southern Folk Cultural Revival Project Collection, 1965-1989",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11610406",
+                        "version": "6629078"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6q35",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill. Library. Southern Folklife Collection.",
+                            "preferenceScore": "99",
+                            "id": "76797871",
+                            "version": "11241653"
+                        }
+                    ],
+                    "id": "76797870",
+                    "version": "11241656"
+                },
+                "id": "6629078",
+                "version": "6629078"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Southern Folk Cultural Revival Project Collection, 1965-1989",
+            "id": "44162498",
+            "version": "6452522"
+        }
+    ],
+    "id": "44162491",
+    "version": "6452523"
+}

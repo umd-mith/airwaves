@@ -1,0 +1,261 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6109jks",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-06",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T17:11:53",
+            "standardDateTime": "2016-08-19T17:11:53",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T17:11:53",
+            "standardDateTime": "2016-08-19T17:11:53",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nwda\/oregon_historical_society_research_library\/OHYMSS929.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"600\" role=\"subject\" rules=\"aacr2\" source=\"local\">Lee, Henry A. G., 1918-1850--Correspondence<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv34207",
+            "id": "75957107",
+            "version": "11103266"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Lee, Henry A. G., 1918-1850",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Lee, Henry A. G., 1918-1850",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "75957109",
+                    "version": "11103266"
+                }
+            ],
+            "id": "75957108",
+            "version": "11103266",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nwda\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "83016840",
+                    "version": "11103266"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75957105",
+            "targetConstellation": "58146159",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6109jks",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6902dc8",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Abernethy, George, 1807-1877",
+            "id": "75957112",
+            "version": "11103266"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv34207",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Oregon Historical Society<subarea> Research Library<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline>1200 SW Park Avenue<\/addressline>\n                        <addressline>Portland, Oregon 97205<\/addressline>\n                        <addressline>Phone: 503-306-5240<\/addressline>\n                        <addressline>Fax: 503-219-2040<\/addressline>\n                        <addressline>E-mail: libreference@ohs.org<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid>Mss 929<\/unitid>\n                  <origination>\n                     <persname>Abernethy, George, 1807-1877<\/persname>\n                  <\/origination>\n                  <unittitle>George Abernethy Papers<\/unittitle>\n                  <unitdate>1833-1905<\/unitdate>\n                  <physdesc>\n                     <extent>0.6 cubic feet<\/extent>\n                     <extent>2 document boxes<\/extent>\n                     <extent>1 oversize folder<\/extent>\n                  <\/physdesc>\n                  <abstract>Papers of a provisional governor of the\n\t\t  Oregon Territory, churchman, and merchant. Includes letterpress copybook,\n\t\t  1847-1850; additional correspondence, including correspondence with Neil M.\n\t\t  Howison, captain of the schooner \n\t\t  <title>Shark<\/title>, wrecked on the bar of the\n\t\t  Columbia River; papers of the Brig Henry Association, ca. 1850; papers of\n\t\t  George's son William Abernethy; legal, military, and business papers; receipts,\n\t\t  biographical data, clippings and ephemera.<\/abstract>\n                  <langmaterial>The\n\t collection is in <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "George Abernethy Papers 1833-1905",
+                "abstract": "Papers of a provisional governor of the  Oregon Territory, churchman, and merchant. Includes letterpress copybook,  1847-1850; additional correspondence, including correspondence with Neil M.  Howison, captain of the schooner , wrecked on the bar of the  Columbia River; papers of the Brig Henry Association, ca. 1850; papers of  George's son William Abernethy; legal, military, and business papers; receipts,  biographical data, clippings and ephemera. Shark",
+                "extent": "0.6 cubic feet; 2 document boxes; 1 oversize folder",
+                "displayEntry": "George Abernethy Papers, 1833-1905",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Abernethy, George, 1807-1877",
+                        "id": "11415953",
+                        "version": "6370126"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11415954",
+                        "version": "6370126"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6d90176",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Oregon Historical Society Research Library",
+                            "preferenceScore": "99",
+                            "id": "76795076",
+                            "version": "11239029"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Oregon Historical Society Research Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1200 SW Park Avenue Portland, Oregon 97205 Phone: 503-306-5240 Fax: 503-219-2040 E-mail: libreference@ohs.org Website: http:\/\/www.ohs.org",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76795079",
+                                    "version": "11239029"
+                                }
+                            ],
+                            "id": "76795078",
+                            "version": "11239029"
+                        }
+                    ],
+                    "id": "76795075",
+                    "version": "11239032"
+                },
+                "id": "6370126",
+                "version": "6370126"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "George Abernethy Papers, 1833-1905",
+            "id": "75957113",
+            "version": "11103266"
+        }
+    ],
+    "id": "75957105",
+    "version": "11103267",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1918",
+            "fromDateOriginal": "1918",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "toDate": "1850",
+            "toDateOriginal": "1850",
+            "toType": {
+                "id": "690",
+                "term": "Death",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Death",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "75957106",
+            "version": "11103266"
+        }
+    ]
+}

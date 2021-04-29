@@ -1,0 +1,295 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6773xb6",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T04:14:42",
+            "standardDateTime": "2016-08-11T04:14:42",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T04:14:42",
+            "standardDateTime": "2016-08-11T04:14:42",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/214966015",
+            "id": "18581826",
+            "version": "2712449"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Bay Area Educational Television Association.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Bay Area Educational Television Association.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "18581828",
+                    "version": "2712449"
+                }
+            ],
+            "id": "18581827",
+            "version": "2712449",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78322570",
+                    "version": "2712449"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "18581825",
+            "targetConstellation": "65987564",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6773xb6",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6qn9n3h",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Pettitt, George A. (George Albert), 1901-1976.",
+            "id": "18581831",
+            "version": "2712449"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/214966015",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:214966015<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-RQE<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Pettitt, George A. (George Albert), 1901-1976.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>George A. Pettitt papers, 1951-1958.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence and papers as member of the board of directors of the Bay Area Educational Television Association and its station, KQED. Material relating to the founding of the association, by-laws, mimeographed publications, minutes, financial statements, and clippings. <\/abstract>\n                  <name>\n                     <namePart>University of California, Berkeley<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "George A. Pettitt papers, 1951-1958.",
+                "abstract": "Correspondence and papers as member of the board of directors of the Bay Area Educational Television Association and its station, KQED. Material relating to the founding of the association, by-laws, mimeographed publications, minutes, financial statements, and clippings. ",
+                "extent": "2 boxes.",
+                "displayEntry": "Pettitt, George A. (George Albert), 1901-1976. George A. Pettitt papers, 1951-1958.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Pettitt, George A. (George Albert), 1901-1976.",
+                        "id": "8907440",
+                        "version": "7014209"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6mt4gft",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of California, Bancroft Library, ARL",
+                            "preferenceScore": "99",
+                            "id": "76785858",
+                            "version": "11233657"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of California, Bancroft Library, ARL",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "General Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785862",
+                                    "version": "11233657"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "212 Doe Libr",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785863",
+                                    "version": "11233657"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Berkeley",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785864",
+                                    "version": "11233657"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785865",
+                                    "version": "11233657"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "94720",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785866",
+                                    "version": "11233657"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76785867",
+                                    "version": "11233657"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "14881",
+                                "name": "University of California, Bancroft Library, ARL",
+                                "latitude": "37.8698807",
+                                "longitude": "-122.2705383"
+                            },
+                            "confirmed": true,
+                            "id": "76785861",
+                            "version": "11233657"
+                        }
+                    ],
+                    "id": "76785857",
+                    "version": "11233660"
+                },
+                "id": "7014209",
+                "version": "7014209"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Pettitt, George A. (George Albert), 1901-1976. George A. Pettitt papers, 1951-1958.",
+            "id": "18581832",
+            "version": "2712449"
+        }
+    ],
+    "id": "18581825",
+    "version": "2712450"
+}

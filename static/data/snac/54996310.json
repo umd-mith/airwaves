@@ -1,0 +1,318 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b075pm",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T23:24:16",
+            "standardDateTime": "2016-08-15T23:24:16",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T23:24:16",
+            "standardDateTime": "2016-08-15T23:24:16",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/626168892",
+            "id": "54996311",
+            "version": "8041826"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Consulate of the Federal Republic of Germany.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Consulate of the Federal Republic of Germany.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "54996313",
+                    "version": "8041826"
+                }
+            ],
+            "id": "54996312",
+            "version": "8041826",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81301876",
+                    "version": "8041826"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "54996310",
+            "targetConstellation": "40877596",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b075pm",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6647qsq",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "CentreStage Theatre Archives.",
+            "id": "54996316",
+            "version": "8041826"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/626168892",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:626168892<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-U3G<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>CentreStage Theatre Archives.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Kraemer, Franz.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Consulate of the Federal Republic of Germany.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>CentreStage Music.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Toronto Arts Productions.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>German Opera films - programme, articles and notes, 1972-73. 1972- 1973.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>University of Guelph<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "German Opera films - programme, articles and notes, 1972-73. 1972- 1973.",
+                "extent": "1 file.",
+                "displayEntry": "CentreStage Theatre Archives. German Opera films - programme, articles and notes, 1972-73.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "CentreStage Theatre Archives.",
+                        "id": "10290700",
+                        "version": "7837605"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kraemer, Franz.",
+                        "id": "10290701",
+                        "version": "7837605"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Consulate of the Federal Republic of Germany.",
+                        "id": "10290702",
+                        "version": "7837605"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "CentreStage Music.",
+                        "id": "10290703",
+                        "version": "7837605"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Toronto Arts Productions.",
+                        "id": "10290704",
+                        "version": "7837605"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6t8364f",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Guelph",
+                            "preferenceScore": "99",
+                            "id": "76786392",
+                            "version": "11233837"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Guelph",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786396",
+                                    "version": "11233837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "50 Stone Rd E",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786397",
+                                    "version": "11233837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Guelph",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786398",
+                                    "version": "11233837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "CA-ON",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786399",
+                                    "version": "11233837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "N1G 2W1",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786400",
+                                    "version": "11233837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "CA",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786401",
+                                    "version": "11233837"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15587",
+                                "name": "University of Guelph",
+                                "latitude": "43.5315000",
+                                "longitude": "-80.2277000"
+                            },
+                            "confirmed": true,
+                            "id": "76786395",
+                            "version": "11233837"
+                        }
+                    ],
+                    "id": "76786391",
+                    "version": "11233840"
+                },
+                "id": "7837605",
+                "version": "7837605"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "CentreStage Theatre Archives. German Opera films - programme, articles and notes, 1972-73.",
+            "id": "54996317",
+            "version": "8041826"
+        }
+    ],
+    "id": "54996310",
+    "version": "8041827"
+}

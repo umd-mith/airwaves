@@ -1,0 +1,313 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63f7q7q",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T21:30:32",
+            "standardDateTime": "2016-08-16T21:30:32",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T21:30:32",
+            "standardDateTime": "2016-08-16T21:30:32",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/298323726",
+            "id": "60521515",
+            "version": "8851658"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Johnson, Jane Root.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Johnson, Jane Root.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "60521517",
+                    "version": "8851658"
+                }
+            ],
+            "id": "60521516",
+            "version": "8851658",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81754720",
+                    "version": "8851658"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "60521514",
+            "targetConstellation": "40114587",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63f7q7q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vx1kbs",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Warren, William Lamson",
+            "id": "60521520",
+            "version": "8851658"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/298323726",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:298323726<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-HPJ<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Warren, William Lamson<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Johnson Family.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Tomlinson Family.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Warren Family.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>William Lamson Warren Collection, 1896-1999.<\/title>\n                  <\/titleInfo>\n                  <abstract>A collection of family papers and research material compiled by William Lawson Warren, a longtime Connecticut resident and former curator of the Connecticut Historical Society. Approximately the first third of the collection (13 boxes, processed) is correspondence of Warren's with family, friends, colleagues, and others in the museum world. Family material relates to the Johnson, Tomlinson, and Warren families. Additionally, 1.5 linear feet (3 boxes, unprocessed) of material is the personal papers of Warren's father, Charles Hyde Warren. The elder Warren was Dean and a Professor at the Sheffield Scientific School of Yale University. Letters Warren sent and received during World War II can be found in the Family and Friends series, particularly among the letters written to Warren from Benton C. Hatch and from Warren to his aunt, Jane Root Johnson. Other series include a manuscript of Warren's book on Furniture, a Personal series of early family correspondence and similar material (including William Warren's World War II records), and a Research series. None of the later series has been processed, and the Research series remains the most disorganized. <\/abstract>\n                  <name>\n                     <namePart>Hartford Public Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "William Lamson Warren Collection, 1896-1999.",
+                "abstract": "A collection of family papers and research material compiled by William Lawson Warren, a longtime Connecticut resident and former curator of the Connecticut Historical Society. Approximately the first third of the collection (13 boxes, processed) is correspondence of Warren's with family, friends, colleagues, and others in the museum world. Family material relates to the Johnson, Tomlinson, and Warren families. Additionally, 1.5 linear feet (3 boxes, unprocessed) of material is the personal papers of Warren's father, Charles Hyde Warren. The elder Warren was Dean and a Professor at the Sheffield Scientific School of Yale University. Letters Warren sent and received during World War II can be found in the Family and Friends series, particularly among the letters written to Warren from Benton C. Hatch and from Warren to his aunt, Jane Root Johnson. Other series include a manuscript of Warren's book on Furniture, a Personal series of early family correspondence and similar material (including William Warren's World War II records), and a Research series. None of the later series has been processed, and the Research series remains the most disorganized. ",
+                "extent": "27.75 linear feet (53 boxes).",
+                "displayEntry": "Warren, William Lamson. William Lamson Warren Collection, 1896-1999.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Warren, William Lamson",
+                        "id": "9370371",
+                        "version": "7275944"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Johnson Family.",
+                        "id": "9370372",
+                        "version": "7275944"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tomlinson Family.",
+                        "id": "9370373",
+                        "version": "7275944"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Warren Family.",
+                        "id": "9370374",
+                        "version": "7275944"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6z42n3v",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Connecticut Historical Society",
+                            "preferenceScore": "99",
+                            "id": "76765287",
+                            "version": "11225969"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Connecticut Historical Society",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765292",
+                                    "version": "11225969"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1 Elizabeth St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765293",
+                                    "version": "11225969"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Hartford",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765294",
+                                    "version": "11225969"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CT",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765295",
+                                    "version": "11225969"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "06105-2292",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765296",
+                                    "version": "11225969"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765297",
+                                    "version": "11225969"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15325",
+                                "name": "Connecticut Historical Society",
+                                "latitude": "41.7633250",
+                                "longitude": "-72.6740690"
+                            },
+                            "confirmed": true,
+                            "id": "76765291",
+                            "version": "11225969"
+                        }
+                    ],
+                    "id": "76765286",
+                    "version": "11225972"
+                },
+                "id": "7275944",
+                "version": "7275944"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Warren, William Lamson. William Lamson Warren Collection, 1896-1999.",
+            "id": "60521521",
+            "version": "8851658"
+        }
+    ],
+    "id": "60521514",
+    "version": "8851659"
+}

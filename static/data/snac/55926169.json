@@ -1,0 +1,248 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gt9p1k",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T03:01:00",
+            "standardDateTime": "2016-08-16T03:01:00",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T03:01:00",
+            "standardDateTime": "2016-08-16T03:01:00",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/612842732",
+            "id": "55926171",
+            "version": "8178677"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Nederlandsche Radio Unie,",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Nederlandsche Radio Unie,",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "55926173",
+                    "version": "8178677"
+                }
+            ],
+            "id": "55926172",
+            "version": "8178677",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81378540",
+                    "version": "8178677"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "55926169",
+            "targetConstellation": "30101814",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6gt9p1k",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6m331qd",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Nasolini, Sebastiano, 1768-1806.",
+            "id": "55926176",
+            "version": "8178677"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/612842732",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:612842732<\/recordOrigin>\n                     <recordContentSource>ISIL:MH-HT<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Nasolini, Sebastiano, 1768-1806.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Butturini, Mattia, 1752-1817,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Nederlandsche Radio Unie,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>John Milton and Ruth Neils Ward Collection (Harvard Theatre Collection)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Scena ed aria Oppresso agitato : nell'opera Zaria [sic] de Nasolini : manuscript, [1797?]<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Scena ed aria Oppresso agitato : nell'opera Zaria [sic] de Nasolini : manuscript, [1797?]",
+                "extent": "1 ms. score ([45] p.) ; 24 x 30 cm. + 14 ms. parts ; 33 cm.",
+                "displayEntry": "Nasolini, Sebastiano, 1768-1806. Scena ed aria Oppresso agitato : nell'opera Zaria [sic] de Nasolini : manuscript, [1797?]",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Nasolini, Sebastiano, 1768-1806.",
+                        "id": "10180148",
+                        "version": "7801599"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Butturini, Mattia, 1752-1817,",
+                        "id": "10180149",
+                        "version": "7801599"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Nederlandsche Radio Unie,",
+                        "id": "10180150",
+                        "version": "7801599"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "John Milton and Ruth Neils Ward Collection (Harvard Theatre Collection)",
+                        "id": "10180151",
+                        "version": "7801599"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sc4v69",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard University, Harvard Theater Collection, Harvard College Library",
+                            "preferenceScore": "99",
+                            "id": "76769458",
+                            "version": "11227553"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Harvard Theater Collection, Harvard College Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge, Massachusetts 02138  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769462",
+                                    "version": "11227553"
+                                }
+                            ],
+                            "id": "76769461",
+                            "version": "11227553"
+                        }
+                    ],
+                    "id": "76769457",
+                    "version": "11227556"
+                },
+                "id": "7801599",
+                "version": "7801599"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Nasolini, Sebastiano, 1768-1806. Scena ed aria Oppresso agitato : nell'opera Zaria [sic] de Nasolini : manuscript, [1797?]",
+            "id": "55926177",
+            "version": "8178677"
+        }
+    ],
+    "id": "55926169",
+    "version": "8178678",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDateOriginal": "active 1797",
+            "id": "55926170",
+            "version": "8178677"
+        }
+    ]
+}

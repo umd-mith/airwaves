@@ -1,0 +1,633 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tb6bvb",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-20",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T02:12:31",
+            "standardDateTime": "2016-08-10T02:12:31",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T02:12:31",
+            "standardDateTime": "2016-08-10T02:12:31",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/156945649",
+            "id": "6910335",
+            "version": "999764"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/123475774",
+            "id": "6910336",
+            "version": "999764"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/46568024",
+            "id": "6910334",
+            "version": "999764"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "6910337",
+            "version": "999764"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WDSU-TV (Television station : New Orleans, La.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WDSU-TV (Television station : New Orleans, La.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "6910339",
+                    "version": "999764"
+                }
+            ],
+            "id": "6910338",
+            "version": "999764",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77365665",
+                    "version": "999764"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "6910332",
+            "targetConstellation": "74613073",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tb6bvb",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bc8xkj",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Cosmos Broadcasting Corporation.",
+            "id": "6910349",
+            "version": "999764"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "6910332",
+            "targetConstellation": "17779777",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tb6bvb",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w65t4wm0",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Keevers, Mary Liz.",
+            "id": "6910348",
+            "version": "999764"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "WDSU-TV (Television station : New Orleans, La.)",
+            "uri": "https:\/\/viaf.org\/viaf\/123475774",
+            "id": "6910345",
+            "version": "999764"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no98127535",
+            "id": "6910346",
+            "version": "999764"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no98127535",
+            "id": "6910347",
+            "version": "999764"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/156945649",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:156945649<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-SEA<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Cosmos Broadcasting Corporation.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Broadcasting Company of the South.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Cosmos Broadcasting of Louisiana Incorporated.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Cosmos Cablevision Corporation<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Cox-Cosmos Incorporated.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WCSC (Radio station : Charleston, S.C.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WDSU-TV (Television station : New Orleans, La.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WIS (Radio station : Columbia, S.C.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WIS-TV (Television station : Columbia, S.C.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WSFA-TV (Television station : Montgomery, Ala.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WQXI (Radio station : Atlanta, Ga.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WTOL-TV (Television station : Toledo, Ohio)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Cosmos Broadcasting Corporation records addition, 1939-1986.<\/title>\n                  <\/titleInfo>\n                  <abstract>The files of this collection contain additional material documenting the growth and development of Cosmos Broadcasting Corporation and, its predecessor, The Broadcasting Company of the South. Documentation includes reports, meeting minutes, financial statements, long-range plans, proposed budgets, stockholder reports, files pertaining to Cosmos Broadcasting of Louisiana and Cosmos Cablevision Corporation \/ Cox - Cosmos, and WIS Radio &amp; WIS-TV, WCSC Radio, WSFA-TV, WQXI Radio, and WTOL-TV records. In particular, this records addition contains supplemental documentation concerning The Broadcasting Company of the South, Community Antenna Television \/ Cable Television (CATV), Cosmos Cablevision, Cox-Cosmos Incorporated, the Federal Communications Commission, WDSU-TV, WIS Radio &amp; WIS-TV, WSFA-TV, and WTOL-TV. <\/abstract>\n                  <name>\n                     <namePart>Clemson University Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Cosmos Broadcasting Corporation records addition, 1939-1986.",
+                "abstract": "The files of this collection contain additional material documenting the growth and development of Cosmos Broadcasting Corporation and, its predecessor, The Broadcasting Company of the South. Documentation includes reports, meeting minutes, financial statements, long-range plans, proposed budgets, stockholder reports, files pertaining to Cosmos Broadcasting of Louisiana and Cosmos Cablevision Corporation \/ Cox - Cosmos, and WIS Radio & WIS-TV, WCSC Radio, WSFA-TV, WQXI Radio, and WTOL-TV records. In particular, this records addition contains supplemental documentation concerning The Broadcasting Company of the South, Community Antenna Television \/ Cable Television (CATV), Cosmos Cablevision, Cox-Cosmos Incorporated, the Federal Communications Commission, WDSU-TV, WIS Radio & WIS-TV, WSFA-TV, and WTOL-TV. ",
+                "extent": "3 cubic ft.",
+                "displayEntry": "Cosmos Broadcasting Corporation. Cosmos Broadcasting Corporation records addition, 1939-1986.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cosmos Broadcasting Corporation.",
+                        "id": "8752590",
+                        "version": "6902554"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Broadcasting Company of the South.",
+                        "id": "8752591",
+                        "version": "6902554"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cosmos Broadcasting of Louisiana Incorporated.",
+                        "id": "8752592",
+                        "version": "6902554"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cosmos Cablevision Corporation",
+                        "id": "8752593",
+                        "version": "6902554"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cox-Cosmos Incorporated.",
+                        "id": "8752594",
+                        "version": "6902554"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WCSC (Radio station : Charleston, S.C.)",
+                        "id": "8752595",
+                        "version": "6902554"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WDSU-TV (Television station : New Orleans, La.)",
+                        "id": "8752596",
+                        "version": "6902554"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WIS (Radio station : Columbia, S.C.)",
+                        "id": "8752597",
+                        "version": "6902554"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WIS-TV (Television station : Columbia, S.C.)",
+                        "id": "8752598",
+                        "version": "6902554"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WSFA-TV (Television station : Montgomery, Ala.)",
+                        "id": "8752599",
+                        "version": "6902554"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WQXI (Radio station : Atlanta, Ga.)",
+                        "id": "8752600",
+                        "version": "6902554"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WTOL-TV (Television station : Toledo, Ohio)",
+                        "id": "8752601",
+                        "version": "6902554"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6qw48zp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Clemson University Libraries, Robert Muldrow Cooper Library",
+                            "preferenceScore": "99",
+                            "id": "76764534",
+                            "version": "11225697"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Clemson University Libraries, Robert Muldrow Cooper Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Robert M Cooper Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764539",
+                                    "version": "11225697"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "116 Sigma Drive",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764540",
+                                    "version": "11225697"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Clemson",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764541",
+                                    "version": "11225697"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-SC",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764542",
+                                    "version": "11225697"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "29634-3001",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764543",
+                                    "version": "11225697"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764544",
+                                    "version": "11225697"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16144",
+                                "name": "Clemson University Libraries, Robert Muldrow Cooper Library",
+                                "latitude": "34.6771889",
+                                "longitude": "-82.8342285"
+                            },
+                            "confirmed": true,
+                            "id": "76764538",
+                            "version": "11225697"
+                        }
+                    ],
+                    "id": "76764533",
+                    "version": "11225700"
+                },
+                "id": "6902554",
+                "version": "6902554"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Cosmos Broadcasting Corporation. Cosmos Broadcasting Corporation records addition, 1939-1986.",
+            "id": "6910351",
+            "version": "999764"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/46568024",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:46568024<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-LNU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Keevers, Mary Liz.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>University of New Orleans. Arts Administration Program.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>University of New Orleans.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>A report \/ by Mary Liz Keevers. 1998.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>University of New Orleans<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "A report \/ by Mary Liz Keevers. 1998.",
+                "extent": "iii, 65 leaves : ill. (1 col.) ; 29 cm.",
+                "displayEntry": "Keevers, Mary Liz. A report \/ by Mary Liz Keevers.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Keevers, Mary Liz.",
+                        "id": "9820628",
+                        "version": "7567257"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of New Orleans. Arts Administration Program.",
+                        "id": "9820629",
+                        "version": "7567257"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of New Orleans.",
+                        "id": "9820630",
+                        "version": "7567257"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w69t2dpk",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of New Orleans, Earl K. Long Library",
+                            "preferenceScore": "99",
+                            "id": "76787410",
+                            "version": "11234193"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of New Orleans, Earl K. Long Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "2000 Lakeshore Drive",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787414",
+                                    "version": "11234193"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New Orleans",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787415",
+                                    "version": "11234193"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-LA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787416",
+                                    "version": "11234193"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "70148",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787417",
+                                    "version": "11234193"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787418",
+                                    "version": "11234193"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17178",
+                                "name": "University of New Orleans, Earl K. Long Library",
+                                "latitude": "30.0278473",
+                                "longitude": "-90.0671997"
+                            },
+                            "confirmed": true,
+                            "id": "76787413",
+                            "version": "11234193"
+                        }
+                    ],
+                    "id": "76787409",
+                    "version": "11234196"
+                },
+                "id": "7567257",
+                "version": "7567257"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Keevers, Mary Liz. A report \/ by Mary Liz Keevers.",
+            "id": "6910350",
+            "version": "999764"
+        }
+    ],
+    "id": "6910332",
+    "version": "999765",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1939",
+            "fromDateOriginal": "active 1939",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1986",
+            "toDateOriginal": "active 1986",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "6910333",
+            "version": "999764"
+        }
+    ]
+}

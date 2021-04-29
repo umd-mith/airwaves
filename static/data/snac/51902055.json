@@ -1,0 +1,258 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6px2cfg",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T11:41:10",
+            "standardDateTime": "2016-08-15T11:41:10",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T11:41:10",
+            "standardDateTime": "2016-08-15T11:41:10",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/duke\/classic-EADs\/uansbio.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Dawson, Robert E.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/uansbio\/",
+            "id": "51902056",
+            "version": "7588220"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/48611651",
+            "id": "51902057",
+            "version": "7588220"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "51902058",
+            "version": "7588220"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Dawson, Robert E.",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Dawson, Robert E.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "51902060",
+                    "version": "7588220"
+                }
+            ],
+            "id": "51902059",
+            "version": "7588220",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"duke\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81046673",
+                    "version": "7588220"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "51902055",
+            "targetConstellation": "13353006",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6px2cfg",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jx6wfz",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Duke University. News Service.",
+            "id": "51902068",
+            "version": "7588220"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Dawson, Robert E.",
+            "uri": "https:\/\/viaf.org\/viaf\/48611651",
+            "id": "51902065",
+            "version": "7588220"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n20-03128472",
+            "id": "51902066",
+            "version": "7588220"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n2003128472",
+            "id": "51902067",
+            "version": "7588220"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/uansbio\/",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>News\n\t\t  Service Biographical Files,\n\t\t  <unitdate>circa 1930s - 2004<\/unitdate>. <\/unittitle>\n                  <origination>\n                     <corpname>Duke University.\n\t\t\t News Service.<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>183 Linear Feet,\n\t\t  <\/extent>\n                     <extent>122,000 Items\n\t\t  <\/extent>\n                     <extent>(122 boxes)<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>University Archives, Duke\n\t\t\t University.<\/corpname>\n                  <\/repository>\n                  <physloc>For current information on\n\t\t  the location of these materials, please consult University\n\t\t  Archives, Duke University.<\/physloc>\n                  <abstract>The\n\t\t  Duke News Service informs the public and the university\n\t\t  community about research, programs, and events at Duke. The\n\t\t  collection consists of biographical files of Duke\n\t\t  University faculty, staff, alumni, and others compiled by\n\t\t  the News Service. The files contain primarily clippings and\n\t\t  also curricula vitae, photographs, and other printed\n\t\t  materials.<\/abstract>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "News  Service Biographical Files, . circa 1930s - 2004",
+                "abstract": "The  Duke News Service informs the public and the university  community about research, programs, and events at Duke. The  collection consists of biographical files of Duke  University faculty, staff, alumni, and others compiled by  the News Service. The files contain primarily clippings and  also curricula vitae, photographs, and other printed  materials.",
+                "extent": "183 Linear Feet,; 122,000 Items; (122 boxes)",
+                "displayEntry": "News Service Biographical Files, ., circa 1930s - 2004",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11399295",
+                        "version": "6360652"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6bw85hq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University Archives, Duke University.",
+                            "preferenceScore": "99",
+                            "id": "76797158",
+                            "version": "11240981"
+                        }
+                    ],
+                    "id": "76797157",
+                    "version": "11240984"
+                },
+                "id": "6360652",
+                "version": "6360652"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "News Service Biographical Files, ., circa 1930s - 2004",
+            "id": "51902069",
+            "version": "7588220"
+        }
+    ],
+    "id": "51902055",
+    "version": "7588221"
+}

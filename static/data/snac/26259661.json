@@ -1,0 +1,222 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w62q04md",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T00:08:18",
+            "standardDateTime": "2016-08-12T00:08:18",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T00:08:18",
+            "standardDateTime": "2016-08-12T00:08:18",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/05109.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WUNC-TV<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/inv\/o\/Oettinger,Elmer_R.html",
+            "id": "26259662",
+            "version": "3835859"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WUNC-TV",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WUNC-TV",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "26259664",
+                    "version": "3835859"
+                }
+            ],
+            "id": "26259663",
+            "version": "3835859",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78950241",
+                    "version": "3835859"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "26259661",
+            "targetConstellation": "15889635",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w62q04md",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64j38ts",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Oettinger, Elmer R.",
+            "id": "26259667",
+            "version": "3835859"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/inv\/o\/Oettinger,Elmer_R.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>University of North Carolina at Chapel Hill. Library. Southern Historical Collection.<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <persname>Oettinger, Elmer R.<\/persname>\n                  <\/origination>\n                  <unittitle>Elmer R. Oettinger Jr. Papers, <unitdate>1862-2002<\/unitdate>\n                  <\/unittitle>\n                  <unitid>5109<\/unitid>\n                  <physdesc>\n                     <extent>About 2400 items (5.0 linear feet) <\/extent>\n                  <\/physdesc>\n                  <abstract>Elmer R. Oettinger Jr. was born in 1913 in Wilson, N.C. He was, among many other things, professor of public law and government and assistant director of the Institute of Government at the University of North Carolina at Chapel Hill. He died in 2010.<\/abstract>\n                  <abstract>The collection includes personal and business letters; texts of speeches; manuscript and published versions of original writings; institutional materials, such as memoranda and conference reports; publicity clippings; yearbooks; and photographs relating to Elmer R. Oettinger Jr. Prior to 1960, materials are topically varied and reflect Oettinger's educational activities; his military service with the United States Navy during World War II; and his interests in pursuing careers in the theater, the practice of law, and broadcast radio and television. After 1960, when Oettinger joined the Institute of Government at the University of North Carolina in Chapel Hill as a full-time faculty member, the materials, while continuing other streams, most often reflect his activities as a professor of public law and government. These activities were not confined to academia and much of these later materials reflect Oettinger's intellectual engagement with a number of state, national, and international organizations interested in various aspects of communications and the law. Many materials relate to the National Conference of Commissioners on Uniform State Laws. The earliest materials date from 1862 to 1930 and include Oettinger family documents, yearbooks, photographs, and letters largely from Wilson, N.C.<\/abstract>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Elmer R. Oettinger Jr. Papers, 1862-2002",
+                "abstract": "Elmer R. Oettinger Jr. was born in 1913 in Wilson, N.C. He was, among many other things, professor of public law and government and assistant director of the Institute of Government at the University of North Carolina at Chapel Hill. He died in 2010. The collection includes personal and business letters; texts of speeches; manuscript and published versions of original writings; institutional materials, such as memoranda and conference reports; publicity clippings; yearbooks; and photographs relating to Elmer R. Oettinger Jr. Prior to 1960, materials are topically varied and reflect Oettinger's educational activities; his military service with the United States Navy during World War II; and his interests in pursuing careers in the theater, the practice of law, and broadcast radio and television. After 1960, when Oettinger joined the Institute of Government at the University of North Carolina in Chapel Hill as a full-time faculty member, the materials, while continuing other streams, most often reflect his activities as a professor of public law and government. These activities were not confined to academia and much of these later materials reflect Oettinger's intellectual engagement with a number of state, national, and international organizations interested in various aspects of communications and the law. Many materials relate to the National Conference of Commissioners on Uniform State Laws. The earliest materials date from 1862 to 1930 and include Oettinger family documents, yearbooks, photographs, and letters largely from Wilson, N.C.",
+                "extent": "About 2400 items (5.0 linear feet)",
+                "displayEntry": "Elmer R. Oettinger Jr. Papers, 1862-2002",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Oettinger, Elmer R.",
+                        "id": "11609013",
+                        "version": "6628331"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11609014",
+                        "version": "6628331"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b38j9n",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill. Library. Southern Historical Collection",
+                            "preferenceScore": "99",
+                            "id": "83559850",
+                            "version": "11276388"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Southern States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83559866",
+                            "version": "11275999"
+                        }
+                    ],
+                    "id": "83559846",
+                    "version": "11276399"
+                },
+                "id": "6628331",
+                "version": "6628331"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Elmer R. Oettinger Jr. Papers, 1862-2002",
+            "id": "26259668",
+            "version": "3835859"
+        }
+    ],
+    "id": "26259661",
+    "version": "3835860"
+}

@@ -1,0 +1,763 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6rk100w",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T04:08:53",
+            "standardDateTime": "2016-08-15T04:08:53",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T04:08:53",
+            "standardDateTime": "2016-08-15T04:08:53",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/uct\/MSS19800039.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">College of San Mateo<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/Sobek\/MSS19800039.html",
+            "id": "49861478",
+            "version": "7289327"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/hou01943.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">College of San Mateo,<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/hou01943\/catalog",
+            "id": "49861479",
+            "version": "7289327"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/146670509",
+            "id": "49861480",
+            "version": "7289327"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122546823",
+            "id": "49861477",
+            "version": "7289327"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "49861481",
+            "version": "7289327"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "College of San Mateo",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "College of San Mateo",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "49861483",
+                    "version": "7289327"
+                }
+            ],
+            "id": "49861482",
+            "version": "7289327",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"uct\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80877133",
+                    "version": "7289327"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "CSM",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "CSM",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "49861490",
+                    "version": "7289327"
+                }
+            ],
+            "id": "49861489",
+            "version": "7289327",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80877134",
+                    "version": "7289327"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "49861476",
+            "targetConstellation": "59562938",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rk100w",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w66b0qq7",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Byrd, Oliver Erasmus.",
+            "id": "49861499",
+            "version": "7289327"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "49861476",
+            "targetConstellation": "29666939",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rk100w",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64s419z",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Sobek, Joseph.",
+            "id": "49861500",
+            "version": "7289327"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "49861476",
+            "targetConstellation": "69895379",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rk100w",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sf31pz",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Vidal, Gore, 1925-",
+            "id": "49861501",
+            "version": "7289327"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "College of San Mateo",
+            "uri": "https:\/\/viaf.org\/viaf\/146670509",
+            "id": "49861496",
+            "version": "7289327"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n86848693",
+            "id": "49861497",
+            "version": "7289327"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n86848693",
+            "id": "49861498",
+            "version": "7289327"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "https:\/\/archivessearch.lib.uconn.edu\/repositories\/2\/resources\/667",
+                "title": "Joseph Sobek Papers. undated, 1951-1981.",
+                "abstract": "Joseph George Sobek was born 5 April 1918, in Greenwich, Connecticut and was raised there. He served in the Marines and later became a police detective. Until he retired in 1985, he had spent most of his life as a tennis and squash racquets professional at the Greenwich Country Club. He died of congenital heart disease March 27, 1998. Sobek was the first person inducted into the Racquetball Hall of Fame.\r\n\r\nThe papers are arranged in four series detailing the international acceptance of racquetball. Documents include correspondence, newspaper clippings, articles, rulebooks, legal and financial records, and an official \u201cJoe Sobek paddle racket\u201d ball and the original Magnan Company paddle racquet.",
+                "extent": "7.5 Linear Feet",
+                "date": "undated, 1951-1981",
+                "displayEntry": "Sobek, Joseph, 1918-1998. Papers, 1951-1981 and undated",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Sobek, Joseph.",
+                        "id": "11359151",
+                        "version": "6332600"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11359152",
+                        "version": "6332600"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6mt4ghq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archives & Special Collections at the Thomas J. Dodd Research Center.",
+                            "preferenceScore": "99",
+                            "id": "76791841",
+                            "version": "11235957"
+                        }
+                    ],
+                    "id": "76791840",
+                    "version": "11235960"
+                },
+                "id": "6332600",
+                "version": "6332600"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Joseph Sobek Papers., undated, 1951-1981.",
+            "id": "49861503",
+            "version": "7289327"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122546823",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122546823<\/recordOrigin>\n                     <recordContentSource>ISIL:CSt<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Byrd, Oliver Erasmus.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Five years of track and field athletics at College of San Mateo 62 years ago, 1932-1937.<\/title>\n                  <\/titleInfo>\n                  <abstract>Bound volume of copies of clippings about the track team at the College of San Mateo, as well as information on Byrd's career. Produced in 1994 by Dr. Byrd. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Five years of track and field athletics at College of San Mateo 62 years ago, 1932-1937.",
+                "abstract": "Bound volume of copies of clippings about the track team at the College of San Mateo, as well as information on Byrd's career. Produced in 1994 by Dr. Byrd. ",
+                "extent": "1 v.",
+                "displayEntry": "Byrd, Oliver Erasmus. Five years of track and field athletics at College of San Mateo 62 years ago, 1932-1937.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Byrd, Oliver Erasmus.",
+                        "id": "8517571",
+                        "version": "6758402"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r60dtf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Stanford University. Department of Special Collections and University Archives",
+                            "preferenceScore": "99",
+                            "id": "83740282",
+                            "version": "11288677"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Stanford University, Interlibrary Service",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Green Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740287",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Arguello Way",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740288",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740289",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740290",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "94305-6004",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740291",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740292",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15165",
+                                "name": "Stanford University, Interlibrary Service",
+                                "latitude": "37.4313698",
+                                "longitude": "-122.1689224"
+                            },
+                            "confirmed": true,
+                            "id": "83740286",
+                            "version": "11288638"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Department of Special Collections and University Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford University Libraries 557 Escondido Mall Stanford, CA 94305-6064 Email: speccollref@stanford.edu Phone: (650) 725-1022 URL: http:\/\/www-sul.stanford.edu\/depts\/spc\/spc.html",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740294",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "id": "83740293",
+                            "version": "11288638"
+                        }
+                    ],
+                    "id": "83740278",
+                    "version": "11288678"
+                },
+                "id": "6758402",
+                "version": "6758402"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Byrd, Oliver Erasmus. Five years of track and field athletics at College of San Mateo 62 years ago, 1932-1937.",
+            "id": "49861502",
+            "version": "7289327"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/hou01943\/catalog",
+                "title": "Gore Vidal papers, 1850-2020 (inclusive), 1936-2008 (bulk)",
+                "abstract": "Papers of American author, Gore Vidal (1925-), including literary manuscripts, correspondence, photographs, political papers, legal and business records, and other material. Also includes papers of his companion, Howard Austen (1929-2003).",
+                "extent": "414 linear feet (449 boxes, cartons, and film reels)",
+                "displayEntry": "Gore Vidal papers, 1850-2020 (inclusive), 1936-2008 (bulk)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Vidal, Gore, 1925-. ",
+                        "id": "11438824",
+                        "version": "6385010"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11438825",
+                        "version": "6385010"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "144",
+                            "term": "fre",
+                            "type": "language_code",
+                            "description": "French"
+                        },
+                        "id": "11438826",
+                        "version": "6385010"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "159",
+                            "term": "ger",
+                            "type": "language_code",
+                            "description": "German"
+                        },
+                        "id": "11438827",
+                        "version": "6385010"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "214",
+                            "term": "ita",
+                            "type": "language_code",
+                            "description": "Italian"
+                        },
+                        "id": "11438828",
+                        "version": "6385010"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "419",
+                            "term": "spa",
+                            "type": "language_code",
+                            "description": "Spanish; Castilian"
+                        },
+                        "id": "11438829",
+                        "version": "6385010"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64n9vjj",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Houghton Library",
+                            "preferenceScore": "99",
+                            "id": "84972051",
+                            "version": "11443403"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Houghton Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Harvard Yard",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937835",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937836",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937837",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138-6534",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937838",
+                                    "version": "11443394"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84937839",
+                                    "version": "11443394"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15160",
+                                "name": "Harvard University, Houghton Library",
+                                "latitude": "42.3731728",
+                                "longitude": "-71.1159515"
+                            },
+                            "confirmed": true,
+                            "id": "84937834",
+                            "version": "11443394"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts--Cambridge",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84937840",
+                            "version": "11443394"
+                        }
+                    ],
+                    "id": "84937800",
+                    "version": "11443404"
+                },
+                "id": "6385010",
+                "version": "6385010"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Gore Vidal papers, 1875-2004 (inclusive), 1936-2000 (bulk).",
+            "id": "49861504",
+            "version": "7289327"
+        }
+    ],
+    "id": "49861476",
+    "version": "7289328"
+}

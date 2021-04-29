@@ -1,0 +1,211 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w67r4cvv",
+    "entityType": {
+        "id": "699",
+        "term": "family",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Family",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T09:44:57",
+            "standardDateTime": "2016-08-19T09:44:57",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T09:44:57",
+            "standardDateTime": "2016-08-19T09:44:57",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/cjh\/lbi-ead-snac\/476281_OttoNeubauer.xml<\/filename>\n                  <ead_entity en_type=\"famname\">Heineman<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/findingaids.cjh.org\/?pID=476281",
+            "id": "74375067",
+            "version": "10870655"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Heineman ",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Heineman ",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "74375069",
+                    "version": "10870655"
+                }
+            ],
+            "id": "74375068",
+            "version": "10870655",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"cjh\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82886484",
+                    "version": "10870655"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "74375066",
+            "targetConstellation": "30715481",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w67r4cvv",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6d94m4d",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Hartstein, Agnes Neubauer",
+            "id": "74375072",
+            "version": "10870655"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/findingaids.cjh.org\/?pID=476281",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <origination>Hartstein, Agnes\n        Neubauer<\/origination>\n                  <unittitle>Otto Neubauer\n        Collection<\/unittitle>\n                  <unitdate>1914-2005<\/unitdate>\n                  <unitdate>bulk 1938-1945<\/unitdate>\n                  <abstract>The focus of this\n        collection is on the experiences of Otto Neubauer (1907-2000) and his family members from\n        1938-1945 with a particular emphasis on their efforts to secure emigration visas for\n        Maximilian Neubauer, Ernst (Elias) Neubauer, and Frieda Weil. Most of the collection\n        consists of correspondence. Other materials include a diary, a cookbook, limited immigration\n        and restitution documents, and records of Otto Neubauer\u2019s schooling, apprenticeships, and\n        employment.<\/abstract>\n                  <langmaterial>The collection is\n        in <language>German<\/language> and <language>English<\/language>.<\/langmaterial>\n                  <physdesc>\n                     <extent>0.5<\/extent> linear feet<\/physdesc>\n                  <unitid>AR 25339<\/unitid>\n                  <repository>\n                     <corpname>Leo Baeck\n          Institute<\/corpname>\n                  <\/repository>\n                  <physloc>AR 25339<\/physloc>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Otto Neubauer        Collection 1914-2005 bulk 1938-1945",
+                "abstract": "The focus of this        collection is on the experiences of Otto Neubauer (1907-2000) and his family members from        1938-1945 with a particular emphasis on their efforts to secure emigration visas for        Maximilian Neubauer, Ernst (Elias) Neubauer, and Frieda Weil. Most of the collection        consists of correspondence. Other materials include a diary, a cookbook, limited immigration        and restitution documents, and records of Otto Neubauer\u2019s schooling, apprenticeships, and        employment.",
+                "extent": "0.5",
+                "displayEntry": "Otto Neubauer Collection, 1914-2005, bulk 1938-1945",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "159",
+                            "term": "ger",
+                            "type": "language_code",
+                            "description": "German"
+                        },
+                        "id": "11376618",
+                        "version": "6346493"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11376619",
+                        "version": "6346493"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w69m5104",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Leo Baeck Institute.",
+                            "preferenceScore": "99",
+                            "id": "76794143",
+                            "version": "11238165"
+                        }
+                    ],
+                    "id": "76794142",
+                    "version": "11238168"
+                },
+                "id": "6346493",
+                "version": "6346493"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Otto Neubauer Collection, 1914-2005, bulk 1938-1945",
+            "id": "74375073",
+            "version": "10870655"
+        }
+    ],
+    "id": "74375066",
+    "version": "10870656"
+}

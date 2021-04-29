@@ -1,0 +1,777 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60602g0",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T21:41:56",
+            "standardDateTime": "2016-08-09T21:41:56",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T21:41:57",
+            "standardDateTime": "2016-08-09T21:41:57",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/55033580",
+            "id": "4630853",
+            "version": "675518"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/55046559",
+            "id": "4630854",
+            "version": "675518"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/30047187",
+            "id": "4630855",
+            "version": "675518"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/66023588",
+            "id": "4630856",
+            "version": "675518"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "4630857",
+            "version": "675518"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Fellows, James A.",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Fellows, James A.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "4630859",
+                    "version": "675518"
+                }
+            ],
+            "id": "4630858",
+            "version": "675518",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77181446",
+                    "version": "675518"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Fellows, James.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Fellows, James.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "4630863",
+                    "version": "675518"
+                }
+            ],
+            "id": "4630862",
+            "version": "675518",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77181447",
+                    "version": "675518"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "4630851",
+            "targetConstellation": "4786296",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60602g0",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w69347p1",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Ball, Edmund F.",
+            "id": "4630873",
+            "version": "675518"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "4630851",
+            "targetConstellation": "63192741",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60602g0",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tq6731",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Sage, Gardner A.",
+            "id": "4630872",
+            "version": "675518"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Fellows, James A.",
+            "uri": "https:\/\/viaf.org\/viaf\/66023588",
+            "id": "4630869",
+            "version": "675518"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no00099411",
+            "id": "4630870",
+            "version": "675518"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no00099411",
+            "id": "4630871",
+            "version": "675518"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/30047187",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:30047187<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Ball, Edmund F.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Harley, William G., 1911-1998.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Rogers, Ralph B., 1909-1997.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Fellows, James A.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Grossman, Lawrence K.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Minow, Newton N., 1926-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Edmund F. Ball papers, 1969-1983 (bulk 1970-1979)<\/title>\n                  <\/titleInfo>\n                  <abstract>The papers document Ball's involvement with the National Association of Educational Broadcasters (NAEB) and the Public Broadcasting Service (PBS). <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Edmund F. Ball papers, 1969-1983 (bulk 1970-1979)",
+                "abstract": "The papers document Ball's involvement with the National Association of Educational Broadcasters (NAEB) and the Public Broadcasting Service (PBS). ",
+                "extent": "4.25 linear feet.",
+                "displayEntry": "Ball, Edmund F. Edmund F. Ball papers, 1969-1983 (bulk 1970-1979)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ball, Edmund F.",
+                        "id": "9381009",
+                        "version": "7282468"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Harley, William G., 1911-1998.",
+                        "id": "9381010",
+                        "version": "7282468"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rogers, Ralph B., 1909-1997.",
+                        "id": "9381011",
+                        "version": "7282468"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Fellows, James A.",
+                        "id": "9381012",
+                        "version": "7282468"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Grossman, Lawrence K.",
+                        "id": "9381013",
+                        "version": "7282468"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Minow, Newton N., 1926-",
+                        "id": "9381014",
+                        "version": "7282468"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7282468",
+                "version": "7282468"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Ball, Edmund F. Edmund F. Ball papers, 1969-1983 (bulk 1970-1979)",
+            "id": "4630876",
+            "version": "675518"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/55046559",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:55046559<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-ZYU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Sage, Gardner A.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Lockman, DeWitt McClellan, 1870-1957,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>[Map of the area later bounded by Dey Street, Broadway, Cortlandt Street and Church Street, Manhattan, New York (N.Y.)]. [ca. 1845]<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>New York University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "[Map of the area later bounded by Dey Street, Broadway, Cortlandt Street and Church Street, Manhattan, New York (N.Y.)]. [ca. 1845]",
+                "extent": "1 map : ms. ; 36 x 44 cm.",
+                "displayEntry": "Sage, Gardner A. [Map of the area later bounded by Dey Street, Broadway, Cortlandt Street and Church Street, Manhattan, New York (N.Y.)].",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Sage, Gardner A.",
+                        "id": "10011186",
+                        "version": "7686026"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lockman, DeWitt McClellan, 1870-1957,",
+                        "id": "10011187",
+                        "version": "7686026"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6rs2n8s",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Elmer Holmes Bobst Library",
+                            "preferenceScore": "99",
+                            "id": "83696253",
+                            "version": "11285414"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "New York University, Elmer Holmes Bobst Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "70 Washington Square South",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696289",
+                                    "version": "11285407"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "70 Washington Sq S",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696290",
+                                    "version": "11285407"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New York",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696291",
+                                    "version": "11285407"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696292",
+                                    "version": "11285407"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10012",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696293",
+                                    "version": "11285407"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696294",
+                                    "version": "11285407"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16896",
+                                "name": "New York University, Elmer Holmes Bobst Library",
+                                "latitude": "40.7253000",
+                                "longitude": "-73.9977000"
+                            },
+                            "confirmed": true,
+                            "id": "83696288",
+                            "version": "11285407"
+                        }
+                    ],
+                    "id": "83696249",
+                    "version": "11481754"
+                },
+                "id": "7686026",
+                "version": "7686026"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Sage, Gardner A. [Map of the area later bounded by Dey Street, Broadway, Cortlandt Street and Church Street, Manhattan, New York (N.Y.)].",
+            "id": "4630875",
+            "version": "675518"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/55033580",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:55033580<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-ZYU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Sage, Gardner A.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Lockman, DeWitt McClellan, 1870-1957,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>[Map of the area later bounded by John Street, Nassau Street, Maiden Lane and Broadway, Manhattan, New York (N.Y.)] \/ surveyed as in possession by Gardner A. Sage ; s[urveye]d for building G.A.S. 1854 May 20.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>New York University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "[Map of the area later bounded by John Street, Nassau Street, Maiden Lane and Broadway, Manhattan, New York (N.Y.)] \/ surveyed as in possession by Gardner A. Sage ; s[urveye]d for building G.A.S. 1854 May 20.",
+                "extent": "1 map on 2 assembled sheets : ms., col. ; 42 x 44 cm.",
+                "displayEntry": "Sage, Gardner A. [Map of the area later bounded by John Street, Nassau Street, Maiden Lane and Broadway, Manhattan, New York (N.Y.)] \/ surveyed as in possession by Gardner A. Sage ; s[urveye]d for building G.A.S.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Sage, Gardner A.",
+                        "id": "10010687",
+                        "version": "7685695"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lockman, DeWitt McClellan, 1870-1957,",
+                        "id": "10010688",
+                        "version": "7685695"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6rs2n8s",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Elmer Holmes Bobst Library",
+                            "preferenceScore": "99",
+                            "id": "83696253",
+                            "version": "11285414"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "New York University, Elmer Holmes Bobst Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "70 Washington Square South",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696289",
+                                    "version": "11285407"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "70 Washington Sq S",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696290",
+                                    "version": "11285407"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New York",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696291",
+                                    "version": "11285407"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696292",
+                                    "version": "11285407"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10012",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696293",
+                                    "version": "11285407"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83696294",
+                                    "version": "11285407"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16896",
+                                "name": "New York University, Elmer Holmes Bobst Library",
+                                "latitude": "40.7253000",
+                                "longitude": "-73.9977000"
+                            },
+                            "confirmed": true,
+                            "id": "83696288",
+                            "version": "11285407"
+                        }
+                    ],
+                    "id": "83696249",
+                    "version": "11481754"
+                },
+                "id": "7685695",
+                "version": "7685695"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Sage, Gardner A. [Map of the area later bounded by John Street, Nassau Street, Maiden Lane and Broadway, Manhattan, New York (N.Y.)] \/ surveyed as in possession by Gardner A. Sage ; s[urveye]d for building G.A.S.",
+            "id": "4630874",
+            "version": "675518"
+        }
+    ],
+    "id": "4630851",
+    "version": "675519",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1934-10-20",
+            "fromDateOriginal": "1934-10-20",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "4630852",
+            "version": "675518"
+        }
+    ]
+}

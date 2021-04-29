@@ -1,0 +1,1084 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w637999b",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T02:34:15",
+            "standardDateTime": "2016-08-13T02:34:15",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T02:34:15",
+            "standardDateTime": "2016-08-13T02:34:15",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/181956120",
+            "id": "35272876",
+            "version": "5151299"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/div00622.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Robert Edward Green,<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/div00622\/catalog",
+            "id": "35272878",
+            "version": "5151299"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/28465258",
+            "id": "35272879",
+            "version": "5151299"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/776239878",
+            "id": "35272877",
+            "version": "5151299"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "35272880",
+            "version": "5151299"
+        }
+    ],
+    "languagesUsed": [
+        {
+            "dataType": "Language",
+            "language": {
+                "id": "130",
+                "term": "eng",
+                "type": "language_code",
+                "description": "English"
+            },
+            "script": {
+                "id": "685",
+                "term": "Zyyy",
+                "type": "script_code",
+                "description": "Code for undetermined script"
+            },
+            "id": "35272881",
+            "version": "5151299"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Green, Robert E. (Robert Edward), 1932-",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Green, Robert E. (Robert Edward), 1932-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35272883",
+                    "version": "5151299"
+                }
+            ],
+            "id": "35272882",
+            "version": "5151299",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79681383",
+                    "version": "5151299"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Green, Robert Edward (1932- ).",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Green, Robert Edward (1932- ).",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35272886",
+                    "version": "5151299"
+                }
+            ],
+            "id": "35272885",
+            "version": "5151299",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79681384",
+                    "version": "5151299"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Robert Edward Green",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Robert Edward Green",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35272889",
+                    "version": "5151299"
+                }
+            ],
+            "id": "35272888",
+            "version": "5151299",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79681385",
+                    "version": "5151299"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Green, Robert E. 1932-",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Green, Robert E. 1932-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35272892",
+                    "version": "5151299"
+                }
+            ],
+            "id": "35272891",
+            "version": "5151299",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79681386",
+                    "version": "5151299"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Green, Robert E.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Green, Robert E.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35272895",
+                    "version": "5151299"
+                }
+            ],
+            "id": "35272894",
+            "version": "5151299",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79681387",
+                    "version": "5151299"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Green, Robert Edward.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Green, Robert Edward.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35272899",
+                    "version": "5151299"
+                }
+            ],
+            "id": "35272898",
+            "version": "5151299",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79681388",
+                    "version": "5151299"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Green, Robert E. Jr",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Green, Robert E. Jr",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35272902",
+                    "version": "5151299"
+                }
+            ],
+            "id": "35272901",
+            "version": "5151299",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79681389",
+                    "version": "5151299"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Green, R. E. Jr",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Green, R. E. Jr",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35272905",
+                    "version": "5151299"
+                }
+            ],
+            "id": "35272904",
+            "version": "5151299",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79681390",
+                    "version": "5151299"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Green, R. E. 1932-",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Green, R. E. 1932-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35272908",
+                    "version": "5151299"
+                }
+            ],
+            "id": "35272907",
+            "version": "5151299",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79681391",
+                    "version": "5151299"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Green, R. E. 1932- (Robert Edward),",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Green, R. E. 1932- (Robert Edward),",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35272911",
+                    "version": "5151299"
+                }
+            ],
+            "id": "35272910",
+            "version": "5151299",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79681392",
+                    "version": "5151299"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "35272874",
+                "version": "5151299"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">Robert Edward Green(1934-2003) was a religious humanist and Unitarian Universalist minister who served churches in Massachusetts, Ohio, Vermont, Michigan, and California.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Papers of Robert Edward Green 1961-2002 (Harvard University, Divinity School Library). WorldCat record id: 776239878<\/citation>\n         <\/biogHist>",
+            "id": "35272873",
+            "version": "5151299"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "35272872",
+            "targetConstellation": "52809480",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w637999b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kx3gf5",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "All Souls Church Universalist Unitarian (Brattleboro, Vt.)",
+            "id": "35272924",
+            "version": "5151299"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "35272872",
+            "targetConstellation": "71063816",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w637999b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t51tbs",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "First Unitarian Church (Stockton, Calif.)",
+            "id": "35272926",
+            "version": "5151299"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "35272872",
+            "targetConstellation": "5002738",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w637999b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w63k1d73",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "First Universalist Church (North Olmstead, Ohio)",
+            "id": "35272923",
+            "version": "5151299"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "35272872",
+            "targetConstellation": "19848066",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w637999b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hd9dv6",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Hersey, Benjamin B., 1903-1971",
+            "id": "35272927",
+            "version": "5151299"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "35272872",
+            "targetConstellation": "60360775",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w637999b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6641qr0",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Raible, Robert Jules, 1899-1983.",
+            "id": "35272922",
+            "version": "5151299"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "35272872",
+            "targetConstellation": "55612798",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w637999b",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hb756b",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Unitarian Universalist Church (East Lansing, Mich.)",
+            "id": "35272925",
+            "version": "5151299"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Green, Robert E.",
+            "uri": "https:\/\/viaf.org\/viaf\/28465258",
+            "id": "35272918",
+            "version": "5151299"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n84027753",
+            "id": "35272919",
+            "version": "5151299"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n84027753",
+            "id": "35272920",
+            "version": "5151299"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/776239878",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:776239878<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-BHA<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Green, Robert Edward.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>First Universalist Church (North Olmstead, Ohio)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>All Souls Church Universalist Unitarian (Brattleboro, Vt.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Unitarian Universalist Church (East Lansing, Mich.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>First Unitarian Church (Stockton, Calif.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers of Robert Edward Green 1961-2002<\/title>\n                  <\/titleInfo>\n                  <abstract>This collection consists largely of Green's sermons, but also includes correspondence, worship materials, and plays which were edited and arranged by Green to be performed as part of a service. <\/abstract>\n                  <name>\n                     <namePart>Harvard University, Divinity School Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers of Robert Edward Green 1961-2002",
+                "abstract": "This collection consists largely of Green's sermons, but also includes correspondence, worship materials, and plays which were edited and arranged by Green to be performed as part of a service. ",
+                "extent": "12 linear feet 12 boxes",
+                "displayEntry": "Green, Robert Edward. Papers of Robert Edward Green 1961-2002",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Green, Robert Edward.",
+                        "id": "11015885",
+                        "version": "8199479"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "First Universalist Church (North Olmstead, Ohio)",
+                        "id": "11015886",
+                        "version": "8199479"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "All Souls Church Universalist Unitarian (Brattleboro, Vt.)",
+                        "id": "11015887",
+                        "version": "8199479"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Unitarian Universalist Church (East Lansing, Mich.)",
+                        "id": "11015888",
+                        "version": "8199479"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "First Unitarian Church (Stockton, Calif.)",
+                        "id": "11015889",
+                        "version": "8199479"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b95xm5",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard University, Divinity School Library",
+                            "preferenceScore": "99",
+                            "id": "76769350",
+                            "version": "11227505"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Divinity School Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "45 Francis Ave",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769355",
+                                    "version": "11227505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769356",
+                                    "version": "11227505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769357",
+                                    "version": "11227505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138-1994",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769358",
+                                    "version": "11227505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769359",
+                                    "version": "11227505"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16979",
+                                "name": "Harvard University, Divinity School Library",
+                                "latitude": "42.3802530",
+                                "longitude": "-71.1127550"
+                            },
+                            "confirmed": true,
+                            "id": "76769354",
+                            "version": "11227505"
+                        }
+                    ],
+                    "id": "76769349",
+                    "version": "11227508"
+                },
+                "id": "8199479",
+                "version": "8199479"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Green, Robert Edward. Papers of Robert Edward Green 1961-2002",
+            "id": "35272929",
+            "version": "5151299"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/181956120",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:181956120<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-BHA<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Raible, Robert Jules, 1899-1983.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers, 1913-1983 (inclusive).<\/title>\n                  <\/titleInfo>\n                  <abstract>Sermons (1924-1975), worship materials, subject files on churches he served, special correspondence with prominent Unitarian Universalist ministers, general correspondence (1917-1978), family correspondence (1918-1979), journals and scrapbooks, biographical files. <\/abstract>\n                  <name>\n                     <namePart>Harvard University, Divinity School Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1913-1983 (inclusive).",
+                "abstract": "Sermons (1924-1975), worship materials, subject files on churches he served, special correspondence with prominent Unitarian Universalist ministers, general correspondence (1917-1978), family correspondence (1918-1979), journals and scrapbooks, biographical files. ",
+                "extent": "8.3 linear ft. (33 boxes).",
+                "displayEntry": "Raible, Robert Jules, 1899-1983. Papers, 1913-1983 (inclusive).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Raible, Robert Jules, 1899-1983.",
+                        "id": "8819592",
+                        "version": "6941663"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b95xm5",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard University, Divinity School Library",
+                            "preferenceScore": "99",
+                            "id": "76769350",
+                            "version": "11227505"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Divinity School Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "45 Francis Ave",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769355",
+                                    "version": "11227505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769356",
+                                    "version": "11227505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769357",
+                                    "version": "11227505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138-1994",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769358",
+                                    "version": "11227505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769359",
+                                    "version": "11227505"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16979",
+                                "name": "Harvard University, Divinity School Library",
+                                "latitude": "42.3802530",
+                                "longitude": "-71.1127550"
+                            },
+                            "confirmed": true,
+                            "id": "76769354",
+                            "version": "11227505"
+                        }
+                    ],
+                    "id": "76769349",
+                    "version": "11227508"
+                },
+                "id": "6941663",
+                "version": "6941663"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Raible, Robert Jules, 1899-1983. Papers, 1913-1983 (inclusive).",
+            "id": "35272928",
+            "version": "5151299"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/div00622\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Andover-Harvard Theological Library, Harvard Divinity School  <\/repository>\n                  <unitid>bMS 622  <\/unitid>\n                  <origination>\n                     <persname>Hersey, Benjamin B., 1903-1971.  <\/persname>\n                  <\/origination>\n                  <unittitle>Sermons, <unitdate>1932-1970.  <\/unitdate>\n                  <\/unittitle>\n                  <physdesc>\n                     <extent>11 boxes   <\/extent>\n                  <\/physdesc>\n                  <abstract>Original manuscripts of the sermons of Universalist minister Benjamin Butler\nHersey (1903-1971). <\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Sermons, 1932-1970.",
+                "abstract": "Original manuscripts of the sermons of Universalist minister Benjamin ButlerHersey (1903-1971).",
+                "extent": "11 boxes",
+                "displayEntry": "Sermons, 1932-1970.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hersey, Benjamin B., 1903-1971.  ",
+                        "id": "11426161",
+                        "version": "6382972"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gk07zg",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Andover-Harvard Theological Library",
+                            "preferenceScore": "99",
+                            "id": "84920396",
+                            "version": "11441118"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Andover-Harvard Theological Library, Harvard Divinity School",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "45 Francis Avenue Cambridge, MA 02138-1911",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84920403",
+                                    "version": "11441109"
+                                }
+                            ],
+                            "id": "84920402",
+                            "version": "11441109"
+                        }
+                    ],
+                    "id": "84920365",
+                    "version": "11441119"
+                },
+                "id": "6382972",
+                "version": "6382972"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Sermons, 1932-1970.",
+            "id": "35272930",
+            "version": "5151299"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "366169",
+                "term": "Unitarian Universalist churches--Sermons",
+                "type": "subject"
+            },
+            "id": "35272921",
+            "version": "5151299"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "8188",
+                "term": "Americans",
+                "type": "nationality"
+            },
+            "id": "35272913",
+            "version": "5151299"
+        }
+    ],
+    "id": "35272872",
+    "version": "5151300",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1932",
+            "fromDateOriginal": "1932",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "35272875",
+            "version": "5151299"
+        }
+    ]
+}

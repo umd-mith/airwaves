@@ -1,0 +1,629 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w68d1jr9",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-23",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T19:41:50",
+            "standardDateTime": "2016-08-10T19:41:50",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T19:41:50",
+            "standardDateTime": "2016-08-10T19:41:50",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/49302301",
+            "id": "15042765",
+            "version": "2192726"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/98126447",
+            "id": "15042766",
+            "version": "2192726"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/84688625",
+            "id": "15042764",
+            "version": "2192726"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "15042767",
+            "version": "2192726"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Poole, Lynn",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Poole, Lynn",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "15042769",
+                    "version": "2192726"
+                }
+            ],
+            "id": "15042768",
+            "version": "2192726",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78032669",
+                    "version": "2192726"
+                }
+            ]
+        }
+    ],
+    "occupations": [
+        {
+            "dataType": "Occupation",
+            "term": {
+                "id": "9975",
+                "term": "Authors, American--20th century",
+                "type": "occupation"
+            },
+            "id": "15042772",
+            "version": "2192726"
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "15042762",
+                "version": "2192726"
+            },
+            "text": "<biogHist>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Biographical Note: Lynn Poole (l9l0-l969) was Director of Public Relations, The Johns Hopkins University, 1946-1965.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">He hosted and produced the first educational television series in America, \"Johns Hopkins Science Review,\" 1948-1955. He and his wife, Gray Poole, co-authored several books on science, many directed to the juvenile audience.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Lynn Poole papers, 1948-1976. (Johns Hopkins University). WorldCat record id: 49302301<\/citation>\n         <\/biogHist>",
+            "id": "15042761",
+            "version": "2192726"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "15042760",
+            "targetConstellation": "35429550",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w68d1jr9",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w62s0d44",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Johns Hopkins University. Office of Public Relations.",
+            "id": "15042782",
+            "version": "2192726"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "15042760",
+            "targetConstellation": "63932898",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w68d1jr9",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6np2xn2",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Poole, Gray Johnson.",
+            "id": "15042781",
+            "version": "2192726"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "15042760",
+            "targetConstellation": "5566001",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w68d1jr9",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6x068q6",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Shawn, Ted, 1891-1972.",
+            "id": "15042780",
+            "version": "2192726"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Poole, Lynn",
+            "uri": "https:\/\/viaf.org\/viaf\/98126447",
+            "id": "15042776",
+            "version": "2192726"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/84688625",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:84688625<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NYP<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Shawn, Ted, 1891-1972.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hadassah, 1909?-1992<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Ted Shawn papers, 1913-1982 (bulk 1940-1972)<\/title>\n                  <\/titleInfo>\n                  <abstract>The Ted Shawn papers span the years 1913-1982 and consist mostly of correspondence and personal papers. <\/abstract>\n                  <name>\n                     <namePart>New York Public Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Ted Shawn papers, 1913-1982 (bulk 1940-1972)",
+                "abstract": "The Ted Shawn papers span the years 1913-1982 and consist mostly of correspondence and personal papers. ",
+                "extent": "39 linear feet (89 boxes)",
+                "displayEntry": "Shawn, Ted, 1891-1972. Ted Shawn papers, 1913-1982 (bulk 1940-1972)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Shawn, Ted, 1891-1972.",
+                        "id": "11207091",
+                        "version": "8327848"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hadassah, 1909?-1992",
+                        "id": "11207092",
+                        "version": "8327848"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nt1hgv",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "New York Public Library System, NYPL",
+                            "preferenceScore": "99",
+                            "id": "76777394",
+                            "version": "11230529"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "New York Public Library System, NYPL",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Fifth Avenue at 42nd Street",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777399",
+                                    "version": "11230529"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New York",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777400",
+                                    "version": "11230529"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777401",
+                                    "version": "11230529"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10018-2788",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777402",
+                                    "version": "11230529"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777403",
+                                    "version": "11230529"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15028",
+                                "name": "New York Public Library System, NYPL",
+                                "latitude": "40.7534981",
+                                "longitude": "-73.9808884"
+                            },
+                            "confirmed": true,
+                            "id": "76777398",
+                            "version": "11230529"
+                        }
+                    ],
+                    "id": "76777393",
+                    "version": "11230532"
+                },
+                "id": "8327848",
+                "version": "8327848"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Shawn, Ted, 1891-1972. Ted Shawn papers, 1913-1982 (bulk 1940-1972)",
+            "id": "15042783",
+            "version": "2192726"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/49302301",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:49302301<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-JHE<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Poole, Lynn.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Lynn Poole papers, 1948-1976.<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection consists of correspondence, photographs, and articles largely related to Lynn Poole's pioneer work in the field of educational television at The Johns Hopkins University. <\/abstract>\n                  <name>\n                     <namePart>Johns Hopkins University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Lynn Poole papers, 1948-1976.",
+                "abstract": "Collection consists of correspondence, photographs, and articles largely related to Lynn Poole's pioneer work in the field of educational television at The Johns Hopkins University. ",
+                "extent": ".2 linear ft. (.5 document box)",
+                "displayEntry": "Poole, Lynn. Lynn Poole papers, 1948-1976.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Poole, Lynn.",
+                        "id": "9882301",
+                        "version": "7604860"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6ph2f5k",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Johns Hopkins University, Sheridan Libraries and the Milton S. Eisenhower Library",
+                            "preferenceScore": "99",
+                            "id": "76771562",
+                            "version": "11228361"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Johns Hopkins University, Sheridan Libraries and the Milton S. Eisenhower Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Milton S Eisenhower Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76771567",
+                                    "version": "11228361"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "3400 North Charles Street",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76771568",
+                                    "version": "11228361"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Baltimore",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76771569",
+                                    "version": "11228361"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MD",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76771570",
+                                    "version": "11228361"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "21218-2680",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76771571",
+                                    "version": "11228361"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76771572",
+                                    "version": "11228361"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15441",
+                                "name": "Johns Hopkins University, Sheridan Libraries and the Milton S. Eisenhower Library",
+                                "latitude": "39.3289948",
+                                "longitude": "-76.6194763"
+                            },
+                            "confirmed": true,
+                            "id": "76771566",
+                            "version": "11228361"
+                        }
+                    ],
+                    "id": "76771561",
+                    "version": "11228364"
+                },
+                "id": "7604860",
+                "version": "7604860"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Poole, Lynn. Lynn Poole papers, 1948-1976.",
+            "id": "15042784",
+            "version": "2192726"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "353625",
+                "term": "Television in science education",
+                "type": "subject"
+            },
+            "id": "15042777",
+            "version": "2192726"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "353626",
+                "term": "Television in science education--History--Sources",
+                "type": "subject"
+            },
+            "id": "15042779",
+            "version": "2192726"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "59869",
+                "term": "Authors, American--20th century--Archives",
+                "type": "subject"
+            },
+            "id": "15042778",
+            "version": "2192726"
+        }
+    ],
+    "id": "15042760",
+    "version": "2192727",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1948",
+            "fromDateOriginal": "active 1948",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1976",
+            "toDateOriginal": "active 1976",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "15042763",
+            "version": "2192726"
+        }
+    ]
+}

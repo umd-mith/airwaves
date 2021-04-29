@@ -1,0 +1,305 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w69w0n9g",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T12:34:37",
+            "standardDateTime": "2016-08-17T12:34:37",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T12:34:37",
+            "standardDateTime": "2016-08-17T12:34:37",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/755760241",
+            "id": "64123226",
+            "version": "9377852"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Cunningham, Barbara.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Cunningham, Barbara.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "64123228",
+                    "version": "9377852"
+                }
+            ],
+            "id": "64123227",
+            "version": "9377852",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82048486",
+                    "version": "9377852"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "64123224",
+            "targetConstellation": "26788157",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w69w0n9g",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6474h40",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Cunningham, Jill.",
+            "id": "64123231",
+            "version": "9377852"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/755760241",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:755760241<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-AU064<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Cunningham, Jill.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Cunningham, Barbara.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Cunningham, John David.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>7214 Lambton\/Cunningham Papers, 1891-2005.<\/title>\n                  <\/titleInfo>\n                  <abstract>Autobiographical writings covering the early life of Jill Cunningham (nee Lambton) in North Queensland and on the Anglican Missions at Dogura and Sefoa, Papua, with some Lambton and Dimmock family history, and her other writings and sketches. There are also various items on Charters Towers, Townsville, Brisbane, including letters, programmes, Arts Council, autographs, mining and School of Mines included. <\/abstract>\n                  <name>\n                     <namePart>Libraries Australia<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "7214 Lambton\/Cunningham Papers, 1891-2005.",
+                "abstract": "Autobiographical writings covering the early life of Jill Cunningham (nee Lambton) in North Queensland and on the Anglican Missions at Dogura and Sefoa, Papua, with some Lambton and Dimmock family history, and her other writings and sketches. There are also various items on Charters Towers, Townsville, Brisbane, including letters, programmes, Arts Council, autographs, mining and School of Mines included. ",
+                "extent": "0.07 linear metres.",
+                "displayEntry": "Cunningham, Jill. 7214 Lambton\/Cunningham Papers, 1891-2005.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cunningham, Jill.",
+                        "id": "10913309",
+                        "version": "8139758"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cunningham, Barbara.",
+                        "id": "10913310",
+                        "version": "8139758"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cunningham, John David.",
+                        "id": "10913311",
+                        "version": "8139758"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6ck92zw",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Libraries Australia",
+                            "preferenceScore": "99",
+                            "id": "76772654",
+                            "version": "11228773"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Libraries Australia",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Parkes Pl",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772658",
+                                    "version": "11228773"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Canberra",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772659",
+                                    "version": "11228773"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "ACT 2600",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772660",
+                                    "version": "11228773"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "AU",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772661",
+                                    "version": "11228773"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16756",
+                                "name": "Libraries Australia",
+                                "latitude": "-35.2962910",
+                                "longitude": "149.1293670"
+                            },
+                            "confirmed": true,
+                            "id": "76772657",
+                            "version": "11228773"
+                        }
+                    ],
+                    "id": "76772653",
+                    "version": "11228776"
+                },
+                "id": "8139758",
+                "version": "8139758"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Cunningham, Jill. 7214 Lambton\/Cunningham Papers, 1891-2005.",
+            "id": "64123232",
+            "version": "9377852"
+        }
+    ],
+    "id": "64123224",
+    "version": "9377853",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1891",
+            "fromDateOriginal": "active 1891",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "2005",
+            "toDateOriginal": "active 2005",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "64123225",
+            "version": "9377852"
+        }
+    ]
+}

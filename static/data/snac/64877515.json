@@ -1,0 +1,295 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6dc4sbv",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T15:37:17",
+            "standardDateTime": "2016-08-17T15:37:17",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T15:37:17",
+            "standardDateTime": "2016-08-17T15:37:17",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/28372657",
+            "id": "64877516",
+            "version": "9483743"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WAPI (Radio Station: Birmingham)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WAPI (Radio Station: Birmingham)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "64877518",
+                    "version": "9483743"
+                }
+            ],
+            "id": "64877517",
+            "version": "9483743",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82107457",
+                    "version": "9483743"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "64877515",
+            "targetConstellation": "62102034",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dc4sbv",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6350b4d",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Davis, P. O. (Posey Oliver), 1890-1973.",
+            "id": "64877521",
+            "version": "9483743"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/28372657",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:28372657<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-AAA<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Davis, P. O. (Posey Oliver), 1890-1973.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers, 1917-1971.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence, financial records, photographs, published articles, speeches, autobiographical manuscripts, and printed material relating to agriculture. Papers are primarily personal in nature; material relating to Davis's tenure as Director of the Extension Service is limited. Includes scattered material relating to Davis' work with Southern Railway and his connection with the periodical Progressive Farmer. Also includes limited material on relations between the Extension Service and the Alabama Farm Bureau Federation in the late 1930s. <\/abstract>\n                  <name>\n                     <namePart>Auburn University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1917-1971.",
+                "abstract": "Correspondence, financial records, photographs, published articles, speeches, autobiographical manuscripts, and printed material relating to agriculture. Papers are primarily personal in nature; material relating to Davis's tenure as Director of the Extension Service is limited. Includes scattered material relating to Davis' work with Southern Railway and his connection with the periodical Progressive Farmer. Also includes limited material on relations between the Extension Service and the Alabama Farm Bureau Federation in the late 1930s. ",
+                "extent": "1 lin. ft. (2 archives boxes, legal)",
+                "displayEntry": "Davis, P. O. (Posey Oliver), 1890-1973. Papers, 1917-1971.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Davis, P. O. (Posey Oliver), 1890-1973.",
+                        "id": "9338008",
+                        "version": "7257722"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6w7783m",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Auburn University.",
+                            "preferenceScore": "99",
+                            "id": "76760942",
+                            "version": "11224361"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Auburn University.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Ralph Brown Draughon Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760947",
+                                    "version": "11224361"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "231 Mell St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760948",
+                                    "version": "11224361"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Auburn",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760949",
+                                    "version": "11224361"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-AL",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760950",
+                                    "version": "11224361"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "36849-5606",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760951",
+                                    "version": "11224361"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760952",
+                                    "version": "11224361"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15649",
+                                "name": "Auburn University.",
+                                "latitude": "32.6030846",
+                                "longitude": "-85.4827423"
+                            },
+                            "confirmed": true,
+                            "id": "76760946",
+                            "version": "11224361"
+                        }
+                    ],
+                    "id": "76760941",
+                    "version": "11224364"
+                },
+                "id": "7257722",
+                "version": "7257722"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Davis, P. O. (Posey Oliver), 1890-1973. Papers, 1917-1971.",
+            "id": "64877522",
+            "version": "9483743"
+        }
+    ],
+    "id": "64877515",
+    "version": "9483744"
+}

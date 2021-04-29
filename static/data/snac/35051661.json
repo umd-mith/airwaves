@@ -1,0 +1,375 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6dg9trk",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-16",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T01:53:03",
+            "standardDateTime": "2016-08-13T01:53:03",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T01:53:03",
+            "standardDateTime": "2016-08-13T01:53:03",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/aps\/Mss.Rec.233-ead.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" role=\"Publisher (pbl)\" rules=\"aacr\" source=\"local\">WBFO (Radio station : Buffalo, N.Y.) .<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.amphilsoc.org\/mole\/view?docId=ead\/Mss.Rec.233-ead.xml",
+            "id": "35051662",
+            "version": "5118356"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/126792872",
+            "id": "35051663",
+            "version": "5118356"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "35051664",
+            "version": "5118356"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WBFO (Radio station : Buffalo, N.Y.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WBFO (Radio station : Buffalo, N.Y.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35051666",
+                    "version": "5118356"
+                }
+            ],
+            "id": "35051665",
+            "version": "5118356",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"aps\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79662630",
+                    "version": "5118356"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "35051661",
+            "targetConstellation": "6858069",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dg9trk",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tm7pzz",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Mad Bear, d. 1985",
+            "id": "35051675",
+            "version": "5118356"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "35051661",
+            "targetConstellation": "12050257",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dg9trk",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dw489c",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Semu Huaute",
+            "id": "35051676",
+            "version": "5118356"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "35051661",
+            "targetConstellation": "37880462",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dg9trk",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jj68x0",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Siemering, Bill",
+            "id": "35051677",
+            "version": "5118356"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "WBFO (Radio station : Buffalo, N.Y.)",
+            "uri": "https:\/\/viaf.org\/viaf\/126792872",
+            "id": "35051671",
+            "version": "5118356"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n89-617894",
+            "id": "35051672",
+            "version": "5118356"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n89617894",
+            "id": "35051673",
+            "version": "5118356"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.amphilsoc.org\/mole\/view?docId=ead\/Mss.Rec.233-ead.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Semu Huaute, Medicine Man<\/unittitle>\n                  <unitid>Mss.Rec.233<\/unitid>\n                  <repository>\n                     <corpname>American Philosophical Society<\/corpname>\n                  <\/repository>\n                  <langmaterial>\n                     <language\/>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>1.0 Reel(s)<\/extent>\n                  <\/physdesc>\n                  <unitdate>1966-1967<\/unitdate>\n                  <physdesc>1 sound tape reel (51 min.) : analog, 3 3\/4 &amp; 7 1\/2 ips, half track, stereo ; 7 in.<\/physdesc>\n                  <abstract>Conversation with Semu Huaute, Chumash Medicine Man, on a variety of topics. Recorded at a powwow held at Tonawanda, New York, in the summer of 1966. Broadcast by Radio WBFO (Buffalo, N.Y.) in November 1967. Also includes a brief speech by Mad Bear recorded at the same time.<\/abstract>\n                  <origination>\n                     <persname>Mad Bear, d. 1985 <\/persname>\n                  <\/origination>\n                  <origination>\n                     <persname>Semu Huaute<\/persname>\n                  <\/origination>\n                  <origination>\n                     <persname>Siemering, Bill<\/persname>\n                  <\/origination>\n                  <origination>\n                     <corpname>WBFO (Radio station : Buffalo, N.Y.) .<\/corpname>\n                  <\/origination>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Semu Huaute, Medicine Man 1966-1967",
+                "abstract": "Conversation with Semu Huaute, Chumash Medicine Man, on a variety of topics. Recorded at a powwow held at Tonawanda, New York, in the summer of 1966. Broadcast by Radio WBFO (Buffalo, N.Y.) in November 1967. Also includes a brief speech by Mad Bear recorded at the same time.",
+                "extent": "1.0 Reel(s)",
+                "displayEntry": "Semu Huaute, Medicine Man, 1966-1967",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gn8xhn",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "American Philosophical Society",
+                            "preferenceScore": "99",
+                            "id": "84198487",
+                            "version": "11323308"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84198505",
+                            "version": "11323301"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84198499",
+                            "version": "11323301"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Pennsylvania--Philadelphia",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84198501",
+                            "version": "11323301"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84198497",
+                            "version": "11323301"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84198507",
+                            "version": "11323301"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Philadelphia (Pa.)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84198503",
+                            "version": "11323301"
+                        }
+                    ],
+                    "id": "84198437",
+                    "version": "11323310"
+                },
+                "id": "6632445",
+                "version": "6632445"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Semu Huaute, Medicine Man, 1966-1967",
+            "id": "35051678",
+            "version": "5118356"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "191365",
+                "term": "Indians of North America--History",
+                "type": "subject"
+            },
+            "id": "35051674",
+            "version": "5118356"
+        }
+    ],
+    "id": "35051661",
+    "version": "5118357"
+}

@@ -1,0 +1,797 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6rz2fh5",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T11:54:27",
+            "standardDateTime": "2016-08-19T11:54:27",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T11:54:27",
+            "standardDateTime": "2016-08-19T11:54:27",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/umd\/MdU.ead.npba.0058.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"600\" role=\"subject\">Steetle, Ralph W., 1912- -- Correspondence.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/digital.lib.umd.edu\/archivesum\/actions.DisplayEADDoc.do?source=MdU.ead.npba.0058.xml&style=ead",
+            "id": "74828858",
+            "version": "10940030"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/30743868",
+            "id": "74828856",
+            "version": "10940030"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/34241695",
+            "id": "74828857",
+            "version": "10940030"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Steetle, Ralph W., 1912-",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Steetle, Ralph W., 1912-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "74828860",
+                    "version": "10940030"
+                }
+            ],
+            "id": "74828859",
+            "version": "10940030",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"umd\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82925572",
+                    "version": "10940030"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "74828854",
+                "version": "10940030"
+            },
+            "text": "<biogHist>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Broadcasting executive.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Joint Committee on Educational Television executive director, 1951-1960; Oregon State System of Higher Education associate dean and director of educational media, 1960-1974.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Papers. 1942-1981. (University of Maryland Libraries). WorldCat record id: 30743868<\/citation>\n         <\/biogHist>",
+            "id": "74828853",
+            "version": "10940030"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "74828852",
+            "targetConstellation": "18497085",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rz2fh5",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6xt1khm",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Joint Committee on Educational Television (U.S.)",
+            "id": "74828869",
+            "version": "10940030"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "74828852",
+            "targetConstellation": "39885530",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rz2fh5",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jm82hk",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Joint Council on Educational Television (U.S.)",
+            "id": "74828870",
+            "version": "10940030"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "74828852",
+            "targetConstellation": "6734680",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rz2fh5",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67d7m07",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Oregon State System of Higher Education.",
+            "id": "74828871",
+            "version": "10940030"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "74828852",
+            "targetConstellation": "42284751",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rz2fh5",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t29v2m",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Robertson, Jim",
+            "id": "74828874",
+            "version": "10940030"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "74828852",
+            "targetConstellation": "40241977",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rz2fh5",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6992rpj",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Robertson, Jim, 1918-",
+            "id": "74828873",
+            "version": "10940030"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "74828852",
+            "targetConstellation": "17919006",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rz2fh5",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hb2v75",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "United States. Dept. of State.",
+            "id": "74828872",
+            "version": "10940030"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "74828852",
+            "targetConstellation": "11760247",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rz2fh5",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6n08mjc",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Steetle, Ralph Waldo, 1912-"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/34241695",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:34241695<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Robertson, Jim, 1918-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Educational Television and Radio Center.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Jim Robertson papers, 1946-1989, and undated (bulk 1970-1982).<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection primarily documents Robertson's extensive oral history project as well as his work at National Educational Radio and at Robertson Associates, Inc. Types of documents include: oral history transcripts, correspondence, reports, articles, slides, audio tapes, audio cassettes, and one video cassette. Notable correspondents are: Robert J. Blakely; Elizabeth Campbell; Norman Cousins; John C. Crabbe; James Day; C. Scott Fetcher; Lee Frischknecht; Hartford N. Gunn; William Harley; James R. Killian, Jr.; Chalmers Marquis; Jack McBride; Newton Minow; Morris S. Novik; Frank Schooley; Ralph Steetle; John F. White; National Educational Radio. <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Jim Robertson papers, 1946-1989, and undated (bulk 1970-1982).",
+                "abstract": "Collection primarily documents Robertson's extensive oral history project as well as his work at National Educational Radio and at Robertson Associates, Inc. Types of documents include: oral history transcripts, correspondence, reports, articles, slides, audio tapes, audio cassettes, and one video cassette. Notable correspondents are: Robert J. Blakely; Elizabeth Campbell; Norman Cousins; John C. Crabbe; James Day; C. Scott Fetcher; Lee Frischknecht; Hartford N. Gunn; William Harley; James R. Killian, Jr.; Chalmers Marquis; Jack McBride; Newton Minow; Morris S. Novik; Frank Schooley; Ralph Steetle; John F. White; National Educational Radio. ",
+                "extent": "7.25 linear feet.",
+                "displayEntry": "Robertson, Jim, 1918-. Jim Robertson papers, 1946-1989, and undated (bulk 1970-1982).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Robertson, Jim, 1918-",
+                        "id": "9499643",
+                        "version": "7354713"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Educational Television and Radio Center.",
+                        "id": "9499644",
+                        "version": "7354713"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7354713",
+                "version": "7354713"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Robertson, Jim, 1918-. Jim Robertson papers, 1946-1989, and undated (bulk 1970-1982).",
+            "id": "74828876",
+            "version": "10940030"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/30743868",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:30743868<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Steetle, Ralph W., 1912-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Joint Committee on Educational Television (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Joint Council on Educational Television (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Oregon State System of Higher Education.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>United States. Dept. of State.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers. 1942-1981.<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection primarily documents the early history of the Joint Committee for Educational Television, and Steetle's involvement with this organization. <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers. 1942-1981.",
+                "abstract": "Collection primarily documents the early history of the Joint Committee for Educational Television, and Steetle's involvement with this organization. ",
+                "extent": "3 ft.",
+                "displayEntry": "Steetle, Ralph W., 1912-. Papers.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Steetle, Ralph W., 1912-",
+                        "id": "9392800",
+                        "version": "7289043"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Joint Committee on Educational Television (U.S.)",
+                        "id": "9392801",
+                        "version": "7289043"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Joint Council on Educational Television (U.S.)",
+                        "id": "9392802",
+                        "version": "7289043"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Oregon State System of Higher Education.",
+                        "id": "9392803",
+                        "version": "7289043"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "United States. Dept. of State.",
+                        "id": "9392804",
+                        "version": "7289043"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7289043",
+                "version": "7289043"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Steetle, Ralph W., 1912-. Papers.",
+            "id": "74828875",
+            "version": "10940030"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/digital.lib.umd.edu\/archivesum\/actions.DisplayEADDoc.do?source=MdU.ead.npba.0058.xml&style=ead",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Mass Media and Culture<\/corpname>\n                     <address>\n                        <addressline>Special Collections, University of Maryland Libraries, Hornbake Library, College Park, MD 20742. Tel: 301-405-9212, Fax: 301-314-2709, Email: askhornbake@umd.edu<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <origination>\n                     <persname>Robertson, Jim<\/persname>\n                  <\/origination>\n                  <unittitle>Jim Robertson Papers<\/unittitle>\n                  <unitdate>1946-1989, and undated<\/unitdate>\n                  <unitdate>1970-1982<\/unitdate>\n                  <physdesc>7.25 linear feet<\/physdesc>\n                  <unitid>NPBA 91-261<\/unitid>\n                  <physloc>Room 3210 (Showcase Room):71:I:Room 3210 (Showcase Room) 72 : A : <\/physloc>\n                  <abstract>Jim Robertson began his career in noncommercial broadcasting at WTTW (Chicago, IL) as program director from 1954 to 1959.  Starting in 1959, he held various positions at the National Educational Television and Radio Center, later National Educational Television including director of station relations and vice president and later president for network affairs.   He also served as vice president and general manager for Community Television of Southern California, where he planned, equipped and constructed station KCET.  His other positions in public broadcasting included chairman of the National Association of Educational Broadcasters Board of Directors and supervisor of WHA-AM-TV in Madison, Wisconsin.  In 1970, Robertson became the Director of Radio for the National Association of Educational Broadcasters and the director of National Educational Radio.  Later, he worked with a lobbying service -- the Association for Public Radio Stations, and in 1973, became a consultant in public broadcasting.  Finally, in 1993, after crisscrossing the country with his wife conducting informal interviews with 56 pioneers in educational broadcasting, he published the book <title>Televisionaries<\/title>.  The collection documents Robertson's oral history project as well as his work at National Educational Radio and his consulting work as part of Robertson Associates, Inc.<\/abstract>\n                  <abstract>Jim Robertson began his career in noncommercial broadcasting at WTTW (Chicago, IL) as program director from 1954 to 1959.  Starting in 1959, he held various positions at the National Educational Television and Radio Center, later National Educational Television including director of station relations and vice president and later president for network affairs.   He also served as vice president and general manager for Community Television of Southern California, where he planned, equipped and constructed station KCET.  His other positions in public broadcasting included chairman of the National Association of Educational Broadcasters Board of Directors and supervisor of WHA-AM-TV in Madison, Wisconsin.  In 1970, Robertson became the Director of Radio for the National Association of Educational Broadcasters and the director of National Educational Radio.  Later, he worked with a lobbying service -- the Association for Public Radio Stations, and in 1973, became a consultant in public broadcasting.  Finally, in 1993, after crisscrossing the country with his wife conducting informal interviews with 56 pioneers in educational broadcasting, he published the book <title>Televisionaries<\/title>.  The collection documents Robertson's oral history project as well as his work at National Educational Radio and his consulting work as part of Robertson Associates, Inc.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Jim Robertson Papers 1946-1989, and undated 1970-1982",
+                "abstract": "Jim Robertson began his career in noncommercial broadcasting at WTTW (Chicago, IL) as program director from 1954 to 1959.  Starting in 1959, he held various positions at the National Educational Television and Radio Center, later National Educational Television including director of station relations and vice president and later president for network affairs.   He also served as vice president and general manager for Community Television of Southern California, where he planned, equipped and constructed station KCET.  His other positions in public broadcasting included chairman of the National Association of Educational Broadcasters Board of Directors and supervisor of WHA-AM-TV in Madison, Wisconsin.  In 1970, Robertson became the Director of Radio for the National Association of Educational Broadcasters and the director of National Educational Radio.  Later, he worked with a lobbying service -- the Association for Public Radio Stations, and in 1973, became a consultant in public broadcasting.  Finally, in 1993, after crisscrossing the country with his wife conducting informal interviews with 56 pioneers in educational broadcasting, he published the book .  The collection documents Robertson's oral history project as well as his work at National Educational Radio and his consulting work as part of Robertson Associates, Inc. Televisionaries Jim Robertson began his career in noncommercial broadcasting at WTTW (Chicago, IL) as program director from 1954 to 1959.  Starting in 1959, he held various positions at the National Educational Television and Radio Center, later National Educational Television including director of station relations and vice president and later president for network affairs.   He also served as vice president and general manager for Community Television of Southern California, where he planned, equipped and constructed station KCET.  His other positions in public broadcasting included chairman of the National Association of Educational Broadcasters Board of Directors and supervisor of WHA-AM-TV in Madison, Wisconsin.  In 1970, Robertson became the Director of Radio for the National Association of Educational Broadcasters and the director of National Educational Radio.  Later, he worked with a lobbying service -- the Association for Public Radio Stations, and in 1973, became a consultant in public broadcasting.  Finally, in 1993, after crisscrossing the country with his wife conducting informal interviews with 56 pioneers in educational broadcasting, he published the book .  The collection documents Robertson's oral history project as well as his work at National Educational Radio and his consulting work as part of Robertson Associates, Inc. Televisionaries",
+                "displayEntry": "Jim Robertson Papers, 1946-1989, and undated, 1970-1982",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Robertson, Jim",
+                        "id": "11355428",
+                        "version": "6326574"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "6326574",
+                "version": "6326574"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Jim Robertson Papers, 1946-1989, and undated, 1970-1982",
+            "id": "74828877",
+            "version": "10940030"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "United States",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "74828866",
+            "version": "10940030",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "United States",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "74828867",
+                    "version": "10940030"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "353574",
+                "term": "Television in education--History--Sources",
+                "type": "subject"
+            },
+            "id": "74828868",
+            "version": "10940030"
+        }
+    ],
+    "id": "74828852",
+    "version": "10940031",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1912",
+            "fromDateOriginal": "1912",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "74828855",
+            "version": "10940030"
+        }
+    ]
+}

@@ -1,0 +1,413 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b30wcn",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T14:37:26",
+            "standardDateTime": "2016-08-11T14:37:26",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T14:37:26",
+            "standardDateTime": "2016-08-11T14:37:26",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/244031253",
+            "id": "22679206",
+            "version": "3315119"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/37522061",
+            "id": "22679204",
+            "version": "3315119"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/umn\/cbi00185.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Brown, Alan W.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/special.lib.umn.edu\/findaid\/xml\/cbi00185.xml",
+            "id": "22679205",
+            "version": "3315119"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "22679207",
+            "version": "3315119"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Brown, Alan W.",
+            "preferenceScore": "3",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Brown, Alan W.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "22679209",
+                    "version": "3315119"
+                }
+            ],
+            "id": "22679208",
+            "version": "3315119",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"umn\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78660289",
+                    "version": "3315119"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Willard Brown, Alan",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Willard Brown, Alan",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "22679214",
+                    "version": "3315119"
+                }
+            ],
+            "id": "22679213",
+            "version": "3315119",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78660290",
+                    "version": "3315119"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "22679203",
+            "targetConstellation": "31118870",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b30wcn",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w66j9tvr",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Cortada, James W.",
+            "id": "22679220",
+            "version": "3315119"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Brown, Alan W.",
+            "uri": "https:\/\/viaf.org\/viaf\/244031253",
+            "id": "22679219",
+            "version": "3315119"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/37522061",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:37522061<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-RW6<\/recordContentSource>\n                  <\/recordInfo>\n                  <titleInfo>\n                     <title>Memo regarding Captain Alan W. Brown, 1946 March 22.<\/title>\n                  <\/titleInfo>\n                  <abstract>Typewritten memo from the Office of the Quartermaster at Fort Moultrie (S.C.) to \"The People of Miami, Florida\" contains a humorous poem about Brown's discharge from the Transportation Corps. A form containing the names of personnel of the Transportation Corps and other U.S. Army departments is attached. <\/abstract>\n                  <name>\n                     <namePart>The South Carolina Historical Society<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Memo regarding Captain Alan W. Brown, 1946 March 22.",
+                "abstract": "Typewritten memo from the Office of the Quartermaster at Fort Moultrie (S.C.) to \"The People of Miami, Florida\" contains a humorous poem about Brown's discharge from the Transportation Corps. A form containing the names of personnel of the Transportation Corps and other U.S. Army departments is attached. ",
+                "extent": "1 item.",
+                "displayEntry": "Memo regarding Captain Alan W. Brown, 1946 March 22.",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w62k71f6",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "South Carolina Historical Society, SCHS",
+                            "preferenceScore": "99",
+                            "id": "76782443",
+                            "version": "11232405"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "South Carolina Historical Society, SCHS",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "100 Meeting Street",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76782448",
+                                    "version": "11232405"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Charleston",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76782449",
+                                    "version": "11232405"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-SC",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76782450",
+                                    "version": "11232405"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "29401",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76782451",
+                                    "version": "11232405"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76782452",
+                                    "version": "11232405"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16282",
+                                "name": "South Carolina Historical Society, SCHS",
+                                "latitude": "32.7772484",
+                                "longitude": "-79.9308853"
+                            },
+                            "confirmed": true,
+                            "id": "76782447",
+                            "version": "11232405"
+                        }
+                    ],
+                    "id": "76782442",
+                    "version": "11232408"
+                },
+                "id": "7394252",
+                "version": "7394252"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Memo regarding Captain Alan W. Brown, 1946 March 22.",
+            "id": "22679221",
+            "version": "3315119"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/special.lib.umn.edu\/findaid\/xml\/cbi00185.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>University of\n\t\t  Minnesota Libraries. <subarea>Charles Babbage Institute. [cbi]<\/subarea>\n                  <\/repository>\n                  <origination>Cortada, James W.<\/origination>\n                  <unittitle>James W. Cortada\n\t\t  papers<\/unittitle>\n                  <unitdate>1890-2007<\/unitdate>\n                  <physdesc>\n                     <extent>260 boxes (260\n\t\t  cubic feet)<\/extent>\n                  <\/physdesc>\n                  <abstract>Papers include research\n\t\t  materials for \n\t\t  <title>The Digital Hand<\/title>, IBM publications, and\n\t\t  books authored or edited by James W. Cortada on the history of business and\n\t\t  computing.<\/abstract>\n                  <unitid>CBI 185<\/unitid>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "James W. Cortada  papers 1890-2007",
+                "abstract": "Papers include research  materials for , IBM publications, and  books authored or edited by James W. Cortada on the history of business and  computing. The Digital Hand",
+                "extent": "260 boxes (260  cubic feet)",
+                "displayEntry": "James W. Cortada papers, 1890-2007",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11593501",
+                        "version": "6615360"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w62s4fkw",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Minnesota Libraries. Charles Babbage Institute. [cbi]",
+                            "preferenceScore": "99",
+                            "id": "76797723",
+                            "version": "11241485"
+                        }
+                    ],
+                    "id": "76797722",
+                    "version": "11241488"
+                },
+                "id": "6615360",
+                "version": "6615360"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "James W. Cortada papers, 1890-2007",
+            "id": "22679222",
+            "version": "3315119"
+        }
+    ],
+    "id": "22679203",
+    "version": "3315120"
+}

@@ -1,0 +1,364 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tf75f9",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T04:01:58",
+            "standardDateTime": "2016-08-15T04:01:58",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T04:01:58",
+            "standardDateTime": "2016-08-15T04:01:58",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/crnlu\/RMA00800.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"MARC 610\">WESG (Radio station: Ithaca, N.Y.)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/rmc.library.cornell.edu\/EAD\/xml\/dlxs\/RMA00800.xml",
+            "id": "49836859",
+            "version": "7285493"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/63935437",
+            "id": "49836858",
+            "version": "7285493"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WESG (Radio station : Ithaca, N.Y.)",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WESG (Radio station : Ithaca, N.Y.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "49836861",
+                    "version": "7285493"
+                }
+            ],
+            "id": "49836860",
+            "version": "7285493",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"crnlu\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80875103",
+                    "version": "7285493"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "49836857",
+            "targetConstellation": "65483242",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tf75f9",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wx4tvv",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Guthrie, Edward Sewall, 1880-1964.",
+            "id": "49836866",
+            "version": "7285493"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/63935437",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:63935437<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-COO<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Guthrie, Edward Sewall, 1880-1964.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Edward Sewall Guthrie papers, [ca. 1907-1962].<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence with the American Dairy Association, other agricultural organizations, manufacturers of dairy machinery, commercial laboratories, and other professors of dairy science concerning experiments, studies of cultured cream, butter making, stock judging at Cornell, and the naming of the dairy building after William A. Stocking; also, Professor Guthrie's laboratory notebooks, texts of various broadcasts he gave (1929-1934) for the Cornell Agricultural Hour on stations WEAI and WESG, his articles, some charts and photographs relating to dairy processes, annual department letters (Nos. 1-7, 1949-1954, 1957) sent to alumni, and printed material. <\/abstract>\n                  <name>\n                     <namePart>Cornell University Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Edward Sewall Guthrie papers, [ca. 1907-1962].",
+                "abstract": "Correspondence with the American Dairy Association, other agricultural organizations, manufacturers of dairy machinery, commercial laboratories, and other professors of dairy science concerning experiments, studies of cultured cream, butter making, stock judging at Cornell, and the naming of the dairy building after William A. Stocking; also, Professor Guthrie's laboratory notebooks, texts of various broadcasts he gave (1929-1934) for the Cornell Agricultural Hour on stations WEAI and WESG, his articles, some charts and photographs relating to dairy processes, annual department letters (Nos. 1-7, 1949-1954, 1957) sent to alumni, and printed material. ",
+                "extent": "5.4 cubic ft.",
+                "displayEntry": "Guthrie, Edward Sewall, 1880-1964. Edward Sewall Guthrie papers, [ca. 1907-1962].",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Guthrie, Edward Sewall, 1880-1964.",
+                        "id": "10503164",
+                        "version": "7905232"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sc4v5v",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Cornell University Library",
+                            "preferenceScore": "99",
+                            "id": "76765388",
+                            "version": "11226005"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Cornell University Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "201 Olin Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765393",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Ithaca",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765394",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765395",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "14853-5301",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765396",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765397",
+                                    "version": "11226005"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15986",
+                                "name": "Cornell University Library",
+                                "latitude": "42.4467000",
+                                "longitude": "-76.4957000"
+                            },
+                            "confirmed": true,
+                            "id": "76765392",
+                            "version": "11226005"
+                        }
+                    ],
+                    "id": "76765387",
+                    "version": "11226008"
+                },
+                "id": "7905232",
+                "version": "7905232"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Guthrie, Edward Sewall, 1880-1964. Edward Sewall Guthrie papers, [ca. 1907-1962].",
+            "id": "49836867",
+            "version": "7285493"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/rmc.library.cornell.edu\/EAD\/xml\/dlxs\/RMA00800.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Edward Sewall Guthrie papers, \n\n\t\t  <unitdate>[ca. 1907-1962]<\/unitdate>\n                  <\/unittitle>\n                  <unitid>21-20-800<\/unitid>\n                  <origination>\n                     <persname>Edward Sewall Guthrie, 1880-1964.<\/persname>\n                  <\/origination>\n                  <physdesc>5.4 cubic ft.<\/physdesc>\n                  <physdesc>Correspondence, charts, photographs, printed material.<\/physdesc>\n                  <repository>Division of Rare and Manuscript Collections, Cornell University Library.<\/repository>\n                  <abstract>Correspondence with the American Dairy Association, other agricultural organizations, manufacturers of dairy machinery, commercial laboratories, and other professors of dairy science concerning experiments, studies of cultured cream, butter making, stock judging at Cornell, and the naming of the dairy building after William A. Stocking.<\/abstract>\n                  <langmaterial>Collection material in <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Edward Sewall Guthrie papers, [ca. 1907-1962]",
+                "abstract": "Correspondence with the American Dairy Association, other agricultural organizations, manufacturers of dairy machinery, commercial laboratories, and other professors of dairy science concerning experiments, studies of cultured cream, butter making, stock judging at Cornell, and the naming of the dairy building after William A. Stocking.",
+                "displayEntry": "Edward Sewall Guthrie papers, [ca. 1907-1962]",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Edward Sewall Guthrie, 1880-1964.",
+                        "id": "11461480",
+                        "version": "6399905"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11461481",
+                        "version": "6399905"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6pzz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Division of Rare and Manuscript Collections, Cornell University Library.",
+                            "preferenceScore": "99",
+                            "id": "76792986",
+                            "version": "11237009"
+                        }
+                    ],
+                    "id": "76792985",
+                    "version": "11237012"
+                },
+                "id": "6399905",
+                "version": "6399905"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Edward Sewall Guthrie papers, [ca. 1907-1962]",
+            "id": "49836868",
+            "version": "7285493"
+        }
+    ],
+    "id": "49836857",
+    "version": "7285494"
+}

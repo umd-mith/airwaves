@@ -1,0 +1,809 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61p1t9c",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T01:50:34",
+            "standardDateTime": "2016-08-10T01:50:34",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T01:50:34",
+            "standardDateTime": "2016-08-10T01:50:34",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/154314122",
+            "id": "6724991",
+            "version": "972779"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/23761573",
+            "id": "6724988",
+            "version": "972779"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/crnlu\/RMA02799.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"MARC 610\">Institute for Education by Radio.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/rmc.library.cornell.edu\/EAD\/xml\/dlxs\/RMA02799.xml",
+            "id": "6724990",
+            "version": "972779"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/63881937",
+            "id": "6724989",
+            "version": "972779"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "6724992",
+            "version": "972779"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Institute for Education by Radio",
+            "preferenceScore": "3",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Institute for Education by Radio",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "6724994",
+                    "version": "972779"
+                }
+            ],
+            "id": "6724993",
+            "version": "972779",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"crnlu\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77350865",
+                    "version": "972779"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Annual Institute for Education by Radio",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Annual Institute for Education by Radio",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "6724999",
+                    "version": "972779"
+                }
+            ],
+            "id": "6724998",
+            "version": "972779",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77350866",
+                    "version": "972779"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "6724986",
+            "targetConstellation": "40439174",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61p1t9c",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t47js7",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Payne Fund, Inc.",
+            "id": "6725006",
+            "version": "972779"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "6724986",
+            "targetConstellation": "42350855",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61p1t9c",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ff45rs",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Smith, Helen Powell.",
+            "id": "6725007",
+            "version": "972779"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "6724986",
+            "targetConstellation": "7256405",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61p1t9c",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6q68btb",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Smith, Helen Powell.",
+            "id": "6725008",
+            "version": "972779"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Institute for Education by Radio",
+            "uri": "https:\/\/viaf.org\/viaf\/154314122",
+            "id": "6725005",
+            "version": "972779"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/23761573",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:23761573<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-WHZ<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Payne Fund, Inc.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bolton, Frances Payne Bingham, 1885-1977.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ogden, C. K. 1889-1957.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Davis, H. O. 1877-1964.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Perry, Armstrong, 1877-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Richards, I. A. 1893-1979.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Starbuck, Edwin Diller, 1866-1947.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Evans, Stewart Howard, 1902-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Dale, Edgar, 1900-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Committee for the Study of Juvenile Reading (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Committee for the Study of Social Values in Motion Pictures (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Motion Picture Research Council.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Committee on Education by Radio (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ohio School of the Air.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Association of Educational Broadcasters.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ohio State University. Bureau of Educational Research.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Rocky Mountain Radio Council.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Orthological Institute (Cambridge, England)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Orthological Institute (Cambridge, Mass.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Civics Research Institute (Washington, D.C.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Institute of International Education (New York, N.Y.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>International Bureau of Education. Children's Section.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Junior Extension University, Inc.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Language Research Institute (Cambridge, Mass.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bennett College (Greensboro, N.C.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Karamu House.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Institute for Education by Radio.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Records, 1924-1972.<\/title>\n                  <\/titleInfo>\n                  <abstract>Consists of board of directors' files, annual reports, minutes, financial files, correspondence, memoranda, printed items and clippings. Included are the files of C.K. Ogden and the Orthological Institute; records of the National Committee for the Study of Social Values in Motion Pictures and of the Motion Picture Research Council; fellowships and grants files; Negro projects-race relation files; radio project files, including the records of the National Committee on Education By Radio, the Ohio State University Bureau of Educational Research, the Ohio School of the Air and National Association of Educational Broadcasters printed materials; files of the Junior Extension University, Inc. and various subject and organizational files relating to youth programs, character development, and educational broadcasting. <\/abstract>\n                  <name>\n                     <namePart>Rhinelander District Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Records, 1924-1972.",
+                "abstract": "Consists of board of directors' files, annual reports, minutes, financial files, correspondence, memoranda, printed items and clippings. Included are the files of C.K. Ogden and the Orthological Institute; records of the National Committee for the Study of Social Values in Motion Pictures and of the Motion Picture Research Council; fellowships and grants files; Negro projects-race relation files; radio project files, including the records of the National Committee on Education By Radio, the Ohio State University Bureau of Educational Research, the Ohio School of the Air and National Association of Educational Broadcasters printed materials; files of the Junior Extension University, Inc. and various subject and organizational files relating to youth programs, character development, and educational broadcasting. ",
+                "extent": "79.75 linear ft.",
+                "displayEntry": "Payne Fund, Inc. Records, 1924-1972.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Payne Fund, Inc.",
+                        "id": "9068943",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bolton, Frances Payne Bingham, 1885-1977.",
+                        "id": "9068944",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ogden, C. K. 1889-1957.",
+                        "id": "9068945",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Davis, H. O. 1877-1964.",
+                        "id": "9068946",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Perry, Armstrong, 1877-",
+                        "id": "9068947",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Richards, I. A. 1893-1979.",
+                        "id": "9068948",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Starbuck, Edwin Diller, 1866-1947.",
+                        "id": "9068949",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Evans, Stewart Howard, 1902-",
+                        "id": "9068950",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dale, Edgar, 1900-",
+                        "id": "9068951",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Committee for the Study of Juvenile Reading (U.S.)",
+                        "id": "9068952",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Committee for the Study of Social Values in Motion Pictures (U.S.)",
+                        "id": "9068953",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Motion Picture Research Council.",
+                        "id": "9068954",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Committee on Education by Radio (U.S.)",
+                        "id": "9068955",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ohio School of the Air.",
+                        "id": "9068956",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Association of Educational Broadcasters.",
+                        "id": "9068957",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ohio State University. Bureau of Educational Research.",
+                        "id": "9068958",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rocky Mountain Radio Council.",
+                        "id": "9068959",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Orthological Institute (Cambridge, England)",
+                        "id": "9068960",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Orthological Institute (Cambridge, Mass.)",
+                        "id": "9068961",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Civics Research Institute (Washington, D.C.)",
+                        "id": "9068962",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Institute of International Education (New York, N.Y.)",
+                        "id": "9068963",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "International Bureau of Education. Children's Section.",
+                        "id": "9068964",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Junior Extension University, Inc.",
+                        "id": "9068965",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Language Research Institute (Cambridge, Mass.)",
+                        "id": "9068966",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bennett College (Greensboro, N.C.)",
+                        "id": "9068967",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Karamu House.",
+                        "id": "9068968",
+                        "version": "7120525"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Institute for Education by Radio.",
+                        "id": "9068969",
+                        "version": "7120525"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6g55d0r",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Western Reserve Historical Society, Research Library",
+                            "preferenceScore": "99",
+                            "id": "76790457",
+                            "version": "11235241"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Western Reserve Historical Society, Research Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10825 East Blvd",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76790462",
+                                    "version": "11235241"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cleveland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76790463",
+                                    "version": "11235241"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-OH",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76790464",
+                                    "version": "11235241"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "44106-1788",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76790465",
+                                    "version": "11235241"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76790466",
+                                    "version": "11235241"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15595",
+                                "name": "Western Reserve Historical Society, Research Library",
+                                "latitude": "41.5130680",
+                                "longitude": "-81.6111980"
+                            },
+                            "confirmed": true,
+                            "id": "76790461",
+                            "version": "11235241"
+                        }
+                    ],
+                    "id": "76790456",
+                    "version": "11235244"
+                },
+                "id": "7120525",
+                "version": "7120525"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Payne Fund, Inc. Records, 1924-1972.",
+            "id": "6725009",
+            "version": "972779"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/rmc.library.cornell.edu\/EAD\/xml\/dlxs\/RMA02799.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Helen Powell Smith papers, \n\t\t  <unitdate>1941-1995.<\/unitdate>\n                  <\/unittitle>\n                  <unitid>23-1-2799<\/unitid>\n                  <origination>\n                     <persname>Helen Powell. Smith <\/persname>\n                  <\/origination>\n                  <physdesc>12 pages.<\/physdesc>\n                  <physdesc>Packet.<\/physdesc>\n                  <repository>Division of Rare and Manuscript Collections, Cornell University Library<\/repository>\n                  <abstract>Photocopies and memorabilia reflecting on Smith's career in radio (\"Let's Make a Dress\") and acknowledgement by the Institute for Education by Radio.<\/abstract>\n                  <langmaterial>Collection material in <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Helen Powell Smith papers, 1941-1995.",
+                "abstract": "Photocopies and memorabilia reflecting on Smith's career in radio (\"Let's Make a Dress\") and acknowledgement by the Institute for Education by Radio.",
+                "displayEntry": "Helen Powell Smith papers, 1941-1995.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Helen Powell. Smith ",
+                        "id": "11461980",
+                        "version": "6400206"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11461981",
+                        "version": "6400206"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6pzz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Division of Rare and Manuscript Collections, Cornell University Library.",
+                            "preferenceScore": "99",
+                            "id": "76792986",
+                            "version": "11237009"
+                        }
+                    ],
+                    "id": "76792985",
+                    "version": "11237012"
+                },
+                "id": "6400206",
+                "version": "6400206"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Helen Powell Smith papers, 1941-1995.",
+            "id": "6725011",
+            "version": "972779"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/63881937",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:63881937<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-COO<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Smith, Helen Powell.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Helen Powell Smith papers, 1941-1995.<\/title>\n                  <\/titleInfo>\n                  <abstract>Publications from Smith's radio show \"Let's Make a Dress\" and acknowledgement by the Institute for Education by Radio. <\/abstract>\n                  <name>\n                     <namePart>Cornell University Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Helen Powell Smith papers, 1941-1995.",
+                "abstract": "Publications from Smith's radio show \"Let's Make a Dress\" and acknowledgement by the Institute for Education by Radio. ",
+                "extent": "1 folder.",
+                "displayEntry": "Smith, Helen Powell. Helen Powell Smith papers, 1941-1995.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Smith, Helen Powell.",
+                        "id": "10501321",
+                        "version": "7903888"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sc4v5v",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Cornell University Library",
+                            "preferenceScore": "99",
+                            "id": "76765388",
+                            "version": "11226005"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Cornell University Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "201 Olin Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765393",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Ithaca",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765394",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765395",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "14853-5301",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765396",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765397",
+                                    "version": "11226005"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15986",
+                                "name": "Cornell University Library",
+                                "latitude": "42.4467000",
+                                "longitude": "-76.4957000"
+                            },
+                            "confirmed": true,
+                            "id": "76765392",
+                            "version": "11226005"
+                        }
+                    ],
+                    "id": "76765387",
+                    "version": "11226008"
+                },
+                "id": "7903888",
+                "version": "7903888"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Smith, Helen Powell. Helen Powell Smith papers, 1941-1995.",
+            "id": "6725010",
+            "version": "972779"
+        }
+    ],
+    "id": "6724986",
+    "version": "972780",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1924",
+            "fromDateOriginal": "active 1924",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1972",
+            "toDateOriginal": "active 1972",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "6724987",
+            "version": "972779"
+        }
+    ]
+}

@@ -1,0 +1,374 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6c01dch",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-20",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T13:51:38",
+            "standardDateTime": "2016-08-18T13:51:38",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T13:51:38",
+            "standardDateTime": "2016-08-18T13:51:38",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/law00072.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Board of Education of the City of New York<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/law00072\/catalog",
+            "id": "69974550",
+            "version": "10230068"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/479568963",
+            "id": "69974549",
+            "version": "10230068"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Board of Education of the City of New York.",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Board of Education of the City of New York.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "69974552",
+                    "version": "10230068"
+                }
+            ],
+            "id": "69974551",
+            "version": "10230068",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82524683",
+                    "version": "10230068"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69974548",
+            "targetConstellation": "50513647",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6c01dch",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64r1whh",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "AFSCME District Council 37 (New York, N.Y.)",
+            "id": "69974557",
+            "version": "10230068"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "69974548",
+            "targetConstellation": "36348106",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6c01dch",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6gp28sf",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Dooling, John Francis, 1908-1981",
+            "id": "69974558",
+            "version": "10230068"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/479568963",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:479568963<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-ZYU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>AFSCME District Council 37 (New York, N.Y.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>AFSCME, District Council 37, records, 1944-2004 (bulk 1957-2000).<\/title>\n                  <\/titleInfo>\n                  <abstract>Series I, Constitution and Minutes, 1955-2004, includes a copy of DC 37's constitution as well as minutes of the Executive Board and Delegates from 1955 to 2004. Minutes on paper are available for the years 1955-1960, 1970-1979 and 2001-2004, while 1961-1969 are available only on microfilm (R-7424). Holdings for the 1980s and 1990s are incomplete. A limited number of minutes of the Finance Committee and Trustees are also represented in the series. Series II, Executive Office Records, 1951-1999. Subseries II:A: Stanley Hill Executive Director Records, 1987-1999, contains correspondence, reports, and printed material from Hill's tenure as executive director from 1986 to 1998. Although most material in this subseries is from his last two years in office, some earlier items are also present, including extensive coverage of New York City's 1991 fiscal crisis that led to layoffs and wage deferrals for DC 37 members. Two other layoff crises--the 1996 threat by Mayor Rudolph Giuliani to close some of New York City's municipal hospitals and the 1998 budget cuts affecting Health and Hospitals Corporation employees--are also well documented in this subseries. In addition to Hill's correspondence with numerous DC 37 locals, this subseries also demonstrates growing attention paid to the HIV\/AIDS crisis by city agencies and nonprofits and Hill's involvement with a number of outside organizations, including the American Committee on Africa, Coalition of Black Trade Unionists, and One Hundred Black Men. Although Hill left DC 37 in December 1998, the files contain a few records from late 1998 and early 1999, which reflect ongoing projects carried out by Hill's executive assistant, Brenda White. Subseries II:B: Lillian Roberts Associate Director Records, 1951-1983, provides nearly complete documentation of Lillian Roberts' influential tenure as Associate Director from 1965 to 1982, including correspondence, reports, speeches, and printed material. While the subseries chronicles Roberts' oversight of division directors and personnel at DC 37 headquarters, it most thoroughly documents her close connection to Local 420 and her role in its ongoing negotiations with the Health and Hospitals Corporation. Highlights include material on the 1965 representation election of hospital aides; the successful implementation of a training program to upgrade nurse's aides to LPNs; layoffs of hospital workers during the 1975 fiscal crisis; the hospital workers' strike of 1976; the affiliation of municipal and voluntary hospitals; and Roberts' disputes with Local 420 president James Butler in 1978 and 1979. Also of interest is material on the use of welfare recipients as workers in city agencies through the Work Incentive Program and the Work Relief Employment Program; establishment of DC 37's Education Fund; application of the Comprehensive Employment and Training Act (CETA) in New York City; and several trips by DC 37 members to Africa that Roberts led in the mid-1970s. Series III, Legal Department Records, 1956-1986, contains legal documents, correspondence, notes, reports, printed material, and newspaper clippings. It provides a snapshot of the Legal Department's multi-faceted work under the leadership of lead counsels Julius Topol and Beverly Gross in the 1970s and early 1980s, from arbitration of grievances to litigation on major social issues of the period. Significant cases represented are James Butler v. DC 37, resulting from Gotbaum and Roberts' dispute with Local 420 President Butler; Daniel Mando, et al. v. Abraham Beame, et al., concerning representation rights for employees hired under the Emergency Employment Act of 1971; and Women in City Government United, et al. v. City of New York, et al., a successful gender discrimination suit challenging the city's use of sex-specific actuarial tables to determine pension contributions and payments. The files also contain material on CSTG's attempt under president Richard Izzo to disaffiliate from DC 37 and on the Deferral Payment Agreement of 1982, under which the city addressed its overdue promise to repay city workers wages deferred during the 1975 fiscal crisis. A significant group of files on pay equity issues from the late 1970s and early 1980s were compiled by Audrey Browne, a Legal Department attorney. They include numerous reports on pay equity issues in New York City and around the country, as well as legal documents relating to AFSCME, et al. v. State of Washington. Series IV: Communications Department Records, 1963-2004. Subseries IV:A: Edward Handman Records, 1972-1991, include reports, transcripts, and newspaper clippings compiled by Handman, who served as Director of Public Relations and Publications from 1972 until the early 1990s. Of particular note in this subseries is extensive coverage of two fiscal crises in New York City: the prolonged crisis of the mid-1970s and the shorter but still acute budget crisis of 1991. Handman helped DC 37 craft its response to public perceptions that inflated wages, benefits, and pensions of city workers were responsible for the city's strained budgets. Subseries IV:B: Bill Schleicher Records, 1992-2004, contains reports, notes, and newspaper clippings compiled by Schleicher in the course of his duties as editor of Public Employee Press (PEP). These materials include annotated minutes of and notes on meetings of delegates, division and department leaders, shop stewards, and the executive board from 2001 to 2004. Of particular note are collected materials--primarily printed materials and reports--on multiple investigations beginning in 1998 by the Manhattan District Attorney of corruption inside DC 37 and its locals. The subseries also contains Schleicher's research material on a variety of local and national issues such as the city budget, contract negotiations, and immigration. Subseries IV:C: Public Employee Press Research Files, 1963-1993, contains paper records separated from the Public Employee Press photograph files in the DC 37 Photograph Collection (NP 247). These include notes, reports, and copies of documents relating to issues affecting the union as reported by PEP staff, primarily during the 1960s and 1970s. Key issues addressed include safety issues, the union's expose\u0301 of poor conditions at the city's public hospitals, the citywide strike of the union's blue collar locals in 1971, the affiliation of municipal and voluntary hospitals, and the contentious representation election of school aides waged by the UFT against DC 37 in 1973. Series V: General Files, 1944-2000, consists primarily of records kept by DC 37's executive office and printing department from the mid-1950s to the 1970s. This series contains the oldest records in the collection and provides the only documentation of the administrations of executive directors Jerry Wurf, Calogero Taibi, and Victor Gotbaum. Files for nearly every local in the union are present, containing correspondence with executive office staff, salary appeal briefs (predating collective bargaining agreements), minutes, newsletters, printed material such as meeting notices and leaflets, and occasionally constitutions and contracts. Some locals are better represented than others. This series documents key moments in DC 37 history, including the early activism of Locals 149 (Parks) and 299 (Recreation), the 1961 strike of employees at the Bronx Zoo and Coney Island Aquarium, the 1965 welfare workers' strike of Local 371 and SSEU, the 1965 hospital aides representation election, and the 1976 hospital workers' strike. DC 37's Political Action and Legislation Department is also well represented in this series, chronicling the union's growing political strength in the 1970s and 1980s. <\/abstract>\n                  <name>\n                     <namePart>New York University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "AFSCME, District Council 37, records, 1944-2004 (bulk 1957-2000).",
+                "abstract": "Series I, Constitution and Minutes, 1955-2004, includes a copy of DC 37's constitution as well as minutes of the Executive Board and Delegates from 1955 to 2004. Minutes on paper are available for the years 1955-1960, 1970-1979 and 2001-2004, while 1961-1969 are available only on microfilm (R-7424). Holdings for the 1980s and 1990s are incomplete. A limited number of minutes of the Finance Committee and Trustees are also represented in the series. Series II, Executive Office Records, 1951-1999. Subseries II:A: Stanley Hill Executive Director Records, 1987-1999, contains correspondence, reports, and printed material from Hill's tenure as executive director from 1986 to 1998. Although most material in this subseries is from his last two years in office, some earlier items are also present, including extensive coverage of New York City's 1991 fiscal crisis that led to layoffs and wage deferrals for DC 37 members. Two other layoff crises--the 1996 threat by Mayor Rudolph Giuliani to close some of New York City's municipal hospitals and the 1998 budget cuts affecting Health and Hospitals Corporation employees--are also well documented in this subseries. In addition to Hill's correspondence with numerous DC 37 locals, this subseries also demonstrates growing attention paid to the HIV\/AIDS crisis by city agencies and nonprofits and Hill's involvement with a number of outside organizations, including the American Committee on Africa, Coalition of Black Trade Unionists, and One Hundred Black Men. Although Hill left DC 37 in December 1998, the files contain a few records from late 1998 and early 1999, which reflect ongoing projects carried out by Hill's executive assistant, Brenda White. Subseries II:B: Lillian Roberts Associate Director Records, 1951-1983, provides nearly complete documentation of Lillian Roberts' influential tenure as Associate Director from 1965 to 1982, including correspondence, reports, speeches, and printed material. While the subseries chronicles Roberts' oversight of division directors and personnel at DC 37 headquarters, it most thoroughly documents her close connection to Local 420 and her role in its ongoing negotiations with the Health and Hospitals Corporation. Highlights include material on the 1965 representation election of hospital aides; the successful implementation of a training program to upgrade nurse's aides to LPNs; layoffs of hospital workers during the 1975 fiscal crisis; the hospital workers' strike of 1976; the affiliation of municipal and voluntary hospitals; and Roberts' disputes with Local 420 president James Butler in 1978 and 1979. Also of interest is material on the use of welfare recipients as workers in city agencies through the Work Incentive Program and the Work Relief Employment Program; establishment of DC 37's Education Fund; application of the Comprehensive Employment and Training Act (CETA) in New York City; and several trips by DC 37 members to Africa that Roberts led in the mid-1970s. Series III, Legal Department Records, 1956-1986, contains legal documents, correspondence, notes, reports, printed material, and newspaper clippings. It provides a snapshot of the Legal Department's multi-faceted work under the leadership of lead counsels Julius Topol and Beverly Gross in the 1970s and early 1980s, from arbitration of grievances to litigation on major social issues of the period. Significant cases represented are James Butler v. DC 37, resulting from Gotbaum and Roberts' dispute with Local 420 President Butler; Daniel Mando, et al. v. Abraham Beame, et al., concerning representation rights for employees hired under the Emergency Employment Act of 1971; and Women in City Government United, et al. v. City of New York, et al., a successful gender discrimination suit challenging the city's use of sex-specific actuarial tables to determine pension contributions and payments. The files also contain material on CSTG's attempt under president Richard Izzo to disaffiliate from DC 37 and on the Deferral Payment Agreement of 1982, under which the city addressed its overdue promise to repay city workers wages deferred during the 1975 fiscal crisis. A significant group of files on pay equity issues from the late 1970s and early 1980s were compiled by Audrey Browne, a Legal Department attorney. They include numerous reports on pay equity issues in New York City and around the country, as well as legal documents relating to AFSCME, et al. v. State of Washington. Series IV: Communications Department Records, 1963-2004. Subseries IV:A: Edward Handman Records, 1972-1991, include reports, transcripts, and newspaper clippings compiled by Handman, who served as Director of Public Relations and Publications from 1972 until the early 1990s. Of particular note in this subseries is extensive coverage of two fiscal crises in New York City: the prolonged crisis of the mid-1970s and the shorter but still acute budget crisis of 1991. Handman helped DC 37 craft its response to public perceptions that inflated wages, benefits, and pensions of city workers were responsible for the city's strained budgets. Subseries IV:B: Bill Schleicher Records, 1992-2004, contains reports, notes, and newspaper clippings compiled by Schleicher in the course of his duties as editor of Public Employee Press (PEP). These materials include annotated minutes of and notes on meetings of delegates, division and department leaders, shop stewards, and the executive board from 2001 to 2004. Of particular note are collected materials--primarily printed materials and reports--on multiple investigations beginning in 1998 by the Manhattan District Attorney of corruption inside DC 37 and its locals. The subseries also contains Schleicher's research material on a variety of local and national issues such as the city budget, contract negotiations, and immigration. Subseries IV:C: Public Employee Press Research Files, 1963-1993, contains paper records separated from the Public Employee Press photograph files in the DC 37 Photograph Collection (NP 247). These include notes, reports, and copies of documents relating to issues affecting the union as reported by PEP staff, primarily during the 1960s and 1970s. Key issues addressed include safety issues, the union's expose\u0301 of poor conditions at the city's public hospitals, the citywide strike of the union's blue collar locals in 1971, the affiliation of municipal and voluntary hospitals, and the contentious representation election of school aides waged by the UFT against DC 37 in 1973. Series V: General Files, 1944-2000, consists primarily of records kept by DC 37's executive office and printing department from the mid-1950s to the 1970s. This series contains the oldest records in the collection and provides the only documentation of the administrations of executive directors Jerry Wurf, Calogero Taibi, and Victor Gotbaum. Files for nearly every local in the union are present, containing correspondence with executive office staff, salary appeal briefs (predating collective bargaining agreements), minutes, newsletters, printed material such as meeting notices and leaflets, and occasionally constitutions and contracts. Some locals are better represented than others. This series documents key moments in DC 37 history, including the early activism of Locals 149 (Parks) and 299 (Recreation), the 1961 strike of employees at the Bronx Zoo and Coney Island Aquarium, the 1965 welfare workers' strike of Local 371 and SSEU, the 1965 hospital aides representation election, and the 1976 hospital workers' strike. DC 37's Political Action and Legislation Department is also well represented in this series, chronicling the union's growing political strength in the 1970s and 1980s. ",
+                "extent": "59.75 linear ft. (61 boxes).",
+                "displayEntry": "AFSCME District Council 37 (New York, N.Y.). AFSCME, District Council 37, records, 1944-2004 (bulk 1957-2000).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "AFSCME District Council 37 (New York, N.Y.)",
+                        "id": "9852191",
+                        "version": "7587097"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w69t2dff",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Churchill County Museum",
+                            "preferenceScore": "99",
+                            "id": "76764315",
+                            "version": "11225617"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Churchill County Museum",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1050 S Maine St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764319",
+                                    "version": "11225617"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Fallon",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764320",
+                                    "version": "11225617"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NV",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764321",
+                                    "version": "11225617"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "89406-8815",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764322",
+                                    "version": "11225617"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764323",
+                                    "version": "11225617"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15181",
+                                "name": "Churchill County Museum",
+                                "latitude": "39.4650000",
+                                "longitude": "-118.7770000"
+                            },
+                            "confirmed": true,
+                            "id": "76764318",
+                            "version": "11225617"
+                        }
+                    ],
+                    "id": "76764314",
+                    "version": "11225620"
+                },
+                "id": "7587097",
+                "version": "7587097"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "AFSCME District Council 37 (New York, N.Y.). AFSCME, District Council 37, records, 1944-2004 (bulk 1957-2000).",
+            "id": "69974559",
+            "version": "10230068"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/law00072\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Harvard Law School Library, Harvard\n\t University<\/repository>\n                  <physloc>Harvard Depository<\/physloc>\n                  <unitid>HOLLIS 601663<\/unitid>\n                  <origination>\n                     <persname>Dooling, John Francis,\n\t  1908-1981<\/persname>\n                  <\/origination>\n                  <unittitle>Papers, \n\t <unitdate>1960-1980<\/unitdate>\n                  <\/unittitle>\n                  <physdesc>\n                     <extent>40 boxes<\/extent>\n                  <\/physdesc>\n                  <abstract>These materials constitute the working papers of\n\t a sitting federal judge. Judge Dooling's special expertise was in patent cases.\n\t His Court (Eastern District of New York) also included a large proportion of\n\t immigration and exclusion of aliens cases, and cases growing out of integration\n\t in the New York school system.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1960-1980",
+                "abstract": "These materials constitute the working papers of a sitting federal judge. Judge Dooling's special expertise was in patent cases. His Court (Eastern District of New York) also included a large proportion of immigration and exclusion of aliens cases, and cases growing out of integration in the New York school system.",
+                "extent": "40 boxes",
+                "displayEntry": "Papers, 1960-1980",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dooling, John Francis,  1908-1981",
+                        "id": "11439629",
+                        "version": "6385733"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f29nfn",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard Law School Library, Harvard University.",
+                            "preferenceScore": "99",
+                            "id": "76793529",
+                            "version": "11237573"
+                        }
+                    ],
+                    "id": "76793528",
+                    "version": "11237576"
+                },
+                "id": "6385733",
+                "version": "6385733"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Papers, 1960-1980",
+            "id": "69974560",
+            "version": "10230068"
+        }
+    ],
+    "id": "69974548",
+    "version": "10230069"
+}

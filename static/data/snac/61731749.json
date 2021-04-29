@@ -1,0 +1,331 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6225vc9",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T02:34:02",
+            "standardDateTime": "2016-08-17T02:34:02",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T02:34:02",
+            "standardDateTime": "2016-08-17T02:34:02",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/31129838",
+            "id": "61731751",
+            "version": "9030587"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Gardiner, C. Harvey (Clinton Harvey)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Gardiner, C. Harvey (Clinton Harvey)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "61731753",
+                    "version": "9030587"
+                }
+            ],
+            "id": "61731752",
+            "version": "9030587",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81853035",
+                    "version": "9030587"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "61731749",
+            "targetConstellation": "54489435",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6225vc9",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w61z45nw",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Gerry, Elbridge, 1744-1814.",
+            "id": "61731756",
+            "version": "9030587"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/31129838",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:31129838<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-MAH<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Gerry, Elbridge, 1744-1814.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Billias, George Athan, 1919-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Gardiner, C. Harvey (Clinton Harvey)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Elbridge Gerry letters (photocopies), 1745-1810.<\/title>\n                  <\/titleInfo>\n                  <abstract>Copies of letters of Elbridge Gerry, delegate to the Continental Congress, signer of the Declaration of Independence and the Articles of Confederation, U.S. rep. from Mass., member of the XYZ mission to France in 1798, governor of Mass. (1810-12), and vice-president under James Madison (1812-14). The copies were reproduced from materials in various repositories and in private hands by George A. Billias for his historical and biographical research on Gerry. The collection also includes 2 index card files which serve as a control file for the collection and a typescript of a thesis entitled, \"A Study in Dissent: Warren-Gerry Correspondence 1776-1792,\" by C. Harvey Gardiner (later published as a book). <\/abstract>\n                  <name>\n                     <namePart>Massachusetts Historical Society<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Elbridge Gerry letters (photocopies), 1745-1810.",
+                "abstract": "Copies of letters of Elbridge Gerry, delegate to the Continental Congress, signer of the Declaration of Independence and the Articles of Confederation, U.S. rep. from Mass., member of the XYZ mission to France in 1798, governor of Mass. (1810-12), and vice-president under James Madison (1812-14). The copies were reproduced from materials in various repositories and in private hands by George A. Billias for his historical and biographical research on Gerry. The collection also includes 2 index card files which serve as a control file for the collection and a typescript of a thesis entitled, \"A Study in Dissent: Warren-Gerry Correspondence 1776-1792,\" by C. Harvey Gardiner (later published as a book). ",
+                "extent": "6 cartons (stored offsite)",
+                "displayEntry": "Gerry, Elbridge, 1744-1814. Elbridge Gerry letters (photocopies), 1745-1810.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Gerry, Elbridge, 1744-1814.",
+                        "id": "9410935",
+                        "version": "7307514"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Billias, George Athan, 1919-",
+                        "id": "9410936",
+                        "version": "7307514"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Gardiner, C. Harvey (Clinton Harvey)",
+                        "id": "9410937",
+                        "version": "7307514"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w62c9n83",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Massachusetts Historical Society",
+                            "preferenceScore": "99",
+                            "id": "84231974",
+                            "version": "11330889"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts Historical Society",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84232002",
+                                    "version": "11330889"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1154 Boylston St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84232003",
+                                    "version": "11330889"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Boston",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84232004",
+                                    "version": "11330889"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84232005",
+                                    "version": "11330889"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02215-3695",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84232006",
+                                    "version": "11330889"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84232007",
+                                    "version": "11330889"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15125",
+                                "name": "Massachusetts Historical Society",
+                                "latitude": "42.3586000",
+                                "longitude": "-71.0567000"
+                            },
+                            "confirmed": true,
+                            "id": "84232001",
+                            "version": "11330889"
+                        }
+                    ],
+                    "id": "84231969",
+                    "version": "11330906"
+                },
+                "id": "7307514",
+                "version": "7307514"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Gerry, Elbridge, 1744-1814. Elbridge Gerry letters (photocopies), 1745-1810.",
+            "id": "61731757",
+            "version": "9030587"
+        }
+    ],
+    "id": "61731749",
+    "version": "9030588",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1745",
+            "fromDateOriginal": "active 1745",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1810",
+            "toDateOriginal": "active 1810",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "61731750",
+            "version": "9030587"
+        }
+    ]
+}

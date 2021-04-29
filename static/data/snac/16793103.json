@@ -1,0 +1,435 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kt1w66",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-20",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T23:50:25",
+            "standardDateTime": "2016-08-10T23:50:25",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T23:50:25",
+            "standardDateTime": "2016-08-10T23:50:25",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/156913983",
+            "id": "16793104",
+            "version": "2453171"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/uks\/ksrl.kc.kfku.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"110\">KFKU (Radio station : Lawrence, Kan.)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/hdl.handle.net\/10407\/9317406194",
+            "id": "16793105",
+            "version": "2453171"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KFKU (Radio station : Lawrence, Kan.)",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KFKU (Radio station : Lawrence, Kan.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "16793107",
+                    "version": "2453171"
+                }
+            ],
+            "id": "16793106",
+            "version": "2453171",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"uks\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78177517",
+                    "version": "2453171"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "16793103",
+            "targetConstellation": "61439967",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kt1w66",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6576gv2",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WIBW (Radio station and Television station : Topeka, Kan.)",
+            "id": "16793112",
+            "version": "2453171"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "16793103",
+            "targetConstellation": "61591975",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kt1w66",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w68f36w2",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WREN Radio (Radio station: Lawrence, Kan.)",
+            "id": "16793114",
+            "version": "2453171"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "16793103",
+            "targetConstellation": "61516693",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kt1w66",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6j72mk1",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WREN Radio (Radio station : Topeka, Kan.)",
+            "id": "16793113",
+            "version": "2453171"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/156913983",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:156913983<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-KFS<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>KFKU (Radio station : Lawrence, Kan.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WIBW (Radio station and Television station : Topeka, Kan.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>[KFKU, WIBW-TV, and WREN materials] [195-?]<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>University of Kansas Archives \/ MSS \/ Rare Books<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "[KFKU, WIBW-TV, and WREN materials] [195-?]",
+                "extent": "1 folder ; 25 x 38 cm.",
+                "displayEntry": "KFKU (Radio station : Lawrence, Kan.). [KFKU, WIBW-TV, and WREN materials]",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KFKU (Radio station : Lawrence, Kan.)",
+                        "id": "8752329",
+                        "version": "6902391"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WIBW (Radio station and Television station : Topeka, Kan.)",
+                        "id": "8752330",
+                        "version": "6902391"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gv69v0",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Kansas Archives \/ MSS \/ Rare Books, Kenneth Spencer Research Library",
+                            "preferenceScore": "99",
+                            "id": "76786599",
+                            "version": "11233909"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Kansas Archives \/ MSS \/ Rare Books, Kenneth Spencer Research Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1450 Poplar Ln",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786604",
+                                    "version": "11233909"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Lawrence",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786605",
+                                    "version": "11233909"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-KS",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786606",
+                                    "version": "11233909"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "66045-7596",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786607",
+                                    "version": "11233909"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786608",
+                                    "version": "11233909"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15393",
+                                "name": "University of Kansas Archives \/ MSS \/ Rare Books, Kenneth Spencer Research Library",
+                                "latitude": "38.9565100",
+                                "longitude": "-95.2520990"
+                            },
+                            "confirmed": true,
+                            "id": "76786603",
+                            "version": "11233909"
+                        }
+                    ],
+                    "id": "76786598",
+                    "version": "11233912"
+                },
+                "id": "6902391",
+                "version": "6902391"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "KFKU (Radio station : Lawrence, Kan.). [KFKU, WIBW-TV, and WREN materials]",
+            "id": "16793115",
+            "version": "2453171"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/hdl.handle.net\/10407\/9317406194",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>University of Kansas<subarea>Kenneth Spencer Research Library<\/subarea>\n                        <subarea>Kansas Collection<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline>1450 Poplar Lane, Lawrence, KS 66045-7616<\/addressline>\n                        <addressline>Phone: (785)864-4334<\/addressline>\n                        <addressline>Fax: (785)864-5803<\/addressline>\n                        <addressline>URL: http:\/\/spencer.lib.ku.edu<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <origination>\n                     <corpname>KFKU (Radio station : Lawrence, Kan.) <\/corpname>\n                  <\/origination>\n                  <unittitle>KFKU, WIBW-TV, and WREN materials<\/unittitle>\n                  <unitdate>circa 1950s<\/unitdate>\n                  <langmaterial>\n                     <language>English <\/language>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>5 items (1 folder) <\/extent>\n                  <\/physdesc>\n                  <abstract>This collection contains promotional materials for WIBW-TV, Topeka, Kansas, as well as radio stations KFKU, University of Kansas and WREN, Lawrence, Kansas.<\/abstract>\n                  <unitid>RH MS P759<\/unitid>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "KFKU, WIBW-TV, and WREN materials circa 1950s",
+                "abstract": "This collection contains promotional materials for WIBW-TV, Topeka, Kansas, as well as radio stations KFKU, University of Kansas and WREN, Lawrence, Kansas.",
+                "extent": "5 items (1 folder)",
+                "displayEntry": "KFKU, WIBW-TV, and WREN materials, circa 1950s",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11390875",
+                        "version": "6355737"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6mt4gnh",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Kansas Kenneth Spencer Research Library Kansas Collection.",
+                            "preferenceScore": "99",
+                            "id": "76797673",
+                            "version": "11241437"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Kansas Kenneth Spencer Research Library Kansas Collection.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1450 Poplar Lane, Lawrence, KS 66045-7616 Phone: (785) 864 - 4334 Fax: (785) 864-5803 URL: http:\/\/spencer.lib.ku.edu",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76797676",
+                                    "version": "11241437"
+                                }
+                            ],
+                            "id": "76797675",
+                            "version": "11241437"
+                        }
+                    ],
+                    "id": "76797672",
+                    "version": "11241440"
+                },
+                "id": "6355737",
+                "version": "6355737"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "KFKU, WIBW-TV, and WREN materials, circa 1950s",
+            "id": "16793116",
+            "version": "2453171"
+        }
+    ],
+    "id": "16793103",
+    "version": "2453172"
+}

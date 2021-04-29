@@ -1,0 +1,422 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hx1b5j",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T14:10:51",
+            "standardDateTime": "2016-08-10T14:10:51",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T14:10:51",
+            "standardDateTime": "2016-08-10T14:10:51",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/184068275",
+            "id": "12620397",
+            "version": "1835450"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/58840849",
+            "id": "12620396",
+            "version": "1835450"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "12620398",
+            "version": "1835450"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Byrd, Jimmy",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Byrd, Jimmy",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "12620400",
+                    "version": "1835450"
+                }
+            ],
+            "id": "12620399",
+            "version": "1835450",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77832391",
+                    "version": "1835450"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "12620395",
+                "version": "1835450"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">Guitarist. Began work as a professional musician in 1941 at age 13. Member of Paul Howard's band, the Arkansas Cotton Pickers. As a member of Howard's band he was a regular Grand Ole Opry performer during the early 1940s.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Oral history interview with Jimmy Byrd; 1986 August 15; interview conducted by John W. Rumble. 1986 Aug. 15. (Country Music Foundation, Library &amp; Media Center). WorldCat record id: 58840849<\/citation>\n         <\/biogHist>",
+            "id": "12620394",
+            "version": "1835450"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "12620393",
+            "targetConstellation": "72829729",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hx1b5j",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w65718z1",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Rumble, John W.;",
+            "id": "12620413",
+            "version": "1835450"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Byrd, Jimmy",
+            "uri": "https:\/\/viaf.org\/viaf\/184068275",
+            "id": "12620405",
+            "version": "1835450"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/58840849",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:58840849<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UWP<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Byrd, Jimmy<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Rumble, John W.;<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Oral history interview with Jimmy Byrd; 1986 August 15; interview conducted by John W. Rumble. 1986 Aug. 15.<\/title>\n                  <\/titleInfo>\n                  <abstract>Guitarist Jimmy Byrd talks about his career as a teenager working in country music during the 1940s.  Discussion includes the start of his musical training; his move to Nashville; working for Paul Howard; bringing Rod Brasfield to the Grand Ole Opry; early session work for Zeke Clements and Paul Howard; the positive influence of Paul Howard, Judge Hay, and others.  Paul Howard's band; his musical education; playing on the Opry; country audiences of the 1940s; and comments on the Opry and Opry performers during the 1940s. <\/abstract>\n                  <name>\n                     <namePart>Country Music Foundation, Library &amp; Media Center<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Oral history interview with Jimmy Byrd; 1986 August 15; interview conducted by John W. Rumble. 1986 Aug. 15.",
+                "abstract": "Guitarist Jimmy Byrd talks about his career as a teenager working in country music during the 1940s.  Discussion includes the start of his musical training; his move to Nashville; working for Paul Howard; bringing Rod Brasfield to the Grand Ole Opry; early session work for Zeke Clements and Paul Howard; the positive influence of Paul Howard, Judge Hay, and others.  Paul Howard's band; his musical education; playing on the Opry; country audiences of the 1940s; and comments on the Opry and Opry performers during the 1940s. ",
+                "extent": "2 sound cassettes (1 hour, 52 minutes)",
+                "displayEntry": "Byrd, Jimmy. Oral history interview with Jimmy Byrd; 1986 August 15; interview conducted by John W. Rumble.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Byrd, Jimmy",
+                        "id": "10126926",
+                        "version": "7771952"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rumble, John W.;",
+                        "id": "10126927",
+                        "version": "7771952"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64n9sz3",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Country Music Foundation, Library & Media Center",
+                            "preferenceScore": "99",
+                            "id": "76765441",
+                            "version": "11226025"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Country Music Foundation, Library & Media Center",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "222 5th Ave S",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765446",
+                                    "version": "11226025"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Nashville",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765447",
+                                    "version": "11226025"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-TN",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765448",
+                                    "version": "11226025"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "37203-4206",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765449",
+                                    "version": "11226025"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765450",
+                                    "version": "11226025"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16127",
+                                "name": "Country Music Foundation, Library & Media Center",
+                                "latitude": "36.1576000",
+                                "longitude": "-86.7765000"
+                            },
+                            "confirmed": true,
+                            "id": "76765445",
+                            "version": "11226025"
+                        }
+                    ],
+                    "id": "76765440",
+                    "version": "11226028"
+                },
+                "id": "7771952",
+                "version": "7771952"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Byrd, Jimmy. Oral history interview with Jimmy Byrd; 1986 August 15; interview conducted by John W. Rumble.",
+            "id": "12620414",
+            "version": "1835450"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "United States",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "12620406",
+            "version": "1835450",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "United States",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "12620407",
+                    "version": "1835450"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "116587",
+                "term": "Country musicians--Interviews",
+                "type": "subject"
+            },
+            "id": "12620409",
+            "version": "1835450"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "116575",
+                "term": "Country music--History",
+                "type": "subject"
+            },
+            "id": "12620410",
+            "version": "1835450"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "116584",
+                "term": "Country musicians--Biography",
+                "type": "subject"
+            },
+            "id": "12620408",
+            "version": "1835450"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "174207",
+                "term": "Guitarists--Interviews",
+                "type": "subject"
+            },
+            "id": "12620411",
+            "version": "1835450"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "174206",
+                "term": "Guitarists--Biography",
+                "type": "subject"
+            },
+            "id": "12620412",
+            "version": "1835450"
+        }
+    ],
+    "id": "12620393",
+    "version": "1835451"
+}

@@ -1,0 +1,242 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64c64mv",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-16",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T12:59:22",
+            "standardDateTime": "2016-08-16T12:59:22",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T12:59:22",
+            "standardDateTime": "2016-08-16T12:59:22",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nypl\/mss17782.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Miami, University of<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archives.nypl.org\/mss\/17782",
+            "id": "58435576",
+            "version": "8542598"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Miami, University of",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Miami, University of",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "58435578",
+                    "version": "8542598"
+                }
+            ],
+            "id": "58435577",
+            "version": "8542598",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nypl\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81580766",
+                    "version": "8542598"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "58435575",
+            "targetConstellation": "64414688",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w64c64mv",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hj0f5m",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "New York Times Company",
+            "id": "58435581",
+            "version": "8542598"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archives.nypl.org\/mss\/17782",
+                "title": "New York Times Company records. Arthur Hays Sulzberger papers 1823-1999",
+                "abstract": "Arthur Hays Sulzberger was the publisher of xxThe New York Timesxx from 1935 until 1961 and chairman of the board of The New York        Times Company from 1961 until 1968. While he was publisher, circulation of The Times almost doubled; the editorial page developed a reputation        for strong opinions; news events were subjected to more analysis and coverage of specialized topics was strengthened; new sections and        departments were created for food, fashion, and women; and the overall style of the paper became less rigid and more aesthetically pleasing.        The papers document Sulzberger's life and career at xxThe New York Timesxx, with the majority of the collection relating to Sulzberger's 26        years as president and publisher of the paper. Included in the collection are correspondence with family members, friends, colleagues, world        leaders, and other dignitaries; memoranda regarding the business of the newspaper, including Sulzberger's notes of praise and criticism to his        editors, managers, and writers; reports on his meetings with world leaders, including Winston Churchill, Dwight D. Eisenhower, Franklin D.        Roosevelt, and Harry S. Truman; and photographs of Sulzberger, his family, business trips, vacations, and The Times' buildings.",
+                "extent": "129.9 linear feet; 297 boxes, 10 volumes",
+                "date": "1935-1968",
+                "displayEntry": "New York Times Company records. Arthur Hays Sulzberger papers, 1823-1999",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11623741",
+                        "version": "8368890"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6cs6hd1",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "New York Public Library. Manuscripts and Archives Division",
+                            "preferenceScore": "99",
+                            "id": "83852678",
+                            "version": "11294014"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "The New York Public Library. Manuscripts and Archives Division.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stephen A. Schwarzman Building Fifth Avenue at 42nd Street, New York, NY 10018-2788",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400244",
+                                        "term": "Street",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Street",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83852691",
+                                    "version": "11294014"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15028",
+                                "name": "New York Public Library System, NYPL",
+                                "latitude": "40.7534981",
+                                "longitude": "-73.9808884"
+                            },
+                            "confirmed": true,
+                            "id": "83852690",
+                            "version": "11294014"
+                        }
+                    ],
+                    "id": "83852674",
+                    "version": "11294016"
+                },
+                "id": "6311712",
+                "version": "6311712"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "New York Times Company records. Arthur Hays Sulzberger papers, 1823-1999",
+            "id": "58435582",
+            "version": "8542598"
+        }
+    ],
+    "id": "58435575",
+    "version": "8542599"
+}

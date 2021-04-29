@@ -1,0 +1,563 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fz3n5r",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T22:50:04",
+            "standardDateTime": "2016-08-17T22:50:04",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T22:50:05",
+            "standardDateTime": "2016-08-17T22:50:05",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nwda\/washington_state_university_libraries_manuscripts_archives_and_special_collections\/NTE2ua56.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"610\" role=\"creator\" rules=\"aacr2\" source=\"lcnaf\">Washington State University. KWSU Radio Station--Archives<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv36264",
+            "id": "66535672",
+            "version": "9731615"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/49696860",
+            "id": "66535671",
+            "version": "9731615"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Washington State University. KWSU Radio Station.",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Washington State University. KWSU Radio Station.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "66535674",
+                    "version": "9731615"
+                }
+            ],
+            "id": "66535673",
+            "version": "9731615",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"nwda\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82245738",
+                    "version": "9731615"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "66535669",
+            "targetConstellation": "57186060",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz3n5r",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w63r48np",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Avery, Mary W. 1907-1975.",
+            "id": "66535686",
+            "version": "9731615"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "66535669",
+            "targetConstellation": "45561388",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz3n5r",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w66q25b7",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Harrison, Burton Dwight, b. 1917.",
+            "id": "66535687",
+            "version": "9731615"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "66535669",
+            "targetConstellation": "26102761",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz3n5r",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w63z4jph",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "State College of Washington. KWSU Radio station.",
+            "id": "66535688",
+            "version": "9731615"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "66535669",
+            "targetConstellation": "1988805",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz3n5r",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6743261",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Washington State University. KTW Radio station.",
+            "id": "66535689",
+            "version": "9731615"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv36264",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Washington State University Libraries<subarea> Manuscripts, Archives, and Special Collections<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline>Pullman, WA 99164-5610 USA<\/addressline>\n                        <addressline>(509) 335-6691<\/addressline>\n                        <addressline>http:\/\/www.wsulibs.wsu.edu\/masc\/<\/addressline>\n                        <addressline>mascref@wsu.edu<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid>Archives 56<\/unitid>\n                  <unittitle>KWSU Radio Station Records <\/unittitle>\n                  <unitdate>1916-1977<\/unitdate>\n                  <physdesc>\n                     <extent>approximate 19,420 items<\/extent>\n                     <extent> 15 linear feet<\/extent>\n                     <extent> 25 containers<\/extent>\n                  <\/physdesc>\n                  <abstract>Contains correspondence, program scripts, and transmitter logs. Correspondence files include FCC communications (station license, construction permits, engineering exhibit &amp; plans, etc.), information about Mary Avery, WSU Archivist, and her program \"Washington Archives\" and her textbook on Washington State history. Other material includes remodeling plans and blueprints of the radio station, brochures describing the station and its history and service, speeches written by Burt Harrison, Station Manager for seventeen years, press releases, program information and announcements. The collection also includes program scripts covering such items as agricultural extension broadcasts, musical and literary programs, dramatic productions, and school broadcasts.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "KWSU Radio Station Records 1916-1977",
+                "abstract": "Contains correspondence, program scripts, and transmitter logs. Correspondence files include FCC communications (station license, construction permits, engineering exhibit & plans, etc.), information about Mary Avery, WSU Archivist, and her program \"Washington Archives\" and her textbook on Washington State history. Other material includes remodeling plans and blueprints of the radio station, brochures describing the station and its history and service, speeches written by Burt Harrison, Station Manager for seventeen years, press releases, program information and announcements. The collection also includes program scripts covering such items as agricultural extension broadcasts, musical and literary programs, dramatic productions, and school broadcasts.",
+                "extent": "approximate 19,420 items; 15 linear feet; 25 containers",
+                "displayEntry": "KWSU Radio Station Records, 1916-1977",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sk28fq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Washington State University Libraries: Manuscripts, Archives, and Special Collections",
+                            "preferenceScore": "99",
+                            "id": "76798320",
+                            "version": "11242113"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Washington State University Libraries: Manuscripts, Archives, and Special Collections",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Holland and Terrell Libraries Pullman, WA 99164-5610 USA (509) 335-6691 http:\/\/www.wsulibs.wsu.edu\/masc\/ mascref@wsu.edu",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76798323",
+                                    "version": "11242113"
+                                }
+                            ],
+                            "id": "76798322",
+                            "version": "11242113"
+                        }
+                    ],
+                    "id": "76798319",
+                    "version": "11242116"
+                },
+                "id": "6370509",
+                "version": "6370509"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "KWSU Radio Station Records, 1916-1977",
+            "id": "66535691",
+            "version": "9731615"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/49696860",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:49696860<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NTE<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Washington State University. KWSU Radio Station.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Avery, Mary W. 1907-1975.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Harrison, Burton Dwight, b. 1917.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>State College of Washington. KWSU Radio station.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Washington State University. KTW Radio station.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Records, 1916-1977.<\/title>\n                  <\/titleInfo>\n                  <abstract>Contains correspondence, program scripts, and transmitter logs. Correspondence files include FCC communications (station license, construction permits, engineering exhibit &amp; plans, etc.), information about Mary Avery, WSU Archivist, and her program \"Washington Archives\" and her textbook on Washington State history. Other material includes remodeling plans and blueprints of the radio station, brochures describing the station and its history and service, speeches written by Burt Harrison, Station Manager for seventeen years, press releases, program information and announcements. The collection also includes program scripts covering such items as agricultural extension broadcasts, musical and literary programs, dramatic productions, and school broadcasts. Most of these programs were locally produced. <\/abstract>\n                  <name>\n                     <namePart>Washington State University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Records, 1916-1977.",
+                "abstract": "Contains correspondence, program scripts, and transmitter logs. Correspondence files include FCC communications (station license, construction permits, engineering exhibit & plans, etc.), information about Mary Avery, WSU Archivist, and her program \"Washington Archives\" and her textbook on Washington State history. Other material includes remodeling plans and blueprints of the radio station, brochures describing the station and its history and service, speeches written by Burt Harrison, Station Manager for seventeen years, press releases, program information and announcements. The collection also includes program scripts covering such items as agricultural extension broadcasts, musical and literary programs, dramatic productions, and school broadcasts. Most of these programs were locally produced. ",
+                "extent": "15 linear ft. (25 boxes)",
+                "displayEntry": "Washington State University. KWSU Radio Station. Records, 1916-1977.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Washington State University. KWSU Radio Station.",
+                        "id": "9895728",
+                        "version": "7612526"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Avery, Mary W. 1907-1975.",
+                        "id": "9895729",
+                        "version": "7612526"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Harrison, Burton Dwight, b. 1917.",
+                        "id": "9895730",
+                        "version": "7612526"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "State College of Washington. KWSU Radio station.",
+                        "id": "9895731",
+                        "version": "7612526"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Washington State University. KTW Radio station.",
+                        "id": "9895732",
+                        "version": "7612526"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6g843cm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Washington State University, Holland and Terrell Libraries",
+                            "preferenceScore": "99",
+                            "id": "76790087",
+                            "version": "11235117"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Washington State University, Holland and Terrell Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Holland Libr 221",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76790092",
+                                    "version": "11235117"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Pullman",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76790093",
+                                    "version": "11235117"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76790094",
+                                    "version": "11235117"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "99164-5610",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76790095",
+                                    "version": "11235117"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76790096",
+                                    "version": "11235117"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16842",
+                                "name": "Washington State University, Holland and Terrell Libraries",
+                                "latitude": "46.7310791",
+                                "longitude": "-117.1636660"
+                            },
+                            "confirmed": true,
+                            "id": "76790091",
+                            "version": "11235117"
+                        }
+                    ],
+                    "id": "76790086",
+                    "version": "11235120"
+                },
+                "id": "7612526",
+                "version": "7612526"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Washington State University. KWSU Radio Station. Records, 1916-1977.",
+            "id": "66535690",
+            "version": "9731615"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Washington (State)--Pullman",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "66535681",
+            "version": "9731615",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Washington (State)--Pullman",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "66535682",
+                    "version": "9731615"
+                }
+            ]
+        },
+        {
+            "dataType": "Place",
+            "original": "Washington (State)",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "66535679",
+            "version": "9731615",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Washington (State)",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "66535680",
+                    "version": "9731615"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302507",
+                "term": "Radio stations--Research--Archival resources",
+                "type": "subject"
+            },
+            "id": "66535684",
+            "version": "9731615"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "103667",
+                "term": "College radio stations--Research--Archival resources",
+                "type": "subject"
+            },
+            "id": "66535685",
+            "version": "9731615"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302120",
+                "term": "Radio in secondary education",
+                "type": "subject"
+            },
+            "id": "66535683",
+            "version": "9731615"
+        }
+    ],
+    "id": "66535669",
+    "version": "9731616",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1916",
+            "fromDateOriginal": "active 1916",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1977",
+            "toDateOriginal": "active 1977",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "66535670",
+            "version": "9731615"
+        }
+    ]
+}

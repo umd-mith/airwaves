@@ -1,0 +1,545 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63z35n4",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T19:27:05",
+            "standardDateTime": "2016-08-18T19:27:05",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T19:27:05",
+            "standardDateTime": "2016-08-18T19:27:05",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/167576336",
+            "id": "71233795",
+            "version": "10409486"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/afl-ufl\/ufarchrsp11.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" source=\"lcnaf\">WUFT (Television station : Gainesville, Fla.) -- History<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.library.ufl.edu\/spec\/archome\/SeriesP11.htm",
+            "id": "71233794",
+            "version": "10409486"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/39964586",
+            "id": "71233793",
+            "version": "10409486"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "71233796",
+            "version": "10409486"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WUFT (Television station : Gainesville, Fla.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WUFT (Television station : Gainesville, Fla.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "71233798",
+                    "version": "10409486"
+                }
+            ],
+            "id": "71233797",
+            "version": "10409486",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"afl-ufl\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82628184",
+                    "version": "10409486"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "WUFT-TV",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WUFT-TV",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "71233803",
+                    "version": "10409486"
+                }
+            ],
+            "id": "71233802",
+            "version": "10409486",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82628185",
+                    "version": "10409486"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "71233792",
+            "targetConstellation": "37917517",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63z35n4",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wf2k79",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Florida. Office of the President.",
+            "id": "71233812",
+            "version": "10409486"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "71233792",
+            "targetConstellation": "69860234",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63z35n4",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cv9h0g",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Florida. Office of the President.",
+            "id": "71233811",
+            "version": "10409486"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "WUFT (Television station : Gainesville, Fla.)",
+            "uri": "https:\/\/viaf.org\/viaf\/167576336",
+            "id": "71233808",
+            "version": "10409486"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no90008788",
+            "id": "71233809",
+            "version": "10409486"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no90008788",
+            "id": "71233810",
+            "version": "10409486"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/39964586",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:39964586<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-FUG<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>University of Florida. Office of the President.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Administrative policy records, 1953-1955.<\/title>\n                  <\/titleInfo>\n                  <abstract>Contains the administrative records of acting president John S. Allen. Allen served as acting president after the death of J. Hillis Miller in 1953. Of special note are the records related to the beginnings of WUFT-TV and the continuation of the medical programs initiated during the Miller administration. <\/abstract>\n                  <name>\n                     <namePart>University of Florida<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Administrative policy records, 1953-1955.",
+                "abstract": "Contains the administrative records of acting president John S. Allen. Allen served as acting president after the death of J. Hillis Miller in 1953. Of special note are the records related to the beginnings of WUFT-TV and the continuation of the medical programs initiated during the Miller administration. ",
+                "extent": "2.9 linear ft. (7 boxes)",
+                "displayEntry": "University of Florida. Office of the President. Administrative policy records, 1953-1955.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of Florida. Office of the President.",
+                        "id": "9612859",
+                        "version": "7418111"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gr7n08",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Florida",
+                            "preferenceScore": "99",
+                            "id": "84194676",
+                            "version": "11322868"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Florida",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "George A Smathers Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84194721",
+                                    "version": "11322862"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "PO Box 117007",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84194722",
+                                    "version": "11322862"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Gainesville",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84194723",
+                                    "version": "11322862"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-FL",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84194724",
+                                    "version": "11322862"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "32611-7007",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84194725",
+                                    "version": "11322862"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84194726",
+                                    "version": "11322862"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16142",
+                                "name": "University of Florida",
+                                "latitude": "29.6454050",
+                                "longitude": "-82.3486710"
+                            },
+                            "confirmed": true,
+                            "id": "84194720",
+                            "version": "11322862"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Florida--Gainesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84194716",
+                            "version": "11322862"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Florida",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84194718",
+                            "version": "11322862"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Florida--Gainesville",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84194714",
+                            "version": "11322862"
+                        }
+                    ],
+                    "id": "84194670",
+                    "version": "11322870"
+                },
+                "id": "7418111",
+                "version": "7418111"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "University of Florida. Office of the President. Administrative policy records, 1953-1955.",
+            "id": "71233813",
+            "version": "10409486"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.library.ufl.edu\/spec\/archome\/SeriesP11.htm",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Administrative Policy Records of the University of Florida Office of the President (John S. Allen, Acting President)<\/unittitle>\n                  <unitdate>1953-1955<\/unitdate>\n                  <unitid>Series P11<\/unitid>\n                  <origination>\n                     <corpname>University of Florida. Office of the President.<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>2.9 Linear feet<\/extent>\n                     <extent>7 boxes<\/extent>\n                  <\/physdesc>\n                  <abstract>Administrative records of John S. Allen as acting University of Florida president, including correspondence and other records related to the major campus units and general correspondence with regional and national intercollegiate organizations.<\/abstract>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n                  <physloc>University of Florida Smathers Library Building<\/physloc>\n                  <repository>\n                     <corpname>Special and Area Studies Collections, George A. Smathers Libraries, University of Florida<\/corpname>\n                  <\/repository>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Administrative Policy Records of the University of Florida Office of the President (John S. Allen, Acting President) 1953-1955",
+                "abstract": "Administrative records of John S. Allen as acting University of Florida president, including correspondence and other records related to the major campus units and general correspondence with regional and national intercollegiate organizations.",
+                "extent": "2.9 Linear feet; 7 boxes",
+                "displayEntry": "Administrative Policy Records of the University of Florida Office of the President (John S. Allen, Acting President), 1953-1955",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11260242",
+                        "version": "6636824"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6998wt8",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Special and Area Studies Collections, George A. Smathers Libraries, University of Florida",
+                            "preferenceScore": "99",
+                            "id": "76796132",
+                            "version": "11239961"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Special and Area Studies Collections, George A. Smathers Libraries, University of Florida",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Special and Area Studies Collections, George A. Smathers Libraries, University of Florida",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76796135",
+                                    "version": "11239961"
+                                }
+                            ],
+                            "id": "76796134",
+                            "version": "11239961"
+                        }
+                    ],
+                    "id": "76796131",
+                    "version": "11239964"
+                },
+                "id": "6636824",
+                "version": "6636824"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Administrative Policy Records of the University of Florida Office of the President (John S. Allen, Acting President), 1953-1955",
+            "id": "71233814",
+            "version": "10409486"
+        }
+    ],
+    "id": "71233792",
+    "version": "10409487"
+}

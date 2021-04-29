@@ -1,0 +1,688 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6dc3r9m",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T19:52:51",
+            "standardDateTime": "2016-08-10T19:52:51",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T19:52:51",
+            "standardDateTime": "2016-08-10T19:52:51",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/uchic\/ICU.SPCL.CCP.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">University of Chicago. Contemporary Chamber Players<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.lib.uchicago.edu\/e\/scrc\/findingaids\/view.php?eadid=ICU.SPCL.CCP",
+            "id": "15122063",
+            "version": "2205143"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/605875970",
+            "id": "15122062",
+            "version": "2205143"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/149473037",
+            "id": "15122064",
+            "version": "2205143"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "15122065",
+            "version": "2205143"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "University of Chicago. Contemporary Chamber Players.",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "University of Chicago. Contemporary Chamber Players.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "15122067",
+                    "version": "2205143"
+                }
+            ],
+            "id": "15122066",
+            "version": "2205143",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"uchic\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78039256",
+                    "version": "2205143"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Chicago. Contemporary Chamber Players",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Chicago. Contemporary Chamber Players",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "15122073",
+                    "version": "2205143"
+                }
+            ],
+            "id": "15122072",
+            "version": "2205143",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78039257",
+                    "version": "2205143"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Contemporary Chamber Players",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Contemporary Chamber Players",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "15122076",
+                    "version": "2205143"
+                }
+            ],
+            "id": "15122075",
+            "version": "2205143",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78039258",
+                    "version": "2205143"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "<<The>> Contemporary Chamber Players of the University of Chicago",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "<<The>> Contemporary Chamber Players of the University of Chicago",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "15122079",
+                    "version": "2205143"
+                }
+            ],
+            "id": "15122078",
+            "version": "2205143",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78039259",
+                    "version": "2205143"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Contemporary Chamber Players of the University of Chicago.",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Contemporary Chamber Players of the University of Chicago.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "15122082",
+                    "version": "2205143"
+                }
+            ],
+            "id": "15122081",
+            "version": "2205143",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78039260",
+                    "version": "2205143"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "15122060",
+                "version": "2205143"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">The Contemporary Chamber Players was an art music performance ensemble founded at the University of Chicago by composer and Department of Music faculty member Ralph Shapey (1921-2002). During Shapey's tenure as conductor and director (1964-1993), the ensemble dedicated itself to the performance of compositions by the University of Chicago's doctoral candidates in composition, as well as newer or unknown composers who had not yet achieved national or international attention. Consequently, many of the composers whose works were performed by Contemporary Chamber Players went on to become prominent figures in the world of contemporary art music. Contemporary Chamber Players premiered works by composers such as Mario Davidovsky, George Perle, Shulamit Ran, George Rochberg, Roger Sessions and Ralph Shapey. Contemporary Chamber Players benefitted greatly from funding from the Fromm Music Foundation, founded by Chicagoan Paul Fromm (1906-1987). The ensemble held an annual concert in his honor, featuring compositions by well-known contemporary art music composers. The ensemble also toured the United States, playing venues such as the Library of Congress and Carnegie Hall, as well as numerous colleges and universities. Locally, Contemporary Chamber Players worked closely with the Chicago Symphony Orchestra during the tenure of music director Jean Martinon (1963-1968). After Ralph Shapey stepped down as Contemporary Chamber Players's director in 1993, the group was led by several resident conductors until Shulamit Ran, a faculty member and former Shapey student, became artistic director in 2002. The ensemble continues performing new art music in Chicago under the name Contempo.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of University of Chicago Contemporary Chamber Players records, 1958-1996 (inclusive). (University of Chicago Library). WorldCat record id: 605875970<\/citation>\n         \n            <p xmlns=\"urn:isbn:1-931666-33-4\">The Contemporary Chamber Players was an art music performance ensemble founded at the University of Chicago by composer and Department of Music faculty member Ralph Shapey (1921-2002). During Shapey\u2019s tenure as conductor and director (1964-1993), the ensemble dedicated itself to the performance of compositions by the University of Chicago\u2019s doctoral candidates in composition, as well as newer or unknown composers who had not yet achieved national or international attention. Consequently, many of the composers whose works were performed by Contemporary Chamber Players went on to become prominent figures in the world of contemporary art music. Contemporary Chamber Players premiered works by composers such as Mario Davidovsky, George Perle, Shulamit Ran, George Rochberg, Roger Sessions and Ralph Shapey.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Contemporary Chamber Players benefitted greatly from funding from the Fromm Music Foundation, founded by Chicagoan Paul Fromm (1906-1987). The ensemble held an annual concert in his honor, featuring compositions by well-known contemporary art music composers. The ensemble also toured the United States, playing venues such as the Library of Congress and Carnegie Hall, as well as numerous colleges and universities. Locally, Contemporary Chamber Players worked closely with the Chicago Symphony Orchestra during the tenure of music director Jean Martinon (1963-1968).<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">After Ralph Shapey stepped down as Contemporary Chamber Players\u2019s director in 1993, the group was led by several resident conductors until Shulamit Ran, a faculty member and former Shapey student, became artistic director in 2002. The ensemble continues performing new art music in Chicago under the name Contempo.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the guide to the University of Chicago. Contemporary Chamber Players. Records, 1958-1996, (Special Collections Research Center University of Chicago Library 1100 East 57th Street Chicago, Illinois 60637 U.S.A.)<\/citation>\n         <\/biogHist>",
+            "id": "15122059",
+            "version": "2205143"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "15122058",
+            "targetConstellation": "10081097",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dc3r9m",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w61n7zg6",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Shapey, Ralph, 1921-2002.",
+            "id": "15122093",
+            "version": "2205143"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "15122058",
+            "targetConstellation": "46149067",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dc3r9m",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6n6572g",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Chicago. Dept. of Music",
+            "id": "15122095",
+            "version": "2205143"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "15122058",
+            "targetConstellation": "70382010",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dc3r9m",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mq0t0k",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Chicago. Dept. of Music.",
+            "id": "15122094",
+            "version": "2205143"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "University of Chicago. Contemporary Chamber Players.",
+            "uri": "https:\/\/viaf.org\/viaf\/149473037",
+            "id": "15122087",
+            "version": "2205143"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n83066013",
+            "id": "15122088",
+            "version": "2205143"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n83066013",
+            "id": "15122089",
+            "version": "2205143"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/605875970",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:605875970<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-CGU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>University of Chicago. Contemporary Chamber Players.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>University of Chicago Contemporary Chamber Players records, 1958-1996 (inclusive).<\/title>\n                  <\/titleInfo>\n                  <abstract>The Contemporary Chamber Players, a music collective based at University of Chicago, was founded in 1964 by Ralph Shapey (1921-2002), a composer and member of the university's Department of Music. The Contemporary Chamber Players performed new works by 20th century composers, and under Shapey's guidance became one of the nation's premier ensembles for contemporary art music. This collection includes the ensemble's correspondence, financial records, touring information, publicity material, performance information, and audio recordings of performances. <\/abstract>\n                  <name>\n                     <namePart>University of Chicago Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "University of Chicago Contemporary Chamber Players records, 1958-1996 (inclusive).",
+                "abstract": "The Contemporary Chamber Players, a music collective based at University of Chicago, was founded in 1964 by Ralph Shapey (1921-2002), a composer and member of the university's Department of Music. The Contemporary Chamber Players performed new works by 20th century composers, and under Shapey's guidance became one of the nation's premier ensembles for contemporary art music. This collection includes the ensemble's correspondence, financial records, touring information, publicity material, performance information, and audio recordings of performances. ",
+                "extent": "42.5 linear ft. (47 boxes)",
+                "displayEntry": "University of Chicago. Contemporary Chamber Players. University of Chicago Contemporary Chamber Players records, 1958-1996 (inclusive).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of Chicago. Contemporary Chamber Players.",
+                        "id": "10141543",
+                        "version": "7780664"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61w63k7",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Chicago Library",
+                            "preferenceScore": "99",
+                            "id": "76786099",
+                            "version": "11233737"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Chicago Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1100 E. 57th Street",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786104",
+                                    "version": "11233737"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chicago",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786105",
+                                    "version": "11233737"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-IL",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786106",
+                                    "version": "11233737"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "60637",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786107",
+                                    "version": "11233737"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786108",
+                                    "version": "11233737"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15830",
+                                "name": "University of Chicago Library",
+                                "latitude": "41.7923000",
+                                "longitude": "-87.6000000"
+                            },
+                            "confirmed": true,
+                            "id": "76786103",
+                            "version": "11233737"
+                        }
+                    ],
+                    "id": "76786098",
+                    "version": "11233740"
+                },
+                "id": "7780664",
+                "version": "7780664"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "University of Chicago. Contemporary Chamber Players. University of Chicago Contemporary Chamber Players records, 1958-1996 (inclusive).",
+            "id": "15122096",
+            "version": "2205143"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.lib.uchicago.edu\/e\/scrc\/findingaids\/view.php?eadid=ICU.SPCL.CCP",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>University of Chicago. Contemporary Chamber Players. Records<\/unittitle>\n                  <unitdate>1958-1996<\/unitdate>\n                  <langmaterial>Documents in <language>English<\/language>\n                  <\/langmaterial>\n                  <physdesc>42.5 linear feet (47 boxes)<\/physdesc>\n                  <repository>\n                     <address>\n                        <addressline>Special Collections Research Center<\/addressline>\n                        <addressline>University of Chicago Library<\/addressline>\n                        <addressline>1100 East 57th Street<\/addressline>\n                        <addressline>Chicago, Illinois 60637 U.S.A.<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <abstract>The Contemporary Chamber Players, a music collective based at University of Chicago, was founded in 1964 by Ralph Shapey (1921-2002), a composer and member of the university\u2019s Department of Music. The Contemporary Chamber Players performed new works by 20th century composers, and under Shapey\u2019s guidance became one of the nation\u2019s premier ensembles for contemporary art music. This collection includes the ensemble's correspondence, financial records, touring information, publicity material, performance information, and audio recordings of performances.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "University of Chicago. Contemporary Chamber Players. Records 1958-1996",
+                "abstract": "The Contemporary Chamber Players, a music collective based at University of Chicago, was founded in 1964 by Ralph Shapey (1921-2002), a composer and member of the university\u2019s Department of Music. The Contemporary Chamber Players performed new works by 20th century composers, and under Shapey\u2019s guidance became one of the nation\u2019s premier ensembles for contemporary art music. This collection includes the ensemble's correspondence, financial records, touring information, publicity material, performance information, and audio recordings of performances.",
+                "displayEntry": "University of Chicago. Contemporary Chamber Players. Records, 1958-1996",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11261157",
+                        "version": "6637394"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b09tr4",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Special Collections Research Center, University of Chicago Library,",
+                            "preferenceScore": "99",
+                            "id": "76796333",
+                            "version": "11240177"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Special Collections Research Center, University of Chicago Library,",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Special Collections Research Center, University of Chicago Library 1100 East 57th Street Chicago, Illinois 60637 U.S.A.",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76796336",
+                                    "version": "11240177"
+                                }
+                            ],
+                            "id": "76796335",
+                            "version": "11240177"
+                        }
+                    ],
+                    "id": "76796332",
+                    "version": "11240180"
+                },
+                "id": "6637394",
+                "version": "6637394"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "University of Chicago. Contemporary Chamber Players. Records, 1958-1996",
+            "id": "15122097",
+            "version": "2205143"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "108252",
+                "term": "Composers",
+                "type": "subject"
+            },
+            "id": "15122090",
+            "version": "2205143"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "108514",
+                "term": "Composition (Music)",
+                "type": "subject"
+            },
+            "id": "15122092",
+            "version": "2205143"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "249725",
+                "term": "Music--20th century",
+                "type": "subject"
+            },
+            "id": "15122091",
+            "version": "2205143"
+        }
+    ],
+    "id": "15122058",
+    "version": "2205144",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1958",
+            "fromDateOriginal": "active 1958",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1996",
+            "toDateOriginal": "active 1996",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "15122061",
+            "version": "2205143"
+        }
+    ]
+}

@@ -1,0 +1,763 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6rp0bfh",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T07:35:08",
+            "standardDateTime": "2016-08-10T07:35:08",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T07:35:08",
+            "standardDateTime": "2016-08-10T07:35:08",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/754867371",
+            "id": "9538948",
+            "version": "1385570"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/hoover\/XX605.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"710\" source=\"lcnaf\">Columbia University. Russian Institute.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt009nd6g5",
+            "id": "9538949",
+            "version": "1385570"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/151194502",
+            "id": "9538950",
+            "version": "1385570"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "9538951",
+            "version": "1385570"
+        }
+    ],
+    "languagesUsed": [
+        {
+            "dataType": "Language",
+            "language": {
+                "id": "130",
+                "term": "eng",
+                "type": "language_code",
+                "description": "English"
+            },
+            "script": {
+                "id": "685",
+                "term": "Zyyy",
+                "type": "script_code",
+                "description": "Code for undetermined script"
+            },
+            "id": "9538952",
+            "version": "1385570"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Columbia University. Russian institute",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Columbia University. Russian institute",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "9538954",
+                    "version": "1385570"
+                }
+            ],
+            "id": "9538953",
+            "version": "1385570",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LAC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"NLA\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77581205",
+                    "version": "1385570"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Harriman institute New York",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Harriman institute New York",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "9538962",
+                    "version": "1385570"
+                }
+            ],
+            "id": "9538961",
+            "version": "1385570",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77581206",
+                    "version": "1385570"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Columbia University (New York). Russian Institute",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Columbia University (New York). Russian Institute",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "9538965",
+                    "version": "1385570"
+                }
+            ],
+            "id": "9538964",
+            "version": "1385570",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77581207",
+                    "version": "1385570"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": " Columbia university Harriman institute New York",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": " Columbia university Harriman institute New York",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "9538968",
+                    "version": "1385570"
+                }
+            ],
+            "id": "9538967",
+            "version": "1385570",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77581208",
+                    "version": "1385570"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "School of International Affairs at Columbia University. Russian Institute.",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "School of International Affairs at Columbia University. Russian Institute.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "9538971",
+                    "version": "1385570"
+                }
+            ],
+            "id": "9538970",
+            "version": "1385570",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77581209",
+                    "version": "1385570"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Russian Institute.",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Russian Institute.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "9538974",
+                    "version": "1385570"
+                }
+            ],
+            "id": "9538973",
+            "version": "1385570",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77581210",
+                    "version": "1385570"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": " Columbia university W. Averell Harriman institute for advanced study of the Soviet Union New York",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": " Columbia university W. Averell Harriman institute for advanced study of the Soviet Union New York",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "9538977",
+                    "version": "1385570"
+                }
+            ],
+            "id": "9538976",
+            "version": "1385570",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77581211",
+                    "version": "1385570"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": " Russian institute New-York",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": " Russian institute New-York",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "9538980",
+                    "version": "1385570"
+                }
+            ],
+            "id": "9538979",
+            "version": "1385570",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77581212",
+                    "version": "1385570"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": " W. Averell Harriman institute for advanced study of the Soviet Union New York",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": " W. Averell Harriman institute for advanced study of the Soviet Union New York",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "9538983",
+                    "version": "1385570"
+                }
+            ],
+            "id": "9538982",
+            "version": "1385570",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77581213",
+                    "version": "1385570"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "9538946",
+            "targetConstellation": "44714664",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rp0bfh",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6618gv2",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Davis, Richard Hallock, 1913-1972.",
+            "id": "9538992",
+            "version": "1385570"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Columbia University. Russian institute",
+            "uri": "https:\/\/viaf.org\/viaf\/151194502",
+            "id": "9538989",
+            "version": "1385570"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n80108792",
+            "id": "9538990",
+            "version": "1385570"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n80108792",
+            "id": "9538991",
+            "version": "1385570"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt009nd6g5",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Richard Hallock Davis miscellaneous papers <\/unittitle>\n                  <unitdate>1949-1950<\/unitdate>\n                  <unitid>XX605<\/unitid>\n                  <origination>\n                     <persname>Davis, Richard Hallock, 1913-1972.<\/persname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>1 folder, 1 envelope. <\/extent>\n                     <extent>(0.2 linear feet)<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Hoover Institution Archives <\/corpname>\n                     <address>\n                        <addressline>Stanford, California 94305-6010<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <abstract>Lecture notes relating to Russian history, government, economics, and literature, taken at the Russian Institute at Columbia University, course syllabi, and three unidentified photographs.<\/abstract>\n                  <physloc>Hoover Institution Archives<\/physloc>\n                  <langmaterial>\n                     <language>English <\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Richard Hallock Davis miscellaneous papers 1949-1950",
+                "abstract": "Lecture notes relating to Russian history, government, economics, and literature, taken at the Russian Institute at Columbia University, course syllabi, and three unidentified photographs.",
+                "extent": "1 folder, 1 envelope.; (0.2 linear feet)",
+                "displayEntry": "Richard Hallock Davis miscellaneous papers, 1949-1950",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Davis, Richard Hallock, 1913-1972.",
+                        "id": "11278487",
+                        "version": "6649869"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11278488",
+                        "version": "6649869"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6mh8c79",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Hoover Institution Archives",
+                            "preferenceScore": "99",
+                            "id": "76793709",
+                            "version": "11431580"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Hoover Institution Archives.",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford University Stanford, CA, 94305-6010 (650) 723-3563 archives@hoover.stanford.edu",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76793712",
+                                    "version": "11237753"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "12562",
+                                "uri": "http:\/\/www.geonames.org\/5398563",
+                                "name": "Stanford",
+                                "latitude": "37.4241100",
+                                "longitude": "-122.1660800",
+                                "administrationCode": "CA",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "76793711",
+                            "version": "11431580"
+                        }
+                    ],
+                    "id": "76793708",
+                    "version": "11431581"
+                },
+                "id": "6649869",
+                "version": "6649869"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Richard Hallock Davis miscellaneous papers, 1949-1950",
+            "id": "9538994",
+            "version": "1385570"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/754867371",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:754867371<\/recordOrigin>\n                     <recordContentSource>ISIL:CSt-H<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Davis, Richard Hallock, 1913-1972.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Columbia University. Russian Institute.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Richard Hallock Davis miscellaneous papers, 1949-1950.<\/title>\n                  <\/titleInfo>\n                  <abstract>Lecture notes relating to Russian history, government, economics, and literature, taken at the Russian Institute at Columbia University, course syllabi, and three unidentified photographs. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Richard Hallock Davis miscellaneous papers, 1949-1950.",
+                "abstract": "Lecture notes relating to Russian history, government, economics, and literature, taken at the Russian Institute at Columbia University, course syllabi, and three unidentified photographs. ",
+                "extent": "1 folder, 1 envelope.",
+                "displayEntry": "Davis, Richard Hallock, 1913-1972. Richard Hallock Davis miscellaneous papers, 1949-1950.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Davis, Richard Hallock, 1913-1972.",
+                        "id": "10903455",
+                        "version": "8132390"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Columbia University. Russian Institute.",
+                        "id": "10903456",
+                        "version": "8132390"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60h47t5",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Stanford University, Hoover Institution Library",
+                            "preferenceScore": "99",
+                            "id": "76782965",
+                            "version": "11232593"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Stanford University, Hoover Institution Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Hoover Tower, 550 Serra Mall",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76782970",
+                                    "version": "11232593"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76782971",
+                                    "version": "11232593"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76782972",
+                                    "version": "11232593"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "94305",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76782973",
+                                    "version": "11232593"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76782974",
+                                    "version": "11232593"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17027",
+                                "name": "Stanford University, Hoover Institution Library",
+                                "latitude": "37.4313700",
+                                "longitude": "-122.1689240"
+                            },
+                            "confirmed": true,
+                            "id": "76782969",
+                            "version": "11232593"
+                        }
+                    ],
+                    "id": "76782964",
+                    "version": "11232596"
+                },
+                "id": "8132390",
+                "version": "8132390"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Davis, Richard Hallock, 1913-1972. Richard Hallock Davis miscellaneous papers, 1949-1950.",
+            "id": "9538993",
+            "version": "1385570"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "8188",
+                "term": "Americans",
+                "type": "nationality"
+            },
+            "id": "9538985",
+            "version": "1385570"
+        }
+    ],
+    "id": "9538946",
+    "version": "1385571",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1949",
+            "fromDateOriginal": "active 1949",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1950",
+            "toDateOriginal": "active 1950",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "9538947",
+            "version": "1385570"
+        }
+    ]
+}

@@ -1,0 +1,773 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kh4v04",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T13:46:36",
+            "standardDateTime": "2016-08-09T13:46:36",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T13:46:36",
+            "standardDateTime": "2016-08-09T13:46:36",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/701418445",
+            "id": "217025",
+            "version": "31808"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/142105350",
+            "id": "217026",
+            "version": "31808"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/33348942",
+            "id": "217023",
+            "version": "31808"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/773216059",
+            "id": "217024",
+            "version": "31808"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "217027",
+            "version": "31808"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WOUB (Television station : Athens, Ohio)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WOUB (Television station : Athens, Ohio)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "217029",
+                    "version": "31808"
+                }
+            ],
+            "id": "217028",
+            "version": "31808",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "76821700",
+                    "version": "31808"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "217021",
+            "targetConstellation": "20108626",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kh4v04",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6546tm1",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "E.W. Scripps School of Journalism.",
+            "id": "217040",
+            "version": "31808"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "217021",
+            "targetConstellation": "27061871",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kh4v04",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6xm1prx",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Holmes, Presley D.",
+            "id": "217039",
+            "version": "31808"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "217021",
+            "targetConstellation": "8675538",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kh4v04",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wt6v34",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Ohio University. Dept. of History",
+            "id": "217041",
+            "version": "31808"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "WOUB (Television station : Athens, Ohio)",
+            "uri": "https:\/\/viaf.org\/viaf\/142105350",
+            "id": "217036",
+            "version": "31808"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n2005071048",
+            "id": "217037",
+            "version": "31808"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n2005071048",
+            "id": "217038",
+            "version": "31808"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/773216059",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:773216059<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-OUN<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>E.W. Scripps School of Journalism.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>WOUB Center for Public Media records 1952-1996 1960-1970.<\/title>\n                  <\/titleInfo>\n                  <abstract>The WOUB Center for Public Media records span from 1952 to 1996 and document the activities of Ohio University's telecommunications department and the radio and televisions stations it operates. <\/abstract>\n                  <name>\n                     <namePart>Ohio University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "WOUB Center for Public Media records 1952-1996 1960-1970.",
+                "abstract": "The WOUB Center for Public Media records span from 1952 to 1996 and document the activities of Ohio University's telecommunications department and the radio and televisions stations it operates. ",
+                "extent": "79.5 linear feet.",
+                "displayEntry": "E.W. Scripps School of Journalism. WOUB Center for Public Media records 1952-1996 1960-1970.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "E.W. Scripps School of Journalism.",
+                        "id": "11004602",
+                        "version": "8191568"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63c6nq3",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Ohio University, Alden Library",
+                            "preferenceScore": "99",
+                            "id": "76778538",
+                            "version": "11230949"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Ohio University, Alden Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Park Place",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778543",
+                                    "version": "11230949"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "30 Park Pl",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778544",
+                                    "version": "11230949"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Athens",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778545",
+                                    "version": "11230949"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-OH",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778546",
+                                    "version": "11230949"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "45701-2978",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778547",
+                                    "version": "11230949"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778548",
+                                    "version": "11230949"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17218",
+                                "name": "Ohio University, Alden Library",
+                                "latitude": "39.2744570",
+                                "longitude": "-82.1568890"
+                            },
+                            "confirmed": true,
+                            "id": "76778542",
+                            "version": "11230949"
+                        }
+                    ],
+                    "id": "76778537",
+                    "version": "11230952"
+                },
+                "id": "8191568",
+                "version": "8191568"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "E.W. Scripps School of Journalism. WOUB Center for Public Media records 1952-1996 1960-1970.",
+            "id": "217043",
+            "version": "31808"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/701418445",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:701418445<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-OUN<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Ohio University. Dept. of History<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ohio University. Libraries.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WOUB (Television station : Athens, Ohio)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Cantigny First Division Oral History Project tapes 2009.<\/title>\n                  <\/titleInfo>\n                  <abstract>The Cantigny First Division Oral History Project tapes date from 2009 and are the original tapes from phase II of this oral history project. <\/abstract>\n                  <name>\n                     <namePart>Ohio University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Cantigny First Division Oral History Project tapes 2009.",
+                "abstract": "The Cantigny First Division Oral History Project tapes date from 2009 and are the original tapes from phase II of this oral history project. ",
+                "extent": "0.5 cubic feet (20 tapes)",
+                "displayEntry": "Ohio University. Dept. of History. Cantigny First Division Oral History Project tapes 2009.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ohio University. Dept. of History",
+                        "id": "10701159",
+                        "version": "8005114"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ohio University. Libraries.",
+                        "id": "10701160",
+                        "version": "8005114"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WOUB (Television station : Athens, Ohio)",
+                        "id": "10701161",
+                        "version": "8005114"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63c6nq3",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Ohio University, Alden Library",
+                            "preferenceScore": "99",
+                            "id": "76778538",
+                            "version": "11230949"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Ohio University, Alden Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Park Place",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778543",
+                                    "version": "11230949"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "30 Park Pl",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778544",
+                                    "version": "11230949"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Athens",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778545",
+                                    "version": "11230949"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-OH",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778546",
+                                    "version": "11230949"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "45701-2978",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778547",
+                                    "version": "11230949"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778548",
+                                    "version": "11230949"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17218",
+                                "name": "Ohio University, Alden Library",
+                                "latitude": "39.2744570",
+                                "longitude": "-82.1568890"
+                            },
+                            "confirmed": true,
+                            "id": "76778542",
+                            "version": "11230949"
+                        }
+                    ],
+                    "id": "76778537",
+                    "version": "11230952"
+                },
+                "id": "8005114",
+                "version": "8005114"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Ohio University. Dept. of History. Cantigny First Division Oral History Project tapes 2009.",
+            "id": "217044",
+            "version": "31808"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/33348942",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:33348942<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Holmes, Presley D.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Wayne State University.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ohio University.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WOUB (Television station : Athens, Ohio)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Public Broadcasting Service (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Presley D. Holmes papers, 1947-1984 and undated (bulk 1958-1977)<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection primarily documents Presley D. Holmes' work in instructional and public broadcasting. <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Presley D. Holmes papers, 1947-1984 and undated (bulk 1958-1977)",
+                "abstract": "Collection primarily documents Presley D. Holmes' work in instructional and public broadcasting. ",
+                "extent": "3.50 linear feet",
+                "displayEntry": "Holmes, Presley D. Presley D. Holmes papers, 1947-1984 and undated (bulk 1958-1977)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Holmes, Presley D.",
+                        "id": "9490200",
+                        "version": "7349775"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Wayne State University.",
+                        "id": "9490201",
+                        "version": "7349775"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ohio University.",
+                        "id": "9490202",
+                        "version": "7349775"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WOUB (Television station : Athens, Ohio)",
+                        "id": "9490203",
+                        "version": "7349775"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Public Broadcasting Service (U.S.)",
+                        "id": "9490204",
+                        "version": "7349775"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7349775",
+                "version": "7349775"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Holmes, Presley D. Presley D. Holmes papers, 1947-1984 and undated (bulk 1958-1977)",
+            "id": "217042",
+            "version": "31808"
+        }
+    ],
+    "id": "217021",
+    "version": "31809",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1947",
+            "fromDateOriginal": "active 1947",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1984",
+            "toDateOriginal": "active 1984",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "217022",
+            "version": "31808"
+        }
+    ]
+}

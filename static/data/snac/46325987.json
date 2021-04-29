@@ -1,0 +1,671 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w62c0gdd",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-23",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T15:20:39",
+            "standardDateTime": "2016-08-14T15:20:39",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T15:20:39",
+            "standardDateTime": "2016-08-14T15:20:39",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/65610557",
+            "id": "46325991",
+            "version": "6765113"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/39537303",
+            "id": "46325989",
+            "version": "6765113"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nypl\/mss504.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Sanborn, John W.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archives.nypl.org\/mss\/504",
+            "id": "46325990",
+            "version": "6765113"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "46325992",
+            "version": "6765113"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Sanborn, John W. (John Wentworth)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Sanborn, John W. (John Wentworth)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "46325994",
+                    "version": "6765113"
+                }
+            ],
+            "id": "46325993",
+            "version": "6765113",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80586223",
+                    "version": "6765113"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Sanborn, John W.",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Sanborn, John W.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "46325998",
+                    "version": "6765113"
+                }
+            ],
+            "id": "46325997",
+            "version": "6765113",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"nypl\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80586224",
+                    "version": "6765113"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "46325987",
+            "targetConstellation": "7970595",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w62c0gdd",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mh22jb",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Century Company",
+            "id": "46326009",
+            "version": "6765113"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "46325987",
+            "targetConstellation": "64631766",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w62c0gdd",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jd4zg9",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Dellenbaugh, Frederick Samuel, 1853-1935",
+            "id": "46326008",
+            "version": "6765113"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "46325987",
+            "targetConstellation": "9341496",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w62c0gdd",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6h996h6",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Pilling, James Constantine, 1846-1895.",
+            "id": "46326007",
+            "version": "6765113"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Sanborn, John W. (John Wentworth)",
+            "uri": "https:\/\/viaf.org\/viaf\/65610557",
+            "id": "46326004",
+            "version": "6765113"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n89603652",
+            "id": "46326005",
+            "version": "6765113"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n89603652",
+            "id": "46326006",
+            "version": "6765113"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archives.nypl.org\/mss\/504",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Century Company records<\/unittitle>\n                  <unitdate>1870-1924<\/unitdate>\n                  <unitid>MssCol 504<\/unitid>\n                  <unitid>504<\/unitid>\n                  <origination>\n                     <corpname>Century Company<\/corpname>\n                  <\/origination>\n                  <origination>\n                     <persname>Dellenbaugh, Frederick Samuel, 1853-1935<\/persname>\n                  <\/origination>\n                  <repository>\n                     <corpname>The New York Public Library. Manuscripts and Archives\n        Division.<\/corpname>\n                     <address>\n                        <addressline>Stephen A. Schwarzman Building<\/addressline>\n                        <addressline>Fifth Avenue at 42nd Street, New York, NY 10018-2788<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <physdesc>\n                     <extent>60.4 linear feet<\/extent>\n                     <extent>151 boxes<\/extent>\n                  <\/physdesc>\n                  <abstract>The Century Company published periodicals and books. It was founded in New York City in 1881. Century's primary publication was The\n        Century Illustrated Monthly Magazine, which was regarded as the best general periodical of its time during the 1880s and 1890s. The records\n        consist of correspondence, manuscripts, vouchers, proofs of articles, and other materials concerning the publications of the Century\n        Company.<\/abstract>\n                  <langmaterial>English<\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Century Company records 1870-1924",
+                "abstract": "The Century Company published periodicals and books. It was founded in New York City in 1881. Century's primary publication was The        Century Illustrated Monthly Magazine, which was regarded as the best general periodical of its time during the 1880s and 1890s. The records        consist of correspondence, manuscripts, vouchers, proofs of articles, and other materials concerning the publications of the Century        Company.",
+                "extent": "60.4 linear feet; 151 boxes",
+                "displayEntry": "Century Company records, 1870-1924",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6cs6hd1",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "New York Public Library. Manuscripts and Archives Division",
+                            "preferenceScore": "99",
+                            "id": "83852678",
+                            "version": "11294014"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "The New York Public Library. Manuscripts and Archives Division.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stephen A. Schwarzman Building Fifth Avenue at 42nd Street, New York, NY 10018-2788",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400244",
+                                        "term": "Street",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Street",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83852691",
+                                    "version": "11294014"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15028",
+                                "name": "New York Public Library System, NYPL",
+                                "latitude": "40.7534981",
+                                "longitude": "-73.9808884"
+                            },
+                            "confirmed": true,
+                            "id": "83852690",
+                            "version": "11294014"
+                        }
+                    ],
+                    "id": "83852674",
+                    "version": "11294016"
+                },
+                "id": "6313858",
+                "version": "6313858"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Century Company records, 1870-1924",
+            "id": "46326011",
+            "version": "6765113"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/39537303",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:39537303<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-IBV<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Pilling, James Constantine, 1846-1895.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Butler, James Davie, 1815-1905.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Campbell, John, 1840-1904.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Cataldo, Joseph Mary, 1837-1928.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Dorsey, James Owen, 1848-1895.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Durieu, Paul, 1830-1899.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Edgar, Matilda Ridout, Lady, 1844-1910.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ely, William D. (William Davis), 1815-1903.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Garin, Andre\u0301 Marie, 1822-1895.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Garrioch, A. C. (Alfred Campbell), 1848-1934.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Grouard, mgr. (Emile-Jean-Baptiste-Marie), 1840-1931.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Harrison, Charles.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Horden, John, 1828-1893.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Merrill, Samuel Pearce, 1835-1916.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Morvillo, Anthony.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Cutter, Charles A. (Charles Ammi), 1837-1903.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Riggs, Alfred L. (Alfred Longley), 1837-1916.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Robertson, A. E. W. (Ann Eliza Worcester), 1826-1905.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Sanborn, John W. (John Wentworth)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Sener, Samuel Miller, 1855-1911.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Shea, John Gilmary, 1824-1892.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Swan, James Gilchrist.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Tache\u0301, Alexandre A. (Alexandre Antonin), 1823-1894.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Vetromile, Eugene, 1819-1881.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Edward E. Ayer Manuscript Collection (Newberry Library)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Edward E. Ayer North and Middle American Indian Linguistics Collection (Newberry Library)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Newberry Library.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>James Constantine Pilling letters, 1881-1894.<\/title>\n                  <\/titleInfo>\n                  <abstract>Mainly James Constantine Pilling's incoming correspondence, 1881-1894, with U.S. and Canadian missionaries, church officials, ethnologists, historians, and others regarding Indian languages, publications in Indian languages, and missionaries to the Indians. <\/abstract>\n                  <name>\n                     <namePart>Newberry Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "James Constantine Pilling letters, 1881-1894.",
+                "abstract": "Mainly James Constantine Pilling's incoming correspondence, 1881-1894, with U.S. and Canadian missionaries, church officials, ethnologists, historians, and others regarding Indian languages, publications in Indian languages, and missionaries to the Indians. ",
+                "extent": "0.2 linear feet (1 box)",
+                "displayEntry": "Pilling, James Constantine, 1846-1895. James Constantine Pilling letters, 1881-1894.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Pilling, James Constantine, 1846-1895.",
+                        "id": "9608552",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Butler, James Davie, 1815-1905.",
+                        "id": "9608553",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Campbell, John, 1840-1904.",
+                        "id": "9608554",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cataldo, Joseph Mary, 1837-1928.",
+                        "id": "9608555",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dorsey, James Owen, 1848-1895.",
+                        "id": "9608556",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Durieu, Paul, 1830-1899.",
+                        "id": "9608557",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Edgar, Matilda Ridout, Lady, 1844-1910.",
+                        "id": "9608558",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ely, William D. (William Davis), 1815-1903.",
+                        "id": "9608559",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Garin, Andre\u0301 Marie, 1822-1895.",
+                        "id": "9608560",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Garrioch, A. C. (Alfred Campbell), 1848-1934.",
+                        "id": "9608561",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Grouard, mgr. (Emile-Jean-Baptiste-Marie), 1840-1931.",
+                        "id": "9608562",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Harrison, Charles.",
+                        "id": "9608563",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Horden, John, 1828-1893.",
+                        "id": "9608564",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Merrill, Samuel Pearce, 1835-1916.",
+                        "id": "9608565",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Morvillo, Anthony.",
+                        "id": "9608566",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cutter, Charles A. (Charles Ammi), 1837-1903.",
+                        "id": "9608567",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Riggs, Alfred L. (Alfred Longley), 1837-1916.",
+                        "id": "9608568",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Robertson, A. E. W. (Ann Eliza Worcester), 1826-1905.",
+                        "id": "9608569",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Sanborn, John W. (John Wentworth)",
+                        "id": "9608570",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Sener, Samuel Miller, 1855-1911.",
+                        "id": "9608571",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Shea, John Gilmary, 1824-1892.",
+                        "id": "9608572",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Swan, James Gilchrist.",
+                        "id": "9608573",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tache\u0301, Alexandre A. (Alexandre Antonin), 1823-1894.",
+                        "id": "9608574",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Vetromile, Eugene, 1819-1881.",
+                        "id": "9608575",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Edward E. Ayer Manuscript Collection (Newberry Library)",
+                        "id": "9608576",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Edward E. Ayer North and Middle American Indian Linguistics Collection (Newberry Library)",
+                        "id": "9608577",
+                        "version": "7415125"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Newberry Library.",
+                        "id": "9608578",
+                        "version": "7415125"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w66r2ng5",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Newberry Library",
+                            "preferenceScore": "99",
+                            "id": "85321688",
+                            "version": "11495109"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Newberry Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "role": {
+                                "id": "400625",
+                                "term": "Work",
+                                "type": "place_role"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "60 W Walton St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400244",
+                                        "term": "Street",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Street",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85321721",
+                                    "version": "11495212"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chicago",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85321722",
+                                    "version": "11495212"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "60610-3380",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85321724",
+                                    "version": "11495212"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16527",
+                                "name": "Newberry Library",
+                                "latitude": "41.8999000",
+                                "longitude": "-87.6305000"
+                            },
+                            "confirmed": true,
+                            "id": "85321720",
+                            "version": "11495212"
+                        }
+                    ],
+                    "id": "85321679",
+                    "version": "11495287"
+                },
+                "id": "7415125",
+                "version": "7415125"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Pilling, James Constantine, 1846-1895. James Constantine Pilling letters, 1881-1894.",
+            "id": "46326010",
+            "version": "6765113"
+        }
+    ],
+    "id": "46325987",
+    "version": "6765114",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1881",
+            "fromDateOriginal": "active 1881",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1894",
+            "toDateOriginal": "active 1894",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "46325988",
+            "version": "6765113"
+        }
+    ]
+}

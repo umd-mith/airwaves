@@ -1,0 +1,323 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6674wh3",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T21:24:03",
+            "standardDateTime": "2016-08-17T21:24:03",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T21:24:03",
+            "standardDateTime": "2016-08-17T21:24:03",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122389306",
+            "id": "66207801",
+            "version": "9681284"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WKAR Television 1954-",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WKAR Television 1954-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "66207803",
+                    "version": "9681284"
+                }
+            ],
+            "id": "66207802",
+            "version": "9681284",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82218644",
+                    "version": "9681284"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "66207799",
+            "targetConstellation": "42227730",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6674wh3",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wh96g7",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Michigan State University. Instructional and Public Television.",
+            "id": "66207806",
+            "version": "9681284"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122389306",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122389306<\/recordOrigin>\n                     <recordContentSource>ISIL:MiEM<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Michigan State University. Instructional and Public Television.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Michigan State University Television Broadcasting 1951-1977.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Michigan State University Instructional Television Services.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Instructional and Public Television Records, 1952-1964.<\/title>\n                  <\/titleInfo>\n                  <abstract>The Instructional and Public Television records consist of policies, statements, summaries, descriptions, course listings, and short publications relating to WKAR-TV and television in general. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Instructional and Public Television Records, 1952-1964.",
+                "abstract": "The Instructional and Public Television records consist of policies, statements, summaries, descriptions, course listings, and short publications relating to WKAR-TV and television in general. ",
+                "extent": "13 Folders.",
+                "displayEntry": "Michigan State University. Instructional and Public Television. Instructional and Public Television Records, 1952-1964.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Michigan State University. Instructional and Public Television.",
+                        "id": "8411093",
+                        "version": "6698841"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Michigan State University Television Broadcasting 1951-1977.",
+                        "id": "8411094",
+                        "version": "6698841"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Michigan State University Instructional Television Services.",
+                        "id": "8411095",
+                        "version": "6698841"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w68x42v5",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Michigan State University Libraries, Main Library",
+                            "preferenceScore": "99",
+                            "id": "76774527",
+                            "version": "11229457"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Michigan State University Libraries, Main Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "366 W. Circle Dr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774532",
+                                    "version": "11229457"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Michigan State University Libraries",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774533",
+                                    "version": "11229457"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "East Lansing",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774534",
+                                    "version": "11229457"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MI",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774535",
+                                    "version": "11229457"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "48824-1048",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774536",
+                                    "version": "11229457"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774537",
+                                    "version": "11229457"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15076",
+                                "name": "Michigan State University Libraries, Main Library",
+                                "latitude": "42.7309265",
+                                "longitude": "-84.4833679"
+                            },
+                            "confirmed": true,
+                            "id": "76774531",
+                            "version": "11229457"
+                        }
+                    ],
+                    "id": "76774526",
+                    "version": "11229460"
+                },
+                "id": "6698841",
+                "version": "6698841"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Michigan State University. Instructional and Public Television. Instructional and Public Television Records, 1952-1964.",
+            "id": "66207807",
+            "version": "9681284"
+        }
+    ],
+    "id": "66207799",
+    "version": "9681285",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1954",
+            "fromDateOriginal": "active 1954",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "66207800",
+            "version": "9681284"
+        }
+    ]
+}

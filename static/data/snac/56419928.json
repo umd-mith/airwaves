@@ -1,0 +1,404 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6626mm5",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T05:07:54",
+            "standardDateTime": "2016-08-16T05:07:54",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T05:07:55",
+            "standardDateTime": "2016-08-16T05:07:55",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/crnlu\/RMA01317.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Irving R. Merrill<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/rmc.library.cornell.edu\/EAD\/xml\/dlxs\/RMA01317.xml",
+            "id": "56419930",
+            "version": "8253212"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/1543977",
+            "id": "56419931",
+            "version": "8253212"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "56419932",
+            "version": "8253212"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Merrill, Irving R. (Irving Rodgers), 1919-",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Merrill, Irving R. (Irving Rodgers), 1919-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "56419934",
+                    "version": "8253212"
+                }
+            ],
+            "id": "56419933",
+            "version": "8253212",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81419950",
+                    "version": "8253212"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Irving R. Merrill",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Irving R. Merrill",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "56419937",
+                    "version": "8253212"
+                }
+            ],
+            "id": "56419936",
+            "version": "8253212",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"crnlu\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81419951",
+                    "version": "8253212"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "MERRILL, IRVING R.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "MERRILL, IRVING R.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "56419940",
+                    "version": "8253212"
+                }
+            ],
+            "id": "56419939",
+            "version": "8253212",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81419952",
+                    "version": "8253212"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Merrill, Irving R. 1919-",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Merrill, Irving R. 1919-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "56419943",
+                    "version": "8253212"
+                }
+            ],
+            "id": "56419942",
+            "version": "8253212",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81419953",
+                    "version": "8253212"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Merrill, Irving Rodgers, 1919-",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Merrill, Irving Rodgers, 1919-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "56419946",
+                    "version": "8253212"
+                }
+            ],
+            "id": "56419945",
+            "version": "8253212",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81419954",
+                    "version": "8253212"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "56419928",
+            "targetConstellation": "73568658",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6626mm5",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hj08mc",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Cornell University",
+            "id": "56419953",
+            "version": "8253212"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Merrill, Irving R. (Irving Rodgers), 1919-",
+            "uri": "https:\/\/viaf.org\/viaf\/1543977",
+            "id": "56419950",
+            "version": "8253212"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n87-929024",
+            "id": "56419951",
+            "version": "8253212"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n87929024",
+            "id": "56419952",
+            "version": "8253212"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/rmc.library.cornell.edu\/EAD\/xml\/dlxs\/RMA01317.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Prize essay collection, <unitdate>1872-2001<\/unitdate>\n                  <\/unittitle>\n                  <unitid>7-9-1317<\/unitid>\n                  <origination>\n                     <corpname>Cornell University<\/corpname>\n                  <\/origination>\n                  <physdesc>8.4 cubic ft.<\/physdesc>\n                  <physdesc>Manuscripts.<\/physdesc>\n                  <repository>Division of Rare and Manuscript Collections, Cornell\n\t\t\t\tUniversity Library<\/repository>\n                  <abstract>Prize-winning student essays from Cornell University\n\t\t\t\tcontests in creative writing, poetry, social sciences, and humanities. Includes an\n\t\t\t\tessay on China by Pearl S. Buck.<\/abstract>\n                  <langmaterial>Collection material in <language>English<\/language>, and <language>German<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Prize essay collection, 1872-2001",
+                "abstract": "Prize-winning student essays from Cornell Universitycontests in creative writing, poetry, social sciences, and humanities. Includes anessay on China by Pearl S. Buck.",
+                "displayEntry": "Prize essay collection, 1872-2001",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11461632",
+                        "version": "6399984"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "159",
+                            "term": "ger",
+                            "type": "language_code",
+                            "description": "German"
+                        },
+                        "id": "11461633",
+                        "version": "6399984"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6pzz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Division of Rare and Manuscript Collections, Cornell University Library.",
+                            "preferenceScore": "99",
+                            "id": "76792986",
+                            "version": "11237009"
+                        }
+                    ],
+                    "id": "76792985",
+                    "version": "11237012"
+                },
+                "id": "6399984",
+                "version": "6399984"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Prize essay collection, 1872-2001",
+            "id": "56419954",
+            "version": "8253212"
+        }
+    ],
+    "id": "56419928",
+    "version": "8253213",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1919",
+            "fromDateOriginal": "1919",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "56419929",
+            "version": "8253212"
+        }
+    ]
+}

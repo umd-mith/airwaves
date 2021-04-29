@@ -1,0 +1,365 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6s528s2",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T17:32:39",
+            "standardDateTime": "2016-08-19T17:32:39",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T17:32:39",
+            "standardDateTime": "2016-08-19T17:32:39",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/139955370",
+            "id": "76039058",
+            "version": "11115419"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/469741175",
+            "id": "76039057",
+            "version": "11115419"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "76039059",
+            "version": "11115419"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KFJM (Radio Station : Grand Forks, N.D.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KFJM (Radio Station : Grand Forks, N.D.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "76039061",
+                    "version": "11115419"
+                }
+            ],
+            "id": "76039060",
+            "version": "11115419",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "83023758",
+                    "version": "11115419"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "76039056",
+            "targetConstellation": "16101815",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6s528s2",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6km16r1",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Ring, Benjamin A., 1925-1992.",
+            "id": "76039069",
+            "version": "11115419"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "KFJM (Radio Station : Grand Forks, N.D.)",
+            "uri": "https:\/\/viaf.org\/viaf\/139955370",
+            "id": "76039066",
+            "version": "11115419"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no2009190466",
+            "id": "76039067",
+            "version": "11115419"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no2009190466",
+            "id": "76039068",
+            "version": "11115419"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/469741175",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:469741175<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UND<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Ring, Benjamin A., 1925-1992.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ring, Beatrice T., 1926-2004.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Orin G. Libby Manuscript Collection (Chester Fritz Library)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers, 1951-1992<\/title>\n                  <\/titleInfo>\n                  <abstract>The Benjamin A. Ring papers were separated from several boxes of documents deposited by the Philosophy Department in 1994. While they were processed, the Ring papers were divided into five series. Series I. Personal contains a draft of Ring's autobiography, How I Lived and What I Lived For; a transcript of a Ring interview (JUN 1975); materials related to Ring's graduate studies; and a limited amount of correspondence. Series II. Professional\/UND contains Ring's Academic Supplements (1967-87), promotion files (1962-90), course syllabi, travel requests, as well as documents related to \"AGORA of the Air,\" graduate school, honors program, Indian Education Committee, and Human Relations Committee. Series III. Professional Associations consists of materials related to the ND Committee on the Humanities, ND Council for Higher Education, State Board of Higher Education, AAUP, and the American Council on Education. Series IV. Summer Programs consists of materials the Institute on Student Involvement (ISI) and National Science Foundation (NSF) summer institute for gifted high school students. ISI was a six-week program that Ring attended in 1969. Held at Claremont Colleges, California, ISI brought together about 35 deans and professors from around the nation to study \"sources of student discontent.\" ISI documents include schedules, discussion topics, Ring's notes, correspondence, questionnaires, reading lists, poetry, news clippings, articles, and staff &amp; participant rosters. NSF documents relate to a summer institute for gifted high school students that was hosted by UND in the early 1960's. NSF materials include correspondence, proposals &amp; grants, budget, expenditures, as well as student applications, evaluations, and publications. Documents are arranged chronologically. (For other NSF Summer Institute materials, see: OGL #683, Paul B. Kannowski Papers) Series V. SERIES V, Underground &amp; Student Press contains several student newspapers (1964-70). Also included in this series are documents related to a variety of free press issues, such as the ACLU, Committee Concerned About Vietnam, CORE, UND Indian Association, and Young Democrats. Newspapers and organizations are arranged alphabetically. <\/abstract>\n                  <name>\n                     <namePart>University of North Dakota<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1951-1992",
+                "abstract": "The Benjamin A. Ring papers were separated from several boxes of documents deposited by the Philosophy Department in 1994. While they were processed, the Ring papers were divided into five series. Series I. Personal contains a draft of Ring's autobiography, How I Lived and What I Lived For; a transcript of a Ring interview (JUN 1975); materials related to Ring's graduate studies; and a limited amount of correspondence. Series II. Professional\/UND contains Ring's Academic Supplements (1967-87), promotion files (1962-90), course syllabi, travel requests, as well as documents related to \"AGORA of the Air,\" graduate school, honors program, Indian Education Committee, and Human Relations Committee. Series III. Professional Associations consists of materials related to the ND Committee on the Humanities, ND Council for Higher Education, State Board of Higher Education, AAUP, and the American Council on Education. Series IV. Summer Programs consists of materials the Institute on Student Involvement (ISI) and National Science Foundation (NSF) summer institute for gifted high school students. ISI was a six-week program that Ring attended in 1969. Held at Claremont Colleges, California, ISI brought together about 35 deans and professors from around the nation to study \"sources of student discontent.\" ISI documents include schedules, discussion topics, Ring's notes, correspondence, questionnaires, reading lists, poetry, news clippings, articles, and staff & participant rosters. NSF documents relate to a summer institute for gifted high school students that was hosted by UND in the early 1960's. NSF materials include correspondence, proposals & grants, budget, expenditures, as well as student applications, evaluations, and publications. Documents are arranged chronologically. (For other NSF Summer Institute materials, see: OGL #683, Paul B. Kannowski Papers) Series V. SERIES V, Underground & Student Press contains several student newspapers (1964-70). Also included in this series are documents related to a variety of free press issues, such as the ACLU, Committee Concerned About Vietnam, CORE, UND Indian Association, and Young Democrats. Newspapers and organizations are arranged alphabetically. ",
+                "extent": "3.25 linear ft.",
+                "displayEntry": "Ring, Benjamin A., 1925-1992. Papers, 1951-1992",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ring, Benjamin A., 1925-1992.",
+                        "id": "9828460",
+                        "version": "7572431"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ring, Beatrice T., 1926-2004.",
+                        "id": "9828461",
+                        "version": "7572431"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Orin G. Libby Manuscript Collection (Chester Fritz Library)",
+                        "id": "9828462",
+                        "version": "7572431"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6524mts",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Dakota, Chester Fritz Library",
+                            "preferenceScore": "99",
+                            "id": "76787517",
+                            "version": "11234229"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of North Dakota, Chester Fritz Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chester Fritz Library, University of North Dakota",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787522",
+                                    "version": "11234229"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "3051 University Ave",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787523",
+                                    "version": "11234229"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Grand Forks",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787524",
+                                    "version": "11234229"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-ND",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787525",
+                                    "version": "11234229"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "58202-9000",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787526",
+                                    "version": "11234229"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787527",
+                                    "version": "11234229"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16461",
+                                "name": "University of North Dakota, Chester Fritz Library",
+                                "latitude": "47.9217990",
+                                "longitude": "-97.0718410"
+                            },
+                            "confirmed": true,
+                            "id": "76787521",
+                            "version": "11234229"
+                        }
+                    ],
+                    "id": "76787516",
+                    "version": "11234232"
+                },
+                "id": "7572431",
+                "version": "7572431"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Ring, Benjamin A., 1925-1992. Papers, 1951-1992",
+            "id": "76039070",
+            "version": "11115419"
+        }
+    ],
+    "id": "76039056",
+    "version": "11115420"
+}

@@ -1,0 +1,307 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gn27h3",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T17:13:13",
+            "standardDateTime": "2016-08-13T17:13:13",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T17:13:13",
+            "standardDateTime": "2016-08-13T17:13:13",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/60811273",
+            "id": "39872702",
+            "version": "5822588"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WRFW-FM (Radio station : River Falls, Wis.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WRFW-FM (Radio station : River Falls, Wis.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "39872704",
+                    "version": "5822588"
+                }
+            ],
+            "id": "39872703",
+            "version": "5822588",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80058847",
+                    "version": "5822588"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "39872701",
+            "targetConstellation": "72239619",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6gn27h3",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w69064rd",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Wisconsin--River Falls. College of Arts and Sciences.",
+            "id": "39872707",
+            "version": "5822588"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/60811273",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:60811273<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-WRF<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>University of Wisconsin--River Falls. College of Arts and Sciences.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WRFW-FM (Radio station : River Falls, Wis.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Wisconsin State University, River Falls.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>WRFW, 1968-1976.<\/title>\n                  <\/titleInfo>\n                  <abstract>This series contains materials related to the University's radio station, WRFW-FM, including items regarding the creation and construction of the station in 1968; programming and operation logs (1968-1971); several issues of \"Forecast,\" the station's monthly program guide; 1973 letter from WRFW station manager Lorin Robinson to the FCC concerning an unspecified correction of FCC violations; a 1970 report to the University administration, \"Radio at Wisconsin State University, River Falls,\" complied by Lorin Robinson; Listenership Survey Results and Explanation, conducted by a Dept. of Journalism public opinion class (1971); transmitter inspection logs (1972-74); two audio library catalogs submitted in 1974 and 1976; and miscellaneous items such as undated broadcast copy and newspaper clippings regarding the station. <\/abstract>\n                  <name>\n                     <namePart>University of Wisconsin - River Falls<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "WRFW, 1968-1976.",
+                "abstract": "This series contains materials related to the University's radio station, WRFW-FM, including items regarding the creation and construction of the station in 1968; programming and operation logs (1968-1971); several issues of \"Forecast,\" the station's monthly program guide; 1973 letter from WRFW station manager Lorin Robinson to the FCC concerning an unspecified correction of FCC violations; a 1970 report to the University administration, \"Radio at Wisconsin State University, River Falls,\" complied by Lorin Robinson; Listenership Survey Results and Explanation, conducted by a Dept. of Journalism public opinion class (1971); transmitter inspection logs (1972-74); two audio library catalogs submitted in 1974 and 1976; and miscellaneous items such as undated broadcast copy and newspaper clippings regarding the station. ",
+                "extent": "2.8 c.f. (7 archives boxes)",
+                "displayEntry": "University of Wisconsin--River Falls. College of Arts and Sciences. WRFW, 1968-1976.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of Wisconsin--River Falls. College of Arts and Sciences.",
+                        "id": "10153059",
+                        "version": "7788860"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WRFW-FM (Radio station : River Falls, Wis.)",
+                        "id": "10153060",
+                        "version": "7788860"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Wisconsin State University, River Falls.",
+                        "id": "10153061",
+                        "version": "7788860"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6jr1pnj",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Wisconsin - River Falls, Chalmer Davee Library",
+                            "preferenceScore": "99",
+                            "id": "76788849",
+                            "version": "11234681"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Wisconsin - River Falls, Chalmer Davee Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chalmer Davee Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788854",
+                                    "version": "11234681"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "410 South Third Street",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788855",
+                                    "version": "11234681"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "River Falls",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788856",
+                                    "version": "11234681"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WI",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788857",
+                                    "version": "11234681"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "54022",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788858",
+                                    "version": "11234681"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788859",
+                                    "version": "11234681"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15614",
+                                "name": "University of Wisconsin - River Falls, Chalmer Davee Library",
+                                "latitude": "44.8552017",
+                                "longitude": "-92.6239624"
+                            },
+                            "confirmed": true,
+                            "id": "76788853",
+                            "version": "11234681"
+                        }
+                    ],
+                    "id": "76788848",
+                    "version": "11234684"
+                },
+                "id": "7788860",
+                "version": "7788860"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "University of Wisconsin--River Falls. College of Arts and Sciences. WRFW, 1968-1976.",
+            "id": "39872708",
+            "version": "5822588"
+        }
+    ],
+    "id": "39872701",
+    "version": "5822589"
+}

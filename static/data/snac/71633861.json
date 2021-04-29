@@ -1,0 +1,301 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6n38h1f",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T21:13:04",
+            "standardDateTime": "2016-08-18T21:13:04",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T21:13:04",
+            "standardDateTime": "2016-08-18T21:13:04",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/613983237",
+            "id": "71633862",
+            "version": "10468901"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WLSU (Radio station : Baton Rouge, La.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WLSU (Radio station : Baton Rouge, La.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "71633864",
+                    "version": "10468901"
+                }
+            ],
+            "id": "71633863",
+            "version": "10468901",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82660754",
+                    "version": "10468901"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "71633861",
+            "targetConstellation": "28953269",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6n38h1f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w17rqd",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "KLSU (Radio station : Baton Rouge, La.)",
+            "id": "71633867",
+            "version": "10468901"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/613983237",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:613983237<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-LUU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>KLSU (Radio station : Baton Rouge, La.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WLSU (Radio station : Baton Rouge, La.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>KLSU records, 1949, 1995.<\/title>\n                  <\/titleInfo>\n                  <abstract>The KLSU records consist of five scripts for radio plays (1949) and a poster advertising KLSU (1995). <\/abstract>\n                  <name>\n                     <namePart>Louisiana State University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "KLSU records, 1949, 1995.",
+                "abstract": "The KLSU records consist of five scripts for radio plays (1949) and a poster advertising KLSU (1995). ",
+                "extent": "5 scripts.1 poster.",
+                "displayEntry": "KLSU (Radio station : Baton Rouge, La.). KLSU records, 1949, 1995.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KLSU (Radio station : Baton Rouge, La.)",
+                        "id": "10188044",
+                        "version": "7805311"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WLSU (Radio station : Baton Rouge, La.)",
+                        "id": "10188045",
+                        "version": "7805311"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6d900z6",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Louisiana State University, LSU Libraries",
+                            "preferenceScore": "99",
+                            "id": "76773250",
+                            "version": "11228989"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Louisiana State University, LSU Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Louisiana State University",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773255",
+                                    "version": "11228989"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Troy H. Middleton Library",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773256",
+                                    "version": "11228989"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Baton Rouge",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773257",
+                                    "version": "11228989"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-LA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773258",
+                                    "version": "11228989"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "70803",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773259",
+                                    "version": "11228989"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76773260",
+                                    "version": "11228989"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15440",
+                                "name": "Louisiana State University, LSU Libraries",
+                                "latitude": "30.4144154",
+                                "longitude": "-91.1800842"
+                            },
+                            "confirmed": true,
+                            "id": "76773254",
+                            "version": "11228989"
+                        }
+                    ],
+                    "id": "76773249",
+                    "version": "11228992"
+                },
+                "id": "7805311",
+                "version": "7805311"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "KLSU (Radio station : Baton Rouge, La.). KLSU records, 1949, 1995.",
+            "id": "71633868",
+            "version": "10468901"
+        }
+    ],
+    "id": "71633861",
+    "version": "10468902"
+}

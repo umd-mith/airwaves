@@ -1,0 +1,324 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61g8t2t",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T23:33:08",
+            "standardDateTime": "2016-08-09T23:33:08",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T23:33:08",
+            "standardDateTime": "2016-08-09T23:33:08",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/628074705",
+            "id": "5563481",
+            "version": "801062"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WNED FM.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WNED FM.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "5563483",
+                    "version": "801062"
+                }
+            ],
+            "id": "5563482",
+            "version": "801062",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77253047",
+                    "version": "801062"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "5563480",
+            "targetConstellation": "53787680",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61g8t2t",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w61k7h4n",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Guelph Spring Festival Archives.",
+            "id": "5563486",
+            "version": "801062"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/628074705",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:628074705<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-U3G<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Guelph Spring Festival Archives.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Lustig, Leila.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Colbert, Judith A.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>WNED FM.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>CKLA Radio.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Edward Johnson Music Foundation.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>CKLA radio reports and scripts on Guelph Spring Festival events by Judith Colbert, 1986. 1986.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>University of Guelph<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "CKLA radio reports and scripts on Guelph Spring Festival events by Judith Colbert, 1986. 1986.",
+                "extent": "1 file.",
+                "displayEntry": "Guelph Spring Festival Archives. CKLA radio reports and scripts on Guelph Spring Festival events by Judith Colbert, 1986.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Guelph Spring Festival Archives.",
+                        "id": "10399057",
+                        "version": "7871374"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lustig, Leila.",
+                        "id": "10399058",
+                        "version": "7871374"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Colbert, Judith A.",
+                        "id": "10399059",
+                        "version": "7871374"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WNED FM.",
+                        "id": "10399060",
+                        "version": "7871374"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "CKLA Radio.",
+                        "id": "10399061",
+                        "version": "7871374"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Edward Johnson Music Foundation.",
+                        "id": "10399062",
+                        "version": "7871374"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6t8364f",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Guelph",
+                            "preferenceScore": "99",
+                            "id": "76786392",
+                            "version": "11233837"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Guelph",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786396",
+                                    "version": "11233837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "50 Stone Rd E",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786397",
+                                    "version": "11233837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Guelph",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786398",
+                                    "version": "11233837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "CA-ON",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786399",
+                                    "version": "11233837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "N1G 2W1",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786400",
+                                    "version": "11233837"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "CA",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786401",
+                                    "version": "11233837"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15587",
+                                "name": "University of Guelph",
+                                "latitude": "43.5315000",
+                                "longitude": "-80.2277000"
+                            },
+                            "confirmed": true,
+                            "id": "76786395",
+                            "version": "11233837"
+                        }
+                    ],
+                    "id": "76786391",
+                    "version": "11233840"
+                },
+                "id": "7871374",
+                "version": "7871374"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Guelph Spring Festival Archives. CKLA radio reports and scripts on Guelph Spring Festival events by Judith Colbert, 1986.",
+            "id": "5563487",
+            "version": "801062"
+        }
+    ],
+    "id": "5563480",
+    "version": "801063"
+}

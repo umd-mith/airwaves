@@ -1,0 +1,433 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gt9ww8",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T21:46:54",
+            "standardDateTime": "2016-08-18T21:46:54",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T21:46:54",
+            "standardDateTime": "2016-08-18T21:46:54",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/36182411",
+            "id": "71749937",
+            "version": "10487057"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WETS-FM (Radio station : Johnson City, Tenn.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WETS-FM (Radio station : Johnson City, Tenn.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "71749939",
+                    "version": "10487057"
+                }
+            ],
+            "id": "71749938",
+            "version": "10487057",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82670393",
+                    "version": "10487057"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "71749935",
+                "version": "10487057"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">Public radio station licensed to and with studios on the campus of East Tennessee State University, Johnson City, Tenn. Member station of National Public Radio and the Corporation for Public Broadcasting. Began broadcasting on February 26, 1974, and serves an area with a population of more than 2.5 million, including portions of Tennessee, Georgia, North Carolina, South Carolina, Virginia, West Virginia, and Kentucky.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of WETS-FM records, 1966-1986 (bulk 1982-1984). (East Tennessee State University). WorldCat record id: 36182411<\/citation>\n         <\/biogHist>",
+            "id": "71749934",
+            "version": "10487057"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "71749933",
+            "targetConstellation": "66797423",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6gt9ww8",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w66t0x95",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Christy, Thomas Calvin, 1950-",
+            "id": "71749947",
+            "version": "10487057"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "71749933",
+            "targetConstellation": "32460308",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6gt9ww8",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jt01rb",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Gordon, Richard.",
+            "id": "71749948",
+            "version": "10487057"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/36182411",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:36182411<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-TET<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WETS-FM (Radio station : Johnson City, Tenn.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Christy, Thomas Calvin, 1950-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Gordon, Richard.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>WETS-FM records, 1966-1986 (bulk 1982-1984).<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence, grant applications, performer agreements and worksheets, program guides, public service announcements, wire service bulletins, and program recordings and dub sheets. The records date from 1966 to 1986, with the bulk from 1982 to 1984. A manual predates the station's beginning. <\/abstract>\n                  <name>\n                     <namePart>East Tennessee State University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "WETS-FM records, 1966-1986 (bulk 1982-1984).",
+                "abstract": "Correspondence, grant applications, performer agreements and worksheets, program guides, public service announcements, wire service bulletins, and program recordings and dub sheets. The records date from 1966 to 1986, with the bulk from 1982 to 1984. A manual predates the station's beginning. ",
+                "extent": "604 sound recordings (cassettes and tape reels)",
+                "displayEntry": "WETS-FM (Radio station : Johnson City, Tenn.). WETS-FM records, 1966-1986 (bulk 1982-1984).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WETS-FM (Radio station : Johnson City, Tenn.)",
+                        "id": "9547763",
+                        "version": "7377893"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Christy, Thomas Calvin, 1950-",
+                        "id": "9547764",
+                        "version": "7377893"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Gordon, Richard.",
+                        "id": "9547765",
+                        "version": "7377893"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6n11vzb",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "East Tennessee State University, TET",
+                            "preferenceScore": "99",
+                            "id": "76766745",
+                            "version": "11226505"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "East Tennessee State University, TET",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Sherrod Library ILL",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766750",
+                                    "version": "11226505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "344 J L Seehorn Jr Road",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766751",
+                                    "version": "11226505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Johnson City",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766752",
+                                    "version": "11226505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-TN",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766753",
+                                    "version": "11226505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "37614-9907",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766754",
+                                    "version": "11226505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766755",
+                                    "version": "11226505"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17154",
+                                "name": "East Tennessee State University, TET",
+                                "latitude": "36.3201000",
+                                "longitude": "-82.3453000"
+                            },
+                            "confirmed": true,
+                            "id": "76766749",
+                            "version": "11226505"
+                        }
+                    ],
+                    "id": "76766744",
+                    "version": "11226508"
+                },
+                "id": "7377893",
+                "version": "7377893"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "WETS-FM (Radio station : Johnson City, Tenn.). WETS-FM records, 1966-1986 (bulk 1982-1984).",
+            "id": "71749949",
+            "version": "10487057"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Tennessee--Johnson City",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "71749942",
+            "version": "10487057",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Tennessee--Johnson City",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "71749943",
+                    "version": "10487057"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "116577",
+                "term": "Country music--History and criticism",
+                "type": "subject"
+            },
+            "id": "71749944",
+            "version": "10487057"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302394",
+                "term": "Radio programs, Public service",
+                "type": "subject"
+            },
+            "id": "71749945",
+            "version": "10487057"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "296612",
+                "term": "Public radio",
+                "type": "subject"
+            },
+            "id": "71749946",
+            "version": "10487057"
+        }
+    ],
+    "id": "71749933",
+    "version": "10487058",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1966",
+            "fromDateOriginal": "active 1966",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1986",
+            "toDateOriginal": "active 1986",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "71749936",
+            "version": "10487057"
+        }
+    ]
+}

@@ -1,0 +1,3365 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nm3hwx",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-08-12",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T14:41:27",
+            "standardDateTime": "2016-08-17T14:41:27",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-17T14:41:28",
+            "standardDateTime": "2016-08-17T14:41:28",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "\/047-001706839",
+            "id": "64628249",
+            "version": "9449966"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "\/10569896",
+            "id": "64628251",
+            "version": "9449966"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/285169997",
+            "id": "64628253",
+            "version": "9449966"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/duke\/classic-EADs\/jwtbiofiles.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Douglass, John<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/jwtbiofiles\/",
+            "id": "64628252",
+            "version": "9449966"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nypl\/mss18809.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Douglass, John<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archives.nypl.org\/mss\/18809",
+            "id": "64628250",
+            "version": "9449966"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "64628254",
+            "version": "9449966"
+        }
+    ],
+    "languagesUsed": [
+        {
+            "dataType": "Language",
+            "language": {
+                "id": "130",
+                "term": "eng",
+                "type": "language_code",
+                "description": "English"
+            },
+            "script": {
+                "id": "586",
+                "term": "Latn",
+                "type": "script_code",
+                "description": "Latin"
+            },
+            "id": "64628255",
+            "version": "9449966"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Douglass, John",
+            "preferenceScore": "4",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Douglass, John",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "64628257",
+                    "version": "9449966"
+                }
+            ],
+            "id": "64628256",
+            "version": "9449966",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"BL\",\n        \"form\": \"alternativeForm\"\n    },\n    {\n        \"contributor\": \"nypl\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"nara\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"duke\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82088551",
+                    "version": "9449966"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Douglass, John, theatre manager and dramatist",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Douglass, John, theatre manager and dramatist",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "64628264",
+                    "version": "9449966"
+                }
+            ],
+            "id": "64628263",
+            "version": "9449966",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"BL\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82088552",
+                    "version": "9449966"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "64628247",
+                "version": "9449966"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">Epithet: theatre manager and dramatist<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">British Library Archives and Manuscripts Catalogue : Person : Description : ark:\/81055\/vdc_100000000508.0x000360<\/citation>\n         <\/biogHist>",
+            "id": "64628246",
+            "version": "9449966"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "64628245",
+            "targetConstellation": "12599903",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6nm3hwx",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6w70fpn",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "J. Walter Thompson Company.",
+            "id": "64628275",
+            "version": "9449966"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "64628245",
+            "targetConstellation": "62459435",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6nm3hwx",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6h45hzh",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "United States Sanitary Commission",
+            "id": "64628274",
+            "version": "9449966"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Douglass, John",
+            "uri": "https:\/\/id.loc.gov\/authorities\/n85076061",
+            "id": "64628271",
+            "version": "9449966"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Douglass, John",
+            "uri": "https:\/\/catalog.archives.gov\/id\/10569896",
+            "id": "64628272",
+            "version": "9449966"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Douglass, John",
+            "uri": "https:\/\/viaf.org\/viaf\/285169997",
+            "id": "64628273",
+            "version": "9449966"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archives.nypl.org\/mss\/18809",
+                "title": "United States Sanitary Commission records. Army and Navy Claim Agency archives 1861-1870",
+                "abstract": "The United States Sanitary Commission established the Army and Navy Claim Agency (ANCA) in Washington, D.C. on April 1, 1864 to serve as the USSC\u2019s central office to assist Union soldiers, sailors, and their families in prosecuting claims on the federal government for pensions, back pay, bounty, commutation of rations, prize money, and other benefits, without cost. The Army and Navy Claim Agency Archives comprise the records of the Army and Navy Claim Agency; the records of the Pension Agency, its predecessor organization; the registers and cash books of its subsidiary local agencies; and the records of two quasi-independent USSC claim agencies whose origins predate the establishment of the Army and Navy Claim Agency: the Protective War Claim Association of the State of New York, located in New York City, and the Protective War Claim and Pension Agency, located in Philadelphia.",
+                "extent": "506.37 linear feet; 1190 boxes, 46 volumes",
+                "date": "1861-1870",
+                "displayEntry": "United States Sanitary Commission records. Army and Navy Claim Agency archives, 1861-1870",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11640515",
+                        "version": "8382090"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6cs6hd1",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "New York Public Library. Manuscripts and Archives Division",
+                            "preferenceScore": "99",
+                            "id": "83852678",
+                            "version": "11294014"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "The New York Public Library. Manuscripts and Archives Division.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stephen A. Schwarzman Building Fifth Avenue at 42nd Street, New York, NY 10018-2788",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400244",
+                                        "term": "Street",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Street",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83852691",
+                                    "version": "11294014"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15028",
+                                "name": "New York Public Library System, NYPL",
+                                "latitude": "40.7534981",
+                                "longitude": "-73.9808884"
+                            },
+                            "confirmed": true,
+                            "id": "83852690",
+                            "version": "11294014"
+                        }
+                    ],
+                    "id": "83852674",
+                    "version": "11294016"
+                },
+                "id": "6312135",
+                "version": "6312135"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "United States Sanitary Commission records. Army and Navy Claim Agency archives, 1861-1870",
+            "id": "64628277",
+            "version": "9449966"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/library.duke.edu\/rubenstein\/findingaids\/jwtbiofiles\/",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke\n\t\t\t University<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <corpname>J. Walter Thompson\n\t\t\t Company.<\/corpname>\n                  <\/origination>\n                  <unittitle>J. Walter Thompson Company.\n\t\t  Biographical Information,\n\t\t  <unitdate>1916-1998 (bulk\n\t\t\t 1960s-1980s)<\/unitdate>\n                  <\/unittitle>\n                  <langmaterial>Material\n\t\t  is in <language> English<\/language>\n                     <language>,\n\t\t  French<\/language>\n                     <language>, Spanish and <\/language>\n                     <language> German<\/language>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>21 Linear Feet<\/extent>\n                     <lb\/>\n                     <extent>19,000\n\t\t  Items<\/extent>\n                  <\/physdesc>\n                  <physloc>For current information on the location of\n\t\t  these materials, please consult the Library's online catalog.<\/physloc>\n                  <abstract>The J. Walter Thompson\n\t\t  Company (JWT), founded in 1864, is one of the oldest and largest enduring\n\t\t  advertising agencies in the United States.<\/abstract>\n                  <abstract>The J. Walter Thompson Company\n\t\t  Biographical Information collection includes articles, clippings, press\n\t\t  releases, internal memoranda and other printed materials that pertain to the\n\t\t  lives and careers of over 3,000 managers, executives and staff members of JWT.\n\t\t  Extensive files exist for some notable JWT executives, including Don Johnston,\n\t\t  Helen and Stanley Resor, Norman Strouse, James Walter Thompson, and James Webb\n\t\t  Young.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "J. Walter Thompson Company.  Biographical Information, 1916-1998 (bulk 1960s-1980s)",
+                "abstract": "The J. Walter Thompson  Company (JWT), founded in 1864, is one of the oldest and largest enduring  advertising agencies in the United States. The J. Walter Thompson Company  Biographical Information collection includes articles, clippings, press  releases, internal memoranda and other printed materials that pertain to the  lives and careers of over 3,000 managers, executives and staff members of JWT.  Extensive files exist for some notable JWT executives, including Don Johnston,  Helen and Stanley Resor, Norman Strouse, James Walter Thompson, and James Webb  Young.",
+                "extent": "21 Linear Feet; 19,000  Items",
+                "displayEntry": "J. Walter Thompson Company. Biographical Information, 1916-1998 (bulk 1960s-1980s)",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11397768",
+                        "version": "6359689"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "144",
+                            "term": "fre",
+                            "type": "language_code",
+                            "description": "French"
+                        },
+                        "id": "11397769",
+                        "version": "6359689"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "159",
+                            "term": "ger",
+                            "type": "language_code",
+                            "description": "German"
+                        },
+                        "id": "11397770",
+                        "version": "6359689"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6290xn7",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "David M. Rubenstein Rare Book & Manuscript Library",
+                            "preferenceScore": "99",
+                            "id": "83577506",
+                            "version": "11278291"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "David M. Rubenstein Rare Book and Manuscript Library, Duke University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "David M. Rubenstein Rare Book & Manuscript Library, Duke University",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83577539",
+                                    "version": "11278279"
+                                }
+                            ],
+                            "id": "83577538",
+                            "version": "11278279"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Duke University. David M. Rubenstein Rare Book & Manuscript Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Durham, North Carolina 27708-0185",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83577541",
+                                    "version": "11278279"
+                                }
+                            ],
+                            "id": "83577540",
+                            "version": "11278279"
+                        }
+                    ],
+                    "id": "83577500",
+                    "version": "11278299"
+                },
+                "id": "6359689",
+                "version": "6359689"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "J. Walter Thompson Company. Biographical Information, 1916-1998 (bulk 1960s-1980s)",
+            "id": "64628279",
+            "version": "9449966"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "https:\/\/catalog.archives.gov\/id\/271038",
+                "title": "Records of the Bureau of Indian Affairs. 1793 - 1999. Record Of Applications Under The Act Of 1896. 1896 - 1897. 1896 Citizenship Application for John Douglass",
+                "displayEntry": "Records of the Bureau of Indian Affairs. 1793 - 1999. Record Of Applications Under The Act Of 1896. 1896 - 1897. 1896 Citizenship Application for John Douglass",
+                "id": "6433109",
+                "version": "6433109"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Records of the Bureau of Indian Affairs. 1793 - 1999. Record Of Applications Under The Act Of 1896. 1896 - 1897. 1896 Citizenship Application for John Douglass",
+            "id": "64628278",
+            "version": "9449966"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/searcharchives.bl.uk\/primo_library\/libweb\/action\/search.do?srt=rank&ct=search&mode=Basic&indx=1&vl(freeText0)=040-002003673&fn=search&vid=IAMS_VU2",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>LORD CHAMBERLAIN'S PLAYS. Vol. CXXXIV (ff. 1081). Nov.-Dec. 1846. (1) 'The Two Rainbows', by T. H. Reynoldson. Autograph (?). ff. 2- 55. (2) 'The Red Cap or the Prisoner of Vincennes', by T. Archer. ff. 56- 120. (3) 'The Bondman', by A. Bunn. ff. 121...<\/unittitle>\n                  <unitdate era=\"CE\">Nov 1846-Dec 1846<\/unitdate>\n                  <origination\/>\n                  <physdesc>\n                     <extent>1 item<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>British Library<\/corpname>\n                  <\/repository>\n                  <abstract\/>\n                  <langmaterial>\n                     <language langcode=\"eng\">English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "LORD CHAMBERLAIN'S PLAYS. Vol. CXXXIV (ff. 1081). Nov.-Dec. 1846. (1) 'The Two Rainbows', by T. H. Reynoldson. Autograph (?). ff. 2- 55. (2) 'The Red Cap or the Prisoner of Vincennes', by T. Archer. ff. 56- 120. (3) 'The Bondman', by A. Bunn. ff. 121... Nov 1846-Dec 1846",
+                "extent": "1 item",
+                "displayEntry": "LORD CHAMBERLAIN'S PLAYS. Vol. CXXXIV (ff. 1081). Nov.-Dec. 1846. (1) 'The Two Rainbows', by T. H. Reynoldson. Autograph (?). ff. 2-55. (2) 'The Red Cap or the Prisoner of Vincennes', by T. Archer. ff. 56-120. (3) 'The Bondman', by A. Bunn. ff. 121...",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11535975",
+                        "version": "6569147"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6xf1qrm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "British Library",
+                            "preferenceScore": "99",
+                            "id": "83874477",
+                            "version": "11295965"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874825",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874777",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874815",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874655",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874909",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874635",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874607",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874513",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874491",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874697",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Scotland",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874891",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874677",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874929",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874579",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874515",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874863",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "17706",
+                                "name": "British Library (Building)",
+                                "latitude": "51.5304190",
+                                "longitude": "-0.1276980"
+                            },
+                            "confirmed": true,
+                            "id": "83877066",
+                            "version": "11295974"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874489",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874565",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874615",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874509",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874917",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874827",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874577",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874871",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874541",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874549",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874801",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874775",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874791",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874749",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874861",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874645",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874589",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874575",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874571",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874867",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874913",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874835",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874689",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874695",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874683",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874563",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874731",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874609",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874845",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874873",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874785",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874755",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874921",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Ju\u0308lich (Germany)",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874857",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874517",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874691",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874707",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874585",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874721",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874769",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874831",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874671",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Ireland",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874727",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874621",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874869",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874687",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874653",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874587",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874567",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874919",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874611",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874637",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874625",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874799",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874723",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874669",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874551",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874877",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874533",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874531",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874819",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874667",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874659",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874923",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874705",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874879",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Germany",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874763",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Scotland",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874803",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874559",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874685",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874767",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874809",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874639",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874865",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874735",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874741",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874679",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874905",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874829",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874711",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874701",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874641",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874883",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Spain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874783",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874745",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874699",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874849",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874519",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874751",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874911",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874521",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874703",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874539",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874613",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874719",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874737",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874709",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874837",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874493",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874881",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874793",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874675",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874855",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874771",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874715",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874619",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874853",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874843",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874629",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874599",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874859",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874665",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874753",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874603",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874847",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874833",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874535",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874601",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874557",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874525",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "India",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874643",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874529",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874797",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874889",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874605",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874787",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874661",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874495",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874901",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874595",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874773",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Netherlands",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874739",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874497",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874511",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874813",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874807",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874761",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874507",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874597",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874841",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874561",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874523",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874851",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874899",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874823",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874651",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874875",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874555",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874503",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874499",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874729",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874811",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874583",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874569",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874757",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874693",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874631",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874573",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "India",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874623",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874547",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874915",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874527",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874657",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874633",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874907",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874627",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874733",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874925",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874713",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874591",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874897",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874663",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874647",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874887",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874505",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874927",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874839",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874593",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874681",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874795",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874759",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874789",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Mexico",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874581",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874781",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874617",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874779",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Singapore",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874673",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874743",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874931",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874545",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874537",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874817",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874717",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874895",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874805",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874893",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874725",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874649",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874885",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "geoplace": {
+                                "id": "17706",
+                                "name": "British Library (Building)",
+                                "latitude": "51.5304190",
+                                "longitude": "-0.1276980"
+                            },
+                            "confirmed": true,
+                            "id": "83877065",
+                            "version": "11295971"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874747",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874501",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Great Britain",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874821",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874765",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874553",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874543",
+                            "version": "11295956"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "England--London",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83874903",
+                            "version": "11295956"
+                        }
+                    ],
+                    "id": "83874367",
+                    "version": "11295975"
+                },
+                "id": "6569147",
+                "version": "6569147"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "LORD CHAMBERLAIN'S PLAYS. Vol. CXXXIV (ff. 1081). Nov.-Dec. 1846. (1) 'The Two Rainbows', by T. H. Reynoldson. Autograph (?). ff. 2-55. (2) 'The Red Cap or the Prisoner of Vincennes', by T. Archer. ff. 56-120. (3) 'The Bondman', by A. Bunn. ff. 121...",
+            "id": "64628276",
+            "version": "9449966"
+        }
+    ],
+    "id": "64628245",
+    "version": "9449967",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDateOriginal": "nov 1846-dec 1846",
+            "id": "64628248",
+            "version": "9449966"
+        }
+    ]
+}

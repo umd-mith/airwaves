@@ -1,0 +1,621 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61k34d5",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T16:36:52",
+            "standardDateTime": "2016-08-16T16:36:52",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T16:36:52",
+            "standardDateTime": "2016-08-16T16:36:52",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122389352",
+            "id": "59320120",
+            "version": "8674547"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/law00164.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Lyons, Roger<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/law00164\/catalog",
+            "id": "59320122",
+            "version": "8674547"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/05084.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Lyons, Roger<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/inv\/f\/Friday,William_C.html",
+            "id": "59320123",
+            "version": "8674547"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/law00087.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Lyons, Roger<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/law00087\/catalog",
+            "id": "59320121",
+            "version": "8674547"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/53548586",
+            "id": "59320124",
+            "version": "8674547"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "59320125",
+            "version": "8674547"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Lyons, Roger",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Lyons, Roger",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "59320127",
+                    "version": "8674547"
+                }
+            ],
+            "id": "59320126",
+            "version": "8674547",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81656066",
+                    "version": "8674547"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "59320119",
+            "targetConstellation": "51178389",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61k34d5",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w625564b",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Auer, James.",
+            "id": "59320140",
+            "version": "8674547"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "59320119",
+            "targetConstellation": "1390851",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61k34d5",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w69k5dh2",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Friday, William C. (William Clyde).",
+            "id": "59320143",
+            "version": "8674547"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "59320119",
+            "targetConstellation": "424918",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61k34d5",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6833wf2",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Paul A. Freund",
+            "id": "59320142",
+            "version": "8674547"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "59320119",
+            "targetConstellation": "54009486",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61k34d5",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6pn98h1",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Pound, Roscoe, 1870-1964",
+            "id": "59320141",
+            "version": "8674547"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Lyons, Roger",
+            "uri": "https:\/\/viaf.org\/viaf\/53548586",
+            "id": "59320137",
+            "version": "8674547"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n2004117310",
+            "id": "59320138",
+            "version": "8674547"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n2004117310",
+            "id": "59320139",
+            "version": "8674547"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/inv\/f\/Friday,William_C.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Southern Historical Collection<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <persname>Friday, William C. (William Clyde).<\/persname>\n                  <\/origination>\n                  <unittitle>William C. Friday Papers, <unitdate>1942-1999 and undated (bulk 1985-1999)<\/unitdate>\n                  <\/unittitle>\n                  <unitid>5084<\/unitid>\n                  <physdesc>\n                     <extent>About 90,500 items (116.0 linear feet)<\/extent>\n                  <\/physdesc>\n                  <abstract>William C. Friday served as president of the University of North Carolina System, 1957-1986. Following his resignation, Friday accepted a position as president of the William R. Kenan, Jr. Charitable Trust, guiding the philanthropy's support of educational endeavors. In 1999, Friday retired from public service. The collection includes correspondence, meeting materials, reports, clippings, speeches, honors, administrative records, photographs, and other papers related to William C. Friday's career following his retirement as president of the University of North Carolina System. These records, bulk 1985-1999, document Friday's professional and personal endeavors, including work with the Knight Foundation Commission on Intercollegiate Athletics; the Center for Creative Leadership; the Rural Economic Development Center; the Center for Public Television; TIAA-CREF; and the University of North Carolina System and its individual campuses, especially UNC-Chapel Hill, North Carolina State University, and East Carolina University. Topics addressed include education, philanthropy, ethics, intercollegiate athletics, poverty, economic development, leadership, North Carolina concerns, academic affairs, public service, healthcare, politics, finance, social policy, and prominent individuals.<\/abstract>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "William C. Friday Papers, 1942-1999 and undated (bulk 1985-1999)",
+                "abstract": "William C. Friday served as president of the University of North Carolina System, 1957-1986. Following his resignation, Friday accepted a position as president of the William R. Kenan, Jr. Charitable Trust, guiding the philanthropy's support of educational endeavors. In 1999, Friday retired from public service. The collection includes correspondence, meeting materials, reports, clippings, speeches, honors, administrative records, photographs, and other papers related to William C. Friday's career following his retirement as president of the University of North Carolina System. These records, bulk 1985-1999, document Friday's professional and personal endeavors, including work with the Knight Foundation Commission on Intercollegiate Athletics; the Center for Creative Leadership; the Rural Economic Development Center; the Center for Public Television; TIAA-CREF; and the University of North Carolina System and its individual campuses, especially UNC-Chapel Hill, North Carolina State University, and East Carolina University. Topics addressed include education, philanthropy, ethics, intercollegiate athletics, poverty, economic development, leadership, North Carolina concerns, academic affairs, public service, healthcare, politics, finance, social policy, and prominent individuals.",
+                "extent": "About 90,500 items (116.0 linear feet)",
+                "displayEntry": "William C. Friday Papers, 1942-1999 and undated (bulk 1985-1999)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Friday, William C. (William Clyde).",
+                        "id": "11606037",
+                        "version": "6626704"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11606038",
+                        "version": "6626704"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b38j9n",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill. Library. Southern Historical Collection",
+                            "preferenceScore": "99",
+                            "id": "83559850",
+                            "version": "11276388"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Southern States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83559866",
+                            "version": "11275999"
+                        }
+                    ],
+                    "id": "83559846",
+                    "version": "11276399"
+                },
+                "id": "6626704",
+                "version": "6626704"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "William C. Friday Papers, 1942-1999 and undated (bulk 1985-1999)",
+            "id": "59320147",
+            "version": "8674547"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/law00087\/catalog",
+                "title": "Roscoe Pound papers",
+                "abstract": "Includes material pertaining to Pound's participation in the Boston and Cleveland crime surveys (1920's), as a member of the National Commission on Law Observance and Enforcement or Wickersham Commission (1929-1931), as a member of the American Bar Association and with various Masonic chapters, and as advisor to the Ministry of Justice in Nanking, China (1940's). Also two typed, bound journals recounting camping trips in West Virginia and to Civil War battlefields (1898, 1912-1917).",
+                "extent": "257 boxes, 14 Paige boxes",
+                "date": "1888-1964",
+                "displayEntry": "Roscoe Pound papers, 1888-1964",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Pound,Roscoe, 1870-1964",
+                        "id": "11439643",
+                        "version": "6385746"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11621708",
+                        "version": "8367296"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f29nfn",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard Law School Library, Harvard University.",
+                            "preferenceScore": "99",
+                            "id": "76793529",
+                            "version": "11237573"
+                        }
+                    ],
+                    "id": "76793528",
+                    "version": "11237576"
+                },
+                "id": "6385746",
+                "version": "6385746"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Papers, 1888-1964",
+            "id": "59320145",
+            "version": "8674547"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122389352",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122389352<\/recordOrigin>\n                     <recordContentSource>ISIL:US-SNAC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Auer, James.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>James Matthew Auer photographs, 1977.<\/title>\n                  <\/titleInfo>\n                  <abstract>Photographs by Auer from a 1977 exhibition, \"Through the Studio Door,\" at the Oshkosh Public Museum. Contains photographs of artists and celebrities who work or exhibit in Wisconsin, photographs of works of art, and miscellaneous photos. Photos are of: Valerio Adami, Pat Aiken, Ernest Anderson, Fred Berman, William Bloom, Edward A. Boerher, Aaron Bohrod, Guido Brink, Robert Burkert, Gerald D. Coleman, John Colt, Charles Cunningham, William Dinwiddie, Charles Dix, Paul S. Donhauser, Tom Dooley, Sandra Eisenstein, Patrick Farrell, Lynn Fontanne, Barbara Fumagalli, Orazio Fumagalli, Charles Ginnever, Susan Goodrich, Ruth Grotenrath, Anne Haberland, John Henry, Brian Kazlov, Vidie Lange, Les Levine, Schomer Lichtner, Richard Lippold, Alfred Lunt, Roger Lyons, Gerhard C. F. Miller,Don Nedoeck, Claes Oldenburg, James Peters, Philip Philipon, Ruth Philipon, Joanna Poehlmann, Larry Rivers, Harvey Sadow, John Salt, Edwin Schoenberger, Robert Schuenke, Robert Schwanke, Lester Schwartz, Fred Smith, Elke Sommer, George Sugarman, Morrie Turner, Elsa Ulbricht, Kazys Varnelis, Robert von Neumann, Roger Welch, Doris White, James Winkle, Mrs. Frank Lloyd Wright, and Andrew Wyeth. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "James Matthew Auer photographs, 1977.",
+                "abstract": "Photographs by Auer from a 1977 exhibition, \"Through the Studio Door,\" at the Oshkosh Public Museum. Contains photographs of artists and celebrities who work or exhibit in Wisconsin, photographs of works of art, and miscellaneous photos. Photos are of: Valerio Adami, Pat Aiken, Ernest Anderson, Fred Berman, William Bloom, Edward A. Boerher, Aaron Bohrod, Guido Brink, Robert Burkert, Gerald D. Coleman, John Colt, Charles Cunningham, William Dinwiddie, Charles Dix, Paul S. Donhauser, Tom Dooley, Sandra Eisenstein, Patrick Farrell, Lynn Fontanne, Barbara Fumagalli, Orazio Fumagalli, Charles Ginnever, Susan Goodrich, Ruth Grotenrath, Anne Haberland, John Henry, Brian Kazlov, Vidie Lange, Les Levine, Schomer Lichtner, Richard Lippold, Alfred Lunt, Roger Lyons, Gerhard C. F. Miller,Don Nedoeck, Claes Oldenburg, James Peters, Philip Philipon, Ruth Philipon, Joanna Poehlmann, Larry Rivers, Harvey Sadow, John Salt, Edwin Schoenberger, Robert Schuenke, Robert Schwanke, Lester Schwartz, Fred Smith, Elke Sommer, George Sugarman, Morrie Turner, Elsa Ulbricht, Kazys Varnelis, Robert von Neumann, Roger Welch, Doris White, James Winkle, Mrs. Frank Lloyd Wright, and Andrew Wyeth. ",
+                "extent": "68 items (on 2 microfilm reels).",
+                "displayEntry": "Auer, James. James Matthew Auer photographs, 1977.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Auer, James.",
+                        "id": "8411116",
+                        "version": "6698854"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60h4998",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archives of American Art",
+                            "preferenceScore": "99",
+                            "id": "85055723",
+                            "version": "11456064"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "role": {
+                                "id": "400625",
+                                "term": "Work",
+                                "type": "place_role"
+                            },
+                            "geoplace": {
+                                "id": "3512",
+                                "uri": "http:\/\/www.geonames.org\/4138106",
+                                "name": "District of Columbia",
+                                "latitude": "38.9170600",
+                                "longitude": "-77.0002500",
+                                "administrationCode": "DC",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85365382",
+                            "version": "11505063"
+                        }
+                    ],
+                    "id": "85055716",
+                    "version": "11505064"
+                },
+                "id": "6698854",
+                "version": "6698854"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Auer, James. James Matthew Auer photographs, 1977.",
+            "id": "59320144",
+            "version": "8674547"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/law00164\/catalog",
+                "title": "Paul A. Freund papers",
+                "abstract": "The Papers of Paul Freund consist of materials related to his work as government lawyer, author, teacher, authority on Constitutional Law, and as a member of numerous organizations, such as the American Association of Arts and Sciences.",
+                "extent": "242 boxes and 17 Paige boxes",
+                "date": "1918-1993",
+                "displayEntry": "Freund, Paul A. Paul A. Freund papers. 1918-1993.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Paul A. Freund",
+                        "id": "11439695",
+                        "version": "6385815"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11622204",
+                        "version": "8367633"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f29nfn",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard Law School Library, Harvard University.",
+                            "preferenceScore": "99",
+                            "id": "76793529",
+                            "version": "11237573"
+                        }
+                    ],
+                    "id": "76793528",
+                    "version": "11237576"
+                },
+                "id": "6385815",
+                "version": "6385815"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Papers, 1918-1993",
+            "id": "59320146",
+            "version": "8674547"
+        }
+    ],
+    "id": "59320119",
+    "version": "8674548"
+}

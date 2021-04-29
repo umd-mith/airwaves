@@ -1,0 +1,477 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61038sw",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T15:05:54",
+            "standardDateTime": "2016-08-15T15:05:54",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T15:05:54",
+            "standardDateTime": "2016-08-15T15:05:54",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/34947286",
+            "id": "52806318",
+            "version": "7721570"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WSJK-TV (Sneedville, Tenn.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WSJK-TV (Sneedville, Tenn.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "52806320",
+                    "version": "7721570"
+                }
+            ],
+            "id": "52806319",
+            "version": "7721570",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81121815",
+                    "version": "7721570"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "52806316",
+                "version": "7721570"
+            },
+            "text": "<biogHist>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">WSJK-TV maintained an operation on the campus of East Tennessee State University, Johnson City, Tenn. This operation closed in 1980.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">With state and federal funding it produced community programming and classroom instruction for Channel 22 in Cookeville, Tenn.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of WSJK-TV collection, 1970-1979. (East Tennessee State University). WorldCat record id: 34947286<\/citation>\n         <\/biogHist>",
+            "id": "52806315",
+            "version": "7721570"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "52806314",
+            "targetConstellation": "32746191",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61038sw",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vb1c2v",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Alderman, Pat.",
+            "id": "52806325",
+            "version": "7721570"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "52806314",
+            "targetConstellation": "18273657",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61038sw",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t24mm0",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Anderson, Eleanor Coperhaver, d. 1985.",
+            "id": "52806328",
+            "version": "7721570"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "52806314",
+            "targetConstellation": "22303649",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61038sw",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cz389c",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Anderson, Sherwood, 1876-1941.",
+            "id": "52806327",
+            "version": "7721570"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "52806314",
+            "targetConstellation": "27534673",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61038sw",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vq345v",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Fox, John, 1863-1919.",
+            "id": "52806330",
+            "version": "7721570"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "52806314",
+            "targetConstellation": "861778",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61038sw",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w63x8c4f",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Stuart, Jesse, 1906-",
+            "id": "52806326",
+            "version": "7721570"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "52806314",
+            "targetConstellation": "64519450",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61038sw",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6186fvr",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Ward, Nancy, d. 1822.",
+            "id": "52806329",
+            "version": "7721570"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/34947286",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:34947286<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-TET<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WSJK-TV (Sneedville, Tenn.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>WSJK-TV collection, 1970-1979.<\/title>\n                  <\/titleInfo>\n                  <abstract>Consists of twelve 3\/4\" U-matic tapes and 12 VHS cassette dubs which focus on the history and culture of East Tenn., eastern NC and southwest VA. <\/abstract>\n                  <name>\n                     <namePart>East Tennessee State University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "WSJK-TV collection, 1970-1979.",
+                "abstract": "Consists of twelve 3\/4\" U-matic tapes and 12 VHS cassette dubs which focus on the history and culture of East Tenn., eastern NC and southwest VA. ",
+                "extent": "12 videoreels (U-matic) : b&w, col. ; 3\/4 in.12 videocassettes (VHS) : b&w, col. ; 1\/2 in. dupe 3\/4 in.",
+                "displayEntry": "WSJK-TV (Sneedville, Tenn.). WSJK-TV collection, 1970-1979.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WSJK-TV (Sneedville, Tenn.)",
+                        "id": "9528616",
+                        "version": "7367600"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6n11vzb",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "East Tennessee State University, TET",
+                            "preferenceScore": "99",
+                            "id": "76766745",
+                            "version": "11226505"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "East Tennessee State University, TET",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Sherrod Library ILL",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766750",
+                                    "version": "11226505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "344 J L Seehorn Jr Road",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766751",
+                                    "version": "11226505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Johnson City",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766752",
+                                    "version": "11226505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-TN",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766753",
+                                    "version": "11226505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "37614-9907",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766754",
+                                    "version": "11226505"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76766755",
+                                    "version": "11226505"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17154",
+                                "name": "East Tennessee State University, TET",
+                                "latitude": "36.3201000",
+                                "longitude": "-82.3453000"
+                            },
+                            "confirmed": true,
+                            "id": "76766749",
+                            "version": "11226505"
+                        }
+                    ],
+                    "id": "76766744",
+                    "version": "11226508"
+                },
+                "id": "7367600",
+                "version": "7367600"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "WSJK-TV (Sneedville, Tenn.). WSJK-TV collection, 1970-1979.",
+            "id": "52806331",
+            "version": "7721570"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Unicoi County (Tenn.)",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "52806323",
+            "version": "7721570",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Unicoi County (Tenn.)",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "52806324",
+                    "version": "7721570"
+                }
+            ]
+        }
+    ],
+    "id": "52806314",
+    "version": "7721571",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1970",
+            "fromDateOriginal": "active 1970",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1979",
+            "toDateOriginal": "active 1979",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "52806317",
+            "version": "7721570"
+        }
+    ]
+}

@@ -1,0 +1,567 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6228jpr",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T15:55:13",
+            "standardDateTime": "2016-08-13T15:55:13",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T15:55:13",
+            "standardDateTime": "2016-08-13T15:55:13",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/173692613",
+            "id": "39469554",
+            "version": "5763656"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/133786401",
+            "id": "39469555",
+            "version": "5763656"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/173692723",
+            "id": "39469553",
+            "version": "5763656"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "39469556",
+            "version": "5763656"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Broadcast Measurement Bureau",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Broadcast Measurement Bureau",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "39469558",
+                    "version": "5763656"
+                }
+            ],
+            "id": "39469557",
+            "version": "5763656",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80024493",
+                    "version": "5763656"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "BMB (Broadcast Measurement Bureau)",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "BMB (Broadcast Measurement Bureau)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "39469562",
+                    "version": "5763656"
+                }
+            ],
+            "id": "39469561",
+            "version": "5763656",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80024494",
+                    "version": "5763656"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "39469552",
+            "targetConstellation": "38124394",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6228jpr",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vm6mpg",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "James, E. P. H. (Edgar Percy Horace), 1904-",
+            "id": "39469571",
+            "version": "5763656"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "39469552",
+            "targetConstellation": "64406280",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6228jpr",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6z07346",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "National Association of Broadcasters.",
+            "id": "39469570",
+            "version": "5763656"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Broadcast Measurement Bureau",
+            "uri": "https:\/\/viaf.org\/viaf\/133786401",
+            "id": "39469567",
+            "version": "5763656"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n87846472",
+            "id": "39469568",
+            "version": "5763656"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n87846472",
+            "id": "39469569",
+            "version": "5763656"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/173692723",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:173692723<\/recordOrigin>\n                     <recordContentSource>ISIL:WHi<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>National Association of Broadcasters.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Baker, Kenneth.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Fellows, Harold E.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Meagher, John.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Records, 1938-1982.<\/title>\n                  <\/titleInfo>\n                  <abstract>Records of an organization of radio and television broadcasters in the United States (1922-    ). The NAB files include board minutes, speeches by NAB leaders, committee minutes, convention materials, NAB statements before the FCC, and a subject file, ca. 1940s-mid 1960s.  Files of NAB officer Justin Miller consist of correspondence, 1947-1954, and an extensive subject file on topics such as the industry's struggles with the FCC, censorship, broadcasting during wartime, and the broadcasting of courtroom proceedings. Broadcast Measurement Bureau records pertain to two studies of radio audiences co-sponsored by the NAB, the American Association of Advertising Agencies, and the Association of National Advertisers.  This series includes correspondence, minutes, promotional material and other publications, and the files of Kenneth Baker, acting director.  Also present are research data for both reports and the final report of the second study. Two National Opinion Research Center studies commissioned by NAB on public attitudes toward radio in the 1940's contain correspondence, minutes, and draft reports.  Prominent correspondents included here are Hugh Beville, Paul F. Lazarsfeld, and Frank Stanton. Television Allocations Study Organization materials document a two-year study of the technical aspects of channel allocation.  Included are research data, minutes of meetings, reports to the FCC, and correspondence of NAB president Harold E. Fellows. The balance of the collection consists of files relating to the American Heritage Foundation's 1952 and 1956 Register and Vote promotion; John Meagher, NAB vice-president for radio, 1952-1955; a large group of broadcast editorials; and a file of miscellaneous publications.  Also present is a videotape and audio tape of Lyndon B. Johnson's address to the 1968 convention. The processed portion of this collection is summarized above, dates 1938-1982, and is described in the register. Additional accessions date ca. 1938-1982 and are described below. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Records, 1938-1982.",
+                "abstract": "Records of an organization of radio and television broadcasters in the United States (1922-    ). The NAB files include board minutes, speeches by NAB leaders, committee minutes, convention materials, NAB statements before the FCC, and a subject file, ca. 1940s-mid 1960s.  Files of NAB officer Justin Miller consist of correspondence, 1947-1954, and an extensive subject file on topics such as the industry's struggles with the FCC, censorship, broadcasting during wartime, and the broadcasting of courtroom proceedings. Broadcast Measurement Bureau records pertain to two studies of radio audiences co-sponsored by the NAB, the American Association of Advertising Agencies, and the Association of National Advertisers.  This series includes correspondence, minutes, promotional material and other publications, and the files of Kenneth Baker, acting director.  Also present are research data for both reports and the final report of the second study. Two National Opinion Research Center studies commissioned by NAB on public attitudes toward radio in the 1940's contain correspondence, minutes, and draft reports.  Prominent correspondents included here are Hugh Beville, Paul F. Lazarsfeld, and Frank Stanton. Television Allocations Study Organization materials document a two-year study of the technical aspects of channel allocation.  Included are research data, minutes of meetings, reports to the FCC, and correspondence of NAB president Harold E. Fellows. The balance of the collection consists of files relating to the American Heritage Foundation's 1952 and 1956 Register and Vote promotion; John Meagher, NAB vice-president for radio, 1952-1955; a large group of broadcast editorials; and a file of miscellaneous publications.  Also present is a videotape and audio tape of Lyndon B. Johnson's address to the 1968 convention. The processed portion of this collection is summarized above, dates 1938-1982, and is described in the register. Additional accessions date ca. 1938-1982 and are described below. ",
+                "extent": "62.5 c.f. (148 archives boxes, 4 record center cartons),1 tape recording, and1 film; plusadditions of 8.7 c.f.,1 disc recording,36 tape recordings,108 photographs,314 transparencies, and25 films.",
+                "displayEntry": "National Association of Broadcasters. Records, 1938-1982.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Association of Broadcasters.",
+                        "id": "8787731",
+                        "version": "6923059"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Baker, Kenneth.",
+                        "id": "8787732",
+                        "version": "6923059"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Fellows, Harold E.",
+                        "id": "8787733",
+                        "version": "6923059"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Meagher, John.",
+                        "id": "8787734",
+                        "version": "6923059"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fv98qm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "preferenceScore": "99",
+                            "id": "76791151",
+                            "version": "11235489"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "816 State St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791156",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Madison",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791157",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WI",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791158",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "53706",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791159",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791160",
+                                    "version": "11235489"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16409",
+                                "name": "Wisconsin Historical Society, Newspaper Project",
+                                "latitude": "43.0750000",
+                                "longitude": "-89.3992000"
+                            },
+                            "confirmed": true,
+                            "id": "76791155",
+                            "version": "11235489"
+                        }
+                    ],
+                    "id": "76791150",
+                    "version": "11235492"
+                },
+                "id": "6923059",
+                "version": "6923059"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "National Association of Broadcasters. Records, 1938-1982.",
+            "id": "39469572",
+            "version": "5763656"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/173692613",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:173692613<\/recordOrigin>\n                     <recordContentSource>ISIL:WHi<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>James, E. P. H. (Edgar Percy Horace), 1904-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>E. P. H. James papers, 1922-1976.<\/title>\n                  <\/titleInfo>\n                  <abstract>Papers, 1922-1976, of E.P.H. James, an advertising and public relations executive instrumental in the establishment of advertising policy for radio and television. The collection includes correspondence, speeches and writings, and a variety of advertising material, the bulk of which relates to James' employment by the National Broadcasting Company (1927-1941) as sales and promotion manager; the Mutual Broadcasting System (1946-1949) as vice-president in charge of advertising, promotion, and research; and the A.C. Nielsen Company as vice-president in charge of new services (1954-1971). Very little documentation relates to his work for the Corning Glass Works, the Grand Central Aircraft Company, or KVOA-TV, Tucson, Arizona. The processed portion is summarized above and is described in the register. Additional accessions are described below. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "E. P. H. James papers, 1922-1976.",
+                "abstract": "Papers, 1922-1976, of E.P.H. James, an advertising and public relations executive instrumental in the establishment of advertising policy for radio and television. The collection includes correspondence, speeches and writings, and a variety of advertising material, the bulk of which relates to James' employment by the National Broadcasting Company (1927-1941) as sales and promotion manager; the Mutual Broadcasting System (1946-1949) as vice-president in charge of advertising, promotion, and research; and the A.C. Nielsen Company as vice-president in charge of new services (1954-1971). Very little documentation relates to his work for the Corning Glass Works, the Grand Central Aircraft Company, or KVOA-TV, Tucson, Arizona. The processed portion is summarized above and is described in the register. Additional accessions are described below. ",
+                "extent": "10.0 c.f. (25 archives boxes) and1 tape recording; plusadditions of 0.4 c.f. and61 photographs.",
+                "displayEntry": "James, E. P. H. (Edgar Percy Horace), 1904-. E. P. H. James papers, 1922-1976.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "James, E. P. H. (Edgar Percy Horace), 1904-",
+                        "id": "8787558",
+                        "version": "6922953"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fv98qm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "preferenceScore": "99",
+                            "id": "76791151",
+                            "version": "11235489"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "816 State St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791156",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Madison",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791157",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WI",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791158",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "53706",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791159",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791160",
+                                    "version": "11235489"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16409",
+                                "name": "Wisconsin Historical Society, Newspaper Project",
+                                "latitude": "43.0750000",
+                                "longitude": "-89.3992000"
+                            },
+                            "confirmed": true,
+                            "id": "76791155",
+                            "version": "11235489"
+                        }
+                    ],
+                    "id": "76791150",
+                    "version": "11235492"
+                },
+                "id": "6922953",
+                "version": "6922953"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "James, E. P. H. (Edgar Percy Horace), 1904-. E. P. H. James papers, 1922-1976.",
+            "id": "39469573",
+            "version": "5763656"
+        }
+    ],
+    "id": "39469552",
+    "version": "5763657"
+}

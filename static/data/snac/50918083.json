@@ -1,0 +1,249 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60t4101",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-04",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T08:00:22",
+            "standardDateTime": "2016-08-15T08:00:22",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T08:00:22",
+            "standardDateTime": "2016-08-15T08:00:22",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/law00059.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Feldman, Myer<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/law00059\/catalog",
+            "id": "50918084",
+            "version": "7442591"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Feldman, Myer",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Feldman, Myer",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "50918086",
+                    "version": "7442591"
+                }
+            ],
+            "id": "50918085",
+            "version": "7442591",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80964414",
+                    "version": "7442591"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "50918083",
+            "targetConstellation": "33704971",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60t4101",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6988n08",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Hand, Learned, 1872-1961",
+            "id": "50918089",
+            "version": "7442591"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "50918083",
+            "targetConstellation": "28639058",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60t4101",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w68356g0",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Feldman, Myer, 1914-2007"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/law00059\/catalog",
+                "title": "Learned Hand papers, 1840-1961",
+                "abstract": "Materials relating to Hand's private and public life, his activities as an alumnus of Harvard University, his friendship with Felix Frankfurter, and to the Hand family. Includes material on the U.S. District Court for the Southern District of New York and the U.S. Court of Appeals for the Second Circuit, New York City; information on the Progressive movement (1909-1914) and the beginnings of the New Republic and its early staff; and transcripts of oral-history interviews conducted by Gerald Gunther of Stanford Law School and others, of Judge Hand, his family and associates.",
+                "extent": "235 MSS boxes; 18 Paige boxes; 116.6 linear ft.",
+                "date": "1840-1961",
+                "displayEntry": "Hand, Learned, 1872-1961. Papers, 1840-1961",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hand,Learned, 1872-1961.",
+                        "id": "11439620",
+                        "version": "6385720"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11623103",
+                        "version": "8368410"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11623102",
+                        "version": "8368409"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f29nfn",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard Law School Library, Harvard University.",
+                            "preferenceScore": "99",
+                            "id": "76793529",
+                            "version": "11237573"
+                        }
+                    ],
+                    "id": "76793528",
+                    "version": "11237576"
+                },
+                "id": "6385720",
+                "version": "6385720"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Papers, 1840-1961.",
+            "id": "50918091",
+            "version": "7442591"
+        }
+    ],
+    "id": "50918083",
+    "version": "7442592"
+}

@@ -1,0 +1,861 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6qg3zv3",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-20",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T08:08:29",
+            "standardDateTime": "2016-08-12T08:08:29",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T08:08:29",
+            "standardDateTime": "2016-08-12T08:08:29",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/766648907",
+            "id": "29084559",
+            "version": "4244867"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/mus00006.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Casa Loma Orchestra,<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/mus00006\/catalog",
+            "id": "29084561",
+            "version": "4244867"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/151418098",
+            "id": "29084562",
+            "version": "4244867"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/690851333",
+            "id": "29084560",
+            "version": "4244867"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/49418283",
+            "id": "29084558",
+            "version": "4244867"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "29084563",
+            "version": "4244867"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Casa Loma Orchestra",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Casa Loma Orchestra",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29084565",
+                    "version": "4244867"
+                }
+            ],
+            "id": "29084564",
+            "version": "4244867",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LAC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79175404",
+                    "version": "4244867"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Glen Gray Casa Loma Orchestra",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Glen Gray Casa Loma Orchestra",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29084572",
+                    "version": "4244867"
+                }
+            ],
+            "id": "29084571",
+            "version": "4244867",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79175405",
+                    "version": "4244867"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "The Casa Loma Orchestra",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "The Casa Loma Orchestra",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29084575",
+                    "version": "4244867"
+                }
+            ],
+            "id": "29084574",
+            "version": "4244867",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79175406",
+                    "version": "4244867"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "The Casa Loma Orchestra Unveraenderte Form",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "The Casa Loma Orchestra Unveraenderte Form",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29084578",
+                    "version": "4244867"
+                }
+            ],
+            "id": "29084577",
+            "version": "4244867",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79175407",
+                    "version": "4244867"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Glen Gray and the Casa Loma Orchestra",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Glen Gray and the Casa Loma Orchestra",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29084581",
+                    "version": "4244867"
+                }
+            ],
+            "id": "29084580",
+            "version": "4244867",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79175408",
+                    "version": "4244867"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "29084557",
+            "targetConstellation": "50129775",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6qg3zv3",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sr6wsw",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Dodge, Joseph Jeffers",
+            "id": "29084593",
+            "version": "4244867"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "29084557",
+            "targetConstellation": "73607663",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6qg3zv3",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6g75d1w",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Gray, Glen, 1906-1963.",
+            "id": "29084592",
+            "version": "4244867"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Casa Loma Orchestra",
+            "uri": "https:\/\/viaf.org\/viaf\/151418098",
+            "id": "29084589",
+            "version": "4244867"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n83046977",
+            "id": "29084590",
+            "version": "4244867"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n83046977",
+            "id": "29084591",
+            "version": "4244867"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/766648907",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:766648907<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-BDF<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Casa Loma Orchestra.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Casa loma stomp.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Biblioth\u00e8que nationale de France<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Casa loma stomp.",
+                "displayEntry": "Casa Loma Orchestra. Casa loma stomp.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Casa Loma Orchestra.",
+                        "id": "10962114",
+                        "version": "8168308"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gk06b0",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Biblioth\u00e8que nationale de France, BnF",
+                            "preferenceScore": "99",
+                            "id": "76761940",
+                            "version": "11224745"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Biblioth\u00e8que nationale de France, BnF",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Quai Fran\u00e7ois Mauriac",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761945",
+                                    "version": "11224745"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Paris",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761946",
+                                    "version": "11224745"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "75013",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761947",
+                                    "version": "11224745"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "FR",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761948",
+                                    "version": "11224745"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15215",
+                                "name": "Biblioth\u00e8que nationale de France, BnF",
+                                "latitude": "48.8339653",
+                                "longitude": "2.3764889"
+                            },
+                            "confirmed": true,
+                            "id": "76761944",
+                            "version": "11224745"
+                        }
+                    ],
+                    "id": "76761939",
+                    "version": "11224748"
+                },
+                "id": "8168308",
+                "version": "8168308"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Casa Loma Orchestra. Casa loma stomp.",
+            "id": "29084595",
+            "version": "4244867"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/690851333",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:690851333<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-BDF<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Casa Loma Orchestra.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Casa loma stomp [Multime\u0301dia multisupport].<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Biblioth\u00e8que nationale de France<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Casa loma stomp [Multime\u0301dia multisupport].",
+                "displayEntry": "Casa Loma Orchestra. Casa loma stomp [Multime\u0301dia multisupport].",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Casa Loma Orchestra.",
+                        "id": "10667173",
+                        "version": "7987779"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gk06b0",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Biblioth\u00e8que nationale de France, BnF",
+                            "preferenceScore": "99",
+                            "id": "76761940",
+                            "version": "11224745"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Biblioth\u00e8que nationale de France, BnF",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Quai Fran\u00e7ois Mauriac",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761945",
+                                    "version": "11224745"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Paris",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761946",
+                                    "version": "11224745"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "75013",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761947",
+                                    "version": "11224745"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "FR",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761948",
+                                    "version": "11224745"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15215",
+                                "name": "Biblioth\u00e8que nationale de France, BnF",
+                                "latitude": "48.8339653",
+                                "longitude": "2.3764889"
+                            },
+                            "confirmed": true,
+                            "id": "76761944",
+                            "version": "11224745"
+                        }
+                    ],
+                    "id": "76761939",
+                    "version": "11224748"
+                },
+                "id": "7987779",
+                "version": "7987779"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Casa Loma Orchestra. Casa loma stomp [Multime\u0301dia multisupport].",
+            "id": "29084596",
+            "version": "4244867"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/mus00006\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Eda Kuhn Loeb\nMusic Library, Harvard College Library<\/repository>\n                  <origination>\n                     <persname>Dodge, Joseph\nJeffers, <\/persname>collector. <\/origination>\n                  <unittitle>Duke Ellington recordings collection<\/unittitle>\n                  <physloc>Eda Kuhn Loeb Music Library<\/physloc>\n                  <unitid>Record Coll.\n34000-35036, 10-35037-10-35330, C-35331-C-35469, T-35470-T-35506<\/unitid>\n                  <physdesc>\n                     <extent>Sound recordings (33 linear feet) and accompanying materials (1 box).<\/extent>\n                  <\/physdesc>\n                  <abstract>Recordings of Duke Ellington, American pianist, band leader, and\ncomposer, collected by Joseph Jeffers Dodge, jazz aficionado, artist, museum director, and\nHarvard University Class of 1940.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Duke Ellington recordings collection",
+                "abstract": "Recordings of Duke Ellington, American pianist, band leader, andcomposer, collected by Joseph Jeffers Dodge, jazz aficionado, artist, museum director, andHarvard University Class of 1940.",
+                "extent": "Sound recordings (33 linear feet) and accompanying materials (1 box).",
+                "displayEntry": "Duke Ellington recordings collection",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dodge, JosephJeffers, ",
+                        "id": "11439792",
+                        "version": "6386006"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6815rd1",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Eda Kuhn Loeb Music Library, Harvard College Library",
+                            "preferenceScore": "99",
+                            "id": "76793118",
+                            "version": "11237145"
+                        }
+                    ],
+                    "id": "76793117",
+                    "version": "11237148"
+                },
+                "id": "6386006",
+                "version": "6386006"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Duke Ellington recordings collection",
+            "id": "29084597",
+            "version": "4244867"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/49418283",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:49418283<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NED<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Gray, Glen, 1906-1963.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Glen Gray and the Casa Loma Orchestra records, 1915-1979.<\/title>\n                  <\/titleInfo>\n                  <abstract>The records of Glen Gray and the Casa Loma Orchestra document the administrative and promotional activities as well as the musical development, style, and repertoire of this pioneering swing band. The collection offers insight into the history of the band and the musical careers and sensibilities of some of the band's more prominent members, including Glen Gray, Walter \"Pee Wee\" Hunt, Larry Wagner, Kenny Sargent and F.C. \"Cork\" O'Keefe. The collection contains original musical scores and arrangements, photographs of Glen Gray and the Casa Loma Orchestra at all stages of the band's career, and newspaper clippings and scrapbooks documenting the band's performance history and reception by both critics and the public. Also included are audio tapes of the Casa Loma Orchestra recordings and interviews with band associates, phonograph records of original Casa Loma Orchestra recordings and cover recordings of Big Band music (conducted by Gray in his later years), videotaped interviews of former band members, promotional and biographical materials, financial records, awards and citations received by Gray and the band, and some of Gray's personal effects. <\/abstract>\n                  <name>\n                     <namePart>Northeastern University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Glen Gray and the Casa Loma Orchestra records, 1915-1979.",
+                "abstract": "The records of Glen Gray and the Casa Loma Orchestra document the administrative and promotional activities as well as the musical development, style, and repertoire of this pioneering swing band. The collection offers insight into the history of the band and the musical careers and sensibilities of some of the band's more prominent members, including Glen Gray, Walter \"Pee Wee\" Hunt, Larry Wagner, Kenny Sargent and F.C. \"Cork\" O'Keefe. The collection contains original musical scores and arrangements, photographs of Glen Gray and the Casa Loma Orchestra at all stages of the band's career, and newspaper clippings and scrapbooks documenting the band's performance history and reception by both critics and the public. Also included are audio tapes of the Casa Loma Orchestra recordings and interviews with band associates, phonograph records of original Casa Loma Orchestra recordings and cover recordings of Big Band music (conducted by Gray in his later years), videotaped interviews of former band members, promotional and biographical materials, financial records, awards and citations received by Gray and the band, and some of Gray's personal effects. ",
+                "extent": "24.00 cubic ft.",
+                "displayEntry": "Gray, Glen, 1906-1963. Glen Gray and the Casa Loma Orchestra records, 1915-1979.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Gray, Glen, 1906-1963.",
+                        "id": "9887920",
+                        "version": "7608233"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6zx28g5",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Northeastern University, Snell Library",
+                            "preferenceScore": "99",
+                            "id": "76777882",
+                            "version": "11230705"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Northeastern University, Snell Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "360 Huntington Avenue",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777887",
+                                    "version": "11230705"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "320 Snell Library",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777888",
+                                    "version": "11230705"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Boston",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777889",
+                                    "version": "11230705"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777890",
+                                    "version": "11230705"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02115",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777891",
+                                    "version": "11230705"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777892",
+                                    "version": "11230705"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17416",
+                                "name": "Northeastern University, Snell Library",
+                                "latitude": "42.3418694",
+                                "longitude": "-71.0968475"
+                            },
+                            "confirmed": true,
+                            "id": "76777886",
+                            "version": "11230705"
+                        }
+                    ],
+                    "id": "76777881",
+                    "version": "11230708"
+                },
+                "id": "7608233",
+                "version": "7608233"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Gray, Glen, 1906-1963. Glen Gray and the Casa Loma Orchestra records, 1915-1979.",
+            "id": "29084594",
+            "version": "4244867"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "8188",
+                "term": "Americans",
+                "type": "nationality"
+            },
+            "id": "29084583",
+            "version": "4244867"
+        }
+    ],
+    "id": "29084557",
+    "version": "4244868"
+}

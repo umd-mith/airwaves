@@ -1,0 +1,788 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hx4g1j",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T06:41:53",
+            "standardDateTime": "2016-08-11T06:41:53",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T06:41:53",
+            "standardDateTime": "2016-08-11T06:41:53",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/38477526",
+            "id": "19561214",
+            "version": "2855114"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/71054783",
+            "id": "19561216",
+            "version": "2855114"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/taro\/utcah\/00181.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"700\" source=\"lcnaf\">Williams, John Bell<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.lib.utexas.edu\/taro\/utcah\/00181\/00181-P.html",
+            "id": "19561213",
+            "version": "2855114"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/33953400",
+            "id": "19561215",
+            "version": "2855114"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "19561217",
+            "version": "2855114"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Williams, John Bell, 1918-1983",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Williams, John Bell, 1918-1983",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "19561219",
+                    "version": "2855114"
+                }
+            ],
+            "id": "19561218",
+            "version": "2855114",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78402807",
+                    "version": "2855114"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Williams, John Bell",
+            "preferenceScore": "3",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Williams, John Bell",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "19561222",
+                    "version": "2855114"
+                }
+            ],
+            "id": "19561221",
+            "version": "2855114",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"taro\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78402808",
+                    "version": "2855114"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Williams, John Bell, 1919-1983.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Williams, John Bell, 1919-1983.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "19561227",
+                    "version": "2855114"
+                }
+            ],
+            "id": "19561226",
+            "version": "2855114",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78402809",
+                    "version": "2855114"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "19561211",
+            "targetConstellation": "9218634",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hx4g1j",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64j87z2",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Mississippi AFL-CIO.",
+            "id": "19561238",
+            "version": "2855114"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "19561211",
+            "targetConstellation": "53446517",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hx4g1j",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cn71v2",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Rayburn, Sam, 1882-1961",
+            "id": "19561237",
+            "version": "2855114"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "19561211",
+            "targetConstellation": "60861177",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hx4g1j",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sg223q",
+            "targetEntityType": {
+                "id": "699",
+                "term": "family",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Family",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Williams family.",
+            "id": "19561239",
+            "version": "2855114"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Williams, John Bell",
+            "uri": "https:\/\/viaf.org\/viaf\/71054783",
+            "id": "19561233",
+            "version": "2855114"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.wikidata.org\/entity\/Q518055",
+            "id": "19561234",
+            "version": "2855114"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no2002024405",
+            "id": "19561235",
+            "version": "2855114"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no2002024405",
+            "id": "19561236",
+            "version": "2855114"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/38477526",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:38477526<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-GSU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Mississippi AFL-CIO.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Mississippi State Federation of Labor.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Mississippi AFL-CIO subject files, 1947-1986.<\/title>\n                  <\/titleInfo>\n                  <abstract>The collection consists of the subject files of Mississippi AFL-CIO President Claude Ramsay from 1947-1986. Includes correspondence, news clippings, printed material, news releases, and memoranda covering a variety of national, state, and local political and other public figures, events, and organizations. As President he had extensive contact with political leaders including U.S. Presidents Dwight D. Eisenhower and John F. Kennedy; U.S. Congressmen William Colmer, Charles Griffin, Hubert H. Humphrey, Frank E. Smith and John Bell Williams; and Mississippi Governors or Lt. Governors Carroll Gartin, Paul Johnson, William Waller, William Winter, and Fielding Wright. <\/abstract>\n                  <name>\n                     <namePart>Georgia State University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Mississippi AFL-CIO subject files, 1947-1986.",
+                "abstract": "The collection consists of the subject files of Mississippi AFL-CIO President Claude Ramsay from 1947-1986. Includes correspondence, news clippings, printed material, news releases, and memoranda covering a variety of national, state, and local political and other public figures, events, and organizations. As President he had extensive contact with political leaders including U.S. Presidents Dwight D. Eisenhower and John F. Kennedy; U.S. Congressmen William Colmer, Charles Griffin, Hubert H. Humphrey, Frank E. Smith and John Bell Williams; and Mississippi Governors or Lt. Governors Carroll Gartin, Paul Johnson, William Waller, William Winter, and Fielding Wright. ",
+                "extent": "25 linear ft.",
+                "displayEntry": "Mississippi AFL-CIO. Mississippi AFL-CIO subject files, 1947-1986.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Mississippi AFL-CIO.",
+                        "id": "9592263",
+                        "version": "7404236"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Mississippi State Federation of Labor.",
+                        "id": "9592264",
+                        "version": "7404236"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6zh7fpp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Georgia State University",
+                            "preferenceScore": "99",
+                            "id": "76768401",
+                            "version": "11227145"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Georgia State University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "100 Decatur Street SE",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768406",
+                                    "version": "11227145"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Atlanta",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768407",
+                                    "version": "11227145"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-GA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768408",
+                                    "version": "11227145"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "30303-3202",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768409",
+                                    "version": "11227145"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768410",
+                                    "version": "11227145"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17022",
+                                "name": "Georgia State University",
+                                "latitude": "33.7527008",
+                                "longitude": "-84.3865967"
+                            },
+                            "confirmed": true,
+                            "id": "76768405",
+                            "version": "11227145"
+                        }
+                    ],
+                    "id": "76768400",
+                    "version": "11227148"
+                },
+                "id": "7404236",
+                "version": "7404236"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Mississippi AFL-CIO. Mississippi AFL-CIO subject files, 1947-1986.",
+            "id": "19561241",
+            "version": "2855114"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.lib.utexas.edu\/taro\/utcah\/00181\/00181-P.html",
+                "title": "Sam Rayburn papers, 1822, 1831, 1845, 1903-2007",
+                "abstract": "Rayburn served as a Texas legislator from 1906 to 1912, when he was elected to the United States Congress. He was elected House majority leader, Democratic Party, in 1937, holding that position until 1940 when he was named Speaker of the House. He continued in that office until his death in 1961, except for two periods of Republican control when he served as minority leader. Correspondence, speeches, interviews, newspaper clippings, printed materials, financial records, maps, charts, and reports document the political career of Sam Rayburn.",
+                "extent": "144 linear feet",
+                "date": "1822, 1831, 1845, 1903-2007",
+                "displayEntry": "Rayburn, Sam, 1882-1961, Papers, 1822, 1831, 1845, 1903-2007",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rayburn, Sam, 1882-1961",
+                        "id": "11267062",
+                        "version": "6642225"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11267063",
+                        "version": "6642225"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f58d5t",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Dolph Briscoe Center for American History",
+                            "preferenceScore": "99",
+                            "id": "84872258",
+                            "version": "11434801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "role": {
+                                "id": "400625",
+                                "term": "Work",
+                                "type": "place_role"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "78712",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84872277",
+                                    "version": "11434801"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "634",
+                                "uri": "http:\/\/www.geonames.org\/4671654",
+                                "name": "Austin",
+                                "latitude": "30.2671500",
+                                "longitude": "-97.7430600",
+                                "administrationCode": "TX",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "84872276",
+                            "version": "11434801"
+                        }
+                    ],
+                    "id": "84872256",
+                    "version": "11434848"
+                },
+                "id": "6642225",
+                "version": "6642225"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Rayburn, Sam, papers 92-172, 92-257, 92-389, 92-415, 94-017, 96-066, 96-177, 97-347, 98-130, 2008-225, 2009-008. 29749116., 1831, 1845, 1903-2007",
+            "id": "19561240",
+            "version": "2855114"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/33953400",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:33953400<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-VG8<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Williams family.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Williams, Rebecca Yancey, 1899-1976.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers, 1922-1968.<\/title>\n                  <\/titleInfo>\n                  <abstract>Chiefly the papers of Rebecca (Yancey) Williams, including a manuscript of her book, The Vanishing Virginian (1940), a biographical story of her father, Lynchburg, Va., lawyer, Robert Davis Yancey (1855- 1931), and correspondence, 1939-1942, documenting the process of making a movie based on it, including an exchange of letters between Williams and producer Edwin Harris Knopf (1899-1987), as well as scripts, contracts, photographs, publicity releases, and an architectural drawing of Yancey's house in Lynchburg. There are also manuscripts for Carry Me Back (1942) and various essays on biographical or political and historical subjects. Williams' diaries, 1942 and 1944, record her activities during World War II, and correspondence and other materials reflect the activities of the Jamestowne Society during Williams' tenure as historian. Papers of Dr. John Bell Williams include correspondence, 1932- 1966, chiefly concerning the Medical College of Virginia and dentistry; essays, speeches, and notes, 1922-1968, including a speech on Margaret Nolting (1883-1966), first woman graduate of the Medical College of Virginia; and programs and speeches, 1948-1967, concerning commencement exercises at St. Luke's Hospital Training School for Nurses, Richmond. <\/abstract>\n                  <name>\n                     <namePart>Virginia Historical Society Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1922-1968.",
+                "abstract": "Chiefly the papers of Rebecca (Yancey) Williams, including a manuscript of her book, The Vanishing Virginian (1940), a biographical story of her father, Lynchburg, Va., lawyer, Robert Davis Yancey (1855- 1931), and correspondence, 1939-1942, documenting the process of making a movie based on it, including an exchange of letters between Williams and producer Edwin Harris Knopf (1899-1987), as well as scripts, contracts, photographs, publicity releases, and an architectural drawing of Yancey's house in Lynchburg. There are also manuscripts for Carry Me Back (1942) and various essays on biographical or political and historical subjects. Williams' diaries, 1942 and 1944, record her activities during World War II, and correspondence and other materials reflect the activities of the Jamestowne Society during Williams' tenure as historian. Papers of Dr. John Bell Williams include correspondence, 1932- 1966, chiefly concerning the Medical College of Virginia and dentistry; essays, speeches, and notes, 1922-1968, including a speech on Margaret Nolting (1883-1966), first woman graduate of the Medical College of Virginia; and programs and speeches, 1948-1967, concerning commencement exercises at St. Luke's Hospital Training School for Nurses, Richmond. ",
+                "extent": "501 items.",
+                "displayEntry": "Williams family. Papers, 1922-1968.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Williams family.",
+                        "id": "9495530",
+                        "version": "7352481"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Williams, Rebecca Yancey, 1899-1976.",
+                        "id": "9495531",
+                        "version": "7352481"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w645694k",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Virginia Historical Society Library",
+                            "preferenceScore": "99",
+                            "id": "76789702",
+                            "version": "11234973"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Virginia Historical Society Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "428 N. Boulevard",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789707",
+                                    "version": "11234973"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "428 North Blvd",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789708",
+                                    "version": "11234973"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Richmond",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789709",
+                                    "version": "11234973"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-VA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789710",
+                                    "version": "11234973"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "23220",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789711",
+                                    "version": "11234973"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789712",
+                                    "version": "11234973"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15389",
+                                "name": "Virginia Historical Society Library",
+                                "latitude": "37.5578461",
+                                "longitude": "-77.4731903"
+                            },
+                            "confirmed": true,
+                            "id": "76789706",
+                            "version": "11234973"
+                        }
+                    ],
+                    "id": "76789701",
+                    "version": "11234976"
+                },
+                "id": "7352481",
+                "version": "7352481"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Williams family. Papers, 1922-1968.",
+            "id": "19561242",
+            "version": "2855114"
+        }
+    ],
+    "id": "19561211",
+    "version": "2855115",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1918-12-04",
+            "fromDateOriginal": "1918-12-04",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "toDate": "1983-03-25",
+            "toDateOriginal": "1983-03-25",
+            "toType": {
+                "id": "690",
+                "term": "Death",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Death",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "19561212",
+            "version": "2855114"
+        }
+    ]
+}

@@ -1,0 +1,383 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w652267f",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T20:13:13",
+            "standardDateTime": "2016-08-13T20:13:13",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T20:13:13",
+            "standardDateTime": "2016-08-13T20:13:13",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/70975835",
+            "id": "40789500",
+            "version": "5957762"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/144234538",
+            "id": "40789501",
+            "version": "5957762"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "40789502",
+            "version": "5957762"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Oklahoma. State Board of Education",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Oklahoma. State Board of Education",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40789504",
+                    "version": "5957762"
+                }
+            ],
+            "id": "40789503",
+            "version": "5957762",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80134778",
+                    "version": "5957762"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Oklahoma. Education, State Board of",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Oklahoma. Education, State Board of",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40789508",
+                    "version": "5957762"
+                }
+            ],
+            "id": "40789507",
+            "version": "5957762",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80134779",
+                    "version": "5957762"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Oklahoma. Board of Education",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Oklahoma. Board of Education",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40789511",
+                    "version": "5957762"
+                }
+            ],
+            "id": "40789510",
+            "version": "5957762",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80134780",
+                    "version": "5957762"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "40789499",
+            "targetConstellation": "71813745",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w652267f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zs9rqc",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Faxon Public School (Comanche County, Okla.)",
+            "id": "40789518",
+            "version": "5957762"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Oklahoma. State Board of Education",
+            "uri": "https:\/\/viaf.org\/viaf\/144234538",
+            "id": "40789515",
+            "version": "5957762"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n79081687",
+            "id": "40789516",
+            "version": "5957762"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n79081687",
+            "id": "40789517",
+            "version": "5957762"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/70975835",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:70975835<\/recordOrigin>\n                     <recordContentSource>ISIL:OkLwMGP<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Faxon Public School (Comanche County, Okla.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bishop School (Comanche County, Okla.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Flower Mound School (Comanche County, Okla.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hillside School (Comanche County, Okla.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Messing School (Comanche County, Okla.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Stony Brook School (Comanche County, Okla.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Medicine Park School (Comanche County, Okla.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Whittier School (Comanche County, Okla.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Faxon school system collection, 1937-1974.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence from Oklahoma State Board of Education and various local schools in Comanche County  (1937-1957); attendance records for grades 1-8 (1961-1969, inclusive); Comanche County school district election (1959-1964, 1971); report of Comanche County school district officers (1958-1974, inclusive); budgets; certificates and teachers records; financial records; and other materials. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Faxon school system collection, 1937-1974.",
+                "abstract": "Correspondence from Oklahoma State Board of Education and various local schools in Comanche County  (1937-1957); attendance records for grades 1-8 (1961-1969, inclusive); Comanche County school district election (1959-1964, 1971); report of Comanche County school district officers (1958-1974, inclusive); budgets; certificates and teachers records; financial records; and other materials. ",
+                "extent": "3 boxes.",
+                "displayEntry": "Faxon Public School (Comanche County, Okla.). Faxon school system collection, 1937-1974.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Faxon Public School (Comanche County, Okla.)",
+                        "id": "10795316",
+                        "version": "8064241"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bishop School (Comanche County, Okla.)",
+                        "id": "10795317",
+                        "version": "8064241"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Flower Mound School (Comanche County, Okla.)",
+                        "id": "10795318",
+                        "version": "8064241"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hillside School (Comanche County, Okla.)",
+                        "id": "10795319",
+                        "version": "8064241"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Messing School (Comanche County, Okla.)",
+                        "id": "10795320",
+                        "version": "8064241"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Stony Brook School (Comanche County, Okla.)",
+                        "id": "10795321",
+                        "version": "8064241"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Medicine Park School (Comanche County, Okla.)",
+                        "id": "10795322",
+                        "version": "8064241"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Whittier School (Comanche County, Okla.)",
+                        "id": "10795323",
+                        "version": "8064241"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gv69rn",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Museum of the Great Plains",
+                            "preferenceScore": "99",
+                            "id": "76775906",
+                            "version": "11229977"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Museum of the Great Plains",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "601 NW Ferris Ave.  Lawton, Oklahoma 73507  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76775910",
+                                    "version": "11229977"
+                                }
+                            ],
+                            "id": "76775909",
+                            "version": "11229977"
+                        }
+                    ],
+                    "id": "76775905",
+                    "version": "11229980"
+                },
+                "id": "8064241",
+                "version": "8064241"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Faxon Public School (Comanche County, Okla.). Faxon school system collection, 1937-1974.",
+            "id": "40789519",
+            "version": "5957762"
+        }
+    ],
+    "id": "40789499",
+    "version": "5957763"
+}

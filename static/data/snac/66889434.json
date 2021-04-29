@@ -1,0 +1,208 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kn4dr0",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T00:13:02",
+            "standardDateTime": "2016-08-18T00:13:02",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T00:13:02",
+            "standardDateTime": "2016-08-18T00:13:02",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/20380.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">BMI<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/inv\/f\/Faier,Billy.html",
+            "id": "66889435",
+            "version": "9776837"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "BMI",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "BMI",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "66889437",
+                    "version": "9776837"
+                }
+            ],
+            "id": "66889436",
+            "version": "9776837",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82271677",
+                    "version": "9776837"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "66889434",
+            "targetConstellation": "72935522",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kn4dr0",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dv46dj",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Faier, Billy.",
+            "id": "66889440",
+            "version": "9776837"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/inv\/f\/Faier,Billy.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Southern Folklife Collection<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <persname>Faier, Billy.<\/persname>\n                  <\/origination>\n                  <unittitle>Billy Faier Collection, <unitdate>1955-2003<\/unitdate>\n                  <\/unittitle>\n                  <unitid>20380<\/unitid>\n                  <physdesc>\n                     <extent>About 1,320 items (4.5 linear feet)<\/extent>\n                  <\/physdesc>\n                  <abstract>Billy Faier of Woodstock, N.Y., taught himself to play the five-string banjo and was later involved in the folk music revival as a performer, songwriter, observer, writer, and radio disc jockey. Faier was a prominent member of New York City's Washington Square folk scene in the late 1940s and of the folk music scene on both coasts during the 1950s and 1960s. The collection documents the personal and professional activities of Billy Faier. There are also more general materials collected and generated by Faier about the folk music revival, the counter-culture movement, and other interests. Included are correspondence, writings, artwork, and other materials relating to Faier's work with Pete Seeger; song writing and theatrical performances; music; Woodstock, N.Y.; juggling; games; bicycling; hitchhiking; and alternative lifestyles in general. Audio recordings include live and studio performances of Faier and other musicians; interviews with Aunt Molly Jackson and Frank and Ann Warner; recordings of Faier's radio shows; documentation of social and political events; and dubs from old records.<\/abstract>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Billy Faier Collection, 1955-2003",
+                "abstract": "Billy Faier of Woodstock, N.Y., taught himself to play the five-string banjo and was later involved in the folk music revival as a performer, songwriter, observer, writer, and radio disc jockey. Faier was a prominent member of New York City's Washington Square folk scene in the late 1940s and of the folk music scene on both coasts during the 1950s and 1960s. The collection documents the personal and professional activities of Billy Faier. There are also more general materials collected and generated by Faier about the folk music revival, the counter-culture movement, and other interests. Included are correspondence, writings, artwork, and other materials relating to Faier's work with Pete Seeger; song writing and theatrical performances; music; Woodstock, N.Y.; juggling; games; bicycling; hitchhiking; and alternative lifestyles in general. Audio recordings include live and studio performances of Faier and other musicians; interviews with Aunt Molly Jackson and Frank and Ann Warner; recordings of Faier's radio shows; documentation of social and political events; and dubs from old records.",
+                "extent": "About 1,320 items (4.5 linear feet)",
+                "displayEntry": "Billy Faier Collection, 1955-2003",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Faier, Billy.",
+                        "id": "11605820",
+                        "version": "6626586"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11605821",
+                        "version": "6626586"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kt7fds",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Southern Folklife Collection",
+                            "preferenceScore": "99",
+                            "id": "76796090",
+                            "version": "11239921"
+                        }
+                    ],
+                    "id": "76796089",
+                    "version": "11239924"
+                },
+                "id": "6626586",
+                "version": "6626586"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Billy Faier Collection, 1955-2003",
+            "id": "66889441",
+            "version": "9776837"
+        }
+    ],
+    "id": "66889434",
+    "version": "9776838"
+}

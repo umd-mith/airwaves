@@ -1,0 +1,302 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6rg21rh",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T18:50:43",
+            "standardDateTime": "2016-08-13T18:50:43",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T18:50:43",
+            "standardDateTime": "2016-08-13T18:50:43",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/42927195",
+            "id": "40354434",
+            "version": "5895974"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KUID-FM (Radio station : Moscow, Idaho)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KUID-FM (Radio station : Moscow, Idaho)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "40354436",
+                    "version": "5895974"
+                }
+            ],
+            "id": "40354435",
+            "version": "5895974",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80099259",
+                    "version": "5895974"
+                }
+            ]
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/42927195",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:42927195<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-ZWP<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Broenneke, Karen.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Petersen, Keith.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bray, Donna.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Cone, Marilyn.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Otness, Lillian Woodworth, 1908-1994.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>KUID-FM (Radio station : Moscow, Idaho)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Latah County Historical Society.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>typescripts, Sept.-Dec. 1979.<\/title>\n                  <\/titleInfo>\n                  <abstract>Radio scripts broadcast on station KUID-FM, Moscow, Idaho; included are William J. McConnell (prepared by Karen Broenneke), David's Store (Keith Petersen), A.C. Gilbert (Petersen), The Lost Wheelbarrow Mine (Petersen), Moscow Post Office (Petersen), The McConnell Building (Petersen), Moscow Fire Department (Broenneke), The Bovill Hotel (Petersen), Latah County Historical Site Survey (Donna Bray), Palouse Genealogical Society (Marilyn Cone), The Settling of Moscow (Lillian Otness), Moscow's Carnegie Library (Petersen), and Psychiana (Petersen). <\/abstract>\n                  <name>\n                     <namePart>Latah County Historical Society<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "typescripts, Sept.-Dec. 1979.",
+                "abstract": "Radio scripts broadcast on station KUID-FM, Moscow, Idaho; included are William J. McConnell (prepared by Karen Broenneke), David's Store (Keith Petersen), A.C. Gilbert (Petersen), The Lost Wheelbarrow Mine (Petersen), Moscow Post Office (Petersen), The McConnell Building (Petersen), Moscow Fire Department (Broenneke), The Bovill Hotel (Petersen), Latah County Historical Site Survey (Donna Bray), Palouse Genealogical Society (Marilyn Cone), The Settling of Moscow (Lillian Otness), Moscow's Carnegie Library (Petersen), and Psychiana (Petersen). ",
+                "extent": "14 items.",
+                "displayEntry": "Broenneke, Karen. typescripts, Sept.-Dec. 1979.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Broenneke, Karen.",
+                        "id": "9711745",
+                        "version": "7487630"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Petersen, Keith.",
+                        "id": "9711746",
+                        "version": "7487630"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bray, Donna.",
+                        "id": "9711747",
+                        "version": "7487630"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cone, Marilyn.",
+                        "id": "9711748",
+                        "version": "7487630"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Otness, Lillian Woodworth, 1908-1994.",
+                        "id": "9711749",
+                        "version": "7487630"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KUID-FM (Radio station : Moscow, Idaho)",
+                        "id": "9711750",
+                        "version": "7487630"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Latah County Historical Society.",
+                        "id": "9711751",
+                        "version": "7487630"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r31pxf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Latah County Historical Society",
+                            "preferenceScore": "99",
+                            "id": "76772382",
+                            "version": "11228669"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Latah County Historical Society",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "327 E 2Nd St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772387",
+                                    "version": "11228669"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Moscow",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772388",
+                                    "version": "11228669"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-ID",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772389",
+                                    "version": "11228669"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "83843-2819",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772390",
+                                    "version": "11228669"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772391",
+                                    "version": "11228669"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17197",
+                                "name": "Latah County Historical Society",
+                                "latitude": "46.7330990",
+                                "longitude": "-116.9982210"
+                            },
+                            "confirmed": true,
+                            "id": "76772386",
+                            "version": "11228669"
+                        }
+                    ],
+                    "id": "76772381",
+                    "version": "11228672"
+                },
+                "id": "7487630",
+                "version": "7487630"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Broenneke, Karen. typescripts, Sept.-Dec. 1979.",
+            "id": "40354439",
+            "version": "5895974"
+        }
+    ],
+    "id": "40354432",
+    "version": "5895975",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDateOriginal": "active approximately 1979",
+            "id": "40354433",
+            "version": "5895974"
+        }
+    ]
+}

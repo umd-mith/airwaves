@@ -1,0 +1,537 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6cc7hs6",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T09:29:29",
+            "standardDateTime": "2016-08-15T09:29:29",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T09:29:29",
+            "standardDateTime": "2016-08-15T09:29:29",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/41215341",
+            "id": "51325052",
+            "version": "7502009"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/149053820",
+            "id": "51325054",
+            "version": "7502009"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/136967693",
+            "id": "51325053",
+            "version": "7502009"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "51325055",
+            "version": "7502009"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KMPC (Radio station : Los Angeles, Calif.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KMPC (Radio station : Los Angeles, Calif.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "51325057",
+                    "version": "7502009"
+                }
+            ],
+            "id": "51325056",
+            "version": "7502009",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80998141",
+                    "version": "7502009"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "51325051",
+            "targetConstellation": "51202379",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cc7hs6",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6739kf9",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Griffis, Ken.",
+            "id": "51325067",
+            "version": "7502009"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "51325051",
+            "targetConstellation": "11593366",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cc7hs6",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6np3c5j",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Kuney, Jack, 1919-2007.",
+            "id": "51325066",
+            "version": "7502009"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "KMPC (Radio station : Los Angeles, Calif.)",
+            "uri": "https:\/\/viaf.org\/viaf\/149053820",
+            "id": "51325063",
+            "version": "7502009"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n90645800",
+            "id": "51325064",
+            "version": "7502009"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n90645800",
+            "id": "51325065",
+            "version": "7502009"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/136967693",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:136967693<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NGB<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Griffis, Ken.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Ken Griffis collection, 1930-2003.<\/title>\n                  <\/titleInfo>\n                  <abstract>Music transcriptions, papers, photographic materials, and audiocassettes relating to Griffis's research documenting the Beverly Hillbillies. Music transcriptions are of songs performed by the Beverly Hillbillies. Papers include journal articles, newspaper clippings, posters and flyers, discographies, facsimiles of record albums, letters sent to the Beverly Hillbillies, transcripts of interviews Griffis conducted with members of the group, research correspondence, and research notes. Photographic materials are primarily promotional photographs of the group with and without autograph signatures, but also included is a photograph of a horse purported to have belonged to Jesse James. Audiocassettes consist of noncommercial recordings of interviews Griffis conducted with members of the group, including Aleth Hansen, Stuart Hamblen, Leo Mannes, and Charles Quirk. <\/abstract>\n                  <name>\n                     <namePart>Oceanside Free Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Ken Griffis collection, 1930-2003.",
+                "abstract": "Music transcriptions, papers, photographic materials, and audiocassettes relating to Griffis's research documenting the Beverly Hillbillies. Music transcriptions are of songs performed by the Beverly Hillbillies. Papers include journal articles, newspaper clippings, posters and flyers, discographies, facsimiles of record albums, letters sent to the Beverly Hillbillies, transcripts of interviews Griffis conducted with members of the group, research correspondence, and research notes. Photographic materials are primarily promotional photographs of the group with and without autograph signatures, but also included is a photograph of a horse purported to have belonged to Jesse James. Audiocassettes consist of noncommercial recordings of interviews Griffis conducted with members of the group, including Aleth Hansen, Stuart Hamblen, Leo Mannes, and Charles Quirk. ",
+                "extent": "ca. 950 items (1.0 linear feet)",
+                "displayEntry": "Griffis, Ken. Ken Griffis collection, 1930-2003.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Griffis, Ken.",
+                        "id": "8633466",
+                        "version": "6821897"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6xj0ds0",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill",
+                            "preferenceScore": "99",
+                            "id": "76787444",
+                            "version": "11234205"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of North Carolina at Chapel Hill",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Davis Library, CB#3914, 208 Raleigh St.",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787449",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chapel Hill",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787450",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NC",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787451",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "27514-8890",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787452",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787453",
+                                    "version": "11234205"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15097",
+                                "name": "University of North Carolina at Chapel Hill",
+                                "latitude": "35.9369000",
+                                "longitude": "-79.0397000"
+                            },
+                            "confirmed": true,
+                            "id": "76787448",
+                            "version": "11234205"
+                        }
+                    ],
+                    "id": "76787443",
+                    "version": "11363791"
+                },
+                "id": "6821897",
+                "version": "6821897"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Griffis, Ken. Ken Griffis collection, 1930-2003.",
+            "id": "51325069",
+            "version": "7502009"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/41215341",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:41215341<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-SYB<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Kuney, Jack, 1919-2007.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Silverstein, Morton.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>[Interview with Jack Kuney] [sound recording] \/ Jack Kuney ; [interviewed by] Mort Silverstein, Bradenton, FL, May 19,1998. 1998.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Syracuse University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "[Interview with Jack Kuney] [sound recording] \/ Jack Kuney ; [interviewed by] Mort Silverstein, Bradenton, FL, May 19,1998. 1998.",
+                "extent": "1 sound cassette (ca. 100 min.) : analog, 1 7\/8 ips, mono.",
+                "displayEntry": "Kuney, Jack, 1919-2007. [Interview with Jack Kuney] [sound recording] \/ Jack Kuney ; [interviewed by] Mort Silverstein, Bradenton, FL, May 19,1998.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kuney, Jack, 1919-2007.",
+                        "id": "9636714",
+                        "version": "7434573"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Silverstein, Morton.",
+                        "id": "9636715",
+                        "version": "7434573"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6z71bnz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Syracuse University",
+                            "preferenceScore": "99",
+                            "id": "76783735",
+                            "version": "11232873"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Syracuse University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "222 Waverly Ave",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783740",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Suite 219 - Administration",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783741",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Syracuse",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783742",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783743",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "13244-2010",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783744",
+                                    "version": "11232873"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783745",
+                                    "version": "11232873"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15784",
+                                "name": "Syracuse University",
+                                "latitude": "43.0404000",
+                                "longitude": "-76.1340000"
+                            },
+                            "confirmed": true,
+                            "id": "76783739",
+                            "version": "11232873"
+                        }
+                    ],
+                    "id": "76783734",
+                    "version": "11232876"
+                },
+                "id": "7434573",
+                "version": "7434573"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Kuney, Jack, 1919-2007. [Interview with Jack Kuney] [sound recording] \/ Jack Kuney ; [interviewed by] Mort Silverstein, Bradenton, FL, May 19,1998.",
+            "id": "51325068",
+            "version": "7502009"
+        }
+    ],
+    "id": "51325051",
+    "version": "7502010"
+}

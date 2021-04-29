@@ -1,0 +1,195 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6cw7rrt",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T17:51:57",
+            "standardDateTime": "2016-08-15T17:51:57",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T17:51:57",
+            "standardDateTime": "2016-08-15T17:51:57",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/hou01785.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WRVR,<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/hou01785\/catalog",
+            "id": "53549982",
+            "version": "7829762"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WRVR",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WRVR",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "53549984",
+                    "version": "7829762"
+                }
+            ],
+            "id": "53549983",
+            "version": "7829762",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81182507",
+                    "version": "7829762"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "53549981",
+            "targetConstellation": "48389458",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cw7rrt",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6h41pqx",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Balanchine, George.",
+            "id": "53549987",
+            "version": "7829762"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/hou01785\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Harvard Theatre Collection, Houghton Library, Harvard College Library, Harvard\n    University <\/repository>\n                  <physloc>b<\/physloc>\n                  <unitid>MS Thr 411<\/unitid>\n                  <origination>\n                     <persname>Balanchine, George. <\/persname>\n                  <\/origination>\n                  <unittitle>George Balanchine archive, <\/unittitle>\n                  <unitdate>1924-1989 (inclusive), <\/unitdate>\n                  <unitdate> 1961-1983 (bulk). <\/unitdate>\n                  <physdesc>\n                     <extent>115 boxes, 1volume, and 61 videotapes (62.5 linear ft.) <\/extent>\n                  <\/physdesc>\n                  <abstract>Papers documenting the American career of Russian-American choreographer George\n    Balanchine. Also includes records of the New York City Ballet (1948-1987), and records of the\n    George Balanchine Foundation and the George Balanchine Trust (1983-1989). <\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "George Balanchine archive, 1924-1989 (inclusive), 1961-1983 (bulk).",
+                "abstract": "Papers documenting the American career of Russian-American choreographer George    Balanchine. Also includes records of the New York City Ballet (1948-1987), and records of the    George Balanchine Foundation and the George Balanchine Trust (1983-1989).",
+                "extent": "115 boxes, 1volume, and 61 videotapes (62.5 linear ft.)",
+                "displayEntry": "George Balanchine archive, 1924-1989 (inclusive), 1961-1983 (bulk).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Balanchine, George. ",
+                        "id": "11438701",
+                        "version": "6384870"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6x45m72",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard Theatre Collection, Houghton Library, Harvard College Library, Harvard University.",
+                            "preferenceScore": "99",
+                            "id": "76793543",
+                            "version": "11237589"
+                        }
+                    ],
+                    "id": "76793542",
+                    "version": "11237592"
+                },
+                "id": "6384870",
+                "version": "6384870"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "George Balanchine archive, 1924-1989 (inclusive), 1961-1983 (bulk).",
+            "id": "53549988",
+            "version": "7829762"
+        }
+    ],
+    "id": "53549981",
+    "version": "7829763"
+}

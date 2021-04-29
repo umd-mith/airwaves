@@ -1,0 +1,312 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hx97x6",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T22:12:23",
+            "standardDateTime": "2016-08-10T22:12:23",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T22:12:23",
+            "standardDateTime": "2016-08-10T22:12:23",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/70961865",
+            "id": "16114876",
+            "version": "2350589"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Rosenthal, Phil.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Rosenthal, Phil.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "16114878",
+                    "version": "2350589"
+                }
+            ],
+            "id": "16114877",
+            "version": "2350589",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78120763",
+                    "version": "2350589"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "16114874",
+            "targetConstellation": "39554217",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hx97x6",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zc936n",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Groneman, Bill.",
+            "id": "16114881",
+            "version": "2350589"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/70961865",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:70961865<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-SAX<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Groneman, Bill.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Rosenthal, Phil.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Production papers, 1988-1993.<\/title>\n                  <\/titleInfo>\n                  <abstract>Typescripts, galley copies, and other material related to the production of three books by Groneman: Roll Call at the Alamo (co-authored by Phil Rosenthal), Alamo Defenders, and Defense of a Legend. <\/abstract>\n                  <name>\n                     <namePart>Daughters of the Republic of Texas Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Production papers, 1988-1993.",
+                "abstract": "Typescripts, galley copies, and other material related to the production of three books by Groneman: Roll Call at the Alamo (co-authored by Phil Rosenthal), Alamo Defenders, and Defense of a Legend. ",
+                "extent": "3 document boxes.",
+                "displayEntry": "Groneman, Bill. Production papers, 1988-1993.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Groneman, Bill.",
+                        "id": "10777679",
+                        "version": "8054439"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rosenthal, Phil.",
+                        "id": "10777680",
+                        "version": "8054439"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w68734w5",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Daughters of the Republic of Texas Library",
+                            "preferenceScore": "99",
+                            "id": "76765775",
+                            "version": "11226145"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Daughters of the Republic of Texas Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1510 Cambridge St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765780",
+                                    "version": "11226145"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "San Antonio",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765781",
+                                    "version": "11226145"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-TX",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765782",
+                                    "version": "11226145"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "78295 1401",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765783",
+                                    "version": "11226145"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765784",
+                                    "version": "11226145"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16820",
+                                "name": "Daughters of the Republic of Texas Library",
+                                "latitude": "29.4261090",
+                                "longitude": "-98.4858170"
+                            },
+                            "confirmed": true,
+                            "id": "76765779",
+                            "version": "11226145"
+                        }
+                    ],
+                    "id": "76765774",
+                    "version": "11226148"
+                },
+                "id": "8054439",
+                "version": "8054439"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Groneman, Bill. Production papers, 1988-1993.",
+            "id": "16114882",
+            "version": "2350589"
+        }
+    ],
+    "id": "16114874",
+    "version": "2350590",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1988",
+            "fromDateOriginal": "active 1988",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1993",
+            "toDateOriginal": "active 1993",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "16114875",
+            "version": "2350589"
+        }
+    ]
+}

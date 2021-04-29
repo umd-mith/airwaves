@@ -1,0 +1,319 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w64541ms",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T19:03:37",
+            "standardDateTime": "2016-08-16T19:03:37",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T19:03:37",
+            "standardDateTime": "2016-08-16T19:03:37",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/234315909",
+            "id": "59929681",
+            "version": "8763626"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WBAP-TV (Television station : Fort Worth, Tex.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WBAP-TV (Television station : Fort Worth, Tex.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "59929683",
+                    "version": "8763626"
+                }
+            ],
+            "id": "59929682",
+            "version": "8763626",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81705249",
+                    "version": "8763626"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "59929680",
+            "targetConstellation": "40741448",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w64541ms",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6862q35",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Carter, Amon Giles, 1879-1955.",
+            "id": "59929686",
+            "version": "8763626"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/234315909",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:234315909<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-CGU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Carter, Amon Giles, 1879-1955.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Carter, Amon G., Jr.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Carter, Minnie Meachum.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Stevenson, Ruth Carter.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Deakins, Katrine.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Amon G. Carter papers, 1806-1997 (bulk 1935-1955).<\/title>\n                  <\/titleInfo>\n                  <abstract>The papers document the life and career of Amon G. Carter, Sr.  The papers are arranged alphabetically by subject, and they consist of correspondence, financial information, programs, photos, and news clippings.  They document the variety of people and interests with whom and with which Carter was involved.  The majority of the papers pertain to Carter's business career with companies such as American Airlines, Inc., the Fort Worth Star-Telegram, and WBAP.  Sections of the material detail his personal life, especially the papers regarding various members of Carter's family and those describing his friendship with Will Rogers. <\/abstract>\n                  <name>\n                     <namePart>University of Chicago Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Amon G. Carter papers, 1806-1997 (bulk 1935-1955).",
+                "abstract": "The papers document the life and career of Amon G. Carter, Sr.  The papers are arranged alphabetically by subject, and they consist of correspondence, financial information, programs, photos, and news clippings.  They document the variety of people and interests with whom and with which Carter was involved.  The majority of the papers pertain to Carter's business career with companies such as American Airlines, Inc., the Fort Worth Star-Telegram, and WBAP.  Sections of the material detail his personal life, especially the papers regarding various members of Carter's family and those describing his friendship with Will Rogers. ",
+                "extent": "204.5 linear ft.",
+                "displayEntry": "Carter, Amon Giles, 1879-1955. Amon G. Carter papers, 1806-1997 (bulk 1935-1955).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Carter, Amon Giles, 1879-1955.",
+                        "id": "9044502",
+                        "version": "7111307"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Carter, Amon G., Jr.",
+                        "id": "9044503",
+                        "version": "7111307"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Carter, Minnie Meachum.",
+                        "id": "9044504",
+                        "version": "7111307"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Stevenson, Ruth Carter.",
+                        "id": "9044505",
+                        "version": "7111307"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Deakins, Katrine.",
+                        "id": "9044506",
+                        "version": "7111307"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6c92zz7",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Texas Christian University",
+                            "preferenceScore": "99",
+                            "id": "76783939",
+                            "version": "11232953"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Texas Christian University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "2913 W Lowden",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783944",
+                                    "version": "11232953"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "TCU Box 298400",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783945",
+                                    "version": "11232953"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Fort Worth",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783946",
+                                    "version": "11232953"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-TX",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783947",
+                                    "version": "11232953"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "76129",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783948",
+                                    "version": "11232953"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783949",
+                                    "version": "11232953"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15767",
+                                "name": "Texas Christian University",
+                                "latitude": "32.7089729",
+                                "longitude": "-97.3580170"
+                            },
+                            "confirmed": true,
+                            "id": "76783943",
+                            "version": "11232953"
+                        }
+                    ],
+                    "id": "76783938",
+                    "version": "11232956"
+                },
+                "id": "7111307",
+                "version": "7111307"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Carter, Amon Giles, 1879-1955. Amon G. Carter papers, 1806-1997 (bulk 1935-1955).",
+            "id": "59929687",
+            "version": "8763626"
+        }
+    ],
+    "id": "59929680",
+    "version": "8763627"
+}

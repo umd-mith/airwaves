@@ -1,0 +1,378 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f54z6c",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T07:44:30",
+            "standardDateTime": "2016-08-12T07:44:30",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T07:44:30",
+            "standardDateTime": "2016-08-12T07:44:30",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/710844490",
+            "id": "28946602",
+            "version": "4224248"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/crnlu\/KCL05780-181m.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"MARC 610\">WFDR-FM (Radio Station : New York, N.Y.)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/rmc.library.cornell.edu\/EAD\/xml\/dlxs\/KCL05780-181m.xml",
+            "id": "28946603",
+            "version": "4224248"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WFDR-FM (Radio Station : New York, N.Y.)",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WFDR-FM (Radio Station : New York, N.Y.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "28946605",
+                    "version": "4224248"
+                }
+            ],
+            "id": "28946604",
+            "version": "4224248",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"crnlu\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79163930",
+                    "version": "4224248"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "28946601",
+            "targetConstellation": "1969865",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6f54z6c",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w66n0gsb",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "International Ladies' Garment Workers' Union.",
+            "id": "28946610",
+            "version": "4224248"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "28946601",
+            "targetConstellation": "73216507",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6f54z6c",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67h9n3s",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "International Ladies' Garment Workers' Union.",
+            "id": "28946611",
+            "version": "4224248"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/710844490",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:710844490<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-COO<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>International Ladies' Garment Workers' Union.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>ILGWU. Memorabilia. WFDR-FM Inaugural Broadcast Program, 1949.<\/title>\n                  <\/titleInfo>\n                  <abstract>This collection consists of one program issued on the occasion of WFDR-FM's inaugural broadcast. <\/abstract>\n                  <name>\n                     <namePart>Cornell University Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "ILGWU. Memorabilia. WFDR-FM Inaugural Broadcast Program, 1949.",
+                "abstract": "This collection consists of one program issued on the occasion of WFDR-FM's inaugural broadcast. ",
+                "extent": "1 program.",
+                "displayEntry": "International Ladies' Garment Workers' Union. ILGWU. Memorabilia. WFDR-FM Inaugural Broadcast Program, 1949.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "International Ladies' Garment Workers' Union.",
+                        "id": "10812921",
+                        "version": "8075043"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sc4v5v",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Cornell University Library",
+                            "preferenceScore": "99",
+                            "id": "76765388",
+                            "version": "11226005"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Cornell University Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "201 Olin Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765393",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Ithaca",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765394",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765395",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "14853-5301",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765396",
+                                    "version": "11226005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765397",
+                                    "version": "11226005"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15986",
+                                "name": "Cornell University Library",
+                                "latitude": "42.4467000",
+                                "longitude": "-76.4957000"
+                            },
+                            "confirmed": true,
+                            "id": "76765392",
+                            "version": "11226005"
+                        }
+                    ],
+                    "id": "76765387",
+                    "version": "11226008"
+                },
+                "id": "8075043",
+                "version": "8075043"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "International Ladies' Garment Workers' Union. ILGWU. Memorabilia. WFDR-FM Inaugural Broadcast Program, 1949.",
+            "id": "28946612",
+            "version": "4224248"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/rmc.library.cornell.edu\/EAD\/xml\/dlxs\/KCL05780-181m.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>ILGWU. Memorabilia. WFDR-FM\n\t\t\t\tInaugural Broadcast Program, <unitdate>1949.<\/unitdate>\n                  <\/unittitle>\n                  <unitid>5780\/181 m<\/unitid>\n                  <origination>\n                     <corpname>International Ladies'\n\t\t\t\t\tGarment Workers' Union.<\/corpname>\n                  <\/origination>\n                  <physdesc>1 program<\/physdesc>\n                  <physdesc>Program<\/physdesc>\n                  <repository>Kheel Center for Labor-Management Documentation and\n\t\t\t\tArchives, Cornell University Library<\/repository>\n                  <abstract>This collection consists of one program issued on the\n\t\t\t\toccasion of WFDR-FM's inaugural broadcast.<\/abstract>\n                  <langmaterial>Collection material in <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "ILGWU. Memorabilia. WFDR-FMInaugural Broadcast Program, 1949.",
+                "abstract": "This collection consists of one program issued on theoccasion of WFDR-FM's inaugural broadcast.",
+                "displayEntry": "ILGWU. Memorabilia. WFDR-FM Inaugural Broadcast Program, 1949.",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11461182",
+                        "version": "6399729"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6n11w97",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Kheel Center for Labor-Management Documentation and Archives, Cornell University Library",
+                            "preferenceScore": "99",
+                            "id": "76794071",
+                            "version": "11238093"
+                        }
+                    ],
+                    "id": "76794070",
+                    "version": "11238096"
+                },
+                "id": "6399729",
+                "version": "6399729"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "ILGWU. Memorabilia. WFDR-FM Inaugural Broadcast Program, 1949.",
+            "id": "28946613",
+            "version": "4224248"
+        }
+    ],
+    "id": "28946601",
+    "version": "4224249"
+}

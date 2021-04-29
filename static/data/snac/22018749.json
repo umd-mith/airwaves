@@ -1,0 +1,363 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6j79m02",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-02-25",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T12:54:09",
+            "standardDateTime": "2016-08-11T12:54:09",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T12:54:09",
+            "standardDateTime": "2016-08-11T12:54:09",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/lc\/mu002011.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"260$b\">Nippon Hoso Shuppan Kyokai<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/hdl.loc.gov\/loc.music\/eadmus.mu002011",
+            "id": "22018750",
+            "version": "3219353"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Nippon Hoso Shuppan Kyokai",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Nippon Hoso Shuppan Kyokai",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "22018752",
+                    "version": "3219353"
+                }
+            ],
+            "id": "22018751",
+            "version": "3219353",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"lc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78607063",
+                    "version": "3219353"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "22018749",
+            "targetConstellation": "66911148",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6j79m02",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6pz573t",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Slonimsky, Nicolas, 1894-1995",
+            "id": "22018755",
+            "version": "3219353"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/hdl.loc.gov\/loc.music\/eadmus.mu002011",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Nicolas Slonimsky Collection<unitdate>1873-1997<\/unitdate>\n                     <unitdate>(bulk 1920-1990)<\/unitdate>\n                  <\/unittitle>\n                  <unitid>ML31.S6<\/unitid>\n                  <origination>\n                     <persname>Slonimsky, Nicolas, 1894-1995<\/persname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>circa 118,600 items<\/extent>\n                     <extent>354 boxes<\/extent>\n                     <extent>500 linear feet<\/extent>\n                  <\/physdesc>\n                  <langmaterial>Collection material in <language>English<\/language>\n                  <\/langmaterial>\n                  <repository>\n                     <corpname>\n                        <subarea>Music Division<\/subarea> Library of Congress<\/corpname>\n                     <address>\n                        <addressline>Washington, D.C.<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <abstract>Collection contains materials collected by Slonimsky throughout his lifetime that document his life and work as musicologist, composer, conductor, lecturer and author. Included are personal biographical materials; Slonimsky's writings (drafts, typescripts, reprints, etc.) of newspaper, periodical, journal, and magazine articles, record liner notes, radio broadcasts, and talks, published and unpublished; music composed by Slonimsky, manuscript and printed; concert programs; correspondence, among many others, with Henry Cowell, Alexandre Gretchaninoff, Roy Harris, Charles Ives, and Edgar Var\u00e8se; biographical materials on composers and performers mosly generated when Slonimsky was editing Baker's and The international cyclopedia; music collected by Slonimsky, manuscript and printed and multi-composer collections; among the manuscripts are many short holographic works and fragments; scrapbooks; and iconographical material, such as family photographs an those of composers and musicians from the former Soviet Union, as well as little known musicians from the United States and elsewhere.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Nicolas Slonimsky Collection 1873-1997 (bulk 1920-1990)",
+                "abstract": "Collection contains materials collected by Slonimsky throughout his lifetime that document his life and work as musicologist, composer, conductor, lecturer and author. Included are personal biographical materials; Slonimsky's writings (drafts, typescripts, reprints, etc.) of newspaper, periodical, journal, and magazine articles, record liner notes, radio broadcasts, and talks, published and unpublished; music composed by Slonimsky, manuscript and printed; concert programs; correspondence, among many others, with Henry Cowell, Alexandre Gretchaninoff, Roy Harris, Charles Ives, and Edgar Var\u00e8se; biographical materials on composers and performers mosly generated when Slonimsky was editing Baker's and The international cyclopedia; music collected by Slonimsky, manuscript and printed and multi-composer collections; among the manuscripts are many short holographic works and fragments; scrapbooks; and iconographical material, such as family photographs an those of composers and musicians from the former Soviet Union, as well as little known musicians from the United States and elsewhere.",
+                "extent": "circa 118,600 items; 354 boxes; 500 linear feet",
+                "displayEntry": "Nicolas Slonimsky Collection, 1873-1997, (bulk 1920-1990)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Slonimsky, Nicolas, 1894-1995",
+                        "id": "11395027",
+                        "version": "6357812"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11395028",
+                        "version": "6357812"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sp10dm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Library of Congress. Music Division",
+                            "preferenceScore": "99",
+                            "id": "84528638",
+                            "version": "11384248"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Music Division Library of Congress",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Washington, D.C.",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528660",
+                                    "version": "11384248"
+                                }
+                            ],
+                            "id": "84528659",
+                            "version": "11384248"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Library of Congress, Music Division \/ Research Series",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "101 Independence Avenue, SE",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528664",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "LM 113",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528665",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Washington",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528666",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-DC",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528667",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20540-0002",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528668",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528669",
+                                    "version": "11384248"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16793",
+                                "name": "Library of Congress, Music Division \/ Research Series",
+                                "latitude": "38.8870500",
+                                "longitude": "-77.0049860"
+                            },
+                            "confirmed": true,
+                            "id": "84528663",
+                            "version": "11384248"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States, Library of Congress, Music Division",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "101 Independence Ave., S. E.  Washington, District Of Columbia 20540-4820  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528662",
+                                    "version": "11384248"
+                                }
+                            ],
+                            "id": "84528661",
+                            "version": "11384248"
+                        }
+                    ],
+                    "id": "84528631",
+                    "version": "11392009"
+                },
+                "id": "6357812",
+                "version": "6357812"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Nicolas Slonimsky Collection, 1873-1997, (bulk 1920-1990)",
+            "id": "22018756",
+            "version": "3219353"
+        }
+    ],
+    "id": "22018749",
+    "version": "3219354"
+}

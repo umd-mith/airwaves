@@ -1,0 +1,687 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w65x86nq",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T16:53:39",
+            "standardDateTime": "2016-08-18T16:53:39",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T16:53:39",
+            "standardDateTime": "2016-08-18T16:53:39",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/40879425",
+            "id": "70649948",
+            "version": "10327136"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/41940896",
+            "id": "70649947",
+            "version": "10327136"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/40879361",
+            "id": "70649949",
+            "version": "10327136"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/154863207",
+            "id": "70649950",
+            "version": "10327136"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "70649951",
+            "version": "10327136"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Greensboro Public Library (Greensboro, N.C.)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Greensboro Public Library (Greensboro, N.C.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "70649953",
+                    "version": "10327136"
+                }
+            ],
+            "id": "70649952",
+            "version": "10327136",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82580938",
+                    "version": "10327136"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Greensboro (N.C.). Public Library",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Greensboro (N.C.). Public Library",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "70649957",
+                    "version": "10327136"
+                }
+            ],
+            "id": "70649956",
+            "version": "10327136",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82580939",
+                    "version": "10327136"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "70649946",
+            "targetConstellation": "5397162",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w65x86nq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6c82802",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Weeks, Stephen B. (Stephen Beauregard), 1865-1918.",
+            "id": "70649966",
+            "version": "10327136"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Greensboro Public Library (Greensboro, N.C.)",
+            "uri": "https:\/\/viaf.org\/viaf\/154863207",
+            "id": "70649963",
+            "version": "10327136"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n87134896",
+            "id": "70649964",
+            "version": "10327136"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n87134896",
+            "id": "70649965",
+            "version": "10327136"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/40879425",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:40879425<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NGB<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Greensboro Public Library (Greensboro, N.C.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Marriage records from the files of the Greensboro, N.C. Patriot, 1826-1899 \/ compiled by the staff of the Greensboro Public Library. [1900?]<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Oceanside Free Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Marriage records from the files of the Greensboro, N.C. Patriot, 1826-1899 \/ compiled by the staff of the Greensboro Public Library. [1900?]",
+                "extent": "99 leaves ; 28 cm.",
+                "displayEntry": "Greensboro Public Library (Greensboro, N.C.). Marriage records from the files of the Greensboro, N.C. Patriot, 1826-1899 \/ compiled by the staff of the Greensboro Public Library.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Greensboro Public Library (Greensboro, N.C.)",
+                        "id": "9631942",
+                        "version": "7431069"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6xj0ds0",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill",
+                            "preferenceScore": "99",
+                            "id": "76787444",
+                            "version": "11234205"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of North Carolina at Chapel Hill",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Davis Library, CB#3914, 208 Raleigh St.",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787449",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chapel Hill",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787450",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NC",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787451",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "27514-8890",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787452",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787453",
+                                    "version": "11234205"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15097",
+                                "name": "University of North Carolina at Chapel Hill",
+                                "latitude": "35.9369000",
+                                "longitude": "-79.0397000"
+                            },
+                            "confirmed": true,
+                            "id": "76787448",
+                            "version": "11234205"
+                        }
+                    ],
+                    "id": "76787443",
+                    "version": "11363791"
+                },
+                "id": "7431069",
+                "version": "7431069"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Greensboro Public Library (Greensboro, N.C.). Marriage records from the files of the Greensboro, N.C. Patriot, 1826-1899 \/ compiled by the staff of the Greensboro Public Library.",
+            "id": "70649968",
+            "version": "10327136"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/41940896",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:41940896<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NGB<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Weeks, Stephen B. (Stephen Beauregard), 1865-1918.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Greensboro Public Library (Greensboro, N.C.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Agreement between Stephen B. Weeks and the trustees of the Greensboro Public Library in re the Weeks Collection of Caroliniana. 1908.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Oceanside Free Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Agreement between Stephen B. Weeks and the trustees of the Greensboro Public Library in re the Weeks Collection of Caroliniana. 1908.",
+                "extent": "[3] leaves ; 28 cm.",
+                "displayEntry": "Weeks, Stephen B. (Stephen Beauregard), 1865-1918. Agreement between Stephen B. Weeks and the trustees of the Greensboro Public Library in re the Weeks Collection of Caroliniana.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Weeks, Stephen B. (Stephen Beauregard), 1865-1918.",
+                        "id": "9648074",
+                        "version": "7442023"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Greensboro Public Library (Greensboro, N.C.)",
+                        "id": "9648075",
+                        "version": "7442023"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6xj0ds0",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill",
+                            "preferenceScore": "99",
+                            "id": "76787444",
+                            "version": "11234205"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of North Carolina at Chapel Hill",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Davis Library, CB#3914, 208 Raleigh St.",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787449",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chapel Hill",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787450",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NC",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787451",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "27514-8890",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787452",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787453",
+                                    "version": "11234205"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15097",
+                                "name": "University of North Carolina at Chapel Hill",
+                                "latitude": "35.9369000",
+                                "longitude": "-79.0397000"
+                            },
+                            "confirmed": true,
+                            "id": "76787448",
+                            "version": "11234205"
+                        }
+                    ],
+                    "id": "76787443",
+                    "version": "11363791"
+                },
+                "id": "7442023",
+                "version": "7442023"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Weeks, Stephen B. (Stephen Beauregard), 1865-1918. Agreement between Stephen B. Weeks and the trustees of the Greensboro Public Library in re the Weeks Collection of Caroliniana.",
+            "id": "70649967",
+            "version": "10327136"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/40879361",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:40879361<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NGB<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Greensboro Public Library (Greensboro, N.C.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Death records from the files of the Greensboro, N.C. Patriot, 1826-1899 \/ compiled by the staff of the Greensboro Public Library. [1900?]<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Oceanside Free Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Death records from the files of the Greensboro, N.C. Patriot, 1826-1899 \/ compiled by the staff of the Greensboro Public Library. [1900?]",
+                "extent": "49 leaves ; 28 cm.",
+                "displayEntry": "Greensboro Public Library (Greensboro, N.C.). Death records from the files of the Greensboro, N.C. Patriot, 1826-1899 \/ compiled by the staff of the Greensboro Public Library.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Greensboro Public Library (Greensboro, N.C.)",
+                        "id": "9631941",
+                        "version": "7431068"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6xj0ds0",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill",
+                            "preferenceScore": "99",
+                            "id": "76787444",
+                            "version": "11234205"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of North Carolina at Chapel Hill",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Davis Library, CB#3914, 208 Raleigh St.",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787449",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chapel Hill",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787450",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NC",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787451",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "27514-8890",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787452",
+                                    "version": "11234205"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787453",
+                                    "version": "11234205"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15097",
+                                "name": "University of North Carolina at Chapel Hill",
+                                "latitude": "35.9369000",
+                                "longitude": "-79.0397000"
+                            },
+                            "confirmed": true,
+                            "id": "76787448",
+                            "version": "11234205"
+                        }
+                    ],
+                    "id": "76787443",
+                    "version": "11363791"
+                },
+                "id": "7431068",
+                "version": "7431068"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Greensboro Public Library (Greensboro, N.C.). Death records from the files of the Greensboro, N.C. Patriot, 1826-1899 \/ compiled by the staff of the Greensboro Public Library.",
+            "id": "70649969",
+            "version": "10327136"
+        }
+    ],
+    "id": "70649946",
+    "version": "10327137"
+}

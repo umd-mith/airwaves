@@ -1,0 +1,208 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nt30vb",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-02-25",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T23:02:08",
+            "standardDateTime": "2016-08-16T23:02:08",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T23:02:08",
+            "standardDateTime": "2016-08-16T23:02:08",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/stanford\/mss\/photo450.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">South Carolina ETV Network (PBS)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt2199q2sr",
+            "id": "60888173",
+            "version": "8905586"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "South Carolina ETV Network (PBS)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "South Carolina ETV Network (PBS)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "60888175",
+                    "version": "8905586"
+                }
+            ],
+            "id": "60888174",
+            "version": "8905586",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81784781",
+                    "version": "8905586"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "60888172",
+            "targetConstellation": "2608407",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6nt30vb",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67491f1",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Ginsberg, Allen",
+            "id": "60888178",
+            "version": "8905586"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt2199q2sr",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Photographs by and relating to Allen Ginsberg<\/unittitle>\n                  <unitdate>1926-1997<\/unitdate>\n                  <unitid>Mss Photo 450<\/unitid>\n                  <origination>\n                     <persname>Ginsberg, Allen<\/persname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>88,000 images<\/extent>\n                     <extent>26 linear ft.<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Stanford University. Libraries. Dept. of Special Collections and University Archives.<\/corpname>\n                  <\/repository>\n                  <abstract>Photographs of and by poet Allen Ginsberg and colleagues.<\/abstract>\n                  <langmaterial>\nLanguages represented in the collection: \n<language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Photographs by and relating to Allen Ginsberg 1926-1997",
+                "abstract": "Photographs of and by poet Allen Ginsberg and colleagues.",
+                "extent": "88,000 images; 26 linear ft.",
+                "displayEntry": "Photographs by and relating to Allen Ginsberg, 1926-1997",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ginsberg, Allen",
+                        "id": "11282976",
+                        "version": "6652438"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11282977",
+                        "version": "6652438"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kb3xbb",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Stanford University. Libraries. Dept. of Special Collections and University Archives.",
+                            "preferenceScore": "99",
+                            "id": "76796445",
+                            "version": "11240293"
+                        }
+                    ],
+                    "id": "76796444",
+                    "version": "11240296"
+                },
+                "id": "6652438",
+                "version": "6652438"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Photographs by and relating to Allen Ginsberg, 1926-1997",
+            "id": "60888179",
+            "version": "8905586"
+        }
+    ],
+    "id": "60888172",
+    "version": "8905587"
+}

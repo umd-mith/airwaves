@@ -1,0 +1,360 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w68s67k1",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-23",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T20:03:31",
+            "standardDateTime": "2016-08-16T20:03:31",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T20:03:31",
+            "standardDateTime": "2016-08-16T20:03:31",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/247520301",
+            "id": "60174246",
+            "version": "8798624"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Logan, J. D. (John Daniel), 1869-1929. a new estimate of Mr. H.L. Mencken.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Logan, J. D. (John Daniel), 1869-1929. a new estimate of Mr. H.L. Mencken.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "60174248",
+                    "version": "8798624"
+                }
+            ],
+            "id": "60174247",
+            "version": "8798624",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81725548",
+                    "version": "8798624"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "60174244",
+            "targetConstellation": "748200",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w68s67k1",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6qn6759",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Mencken, H. L. (Henry Louis), 1880-1956.",
+            "id": "60174251",
+            "version": "8798624"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/247520301",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:247520301<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-CDS<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Mencken, H. L. (Henry Louis), 1880-1956.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Nathan, George Jean, 1882-1958.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Lippmann, Walter, 1889-1974.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Haardt, Sara, 1898-1935.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Logan, J. D. (John Daniel), 1869-1929. a new estimate of Mr. H.L. Mencken.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>San Diego State University. Library. Dept. of Special Collections.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>H. L. Mencken collection, 1914-1968 \/ [compiled by Special Collections and University Archives staff].<\/title>\n                  <\/titleInfo>\n                  <abstract>This small collection of pamphlets, reprints, and correspondence is part of the larger collection of one hundred individually cataloged monographs and serials by and about H. L. Mencken, which is also housed in Special Collections. These small items consist of promotional materials, special event publications, letters, and one sound recording. <\/abstract>\n                  <name>\n                     <namePart>San Diego State University Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "H. L. Mencken collection, 1914-1968 \/ [compiled by Special Collections and University Archives staff].",
+                "abstract": "This small collection of pamphlets, reprints, and correspondence is part of the larger collection of one hundred individually cataloged monographs and serials by and about H. L. Mencken, which is also housed in Special Collections. These small items consist of promotional materials, special event publications, letters, and one sound recording. ",
+                "extent": "21 items.",
+                "displayEntry": "Mencken, H. L. (Henry Louis), 1880-1956. H. L. Mencken collection, 1914-1968 \/ [compiled by Special Collections and University Archives staff].",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Mencken, H. L. (Henry Louis), 1880-1956.",
+                        "id": "9098735",
+                        "version": "7137026"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Nathan, George Jean, 1882-1958.",
+                        "id": "9098736",
+                        "version": "7137026"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lippmann, Walter, 1889-1974.",
+                        "id": "9098737",
+                        "version": "7137026"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Haardt, Sara, 1898-1935.",
+                        "id": "9098738",
+                        "version": "7137026"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Logan, J. D. (John Daniel), 1869-1929. a new estimate of Mr. H.L. Mencken.",
+                        "id": "9098739",
+                        "version": "7137026"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "San Diego State University. Library. Dept. of Special Collections.",
+                        "id": "9098740",
+                        "version": "7137026"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "9098741",
+                        "version": "7137026"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "144",
+                            "term": "fre",
+                            "type": "language_code",
+                            "description": "French"
+                        },
+                        "id": "9098742",
+                        "version": "7137026"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6330jgp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "San Diego State University Library, SDSU Library and Information Access",
+                            "preferenceScore": "99",
+                            "id": "76781471",
+                            "version": "11232033"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "San Diego State University Library, SDSU Library and Information Access",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "5500 Campanile Drive",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76781475",
+                                    "version": "11232033"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "San Diego",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76781476",
+                                    "version": "11232033"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76781477",
+                                    "version": "11232033"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "92182-8050",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76781478",
+                                    "version": "11232033"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76781479",
+                                    "version": "11232033"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16635",
+                                "name": "San Diego State University Library, SDSU Library and Information Access",
+                                "latitude": "32.7722626",
+                                "longitude": "-117.0719070"
+                            },
+                            "confirmed": true,
+                            "id": "76781474",
+                            "version": "11232033"
+                        }
+                    ],
+                    "id": "76781470",
+                    "version": "11232036"
+                },
+                "id": "7137026",
+                "version": "7137026"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Mencken, H. L. (Henry Louis), 1880-1956. H. L. Mencken collection, 1914-1968 \/ [compiled by Special Collections and University Archives staff].",
+            "id": "60174252",
+            "version": "8798624"
+        }
+    ],
+    "id": "60174244",
+    "version": "8798625",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1869",
+            "fromDateOriginal": "1869",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "toDate": "1929",
+            "toDateOriginal": "1929",
+            "toType": {
+                "id": "690",
+                "term": "Death",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Death",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "60174245",
+            "version": "8798624"
+        }
+    ]
+}

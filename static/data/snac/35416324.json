@@ -1,0 +1,282 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6t78zxd",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T03:01:46",
+            "standardDateTime": "2016-08-13T03:01:46",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T03:01:46",
+            "standardDateTime": "2016-08-13T03:01:46",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/57591594",
+            "id": "35416325",
+            "version": "5172266"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Pennsylvania School Study Council.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Pennsylvania School Study Council.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "35416327",
+                    "version": "5172266"
+                }
+            ],
+            "id": "35416326",
+            "version": "5172266",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79693328",
+                    "version": "5172266"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "35416324",
+            "targetConstellation": "50074302",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t78zxd",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vf3dm7",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Pennsylvania State University. Workforce Education and Development Program.",
+            "id": "35416330",
+            "version": "5172266"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/57591594",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:57591594<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UPM<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Pennsylvania State University. Workforce Education and Development Program.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Pennsylvania State University, Workforce Education and Development Program records, 1907-1999.<\/title>\n                  <\/titleInfo>\n                  <abstract>The Workforce Education and Development Program Records contains materials highlighting the evolution and development of the program. The collection provides extensive information and insight into the past and more recent research and scholarship in the field, as well as offering a glimpse into the life and times of Penn State students of previous generations pursuing careers in Workforce Education and Development. A large portion the Workforce Education and Development Program Records is comprised of Reports, which focus on a number of areas of research, including: Vocational and Vocational-Technical Education, Continuing Education, Industrial Education, Leadership Training, Computer Assisted Instruction, the Faculty Development Institute, the Special Education Speech and Hearing Clinic, the Professional Personnel Development Center, and a study in conjunction with Penn State's WPSX-TV regarding educational needs in the cable television industry. Another substantial portion of the collection is Bulletins, which reflect the various changes in program requirements over the years, as well as providing a look into perspectives on life and career throughout the 20th century. Among the other headings in this collection are Publications, Journals, Notes, Handbooks, and Reference Guides, all of which further highlight the evolution and development of the program, as well as its contributions to the field of Workforce Education. Items include booklets, brochures, bulletins, handbooks, journals, notes, publications, reference guides, reports, case studies, and scoring sheets. <\/abstract>\n                  <name>\n                     <namePart>Pennsylvania State University Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Pennsylvania State University, Workforce Education and Development Program records, 1907-1999.",
+                "abstract": "The Workforce Education and Development Program Records contains materials highlighting the evolution and development of the program. The collection provides extensive information and insight into the past and more recent research and scholarship in the field, as well as offering a glimpse into the life and times of Penn State students of previous generations pursuing careers in Workforce Education and Development. A large portion the Workforce Education and Development Program Records is comprised of Reports, which focus on a number of areas of research, including: Vocational and Vocational-Technical Education, Continuing Education, Industrial Education, Leadership Training, Computer Assisted Instruction, the Faculty Development Institute, the Special Education Speech and Hearing Clinic, the Professional Personnel Development Center, and a study in conjunction with Penn State's WPSX-TV regarding educational needs in the cable television industry. Another substantial portion of the collection is Bulletins, which reflect the various changes in program requirements over the years, as well as providing a look into perspectives on life and career throughout the 20th century. Among the other headings in this collection are Publications, Journals, Notes, Handbooks, and Reference Guides, all of which further highlight the evolution and development of the program, as well as its contributions to the field of Workforce Education. Items include booklets, brochures, bulletins, handbooks, journals, notes, publications, reference guides, reports, case studies, and scoring sheets. ",
+                "extent": "7 cubic feet.",
+                "displayEntry": "Pennsylvania State University. Workforce Education and Development Program. Pennsylvania State University, Workforce Education and Development Program records, 1907-1999.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Pennsylvania State University. Workforce Education and Development Program.",
+                        "id": "10110150",
+                        "version": "7763099"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6dc8qdf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Pennsylvania State University Libraries",
+                            "preferenceScore": "99",
+                            "id": "76779322",
+                            "version": "11231249"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Pennsylvania State University Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "126 Paterno Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76779327",
+                                    "version": "11231249"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "University Park",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76779328",
+                                    "version": "11231249"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76779329",
+                                    "version": "11231249"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "16802-1805",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76779330",
+                                    "version": "11231249"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76779331",
+                                    "version": "11231249"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15424",
+                                "name": "Pennsylvania State University Libraries",
+                                "latitude": "40.7978790",
+                                "longitude": "-77.8660190"
+                            },
+                            "confirmed": true,
+                            "id": "76779326",
+                            "version": "11231249"
+                        }
+                    ],
+                    "id": "76779321",
+                    "version": "11231252"
+                },
+                "id": "7763099",
+                "version": "7763099"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Pennsylvania State University. Workforce Education and Development Program. Pennsylvania State University, Workforce Education and Development Program records, 1907-1999.",
+            "id": "35416331",
+            "version": "5172266"
+        }
+    ],
+    "id": "35416324",
+    "version": "5172267"
+}

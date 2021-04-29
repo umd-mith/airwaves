@@ -1,0 +1,308 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6c95j53",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T10:13:40",
+            "standardDateTime": "2016-08-14T10:13:40",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T10:13:40",
+            "standardDateTime": "2016-08-14T10:13:40",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/ahub\/f_22860.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Adventures in Motion Pictures<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archiveshub.ac.uk\/data\/gb71-thm\/22",
+            "id": "44863623",
+            "version": "6552755"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/hou02197.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Adventures in Motion Pictures.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/hou02197\/catalog",
+            "id": "44863622",
+            "version": "6552755"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/143530907",
+            "id": "44863624",
+            "version": "6552755"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "44863625",
+            "version": "6552755"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Adventures in Motion Pictures",
+            "preferenceScore": "3",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Adventures in Motion Pictures",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "44863627",
+                    "version": "6552755"
+                }
+            ],
+            "id": "44863626",
+            "version": "6552755",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"ahub\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80468298",
+                    "version": "6552755"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "44863621",
+            "targetConstellation": "63979400",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6c95j53",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vr8364",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Contemporary Dance Trust",
+            "id": "44863635",
+            "version": "6552755"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Adventures in Motion Pictures",
+            "uri": "https:\/\/viaf.org\/viaf\/143530907",
+            "id": "44863634",
+            "version": "6552755"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/hou02197\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Harvard Theatre Collection, Houghton Library, Harvard College Library,\n\t\t\t\tHarvard University <\/repository>\n                  <physloc>Harvard Depository <\/physloc>\n                  <note>\n                     <p>This collection is shelved offsite at the Harvard Depository. See access\n\t\t\t\t\trestrictions below for additional information. <\/p>\n                  <\/note>\n                  <physloc>b, pf <\/physloc>\n                  <unitid>MS Thr 701 <\/unitid>\n                  <unittitle>Souvenir programs for theatrical productions, <\/unittitle>\n                  <unitdate>1906-2005.<\/unitdate>\n                  <physdesc>\n                     <extent>14 boxes (4.2 linear ft.)<\/extent>\n                  <\/physdesc>\n                  <langmaterial>Collection materials are in <language>English.\n\t\t\t\t<\/language>\n                  <\/langmaterial>\n                  <abstract>Printed souvenir programs for theatrical and musical productions. <\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Souvenir programs for theatrical productions, 1906-2005.",
+                "abstract": "Printed souvenir programs for theatrical and musical productions.",
+                "extent": "14 boxes (4.2 linear ft.)",
+                "displayEntry": "Souvenir programs for theatrical productions, 1906-2005.",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11439270",
+                        "version": "6385257"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6x45m72",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard Theatre Collection, Houghton Library, Harvard College Library, Harvard University.",
+                            "preferenceScore": "99",
+                            "id": "76793543",
+                            "version": "11237589"
+                        }
+                    ],
+                    "id": "76793542",
+                    "version": "11237592"
+                },
+                "id": "6385257",
+                "version": "6385257"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Souvenir programs for theatrical productions, 1906-2005.",
+            "id": "44863636",
+            "version": "6552755"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archiveshub.ac.uk\/data\/gb71-thm\/22",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>V&amp;A Museum: Department of Theatre and Performance<\/corpname>\n                  <\/repository>\n                  <unittitle>Contemporary Dance Trust Archive<\/unittitle>\n                  <unitdate>1957-1998<\/unitdate>\n                  <unitid>THM\/22<\/unitid>\n                  <physdesc>\n                     <extent>2999 files<\/extent>\n                  <\/physdesc>\n                  <origination>\n                     <corpname>Contemporary Dance Trust<\/corpname>\n                  <\/origination>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Contemporary Dance Trust Archive 1957-1998",
+                "extent": "2999 files",
+                "displayEntry": "Contemporary Dance Trust Archive, 1957-1998",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11330473",
+                        "version": "6300709"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6g843jv",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "V&A Museum: Department of Theatre and Performance",
+                            "preferenceScore": "99",
+                            "id": "76798275",
+                            "version": "11242061"
+                        }
+                    ],
+                    "id": "76798274",
+                    "version": "11242064"
+                },
+                "id": "6300709",
+                "version": "6300709"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Contemporary Dance Trust Archive, 1957-1998",
+            "id": "44863637",
+            "version": "6552755"
+        }
+    ],
+    "id": "44863621",
+    "version": "6552756"
+}

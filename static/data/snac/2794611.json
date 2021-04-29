@@ -1,0 +1,200 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nx4cgc",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-12",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T18:14:14",
+            "standardDateTime": "2016-08-09T18:14:14",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T18:14:14",
+            "standardDateTime": "2016-08-09T18:14:14",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/umi\/bentley\/umnisfac.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Bender, William, Jr.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/quod.lib.umich.edu\/b\/bhlead\/umich-bhl-2009097?rgn=main;view=text",
+            "id": "2794612",
+            "version": "404138"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Bender, William, Jr.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Bender, William, Jr.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "2794614",
+                    "version": "404138"
+                }
+            ],
+            "id": "2794613",
+            "version": "404138",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"umi\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77031208",
+                    "version": "404138"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "2794611",
+            "targetConstellation": "53575936",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6nx4cgc",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bw2fkn",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Michigan. News and Information Services.",
+            "id": "2794617",
+            "version": "404138"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "https:\/\/quod.lib.umich.edu\/b\/bhlead\/umich-bhl-2009097",
+                "title": "News and Information Services (University of Michigan) Faculty and Staff Files: 1944-2005 (bulk 1960-1995)",
+                "abstract": "The Faculty and Staff files contain biographical and background information created and collected by the University of Michigan News and Information Services.  News and Information Services is the media relations office of the university.  The files represent more than 6,000 individual faculty and staff members.  Some files contain photographs.",
+                "extent": "145 linear feet",
+                "date": "1944-2005",
+                "displayEntry": "University of Michigan. News and Information Services. Faculty and Staff Files, 1944-2005 (bulk 1960-1995)",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11442641",
+                        "version": "6388615"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w65f9fmq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Bentley Historical Library , University of Michigan",
+                            "preferenceScore": "99",
+                            "id": "76792059",
+                            "version": "11236157"
+                        }
+                    ],
+                    "id": "76792058",
+                    "version": "11236160"
+                },
+                "id": "6388615",
+                "version": "6388615"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "News and Information Services (University of Michigan) Faculty and Staff Files, 1944-2005, 1960-1995",
+            "id": "2794618",
+            "version": "404138"
+        }
+    ],
+    "id": "2794611",
+    "version": "404139"
+}

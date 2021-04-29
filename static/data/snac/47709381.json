@@ -1,0 +1,770 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w67d81ch",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-20",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T20:18:02",
+            "standardDateTime": "2016-08-14T20:18:02",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T20:18:02",
+            "standardDateTime": "2016-08-14T20:18:02",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/742053394",
+            "id": "47709384",
+            "version": "6967946"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/663099051",
+            "id": "47709383",
+            "version": "6967946"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/141120466",
+            "id": "47709385",
+            "version": "6967946"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/38477531",
+            "id": "47709382",
+            "version": "6967946"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "47709386",
+            "version": "6967946"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Atlanta (Ga.). Board of Education",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Atlanta (Ga.). Board of Education",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "47709388",
+                    "version": "6967946"
+                }
+            ],
+            "id": "47709387",
+            "version": "6967946",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80697679",
+                    "version": "6967946"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Atlanta (Ga.). Education, Board of",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Atlanta (Ga.). Education, Board of",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "47709392",
+                    "version": "6967946"
+                }
+            ],
+            "id": "47709391",
+            "version": "6967946",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80697680",
+                    "version": "6967946"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "47709381",
+            "targetConstellation": "18200709",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w67d81ch",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w69d5j25",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Atlanta Education Association.",
+            "id": "47709401",
+            "version": "6967946"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "47709381",
+            "targetConstellation": "37133545",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w67d81ch",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tf53hm",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Atlanta (Ga.)",
+            "id": "47709403",
+            "version": "6967946"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "47709381",
+            "targetConstellation": "21509527",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w67d81ch",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67x49dx",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Randolph, Grady Lee, 1915-2005.",
+            "id": "47709402",
+            "version": "6967946"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "47709381",
+            "targetConstellation": "5079579",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w67d81ch",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6j150wp",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Atlanta Board of Education (Ga.)"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "47709381",
+            "targetConstellation": "59678321",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w67d81ch",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6xx0mj4",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Atlanta Board of Education."
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Atlanta (Ga.). Board of Education",
+            "uri": "https:\/\/viaf.org\/viaf\/141120466",
+            "id": "47709398",
+            "version": "6967946"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no2009061796",
+            "id": "47709399",
+            "version": "6967946"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no2009061796",
+            "id": "47709400",
+            "version": "6967946"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/663099051",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:663099051<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-GEH<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Randolph, Grady Lee, 1915-2005.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Grady Lee Randolph diaries, 1931-2001.<\/title>\n                  <\/titleInfo>\n                  <abstract>The collection contains eighty-six volumes of diaries written by Grady Lee Randolph that include memoirs, observations and analysis of daily life as a Alabama farm boy and later as a school teacher and permanent resident of Atlanta, Georgia. The collection spans from 1931 to 2001, but skips the year 1943. Randolph recorded over 20,000 daily diary entries that include observations of life during the Great Depression, and events such as the Gone With The Wind premier; World War II; The Winecoff Hotel Fire; the integration of Atlanta schools; the Civil Rights Movement; the Orly Plane Crash; the Missing and Murdered Children crisis; the Atlanta Teachers Association conflicts with the Superintendent of Atlanta Schools; and the transition to African American leadership in Atlanta city government.     Randolph's impressions of family, friends, colleagues, public officials, and events are pithy and sometimes his observations are caustic. Persons mentioned in the diaries include a wide panorama of personal friends, colleagues, and public figures. An abbreviated list of those mentioned include friends and colleagues Ernest and Jewel Silvey, Chester and Maude Elliot, Ernest and Helen Lumpkin, Randolph Thrower, Liza Paschal, Ruth Rogers,Lula Brown, Father Harry P. Hatzopoulos, Dr. John Alexander, David Wilson, Richard Katz, Douglas Harper, Ruth Rogers, Frank Adamson, Dr. James Everette De Vaugh, Louise Jeans, Bill Richards, and Byron King.     In addition, Randolph frequently mentions administrators and Board members within the Atlanta school system including G. Y. Smith, H. W. Cheney, Glenn Rainey, Wesley Cook, Pete Latimer, Sara Mitchell, Obie Brewer, Glenn Frick, Willis Sutton, Ira Jarrell, Dr. John Letson, Ed Cook, Sr., Ed Cook, Jr., Jarvis Barnes, John Martin, Ruth Satterfield, Rual Stephens, Roger Derthick, Jarvis Barnes, John Martin, and Ruth Satterfield.     Public figures mentioned by Grady Randolph include Dr. Rufus Clement, Morris Abrams, Celestine Sibley, Ralph McGill, Herbert Jenkins, Henry L. Bowden, Hamilton Lokey, State Senator Hoke Smith, State Senator Millican, M. M. (Muggsy) Smith, William B. Hartsfield, Ivan Allen, Jr., Sam Massell, Maynard Jackson, Bill Campbell, Ed Rivers, Eugene and Herman Talmadge, Jimmy Carter, Zell Miller, and Roy Barnes. Randolph's thoughts about international events led him to comment on U.S. Presidents from Franklin D. Roosevelt to George W. Bush, as well as international figures including Adolph Hitler, Saddam Hussein, and others. <\/abstract>\n                  <name>\n                     <namePart>Atlanta History Center<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Grady Lee Randolph diaries, 1931-2001.",
+                "abstract": "The collection contains eighty-six volumes of diaries written by Grady Lee Randolph that include memoirs, observations and analysis of daily life as a Alabama farm boy and later as a school teacher and permanent resident of Atlanta, Georgia. The collection spans from 1931 to 2001, but skips the year 1943. Randolph recorded over 20,000 daily diary entries that include observations of life during the Great Depression, and events such as the Gone With The Wind premier; World War II; The Winecoff Hotel Fire; the integration of Atlanta schools; the Civil Rights Movement; the Orly Plane Crash; the Missing and Murdered Children crisis; the Atlanta Teachers Association conflicts with the Superintendent of Atlanta Schools; and the transition to African American leadership in Atlanta city government.     Randolph's impressions of family, friends, colleagues, public officials, and events are pithy and sometimes his observations are caustic. Persons mentioned in the diaries include a wide panorama of personal friends, colleagues, and public figures. An abbreviated list of those mentioned include friends and colleagues Ernest and Jewel Silvey, Chester and Maude Elliot, Ernest and Helen Lumpkin, Randolph Thrower, Liza Paschal, Ruth Rogers,Lula Brown, Father Harry P. Hatzopoulos, Dr. John Alexander, David Wilson, Richard Katz, Douglas Harper, Ruth Rogers, Frank Adamson, Dr. James Everette De Vaugh, Louise Jeans, Bill Richards, and Byron King.     In addition, Randolph frequently mentions administrators and Board members within the Atlanta school system including G. Y. Smith, H. W. Cheney, Glenn Rainey, Wesley Cook, Pete Latimer, Sara Mitchell, Obie Brewer, Glenn Frick, Willis Sutton, Ira Jarrell, Dr. John Letson, Ed Cook, Sr., Ed Cook, Jr., Jarvis Barnes, John Martin, Ruth Satterfield, Rual Stephens, Roger Derthick, Jarvis Barnes, John Martin, and Ruth Satterfield.     Public figures mentioned by Grady Randolph include Dr. Rufus Clement, Morris Abrams, Celestine Sibley, Ralph McGill, Herbert Jenkins, Henry L. Bowden, Hamilton Lokey, State Senator Hoke Smith, State Senator Millican, M. M. (Muggsy) Smith, William B. Hartsfield, Ivan Allen, Jr., Sam Massell, Maynard Jackson, Bill Campbell, Ed Rivers, Eugene and Herman Talmadge, Jimmy Carter, Zell Miller, and Roy Barnes. Randolph's thoughts about international events led him to comment on U.S. Presidents from Franklin D. Roosevelt to George W. Bush, as well as international figures including Adolph Hitler, Saddam Hussein, and others. ",
+                "extent": "8.3 linear ft. (20 document cases)",
+                "displayEntry": "Randolph, Grady Lee, 1915-2005. Grady Lee Randolph diaries, 1931-2001.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Randolph, Grady Lee, 1915-2005.",
+                        "id": "10605132",
+                        "version": "7955562"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nq2ssj",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Atlanta History Center, Kenan Research Center \/ Cherokee Garden Library",
+                            "preferenceScore": "99",
+                            "id": "76760880",
+                            "version": "11224337"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Atlanta History Center, Kenan Research Center \/ Cherokee Garden Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "130 W. Paces Ferry Rd. NW",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760885",
+                                    "version": "11224337"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Atlanta",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760886",
+                                    "version": "11224337"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-GA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760887",
+                                    "version": "11224337"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "30305-1366",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760888",
+                                    "version": "11224337"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760889",
+                                    "version": "11224337"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16354",
+                                "name": "Atlanta History Center, Kenan Research Center \/ Cherokee Garden Library",
+                                "latitude": "33.8411636",
+                                "longitude": "-84.3860474"
+                            },
+                            "confirmed": true,
+                            "id": "76760884",
+                            "version": "11224337"
+                        }
+                    ],
+                    "id": "76760879",
+                    "version": "11224340"
+                },
+                "id": "7955562",
+                "version": "7955562"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Randolph, Grady Lee, 1915-2005. Grady Lee Randolph diaries, 1931-2001.",
+            "id": "47709407",
+            "version": "6967946"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/38477531",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:38477531<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-GSU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Atlanta Education Association.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Atlanta Public School Teachers Association.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Atlanta Education Association records, 1905-1971.<\/title>\n                  <\/titleInfo>\n                  <abstract>The collection consists of records of the Atlanta Education Association (AEA) and the Atlanta Public School Teachers Association (APSTA) from 1905-1971. The bulk of the records (1905-1967) relate to the APSTA while materials after 1967 pertain to the AEA. Includes correspondence, minutes, financial documents, committee files and printed materials. The records document the APSTA's and AEA's relationship with the Georgia Education Association, the American Federation of Teachers, the National Education Association, and the Atlanta Board of Education while illustrating the development and progress of labor and education in Atlanta. <\/abstract>\n                  <name>\n                     <namePart>Georgia State University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Atlanta Education Association records, 1905-1971.",
+                "abstract": "The collection consists of records of the Atlanta Education Association (AEA) and the Atlanta Public School Teachers Association (APSTA) from 1905-1971. The bulk of the records (1905-1967) relate to the APSTA while materials after 1967 pertain to the AEA. Includes correspondence, minutes, financial documents, committee files and printed materials. The records document the APSTA's and AEA's relationship with the Georgia Education Association, the American Federation of Teachers, the National Education Association, and the Atlanta Board of Education while illustrating the development and progress of labor and education in Atlanta. ",
+                "extent": "25 linear ft.",
+                "displayEntry": "Atlanta Education Association. Atlanta Education Association records, 1905-1971.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Atlanta Education Association.",
+                        "id": "9592269",
+                        "version": "7404240"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Atlanta Public School Teachers Association.",
+                        "id": "9592270",
+                        "version": "7404240"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6zh7fpp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Georgia State University",
+                            "preferenceScore": "99",
+                            "id": "76768401",
+                            "version": "11227145"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Georgia State University",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "100 Decatur Street SE",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768406",
+                                    "version": "11227145"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Atlanta",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768407",
+                                    "version": "11227145"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-GA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768408",
+                                    "version": "11227145"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "30303-3202",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768409",
+                                    "version": "11227145"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76768410",
+                                    "version": "11227145"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17022",
+                                "name": "Georgia State University",
+                                "latitude": "33.7527008",
+                                "longitude": "-84.3865967"
+                            },
+                            "confirmed": true,
+                            "id": "76768405",
+                            "version": "11227145"
+                        }
+                    ],
+                    "id": "76768400",
+                    "version": "11227148"
+                },
+                "id": "7404240",
+                "version": "7404240"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Atlanta Education Association. Atlanta Education Association records, 1905-1971.",
+            "id": "47709406",
+            "version": "6967946"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/742053394",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:742053394<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-GEH<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Atlanta (Ga.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>City of Atlanta records, 1848-2004, undated.<\/title>\n                  <\/titleInfo>\n                  <abstract>This collection consists of administrative records from the City of Atlanta, which have been divided into fourteen series.  Records include materials pertaining to select mayors of Atlanta and correspondence and memos from the Executive Office.  The collection also includes City Council and Board of Alderman legislation, minutes, and proceedings.  Records also include material regarding transportation, public safety, finance, planning and community development, courts, public works, and maps.  Finally, the collection includes videotapes and information regarding select annexed municipalities. <\/abstract>\n                  <name>\n                     <namePart>Atlanta History Center<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "City of Atlanta records, 1848-2004, undated.",
+                "abstract": "This collection consists of administrative records from the City of Atlanta, which have been divided into fourteen series.  Records include materials pertaining to select mayors of Atlanta and correspondence and memos from the Executive Office.  The collection also includes City Council and Board of Alderman legislation, minutes, and proceedings.  Records also include material regarding transportation, public safety, finance, planning and community development, courts, public works, and maps.  Finally, the collection includes videotapes and information regarding select annexed municipalities. ",
+                "extent": "1183.17 linear ft.",
+                "displayEntry": "Atlanta (Ga.). City of Atlanta records, 1848-2004, undated.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Atlanta (Ga.)",
+                        "id": "10871966",
+                        "version": "8114625"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nq2ssj",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Atlanta History Center, Kenan Research Center \/ Cherokee Garden Library",
+                            "preferenceScore": "99",
+                            "id": "76760880",
+                            "version": "11224337"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Atlanta History Center, Kenan Research Center \/ Cherokee Garden Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "130 W. Paces Ferry Rd. NW",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760885",
+                                    "version": "11224337"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Atlanta",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760886",
+                                    "version": "11224337"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-GA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760887",
+                                    "version": "11224337"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "30305-1366",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760888",
+                                    "version": "11224337"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76760889",
+                                    "version": "11224337"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16354",
+                                "name": "Atlanta History Center, Kenan Research Center \/ Cherokee Garden Library",
+                                "latitude": "33.8411636",
+                                "longitude": "-84.3860474"
+                            },
+                            "confirmed": true,
+                            "id": "76760884",
+                            "version": "11224337"
+                        }
+                    ],
+                    "id": "76760879",
+                    "version": "11224340"
+                },
+                "id": "8114625",
+                "version": "8114625"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Atlanta (Ga.). City of Atlanta records, 1848-2004, undated.",
+            "id": "47709408",
+            "version": "6967946"
+        }
+    ],
+    "id": "47709381",
+    "version": "6967947"
+}

@@ -1,0 +1,251 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6cm3x7w",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T06:35:52",
+            "standardDateTime": "2016-08-13T06:35:52",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T06:35:52",
+            "standardDateTime": "2016-08-13T06:35:52",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/inu\/VAC0316.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WMAQ<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/webapp1.dlib.indiana.edu\/findingaids\/view?doc.view=entire_text&docId=VAC0316",
+            "id": "36527496",
+            "version": "5336819"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WMAQ",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WMAQ",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "36527498",
+                    "version": "5336819"
+                }
+            ],
+            "id": "36527497",
+            "version": "5336819",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"inu\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79786332",
+                    "version": "5336819"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "36527495",
+            "targetConstellation": "48313227",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cm3x7w",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w69d0m97",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "National Museum of American History (U.S.)",
+            "id": "36527502",
+            "version": "5336819"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "36527495",
+            "targetConstellation": "35107141",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cm3x7w",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wh8vt6",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Smithsonian Productions",
+            "id": "36527501",
+            "version": "5336819"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/webapp1.dlib.indiana.edu\/findingaids\/view?doc.view=entire_text&docId=VAC0316",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Indiana University, Archives of African American Music and Culture\n                    (AAAMC)<\/corpname>\n                     <address>\n                        <addressline>Smith Research Center, Rooms 180-181<\/addressline>\n                        <addressline>2805 E. 10th St.<\/addressline>\n                        <addressline>Bloomington, IN 47408-2601<\/addressline>\n                        <addressline>Phone: 812-855-8547<\/addressline>\n                        <addressline>Fax: 812-856-0333<\/addressline>\n                        <addressline>Email: aaamc@indiana.edu<\/addressline>\n                     <\/address>\n                     <lb\/>\n                     <extref>http:\/\/www.indiana.edu\/~aaamc<\/extref>\n                  <\/repository>\n                  <origination>\n                     <corpname>Smithsonian Productions<\/corpname>\n                     <corpname>National Museum of American History\n                    (U.S.)<\/corpname>\n                  <\/origination>\n                  <unittitle>Black Radio : Telling It Like It\n                Was<\/unittitle>\n                  <unitdate>circa\n                1920s-1997,<\/unitdate>\n                  <unitdate>bulk\n                1991-1995<\/unitdate>\n                  <unitid>SC\n                39<\/unitid>\n                  <physdesc>\n                     <extent>4.3 linear feet (10 boxes) + 364 sound cassettes (analog, stereo. ; 1 7\/8\n                    ips).<\/extent>\n                  <\/physdesc>\n                  <langmaterial> Materials are in <language>English<\/language>. <\/langmaterial>\n                  <abstract>Production materials documenting\n                Smithsonian's thirteen-part program on the role of radio in transforming the African\n                American community in the twentieth century. The program was produced in 1996 by\n                Jacquie Gales Webb for Smithsonian Productions, with assistance from the AAAMC. The\n                collection contains over 400 hours of interviews and historical aircheck tapes in\n                addition to articles, research files, program scripts, and transcripts. The audio\n                interviews feature conversations with over 150 well-known disc jockeys, radio\n                professionals, record company executives, journalists, and scholars. The historical\n                airchecks include station identifications and jingles, radio interviews with\n                prominent Black figures, coverage of historical events, and programs highlighting or\n                influenced by the contributions of Black performers, disc jockeys, and other\n                important persons in radio.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Black Radio : Telling It Like It                Was circa                1920s-1997, bulk                1991-1995",
+                "abstract": "Production materials documenting                Smithsonian's thirteen-part program on the role of radio in transforming the African                American community in the twentieth century. The program was produced in 1996 by                Jacquie Gales Webb for Smithsonian Productions, with assistance from the AAAMC. The                collection contains over 400 hours of interviews and historical aircheck tapes in                addition to articles, research files, program scripts, and transcripts. The audio                interviews feature conversations with over 150 well-known disc jockeys, radio                professionals, record company executives, journalists, and scholars. The historical                airchecks include station identifications and jingles, radio interviews with                prominent Black figures, coverage of historical events, and programs highlighting or                influenced by the contributions of Black performers, disc jockeys, and other                important persons in radio.",
+                "extent": "4.3 linear feet (10 boxes) + 364 sound cassettes (analog, stereo. ; 1 7\/8                    ips).",
+                "displayEntry": "Black Radio : Telling It Like It Was, circa 1920s-1997, bulk 1991-1995",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11603401",
+                        "version": "6625249"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r31q7w",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Indiana University, Archives of African American Music and Culture (AAAMC)http:\/\/www.indiana.edu\/~aaamc",
+                            "preferenceScore": "99",
+                            "id": "76793832",
+                            "version": "11237873"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Indiana University, Archives of African American Music and Culture (AAAMC)http:\/\/www.indiana.edu\/~aaamc",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Smith Research Center, Rooms 180-181 2805 E. 10th St. Bloomington, IN 47408-2601 Phone: 812-855-8547 Fax: 812-856-0333 Email: aaamc@indiana.edu",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76793835",
+                                    "version": "11237873"
+                                }
+                            ],
+                            "id": "76793834",
+                            "version": "11237873"
+                        }
+                    ],
+                    "id": "76793831",
+                    "version": "11237876"
+                },
+                "id": "6625249",
+                "version": "6625249"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Black Radio : Telling It Like It Was, circa 1920s-1997, bulk 1991-1995",
+            "id": "36527503",
+            "version": "5336819"
+        }
+    ],
+    "id": "36527495",
+    "version": "5336820"
+}

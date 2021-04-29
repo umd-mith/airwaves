@@ -1,0 +1,200 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nt30qj",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-02-25",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T15:21:26",
+            "standardDateTime": "2016-08-09T15:21:26",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T15:21:26",
+            "standardDateTime": "2016-08-09T15:21:26",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/stanford\/mss\/m0673.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">U.S. Department of Health, Education, and Welfare. Office of Education.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/tf9f59p0b2",
+            "id": "1120004",
+            "version": "163574"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "U.S. Department of Health, Education, and Welfare. Office of Education.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "U.S. Department of Health, Education, and Welfare. Office of Education.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "1120006",
+                    "version": "163574"
+                }
+            ],
+            "id": "1120005",
+            "version": "163574",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "76896401",
+                    "version": "163574"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "1120003",
+            "targetConstellation": "53400594",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6nt30qj",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w62k18m2",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Mexican American Legal Defense and Educational Fund",
+            "id": "1120009",
+            "version": "163574"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/tf9f59p0b2",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Mexican American Legal Defense and Educational Fund, 1968 -1983 \n<\/unittitle>\n                  <unitid>Special Collections M0673<\/unitid>\n                  <origination>\n                     <corpname>Mexican American Legal Defense and Educational Fund<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>1,200 linear ft.<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Stanford University. Libraries. Dept. of Special Collections and University Archives.<\/corpname>\n                  <\/repository>\n                  <abstract>Administrative records, litigation files, and special program files.<\/abstract>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Mexican American Legal Defense and Educational Fund, 1968 -1983",
+                "abstract": "Administrative records, litigation files, and special program files.",
+                "extent": "1,200 linear ft.",
+                "displayEntry": "Mexican American Legal Defense and Educational Fund, 1968 -1983",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11306809",
+                        "version": "6666788"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kb3xbb",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Stanford University. Libraries. Dept. of Special Collections and University Archives.",
+                            "preferenceScore": "99",
+                            "id": "76796445",
+                            "version": "11240293"
+                        }
+                    ],
+                    "id": "76796444",
+                    "version": "11240296"
+                },
+                "id": "6666788",
+                "version": "6666788"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Mexican American Legal Defense and Educational Fund, 1968 -1983",
+            "id": "1120010",
+            "version": "163574"
+        }
+    ],
+    "id": "1120003",
+    "version": "163575"
+}

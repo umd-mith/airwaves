@@ -1,0 +1,187 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6hs003r",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-05",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T12:44:57",
+            "standardDateTime": "2016-08-15T12:44:57",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T12:44:57",
+            "standardDateTime": "2016-08-15T12:44:57",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/uct\/MSS19890080.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Council for the Advancement of Economic Education<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/CSLC\/MSS19890080.html",
+            "id": "52181429",
+            "version": "7629509"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Council for the Advancement of Economic Education",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Council for the Advancement of Economic Education",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "52181431",
+                    "version": "7629509"
+                }
+            ],
+            "id": "52181430",
+            "version": "7629509",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"uct\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81070029",
+                    "version": "7629509"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "52181428",
+            "targetConstellation": "64978339",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hs003r",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6pw1jtr",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "AFL-CIO Connecticut State Labor Council.",
+            "id": "52181434",
+            "version": "7629509"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/CSLC\/MSS19890080.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Connecticut State Labor Council, AFL-CIO Records<\/unittitle>\n                  <unitid>1989.0080<\/unitid>\n                  <repository>\n                     <corpname>Archives &amp; Special Collections at the Thomas J. Dodd Research Center, University of Connecticut Libraries<\/corpname>\n                  <\/repository>\n                  <langmaterial>\n                     <language\/>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>202.5 Linear feet<\/extent>\n                  <\/physdesc>\n                  <unitdate>undated, 1909-1991.<\/unitdate>\n                  <abstract>In 1957, the Connecticut Federation of Labor and the Connecticut State Industrial Union Council (CSIUC) merged to form the Connecticut State Labor Council, AFL-CIO, generally referred to today as the Connecticut State AFL-CIO. The stated purpose of the new organization was to provide a more effective means of promoting and coordinating the principles and objectives of the AFL-CIO in Connecticut.<\/abstract>\n                  <origination>\n                     <corpname>AFL-CIO Connecticut State Labor Council.<\/corpname>\n                  <\/origination>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Connecticut State Labor Council, AFL-CIO Records undated, 1909-1991.",
+                "abstract": "In 1957, the Connecticut Federation of Labor and the Connecticut State Industrial Union Council (CSIUC) merged to form the Connecticut State Labor Council, AFL-CIO, generally referred to today as the Connecticut State AFL-CIO. The stated purpose of the new organization was to provide a more effective means of promoting and coordinating the principles and objectives of the AFL-CIO in Connecticut.",
+                "extent": "202.5 Linear feet",
+                "displayEntry": "Connecticut State Labor Council, AFL-CIO Records, undated, 1909-1991.",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6m14v4d",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archives and Special Collections at the Thomas J. Dodd Research Center, University of Connecticut Libraries",
+                            "preferenceScore": "99",
+                            "id": "76791767",
+                            "version": "11235865"
+                        }
+                    ],
+                    "id": "76791766",
+                    "version": "11316775"
+                },
+                "id": "6332159",
+                "version": "6332159"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Connecticut State Labor Council, AFL-CIO Records, undated, 1909-1991.",
+            "id": "52181435",
+            "version": "7629509"
+        }
+    ],
+    "id": "52181428",
+    "version": "7629510"
+}

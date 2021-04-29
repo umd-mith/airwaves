@@ -1,0 +1,657 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6ps6fd0",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T15:44:25",
+            "standardDateTime": "2016-08-14T15:44:25",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T15:44:25",
+            "standardDateTime": "2016-08-14T15:44:25",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/144652178",
+            "id": "46437235",
+            "version": "6781817"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/lc\/mu005002.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"110$a\">Federal Radio Education Committee<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/hdl.loc.gov\/loc.music\/eadmus.mu005002",
+            "id": "46437236",
+            "version": "6781817"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/nypl\/mss65.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" source=\"lcsh\">Federal Radio Education Committee<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archives.nypl.org\/mss\/65",
+            "id": "46437237",
+            "version": "6781817"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Federal Radio Education Committee.",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Federal Radio Education Committee.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "46437239",
+                    "version": "6781817"
+                }
+            ],
+            "id": "46437238",
+            "version": "6781817",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"nypl\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"lc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80595236",
+                    "version": "6781817"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "46437234",
+            "targetConstellation": "9116099",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ps6fd0",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cg4g7h",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "American Association for Adult Education.",
+            "id": "46437246",
+            "version": "6781817"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "46437234",
+            "targetConstellation": "58203828",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ps6fd0",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w68t0khb",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "United States. Joint Army and Navy Committee on Welfare and Recreation. Sub-Committee on Music",
+            "id": "46437247",
+            "version": "6781817"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/hdl.loc.gov\/loc.music\/eadmus.mu005002",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Joint Army and Navy Committee on Welfare and Recreation, Sub-Committee on Music Papers<unitdate>1941-1946<\/unitdate>\n                  <\/unittitle>\n                  <unitid>ML31.U5<\/unitid>\n                  <origination>\n                     <corpname>United States. Joint Army and Navy Committee on Welfare and Recreation. Sub-Committee on Music<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>circa 10,000 items<\/extent>\n                     <extent>45 boxes<\/extent>\n                     <extent>18 linear feet<\/extent>\n                  <\/physdesc>\n                  <langmaterial>Collection material in <language>English<\/language>\n                  <\/langmaterial>\n                  <repository>\n                     <corpname>\n                        <subarea>Music Division<\/subarea> Library of Congress<\/corpname>\n                     <address>\n                        <addressline>Washington, D.C.<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <abstract>The collection represents the working papers of the sub-committee: correspondence from members to, among others, Aaron Copland, Leonard Feist, Oscar Hammerstein II, Jerome Kern, Erich Leinsdorf, Alan Lomax, and Walter Toscanini; song book pamphlets (\"Army Hit Kits\"), sheet music; non-music publications; and administrative papers.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Joint Army and Navy Committee on Welfare and Recreation, Sub-Committee on Music Papers 1941-1946",
+                "abstract": "The collection represents the working papers of the sub-committee: correspondence from members to, among others, Aaron Copland, Leonard Feist, Oscar Hammerstein II, Jerome Kern, Erich Leinsdorf, Alan Lomax, and Walter Toscanini; song book pamphlets (\"Army Hit Kits\"), sheet music; non-music publications; and administrative papers.",
+                "extent": "circa 10,000 items; 45 boxes; 18 linear feet",
+                "displayEntry": "Joint Army and Navy Committee on Welfare and Recreation, Sub-Committee on Music Papers, 1941-1946",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11395210",
+                        "version": "6357836"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sp10dm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Library of Congress. Music Division",
+                            "preferenceScore": "99",
+                            "id": "84528638",
+                            "version": "11384248"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Music Division Library of Congress",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Washington, D.C.",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528660",
+                                    "version": "11384248"
+                                }
+                            ],
+                            "id": "84528659",
+                            "version": "11384248"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Library of Congress, Music Division \/ Research Series",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "101 Independence Avenue, SE",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528664",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "LM 113",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528665",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Washington",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528666",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-DC",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528667",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20540-0002",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528668",
+                                    "version": "11384248"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528669",
+                                    "version": "11384248"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16793",
+                                "name": "Library of Congress, Music Division \/ Research Series",
+                                "latitude": "38.8870500",
+                                "longitude": "-77.0049860"
+                            },
+                            "confirmed": true,
+                            "id": "84528663",
+                            "version": "11384248"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "United States, Library of Congress, Music Division",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "101 Independence Ave., S. E.  Washington, District Of Columbia 20540-4820  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84528662",
+                                    "version": "11384248"
+                                }
+                            ],
+                            "id": "84528661",
+                            "version": "11384248"
+                        }
+                    ],
+                    "id": "84528631",
+                    "version": "11392009"
+                },
+                "id": "6357836",
+                "version": "6357836"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Joint Army and Navy Committee on Welfare and Recreation, Sub-Committee on Music Papers, 1941-1946",
+            "id": "46437249",
+            "version": "6781817"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/144652178",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:144652178<\/recordOrigin>\n                     <recordContentSource>ISIL:NIC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>American Association for Adult Education.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hill, Frank Ernest, 1888-1969.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Tyson, Levering.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>American Association for Adult Education records, 1939-1940.<\/title>\n                  <\/titleInfo>\n                  <abstract>Records focus on a radio survey concerning radio listeners who used radio for educational purposes. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "American Association for Adult Education records, 1939-1940.",
+                "abstract": "Records focus on a radio survey concerning radio listeners who used radio for educational purposes. ",
+                "extent": "1.3 linear feet (3 boxes)",
+                "displayEntry": "American Association for Adult Education. American Association for Adult Education records, 1939-1940.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "American Association for Adult Education.",
+                        "id": "8641855",
+                        "version": "6827331"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hill, Frank Ernest, 1888-1969.",
+                        "id": "8641856",
+                        "version": "6827331"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tyson, Levering.",
+                        "id": "8641857",
+                        "version": "6827331"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kq8qkp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Campbell University, Wiggins Memorial Library",
+                            "preferenceScore": "99",
+                            "id": "76763301",
+                            "version": "11225237"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Campbell University, Wiggins Memorial Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Wiggins Memorial Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76763306",
+                                    "version": "11225237"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "P.O. Box 98 or 113 Main Street",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76763307",
+                                    "version": "11225237"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Buies Creek",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76763308",
+                                    "version": "11225237"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NC",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76763309",
+                                    "version": "11225237"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "27506",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76763310",
+                                    "version": "11225237"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76763311",
+                                    "version": "11225237"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16695",
+                                "name": "Campbell University, Wiggins Memorial Library",
+                                "latitude": "35.4070892",
+                                "longitude": "-78.7394028"
+                            },
+                            "confirmed": true,
+                            "id": "76763305",
+                            "version": "11225237"
+                        }
+                    ],
+                    "id": "76763300",
+                    "version": "11225240"
+                },
+                "id": "6827331",
+                "version": "6827331"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "American Association for Adult Education. American Association for Adult Education records, 1939-1940.",
+            "id": "46437248",
+            "version": "6781817"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archives.nypl.org\/mss\/65",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>American Association for Adult Education records<\/unittitle>\n                  <unitdate>1939-1940<\/unitdate>\n                  <unitid>MssCol 65<\/unitid>\n                  <unitid>65<\/unitid>\n                  <origination>\n                     <corpname>American Association for Adult Education<\/corpname>\n                  <\/origination>\n                  <repository>\n                     <corpname>The New York Public Library. Manuscripts and Archives Division.<\/corpname>\n                     <address>\n                        <addressline>Stephen A. Schwarzman Building<\/addressline>\n                        <addressline>Fifth Avenue at 42nd Street, New York, NY 10018-2788<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <physdesc>\n                     <extent>1.3 linear feet (3 boxes)<\/extent>\n                  <\/physdesc>\n                  <abstract>The American Association for Adult Education (A.A.A.E.) was founded in 1926 as an organization to promote continuing education and education for adults. The Association was absorbed by the Adult Education Association of the U.S.A. (A.E.A.) in 1951. Records focus on a radio survey concerning radio listeners who used radio for educational purposes. Survey was conducted across the United States and abroad, although responses from Europe were scarce because of World War II. The A.A.A.E. cooperated with the Federal Radio Education Committee who conducted the study. Both the A.A.A.E. and the Federal Radio Education Committee were headed by Frank Ernest Hill during this period. The Federal Radio Education Committee, in turn, was headed by the United States Office of Education. Two types of questionnaires were sent out. The first type, sent to radio stations, colleges, libraries, all C.C.C. camps, and YMCAs, was designed to locate \"listening groups\". The second survey was sent to the \"listening groups\" to establish information about those groups. Results were used to promote better education by radio. America's Town Meeting of the Air, a radio program, as well as Levering Tyson, director of the National Advisory Council on Radio in Education, took part in the survey.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "American Association for Adult Education records 1939-1940",
+                "abstract": "The American Association for Adult Education (A.A.A.E.) was founded in 1926 as an organization to promote continuing education and education for adults. The Association was absorbed by the Adult Education Association of the U.S.A. (A.E.A.) in 1951. Records focus on a radio survey concerning radio listeners who used radio for educational purposes. Survey was conducted across the United States and abroad, although responses from Europe were scarce because of World War II. The A.A.A.E. cooperated with the Federal Radio Education Committee who conducted the study. Both the A.A.A.E. and the Federal Radio Education Committee were headed by Frank Ernest Hill during this period. The Federal Radio Education Committee, in turn, was headed by the United States Office of Education. Two types of questionnaires were sent out. The first type, sent to radio stations, colleges, libraries, all C.C.C. camps, and YMCAs, was designed to locate \"listening groups\". The second survey was sent to the \"listening groups\" to establish information about those groups. Results were used to promote better education by radio. America's Town Meeting of the Air, a radio program, as well as Levering Tyson, director of the National Advisory Council on Radio in Education, took part in the survey.",
+                "extent": "1.3 linear feet (3 boxes)",
+                "displayEntry": "American Association for Adult Education records, 1939-1940",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6cs6hd1",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "New York Public Library. Manuscripts and Archives Division",
+                            "preferenceScore": "99",
+                            "id": "83852678",
+                            "version": "11294014"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "The New York Public Library. Manuscripts and Archives Division.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stephen A. Schwarzman Building Fifth Avenue at 42nd Street, New York, NY 10018-2788",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400244",
+                                        "term": "Street",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Street",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83852691",
+                                    "version": "11294014"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15028",
+                                "name": "New York Public Library System, NYPL",
+                                "latitude": "40.7534981",
+                                "longitude": "-73.9808884"
+                            },
+                            "confirmed": true,
+                            "id": "83852690",
+                            "version": "11294014"
+                        }
+                    ],
+                    "id": "83852674",
+                    "version": "11294016"
+                },
+                "id": "6314147",
+                "version": "6314147"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "American Association for Adult Education records, 1939-1940",
+            "id": "46437250",
+            "version": "6781817"
+        }
+    ],
+    "id": "46437234",
+    "version": "6781818"
+}

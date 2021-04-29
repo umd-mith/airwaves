@@ -1,0 +1,237 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w68f36mg",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-04",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T18:04:45",
+            "standardDateTime": "2016-08-10T18:04:45",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T18:04:45",
+            "standardDateTime": "2016-08-10T18:04:45",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/riamco\/US-RUn-msg53.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">Providence Bible Institute<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/library.brown.edu\/riamco\/render.php?eadid=US-RUn-msg53&view=title",
+            "id": "14342169",
+            "version": "2090396"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Providence Bible Institute",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Providence Bible Institute",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "14342171",
+                    "version": "2090396"
+                }
+            ],
+            "id": "14342170",
+            "version": "2090396",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"riamco\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77976057",
+                    "version": "2090396"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "14342168",
+            "targetConstellation": "75460524",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w68f36mg",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w69t6fgt",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Metz, William D.",
+            "id": "14342174",
+            "version": "2090396"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/library.brown.edu\/riamco\/render.php?eadid=US-RUn-msg53&view=title",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n                  <repository>\n                     <corpname>University of Rhode Island Library<subarea>Special Collections and Archives\nUnit<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline> 15 Lippitt\nRoad<\/addressline>\n                        <addressline> Kingston, RI\n02881-2011<\/addressline>\n                        <addressline>\n                           <extptr\/>E-mail: archives@etal.uri.edu<\/addressline>\n                        <addressline>\n                           <extptr\/>Website:\nhttp:\/\/www.uri.edu\/library\/special_collections\/<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <origination>\n                     <persname>Metz, William D.<\/persname>\n                  <\/origination>\n                  <unittitle>William D. Metz Collection<\/unittitle>\n                  <unitdate>1946-1982<\/unitdate>\n                  <unittitle>William D. Metz Collection<\/unittitle>\n                  <physdesc>\n                     <extent>20.5 linear feet<\/extent>\n                     <extent>41 box(es)<\/extent>\n                  <\/physdesc>\n                  <abstract>The William D. Metz papers relate primarily to his tenure as Professor of History at the University of Rhode Island from 1946 to 1982. The collection is comprised of two series; Subject Files and Correspondence. The Subject Files contain a wide range of materials pertaining to committees, organizations, fraternities, and departments of the University that Metz was involved with. The Correspondence series (1952-1981) contains letters and correspondence Metz received from or sent to various individuals during his tenure. Both series are arranged alphabetically.<\/abstract>\n                  <unitid>Mss. Gr. 53<\/unitid>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "William D. Metz Collection William D. Metz Collection 1946-1982",
+                "abstract": "The William D. Metz papers relate primarily to his tenure as Professor of History at the University of Rhode Island from 1946 to 1982. The collection is comprised of two series; Subject Files and Correspondence. The Subject Files contain a wide range of materials pertaining to committees, organizations, fraternities, and departments of the University that Metz was involved with. The Correspondence series (1952-1981) contains letters and correspondence Metz received from or sent to various individuals during his tenure. Both series are arranged alphabetically.",
+                "extent": "20.5 linear feet; 41 box(es)",
+                "displayEntry": "William D. Metz Collection William D. Metz Collection 1946-1982",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Metz, William D.",
+                        "id": "11396668",
+                        "version": "6359004"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11396669",
+                        "version": "6359004"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6cs6h6b",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Rhode Island Library Special Collections and Archives Unit",
+                            "preferenceScore": "99",
+                            "id": "76797988",
+                            "version": "11241785"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Rhode Island Library Special Collections and Archives Unit",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "15 LippittRoad Kingston, RI02881-2011 E-mail: archives@etal.uri.edu Website:http:\/\/www.uri.edu\/library\/special_collections\/",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76797991",
+                                    "version": "11241785"
+                                }
+                            ],
+                            "id": "76797990",
+                            "version": "11241785"
+                        }
+                    ],
+                    "id": "76797987",
+                    "version": "11241788"
+                },
+                "id": "6359004",
+                "version": "6359004"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "William D. Metz Collection, 1946-1982",
+            "id": "14342175",
+            "version": "2090396"
+        }
+    ],
+    "id": "14342168",
+    "version": "2090397"
+}

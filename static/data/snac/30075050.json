@@ -1,0 +1,295 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w62z70n8",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T11:00:52",
+            "standardDateTime": "2016-08-12T11:00:52",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T11:00:52",
+            "standardDateTime": "2016-08-12T11:00:52",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/435912050",
+            "id": "30075051",
+            "version": "4390463"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WQED",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WQED",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "30075053",
+                    "version": "4390463"
+                }
+            ],
+            "id": "30075052",
+            "version": "4390463",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79256731",
+                    "version": "4390463"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "30075050",
+            "targetConstellation": "41987134",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w62z70n8",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6x08prc",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Shapira, Frieda, 1914-2003",
+            "id": "30075056",
+            "version": "4390463"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/435912050",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:435912050<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-QQS<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Shapira, Frieda, 1914-2003<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Frieda and Saul Shapira papers, 1935-2003 [manuscript]<\/title>\n                  <\/titleInfo>\n                  <abstract>The Frieda and Saul Shapira Papers are housed in 35 archival boxes and arranged in two series. The material in this collection, consisting largely of correspondence, meeting minutes, notes, reports, newsletters, publications, and pamphlets, originates from a wide array of local nonprofit groups, including local philanthropic organizations, advocacy groups, schools, and healthcare organizations. <\/abstract>\n                  <name>\n                     <namePart>Historical Society of W Pennsylvania<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Frieda and Saul Shapira papers, 1935-2003 [manuscript]",
+                "abstract": "The Frieda and Saul Shapira Papers are housed in 35 archival boxes and arranged in two series. The material in this collection, consisting largely of correspondence, meeting minutes, notes, reports, newsletters, publications, and pamphlets, originates from a wide array of local nonprofit groups, including local philanthropic organizations, advocacy groups, schools, and healthcare organizations. ",
+                "extent": "36 linear feet",
+                "displayEntry": "Shapira, Frieda, 1914-2003. Frieda and Saul Shapira papers, 1935-2003 [manuscript]",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Shapira, Frieda, 1914-2003",
+                        "id": "9756211",
+                        "version": "7528967"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6xt6hwm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Historical Society of Western Pennsylvania, Heinz History Center Detre Library and Archives",
+                            "preferenceScore": "99",
+                            "id": "76769971",
+                            "version": "11227765"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Historical Society of Western Pennsylvania, Heinz History Center Detre Library and Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769976",
+                                    "version": "11227765"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1212 Smallman St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769977",
+                                    "version": "11227765"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Pittsburgh",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769978",
+                                    "version": "11227765"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769979",
+                                    "version": "11227765"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "15222-4200",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769980",
+                                    "version": "11227765"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76769981",
+                                    "version": "11227765"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15560",
+                                "name": "Historical Society of Western Pennsylvania, Heinz History Center Detre Library and Archives",
+                                "latitude": "40.4465790",
+                                "longitude": "-79.9921875"
+                            },
+                            "confirmed": true,
+                            "id": "76769975",
+                            "version": "11227765"
+                        }
+                    ],
+                    "id": "76769970",
+                    "version": "11227768"
+                },
+                "id": "7528967",
+                "version": "7528967"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Shapira, Frieda, 1914-2003. Frieda and Saul Shapira papers, 1935-2003 [manuscript]",
+            "id": "30075057",
+            "version": "4390463"
+        }
+    ],
+    "id": "30075050",
+    "version": "4390464"
+}

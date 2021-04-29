@@ -1,0 +1,235 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w69t84gv",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T05:26:07",
+            "standardDateTime": "2016-08-10T05:26:07",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T05:26:07",
+            "standardDateTime": "2016-08-10T05:26:07",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/taro\/dalpub\/00703.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"100\">KERA-TV<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.lib.utexas.edu\/taro\/dalpub\/00703\/00703-P.html",
+            "id": "8490743",
+            "version": "1232459"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KERA-TV",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KERA-TV",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "8490745",
+                    "version": "1232459"
+                }
+            ],
+            "id": "8490744",
+            "version": "1232459",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"taro\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77496070",
+                    "version": "1232459"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "8490742",
+            "targetConstellation": "7319546",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w69t84gv",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w61t341n",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Perkins, Mark",
+            "id": "8490748",
+            "version": "1232459"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.lib.utexas.edu\/taro\/dalpub\/00703\/00703-P.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <extref>\n                        <corpname>Texas\/Dallas History &amp; Archives, Dallas Public Library<\/corpname>\n                     <\/extref>\n                     <address>\n                        <addressline>1515 Young St <\/addressline>\n                        <addressline>Dallas, TX 75201<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <origination>\n                     <persname>KERA-TV<\/persname>\n                  <\/origination>\n                  <unittitle>Centuries of Solitude Collection<\/unittitle>\n                  <unitdate>1977-1978<\/unitdate>\n                  <physdesc>1 cubic feet<\/physdesc>\n                  <unitid>MA07.3<\/unitid>\n                  <langmaterial>The records are in <language>English<\/language>.\n\t<\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Centuries of Solitude Collection 1977-1978",
+                "displayEntry": "Centuries of Solitude Collection MA07. 3., 1977-1978",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KERA-TV",
+                        "id": "11255730",
+                        "version": "6638654"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11255731",
+                        "version": "6638654"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6tn8108",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Texas\/Dallas History & Archives , Dallas Public Library",
+                            "preferenceScore": "99",
+                            "id": "76796548",
+                            "version": "11240409"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Texas\/Dallas History & Archives , Dallas Public Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1515 Young St Dallas, TX 75201",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76796551",
+                                    "version": "11240409"
+                                }
+                            ],
+                            "id": "76796550",
+                            "version": "11240409"
+                        }
+                    ],
+                    "id": "76796547",
+                    "version": "11240412"
+                },
+                "id": "6638654",
+                "version": "6638654"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Centuries of Solitude Collection MA07. 3., 1977-1978",
+            "id": "8490749",
+            "version": "1232459"
+        }
+    ],
+    "id": "8490742",
+    "version": "1232460"
+}

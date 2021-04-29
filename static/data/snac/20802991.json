@@ -1,0 +1,240 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6m12s2x",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T09:46:22",
+            "standardDateTime": "2016-08-11T09:46:22",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-11T09:46:22",
+            "standardDateTime": "2016-08-11T09:46:22",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/286461408",
+            "id": "20802992",
+            "version": "3039191"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Tacoma (Wash.). Public Schools.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Tacoma (Wash.). Public Schools.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "20802994",
+                    "version": "3039191"
+                }
+            ],
+            "id": "20802993",
+            "version": "3039191",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78506605",
+                    "version": "3039191"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "20802991",
+            "targetConstellation": "46021480",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6m12s2x",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6842jgb",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Read, Jesse W. (Jesse Wilmot)",
+            "id": "20802997",
+            "version": "3039191"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/286461408",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:286461408<\/recordOrigin>\n                     <recordContentSource>ISIL:CSt-L<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Read, Jesse W. (Jesse Wilmot)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Tacoma (Wash.). Public Schools.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Washington (State). State Board of Health.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Stanford University. Dept. of Public Health and Preventive Medicine.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Sanitary survey of Tacoma, Washington, 1928-1929 \/ Jesse W. Read. 1929.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Sanitary survey of Tacoma, Washington, 1928-1929 \/ Jesse W. Read. 1929.",
+                "extent": "126 leaves : ill. ; 28 cm.",
+                "displayEntry": "Read, Jesse W. (Jesse Wilmot). Sanitary survey of Tacoma, Washington, 1928-1929 \/ Jesse W. Read.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Read, Jesse W. (Jesse Wilmot)",
+                        "id": "9348204",
+                        "version": "7263497"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tacoma (Wash.). Public Schools.",
+                        "id": "9348205",
+                        "version": "7263497"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Washington (State). State Board of Health.",
+                        "id": "9348206",
+                        "version": "7263497"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Stanford University. Dept. of Public Health and Preventive Medicine.",
+                        "id": "9348207",
+                        "version": "7263497"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6m727vp",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Stanford University, Lane Medical Library",
+                            "preferenceScore": "99",
+                            "id": "76782999",
+                            "version": "11232605"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Stanford University, Lane Medical Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford, California 94305  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783003",
+                                    "version": "11232605"
+                                }
+                            ],
+                            "id": "76783002",
+                            "version": "11232605"
+                        }
+                    ],
+                    "id": "76782998",
+                    "version": "11232608"
+                },
+                "id": "7263497",
+                "version": "7263497"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Read, Jesse W. (Jesse Wilmot). Sanitary survey of Tacoma, Washington, 1928-1929 \/ Jesse W. Read.",
+            "id": "20802998",
+            "version": "3039191"
+        }
+    ],
+    "id": "20802991",
+    "version": "3039192"
+}

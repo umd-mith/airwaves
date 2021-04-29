@@ -1,0 +1,258 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6j81wgz",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-05",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T13:29:38",
+            "standardDateTime": "2016-08-13T13:29:38",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T13:29:38",
+            "standardDateTime": "2016-08-13T13:29:38",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/12828936",
+            "id": "38722887",
+            "version": "5651609"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/hua26003.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Gunther, Frank<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/hua26003\/catalog",
+            "id": "38722886",
+            "version": "5651609"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "38722888",
+            "version": "5651609"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Gunther, Frank",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Gunther, Frank",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "38722890",
+                    "version": "5651609"
+                }
+            ],
+            "id": "38722889",
+            "version": "5651609",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79963482",
+                    "version": "5651609"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "38722885",
+            "targetConstellation": "60676409",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6j81wgz",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p84np4",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Bliss, Robert Woods, 1875-1962",
+            "id": "38722896",
+            "version": "5651609"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Gunther, Frank",
+            "uri": "https:\/\/viaf.org\/viaf\/12828936",
+            "id": "38722895",
+            "version": "5651609"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/hua26003\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <extref>Harvard University Archives<\/extref>\n                  <\/repository>\n                  <unitid>HUGFP 76.xx <\/unitid>\n                  <origination>\n                     <persname>Bliss, Robert Woods, 1875-1962. <\/persname>\n                  <\/origination>\n                  <unittitle>\n\t\t\t\tPapers of Robert Woods Bliss and Mildred Barnes Bliss, \n\t\t\t\t<unitdate>ca. 1860-1969 (inclusive) <\/unitdate>\n                  <\/unittitle>\n                  <physdesc>\n                     <extent>58.22 cubic feet (174 containers) <\/extent>\n                  <\/physdesc>\n                  <abstract>Robert Woods Bliss (1875-1962) and his wife, Mildred Barnes Bliss (1875-1969) were prominent art collectors and the founders of Dumbarton Oaks, an estate which they developed and conveyed in 1940 to Harvard University as the Center for Byzantine Studies. Contains personal, philanthropic and United States Foreign Service-related papers. <\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Papers of Robert Woods Bliss and Mildred Barnes Bliss, ca. 1860-1969 (inclusive)",
+                "abstract": "Robert Woods Bliss (1875-1962) and his wife, Mildred Barnes Bliss (1875-1969) were prominent art collectors and the founders of Dumbarton Oaks, an estate which they developed and conveyed in 1940 to Harvard University as the Center for Byzantine Studies. Contains personal, philanthropic and United States Foreign Service-related papers.",
+                "extent": "58.22 cubic feet (174 containers)",
+                "displayEntry": "Papers of Robert Woods Bliss and Mildred Barnes Bliss, ca. 1860-1969 (inclusive)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bliss, Robert Woods, 1875-1962. ",
+                        "id": "11439556",
+                        "version": "6385589"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nm43tf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard University Archives.",
+                            "preferenceScore": "99",
+                            "id": "76793550",
+                            "version": "11237597"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University Archives.",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge, MA 02138",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76793553",
+                                    "version": "11237597"
+                                }
+                            ],
+                            "id": "76793552",
+                            "version": "11237597"
+                        }
+                    ],
+                    "id": "76793549",
+                    "version": "11237600"
+                },
+                "id": "6385589",
+                "version": "6385589"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Papers of Robert Woods Bliss and Mildred Barnes Bliss, ca. 1860-1969 (inclusive)",
+            "id": "38722897",
+            "version": "5651609"
+        }
+    ],
+    "id": "38722885",
+    "version": "5651610"
+}

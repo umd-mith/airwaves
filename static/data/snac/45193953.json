@@ -1,0 +1,503 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T11:22:51",
+            "standardDateTime": "2016-08-14T11:22:51",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T11:22:51",
+            "standardDateTime": "2016-08-14T11:22:51",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/04756.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"110\">Red Clay Ramblers.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/inv\/r\/Red_Clay_Ramblers.html",
+            "id": "45193956",
+            "version": "6600065"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Red Clay Ramblers.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Red Clay Ramblers.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "45193958",
+                    "version": "6600065"
+                }
+            ],
+            "id": "45193957",
+            "version": "6600065",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80495106",
+                    "version": "6600065"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "45193955",
+                "version": "6600065"
+            },
+            "text": "<biogHist>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">The Red Clay Ramblers began in 1972 as a trio of musicians who had been playing in and around Chapel Hill, N.C. Personnel has included Tommy Thompson, banjo, guitar, vocals (1972-1994); Jim Watson, mandolin, guitar, vocals (1972-1986); Bill Hicks, fiddle, vocals (1972-1981); Clay Buckner, fiddle, vocals (1980- ); Mike Craver, piano, vocals (1973-1986); Bland Simpson, piano, vocals (1986- ); Jack Herrick, bass, horns, vocals (1976- ); and Chris Frank, piano, guitar, accordion, horns, vocals (1987- ).<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">In 1973, the Ramblers released their first album and joined forces with a band known as the Southern States Fidelity Choir to create the musical Diamond Studs: The Life of Jesse James, which, after a successful run in Chapel Hill, moved off-Broadway the following year. The Ramblers collaborated with the Southern States Fidelity Choir again in 1982 when they provided the music for Tommy Thompson and Choir member Bland Simpson's dramatization of Mark Twain's Life on the Mississippi .<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">The Ramblers returned to off-Broadway in 1985 when they provided the music for Sam Shepard's play A Lie of the Mind . The Ramblers collaborated two more times with Shepard, providing the score for his 1988 film, Far North, and playing a medicine show band in his 1993 film, Silent Tongue . When the Ramblers celebrated their 20th anniversary in 1992, they had released twelve albums, gone on three United States State Department-sponsored tours, and performed with critically-acclaimed artists Shawn Colvin and Michelle Shocked.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the guide to the Red Clay Ramblers Papers, 1970s-1990s, (Southern Historical Collection)<\/citation>\n         <\/biogHist>",
+            "id": "45193954",
+            "version": "6600065"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "38360729",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vg29tn",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Bill Irwin",
+            "id": "45193967",
+            "version": "6600065"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "13718738",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ss4bgt",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Bland Simpson",
+            "id": "45193963",
+            "version": "6600065"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "49927778",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6k22h33",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Dan Emmett",
+            "id": "45193965",
+            "version": "6600065"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "20629562",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jv52zp",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "David Shiner",
+            "id": "45193968",
+            "version": "6600065"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "7242756",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dp10fn",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Festival for the Eno",
+            "id": "45193972",
+            "version": "6600065"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "18573687",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6jn7pbr",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Jim Wann",
+            "id": "45193962",
+            "version": "6600065"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "6469676",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67b9h93",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Sam Shepard",
+            "id": "45193961",
+            "version": "6600065"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "45537073",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hz6s38",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Shawn Colvin",
+            "id": "45193966",
+            "version": "6600065"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "39561013",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rs7ctj",
+            "targetEntityType": {
+                "id": "699",
+                "term": "family",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Family",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Snowden ",
+            "id": "45193970",
+            "version": "6600065"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "76320681",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67z1fpc",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Southern States Fidelity Choir",
+            "id": "45193969",
+            "version": "6600065"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "56333044",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6392bth",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "St. Louis Repertory Theater",
+            "id": "45193973",
+            "version": "6600065"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "5597917",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6d94qfp",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Tommy Thompson",
+            "id": "45193964",
+            "version": "6600065"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "45193953",
+            "targetConstellation": "8057888",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66g0w1q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6j53vrv",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "V-4756\/S-1: Scrapbook containing flyers from performances of the Southern States Fidelity Choir",
+            "id": "45193971",
+            "version": "6600065"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/inv\/r\/Red_Clay_Ramblers.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Red Clay Ramblers Papers, <unitdate>1970s-1990s<\/unitdate>\n                  <\/unittitle>\n                  <origination>\n                     <corpname>Red Clay Ramblers.<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>About 225 items (1.0 linear feet).<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Southern Historical Collection<\/corpname>\n                  <\/repository>\n                  <abstract>The Red Clay Ramblers began in 1972 as a trio of musicians who had been playing in and around Chapel Hill, N.C. Personnel has included Tommy Thompson, banjo, guitar, vocals (1972-1994); Jim Watson, mandolin, guitar, vocals (1972-1986); Bill Hicks, fiddle, vocals (1972-1981); Clay Buckner, fiddle, vocals (1980- ); Mike Craver, piano, vocals (1973-1986); Bland Simpson, piano, vocals (1986- ); Jack Herrick, bass, horns, vocals (1976- ); and Chris Frank, piano, guitar, accordion, horns, vocals (1987- ). Over the years, they have released numerous albums, gone on U.S. State Department-sponsored tours, collaborated with Sam Shepard on plays and films, and had several successful off-Broadway runs. The collection contains materials, 1970s-1990s, chiefly relating to the Red Clay Ramblers' musical performances and theatrical presentations. Included are programs, newspaper reviews, and publicity posters from <title>Hot Grog: A Tuneful Pirate Saga<\/title>; <title>Life on the Mississippi<\/title>; <title>The Merry Wives of Windsor, Texas<\/title>; <title>A Lie of the Mind<\/title>; <title>Far North<\/title>; Sam Shepard's <title>Silent Tongue<\/title>; <title>Fool Moon<\/title>; and <title>Kudzu: A Southern Musical<\/title>. Also included are drafts of the musical <title>Diamond Studs: The Life of Jesse James<\/title> by Jim Wann and Bland Simpson, along with materials relating to its performances; a manuscript and call sheet for <title>Silent Tongue<\/title>; a scrapbook with materials relating to Bland Simpson's Southern States Fidelity Choir, <title>Diamond Studs<\/title>, and other works; a radio script for <title>The Last Song of John Proffit<\/title>, an historical play by Tommy Thompson based upon the life Dan Emmett and his interactions with the Snowdens, an African-American family from Ohio, which touches on the development of the banjo, the culture surrounding minstrel shows, and the interaction between Anglo-American and African-American musicians; photographs documenting Ramblers' musical and theatrical activities; biographies and venue lists created for promotional purposes; and correspondence, primarily between Bland Simpson and theater companies about performances.<\/abstract>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Red Clay Ramblers Papers, 1970s-1990s",
+                "abstract": "The Red Clay Ramblers began in 1972 as a trio of musicians who had been playing in and around Chapel Hill, N.C. Personnel has included Tommy Thompson, banjo, guitar, vocals (1972-1994); Jim Watson, mandolin, guitar, vocals (1972-1986); Bill Hicks, fiddle, vocals (1972-1981); Clay Buckner, fiddle, vocals (1980- ); Mike Craver, piano, vocals (1973-1986); Bland Simpson, piano, vocals (1986- ); Jack Herrick, bass, horns, vocals (1976- ); and Chris Frank, piano, guitar, accordion, horns, vocals (1987- ). Over the years, they have released numerous albums, gone on U.S. State Department-sponsored tours, collaborated with Sam Shepard on plays and films, and had several successful off-Broadway runs. The collection contains materials, 1970s-1990s, chiefly relating to the Red Clay Ramblers' musical performances and theatrical presentations. Included are programs, newspaper reviews, and publicity posters from ; ; ; ; ; Sam Shepard's ; ; and . Also included are drafts of the musical by Jim Wann and Bland Simpson, along with materials relating to its performances; a manuscript and call sheet for ; a scrapbook with materials relating to Bland Simpson's Southern States Fidelity Choir, , and other works; a radio script for , an historical play by Tommy Thompson based upon the life Dan Emmett and his interactions with the Snowdens, an African-American family from Ohio, which touches on the development of the banjo, the culture surrounding minstrel shows, and the interaction between Anglo-American and African-American musicians; photographs documenting Ramblers' musical and theatrical activities; biographies and venue lists created for promotional purposes; and correspondence, primarily between Bland Simpson and theater companies about performances. Hot Grog: A Tuneful Pirate Saga Life on the Mississippi The Merry Wives of Windsor, Texas A Lie of the Mind Far North Silent Tongue Fool Moon Kudzu: A Southern Musical Diamond Studs: The Life of Jesse James Silent Tongue Diamond Studs The Last Song of John Proffit",
+                "extent": "About 225 items (1.0 linear feet).",
+                "displayEntry": "Red Clay Ramblers Papers, 1970s-1990s",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11609675",
+                        "version": "6628686"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b38j9n",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill. Library. Southern Historical Collection",
+                            "preferenceScore": "99",
+                            "id": "83559850",
+                            "version": "11276388"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Southern States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83559866",
+                            "version": "11275999"
+                        }
+                    ],
+                    "id": "83559846",
+                    "version": "11276399"
+                },
+                "id": "6628686",
+                "version": "6628686"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Red Clay Ramblers Papers, 1970s-1990s",
+            "id": "45193974",
+            "version": "6600065"
+        }
+    ],
+    "id": "45193953",
+    "version": "6600066"
+}

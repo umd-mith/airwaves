@@ -1,0 +1,1826 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6p0380g",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T17:13:59",
+            "standardDateTime": "2016-08-09T17:13:59",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T17:13:59",
+            "standardDateTime": "2016-08-09T17:13:59",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/29960109",
+            "id": "2215480",
+            "version": "324038"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/ohlink\/xOCAJA0071.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">National Economy League<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/rave.ohiolink.edu\/archives\/ead\/xOCAJA0071",
+            "id": "2215485",
+            "version": "324038"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/7444710",
+            "id": "2215481",
+            "version": "324038"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/law00059.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">National Economy League<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/law00059\/catalog",
+            "id": "2215484",
+            "version": "324038"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/law00087.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">National Economy League<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/law00087\/catalog",
+            "id": "2215483",
+            "version": "324038"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/128226718",
+            "id": "2215487",
+            "version": "324038"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/237360443",
+            "id": "2215482",
+            "version": "324038"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122524566",
+            "id": "2215479",
+            "version": "324038"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/unc\/04438.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">National Economy League<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www2.lib.unc.edu\/mss\/inv\/t\/Tillett,Charles_Walter.html",
+            "id": "2215486",
+            "version": "324038"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "2215488",
+            "version": "324038"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "National Economy League.",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "National Economy League.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "2215490",
+                    "version": "324038"
+                }
+            ],
+            "id": "2215489",
+            "version": "324038",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"unc\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"ohlink\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "76985935",
+                    "version": "324038"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "2215477",
+            "targetConstellation": "10495107",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p0380g",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rv0qzh",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Byrd, Richard Evelyn, 1888-1957.",
+            "id": "2215509",
+            "version": "324038"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "2215477",
+            "targetConstellation": "42094998",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p0380g",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w60g3sqq",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Clark, Grenville, 1882-1967.",
+            "id": "2215508",
+            "version": "324038"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "2215477",
+            "targetConstellation": "33704971",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p0380g",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6988n08",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Hand, Learned, 1872-1961",
+            "id": "2215513",
+            "version": "324038"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "2215477",
+            "targetConstellation": "39973589",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p0380g",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6wq030c",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Hopkins, Ernest Martin, 1877-1964.",
+            "id": "2215511",
+            "version": "324038"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "2215477",
+            "targetConstellation": "32071552",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p0380g",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6834fbq",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Lazaron, Morris Samuel",
+            "id": "2215514",
+            "version": "324038"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "2215477",
+            "targetConstellation": "54009486",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p0380g",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6pn98h1",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Pound, Roscoe, 1870-1964",
+            "id": "2215512",
+            "version": "324038"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "2215477",
+            "targetConstellation": "7829626",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p0380g",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6377bm1",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Shattuck, Henry Lee, 1879-1971.",
+            "id": "2215510",
+            "version": "324038"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "2215477",
+            "targetConstellation": "66975206",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p0380g",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kd32m8",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Tillett, Charles Walter, 1888-1952",
+            "id": "2215515",
+            "version": "324038"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "National Economy League.",
+            "uri": "https:\/\/viaf.org\/viaf\/128226718",
+            "id": "2215505",
+            "version": "324038"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no2008014880",
+            "id": "2215506",
+            "version": "324038"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no2008014880",
+            "id": "2215507",
+            "version": "324038"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www2.lib.unc.edu\/mss\/inv\/t\/Tillett,Charles_Walter.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Southern Historical Collection<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <persname>Tillett, Charles Walter, 1888-1952.<\/persname>\n                  <\/origination>\n                  <unittitle>Charles Walter Tillett Papers, <unitdate>1853-1954<\/unitdate>\n                  <\/unittitle>\n                  <unitid>4438<\/unitid>\n                  <physdesc>\n                     <extent>About 2,000 items (11.0 linear feet) <\/extent>\n                  <\/physdesc>\n                  <abstract>Charles Walter Tillett (1888-1952) was a prominent Charlotte, N.C., lawyer, supporter of the United Nations, and University of North Carolina trustee. The collection includes correspondence, speeches, writings, and research materials of Tillett. Over half of the materials are documents Tillett used in researching his speeches and articles. Many items relate to the United Nations and international law. Most of Tillett's speeches and articles deal with international concerns, although some pertain to local Charlotte and Mecklenburg County, state, and national Democratic Party politics; legal matters; and civic organizations. Correspondence, which dates from 1907 to 1952, largely concerns legal matters; fund-raising campaigns for various organizations; Tillett's work for the American Bar Association's section on International and Comparative Law; and his involvement in various activities at the University of North Carolina, including his service on the Board of Trustees. There are also materials relating to various aspects of his legal career and a few relating to his personal life. Among Tillett's correspondents were Josephus Daniels, John C. B. Ehringhaus, Edward Kidder Graham, Frank Porter Graham, and Tillett's wife Gladys Avery Tillett. Also included are some materials relating to Tillett's parents.<\/abstract>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Charles Walter Tillett Papers, 1853-1954",
+                "abstract": "Charles Walter Tillett (1888-1952) was a prominent Charlotte, N.C., lawyer, supporter of the United Nations, and University of North Carolina trustee. The collection includes correspondence, speeches, writings, and research materials of Tillett. Over half of the materials are documents Tillett used in researching his speeches and articles. Many items relate to the United Nations and international law. Most of Tillett's speeches and articles deal with international concerns, although some pertain to local Charlotte and Mecklenburg County, state, and national Democratic Party politics; legal matters; and civic organizations. Correspondence, which dates from 1907 to 1952, largely concerns legal matters; fund-raising campaigns for various organizations; Tillett's work for the American Bar Association's section on International and Comparative Law; and his involvement in various activities at the University of North Carolina, including his service on the Board of Trustees. There are also materials relating to various aspects of his legal career and a few relating to his personal life. Among Tillett's correspondents were Josephus Daniels, John C. B. Ehringhaus, Edward Kidder Graham, Frank Porter Graham, and Tillett's wife Gladys Avery Tillett. Also included are some materials relating to Tillett's parents.",
+                "extent": "About 2,000 items (11.0 linear feet)",
+                "displayEntry": "Charles Walter Tillett Papers, 1853-1954",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tillett, Charles Walter, 1888-1952.",
+                        "id": "11610891",
+                        "version": "6629343"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11610892",
+                        "version": "6629343"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b38j9n",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of North Carolina at Chapel Hill. Library. Southern Historical Collection",
+                            "preferenceScore": "99",
+                            "id": "83559850",
+                            "version": "11276388"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Southern States",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "83559866",
+                            "version": "11275999"
+                        }
+                    ],
+                    "id": "83559846",
+                    "version": "11276399"
+                },
+                "id": "6629343",
+                "version": "6629343"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Charles Walter Tillett Papers, 1853-1954",
+            "id": "2215523",
+            "version": "324038"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122524566",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122524566<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NVH<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Clark, Grenville, 1882-1967.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Acheson, Dean, 1893-1971.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Atlee, C. R. (Clement Richard), 1883-1967.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Churchill, Winston, 1874-1965.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Clark, Fanny Dwight.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Coolidge, Calvin, 1872-1933.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Dulles, John Foster, 1888-1959.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Frankfurter, Felix, 1882-1965.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Frost, Robert, 1874-1963.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hoover, Herbert, 1874-1964.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hopkins, Ernest Martin, 1877-1964.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Kennedy, John F. (John Fitzgerald), 1917-1963.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Oppenheimer, J. Robert, 1904-1967.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Roosevelt, Franklin D. (Franklin Delano), 1882-1945.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Root, Elihu, 1845-1937.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Root, Elihu.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Sohn, Louis R.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Stevenson, Adlai E. (Adlai Ewing), 1900-1965.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Truman, Harry S., 1884-1972<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Wyman, Louis C. (Louis Crosby), 1917-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers, 1899-1972.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence, mss., personal, professional, and financial papers of Grenville Clark, lawyer, of Dublin, N.H. and New York, N.Y. Collection includes material related to his association with the \"Plattsburgh movement\" and officer training before World War I, the National Economy League and the drafting of the Economy Act of 1933, the institution of the selective service system in 1940, the Dublin conferences of 1945 and 1965 on world government, and Harvard Corporation and the revitalization of Harvard Divinity School. Also includes material related to his participation in other matters of public service and his concern about civil rights. Includes research material for his book with Louis B. Sohn, World peace through world law (published as: World peace through world law. -- Cambridge, Mass. : Harvard University Press, c1958). Many organizations with which Clark was associated are represented in the collection, including the American Bar Association Committee on the Bill of Rights, the Association of the Bar of the City of New York, the Citizens' Committee for Universal Military Training, the Ford Foundation, and the National Economy League. Correspondents include Fanny Dwight Clark, Dean Acheson, Clement Atlee, Sir Winston Churchill, John Foster Dulles, Felix Frankfurter, Robert Frost, and John F. Kennedy. <\/abstract>\n                  <name>\n                     <namePart>New Hampshire Newsp Project<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1899-1972.",
+                "abstract": "Correspondence, mss., personal, professional, and financial papers of Grenville Clark, lawyer, of Dublin, N.H. and New York, N.Y. Collection includes material related to his association with the \"Plattsburgh movement\" and officer training before World War I, the National Economy League and the drafting of the Economy Act of 1933, the institution of the selective service system in 1940, the Dublin conferences of 1945 and 1965 on world government, and Harvard Corporation and the revitalization of Harvard Divinity School. Also includes material related to his participation in other matters of public service and his concern about civil rights. Includes research material for his book with Louis B. Sohn, World peace through world law (published as: World peace through world law. -- Cambridge, Mass. : Harvard University Press, c1958). Many organizations with which Clark was associated are represented in the collection, including the American Bar Association Committee on the Bill of Rights, the Association of the Bar of the City of New York, the Citizens' Committee for Universal Military Training, the Ford Foundation, and the National Economy League. Correspondents include Fanny Dwight Clark, Dean Acheson, Clement Atlee, Sir Winston Churchill, John Foster Dulles, Felix Frankfurter, Robert Frost, and John F. Kennedy. ",
+                "extent": "369 boxes (556.5 ft.)",
+                "displayEntry": "Clark, Grenville, 1882-1967. Papers, 1899-1972.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Clark, Grenville, 1882-1967.",
+                        "id": "8499008",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Acheson, Dean, 1893-1971.",
+                        "id": "8499009",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Atlee, C. R. (Clement Richard), 1883-1967.",
+                        "id": "8499010",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Churchill, Winston, 1874-1965.",
+                        "id": "8499011",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Clark, Fanny Dwight.",
+                        "id": "8499012",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Coolidge, Calvin, 1872-1933.",
+                        "id": "8499013",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dulles, John Foster, 1888-1959.",
+                        "id": "8499014",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Frankfurter, Felix, 1882-1965.",
+                        "id": "8499015",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Frost, Robert, 1874-1963.",
+                        "id": "8499016",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hoover, Herbert, 1874-1964.",
+                        "id": "8499017",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hopkins, Ernest Martin, 1877-1964.",
+                        "id": "8499018",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kennedy, John F. (John Fitzgerald), 1917-1963.",
+                        "id": "8499019",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Oppenheimer, J. Robert, 1904-1967.",
+                        "id": "8499020",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Roosevelt, Franklin D. (Franklin Delano), 1882-1945.",
+                        "id": "8499021",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Root, Elihu, 1845-1937.",
+                        "id": "8499022",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Root, Elihu.",
+                        "id": "8499023",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Sohn, Louis R.",
+                        "id": "8499024",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Stevenson, Adlai E. (Adlai Ewing), 1900-1965.",
+                        "id": "8499025",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Truman, Harry S., 1884-1972",
+                        "id": "8499026",
+                        "version": "6749335"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Wyman, Louis C. (Louis Crosby), 1917-",
+                        "id": "8499027",
+                        "version": "6749335"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nx06st",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "New Hampshire Newsp Project",
+                            "preferenceScore": "99",
+                            "id": "76777046",
+                            "version": "11230405"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "New Hampshire Newsp Project",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New Hampshire State Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777051",
+                                    "version": "11230405"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20 Park St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777052",
+                                    "version": "11230405"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Concord",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777053",
+                                    "version": "11230405"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NH",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777054",
+                                    "version": "11230405"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "03301-6306",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777055",
+                                    "version": "11230405"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777056",
+                                    "version": "11230405"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15099",
+                                "name": "New Hampshire Newsp Project",
+                                "latitude": "43.2072000",
+                                "longitude": "-71.5366000"
+                            },
+                            "confirmed": true,
+                            "id": "76777050",
+                            "version": "11230405"
+                        }
+                    ],
+                    "id": "76777045",
+                    "version": "11230408"
+                },
+                "id": "6749335",
+                "version": "6749335"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Clark, Grenville, 1882-1967. Papers, 1899-1972.",
+            "id": "2215516",
+            "version": "324038"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/29960109",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:29960109<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-OSU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Byrd, Richard Evelyn, 1888-1957.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Balchen, Bernt, 1899-1973.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bennett, Floyd, 1890-1928.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Byrd, Harry Flood, 1887-1966.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Byrd, Marie Ames, 1889-1974.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Byrd, Richard Evelyn, 1920-1988.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Dufek, George John, 1903-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Eisenhower, Dwight D. (Dwight David), 1890-1969.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ellsworth, Lincoln, 1880-1951.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ford, Edsel, 1893-1943.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Leahy, William D.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Marshall, George C. (George Catlett), 1880-1959.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>McKinley, Ashley Chadbourne.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Noville, George O.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ragle, Benjamin Harrison, 1880-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Rockefeller, John D. (John Davison), 1874-1960.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ronne, Finn.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Roosevelt, Eleanor, 1884-1962.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Roosevelt, Franklin D. (Franklin Delano), 1882-1945.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Roosevelt, Theodore, 1887-1944.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Saltonstall family.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Saltonstall, Leverett, 1892-1979.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Siple, Paul Allman, 1908-1968.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Antarctic Associates.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Boy Scouts of America.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>G.P. Putnam's Sons.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>International Rescue Committee.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Kidder, Peabody &amp; Co.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Moral Re-armament (Organization)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Geographic Society (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Economy League.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>New York Times Company.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Reeve Brothers.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Richard E. Byrd personal papers, 1882-1974.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Ohio State University Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Richard E. Byrd personal papers, 1882-1974.",
+                "extent": "ca. 115 cubic ft.",
+                "displayEntry": "Byrd, Richard Evelyn, 1888-1957. Richard E. Byrd personal papers, 1882-1974.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Byrd, Richard Evelyn, 1888-1957.",
+                        "id": "9378863",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Balchen, Bernt, 1899-1973.",
+                        "id": "9378864",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bennett, Floyd, 1890-1928.",
+                        "id": "9378865",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Byrd, Harry Flood, 1887-1966.",
+                        "id": "9378866",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Byrd, Marie Ames, 1889-1974.",
+                        "id": "9378867",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Byrd, Richard Evelyn, 1920-1988.",
+                        "id": "9378868",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dufek, George John, 1903-",
+                        "id": "9378869",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Eisenhower, Dwight D. (Dwight David), 1890-1969.",
+                        "id": "9378870",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ellsworth, Lincoln, 1880-1951.",
+                        "id": "9378871",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ford, Edsel, 1893-1943.",
+                        "id": "9378872",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Leahy, William D.",
+                        "id": "9378873",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Marshall, George C. (George Catlett), 1880-1959.",
+                        "id": "9378874",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "McKinley, Ashley Chadbourne.",
+                        "id": "9378875",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Noville, George O.",
+                        "id": "9378876",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ragle, Benjamin Harrison, 1880-",
+                        "id": "9378877",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Rockefeller, John D. (John Davison), 1874-1960.",
+                        "id": "9378878",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ronne, Finn.",
+                        "id": "9378879",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Roosevelt, Eleanor, 1884-1962.",
+                        "id": "9378880",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Roosevelt, Franklin D. (Franklin Delano), 1882-1945.",
+                        "id": "9378881",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Roosevelt, Theodore, 1887-1944.",
+                        "id": "9378882",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Saltonstall family.",
+                        "id": "9378883",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Saltonstall, Leverett, 1892-1979.",
+                        "id": "9378884",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Siple, Paul Allman, 1908-1968.",
+                        "id": "9378885",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Antarctic Associates.",
+                        "id": "9378886",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Boy Scouts of America.",
+                        "id": "9378887",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "G.P. Putnam's Sons.",
+                        "id": "9378888",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "International Rescue Committee.",
+                        "id": "9378889",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Kidder, Peabody & Co.",
+                        "id": "9378890",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Moral Re-armament (Organization)",
+                        "id": "9378891",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Geographic Society (U.S.)",
+                        "id": "9378892",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Economy League.",
+                        "id": "9378893",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "New York Times Company.",
+                        "id": "9378894",
+                        "version": "7281034"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Reeve Brothers.",
+                        "id": "9378895",
+                        "version": "7281034"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gn8wvq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Ohio State University Libraries",
+                            "preferenceScore": "99",
+                            "id": "76778503",
+                            "version": "11230937"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Ohio State University Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1858 Neil Avenue",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778508",
+                                    "version": "11230937"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Columbus",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778509",
+                                    "version": "11230937"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-OH",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778510",
+                                    "version": "11230937"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "43210",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778511",
+                                    "version": "11230937"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778512",
+                                    "version": "11230937"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16786",
+                                "name": "Ohio State University Libraries",
+                                "latitude": "39.9990845",
+                                "longitude": "-83.0156784"
+                            },
+                            "confirmed": true,
+                            "id": "76778507",
+                            "version": "11230937"
+                        }
+                    ],
+                    "id": "76778502",
+                    "version": "11230940"
+                },
+                "id": "7281034",
+                "version": "7281034"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Byrd, Richard Evelyn, 1888-1957. Richard E. Byrd personal papers, 1882-1974.",
+            "id": "2215517",
+            "version": "324038"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/rave.ohiolink.edu\/archives\/ead\/xOCAJA0071",
+                "title": "Morris S. Lazaron papers",
+                "abstract": "The Morris S. Lazaron papers describe the career of Morris S. Lazaron, rabbi, community leader, and an important personality in 20th century American Reform Judaism. The collection spans the years 1851-1979 and includes correspondence, sermons, manuscripts, published articles, congregational papers, scrapbooks, and personal items.",
+                "extent": "18.4 linear feet; 46 Hollinger boxes; one oversize box",
+                "date": "1851-1979 (bulk 1930-1950)",
+                "displayEntry": "Morris S. Lazaron papers, 1851-1979 (bulk 1930-1950)",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lazaron, Morris Samuel,          1888-1979.",
+                        "id": "11460232",
+                        "version": "6399161"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11460233",
+                        "version": "6399161"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11460233",
+                        "version": "8368912"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sk28d8",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "The Jacob Rader Marcus Center of the American Jewish Archives",
+                            "preferenceScore": "99",
+                            "id": "76796730",
+                            "version": "11240565"
+                        }
+                    ],
+                    "id": "76796729",
+                    "version": "11240568"
+                },
+                "id": "6399161",
+                "version": "6399161"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Morris S. Lazaron Papers., 1851-1979, 1930-1950",
+            "id": "2215522",
+            "version": "324038"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/237360443",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:237360443<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-DRB<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Hopkins, Ernest Martin, 1877-1964.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>National Economy League.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers, 1932-1934.<\/title>\n                  <\/titleInfo>\n                  <abstract>Papers and correspondence of Ernest M. Hopkins as a member of the Executive Committee of the National Economy League. <\/abstract>\n                  <name>\n                     <namePart>Dartmouth College Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1932-1934.",
+                "abstract": "Papers and correspondence of Ernest M. Hopkins as a member of the Executive Committee of the National Economy League. ",
+                "extent": "1 box (1.2 ft.)",
+                "displayEntry": "Hopkins, Ernest Martin, 1877-1964. Papers, 1932-1934.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hopkins, Ernest Martin, 1877-1964.",
+                        "id": "9067108",
+                        "version": "7119771"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "National Economy League.",
+                        "id": "9067109",
+                        "version": "7119771"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6d03wmh",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Dartmouth College Library",
+                            "preferenceScore": "99",
+                            "id": "76765764",
+                            "version": "11226141"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Dartmouth College Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "6025 Baker-Berry Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765768",
+                                    "version": "11226141"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Hanover",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765769",
+                                    "version": "11226141"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NH",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765770",
+                                    "version": "11226141"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "03755-3525",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765771",
+                                    "version": "11226141"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765772",
+                                    "version": "11226141"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16466",
+                                "name": "Dartmouth College Library",
+                                "latitude": "43.7054558",
+                                "longitude": "-72.2888336"
+                            },
+                            "confirmed": true,
+                            "id": "76765767",
+                            "version": "11226141"
+                        }
+                    ],
+                    "id": "76765763",
+                    "version": "11226144"
+                },
+                "id": "7119771",
+                "version": "7119771"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Hopkins, Ernest Martin, 1877-1964. Papers, 1932-1934.",
+            "id": "2215519",
+            "version": "324038"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.masshist.org\/collection-guides\/view\/fa0347",
+                "title": "Henry Lee Shattuck papers, 1870-1971",
+                "abstract": "This collection consists of the personal and professional papers of attorney, philanthropist, and public official Henry Lee Shattuck, including papers related to Boston and Massachusetts government, as well as national affairs.",
+                "extent": "47 cartons and 3 oversize boxes.",
+                "date": "1870-1971",
+                "displayEntry": "Shattuck, Henry Lee, 1879-1971. Papers, 1870-1971",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Shattuck, Henry Lee, 1879-1971.",
+                        "id": "10877429",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bacon, Gaspar G. (Gaspar Griswold), 1886-1947.",
+                        "id": "10877430",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Cabot, Godfrey L. (Godfrey Lowell), 1861-1962.",
+                        "id": "10877431",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Clark, Grenville, 1882-1967.",
+                        "id": "10877432",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Curley, James Michael, 1874-1958.",
+                        "id": "10877433",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Dennison, Henry S. (Henry Sturgis), 1877-1952.",
+                        "id": "10877434",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Fuller, Alvan T. (Alvan Tufts), 1878-1958.",
+                        "id": "10877435",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Frankfurter, Felix, 1882-1965.",
+                        "id": "10877436",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Herter, Christian Archibald, 1895-1966.",
+                        "id": "10877437",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lee, Joseph.",
+                        "id": "10877438",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lewis, John L. (John Llewellyn), 1880-1969.",
+                        "id": "10877439",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lodge, Henry Cabot, 1850-1924.",
+                        "id": "10877440",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Matthews, Nathan, 1854-1927.",
+                        "id": "10877441",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "McCormack, John W., 1891-1980.",
+                        "id": "10877442",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Parkman, Henry, 1894-1958.",
+                        "id": "10877443",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Saltonstall, Leverett, 1892-1979.",
+                        "id": "10877444",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tinkham, George Holden, 1870-1956.",
+                        "id": "10877445",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Wadsworth, Eliot, 1876-1959.",
+                        "id": "10877446",
+                        "version": "8117466"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Young, Benjamin Loring, 1885-1964.",
+                        "id": "10877447",
+                        "version": "8117466"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w62c9n83",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Massachusetts Historical Society",
+                            "preferenceScore": "99",
+                            "id": "84231974",
+                            "version": "11330889"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts Historical Society",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84232002",
+                                    "version": "11330889"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1154 Boylston St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84232003",
+                                    "version": "11330889"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Boston",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84232004",
+                                    "version": "11330889"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84232005",
+                                    "version": "11330889"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02215-3695",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84232006",
+                                    "version": "11330889"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84232007",
+                                    "version": "11330889"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15125",
+                                "name": "Massachusetts Historical Society",
+                                "latitude": "42.3586000",
+                                "longitude": "-71.0567000"
+                            },
+                            "confirmed": true,
+                            "id": "84232001",
+                            "version": "11330889"
+                        }
+                    ],
+                    "id": "84231969",
+                    "version": "11330906"
+                },
+                "id": "8117466",
+                "version": "8117466"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Shattuck, Henry Lee, 1879-1971. Henry Lee Shattuck papers, 1897-1971.",
+            "id": "2215518",
+            "version": "324038"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/law00059\/catalog",
+                "title": "Learned Hand papers, 1840-1961",
+                "abstract": "Materials relating to Hand's private and public life, his activities as an alumnus of Harvard University, his friendship with Felix Frankfurter, and to the Hand family. Includes material on the U.S. District Court for the Southern District of New York and the U.S. Court of Appeals for the Second Circuit, New York City; information on the Progressive movement (1909-1914) and the beginnings of the New Republic and its early staff; and transcripts of oral-history interviews conducted by Gerald Gunther of Stanford Law School and others, of Judge Hand, his family and associates.",
+                "extent": "235 MSS boxes; 18 Paige boxes; 116.6 linear ft.",
+                "date": "1840-1961",
+                "displayEntry": "Hand, Learned, 1872-1961. Papers, 1840-1961",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hand,Learned, 1872-1961.",
+                        "id": "11439620",
+                        "version": "6385720"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11623102",
+                        "version": "8368409"
+                    },
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11623103",
+                        "version": "8368410"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f29nfn",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard Law School Library, Harvard University.",
+                            "preferenceScore": "99",
+                            "id": "76793529",
+                            "version": "11237573"
+                        }
+                    ],
+                    "id": "76793528",
+                    "version": "11237576"
+                },
+                "id": "6385720",
+                "version": "6385720"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Papers, 1840-1961.",
+            "id": "2215521",
+            "version": "324038"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/law00087\/catalog",
+                "title": "Roscoe Pound papers",
+                "abstract": "Includes material pertaining to Pound's participation in the Boston and Cleveland crime surveys (1920's), as a member of the National Commission on Law Observance and Enforcement or Wickersham Commission (1929-1931), as a member of the American Bar Association and with various Masonic chapters, and as advisor to the Ministry of Justice in Nanking, China (1940's). Also two typed, bound journals recounting camping trips in West Virginia and to Civil War battlefields (1898, 1912-1917).",
+                "extent": "257 boxes, 14 Paige boxes",
+                "date": "1888-1964",
+                "displayEntry": "Roscoe Pound papers, 1888-1964",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Pound,Roscoe, 1870-1964",
+                        "id": "11439643",
+                        "version": "6385746"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "script": {
+                            "id": "586",
+                            "term": "Latn",
+                            "type": "script_code",
+                            "description": "Latin"
+                        },
+                        "id": "11621708",
+                        "version": "8367296"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6f29nfn",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard Law School Library, Harvard University.",
+                            "preferenceScore": "99",
+                            "id": "76793529",
+                            "version": "11237573"
+                        }
+                    ],
+                    "id": "76793528",
+                    "version": "11237576"
+                },
+                "id": "6385746",
+                "version": "6385746"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Papers, 1888-1964",
+            "id": "2215520",
+            "version": "324038"
+        }
+    ],
+    "id": "2215477",
+    "version": "324039",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1882",
+            "fromDateOriginal": "active 1882",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1974",
+            "toDateOriginal": "active 1974",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "2215478",
+            "version": "324038"
+        }
+    ]
+}

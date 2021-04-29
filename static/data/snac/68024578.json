@@ -1,0 +1,387 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6j151dt",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T05:12:07",
+            "standardDateTime": "2016-08-18T05:12:07",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-18T05:12:07",
+            "standardDateTime": "2016-08-18T05:12:07",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/714119665",
+            "id": "68024582",
+            "version": "9943007"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WGGL (Radio Station : Houghton, Mich.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WGGL (Radio Station : Houghton, Mich.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "68024584",
+                    "version": "9943007"
+                }
+            ],
+            "id": "68024583",
+            "version": "9943007",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82365142",
+                    "version": "9943007"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "68024580",
+                "version": "9943007"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">This radio station, an affiliate of Minnesota Public Radio as of 2011, offers news and classical music. The station broadcasts from the Michigan Technological University campus in Houghton, Michigan, in the Administration and Student Services building and receives some support from MTU. WGGL can be heard on 91.1 FM stereo throughout the western Upper Peninsula. Joseph Kirkish, Professor Emeritus, founded WGGL and managed the radio station from 1969 to 1976, broadcasting a variety of groundbreaking programs, from discussions on controversial local issues to foreign programs that served the needs of Michigan Technological University's international students.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of WGGL FM 91.1 Collection, 1967-1980. (Michigan Technological University). WorldCat record id: 714119665<\/citation>\n         <\/biogHist>",
+            "id": "68024579",
+            "version": "9943007"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "68024578",
+            "targetConstellation": "64134860",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6j151dt",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w65t83m0",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Michigan Technological University",
+            "id": "68024592",
+            "version": "9943007"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/714119665",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:714119665<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-EZT<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WGGL (Radio Station : Houghton, Mich.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>WGGL FM 91.1 Collection, 1967-1980.<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection, 1967-1980, of WGGL FM 91.1, a locally broadcast radio station of Michigan Technological University in Houghton, Michigan, eventually becoming an affiliate of Minnesota Public Radio.  The majority of the collection includes reel to reel magnetic tapes with some office files and other printed ephemera. <\/abstract>\n                  <name>\n                     <namePart>Michigan Technological University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "WGGL FM 91.1 Collection, 1967-1980.",
+                "abstract": "Collection, 1967-1980, of WGGL FM 91.1, a locally broadcast radio station of Michigan Technological University in Houghton, Michigan, eventually becoming an affiliate of Minnesota Public Radio.  The majority of the collection includes reel to reel magnetic tapes with some office files and other printed ephemera. ",
+                "extent": "81.0 cubic feet; 81 paige boxes.",
+                "displayEntry": "WGGL (Radio Station : Houghton, Mich.). WGGL FM 91.1 Collection, 1967-1980.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WGGL (Radio Station : Houghton, Mich.)",
+                        "id": "10827676",
+                        "version": "8083364"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6553b5m",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Michigan Technological University, J.R. Van Pelt & Opie Library; Michigan Tech",
+                            "preferenceScore": "99",
+                            "id": "76774540",
+                            "version": "11229461"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Michigan Technological University, J.R. Van Pelt & Opie Library; Michigan Tech",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1400 Townsend Drive",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774545",
+                                    "version": "11229461"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Houghton",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774546",
+                                    "version": "11229461"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MI",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774547",
+                                    "version": "11229461"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "49931",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774548",
+                                    "version": "11229461"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774549",
+                                    "version": "11229461"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16533",
+                                "name": "Michigan Technological University, J.R. Van Pelt & Opie Library; Michigan Tech",
+                                "latitude": "47.1190000",
+                                "longitude": "-88.5514000"
+                            },
+                            "confirmed": true,
+                            "id": "76774544",
+                            "version": "11229461"
+                        }
+                    ],
+                    "id": "76774539",
+                    "version": "11229464"
+                },
+                "id": "8083364",
+                "version": "8083364"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "WGGL (Radio Station : Houghton, Mich.). WGGL FM 91.1 Collection, 1967-1980.",
+            "id": "68024593",
+            "version": "9943007"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Michigan--Houghton",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "68024587",
+            "version": "9943007",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Michigan--Houghton",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "68024588",
+                    "version": "9943007"
+                }
+            ]
+        },
+        {
+            "dataType": "Place",
+            "original": "Houghton (Mich.)",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "68024589",
+            "version": "9943007",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Houghton (Mich.)",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "68024590",
+                    "version": "9943007"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "301799",
+                "term": "Radio broadcasting",
+                "type": "subject"
+            },
+            "id": "68024591",
+            "version": "9943007"
+        }
+    ],
+    "id": "68024578",
+    "version": "9943008",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1967",
+            "fromDateOriginal": "active 1967",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1980",
+            "toDateOriginal": "active 1980",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "68024581",
+            "version": "9943007"
+        }
+    ]
+}

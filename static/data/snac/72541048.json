@@ -1,0 +1,635 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T01:15:08",
+            "standardDateTime": "2016-08-19T01:15:08",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T01:15:08",
+            "standardDateTime": "2016-08-19T01:15:08",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/33348969",
+            "id": "72541052",
+            "version": "10601219"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Harrison, Burt.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Harrison, Burt.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "72541054",
+                    "version": "10601219"
+                }
+            ],
+            "id": "72541053",
+            "version": "10601219",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82734833",
+                    "version": "10601219"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "72541050",
+                "version": "10601219"
+            },
+            "text": "<biogHist>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Professor and broadcasting executive.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Station manger, KWSU, Pullman, Washington; Board member, National Association of Educational Broadcasters; Board member, National Educational Radio; Board member, Association of Public Radio Stations.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Burt Harrison papers, 1977-1982. (University of Maryland Libraries). WorldCat record id: 33348969<\/citation>\n         <\/biogHist>",
+            "id": "72541049",
+            "version": "10601219"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "72541048",
+            "targetConstellation": "66176971",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ns43vm",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Crabbe, John C.",
+            "id": "72541061",
+            "version": "10601219"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "72541048",
+            "targetConstellation": "53212838",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fx87sd",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Harley, William G., 1911-1998.",
+            "id": "72541062",
+            "version": "10601219"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "72541048",
+            "targetConstellation": "49502211",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w66m7bxs",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "National Public Radio (U.S.)",
+            "id": "72541060",
+            "version": "10601219"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "72541048",
+            "targetConstellation": "23320269",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6k10cft",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Norwood, Frank W.",
+            "id": "72541063",
+            "version": "10601219"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "72541048",
+            "targetConstellation": "28371107",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kk9bmk",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Novik, Morris S., 1903-",
+            "id": "72541064",
+            "version": "10601219"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "72541048",
+            "targetConstellation": "52550629",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6z63z3n",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Paulu, Burton, 1910-",
+            "id": "72541066",
+            "version": "10601219"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "72541048",
+            "targetConstellation": "2248288",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bw0rbg",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Quayle, Donald R.",
+            "id": "72541065",
+            "version": "10601219"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "72541048",
+            "targetConstellation": "55235971",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6r216vd",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Robertson, James.",
+            "id": "72541069",
+            "version": "10601219"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "72541048",
+            "targetConstellation": "57520230",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6th9jt7",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Schooley, Frank E.",
+            "id": "72541067",
+            "version": "10601219"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "72541048",
+            "targetConstellation": "64169276",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6420607",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Witherspoon, John.",
+            "id": "72541068",
+            "version": "10601219"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "72541048",
+            "targetConstellation": "48936913",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63b97vq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w63f7zdv",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Young, Elizabeth L.",
+            "id": "72541070",
+            "version": "10601219"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/33348969",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:33348969<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UMC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Harrison, Burt.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Crabbe, John C.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Harley, William G., 1911-1998.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Norwood, Frank W.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Novik, Morris S., 1903-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Quayle, Donald R.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Paulu, Burton, 1910-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Schooley, Frank E.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Witherspoon, John.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Robertson, James.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Young, Elizabeth L.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Burt Harrison papers, 1977-1982.<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection documents the interviews conducted in the Public Radio Oral History Project. <\/abstract>\n                  <name>\n                     <namePart>University of Maryland Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Burt Harrison papers, 1977-1982.",
+                "abstract": "Collection documents the interviews conducted in the Public Radio Oral History Project. ",
+                "extent": "5.00 linear feet including 65 audiocassettes.",
+                "displayEntry": "Harrison, Burt. Burt Harrison papers, 1977-1982.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Harrison, Burt.",
+                        "id": "9490231",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Crabbe, John C.",
+                        "id": "9490232",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Harley, William G., 1911-1998.",
+                        "id": "9490233",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Norwood, Frank W.",
+                        "id": "9490234",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Novik, Morris S., 1903-",
+                        "id": "9490235",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Quayle, Donald R.",
+                        "id": "9490236",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Paulu, Burton, 1910-",
+                        "id": "9490237",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Schooley, Frank E.",
+                        "id": "9490238",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Witherspoon, John.",
+                        "id": "9490239",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Robertson, James.",
+                        "id": "9490240",
+                        "version": "7349776"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Young, Elizabeth L.",
+                        "id": "9490241",
+                        "version": "7349776"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nd6rhz",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Maryland (College Park, Md.). Libraries",
+                            "preferenceScore": "99",
+                            "id": "85373679",
+                            "version": "11507801"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "College Park",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400245",
+                                        "term": "City",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#City",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376028",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Maryland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400246",
+                                        "term": "State",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#State",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376029",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "United States",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400248",
+                                        "term": "Country",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Country",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376030",
+                                    "version": "11508654"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20742",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400247",
+                                        "term": "PostalCode",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#PostalCode",
+                                        "type": "address_part"
+                                    },
+                                    "id": "85376031",
+                                    "version": "11508654"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "2754",
+                                "uri": "http:\/\/www.geonames.org\/4351977",
+                                "name": "College Park",
+                                "latitude": "38.9806700",
+                                "longitude": "-76.9369200",
+                                "administrationCode": "MD",
+                                "countryCode": "US"
+                            },
+                            "confirmed": true,
+                            "id": "85376027",
+                            "version": "11508654"
+                        }
+                    ],
+                    "id": "85373668",
+                    "version": "11508655"
+                },
+                "id": "7349776",
+                "version": "7349776"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Harrison, Burt. Burt Harrison papers, 1977-1982.",
+            "id": "72541071",
+            "version": "10601219"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "United States",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "72541057",
+            "version": "10601219",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "United States",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "72541058",
+                    "version": "10601219"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "296614",
+                "term": "Public radio--History",
+                "type": "subject"
+            },
+            "id": "72541059",
+            "version": "10601219"
+        }
+    ],
+    "id": "72541048",
+    "version": "10601220",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1977",
+            "fromDateOriginal": "active 1977",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1982",
+            "toDateOriginal": "active 1982",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "72541051",
+            "version": "10601219"
+        }
+    ]
+}

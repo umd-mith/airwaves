@@ -1,0 +1,263 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6mt64cj",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-04",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T15:55:38",
+            "standardDateTime": "2016-08-14T15:55:38",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T15:55:38",
+            "standardDateTime": "2016-08-14T15:55:38",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/cor\/opl_04.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"600\" source=\"lcnaf\">Eichler, Joseph L.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt5k4020tm",
+            "id": "46496717",
+            "version": "6789947"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/252410833",
+            "id": "46496718",
+            "version": "6789947"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "46496719",
+            "version": "6789947"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Eichler, Joseph L",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Eichler, Joseph L",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "46496721",
+                    "version": "6789947"
+                }
+            ],
+            "id": "46496720",
+            "version": "6789947",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80599756",
+                    "version": "6789947"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "46496716",
+            "targetConstellation": "71739822",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mt64cj",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tr85zh",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Orange Public Library (Calif.)",
+            "id": "46496727",
+            "version": "6789947"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Eichler, Joseph L",
+            "uri": "https:\/\/viaf.org\/viaf\/252410833",
+            "id": "46496726",
+            "version": "6789947"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt5k4020tm",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Orange Public Library local history collection, \n<\/unittitle>\n                  <unitdate>1883-2003<\/unitdate>\n                  <unitdate>(bulk ca. 1910-1990)<\/unitdate>\n                  <unitid>Consult repository<\/unitid>\n                  <origination>\n                     <corpname>Orange Public Library (Calif.)<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>4,500 (photographs, postcards, maps, pamphlets, ephemera)<\/extent>\n                     <extent>1,414 online items<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Orange Public Library<\/corpname>\n                     <address>\n                        <addressline>Orange, California 92866<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <abstract>The Collection consists of the Florence Flippen Smiley Memorial Archives, on permanent loan from the Orange Community Historical Society, as well as numerous items acquired by the Library through purchase or donation.  Covering the period 1871 to the present, this rich and diverse collection includes books, periodicals, photographs, manuscripts, maps, pamphlets, ephemera and artifacts. A variety of subject areas are represented, with particular emphasis on the citrus industry, old businesses, civic and religious organizations, and city agencies.<\/abstract>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n                  <dao>\n                     <daodesc>\n                        <head>Online Items<\/head>\n                        <p>Selected digitized photographs available online.<\/p>\n                     <\/daodesc>\n                  <\/dao>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Orange Public Library local history collection, 1883-2003 (bulk ca. 1910-1990)",
+                "abstract": "The Collection consists of the Florence Flippen Smiley Memorial Archives, on permanent loan from the Orange Community Historical Society, as well as numerous items acquired by the Library through purchase or donation.  Covering the period 1871 to the present, this rich and diverse collection includes books, periodicals, photographs, manuscripts, maps, pamphlets, ephemera and artifacts. A variety of subject areas are represented, with particular emphasis on the citrus industry, old businesses, civic and religious organizations, and city agencies.",
+                "extent": "4,500 (photographs, postcards, maps, pamphlets, ephemera); 1,414 online items",
+                "displayEntry": "Orange Public Library local history collection, 1883-2003, (bulk ca. 1910-1990)",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11290604",
+                        "version": "6656836"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6xb3140",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Orange Public Library",
+                            "preferenceScore": "99",
+                            "id": "76795055",
+                            "version": "11239013"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Orange Public Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Orange, California 92866",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76795058",
+                                    "version": "11239013"
+                                }
+                            ],
+                            "id": "76795057",
+                            "version": "11239013"
+                        }
+                    ],
+                    "id": "76795054",
+                    "version": "11239016"
+                },
+                "id": "6656836",
+                "version": "6656836"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Orange Public Library local history collection, 1883-2003, (bulk ca. 1910-1990)",
+            "id": "46496728",
+            "version": "6789947"
+        }
+    ],
+    "id": "46496716",
+    "version": "6789948"
+}

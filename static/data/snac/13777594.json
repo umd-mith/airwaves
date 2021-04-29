@@ -1,0 +1,809 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60602fj",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T16:47:32",
+            "standardDateTime": "2016-08-10T16:47:32",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T16:47:32",
+            "standardDateTime": "2016-08-10T16:47:32",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/27844515",
+            "id": "13777599",
+            "version": "2006438"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/rmoa\/wyu-ah00421.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"700\">Gage, Jack R. (Jack Robert), 1899-1970. Tensleep and no rest.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/rmoa.unm.edu\/docviewer.php?docId=wyu-ah00421.xml",
+            "id": "13777600",
+            "version": "2006438"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/71013081",
+            "id": "13777598",
+            "version": "2006438"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/63297405",
+            "id": "13777601",
+            "version": "2006438"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "13777602",
+            "version": "2006438"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Gage, Jack R. (Jack Robert), 1899-1970",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Gage, Jack R. (Jack Robert), 1899-1970",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "13777604",
+                    "version": "2006438"
+                }
+            ],
+            "id": "13777603",
+            "version": "2006438",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"rmoa\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77928247",
+                    "version": "2006438"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Gage, Jack R.",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Gage, Jack R.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "13777609",
+                    "version": "2006438"
+                }
+            ],
+            "id": "13777608",
+            "version": "2006438",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77928248",
+                    "version": "2006438"
+                }
+            ]
+        }
+    ],
+    "occupations": [
+        {
+            "dataType": "Occupation",
+            "term": {
+                "id": "15806",
+                "term": "Governors--Wyoming",
+                "type": "occupation"
+            },
+            "id": "13777611",
+            "version": "2006438"
+        },
+        {
+            "dataType": "Occupation",
+            "term": {
+                "id": "15692",
+                "term": "Governors",
+                "type": "occupation"
+            },
+            "id": "13777612",
+            "version": "2006438"
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "13777596",
+                "version": "2006438"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">Gage (1899-1970), Democratic governor of Wyoming from 1961-1963, served as postmaster of Sheridan, Wyoming, from 1941 to 1958. He was elected Wyoming secretary of state in 1958, and in 1961 when Governor J.J. Hickey resigned, Gage became governor by succession.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Jack R. Gage papers, 1892-1975. (University of Wyoming, American Heritage Center). WorldCat record id: 27844515<\/citation>\n         <p xmlns=\"urn:isbn:1-931666-33-4\">Wyoming state superintendent of public instruction (1934-1939), secretary of state (1959-1960), and governor 1961-1963).<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Papers, 1961-1962. (Wyoming State Archives). WorldCat record id: 71013081<\/citation>\n         \n            <p xmlns=\"urn:isbn:1-931666-33-4\">Jack R. Gage was born on January 13, 1899, in McCook, Nebraska, to Will Vernon and LaVaughn Gage. His father was a physician for the railroad in Wyoming, and they were living in a boxcar at the time of Jack\u2019s birth. To avoid giving birth in a boxcar his mother LaVaughn went home to Nebraska. The family settled in Worland, Wyoming, in 1905, where Jack Gage would grow up the only child of Will and LaVaughn. He graduated from Worland High School in 1918. After graduation he enlisted in the United States Army and served in Artillery during World War I. He was honorably discharged in 1919 and went on to complete his education at the University of Wyoming. He graduated in 1924 with a Bachelors of Science degree in Agriculture. While in College he met his wife Leona Switzer from Gillette, Wyoming. They were married September 29, 1922. They had two children, Jack R. Gage Jr., born in 1926, and Richard (Dick) C. Gage, born in 1928.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Jack R. Gage was a Vocational Agriculture teacher from 1924-1925 at the Cambell County High School in Gillette, Wyoming. From 1929-1934 he was a Geology and Biology teacher at Sheridan High School in Sheridan, Wyoming. In 1934 he quit teaching at Sheridan High School in order to run for Wyoming State Superintendent of Public Instruction. He won the election and served a term of four years, but he failed to get reelected in 1938. There are claims that this position made him the first graduate of the University of Wyoming to hold a state office. In 1941 he was appointed Postmaster in Sheridan, Wyoming. He worked there for seventeen years until 1958. During this time he became involved in Rotary and was the District Governor from 1956-1957. He also wrote the historical novel \u201cTensleep and No Rest\u201d and won the Crusade for Freedom award for a peace plan he had submitted. For three weeks in June of 1957 he went to Russia, and he would later give talks about his visit. In 1958 he resigned as the Sheridan Postmaster in order to run for Secretary of State on the Democratic ticket.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">He won the election in 1958 and served as Wyoming Secretary of State until 1961. In 1960, after Wyoming Senator Keith Thomson died, Governor Joe Hickey was appointed to replace Thomson in the Senate. On January 2, 1961, Joe Hickey resigned as governor in order to take the new appointment. That same day Jack Gage became the Acting Governor of Wyoming until January 7, 1963, when his term expired. Jack Gage ran for Governor in 1962. He won in the primary, beating William \u201cScotty\u201d Jack, but lost in the general election to Cliff Hansen. After 1963 Jack Gage became a well known speaker and was invited to speak at many functions. He also was a published author of historical novels and articles on Wyoming and the West, such as \u201c The Geography of Wyoming,\u201d \u201cTensleep and No Rest,\u201d and \u201c The Horse, The Buggy, The Doctor.\u201d Jack Gage died of cancer on March 14, 1970, in Cheyenne, Wyoming, at the age of 71.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the guide to the Jack R. Gage papers, 1892-1975, (University of Wyoming. American Heritage Center.)<\/citation>\n         <\/biogHist>",
+            "id": "13777595",
+            "version": "2006438"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "13777594",
+            "targetConstellation": "66069942",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60602fj",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vf2v8r",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Wyoming. Governor (1959-1961 : Hickey)",
+            "id": "13777633",
+            "version": "2006438"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "13777594",
+            "targetConstellation": "2678839",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60602fj",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zq2818",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Wyoming. Governor (1961-1963 : Gage)",
+            "id": "13777632",
+            "version": "2006438"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "13777594",
+            "targetConstellation": "17472808",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60602fj",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fb9m3h",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Wyoming. Legislature.",
+            "id": "13777634",
+            "version": "2006438"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Gage, Jack R.",
+            "uri": "https:\/\/viaf.org\/viaf\/63297405",
+            "id": "13777618",
+            "version": "2006438"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n97088491",
+            "id": "13777619",
+            "version": "2006438"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n97088491",
+            "id": "13777620",
+            "version": "2006438"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.wikidata.org\/entity\/Q267578",
+            "id": "13777621",
+            "version": "2006438"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/27844515",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:27844515<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-AHJ<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Gage, Jack R. (Jack Robert), 1899-1970.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Jack R. Gage papers, 1892-1975.<\/title>\n                  <\/titleInfo>\n                  <abstract>Collection relates to Gage's positions in public office, mainly as governor, and includes subject files, correspondence, campaign materials, speeches, and photographs along with miscellaneous materials from J.J. Hickey's term in office. There are also some scrapbooks and other personal memorabilia, including correspondence with his book \"Tensleep and No Rest.\" <\/abstract>\n                  <name>\n                     <namePart>University of Wyoming, American Heritage Center<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Jack R. Gage papers, 1892-1975.",
+                "abstract": "Collection relates to Gage's positions in public office, mainly as governor, and includes subject files, correspondence, campaign materials, speeches, and photographs along with miscellaneous materials from J.J. Hickey's term in office. There are also some scrapbooks and other personal memorabilia, including correspondence with his book \"Tensleep and No Rest.\" ",
+                "extent": "7.57 cubic ft. (16 boxes)",
+                "displayEntry": "Gage, Jack R. (Jack Robert), 1899-1970. Jack R. Gage papers, 1892-1975.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Gage, Jack R. (Jack Robert), 1899-1970.",
+                        "id": "9324408",
+                        "version": "7249984"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6wx86cn",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Wyoming, American Heritage Center",
+                            "preferenceScore": "99",
+                            "id": "76788908",
+                            "version": "11234701"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Wyoming, American Heritage Center",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1000 E University Ave",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788913",
+                                    "version": "11234701"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Dept 3924",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788914",
+                                    "version": "11234701"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Laramie",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788915",
+                                    "version": "11234701"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WY",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788916",
+                                    "version": "11234701"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "82071-2000",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788917",
+                                    "version": "11234701"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788918",
+                                    "version": "11234701"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16165",
+                                "name": "University of Wyoming, American Heritage Center",
+                                "latitude": "41.3108000",
+                                "longitude": "-105.5900000"
+                            },
+                            "confirmed": true,
+                            "id": "76788912",
+                            "version": "11234701"
+                        }
+                    ],
+                    "id": "76788907",
+                    "version": "11234704"
+                },
+                "id": "7249984",
+                "version": "7249984"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Gage, Jack R. (Jack Robert), 1899-1970. Jack R. Gage papers, 1892-1975.",
+            "id": "13777636",
+            "version": "2006438"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/71013081",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:71013081<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-WY3<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Gage, Jack R. (Jack Robert), 1899-1970.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers, 1961-1962.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence, minutes, reports, and other papers, concerning state and federal government policies, issues, and activities. <\/abstract>\n                  <name>\n                     <namePart>Wyoming State Archives<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1961-1962.",
+                "abstract": "Correspondence, minutes, reports, and other papers, concerning state and federal government policies, issues, and activities. ",
+                "extent": "15 cubic ft.",
+                "displayEntry": "Gage, Jack R. (Jack Robert), 1899-1970. Papers, 1961-1962.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Gage, Jack R. (Jack Robert), 1899-1970.",
+                        "id": "10806738",
+                        "version": "8071254"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60q1nnt",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Wyoming, State Archives and Historical Department",
+                            "preferenceScore": "99",
+                            "id": "76791334",
+                            "version": "11235565"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Wyoming, State Archives and Historical Department",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cheyenne, Wyoming 82001  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791338",
+                                    "version": "11235565"
+                                }
+                            ],
+                            "id": "76791337",
+                            "version": "11235565"
+                        }
+                    ],
+                    "id": "76791333",
+                    "version": "11235568"
+                },
+                "id": "8071254",
+                "version": "8071254"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Gage, Jack R. (Jack Robert), 1899-1970. Papers, 1961-1962.",
+            "id": "13777635",
+            "version": "2006438"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/rmoa.unm.edu\/docviewer.php?docId=wyu-ah00421.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <origination>\n                     <persname> Gage, Jack R. (Jack Robert), 1899-1970<\/persname>\n                  <\/origination>\n                  <unittitle> Jack R. Gage papers\n\t\t<unitdate> 1892-1975<\/unitdate>\n                  <\/unittitle>\n                  <unitid> 00421<\/unitid>\n                  <physdesc>\n                     <extent> 7.57 \n  \t\tcubic ft. (14 document boxes, 1 F24 box, and 1 other box)<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>University of Wyoming. American Heritage Center.<\/corpname>\n                  <\/repository>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n                  <abstract> Collection relates to Gage's positions in public office, mainly as governor, and includes subject files, correspondence, campaign materials, speeches, and photographs along with miscellaneous materials from J. J. Hickey's term in office. There are also some scrapbooks and other personal memorabilia, including correspondence with his book \"Tensleep and No Rest.\"<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Jack R. Gage papers 1892-1975",
+                "abstract": "Collection relates to Gage's positions in public office, mainly as governor, and includes subject files, correspondence, campaign materials, speeches, and photographs along with miscellaneous materials from J. J. Hickey's term in office. There are also some scrapbooks and other personal memorabilia, including correspondence with his book \"Tensleep and No Rest.\"",
+                "extent": "7.57   cubic ft. (14 document boxes, 1 F24 box, and 1 other box)",
+                "displayEntry": "Jack R. Gage papers, 1892-1975",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": " Gage, Jack R. (Jack Robert), 1899-1970",
+                        "id": "11469332",
+                        "version": "6405143"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11469333",
+                        "version": "6405143"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6k7571r",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Wyoming. American Heritage Center.",
+                            "preferenceScore": "99",
+                            "id": "76798171",
+                            "version": "11241965"
+                        }
+                    ],
+                    "id": "76798170",
+                    "version": "11241968"
+                },
+                "id": "6405143",
+                "version": "6405143"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Jack R. Gage papers, 1892-1975",
+            "id": "13777637",
+            "version": "2006438"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Wyoming",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "13777622",
+            "version": "2006438",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Wyoming",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "13777623",
+                    "version": "2006438"
+                }
+            ]
+        },
+        {
+            "dataType": "Place",
+            "original": "Wyoming",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "13777626",
+            "version": "2006438",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Wyoming",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "13777627",
+                    "version": "2006438"
+                }
+            ]
+        },
+        {
+            "dataType": "Place",
+            "original": "United States",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "13777624",
+            "version": "2006438",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "United States",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "13777625",
+                    "version": "2006438"
+                }
+            ]
+        },
+        {
+            "dataType": "Place",
+            "original": "Wyoming",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "geoplace": {
+                "id": "14707",
+                "uri": "http:\/\/www.geonames.org\/5843591",
+                "name": "Wyoming",
+                "latitude": "43.0002400",
+                "longitude": "-107.5009000",
+                "administrationCode": "WY",
+                "countryCode": "US"
+            },
+            "score": "1",
+            "id": "13777628",
+            "version": "2006438",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Wyoming",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "13777629",
+                    "version": "2006438"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "284831",
+                "term": "Politics, Practical--Wyoming",
+                "type": "subject"
+            },
+            "id": "13777630",
+            "version": "2006438"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "284741",
+                "term": "Politics, Practical",
+                "type": "subject"
+            },
+            "id": "13777631",
+            "version": "2006438"
+        }
+    ],
+    "id": "13777594",
+    "version": "2006439",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1899",
+            "fromDateOriginal": "1899",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "toDate": "1970",
+            "toDateOriginal": "1970",
+            "toType": {
+                "id": "690",
+                "term": "Death",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Death",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "13777597",
+            "version": "2006438"
+        }
+    ]
+}

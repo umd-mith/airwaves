@@ -1,0 +1,195 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63075dv",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-05",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T18:03:08",
+            "standardDateTime": "2016-08-16T18:03:08",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T18:03:08",
+            "standardDateTime": "2016-08-16T18:03:08",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/uct\/MSS20030137.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WCBS<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/badolato\/MSS20030137.html",
+            "id": "59686632",
+            "version": "8725832"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WCBS",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WCBS",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "59686634",
+                    "version": "8725832"
+                }
+            ],
+            "id": "59686633",
+            "version": "8725832",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"uct\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81685037",
+                    "version": "8725832"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "59686631",
+            "targetConstellation": "24316401",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63075dv",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6f63t57",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28243",
+                "term": "correspondedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#correspondedWith",
+                "type": "relation_type"
+            },
+            "content": "Badolato, Dominic J.",
+            "id": "59686637",
+            "version": "8725832"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/doddcenter.uconn.edu\/asc\/findaids\/badolato\/MSS20030137.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Dominic J. Badolato Papers<\/unittitle>\n                  <unitid>2003.0137<\/unitid>\n                  <repository>\n                     <corpname>Archives &amp; Special Collections at the Thomas J. Dodd Research Center, University of Connecticut Libraries<\/corpname>\n                  <\/repository>\n                  <langmaterial>\n                     <language\/>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>198.0 Linear feet<\/extent>\n                  <\/physdesc>\n                  <unitdate>undated, 1918-2003<\/unitdate>\n                  <abstract>Dominic J. Badolato, born in 1919, served as a member of the Connecticut House of Representatives, representing New Britain, from 1954 to 1976, and was the founding head of the American Federation of State, County and Municipal Employees Union, Council 4, in New Britain, Connecticut, from 1968 to 1996.<\/abstract>\n                  <origination>\n                     <persname>Badolato, Dominic J.<\/persname>\n                  <\/origination>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Dominic J. Badolato Papers undated, 1918-2003",
+                "abstract": "Dominic J. Badolato, born in 1919, served as a member of the Connecticut House of Representatives, representing New Britain, from 1954 to 1976, and was the founding head of the American Federation of State, County and Municipal Employees Union, Council 4, in New Britain, Connecticut, from 1968 to 1996.",
+                "extent": "198.0 Linear feet",
+                "displayEntry": "Dominic J. Badolato Papers, undated, 1918-2003",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Badolato, Dominic J.",
+                        "id": "11358401",
+                        "version": "6332027"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6m14v4d",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Archives and Special Collections at the Thomas J. Dodd Research Center, University of Connecticut Libraries",
+                            "preferenceScore": "99",
+                            "id": "76791767",
+                            "version": "11235865"
+                        }
+                    ],
+                    "id": "76791766",
+                    "version": "11316775"
+                },
+                "id": "6332027",
+                "version": "6332027"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Dominic J. Badolato Papers, undated, 1918-2003",
+            "id": "59686638",
+            "version": "8725832"
+        }
+    ],
+    "id": "59686631",
+    "version": "8725833"
+}

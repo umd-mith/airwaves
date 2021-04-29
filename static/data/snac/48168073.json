@@ -1,0 +1,207 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6zq97kp",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T21:59:42",
+            "standardDateTime": "2016-08-14T21:59:42",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-14T21:59:42",
+            "standardDateTime": "2016-08-14T21:59:42",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/ohlink\/xOhCoUCR0004.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WOSU<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/rave.ohiolink.edu\/archives\/ead\/xOhCoUCR0004",
+            "id": "48168074",
+            "version": "7038437"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WOSU",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WOSU",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "48168076",
+                    "version": "7038437"
+                }
+            ],
+            "id": "48168075",
+            "version": "7038437",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"ohlink\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "80736866",
+                    "version": "7038437"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "48168073",
+            "targetConstellation": "23077462",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zq97kp",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w69b3jb9",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Milton Caniff",
+            "id": "48168079",
+            "version": "7038437"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/rave.ohiolink.edu\/archives\/ead\/xOhCoUCR0004",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>The Ohio State University Billy Ireland Cartoon Library &amp; Museum<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <persname>Milton Caniff<\/persname>\n                  <\/origination>\n                  <unittitle>Milton Caniff Collection<\/unittitle>\n                  <unitdate>1805-2007<\/unitdate>\n                  <unitdate>1910-1988<\/unitdate>\n                  <physdesc>696 cubic feet (526 boxes + 12,153 art originals + 59 oversized items)<\/physdesc>\n                  <abstract>Personal and business papers of Milton Caniff, cartoonist; includes original art, correspondence, research files, photographs, memorabilia, merchandise, realia, awards, audio\/visual material and scrapbooks.<\/abstract>\n                  <unitid>SPEC.CGA.MAC<\/unitid>\n                  <langmaterial>The records are in <language>English<\/language>.\n\t<\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Milton Caniff Collection 1805-2007 1910-1988",
+                "abstract": "Personal and business papers of Milton Caniff, cartoonist; includes original art, correspondence, research files, photographs, memorabilia, merchandise, realia, awards, audio\/visual material and scrapbooks.",
+                "displayEntry": "Milton Caniff Collection, 1805-2007, 1910-1988",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Milton Caniff",
+                        "id": "11460317",
+                        "version": "6399205"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11460318",
+                        "version": "6399205"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6sg3k2v",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "The Ohio State University Billy Ireland Cartoon Library & Museum",
+                            "preferenceScore": "99",
+                            "id": "76796861",
+                            "version": "11240689"
+                        }
+                    ],
+                    "id": "76796860",
+                    "version": "11240692"
+                },
+                "id": "6399205",
+                "version": "6399205"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Milton Caniff Collection, 1805-2007, 1910-1988",
+            "id": "48168080",
+            "version": "7038437"
+        }
+    ],
+    "id": "48168073",
+    "version": "7038438"
+}

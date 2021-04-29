@@ -1,0 +1,428 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6mw3wdn",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-22",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T11:28:00",
+            "standardDateTime": "2016-08-13T11:28:00",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T11:28:00",
+            "standardDateTime": "2016-08-13T11:28:00",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/233107231",
+            "id": "38100299",
+            "version": "5559242"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Menzer, Carl,",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Menzer, Carl,",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "38100301",
+                    "version": "5559242"
+                }
+            ],
+            "id": "38100300",
+            "version": "5559242",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79911561",
+                    "version": "5559242"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "38100297",
+                "version": "5559242"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">Director of the University of Iowa radio station, WSUI.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of Oral history interview with Carl Menzer, 1976 July 8. (University of Iowa Libraries). WorldCat record id: 233107231<\/citation>\n         <\/biogHist>",
+            "id": "38100296",
+            "version": "5559242"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "38100295",
+            "targetConstellation": "5181907",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mw3wdn",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w62r547q",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Beilman, James,",
+            "id": "38100309",
+            "version": "5559242"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "38100295",
+            "targetConstellation": "38915808",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mw3wdn",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sv1fh2",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Iowa",
+            "id": "38100307",
+            "version": "5559242"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "38100295",
+            "targetConstellation": "49341822",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mw3wdn",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tx8mj7",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Iowa Oral History Project.",
+            "id": "38100310",
+            "version": "5559242"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "38100295",
+            "targetConstellation": "63217314",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6mw3wdn",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vb3fw6",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WSUI (Radio station : Iowa City, Iowa)",
+            "id": "38100308",
+            "version": "5559242"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/233107231",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:233107231<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NUI<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Menzer, Carl,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Beilman, James,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>University of Iowa Oral History Project.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Oral history interview with Carl Menzer, 1976 July 8.<\/title>\n                  <\/titleInfo>\n                  <abstract>Interview conducted by James Beilman on 8 July 1976 relating to Menzer's career in educational radio broadcasting. <\/abstract>\n                  <name>\n                     <namePart>University of Iowa Libraries<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Oral history interview with Carl Menzer, 1976 July 8.",
+                "abstract": "Interview conducted by James Beilman on 8 July 1976 relating to Menzer's career in educational radio broadcasting. ",
+                "extent": "31 leaves ; 29 cm.",
+                "displayEntry": "Menzer, Carl,. Oral history interview with Carl Menzer, 1976 July 8.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Menzer, Carl,",
+                        "id": "9019710",
+                        "version": "7103407"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Beilman, James,",
+                        "id": "9019711",
+                        "version": "7103407"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of Iowa Oral History Project.",
+                        "id": "9019712",
+                        "version": "7103407"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r893tt",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Iowa Libraries",
+                            "preferenceScore": "99",
+                            "id": "76786575",
+                            "version": "11233901"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Iowa Libraries",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "125 W Washington St.",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786580",
+                                    "version": "11233901"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Iowa City",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786581",
+                                    "version": "11233901"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-IA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786582",
+                                    "version": "11233901"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "52242-1479",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786583",
+                                    "version": "11233901"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76786584",
+                                    "version": "11233901"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16122",
+                                "name": "University of Iowa Libraries",
+                                "latitude": "41.6601486",
+                                "longitude": "-91.5380173"
+                            },
+                            "confirmed": true,
+                            "id": "76786579",
+                            "version": "11233901"
+                        }
+                    ],
+                    "id": "76786574",
+                    "version": "11233904"
+                },
+                "id": "7103407",
+                "version": "7103407"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Menzer, Carl,. Oral history interview with Carl Menzer, 1976 July 8.",
+            "id": "38100311",
+            "version": "5559242"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Iowa",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "38100304",
+            "version": "5559242",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Iowa",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "38100305",
+                    "version": "5559242"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302005",
+                "term": "Radio engineers",
+                "type": "subject"
+            },
+            "id": "38100306",
+            "version": "5559242"
+        }
+    ],
+    "id": "38100295",
+    "version": "5559243",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDateOriginal": "active 1976",
+            "id": "38100298",
+            "version": "5559242"
+        }
+    ]
+}

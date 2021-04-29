@@ -1,0 +1,893 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6b6436f",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T13:19:35",
+            "standardDateTime": "2016-08-19T13:19:35",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-19T13:19:35",
+            "standardDateTime": "2016-08-19T13:19:35",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/145770887",
+            "id": "75141845",
+            "version": "10982897"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/145771209",
+            "id": "75141844",
+            "version": "10982897"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/145771298",
+            "id": "75141843",
+            "version": "10982897"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Engel, Harold A., 1903-",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Engel, Harold A., 1903-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "75141847",
+                    "version": "10982897"
+                }
+            ],
+            "id": "75141846",
+            "version": "10982897",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "82949236",
+                    "version": "10982897"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75141841",
+            "targetConstellation": "44821541",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b6436f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6m3368n",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Derleth, August William, 1909-1971.",
+            "id": "75141859",
+            "version": "10982897"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75141841",
+            "targetConstellation": "48193803",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b6436f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6n89jn1",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Hanson, Malcolm P., 1894-1942.",
+            "id": "75141860",
+            "version": "10982897"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75141841",
+            "targetConstellation": "42090055",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b6436f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w62f844d",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Kaltenborn, H. v. (Hans), 1878-1965.",
+            "id": "75141861",
+            "version": "10982897"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75141841",
+            "targetConstellation": "34446859",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b6436f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6k37bm0",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "McCarty, Harold B., 1901-1987.",
+            "id": "75141862",
+            "version": "10982897"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75141841",
+            "targetConstellation": "35759418",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b6436f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zh4mjt",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "National Association of FM Broadcasters.",
+            "id": "75141863",
+            "version": "10982897"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75141841",
+            "targetConstellation": "7772091",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b6436f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64n6p96",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Penn, John Stanley, 1914-",
+            "id": "75141857",
+            "version": "10982897"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75141841",
+            "targetConstellation": "16814216",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b6436f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fv6f04",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Wisconsin. Radio and Television Committee.",
+            "id": "75141864",
+            "version": "10982897"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75141841",
+            "targetConstellation": "44342071",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b6436f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tj6fcc",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WEKZ (Radio Station : Monroe, Wis.)",
+            "id": "75141858",
+            "version": "10982897"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75141841",
+            "targetConstellation": "13198872",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b6436f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6pc89z4",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WHA (Radio station : Madison, Wis.)",
+            "id": "75141865",
+            "version": "10982897"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75141841",
+            "targetConstellation": "69513791",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b6436f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fg1m3v",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WHA (Television station : Madison, Wis.)",
+            "id": "75141866",
+            "version": "10982897"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "75141841",
+            "targetConstellation": "27573998",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b6436f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6zh4m13",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Wisconsin Broadcasters Association.",
+            "id": "75141867",
+            "version": "10982897"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/145771209",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:145771209<\/recordOrigin>\n                     <recordContentSource>ISIL:WHi<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WEKZ (Radio Station : Monroe, Wis.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Records, 1950-1968.<\/title>\n                  <\/titleInfo>\n                  <abstract>Records of a Monroe, Wisconsin, radio station begun in 1950. The processed portion is summarized above and is described in the register. Additional accessions are described below. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Records, 1950-1968.",
+                "abstract": "Records of a Monroe, Wisconsin, radio station begun in 1950. The processed portion is summarized above and is described in the register. Additional accessions are described below. ",
+                "extent": "1.2 c.f. (3 archives boxes); plusadditions of 1.0 c.f., and43 photographs.",
+                "displayEntry": "WEKZ (Radio Station : Monroe, Wis.). Records, 1950-1968.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WEKZ (Radio Station : Monroe, Wis.)",
+                        "id": "8661204",
+                        "version": "6840004"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fv98qm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "preferenceScore": "99",
+                            "id": "76791151",
+                            "version": "11235489"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "816 State St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791156",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Madison",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791157",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WI",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791158",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "53706",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791159",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791160",
+                                    "version": "11235489"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16409",
+                                "name": "Wisconsin Historical Society, Newspaper Project",
+                                "latitude": "43.0750000",
+                                "longitude": "-89.3992000"
+                            },
+                            "confirmed": true,
+                            "id": "76791155",
+                            "version": "11235489"
+                        }
+                    ],
+                    "id": "76791150",
+                    "version": "11235492"
+                },
+                "id": "6840004",
+                "version": "6840004"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "WEKZ (Radio Station : Monroe, Wis.). Records, 1950-1968.",
+            "id": "75141869",
+            "version": "10982897"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/145770887",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:145770887<\/recordOrigin>\n                     <recordContentSource>ISIL:WHi<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Engel, Harold A., 1903- .<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Papers, 1922-1968.<\/title>\n                  <\/titleInfo>\n                  <abstract>Papers of an educational broadcaster associated with WHA and WHA-TV, Madison, Wisconsin (1931-1968), as assistant director in charge of legislative and public relations. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Papers, 1922-1968.",
+                "abstract": "Papers of an educational broadcaster associated with WHA and WHA-TV, Madison, Wisconsin (1931-1968), as assistant director in charge of legislative and public relations. ",
+                "extent": "2.0 c.f. (5 archives boxes)",
+                "displayEntry": "Engel, Harold A., 1903- . Papers, 1922-1968.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Engel, Harold A., 1903- .",
+                        "id": "8661006",
+                        "version": "6839839"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fv98qm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "preferenceScore": "99",
+                            "id": "76791151",
+                            "version": "11235489"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "816 State St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791156",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Madison",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791157",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WI",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791158",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "53706",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791159",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791160",
+                                    "version": "11235489"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16409",
+                                "name": "Wisconsin Historical Society, Newspaper Project",
+                                "latitude": "43.0750000",
+                                "longitude": "-89.3992000"
+                            },
+                            "confirmed": true,
+                            "id": "76791155",
+                            "version": "11235489"
+                        }
+                    ],
+                    "id": "76791150",
+                    "version": "11235492"
+                },
+                "id": "6839839",
+                "version": "6839839"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Engel, Harold A., 1903- . Papers, 1922-1968.",
+            "id": "75141870",
+            "version": "10982897"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/145771298",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:145771298<\/recordOrigin>\n                     <recordContentSource>ISIL:WHi<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Penn, John Stanley, 1914-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Engel, Harold A., 1903-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>John Stanley Penn papers, 1922-1953.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence collected by Penn, a broadcast historian, concerning the early history of WHA, the radio station of the University of Wisconsin-Madison, and the work of physicist Earl M. Terry. Also includes an address by Terry, circa 1925; a WHA program log, 1922-1925; and a history of the station by Harold Engel. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "John Stanley Penn papers, 1922-1953.",
+                "abstract": "Correspondence collected by Penn, a broadcast historian, concerning the early history of WHA, the radio station of the University of Wisconsin-Madison, and the work of physicist Earl M. Terry. Also includes an address by Terry, circa 1925; a WHA program log, 1922-1925; and a history of the station by Harold Engel. ",
+                "extent": "0.1 c. f. (1 folder)",
+                "displayEntry": "Penn, John Stanley, 1914-. John Stanley Penn papers, 1922-1953.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Penn, John Stanley, 1914-",
+                        "id": "8661264",
+                        "version": "6840052"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Engel, Harold A., 1903-",
+                        "id": "8661265",
+                        "version": "6840052"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fv98qm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "preferenceScore": "99",
+                            "id": "76791151",
+                            "version": "11235489"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "816 State St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791156",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Madison",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791157",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WI",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791158",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "53706",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791159",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791160",
+                                    "version": "11235489"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16409",
+                                "name": "Wisconsin Historical Society, Newspaper Project",
+                                "latitude": "43.0750000",
+                                "longitude": "-89.3992000"
+                            },
+                            "confirmed": true,
+                            "id": "76791155",
+                            "version": "11235489"
+                        }
+                    ],
+                    "id": "76791150",
+                    "version": "11235492"
+                },
+                "id": "6840052",
+                "version": "6840052"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Penn, John Stanley, 1914-. John Stanley Penn papers, 1922-1953.",
+            "id": "75141868",
+            "version": "10982897"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Wisconsin",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "75141852",
+            "version": "10982897",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Wisconsin",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "75141853",
+                    "version": "10982897"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "134453",
+                "term": "Educational broadcasting",
+                "type": "subject"
+            },
+            "id": "75141855",
+            "version": "10982897"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "75984",
+                "term": "Broadcasting--Societies, etc",
+                "type": "subject"
+            },
+            "id": "75141854",
+            "version": "10982897"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "296612",
+                "term": "Public radio",
+                "type": "subject"
+            },
+            "id": "75141856",
+            "version": "10982897"
+        }
+    ],
+    "id": "75141841",
+    "version": "10982898",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1903",
+            "fromDateOriginal": "1903",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "75141842",
+            "version": "10982897"
+        }
+    ]
+}

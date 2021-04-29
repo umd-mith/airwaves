@@ -1,0 +1,224 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60m5dd8",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T16:08:23",
+            "standardDateTime": "2016-08-16T16:08:23",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T16:08:23",
+            "standardDateTime": "2016-08-16T16:08:23",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/div00551.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">WBBM<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/div00551\/catalog",
+            "id": "59211637",
+            "version": "8658080"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WBBM",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WBBM",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "59211639",
+                    "version": "8658080"
+                }
+            ],
+            "id": "59211638",
+            "version": "8658080",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81646646",
+                    "version": "8658080"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "59211636",
+            "targetConstellation": "72270949",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60m5dd8",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w61s05m6",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Schomer, Howard, 1915-2001",
+            "id": "59211642",
+            "version": "8658080"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/div00551\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Andover-Harvard Theological Library, Harvard Divinity School <address>\n                        <addressline>45 Francis Avenue<\/addressline>\n                        <addressline>Cambridge, MA\n02138-1911<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid>bMS 551  <\/unitid>\n                  <origination>\n                     <persname>Schomer, Howard, 1915-2001.  <\/persname>\n                  <\/origination>\n                  <unittitle>Schomer, Howard, 1915-2001. Papers, <unitdate>1928-2001. <\/unitdate>\n                  <\/unittitle>\n                  <physdesc>\n                     <extent>53 boxes  <\/extent>\n                  <\/physdesc>\n                  <abstract>Biographical files; sermons, lectures, speeches, writings and other materials\ndocumenting Howard Schomer's career as a minister, human rights advocate, pacifist,\nand business consultant.  <\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Schomer, Howard, 1915-2001. Papers, 1928-2001.",
+                "abstract": "Biographical files; sermons, lectures, speeches, writings and other materialsdocumenting Howard Schomer's career as a minister, human rights advocate, pacifist,and business consultant.",
+                "extent": "53 boxes",
+                "displayEntry": "Schomer, Howard, 1915-2001. Papers, 1928-2001.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Schomer, Howard, 1915-2001.  ",
+                        "id": "11425704",
+                        "version": "6382940"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6gk07zg",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Andover-Harvard Theological Library",
+                            "preferenceScore": "99",
+                            "id": "84920396",
+                            "version": "11441118"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Andover-Harvard Theological Library, Harvard Divinity School",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "45 Francis Avenue Cambridge, MA 02138-1911",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84920403",
+                                    "version": "11441109"
+                                }
+                            ],
+                            "id": "84920402",
+                            "version": "11441109"
+                        }
+                    ],
+                    "id": "84920365",
+                    "version": "11441119"
+                },
+                "id": "6382940",
+                "version": "6382940"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Schomer, Howard, 1915-2001. Papers, 1928-2001.",
+            "id": "59211643",
+            "version": "8658080"
+        }
+    ],
+    "id": "59211636",
+    "version": "8658081"
+}

@@ -1,0 +1,904 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fz014q",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T10:46:06",
+            "standardDateTime": "2016-08-13T10:46:06",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-13T10:46:06",
+            "standardDateTime": "2016-08-13T10:46:06",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/436097213",
+            "id": "37877601",
+            "version": "5528123"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/678650210",
+            "id": "37877600",
+            "version": "5528123"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/colu\/nnc-rb\/ldpd_10607937_ead.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"600\">Schenkkan, Robert, 1953-<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/findingaids.cul.columbia.edu\/ead\/nnc-rb\/ldpd_10607937",
+            "id": "37877602",
+            "version": "5528123"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/11885704",
+            "id": "37877603",
+            "version": "5528123"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "37877604",
+            "version": "5528123"
+        }
+    ],
+    "languagesUsed": [
+        {
+            "dataType": "Language",
+            "language": {
+                "id": "130",
+                "term": "eng",
+                "type": "language_code",
+                "description": "English"
+            },
+            "script": {
+                "id": "685",
+                "term": "Zyyy",
+                "type": "script_code",
+                "description": "Code for undetermined script"
+            },
+            "id": "37877605",
+            "version": "5528123"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Schenkkan, Robert, 1953-....",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Schenkkan, Robert, 1953-....",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "37877607",
+                    "version": "5528123"
+                }
+            ],
+            "id": "37877606",
+            "version": "5528123",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"colu\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79894284",
+                    "version": "5528123"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Schenkkan, Robert",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Schenkkan, Robert",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "37877613",
+                    "version": "5528123"
+                }
+            ],
+            "id": "37877612",
+            "version": "5528123",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79894285",
+                    "version": "5528123"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "37877598",
+            "targetConstellation": "70922728",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz014q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6qc4767",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Bryant, Tom,",
+            "id": "37877631",
+            "version": "5528123"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "37877598",
+            "targetConstellation": "2090854",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz014q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6xs9kh9",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Columbia University. Libraries.",
+            "id": "37877635",
+            "version": "5528123"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "37877598",
+            "targetConstellation": "53829140",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz014q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bg2s4t",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Crazy Horse, ca. 1842-1877",
+            "id": "37877634",
+            "version": "5528123"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "37877598",
+            "targetConstellation": "55723737",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz014q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6cf9n91",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Custer, George A. (George Armstrong), 1839-1876",
+            "id": "37877633",
+            "version": "5528123"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "37877598",
+            "targetConstellation": "62191455",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz014q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w62v948q",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Intiman Theatre Company.",
+            "id": "37877629",
+            "version": "5528123"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "37877598",
+            "targetConstellation": "32091262",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz014q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6dv87m5",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "New York Public Library for the Performing Arts. Billy Rose Theatre Division. Theatre on Film and Tape Archive.",
+            "id": "37877632",
+            "version": "5528123"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "37877598",
+            "targetConstellation": "70387124",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz014q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w60s3t6h",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Shook, Warner.",
+            "id": "37877630",
+            "version": "5528123"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "37877598",
+            "targetConstellation": "31553774",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6fz014q",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6n16m9t",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Schenkkan, Robert Frederic"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Schenkkan, Robert, 1953-....",
+            "uri": "https:\/\/viaf.org\/viaf\/11885704",
+            "id": "37877620",
+            "version": "5528123"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no94036022",
+            "id": "37877621",
+            "version": "5528123"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no94036022",
+            "id": "37877622",
+            "version": "5528123"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.wikidata.org\/entity\/Q2158716",
+            "id": "37877623",
+            "version": "5528123"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/findingaids.cul.columbia.edu\/ead\/nnc-rb\/ldpd_10607937",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <origination>\n                     <corpname>Columbia University. Libraries.<\/corpname>\n                  <\/origination>\n                  <unittitle>Edward M.\n                Kennedy prize records,<\/unittitle>\n                  <unitdate>2012-2013<\/unitdate>\n                  <physdesc>\n                     <extent>.5 linear feet (1 document box)<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Columbia University.<subarea>Rare Book and Manuscript Library<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline>New York, NY. 10027<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid>MS#1703<\/unitid>\n                  <unitid>10607937<\/unitid>\n                  <langmaterial>\n                     <language> Material is in English. <\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Edward M.                Kennedy prize records, 2012-2013",
+                "extent": ".5 linear feet (1 document box)",
+                "displayEntry": "Edward M. Kennedy prize records, 2012-2013",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kq8qx5",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Columbia University. Rare Book and Manuscript Library,",
+                            "preferenceScore": "99",
+                            "id": "76792768",
+                            "version": "11236825"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Columbia University. Rare Book and Manuscript Library,",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Rare Books and Manuscript Library Butler Library, 6th floor 535 West 114th Street New York, NY 10027",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76792771",
+                                    "version": "11236825"
+                                }
+                            ],
+                            "id": "76792770",
+                            "version": "11236825"
+                        }
+                    ],
+                    "id": "76792767",
+                    "version": "11236828"
+                },
+                "id": "6347037",
+                "version": "6347037"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Edward M. Kennedy prize records, 2012-2013",
+            "id": "37877639",
+            "version": "5528123"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/678650210",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:678650210<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-NYP<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Schenkkan, Robert, 1953-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Intiman Theatre Company.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Shook, Warner.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bryant, Tom,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>New York Public Library for the Performing Arts. Billy Rose Theatre Division. Theatre on Film and Tape Archive.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>The Kentucky cycle \/ by Robert Schenkkan, 1991.<\/title>\n                  <\/titleInfo>\n                  <abstract>Typescript, dated June 1, 1999. <\/abstract>\n                  <name>\n                     <namePart>New York Public Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "The Kentucky cycle \/ by Robert Schenkkan, 1991.",
+                "abstract": "Typescript, dated June 1, 1999. ",
+                "extent": "[252] leaves in various foliations ; 28 cm.",
+                "displayEntry": "Schenkkan, Robert, 1953-. The Kentucky cycle \/ by Robert Schenkkan, 1991.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Schenkkan, Robert, 1953-",
+                        "id": "10629303",
+                        "version": "7969217"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Intiman Theatre Company.",
+                        "id": "10629304",
+                        "version": "7969217"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Shook, Warner.",
+                        "id": "10629305",
+                        "version": "7969217"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bryant, Tom,",
+                        "id": "10629306",
+                        "version": "7969217"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "New York Public Library for the Performing Arts. Billy Rose Theatre Division. Theatre on Film and Tape Archive.",
+                        "id": "10629307",
+                        "version": "7969217"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nt1hgv",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "New York Public Library System, NYPL",
+                            "preferenceScore": "99",
+                            "id": "76777394",
+                            "version": "11230529"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "New York Public Library System, NYPL",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Fifth Avenue at 42nd Street",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777399",
+                                    "version": "11230529"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "New York",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777400",
+                                    "version": "11230529"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-NY",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777401",
+                                    "version": "11230529"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10018-2788",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777402",
+                                    "version": "11230529"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76777403",
+                                    "version": "11230529"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15028",
+                                "name": "New York Public Library System, NYPL",
+                                "latitude": "40.7534981",
+                                "longitude": "-73.9808884"
+                            },
+                            "confirmed": true,
+                            "id": "76777398",
+                            "version": "11230529"
+                        }
+                    ],
+                    "id": "76777393",
+                    "version": "11230532"
+                },
+                "id": "7969217",
+                "version": "7969217"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Schenkkan, Robert, 1953-. The Kentucky cycle \/ by Robert Schenkkan, 1991.",
+            "id": "37877637",
+            "version": "5528123"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/436097213",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:436097213<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-TXI<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Schenkkan, Robert, 1953-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Crazy horse : an original screenplay \/ by Robert Schenkkan. 1995.<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Texas State University-San Marcos<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Crazy horse : an original screenplay \/ by Robert Schenkkan. 1995.",
+                "extent": "1 v. (87 leaves) ; 28 cm.",
+                "displayEntry": "Schenkkan, Robert, 1953-. Crazy horse : an original screenplay \/ by Robert Schenkkan.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Schenkkan, Robert, 1953-",
+                        "id": "9757434",
+                        "version": "7529917"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6v8078t",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Texas State University-San Marcos, Albert B. Alkek Library",
+                            "preferenceScore": "99",
+                            "id": "76783987",
+                            "version": "11232969"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Texas State University-San Marcos, Albert B. Alkek Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "601 University Drive",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783992",
+                                    "version": "11232969"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "San Marcos",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783993",
+                                    "version": "11232969"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-TX",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783994",
+                                    "version": "11232969"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "78666",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783995",
+                                    "version": "11232969"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76783996",
+                                    "version": "11232969"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16592",
+                                "name": "Texas State University-San Marcos, Albert B. Alkek Library",
+                                "latitude": "29.8830605",
+                                "longitude": "-97.9449615"
+                            },
+                            "confirmed": true,
+                            "id": "76783991",
+                            "version": "11232969"
+                        }
+                    ],
+                    "id": "76783986",
+                    "version": "11232972"
+                },
+                "id": "7529917",
+                "version": "7529917"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Schenkkan, Robert, 1953-. Crazy horse : an original screenplay \/ by Robert Schenkkan.",
+            "id": "37877638",
+            "version": "5528123"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Kentucky",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "37877624",
+            "version": "5528123",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Kentucky",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "37877625",
+                    "version": "5528123"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "162005",
+                "term": "Frontier and pioneer life--Drama",
+                "type": "subject"
+            },
+            "id": "37877626",
+            "version": "5528123"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "224233",
+                "term": "Made-for--TV movies",
+                "type": "subject"
+            },
+            "id": "37877627",
+            "version": "5528123"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "381240",
+                "term": "Western television programs",
+                "type": "subject"
+            },
+            "id": "37877628",
+            "version": "5528123"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "8188",
+                "term": "Americans",
+                "type": "nationality"
+            },
+            "id": "37877615",
+            "version": "5528123"
+        }
+    ],
+    "id": "37877598",
+    "version": "5528124",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1953-03-19",
+            "fromDateOriginal": "1953-03-19",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "37877599",
+            "version": "5528123"
+        }
+    ]
+}

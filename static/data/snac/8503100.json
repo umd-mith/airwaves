@@ -1,0 +1,199 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6jz3fzh",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-05-07",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T05:27:48",
+            "standardDateTime": "2016-08-10T05:27:48",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T05:27:48",
+            "standardDateTime": "2016-08-10T05:27:48",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/ahub\/f_21316.xml<\/filename>\n                  <ead_entity en_type=\"origination\">London Passenger Transport Board: Office of the Public Relations Officer<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archiveshub.ac.uk\/data\/gb2856-(new)lt000074",
+            "id": "8503101",
+            "version": "1234235"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "London Passenger Transport Board: Office of the Public Relations Officer",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "London Passenger Transport Board: Office of the Public Relations Officer",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "8503104",
+                    "version": "1234235"
+                }
+            ],
+            "id": "8503103",
+            "version": "1234235",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"ahub\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77497014",
+                    "version": "1234235"
+                }
+            ]
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archiveshub.ac.uk\/data\/gb2856-(new)lt000074",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unitid>(NEW)LT000074<\/unitid>\n                  <unitid>S94-144<\/unitid>\n                  <unittitle>London Passenger Transport Board (LPTB) and Predecessors: Office of the Public Relations Officer: Correspondence, Memoranda and Papers<\/unittitle>\n                  <unitdate>1927-1953<\/unitdate>\n                  <physdesc>\n                     <extent>6<\/extent>\n                     <physfacet>folder(s)<\/physfacet>\n                  <\/physdesc>\n                  <repository>Transport for London Group Archive<\/repository>\n                  <origination>London Passenger Transport Board: Office of the Public Relations Officer<\/origination>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "London Passenger Transport Board (LPTB) and Predecessors: Office of the Public Relations Officer: Correspondence, Memoranda and Papers 1927-1953",
+                "extent": "6",
+                "displayEntry": "London Passenger Transport Board (LPTB) and Predecessors: Office of the Public Relations Officer: Correspondence, Memoranda and Papers, 1927-1953",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11327137",
+                        "version": "6297957"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6zt3kbf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Transport for London Group Archive",
+                            "preferenceScore": "99",
+                            "id": "76797032",
+                            "version": "11240869"
+                        }
+                    ],
+                    "id": "76797031",
+                    "version": "11240872"
+                },
+                "id": "6297957",
+                "version": "6297957"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "London Passenger Transport Board (LPTB) and Predecessors: Office of the Public Relations Officer: Correspondence, Memoranda and Papers, 1927-1953",
+            "id": "8503108",
+            "version": "1234235"
+        }
+    ],
+    "functions": [
+        {
+            "dataType": "SNACFunction",
+            "term": {
+                "id": "1881",
+                "term": "Business Facilities",
+                "type": "function"
+            },
+            "id": "8503102",
+            "version": "1234235"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "378150",
+                "term": "War work",
+                "type": "subject"
+            },
+            "id": "8503107",
+            "version": "1234235"
+        }
+    ],
+    "id": "8503100",
+    "version": "1234236"
+}

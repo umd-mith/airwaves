@@ -1,0 +1,502 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6t77jtq",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T20:53:18",
+            "standardDateTime": "2016-08-10T20:53:18",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T20:53:18",
+            "standardDateTime": "2016-08-10T20:53:18",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/145690315",
+            "id": "15550341",
+            "version": "2271629"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/270721591",
+            "id": "15550340",
+            "version": "2271629"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/713347250",
+            "id": "15550339",
+            "version": "2271629"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "15550342",
+            "version": "2271629"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Chicago Educational Television Association",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Chicago Educational Television Association",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "15550344",
+                    "version": "2271629"
+                }
+            ],
+            "id": "15550343",
+            "version": "2271629",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "78076101",
+                    "version": "2271629"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "15550338",
+            "targetConstellation": "43731287",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t77jtq",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6m069xh",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Harris, Irving B. (Irving Brooks), 1910-2004.",
+            "id": "15550353",
+            "version": "2271629"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Chicago Educational Television Association",
+            "uri": "https:\/\/viaf.org\/viaf\/145690315",
+            "id": "15550350",
+            "version": "2271629"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no00045133",
+            "id": "15550351",
+            "version": "2271629"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no00045133",
+            "id": "15550352",
+            "version": "2271629"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/270721591",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:270721591<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-KAI<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Chicago Educational Television Association.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>[Miscellaneous pamphlets : statements, releases etc. on the reservation of a television channel for educational purposes].<\/title>\n                  <\/titleInfo>\n                  <name>\n                     <namePart>Chicago History Museum<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "[Miscellaneous pamphlets : statements, releases etc. on the reservation of a television channel for educational purposes].",
+                "extent": "1 folder.",
+                "displayEntry": "Chicago Educational Television Association. [Miscellaneous pamphlets : statements, releases etc. on the reservation of a television channel for educational purposes].",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Chicago Educational Television Association.",
+                        "id": "9240483",
+                        "version": "7206259"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6815r2j",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Chicago History Museum",
+                            "preferenceScore": "99",
+                            "id": "76764154",
+                            "version": "11225557"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Chicago History Museum",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Clark Street at North Avenue",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764159",
+                                    "version": "11225557"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chicago",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764160",
+                                    "version": "11225557"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-IL",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764161",
+                                    "version": "11225557"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "60614",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764162",
+                                    "version": "11225557"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764163",
+                                    "version": "11225557"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17311",
+                                "name": "Chicago History Museum",
+                                "latitude": "41.9120000",
+                                "longitude": "-87.6315000"
+                            },
+                            "confirmed": true,
+                            "id": "76764158",
+                            "version": "11225557"
+                        }
+                    ],
+                    "id": "76764153",
+                    "version": "11225560"
+                },
+                "id": "7206259",
+                "version": "7206259"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Chicago Educational Television Association. [Miscellaneous pamphlets : statements, releases etc. on the reservation of a television channel for educational purposes].",
+            "id": "15550355",
+            "version": "2271629"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/713347250",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:713347250<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-KAI<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Harris, Irving B. (Irving Brooks), 1910-2004.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Chicago Educational Television Association.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Irving B. Harris papers, 1958-1986.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence, meeting minutes, and other personal papers of Irving B. Harris relative to his service as an officer, board member, fund-raiser, and philanthropist for the Chicago Educational Television Association, Erikson Institute, Family Focus, The Institute for Pschoanalysis, National Center for Clinical Infant Programs, Ounce of Prevention Fund, Pittway Corporation Charitable Foundation, Kids Pepp, Parents Too Soon Tracking System, Prime Time School TV, and the University of Chicago; and to Mr. Harris' other activities related to his efforts to alleviate child abuse and neglect and other social concerns. <\/abstract>\n                  <name>\n                     <namePart>Chicago History Museum<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Irving B. Harris papers, 1958-1986.",
+                "abstract": "Correspondence, meeting minutes, and other personal papers of Irving B. Harris relative to his service as an officer, board member, fund-raiser, and philanthropist for the Chicago Educational Television Association, Erikson Institute, Family Focus, The Institute for Pschoanalysis, National Center for Clinical Infant Programs, Ounce of Prevention Fund, Pittway Corporation Charitable Foundation, Kids Pepp, Parents Too Soon Tracking System, Prime Time School TV, and the University of Chicago; and to Mr. Harris' other activities related to his efforts to alleviate child abuse and neglect and other social concerns. ",
+                "extent": "17.5 linear ft.",
+                "displayEntry": "Harris, Irving B. (Irving Brooks), 1910-2004. Irving B. Harris papers, 1958-1986.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Harris, Irving B. (Irving Brooks), 1910-2004.",
+                        "id": "10825030",
+                        "version": "8082000"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Chicago Educational Television Association.",
+                        "id": "10825031",
+                        "version": "8082000"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6815r2j",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Chicago History Museum",
+                            "preferenceScore": "99",
+                            "id": "76764154",
+                            "version": "11225557"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Chicago History Museum",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Clark Street at North Avenue",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764159",
+                                    "version": "11225557"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Chicago",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764160",
+                                    "version": "11225557"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-IL",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764161",
+                                    "version": "11225557"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "60614",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764162",
+                                    "version": "11225557"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76764163",
+                                    "version": "11225557"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17311",
+                                "name": "Chicago History Museum",
+                                "latitude": "41.9120000",
+                                "longitude": "-87.6315000"
+                            },
+                            "confirmed": true,
+                            "id": "76764158",
+                            "version": "11225557"
+                        }
+                    ],
+                    "id": "76764153",
+                    "version": "11225560"
+                },
+                "id": "8082000",
+                "version": "8082000"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Harris, Irving B. (Irving Brooks), 1910-2004. Irving B. Harris papers, 1958-1986.",
+            "id": "15550354",
+            "version": "2271629"
+        }
+    ],
+    "id": "15550338",
+    "version": "2271630"
+}

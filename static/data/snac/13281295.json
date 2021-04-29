@@ -1,0 +1,336 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63p4gwm",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-05",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T15:39:15",
+            "standardDateTime": "2016-08-10T15:39:15",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T15:39:15",
+            "standardDateTime": "2016-08-10T15:39:15",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/stanford\/uarc\/sc0464.xml<\/filename>\n                  <ead_entity en_type=\"persname\" rules=\"aacr\" source=\"ingest\">Cooney, Stuart.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt738nf7p1",
+            "id": "13281296",
+            "version": "1931981"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Cooney, Stuart.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Cooney, Stuart.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "13281298",
+                    "version": "1931981"
+                }
+            ],
+            "id": "13281297",
+            "version": "1931981",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77886704",
+                    "version": "1931981"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "13281295",
+            "targetConstellation": "10435998",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63p4gwm",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w60z7t4v",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Nelson, Lyle M.",
+            "id": "13281301",
+            "version": "1931981"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt738nf7p1",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unitid>SC0464<\/unitid>\n                  <origination>\n                     <persname>Nelson, Lyle M.<\/persname>\n                  <\/origination>\n                  <unittitle>Stanford NIRT project records<\/unittitle>\n                  <unitdate>1974-1978<\/unitdate>\n                  <physdesc>\n                     <extent>0.5 linear foot<\/extent>\n                  <\/physdesc>\n                  <abstract>Records include memoranda, reports, and correspondence, largely\n            of Bruce Lusignan, project director, 1974-77; and the report \"A Developmental Plan for\n            Educational Radio and Television of Iran,\" June 1978, by Stuart Cooney, Lyle M. Nelson,\n            and D. Glenn Starlin of the Dept. of Communications.<\/abstract>\n                  <langmaterial>The materials are in <language>English<\/language>.<\/langmaterial>\n                  <repository>\n                     <corpname>Department of Special Collections and University Archives<\/corpname>\n                     <address>\n                        <addressline>Stanford University Libraries<\/addressline>\n                        <addressline>557 Escondido Mall<\/addressline>\n                        <addressline>Stanford, CA 94305-6064<\/addressline>\n                        <addressline>Email: speccollref@stanford.edu<\/addressline>\n                        <addressline>Phone: (650) 725-1022<\/addressline>\n                        <addressline>URL: http:\/\/www-sul.stanford.edu\/depts\/spc\/spc.html<\/addressline>\n                     <\/address>\n                  <\/repository>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Stanford NIRT project records 1974-1978",
+                "abstract": "Records include memoranda, reports, and correspondence, largely            of Bruce Lusignan, project director, 1974-77; and the report \"A Developmental Plan for            Educational Radio and Television of Iran,\" June 1978, by Stuart Cooney, Lyle M. Nelson,            and D. Glenn Starlin of the Dept. of Communications.",
+                "extent": "0.5 linear foot",
+                "displayEntry": "Stanford NIRT project records, 1974-1978",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Nelson, Lyle M.",
+                        "id": "11294094",
+                        "version": "6658869"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11294095",
+                        "version": "6658869"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r60dtf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Stanford University. Department of Special Collections and University Archives",
+                            "preferenceScore": "99",
+                            "id": "83740282",
+                            "version": "11288677"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Stanford University, Interlibrary Service",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Green Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740287",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Arguello Way",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740288",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740289",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740290",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "94305-6004",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740291",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740292",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15165",
+                                "name": "Stanford University, Interlibrary Service",
+                                "latitude": "37.4313698",
+                                "longitude": "-122.1689224"
+                            },
+                            "confirmed": true,
+                            "id": "83740286",
+                            "version": "11288638"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Department of Special Collections and University Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford University Libraries 557 Escondido Mall Stanford, CA 94305-6064 Email: speccollref@stanford.edu Phone: (650) 725-1022 URL: http:\/\/www-sul.stanford.edu\/depts\/spc\/spc.html",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740294",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "id": "83740293",
+                            "version": "11288638"
+                        }
+                    ],
+                    "id": "83740278",
+                    "version": "11288678"
+                },
+                "id": "6658869",
+                "version": "6658869"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Stanford NIRT project records, 1974-1978",
+            "id": "13281302",
+            "version": "1931981"
+        }
+    ],
+    "id": "13281295",
+    "version": "1931982"
+}

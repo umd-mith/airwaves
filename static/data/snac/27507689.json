@@ -1,0 +1,1380 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6t15hq4",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "entityIDs": [
+        {
+            "dataType": "EntityId",
+            "type": {
+                "id": "701",
+                "term": "unknown",
+                "type": "entityid_type"
+            },
+            "text": "ISNI 0000 0001 2122 2268",
+            "id": "27507744",
+            "version": "4018568"
+        }
+    ],
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-10-30 21:14:37.722984",
+            "standardDateTime": "2015-10-30T21:14:37.722957",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T03:37:33",
+            "standardDateTime": "2016-08-12T03:37:33",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T03:37:34",
+            "standardDateTime": "2016-08-12T03:37:34",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/17228684",
+            "id": "27507700",
+            "version": "4018568"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/42521754",
+            "id": "27507696",
+            "version": "4018568"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/173701371",
+            "id": "27507695",
+            "version": "4018568"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "note": "<descriptiveNote>\n               <p>Archives nationales, Fonds Paul Reynaud (74 AP).<\/p>\n               <p>Notice d'autorit\u00e9 BnF n\u00b0 FRBNF11921739<\/p>\n            <\/descriptiveNote>",
+            "id": "27507693",
+            "version": "4018568"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/bnf\/interviews_of_policemen.xml<\/filename>\n                  <ead_entity authfilenumber=\"http:\/\/catalogue.bnf.fr\/ark:\/12148\/cb11921739g\/PUBLIC\" en_type=\"persname\" normal=\"Reynaud, Paul (1878-1966)\" role=\"5030\" source=\"OPP\">Reynaud, Paul (1878-1966)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/archivesetmanuscrits.bnf.fr\/ead.html?id=FRBNFEAD000078104",
+            "id": "27507694",
+            "version": "4018568"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/oac\/stanford\/mss\/m1601.xml<\/filename>\n                  <ead_entity en_type=\"persname\" rules=\"aacr\" source=\"naf\">Reynaud, Paul, 1878-1966<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt896nf7dh",
+            "id": "27507698",
+            "version": "4018568"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/463434859",
+            "id": "27507697",
+            "version": "4018568"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/colu\/nnc-rb\/ldpd_4079827_ead.xml<\/filename>\n                  <ead_entity en_type=\"persname\" encodinganalog=\"600\">Reynaud, Paul, 1878-1966.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/findingaids.cul.columbia.edu\/ead\/nnc-rb\/ldpd_4079827",
+            "id": "27507699",
+            "version": "4018568"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "27507701",
+            "version": "4018568"
+        }
+    ],
+    "languagesUsed": [
+        {
+            "dataType": "Language",
+            "language": {
+                "id": "144",
+                "term": "fre",
+                "type": "language_code",
+                "description": "French"
+            },
+            "script": {
+                "id": "685",
+                "term": "Zyyy",
+                "type": "script_code",
+                "description": "Code for undetermined script"
+            },
+            "id": "27507702",
+            "version": "4018568"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Reynaud, Paul, 1878-1966",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Reynaud, Paul, 1878-1966",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27507705",
+                    "version": "4018568"
+                }
+            ],
+            "id": "27507704",
+            "version": "4018568",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"colu\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"ANF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"oac\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"bnf\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"NLA\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79051291",
+                    "version": "4018568"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Reynaud, Paul",
+            "preferenceScore": "5",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Reynaud, Paul",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27507715",
+                    "version": "4018568"
+                }
+            ],
+            "id": "27507714",
+            "version": "4018568",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79051292",
+                    "version": "4018568"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Reynaud, Paul, 1878-",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Reynaud, Paul, 1878-",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27507718",
+                    "version": "4018568"
+                }
+            ],
+            "id": "27507717",
+            "version": "4018568",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79051293",
+                    "version": "4018568"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "\u30ec\u30a4\u30ce\u30fc, \u30dd\u30fc\u30eb",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "\u30ec\u30a4\u30ce\u30fc, \u30dd\u30fc\u30eb",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27507721",
+                    "version": "4018568"
+                }
+            ],
+            "id": "27507720",
+            "version": "4018568",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79051294",
+                    "version": "4018568"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Paul-Reynaud",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Paul-Reynaud",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "27507724",
+                    "version": "4018568"
+                }
+            ],
+            "id": "27507723",
+            "version": "4018568",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79051295",
+                    "version": "4018568"
+                }
+            ]
+        }
+    ],
+    "occupations": [
+        {
+            "dataType": "Occupation",
+            "term": {
+                "id": "20071",
+                "term": "ministre",
+                "type": "occupation"
+            },
+            "vocabularySource": "d699msjnw86-64seh0fmw8hj",
+            "id": "27507727",
+            "version": "4018568"
+        },
+        {
+            "dataType": "Occupation",
+            "term": {
+                "id": "22682",
+                "term": "pr\u00e9sident du Conseil",
+                "type": "occupation"
+            },
+            "vocabularySource": "d699msjoa3b--rixjtrrcp6f0",
+            "id": "27507728",
+            "version": "4018568"
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "27507691",
+                "version": "4018568"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\" xmlns:xsi=\"http:\/\/www.w3.org\/2001\/XMLSchema-instance\">\u00c9lu \u00e0 la Chambre des d\u00e9put\u00e9s avec le Bloc national (1919, puis 1928-1940), nomm\u00e9 ministre des Finances, des Colonies, de la Justice (1930-1932), Paul Reynaud (1878-1966) entre dans le cabinet Daladier (avril 1938) comme garde des Sceaux puis ministre des Finances. Il fait alors adopter la d\u00e9valuation du franc, la diminution des d\u00e9penses de l\u2019\u00c9tat et l\u2019augmentation des imp\u00f4ts pour faire face aux d\u00e9penses militaires. Pr\u00e9sident du Conseil (mars 1940), il d\u00e9cide avec Churchill d\u2019envoyer un corps exp\u00e9ditionnaire en Norv\u00e8ge pour couper aux Allemands la route du fer su\u00e9dois, remplace Gamelin par Weygand \u00e0 la t\u00eate des arm\u00e9es fran\u00e7aises, prend lui-m\u00eame le minist\u00e8re de la D\u00e9fense nationale et appelle le mar\u00e9chal P\u00e9tain \u00e0 la vice-pr\u00e9sidence du Conseil. Favorable \u00e0 la poursuite de la guerre dans l\u2019Empire, il est mis en minorit\u00e9 par les partisans de l\u2019armistice et d\u00e9missionne le 16 juin 1940. Intern\u00e9 par le gouvernement de Vichy, il est d\u00e9port\u00e9 en Allemagne. Apr\u00e8s la Lib\u00e9ration, r\u00e9\u00e9lu d\u00e9put\u00e9 (1946-1962), il se fait un ardent d\u00e9fenseur de l\u2019unit\u00e9 europ\u00e9enne.<\/p>\n         <citation xmlns=\"urn:isbn:1-931666-33-4\" xmlns:xsi=\"http:\/\/www.w3.org\/2001\/XMLSchema-instance\">Information extraite de la notice des Archives nationals de France (FRAN_NP_050246)<\/citation><\/biogHist>",
+            "id": "27507690",
+            "version": "4018568"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "27507689",
+            "targetConstellation": "62275616",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t15hq4",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6x34wjp",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Aragon, 1897-1982.",
+            "note": "<descriptiveNote>\n               <p>\n                  <span localType=\"http:\/\/socialarchive.iath.virginia.edu\/control\/term#ExtractedRecordId\">OCLC-LWU-42521754.c<\/span>\n               <\/p>\n            <\/descriptiveNote>",
+            "id": "27507749",
+            "version": "4018568"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "27507689",
+            "targetConstellation": "22830165",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t15hq4",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w65x2pxt",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Barnes, Joseph, 1907-1970.",
+            "note": "<descriptiveNote>\n               <p>\n                  <span localType=\"http:\/\/socialarchive.iath.virginia.edu\/control\/term#ExtractedRecordId\">OCLC-ZCU-463434859.c<\/span>\n               <\/p>\n            <\/descriptiveNote>",
+            "id": "27507750",
+            "version": "4018568"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "27507689",
+            "targetConstellation": "15515148",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t15hq4",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w67n6n4g",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Centre de recherches Sociologiques sur le Droit et les Institutions P\u00e9nales",
+            "note": "<descriptiveNote>\n               <p>\n                  <span localType=\"http:\/\/socialarchive.iath.virginia.edu\/control\/term#ExtractedRecordId\">bnf\/interviews_of_policemen.c03<\/span>\n               <\/p>\n            <\/descriptiveNote>",
+            "id": "27507747",
+            "version": "4018568"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "27507689",
+            "targetConstellation": "25941659",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t15hq4",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6pr85g0",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Churchill, Winston, 1874-1965.",
+            "note": "<descriptiveNote>\n               <p>\n                  <span localType=\"http:\/\/socialarchive.iath.virginia.edu\/control\/term#ExtractedRecordId\">WHi-173701371.c<\/span>\n               <\/p>\n            <\/descriptiveNote>",
+            "id": "27507748",
+            "version": "4018568"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "27507689",
+            "targetConstellation": "39846035",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t15hq4",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w66n9m1j",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Institut des Hautes Etudes de la S\u00e9curit\u00e9 Int\u00e9rieure",
+            "note": "<descriptiveNote>\n               <p>\n                  <span localType=\"http:\/\/socialarchive.iath.virginia.edu\/control\/term#ExtractedRecordId\">bnf\/interviews_of_policemen.c01<\/span>\n               <\/p>\n            <\/descriptiveNote>",
+            "id": "27507745",
+            "version": "4018568"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "27507689",
+            "targetConstellation": "36113864",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6t15hq4",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6tg69m5",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Institut National des Hautes Etudes de la S\u00e9curit\u00e9",
+            "note": "<descriptiveNote>\n               <p>\n                  <span localType=\"http:\/\/socialarchive.iath.virginia.edu\/control\/term#ExtractedRecordId\">bnf\/interviews_of_policemen.c02<\/span>\n               <\/p>\n            <\/descriptiveNote>",
+            "id": "27507746",
+            "version": "4018568"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Reynaud, Paul 1878-1966",
+            "uri": "https:\/\/www.siv.archives-nationales.culture.gouv.fr\/siv\/NP\/FRAN_NP_050246",
+            "id": "27507737",
+            "version": "4018568"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Reynaud, Paul 1878-1966",
+            "uri": "http:\/\/www.isni.org\/0000000121222268",
+            "id": "27507738",
+            "version": "4018568"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Reynaud, Paul (1878-1966)",
+            "uri": "https:\/\/catalogue.bnf.fr\/ark:\/12148\/cb11921739g\/PUBLIC",
+            "id": "27507739",
+            "version": "4018568"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Reynaud, Paul, 1878-1966",
+            "uri": "https:\/\/viaf.org\/viaf\/17228684",
+            "id": "27507740",
+            "version": "4018568"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no93006286",
+            "id": "27507741",
+            "version": "4018568"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no93006286",
+            "id": "27507742",
+            "version": "4018568"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.wikidata.org\/entity\/Q161076",
+            "id": "27507743",
+            "version": "4018568"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/findingaids.cul.columbia.edu\/ead\/nnc-rb\/ldpd_4079827",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <origination>\n                     <persname>Barnes, Joseph, 1907-1970.<\/persname>\n                  <\/origination>\n                  <unittitle>Joseph Barnes Papers,<\/unittitle>\n                  <unitdate>1923-1970<\/unitdate>\n                  <physdesc>\n                     <extent>18.5 linear ft. (ca.18,000 items in 40 boxes).<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Columbia University<subarea>Rare Book and Manuscript Library,<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline>Butler Library, New York, NY 10027.<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid\/>\n                  <unitid>4079827<\/unitid>\n                  <langmaterial>\n                     <language>In English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Joseph Barnes Papers, 1923-1970",
+                "extent": "18.5 linear ft. (ca.18,000 items in 40 boxes).",
+                "displayEntry": "Joseph Barnes Papers, 1923-1970",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Barnes, Joseph, 1907-1970.",
+                        "id": "11378557",
+                        "version": "6347511"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11378558",
+                        "version": "6347511"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kq8qx5",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Columbia University. Rare Book and Manuscript Library,",
+                            "preferenceScore": "99",
+                            "id": "76792768",
+                            "version": "11236825"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Columbia University. Rare Book and Manuscript Library,",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Rare Books and Manuscript Library Butler Library, 6th floor 535 West 114th Street New York, NY 10027",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76792771",
+                                    "version": "11236825"
+                                }
+                            ],
+                            "id": "76792770",
+                            "version": "11236825"
+                        }
+                    ],
+                    "id": "76792767",
+                    "version": "11236828"
+                },
+                "id": "6347511",
+                "version": "6347511"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Barnes, Joseph, 1907-1970. Joseph Barnes papers, 1907-1970, 1923-1970.",
+            "id": "27507754",
+            "version": "4018568"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/archivesetmanuscrits.bnf.fr\/ead.html?id=FRBNFEAD000078104",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Fonds des r\u00e9cits de vie de policiers (IHESI-INHES et CESDIP)<\/unittitle>\n                  <unitid>DONAUD0601<\/unitid>\n                  <unitdate>1992\/2005<\/unitdate>\n                  <physdesc>\n                     <extent>40 CD MP3  et 56 minidiscs  (175 heures d'enregistrement environ) .- 2 CD-R .-  42 tapuscrits.<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Biblioth\u00e8que nationale de France. D\u00e9partement de l'Audiovisuel. Service des documents sonores.<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <corpname>Institut  des Hautes Etudes de la S\u00e9curit\u00e9 Int\u00e9rieure<\/corpname> (IHESI) ; <corpname>Institut  National des Hautes Etudes de la S\u00e9curit\u00e9 <\/corpname> (INHES) ;<corpname>Centre de recherches Sociologiques sur le Droit et les Institutions P\u00e9nales<\/corpname>   (CESDIP).<\/origination>\n                  <langmaterial>Le fonds contient des documents en <language>fran\u00e7ais<\/language>.<\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Fonds des r\u00e9cits de vie de policiers (IHESI-INHES et CESDIP) 1992\/2005",
+                "extent": "40 CD MP3  et 56 minidiscs  (175 heures d'enregistrement environ) .- 2 CD-R .-  42 tapuscrits.",
+                "displayEntry": "Fonds des r\u00e9cits de vie de policiers (IHESI-INHES et CESDIP) DONAUD0601., 1992\/2005",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6d03ww3",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Biblioth\u00e8que nationale de France. D\u00e9partement de l'Audiovisuel. Service des documents sonores.",
+                            "preferenceScore": "99",
+                            "id": "76792089",
+                            "version": "11236181"
+                        }
+                    ],
+                    "id": "76792088",
+                    "version": "11236184"
+                },
+                "id": "6279935",
+                "version": "6279935"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Fonds des r\u00e9cits de vie de policiers (IHESI-INHES et CESDIP) DONAUD0601., 1992\/2005",
+            "id": "27507751",
+            "version": "4018568"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.oac.cdlib.org\/ark:\/13030\/kt896nf7dh",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unittitle>Camille Chautemps papers<\/unittitle>\n                  <unitid>M1601<\/unitid>\n                  <repository>\n                     <corpname>Stanford University. Department of Special Collections and University Archives<\/corpname>\n                  <\/repository>\n                  <langmaterial>\n                     <language\/>\n                  <\/langmaterial>\n                  <physdesc>\n                     <extent>27.0 Linear feet<\/extent>\n                  <\/physdesc>\n                  <unitdate>1885-2005<\/unitdate>\n                  <abstract>Chautemps was a French politician and radical socialist leader. He was premier in 1930 and in 1933-34. A member of the first Popular Front cabinet of Socialists and Communists (1936-37) under Leon Blum, he headed the second, less radical, Popular Front cabinet (1937-38). Vice premier of the Vichy government, Chautemps came to the United States in 1940 on a mission and did not return to France. In 1947 he was tried and convicted in absentia for collaborating with the Vichy regime; in 1954 his sentence was voided by the statute of limitations.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Camille Chautemps papers 1885-2005",
+                "abstract": "Chautemps was a French politician and radical socialist leader. He was premier in 1930 and in 1933-34. A member of the first Popular Front cabinet of Socialists and Communists (1936-37) under Leon Blum, he headed the second, less radical, Popular Front cabinet (1937-38). Vice premier of the Vichy government, Chautemps came to the United States in 1940 on a mission and did not return to France. In 1947 he was tried and convicted in absentia for collaborating with the Vichy regime; in 1954 his sentence was voided by the statute of limitations.",
+                "extent": "27.0 Linear feet",
+                "displayEntry": "Camille Chautemps papers, 1885-2005",
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6r60dtf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Stanford University. Department of Special Collections and University Archives",
+                            "preferenceScore": "99",
+                            "id": "83740282",
+                            "version": "11288677"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Stanford University, Interlibrary Service",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Green Libr",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740287",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Arguello Way",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740288",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740289",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-CA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740290",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "94305-6004",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740291",
+                                    "version": "11288638"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740292",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15165",
+                                "name": "Stanford University, Interlibrary Service",
+                                "latitude": "37.4313698",
+                                "longitude": "-122.1689224"
+                            },
+                            "confirmed": true,
+                            "id": "83740286",
+                            "version": "11288638"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Department of Special Collections and University Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Stanford University Libraries 557 Escondido Mall Stanford, CA 94305-6064 Email: speccollref@stanford.edu Phone: (650) 725-1022 URL: http:\/\/www-sul.stanford.edu\/depts\/spc\/spc.html",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "83740294",
+                                    "version": "11288638"
+                                }
+                            ],
+                            "id": "83740293",
+                            "version": "11288638"
+                        }
+                    ],
+                    "id": "83740278",
+                    "version": "11288678"
+                },
+                "id": "6660325",
+                "version": "6660325"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Camille Chautemps papers, 1885-2005",
+            "id": "27507755",
+            "version": "4018568"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/173701371",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:173701371<\/recordOrigin>\n                     <recordContentSource>ISIL:WHi<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Churchill, Winston, 1874-1965.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Speeches [sound recording], 1943, 1954.<\/title>\n                  <\/titleInfo>\n                  <abstract>Tape recording of a speech by Churchill following the Ottawa Conference, 31 August 1943; and a disc recording of \"His Finest Hour,\" a tribute to Churchill on his eightieth birthday, 30 November 1954, NBC, featuring the voices of Sir Anthony Eden, Franklin D. Roosevelt, Prime Minister Louis St. Laurent, and Premier Paul Reynaud.  Disc recording number 127 of an edition limited to 950 copies. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Speeches [sound recording], 1943, 1954.",
+                "abstract": "Tape recording of a speech by Churchill following the Ottawa Conference, 31 August 1943; and a disc recording of \"His Finest Hour,\" a tribute to Churchill on his eightieth birthday, 30 November 1954, NBC, featuring the voices of Sir Anthony Eden, Franklin D. Roosevelt, Prime Minister Louis St. Laurent, and Premier Paul Reynaud.  Disc recording number 127 of an edition limited to 950 copies. ",
+                "extent": "1 tape recording and1 disc recording.",
+                "displayEntry": "Churchill, Winston, 1874-1965. Speeches [sound recording], 1943, 1954.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Churchill, Winston, 1874-1965.",
+                        "id": "8791598",
+                        "version": "6925837"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fv98qm",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "preferenceScore": "99",
+                            "id": "76791151",
+                            "version": "11235489"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Wisconsin Historical Society, Newspaper Project",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "816 State St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791156",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Madison",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791157",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-WI",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791158",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "53706",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791159",
+                                    "version": "11235489"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76791160",
+                                    "version": "11235489"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16409",
+                                "name": "Wisconsin Historical Society, Newspaper Project",
+                                "latitude": "43.0750000",
+                                "longitude": "-89.3992000"
+                            },
+                            "confirmed": true,
+                            "id": "76791155",
+                            "version": "11235489"
+                        }
+                    ],
+                    "id": "76791150",
+                    "version": "11235492"
+                },
+                "id": "6925837",
+                "version": "6925837"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Churchill, Winston, 1874-1965. Speeches [sound recording], 1943, 1954.",
+            "id": "27507752",
+            "version": "4018568"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/42521754",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:42521754<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-LWU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Aragon, 1897-1982.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Chapeau pour lettre Paul Reynaud \/ [Aragon]. [1966?]<\/title>\n                  <\/titleInfo>\n                  <abstract>A lead followed by the letter from Paul Reynaud, in which he apologized Reynaud for the delay of the publication against their will, and explained it was caused by the postal delivery trouble. <\/abstract>\n                  <name>\n                     <namePart>Waseda University Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Chapeau pour lettre Paul Reynaud \/ [Aragon]. [1966?]",
+                "abstract": "A lead followed by the letter from Paul Reynaud, in which he apologized Reynaud for the delay of the publication against their will, and explained it was caused by the postal delivery trouble. ",
+                "extent": "1 item (1 p.) ; 27 cm.",
+                "displayEntry": "Aragon, 1897-1982. Chapeau pour lettre Paul Reynaud \/ [Aragon].",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Aragon, 1897-1982.",
+                        "id": "9662175",
+                        "version": "7450299"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6dg7dv6",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Waseda University Library",
+                            "preferenceScore": "99",
+                            "id": "76789938",
+                            "version": "11235057"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Waseda University Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "1-6-1, Nishiwaseda, Shinjuku-ku",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789942",
+                                    "version": "11235057"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Tokyo",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789943",
+                                    "version": "11235057"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "169-8050",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789944",
+                                    "version": "11235057"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "JP",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76789945",
+                                    "version": "11235057"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15175",
+                                "name": "Waseda University Library",
+                                "latitude": "35.7099000",
+                                "longitude": "139.7190000"
+                            },
+                            "confirmed": true,
+                            "id": "76789941",
+                            "version": "11235057"
+                        }
+                    ],
+                    "id": "76789937",
+                    "version": "11235060"
+                },
+                "id": "7450299",
+                "version": "7450299"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Aragon, 1897-1982. Chapeau pour lettre Paul Reynaud \/ [Aragon].",
+            "id": "27507753",
+            "version": "4018568"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/findingaids.cul.columbia.edu\/ead\/nnc-rb\/ldpd_4079827",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <origination>\n                     <persname>Barnes, Joseph, 1907-1970.<\/persname>\n                  <\/origination>\n                  <unittitle>Joseph Barnes Papers,<\/unittitle>\n                  <unitdate>1923-1970<\/unitdate>\n                  <physdesc>\n                     <extent>18.5 linear ft. (ca.18,000 items in 40 boxes).<\/extent>\n                  <\/physdesc>\n                  <repository>\n                     <corpname>Columbia University<subarea>Rare Book and Manuscript Library,<\/subarea>\n                     <\/corpname>\n                     <address>\n                        <addressline>Butler Library, New York, NY 10027.<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid\/>\n                  <unitid>4079827<\/unitid>\n                  <langmaterial>\n                     <language>In English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Joseph Barnes Papers, 1923-1970",
+                "extent": "18.5 linear ft. (ca.18,000 items in 40 boxes).",
+                "displayEntry": "Joseph Barnes Papers, 1923-1970",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Barnes, Joseph, 1907-1970.",
+                        "id": "11378557",
+                        "version": "6347511"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11378558",
+                        "version": "6347511"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6kq8qx5",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Columbia University. Rare Book and Manuscript Library,",
+                            "preferenceScore": "99",
+                            "id": "76792768",
+                            "version": "11236825"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Columbia University. Rare Book and Manuscript Library,",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Rare Books and Manuscript Library Butler Library, 6th floor 535 West 114th Street New York, NY 10027",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76792771",
+                                    "version": "11236825"
+                                }
+                            ],
+                            "id": "76792770",
+                            "version": "11236825"
+                        }
+                    ],
+                    "id": "76792767",
+                    "version": "11236828"
+                },
+                "id": "6347511",
+                "version": "6347511"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Joseph Barnes Papers, 1923-1970",
+            "id": "27507756",
+            "version": "4018568"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "7833",
+                "term": "French",
+                "type": "nationality"
+            },
+            "id": "27507726",
+            "version": "4018568"
+        }
+    ],
+    "mandates": [
+        {
+            "dataType": "Mandate",
+            "text": "<mandate\/>",
+            "id": "27507703",
+            "version": "4018568"
+        }
+    ],
+    "id": "27507689",
+    "version": "4018569",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1878-10-15",
+            "fromDateOriginal": "1878-10-15",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "toDate": "1966-09-21",
+            "toDateOriginal": "1966-09-21",
+            "toType": {
+                "id": "690",
+                "term": "Death",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Death",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "27507692",
+            "version": "4018568"
+        }
+    ]
+}

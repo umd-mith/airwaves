@@ -1,0 +1,640 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w63z0zwn",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T07:19:23",
+            "standardDateTime": "2016-08-12T07:19:23",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T07:19:23",
+            "standardDateTime": "2016-08-12T07:19:23",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/179684370",
+            "id": "28792008",
+            "version": "4203737"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/11329476",
+            "id": "28792010",
+            "version": "4203737"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122508039",
+            "id": "28792009",
+            "version": "4203737"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "28792011",
+            "version": "4203737"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Ailes, Stephen, 1912-2001",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Ailes, Stephen, 1912-2001",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "28792013",
+                    "version": "4203737"
+                }
+            ],
+            "id": "28792012",
+            "version": "4203737",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79152708",
+                    "version": "4203737"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Ailes, Stephen",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Ailes, Stephen",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "28792018",
+                    "version": "4203737"
+                }
+            ],
+            "id": "28792017",
+            "version": "4203737",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79152709",
+                    "version": "4203737"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "28792006",
+            "targetConstellation": "6940289",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63z0zwn",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vt2jc5",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Menk, Louis Wilson, 1918-",
+            "id": "28792029",
+            "version": "4203737"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "28792006",
+            "targetConstellation": "3673020",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63z0zwn",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w66q53gb",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Ravencroft, Ruth Thayer,",
+            "id": "28792028",
+            "version": "4203737"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "28792006",
+            "targetConstellation": "69625297",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w63z0zwn",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hp15b9",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Ailes, Stephen, 1912-"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Ailes, Stephen, 1912-2001",
+            "uri": "https:\/\/viaf.org\/viaf\/11329476",
+            "id": "28792024",
+            "version": "4203737"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n86099098",
+            "id": "28792025",
+            "version": "4203737"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n86099098",
+            "id": "28792026",
+            "version": "4203737"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.wikidata.org\/entity\/Q2344502",
+            "id": "28792027",
+            "version": "4203737"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122508039",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122508039<\/recordOrigin>\n                     <recordContentSource>ISIL:MnHi-Ar<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Menk, Louis Wilson, 1918-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ailes, Stephen, 1912-2001.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Bell, Charles Heffelfinger, 1907-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Carlson, Curtis L. 1914-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Clifford, Clark McAdams, 1906-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Freeman, Gaylord Augustus, 1910-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Forbes, Malcolm Stevenson, 1919-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Garrity, John L.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Green, George Larned, 1908-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Hubbs, Ronald M., 1908-1996.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Judge, Thomas L.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Lilly, David Maher, 1917-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Mitchell, Maurice B., 1915-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Murphy, Thomas Aquinas, 1915-2006.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Myers, John H. (John Humbird), 1909-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Pigott, Charles McGee, 1929-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Stephens, Jackson Thomas, 1923-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Louis Menk papers, 1953-1981.<\/title>\n                  <\/titleInfo>\n                  <abstract>Correspondence, speeches, printed matter, and related papers documenting the career of this railroad executive who was president of the St. Louis-San Francisco Railway Company (1962-1965), the Chicago, Burlington and Quincy Railroad Company (1965-1966), the Northern Pacific Railway Company (1966-1970), and Burlington Northern Inc. (1970-1978, and chairman 1978-1981). He was also one of the principal architects of the 1970 merger that created the Burlington Northern. <\/abstract>\n                  <name>\n                     <namePart>Unknown<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Louis Menk papers, 1953-1981.",
+                "abstract": "Correspondence, speeches, printed matter, and related papers documenting the career of this railroad executive who was president of the St. Louis-San Francisco Railway Company (1962-1965), the Chicago, Burlington and Quincy Railroad Company (1965-1966), the Northern Pacific Railway Company (1966-1970), and Burlington Northern Inc. (1970-1978, and chairman 1978-1981). He was also one of the principal architects of the 1970 merger that created the Burlington Northern. ",
+                "extent": "21.5 cu. ft.",
+                "displayEntry": "Menk, Louis Wilson, 1918-. Louis Menk papers, 1953-1981.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Menk, Louis Wilson, 1918-",
+                        "id": "8482425",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ailes, Stephen, 1912-2001.",
+                        "id": "8482426",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bell, Charles Heffelfinger, 1907-",
+                        "id": "8482427",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Carlson, Curtis L. 1914-",
+                        "id": "8482428",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Clifford, Clark McAdams, 1906-",
+                        "id": "8482429",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Freeman, Gaylord Augustus, 1910-",
+                        "id": "8482430",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Forbes, Malcolm Stevenson, 1919-",
+                        "id": "8482431",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Garrity, John L.",
+                        "id": "8482432",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Green, George Larned, 1908-",
+                        "id": "8482433",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Hubbs, Ronald M., 1908-1996.",
+                        "id": "8482434",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Judge, Thomas L.",
+                        "id": "8482435",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Lilly, David Maher, 1917-",
+                        "id": "8482436",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Mitchell, Maurice B., 1915-",
+                        "id": "8482437",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Murphy, Thomas Aquinas, 1915-2006.",
+                        "id": "8482438",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Myers, John H. (John Humbird), 1909-",
+                        "id": "8482439",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Pigott, Charles McGee, 1929-",
+                        "id": "8482440",
+                        "version": "6741171"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Stephens, Jackson Thomas, 1923-",
+                        "id": "8482441",
+                        "version": "6741171"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w68t5cg9",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Minnesota Historical Society, Division of Archives and Manuscripts",
+                            "preferenceScore": "99",
+                            "id": "76774853",
+                            "version": "11229581"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Minnesota Historical Society, Division of Archives and Manuscripts",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Saint Paul, Minnesota 55101  United States",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76774857",
+                                    "version": "11229581"
+                                }
+                            ],
+                            "id": "76774856",
+                            "version": "11229581"
+                        }
+                    ],
+                    "id": "76774852",
+                    "version": "11229584"
+                },
+                "id": "6741171",
+                "version": "6741171"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Menk, Louis Wilson, 1918-. Louis Menk papers, 1953-1981.",
+            "id": "28792032",
+            "version": "4203737"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/179684370",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:179684370<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-VIC<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Ravencroft, Ruth Thayer,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Athey-May-Ailes-Underwood-Patton and allied families 1957.<\/title>\n                  <\/titleInfo>\n                  <abstract>Compilation of genealogical notes concerning descendants of Stephen Ailes of Pennsylvania, George Athey of Maryland, Andrew May of Pennsylvania and Ohio, and allied families. Included are Bible records, census records, deeds, military records and wills. It is indexed by family surname. Other surnames mentioned include: Baughman and Hoel. <\/abstract>\n                  <name>\n                     <namePart>Library of Virginia<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Athey-May-Ailes-Underwood-Patton and allied families 1957.",
+                "abstract": "Compilation of genealogical notes concerning descendants of Stephen Ailes of Pennsylvania, George Athey of Maryland, Andrew May of Pennsylvania and Ohio, and allied families. Included are Bible records, census records, deeds, military records and wills. It is indexed by family surname. Other surnames mentioned include: Baughman and Hoel. ",
+                "extent": "83 leaves.",
+                "displayEntry": "Ravencroft, Ruth Thayer,. Athey-May-Ailes-Underwood-Patton and allied families",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ravencroft, Ruth Thayer,",
+                        "id": "8808220",
+                        "version": "6935028"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6fc5rck",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Library of Virginia",
+                            "preferenceScore": "99",
+                            "id": "76772831",
+                            "version": "11228833"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Library of Virginia",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "800 E Broad St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772836",
+                                    "version": "11228833"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Richmond",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772837",
+                                    "version": "11228833"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-VA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772838",
+                                    "version": "11228833"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "23219-1905",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772839",
+                                    "version": "11228833"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76772840",
+                                    "version": "11228833"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16989",
+                                "name": "Library of Virginia",
+                                "latitude": "37.5413666",
+                                "longitude": "-77.4346085"
+                            },
+                            "confirmed": true,
+                            "id": "76772835",
+                            "version": "11228833"
+                        }
+                    ],
+                    "id": "76772830",
+                    "version": "11228836"
+                },
+                "id": "6935028",
+                "version": "6935028"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Ravencroft, Ruth Thayer,. Athey-May-Ailes-Underwood-Patton and allied families",
+            "id": "28792031",
+            "version": "4203737"
+        }
+    ],
+    "id": "28792006",
+    "version": "4203738",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1912-03-25",
+            "fromDateOriginal": "1912-03-25",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "toDate": "2001-06-30",
+            "toDateOriginal": "2001-06-30",
+            "toType": {
+                "id": "690",
+                "term": "Death",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Death",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "28792007",
+            "version": "4203737"
+        }
+    ]
+}

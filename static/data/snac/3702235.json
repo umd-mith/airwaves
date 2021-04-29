@@ -1,0 +1,602 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w69070wx",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T19:55:42",
+            "standardDateTime": "2016-08-09T19:55:42",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T19:55:42",
+            "standardDateTime": "2016-08-09T19:55:42",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/uut\/UU_Acc0433.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"subject\" role=\"subject\" rules=\"aacr2\">KUER (Radio station : Salt Lake City, Utah)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv91906",
+            "id": "3702241",
+            "version": "534911"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/uut\/UU_Acc0154.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"subject\" role=\"subject\" rules=\"aacr2\">KUER (Radio station : Salt Lake City, Utah)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv21774",
+            "id": "3702240",
+            "version": "534911"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/71693320",
+            "id": "3702239",
+            "version": "534911"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KUER (Radio station : Salt Lake City, Utah)",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KUER (Radio station : Salt Lake City, Utah)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "3702243",
+                    "version": "534911"
+                }
+            ],
+            "id": "3702242",
+            "version": "534911",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"uut\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77103842",
+                    "version": "534911"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "3702237",
+                "version": "534911"
+            },
+            "text": "<biogHist><p xmlns=\"urn:isbn:1-931666-33-4\">KUER is a public radio station serving the Salt Lake Valley since 1960, and the State of Utah since 1983.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the description of The KUER radio records. 2000-2002. (University of Utah). WorldCat record id: 71693320<\/citation>\n         <\/biogHist>",
+            "id": "3702236",
+            "version": "534911"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "3702235",
+            "targetConstellation": "57230630",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w69070wx",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w61v94d6",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Utah. Libraries. Manuscripts Division.",
+            "id": "3702252",
+            "version": "534911"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "3702235",
+            "targetConstellation": "71907469",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w69070wx",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6kh64gg",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Utah. Media Services",
+            "id": "3702253",
+            "version": "534911"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv21774",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>J. Willard Marriott Library, University of Utah<\/corpname>\n                     <subarea>University Archives and Records Management<\/subarea>\n                     <address>\n                        <addressline>University Archives &amp; Records Management<\/addressline>\n                        <addressline>Special Collections<\/addressline>\n                        <addressline>J. Willard Marriott Library<\/addressline>\n                        <addressline>666 Guardsman Way<\/addressline>\n                        <addressline>Salt Lake City, UT 84112<\/addressline>\n                        <addressline>Tel: 801-581-8242<\/addressline>\n                        <addressline>Fax: 801-581-8192<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid>Acc0154<\/unitid>\n                  <unittitle>University of Utah Media Services KUER license application<\/unittitle>\n                  <unitdate>1959<\/unitdate>\n                  <origination>\n                     <corpname>University of Utah. Media Services<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>1 folder<\/extent>\n                  <\/physdesc>\n                  <abstract>KUER was begun as a student-operated radio station under the supervision of Radio and Television Services.  It is now fully professional  and a member of National Public Radio and American Public Radio.  In 1976, a new organization, Media Services, was formed to consolidate all media activities including KUER Radio, KUED Television, and the offices of Instructional Television, Educational Media, and Correspondence Study.  This collection contains an application with associated exhibits made to the Federal Communications Commission for a license to begin operation of KUER Radio.<\/abstract>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "University of Utah Media Services KUER license application 1959",
+                "abstract": "KUER was begun as a student-operated radio station under the supervision of Radio and Television Services.  It is now fully professional  and a member of National Public Radio and American Public Radio.  In 1976, a new organization, Media Services, was formed to consolidate all media activities including KUER Radio, KUED Television, and the offices of Instructional Television, Educational Media, and Correspondence Study.  This collection contains an application with associated exhibits made to the Federal Communications Commission for a license to begin operation of KUER Radio.",
+                "extent": "1 folder",
+                "displayEntry": "University of Utah Media Services KUER license application, 1959",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11412076",
+                        "version": "6367817"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6524mzk",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "J. Willard Marriott Library, University of UtahUniversity Archives and Records Management",
+                            "preferenceScore": "99",
+                            "id": "76794053",
+                            "version": "11238077"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "J. Willard Marriott Library, University of UtahUniversity Archives and Records Management",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "University Archives & Records Management Special Collections J. Willard Marriott Library, 666 Guardsman Way Salt Lake City, UT 84112 Tel: 801-581-8242 Fax: 801-581-8192",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76794056",
+                                    "version": "11238077"
+                                }
+                            ],
+                            "id": "76794055",
+                            "version": "11238077"
+                        }
+                    ],
+                    "id": "76794052",
+                    "version": "11238080"
+                },
+                "id": "6367817",
+                "version": "6367817"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "University of Utah Media Services KUER license application, 1959",
+            "id": "3702255",
+            "version": "534911"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/71693320",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:71693320<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-UUM<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>KUER (Radio station : Salt Lake City, Utah)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>University of Utah. Libraries. Manuscripts Division.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>The KUER radio records. 2000-2002.<\/title>\n                  <\/titleInfo>\n                  <abstract>Documents relating to the programming change in 2001 of KUER, including audience data and correspondence. <\/abstract>\n                  <name>\n                     <namePart>University of Utah<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "The KUER radio records. 2000-2002.",
+                "abstract": "Documents relating to the programming change in 2001 of KUER, including audience data and correspondence. ",
+                "extent": "0.5 linear ft.",
+                "displayEntry": "KUER (Radio station : Salt Lake City, Utah). The KUER radio records. 2000-2002.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "KUER (Radio station : Salt Lake City, Utah)",
+                        "id": "10820875",
+                        "version": "8085227"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of Utah. Libraries. Manuscripts Division.",
+                        "id": "10820876",
+                        "version": "8085227"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nm43q3",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Utah, J. Willard Marriott Library",
+                            "preferenceScore": "99",
+                            "id": "76788562",
+                            "version": "11234585"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Utah, J. Willard Marriott Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "295 South 1500 East",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788567",
+                                    "version": "11234585"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Salt Lake City",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788568",
+                                    "version": "11234585"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-UT",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788569",
+                                    "version": "11234585"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "84112-0860",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788570",
+                                    "version": "11234585"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76788571",
+                                    "version": "11234585"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15980",
+                                "name": "University of Utah, J. Willard Marriott Library",
+                                "latitude": "40.7619934",
+                                "longitude": "-111.8470080"
+                            },
+                            "confirmed": true,
+                            "id": "76788566",
+                            "version": "11234585"
+                        }
+                    ],
+                    "id": "76788561",
+                    "version": "11234588"
+                },
+                "id": "8085227",
+                "version": "8085227"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "KUER (Radio station : Salt Lake City, Utah). The KUER radio records. 2000-2002.",
+            "id": "3702254",
+            "version": "534911"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/nwda.orbiscascade.org\/ark:\/80444\/xv91906",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>J. Willard Marriott Library, University of Utah<\/corpname>\n                     <subarea>University Archives and Records Management<\/subarea>\n                     <address>\n                        <addressline>University Archives &amp; Records Management<\/addressline>\n                        <addressline>Special Collections<\/addressline>\n                        <addressline>J. Willard Marriott Library<\/addressline>\n                        <addressline>666 Guardsman Way<\/addressline>\n                        <addressline>Salt Lake City, UT 84112<\/addressline>\n                        <addressline>Tel: 801-581-8242<\/addressline>\n                        <addressline>Fax: 801-581-8192<\/addressline>\n                     <\/address>\n                  <\/repository>\n                  <unitid>Acc0433<\/unitid>\n                  <unittitle>University of Utah Media Services records<\/unittitle>\n                  <unitdate>1959-1985<\/unitdate>\n                  <origination>\n                     <corpname>University of Utah. Media Services<\/corpname>\n                  <\/origination>\n                  <physdesc>\n                     <extent>6 linear ft.<\/extent>\n                  <\/physdesc>\n                  <abstract>Media Services was created in 1976 and included KUED, KUER, Instructional Television, Educational Media, and Correspondence Study.  Rex L. Campbell served as Director of Radio and Television Services from 1964 to 1975.  Robert M. Reed was General Manager of KUED from 1977 to 1978.  Bruce L. Christensen became General Manager of KUED in 1979 and Director of Media Services in 1981.  This collection contains correspondence, meeting minutes, and subject files primarily from KUED and secondarily from other divisions of Media Services.<\/abstract>\n                  <langmaterial>\n                     <language>English<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "University of Utah Media Services records 1959-1985",
+                "abstract": "Media Services was created in 1976 and included KUED, KUER, Instructional Television, Educational Media, and Correspondence Study.  Rex L. Campbell served as Director of Radio and Television Services from 1964 to 1975.  Robert M. Reed was General Manager of KUED from 1977 to 1978.  Bruce L. Christensen became General Manager of KUED in 1979 and Director of Media Services in 1981.  This collection contains correspondence, meeting minutes, and subject files primarily from KUED and secondarily from other divisions of Media Services.",
+                "extent": "6 linear ft.",
+                "displayEntry": "University of Utah Media Services records, 1959-1985",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11434489",
+                        "version": "6380987"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6524mzk",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "J. Willard Marriott Library, University of UtahUniversity Archives and Records Management",
+                            "preferenceScore": "99",
+                            "id": "76794053",
+                            "version": "11238077"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "J. Willard Marriott Library, University of UtahUniversity Archives and Records Management",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "University Archives & Records Management Special Collections J. Willard Marriott Library, 666 Guardsman Way Salt Lake City, UT 84112 Tel: 801-581-8242 Fax: 801-581-8192",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76794056",
+                                    "version": "11238077"
+                                }
+                            ],
+                            "id": "76794055",
+                            "version": "11238077"
+                        }
+                    ],
+                    "id": "76794052",
+                    "version": "11238080"
+                },
+                "id": "6380987",
+                "version": "6380987"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "University of Utah Media Services records, 1959-1985",
+            "id": "3702256",
+            "version": "534911"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Utah",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "3702249",
+            "version": "534911",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Utah",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "3702250",
+                    "version": "534911"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "296620",
+                "term": "Public radio stations--History--Sources",
+                "type": "subject"
+            },
+            "id": "3702251",
+            "version": "534911"
+        }
+    ],
+    "id": "3702235",
+    "version": "534912",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "2000",
+            "fromDateOriginal": "active 2000",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "2002",
+            "toDateOriginal": "active 2002",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "3702238",
+            "version": "534911"
+        }
+    ]
+}

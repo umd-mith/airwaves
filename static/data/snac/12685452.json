@@ -1,0 +1,1213 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60s4z19",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-20",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T14:19:03",
+            "standardDateTime": "2016-08-10T14:19:03",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-10T14:19:03",
+            "standardDateTime": "2016-08-10T14:19:03",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/sch01194.xml<\/filename>\n                  <ead_entity en_type=\"corpname\">University of Scranton,<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/sch01194\/catalog",
+            "id": "12685457",
+            "version": "1844873"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/143657135",
+            "id": "12685456",
+            "version": "1844873"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/139378801",
+            "id": "12685458",
+            "version": "1844873"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/18461264",
+            "id": "12685454",
+            "version": "1844873"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/721941441",
+            "id": "12685455",
+            "version": "1844873"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "12685459",
+            "version": "1844873"
+        }
+    ],
+    "languagesUsed": [
+        {
+            "dataType": "Language",
+            "language": {
+                "id": "130",
+                "term": "eng",
+                "type": "language_code",
+                "description": "English"
+            },
+            "script": {
+                "id": "685",
+                "term": "Zyyy",
+                "type": "script_code",
+                "description": "Code for undetermined script"
+            },
+            "id": "12685460",
+            "version": "1844873"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "University of Scranton",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "University of Scranton",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "12685462",
+                    "version": "1844873"
+                }
+            ],
+            "id": "12685461",
+            "version": "1844873",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77837532",
+                    "version": "1844873"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Harry and Jeanette Weinberg Memorial Library",
+            "preferenceScore": "98",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Harry and Jeanette Weinberg Memorial Library",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "12685468",
+                    "version": "1844873"
+                }
+            ],
+            "id": "12685467",
+            "version": "1844873",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"LAC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77837533",
+                    "version": "1844873"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Weinberg Memorial Library",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Weinberg Memorial Library",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "12685471",
+                    "version": "1844873"
+                }
+            ],
+            "id": "12685470",
+            "version": "1844873",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77837534",
+                    "version": "1844873"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Scranton (Pensylv\u00e1nie). University",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Scranton (Pensylv\u00e1nie). University",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "12685474",
+                    "version": "1844873"
+                }
+            ],
+            "id": "12685473",
+            "version": "1844873",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77837535",
+                    "version": "1844873"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Saint Thomas College",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Saint Thomas College",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "12685477",
+                    "version": "1844873"
+                }
+            ],
+            "id": "12685476",
+            "version": "1844873",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77837536",
+                    "version": "1844873"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "University of Scranton. Harry and Jeanette Weinberg Memorial Library",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "University of Scranton. Harry and Jeanette Weinberg Memorial Library",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "12685480",
+                    "version": "1844873"
+                }
+            ],
+            "id": "12685479",
+            "version": "1844873",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77837537",
+                    "version": "1844873"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Scranton University",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Scranton University",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "12685483",
+                    "version": "1844873"
+                }
+            ],
+            "id": "12685482",
+            "version": "1844873",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77837538",
+                    "version": "1844873"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Weinberg (Harry and Jeanette) Memorial Library",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Weinberg (Harry and Jeanette) Memorial Library",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "12685486",
+                    "version": "1844873"
+                }
+            ],
+            "id": "12685485",
+            "version": "1844873",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77837539",
+                    "version": "1844873"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "St. Thomas College",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "St. Thomas College",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "12685489",
+                    "version": "1844873"
+                }
+            ],
+            "id": "12685488",
+            "version": "1844873",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77837540",
+                    "version": "1844873"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "12685452",
+            "targetConstellation": "52616756",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60s4z19",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6gt7scj",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Bernice Resnick Sandler",
+            "id": "12685503",
+            "version": "1844873"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "12685452",
+            "targetConstellation": "21721507",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60s4z19",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vt9pk5",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Burns, John J.",
+            "id": "12685501",
+            "version": "1844873"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "12685452",
+            "targetConstellation": "7550221",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60s4z19",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6rf8k3j",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Byron, William J., 1927-",
+            "id": "12685502",
+            "version": "1844873"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "12685452",
+            "targetConstellation": "57033311",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60s4z19",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6b90fgp",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "King's College (Wilkes-Barre, Pa.)",
+            "id": "12685500",
+            "version": "1844873"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "University of Scranton",
+            "uri": "https:\/\/viaf.org\/viaf\/139378801",
+            "id": "12685497",
+            "version": "1844873"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n83051716",
+            "id": "12685498",
+            "version": "1844873"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n83051716",
+            "id": "12685499",
+            "version": "1844873"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/18461264",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:18461264<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-BAI<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>King's College (Wilkes-Barre, Pa.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ethnic Heritage Studies Program (U.S.)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>University of Scranton.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>The Study of Ethnic Minorities in Northeastern Pennsylvania: Lackawanna County \/ Luzerne County. 1974-1975.<\/title>\n                  <\/titleInfo>\n                  <abstract>Contains Ethnic Heritage Studies: Papers of the Institute of King's College, 1975 a 400 page collection of papers presented at a meeting on the ethnic history of northeastern Pennsylvania; an 11 page bibliography of print resources on northeastern Pennsylvania; a 5 page outline of oral history interview topics; a one page topical listing of the contents of oral history interviews; a two page listing of films dealing with the region; a 28 page listing of photographs relating to the region; two descriptive brochures on the Ethnic Studies Institute sponsored through the project; and a four page final report on the project. <\/abstract>\n                  <name>\n                     <namePart>Balch Institute for Ethnic Studies Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "The Study of Ethnic Minorities in Northeastern Pennsylvania: Lackawanna County \/ Luzerne County. 1974-1975.",
+                "abstract": "Contains Ethnic Heritage Studies: Papers of the Institute of King's College, 1975 a 400 page collection of papers presented at a meeting on the ethnic history of northeastern Pennsylvania; an 11 page bibliography of print resources on northeastern Pennsylvania; a 5 page outline of oral history interview topics; a one page topical listing of the contents of oral history interviews; a two page listing of films dealing with the region; a 28 page listing of photographs relating to the region; two descriptive brochures on the Ethnic Studies Institute sponsored through the project; and a four page final report on the project. ",
+                "extent": "7 items.",
+                "displayEntry": "King's College (Wilkes-Barre, Pa.). The Study of Ethnic Minorities in Northeastern Pennsylvania: Lackawanna County \/ Luzerne County.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "King's College (Wilkes-Barre, Pa.)",
+                        "id": "8828605",
+                        "version": "6947055"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ethnic Heritage Studies Program (U.S.)",
+                        "id": "8828606",
+                        "version": "6947055"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of Scranton.",
+                        "id": "8828607",
+                        "version": "6947055"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w65j84k6",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Balch Institute for Ethnic Studies Library",
+                            "preferenceScore": "99",
+                            "id": "76761171",
+                            "version": "11224445"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Balch Institute for Ethnic Studies Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761176",
+                                    "version": "11224445"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "18 S 7Th St",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761177",
+                                    "version": "11224445"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Philadelphia",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761178",
+                                    "version": "11224445"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761179",
+                                    "version": "11224445"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "19106",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761180",
+                                    "version": "11224445"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76761181",
+                                    "version": "11224445"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16916",
+                                "name": "Balch Institute for Ethnic Studies Library",
+                                "latitude": "39.9504320",
+                                "longitude": "-75.1522330"
+                            },
+                            "confirmed": true,
+                            "id": "76761175",
+                            "version": "11224445"
+                        }
+                    ],
+                    "id": "76761170",
+                    "version": "11224448"
+                },
+                "id": "6947055",
+                "version": "6947055"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "King's College (Wilkes-Barre, Pa.). The Study of Ethnic Minorities in Northeastern Pennsylvania: Lackawanna County \/ Luzerne County.",
+            "id": "12685504",
+            "version": "1844873"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/143657135",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:143657135<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-DCU<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Byron, William J., 1927-<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>The William James Byron papers. 1977-1992.<\/title>\n                  <\/titleInfo>\n                  <abstract>The collection consists of plaques, awards, medals, diplomas, and regalia dating from Byron's presidencies of the University of Scranton and the Catholic University of America. There are also photographs from his CUA years, especially a 1985 trip to Taiwan. <\/abstract>\n                  <name>\n                     <namePart>Catholic University of America<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "The William James Byron papers. 1977-1992.",
+                "abstract": "The collection consists of plaques, awards, medals, diplomas, and regalia dating from Byron's presidencies of the University of Scranton and the Catholic University of America. There are also photographs from his CUA years, especially a 1985 trip to Taiwan. ",
+                "extent": "7.25 linear ft.",
+                "displayEntry": "Byron, William J., 1927-. The William James Byron papers.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Byron, William J., 1927-",
+                        "id": "8640026",
+                        "version": "6826049"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6t25s3q",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Catholic University of America",
+                            "preferenceScore": "99",
+                            "id": "76763682",
+                            "version": "11225385"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Catholic University of America",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "620 Michigan Ave, NE",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76763687",
+                                    "version": "11225385"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Mullen Library",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76763688",
+                                    "version": "11225385"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Washington",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76763689",
+                                    "version": "11225385"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-DC",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76763690",
+                                    "version": "11225385"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20064",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76763691",
+                                    "version": "11225385"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76763692",
+                                    "version": "11225385"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16728",
+                                "name": "Catholic University of America",
+                                "latitude": "38.9326859",
+                                "longitude": "-76.9974670"
+                            },
+                            "confirmed": true,
+                            "id": "76763686",
+                            "version": "11225385"
+                        }
+                    ],
+                    "id": "76763681",
+                    "version": "11225388"
+                },
+                "id": "6826049",
+                "version": "6826049"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Byron, William J., 1927-. The William James Byron papers.",
+            "id": "12685506",
+            "version": "1844873"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/721941441",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:721941441<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-PAULM<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>University of Scranton.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Burns, John J.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Correspondence to Chaim Potok, 1983.<\/title>\n                  <\/titleInfo>\n                  <abstract>Regarding Potok's lecture for the university's Judaic Chair Lecture series with correspondence from coordinator John J. Burns. Includes a program from the lecture and a newspaper clipping. <\/abstract>\n                  <name>\n                     <namePart>University of Pennsylvania Library<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Correspondence to Chaim Potok, 1983.",
+                "abstract": "Regarding Potok's lecture for the university's Judaic Chair Lecture series with correspondence from coordinator John J. Burns. Includes a program from the lecture and a newspaper clipping. ",
+                "extent": "2 items (3 leaves, 1 program)",
+                "displayEntry": "University of Scranton. Correspondence to Chaim Potok, 1983.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "University of Scranton.",
+                        "id": "10835222",
+                        "version": "8088295"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Burns, John J.",
+                        "id": "10835223",
+                        "version": "8088295"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6pw782v",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "University of Pennsylvania Library",
+                            "preferenceScore": "99",
+                            "id": "76787737",
+                            "version": "11234305"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "University of Pennsylvania Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "3420 Walnut Street",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787741",
+                                    "version": "11234305"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Philadephia",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787742",
+                                    "version": "11234305"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-PA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787743",
+                                    "version": "11234305"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "19104-6206",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787744",
+                                    "version": "11234305"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76787745",
+                                    "version": "11234305"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15431",
+                                "name": "University of Pennsylvania Library",
+                                "latitude": "39.9616120",
+                                "longitude": "-75.1995700"
+                            },
+                            "confirmed": true,
+                            "id": "76787740",
+                            "version": "11234305"
+                        }
+                    ],
+                    "id": "76787736",
+                    "version": "11234308"
+                },
+                "id": "8088295",
+                "version": "8088295"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "University of Scranton. Correspondence to Chaim Potok, 1983.",
+            "id": "12685505",
+            "version": "1844873"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/sch01194\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <unitid>MC 558; PhotoCD-4; CD-26; T-290; Vt-151<\/unitid>\n                  <repository>\n                     <extref>Schlesinger Library, Radcliffe Institute<\/extref>\n                  <\/repository>\n                  <origination>\n                     <persname>Bernice Resnick Sandler<\/persname>\n                  <\/origination>\n                  <unittitle>Papers of Bernice Resnick Sandler, <unitdate>1963-2008<\/unitdate>\n                  <\/unittitle>\n                  <physdesc>\n                     <extent>28.98 linear ft. <\/extent>\n                     <extent>(69 + 1\/2 file boxes) plus 1 folio folder, 2 folio+ folders, 1 oversize folder, 2 supersize folders, 2 audiotapes, 16 videotapes, 1 CD, 5 photograph folders, 1 photoCD, 29 objects, and electronic records<\/extent>\n                  <\/physdesc>\n                  <langmaterial>Materials in English.<\/langmaterial>\n                  <abstract>Correspondence, writings, testimonies, speeches, subject files, photographs, and audiovisual material of Bernice Resnick Sandler, feminist and activist specializing in  educational equity for women, gender issues in higher education, and other issues of women's rights and equality.<\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Papers of Bernice Resnick Sandler, 1963-2008",
+                "abstract": "Correspondence, writings, testimonies, speeches, subject files, photographs, and audiovisual material of Bernice Resnick Sandler, feminist and activist specializing in  educational equity for women, gender issues in higher education, and other issues of women's rights and equality.",
+                "extent": "28.98 linear ft.; (69 + 1\/2 file boxes) plus 1 folio folder, 2 folio+ folders, 1 oversize folder, 2 supersize folders, 2 audiotapes, 16 videotapes, 1 CD, 5 photograph folders, 1 photoCD, 29 objects, and electronic records",
+                "displayEntry": "Papers of Bernice Resnick Sandler, 1963-2008",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Bernice Resnick Sandler",
+                        "id": "11440512",
+                        "version": "6387231"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6q060rg",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Arthur and Elizabeth Schlesinger Library on the History of Women in America\u200f",
+                            "preferenceScore": "99",
+                            "id": "84708946",
+                            "version": "11425596"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Massachusetts--Cambridge",
+                            "type": {
+                                "id": "705",
+                                "term": "AssociatedPlace",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                                "type": "place_type"
+                            },
+                            "id": "84708988",
+                            "version": "11425596"
+                        },
+                        {
+                            "dataType": "Place",
+                            "original": "Harvard University, Schlesinger Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "10 Garden St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708982",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cambridge",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708983",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708984",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02138",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708985",
+                                    "version": "11425596"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "84708986",
+                                    "version": "11425596"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16330",
+                                "name": "Harvard University, Schlesinger Library",
+                                "latitude": "42.3782959",
+                                "longitude": "-71.1304474"
+                            },
+                            "confirmed": true,
+                            "id": "84708981",
+                            "version": "11425596"
+                        }
+                    ],
+                    "id": "84708935",
+                    "version": "11425606"
+                },
+                "id": "6387231",
+                "version": "6387231"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Papers of Bernice Resnick Sandler, 1963-2008",
+            "id": "12685507",
+            "version": "1844873"
+        }
+    ],
+    "nationalities": [
+        {
+            "dataType": "Nationality",
+            "term": {
+                "id": "8188",
+                "term": "Americans",
+                "type": "nationality"
+            },
+            "id": "12685491",
+            "version": "1844873"
+        }
+    ],
+    "id": "12685452",
+    "version": "1844874",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDateOriginal": "active 1983",
+            "id": "12685453",
+            "version": "1844873"
+        }
+    ]
+}

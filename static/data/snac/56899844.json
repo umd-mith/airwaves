@@ -1,0 +1,376 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w61g5x75",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-20",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T07:03:38",
+            "standardDateTime": "2016-08-16T07:03:38",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T07:03:38",
+            "standardDateTime": "2016-08-16T07:03:38",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/769779068",
+            "id": "56899845",
+            "version": "8326169"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/270775547",
+            "id": "56899846",
+            "version": "8326169"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "56899847",
+            "version": "8326169"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Crosby, Stills, Nash & Young",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Crosby, Stills, Nash & Young",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "56899849",
+                    "version": "8326169"
+                }
+            ],
+            "id": "56899848",
+            "version": "8326169",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81460198",
+                    "version": "8326169"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "56899844",
+            "targetConstellation": "12353442",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61g5x75",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bg47m7",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Oldham, Spooner.",
+            "id": "56899855",
+            "version": "8326169"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "56899844",
+            "targetConstellation": "18657268",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61g5x75",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6sv2m2p",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Crosby, Stills & Nash."
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "56899844",
+            "targetConstellation": "31014206",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61g5x75",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ps2q80",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Crosby, Stills & Nash."
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "56899844",
+            "targetConstellation": "42752455",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w61g5x75",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w64s2xfr",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "term": "mayBeSameAs",
+                "type": "relation_type"
+            },
+            "content": "Crosby, Stills, Nash"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Crosby, Stills, Nash & Young",
+            "uri": "https:\/\/viaf.org\/viaf\/270775547",
+            "id": "56899854",
+            "version": "8326169"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/769779068",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:769779068<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-OHRRH<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Oldham, Spooner.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Spooner Oldham Papers (Rock and Roll Hall of Fame and Museum. Library and Archives)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Spooner Oldham Papers, 1966-2007, undated.<\/title>\n                  <\/titleInfo>\n                  <abstract>The Spooner Oldham Papers span the years 1966 to 2007 and provide documentation of Oldham's successful career as a musician and songwriter. The materials in the collection include business papers, photographs, handwritten song lyrics, chord charts, tour schedule booklets, and a copy of  Music Galore Magazine. The business papers contain contracts between Oldham and FAME Studios and Atlantic Records, as well as documents from Warner Brothers. The photographs are images of Oldham in the recording studio with various people, including Aretha Franklin and Wilson Pickett. Oldham's handwritten song lyrics and chord charts are from his FAME Studios days and later in his career. The tour schedule booklets in the collection include information about Oldham's tours with Neil Young and Drive By Truckers. The collection as a whole provides rich insight to Oldham's career and the late-1960s music scene surrounding FAME Studios and Atlantic Records. <\/abstract>\n                  <name>\n                     <namePart>Rock and Roll Hall of Fame and Museum - Library and Archives<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Spooner Oldham Papers, 1966-2007, undated.",
+                "abstract": "The Spooner Oldham Papers span the years 1966 to 2007 and provide documentation of Oldham's successful career as a musician and songwriter. The materials in the collection include business papers, photographs, handwritten song lyrics, chord charts, tour schedule booklets, and a copy of  Music Galore Magazine. The business papers contain contracts between Oldham and FAME Studios and Atlantic Records, as well as documents from Warner Brothers. The photographs are images of Oldham in the recording studio with various people, including Aretha Franklin and Wilson Pickett. Oldham's handwritten song lyrics and chord charts are from his FAME Studios days and later in his career. The tour schedule booklets in the collection include information about Oldham's tours with Neil Young and Drive By Truckers. The collection as a whole provides rich insight to Oldham's career and the late-1960s music scene surrounding FAME Studios and Atlantic Records. ",
+                "extent": "2.13 linear feet.",
+                "displayEntry": "Oldham, Spooner. Spooner Oldham Papers, 1966-2007, undated.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Oldham, Spooner.",
+                        "id": "10995843",
+                        "version": "8184630"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Spooner Oldham Papers (Rock and Roll Hall of Fame and Museum. Library and Archives)",
+                        "id": "10995844",
+                        "version": "8184630"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6n980bb",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Rock and Roll Hall of Fame Library and Archives",
+                            "preferenceScore": "99",
+                            "id": "76780650",
+                            "version": "11231737"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Rock and Roll Hall of Fame Library and Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "2809 Woodland Avenue",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76780655",
+                                    "version": "11231737"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Cleveland",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76780656",
+                                    "version": "11231737"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-OH",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76780657",
+                                    "version": "11231737"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "44115",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76780658",
+                                    "version": "11231737"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76780659",
+                                    "version": "11231737"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "17069",
+                                "name": "Rock and Roll Hall of Fame Library and Archives",
+                                "latitude": "41.4911232",
+                                "longitude": "-81.6699600"
+                            },
+                            "confirmed": true,
+                            "id": "76780654",
+                            "version": "11231737"
+                        }
+                    ],
+                    "id": "76780649",
+                    "version": "11231740"
+                },
+                "id": "8184630",
+                "version": "8184630"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "Oldham, Spooner. Spooner Oldham Papers, 1966-2007, undated.",
+            "id": "56899859",
+            "version": "8326169"
+        }
+    ],
+    "id": "56899844",
+    "version": "8326170"
+}

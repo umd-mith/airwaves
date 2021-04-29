@@ -1,0 +1,268 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w62h0qt2",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-16",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T18:51:11",
+            "standardDateTime": "2016-08-09T18:51:11",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-09T18:51:11",
+            "standardDateTime": "2016-08-09T18:51:11",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/vah\/vi02773.xml<\/filename>\n                  <ead_entity en_type=\"origination\" encodinganalog=\"110$a\" label=\"Collector\">Warren County (Va.) Public Schools. Office of the Assistant Superintendent.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/ead.lib.virginia.edu\/vivaxtf\/view?docId=lva\/vi02773.xml",
+            "id": "3131535",
+            "version": "450773"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Warren County (Va.) Public Schools. Office of the Assistant Superintendent.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Warren County (Va.) Public Schools. Office of the Assistant Superintendent.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "3131537",
+                    "version": "450773"
+                }
+            ],
+            "id": "3131536",
+            "version": "450773",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"vah\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "77057559",
+                    "version": "450773"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "3131534",
+                "version": "450773"
+            },
+            "text": "<biogHist>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">On September 15, 1958, Governor J. Lindsay Almond Jr. closed Warren County High School, the first school held in violation of his statewide mandate against desegregation.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">In 1958, James W. Kilby led a group of black families in filing a lawsuit that forced Warren County High School to admit blacks. The battle was bitter, but on February 18, 1959, three Kilby children were among 20 black students who walked up a grassy hill, past hecklers and policemen, and into the school. It was the first challenge to Virginia's \"Massive Resistance\" laws and a precursor to such battles as the one that would close Prince Edward County schools for five years. Material concerning the lawsuit is included in this collection, as are the deliberations of the school board.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the guide to the Warren County (Va.) Public School Records, 1915-1976, (The Library of Virginia)<\/citation>\n         <\/biogHist>",
+            "id": "3131533",
+            "version": "450773"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "3131532",
+            "targetConstellation": "53760023",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w62h0qt2",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w62p7n70",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Kilby, James Wilson, 1917-2003",
+            "id": "3131543",
+            "version": "450773"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/ead.lib.virginia.edu\/vivaxtf\/view?docId=lva\/vi02773.xml",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>The Library of Virginia\n<\/repository>\n                  <unittitle>Warren County (Va.) Public School Records, \n<unitdate>1915-1976\n<\/unitdate>\n                  <\/unittitle>\n                  <unitid>1202836-1202837, 1202841-1202853\n<\/unitid>\n                  <physloc>Library of Virginia\n<\/physloc>\n                  <physdesc>4.50 cu. ft. (10 boxes and 5 vol.)\n<\/physdesc>\n                  <langmaterial>\n                     <language>English\n<\/language>\n                  <\/langmaterial>\n                  <origination>Warren County (Va.) Public Schools. Office of the Assistant Superintendent.\n<\/origination>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Warren County (Va.) Public School Records, 1915-1976",
+                "displayEntry": "Warren County (Va.) Public School Records, 1915-1976",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11360823",
+                        "version": "6335054"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6nt1hrf",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "The Library of Virginia",
+                            "preferenceScore": "99",
+                            "id": "76796733",
+                            "version": "11240569"
+                        }
+                    ],
+                    "id": "76796732",
+                    "version": "11240572"
+                },
+                "id": "6335054",
+                "version": "6335054"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Warren County (Va.) Public School Records, 1915-1976",
+            "id": "3131544",
+            "version": "450773"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Warren County (Va.)",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "geoplace": {
+                "id": "14030",
+                "uri": "http:\/\/www.geonames.org\/4792238",
+                "name": "Warren County",
+                "latitude": "38.9087800",
+                "longitude": "-78.2074600",
+                "administrationCode": "VA",
+                "countryCode": "US"
+            },
+            "score": "1",
+            "id": "3131540",
+            "version": "450773",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Warren County (Va.)",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "3131541",
+                    "version": "450773"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "35248",
+                "term": "African Americans--Education--Virginia--Warren County",
+                "type": "subject"
+            },
+            "id": "3131542",
+            "version": "450773"
+        }
+    ],
+    "id": "3131532",
+    "version": "450774"
+}

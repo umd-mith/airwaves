@@ -1,0 +1,370 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6ng9jmn",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-19",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T00:29:19",
+            "standardDateTime": "2016-08-16T00:29:19",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T00:29:19",
+            "standardDateTime": "2016-08-16T00:29:19",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/86123368",
+            "id": "55276567",
+            "version": "8083241"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/139571284",
+            "id": "55276568",
+            "version": "8083241"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "55276569",
+            "version": "8083241"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Eastern Educational Network",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Eastern Educational Network",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "55276571",
+                    "version": "8083241"
+                }
+            ],
+            "id": "55276570",
+            "version": "8083241",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81325486",
+                    "version": "8083241"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "EEN",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "EEN",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "55276575",
+                    "version": "8083241"
+                }
+            ],
+            "id": "55276574",
+            "version": "8083241",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81325487",
+                    "version": "8083241"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "55276566",
+            "targetConstellation": "10873835",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ng9jmn",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6r54jpg",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "WGBH Educational Foundation.",
+            "id": "55276582",
+            "version": "8083241"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Eastern Educational Network",
+            "uri": "https:\/\/viaf.org\/viaf\/139571284",
+            "id": "55276579",
+            "version": "8083241"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n82010038",
+            "id": "55276580",
+            "version": "8083241"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n82010038",
+            "id": "55276581",
+            "version": "8083241"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/86123368",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:86123368<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-COMSA<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WGBH Educational Foundation.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Administrative records of the Lowell Institute Cooperative Broadcasting Council (LICBC) and WGBH Educational Foundation, 1945-1994 (bulk 1951-1991).<\/title>\n                  <\/titleInfo>\n                  <abstract>Contains administrative records relating to the activities which support the creation, broadcast, and promotion of WGBH's programming and the development of related print and multimedia materials. <\/abstract>\n                  <name>\n                     <namePart>Commonwealth of Massachusetts State Archives<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Administrative records of the Lowell Institute Cooperative Broadcasting Council (LICBC) and WGBH Educational Foundation, 1945-1994 (bulk 1951-1991).",
+                "abstract": "Contains administrative records relating to the activities which support the creation, broadcast, and promotion of WGBH's programming and the development of related print and multimedia materials. ",
+                "extent": "396.25 linear ft. (317 containers)",
+                "displayEntry": "WGBH Educational Foundation. Administrative records of the Lowell Institute Cooperative Broadcasting Council (LICBC) and WGBH Educational Foundation, 1945-1994 (bulk 1951-1991).",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WGBH Educational Foundation.",
+                        "id": "11226794",
+                        "version": "8340552"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6w7785h",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Commonwealth of Massachusetts State Archives",
+                            "preferenceScore": "99",
+                            "id": "76765127",
+                            "version": "11225909"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Commonwealth of Massachusetts State Archives",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "220 Morrissey Blvd",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765132",
+                                    "version": "11225909"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Boston",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765133",
+                                    "version": "11225909"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-MA",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765134",
+                                    "version": "11225909"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02125-3384",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765135",
+                                    "version": "11225909"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76765136",
+                                    "version": "11225909"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "16371",
+                                "name": "Commonwealth of Massachusetts State Archives",
+                                "latitude": "42.3117730",
+                                "longitude": "-71.0455350"
+                            },
+                            "confirmed": true,
+                            "id": "76765131",
+                            "version": "11225909"
+                        }
+                    ],
+                    "id": "76765126",
+                    "version": "11225912"
+                },
+                "id": "8340552",
+                "version": "8340552"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "WGBH Educational Foundation. Administrative records of the Lowell Institute Cooperative Broadcasting Council (LICBC) and WGBH Educational Foundation, 1945-1994 (bulk 1951-1991).",
+            "id": "55276583",
+            "version": "8083241"
+        }
+    ],
+    "id": "55276566",
+    "version": "8083242"
+}

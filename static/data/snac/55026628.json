@@ -1,0 +1,281 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60423f1",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-04",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T23:29:57",
+            "standardDateTime": "2016-08-15T23:29:57",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-15T23:29:57",
+            "standardDateTime": "2016-08-15T23:29:57",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/umi\/bentley\/umspeech.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"110\" source=\"lcnaf\">University of Michigan. Department of Speech.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/quod.lib.umich.edu\/b\/bhlead\/umich-bhl-87159?rgn=main;view=text",
+            "id": "55026631",
+            "version": "8046128"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "University of Michigan. Department of Speech.",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "University of Michigan. Department of Speech.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "55026633",
+                    "version": "8046128"
+                }
+            ],
+            "id": "55026632",
+            "version": "8046128",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"umi\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81304249",
+                    "version": "8046128"
+                }
+            ]
+        }
+    ],
+    "biogHists": [
+        {
+            "dataType": "BiogHist",
+            "language": {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "586",
+                    "term": "Latn",
+                    "type": "script_code",
+                    "description": "Latin"
+                },
+                "id": "55026630",
+                "version": "8046128"
+            },
+            "text": "<biogHist>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Michigan was among the first schools in the nation to formally incorporate instruction in the field of speech into its curriculum. The subject's inclusion was largely the result of Thomas C. Trueblood's work. In the later nineteenth century, Trueblood made his living traveling from university to university offering short courses in speech. He first came to Ann Arbor in 1884 and his six week course was so popular with students that he began to return for longer and longer residences. Finally, in 1889 he became a permanent faculty member of the University of Michigan. In 1892 the Department of Elocution and Oratory was created, with Trueblood as its sole member. Trueblood remained chair of the department until 1926.<\/p>\n            <p xmlns=\"urn:isbn:1-931666-33-4\">Over the years the department's formal title changed frequently, reflecting the broad area of instruction that fell under its mantle. The original name was simplified to the Department of Oratory in 1908. Subsequent titles included Department of Public Speaking (1919-1927); Department of Speech (1927-1932); Department of Speech, Phonetics, and General Linguistics (1932); Department of Speech and General Linguistics (1932-1939); Department of Speech (1939-1972); and Department of Speech Communication and Theater (1972-1979). In 1979, as part of a major reorganization of several units, the Department of Speech Communication and Theater was formally eliminated. Elements of the department's program were relocated in two new units; the Department of Theatre and Drama and the Department of Communication.<\/p>\n            <citation xmlns=\"urn:isbn:1-931666-33-4\">From the guide to the Dept. of Speech (University of Michigan) records, 1928-1978, (Bentley Historical Library, University of Michigan)<\/citation>\n         <\/biogHist>",
+            "id": "55026629",
+            "version": "8046128"
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "55026628",
+            "targetConstellation": "12753371",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60423f1",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6f803v2",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Michigan",
+            "id": "55026638",
+            "version": "8046128"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "55026628",
+            "targetConstellation": "70284061",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60423f1",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6hv10pf",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University of Michigan Dept. of Speech.",
+            "id": "55026639",
+            "version": "8046128"
+        },
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "55026628",
+            "targetConstellation": "28536476",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w60423f1",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p92p6v",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "University Players (University of Michigan)",
+            "id": "55026637",
+            "version": "8046128"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/quod.lib.umich.edu\/b\/bhlead\/umich-bhl-87159?rgn=main;view=text",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <origination>\n                     <corpname>\n\nUniversity of Michigan. Department of Speech.\n<\/corpname>\n                  <\/origination>\n                  <unittitle>\n\nDept. of Speech (University of Michigan) records\n<unitdate>\n\n1928-1978\n<\/unitdate>\n                  <\/unittitle>\n                  <physdesc>\n                     <extent>\n\n31 linear feet and 6 outsize volumes\n<\/extent>\n                  <\/physdesc>\n                  <unitid>\n\n87159 Bimu F41 2\n<\/unitid>\n                  <langmaterial>The material is in <language>English<\/language>\n                  <\/langmaterial>\n                  <abstract>\n\nScrapbooks, 1928-1972, of programs, publicity, and newspaper clippings compiled by the directors and staff of various University theatrical productions; history of University play production, 1909-1956; and departmental correspondence and miscellanea.\n<\/abstract>\n                  <repository>\n                     <corpname>\n                        <subarea>Bentley Historical Library<\/subarea>, University of Michigan<\/corpname>\n                     <extptr\/>\n                  <\/repository>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "Dept. of Speech (University of Michigan) records 1928-1978",
+                "abstract": "Scrapbooks, 1928-1972, of programs, publicity, and newspaper clippings compiled by the directors and staff of various University theatrical productions; history of University play production, 1909-1956; and departmental correspondence and miscellanea.",
+                "extent": "31 linear feet and 6 outsize volumes",
+                "displayEntry": "Dept. of Speech (University of Michigan) records, 1928-1978",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11445213",
+                        "version": "6390063"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w65f9fmq",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Bentley Historical Library , University of Michigan",
+                            "preferenceScore": "99",
+                            "id": "76792059",
+                            "version": "11236157"
+                        }
+                    ],
+                    "id": "76792058",
+                    "version": "11236160"
+                },
+                "id": "6390063",
+                "version": "6390063"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Dept. of Speech (University of Michigan) records, 1928-1978",
+            "id": "55026640",
+            "version": "8046128"
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "130203",
+                "term": "Drama",
+                "type": "subject"
+            },
+            "id": "55026636",
+            "version": "8046128"
+        }
+    ],
+    "id": "55026628",
+    "version": "8046129"
+}

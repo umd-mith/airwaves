@@ -1,0 +1,199 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w66z5tp4",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T06:47:22",
+            "standardDateTime": "2016-08-16T06:47:22",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T06:47:22",
+            "standardDateTime": "2016-08-16T06:47:22",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/taro\/ttuua\/00062.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"610\">KTXT (Radio station : Lubbock, Tex.)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/www.lib.utexas.edu\/taro\/ttuua\/00062\/00062-P.html",
+            "id": "56831403",
+            "version": "8315978"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "KTXT (Radio station : Lubbock, Tex.)",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "KTXT (Radio station : Lubbock, Tex.)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "56831405",
+                    "version": "8315978"
+                }
+            ],
+            "id": "56831404",
+            "version": "8315978",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"taro\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81454869",
+                    "version": "8315978"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "56831402",
+            "targetConstellation": "28288634",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w66z5tp4",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6bc7qgb",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Texas Tech University",
+            "id": "56831408",
+            "version": "8315978"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.lib.utexas.edu\/taro\/ttuua\/00062\/00062-P.html",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <origination>\n                     <corpname>Texas Tech University<\/corpname>\n                  <\/origination>\n                  <unittitle>KTXT Records,\n\t\t  <unitdate>1957-1996<\/unitdate>\n                  <\/unittitle>\n                  <abstract>The collection contains records on the establishment of KTXT-TV and KTXT-FM.<\/abstract>\n                  <unitid>U 107.2<\/unitid>\n                  <repository>\n                     <corpname>\n                        <subarea>Southwest Collection\/Special Collections Library,<\/subarea> Texas Tech University<\/corpname>\n                  <\/repository>\n                  <physdesc>4 Boxes (3.5 linear foot)<\/physdesc>\n                  <langmaterial>\n                     <language>English.<\/language>\n                  <\/langmaterial>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "KTXT Records, 1957-1996",
+                "abstract": "The collection contains records on the establishment of KTXT-TV and KTXT-FM.",
+                "displayEntry": "KTXT Records, U 107. 2., 1957-1996",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11265334",
+                        "version": "6641198"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6pm1514",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Southwest Collection\/Special Collections Library, Texas Tech University,",
+                            "preferenceScore": "99",
+                            "id": "76796120",
+                            "version": "11239949"
+                        }
+                    ],
+                    "id": "76796119",
+                    "version": "11239952"
+                },
+                "id": "6641198",
+                "version": "6641198"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "KTXT Records, U 107. 2., 1957-1996",
+            "id": "56831409",
+            "version": "8315978"
+        }
+    ],
+    "id": "56831402",
+    "version": "8315979"
+}

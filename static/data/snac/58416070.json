@@ -1,0 +1,482 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6xr14tk",
+    "entityType": {
+        "id": "700",
+        "term": "person",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-03-14",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T12:54:56",
+            "standardDateTime": "2016-08-16T12:54:56",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T12:54:56",
+            "standardDateTime": "2016-08-16T12:54:56",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/harvard\/hou02025.xml<\/filename>\n                  <ead_entity en_type=\"persname\">Aubrey, James.<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/id.lib.harvard.edu\/ead\/hou02025\/catalog",
+            "id": "58416072",
+            "version": "8539703"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/53714813",
+            "id": "58416073",
+            "version": "8539703"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "58416074",
+            "version": "8539703"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Aubrey, James",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Aubrey, James",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "58416076",
+                    "version": "8539703"
+                }
+            ],
+            "id": "58416075",
+            "version": "8539703",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"harvard\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81579291",
+                    "version": "8539703"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Aubrey, James T., Jr.",
+            "preferenceScore": "2",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Aubrey, James T., Jr.",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "58416080",
+                    "version": "8539703"
+                }
+            ],
+            "id": "58416079",
+            "version": "8539703",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81579292",
+                    "version": "8539703"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Aubrey, James 1918-1994",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Aubrey, James 1918-1994",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "58416083",
+                    "version": "8539703"
+                }
+            ],
+            "id": "58416082",
+            "version": "8539703",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81579293",
+                    "version": "8539703"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Aubrey, Jimmy 1918-1994",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Aubrey, Jimmy 1918-1994",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "58416086",
+                    "version": "8539703"
+                }
+            ],
+            "id": "58416085",
+            "version": "8539703",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81579294",
+                    "version": "8539703"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Aubrey, Jimmie",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Aubrey, Jimmie",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "58416089",
+                    "version": "8539703"
+                }
+            ],
+            "id": "58416088",
+            "version": "8539703",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81579295",
+                    "version": "8539703"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Aubrey, Jimmie 1918-1994",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Aubrey, Jimmie 1918-1994",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "58416092",
+                    "version": "8539703"
+                }
+            ],
+            "id": "58416091",
+            "version": "8539703",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81579296",
+                    "version": "8539703"
+                }
+            ]
+        },
+        {
+            "dataType": "NameEntry",
+            "original": "Aubrey, Jimmy",
+            "preferenceScore": "0",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Aubrey, Jimmy",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "58416095",
+                    "version": "8539703"
+                }
+            ],
+            "id": "58416094",
+            "version": "8539703",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81579297",
+                    "version": "8539703"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "58416070",
+            "targetConstellation": "11452090",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6xr14tk",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6vr1vj2",
+            "targetEntityType": {
+                "id": "700",
+                "term": "person",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Person",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Thayer, John Eldon, 1899-1980",
+            "id": "58416103",
+            "version": "8539703"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "Aubrey, James",
+            "uri": "https:\/\/viaf.org\/viaf\/53714813",
+            "id": "58416099",
+            "version": "8539703"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.wikidata.org\/entity\/Q6144143",
+            "id": "58416100",
+            "version": "8539703"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-no91-024700",
+            "id": "58416101",
+            "version": "8539703"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/no91024700",
+            "id": "58416102",
+            "version": "8539703"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/id.lib.harvard.edu\/ead\/hou02025\/catalog",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>Harvard Theatre\n                Collection, Houghton Library, Harvard College Library,                 Harvard\n                University <\/repository>\n                  <physloc> b, Harvard Depository <\/physloc>\n                  <note>\n                     <p>A portion of this collection  is shelved offsite at the Harvard Depository and\n                    some at  items shelved at HTC Pusey level 1. See access restrictions below for\n                    additional information.  <\/p>\n                  <\/note>\n                  <unitid>MS Thr 568 <\/unitid>\n                  <origination>\n                     <persname>Thayer, John\n                    Eldon, 1899-1980.                 <\/persname>\n                  <\/origination>\n                  <unittitle> John\n                Eldon Thayer collection of motion picture memorabilia, <\/unittitle>\n                  <unitdate>1916-1979.\n                    <\/unitdate>\n                  <physdesc>\n                     <extent>59 boxes (35 linear ft.)\n                <\/extent>\n                  <\/physdesc>\n                  <langmaterial>Collection materials are in <language>English.\n                <\/language>\n                  <\/langmaterial>\n                  <abstract>Collection of twentieth century motion picture\n                memorabilia collected by John                 Eldon Thayer.\n                <\/abstract>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "John                Eldon Thayer collection of motion picture memorabilia, 1916-1979.",
+                "abstract": "Collection of twentieth century motion picture                memorabilia collected by John                 Eldon Thayer.",
+                "extent": "59 boxes (35 linear ft.)",
+                "displayEntry": "John Eldon Thayer collection of motion picture memorabilia, 1916-1979.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Thayer, John                    Eldon, 1899-1980.                 ",
+                        "id": "11438944",
+                        "version": "6385090"
+                    }
+                ],
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11438945",
+                        "version": "6385090"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6x45m72",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Harvard Theatre Collection, Houghton Library, Harvard College Library, Harvard University.",
+                            "preferenceScore": "99",
+                            "id": "76793543",
+                            "version": "11237589"
+                        }
+                    ],
+                    "id": "76793542",
+                    "version": "11237592"
+                },
+                "id": "6385090",
+                "version": "6385090"
+            },
+            "role": {
+                "id": "693",
+                "term": "referencedIn",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#referencedIn",
+                "type": "document_role"
+            },
+            "content": "John Eldon Thayer collection of motion picture memorabilia, 1916-1979.",
+            "id": "58416104",
+            "version": "8539703"
+        }
+    ],
+    "id": "58416070",
+    "version": "8539704",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1918-12-14",
+            "fromDateOriginal": "1918-12-14",
+            "fromType": {
+                "id": "689",
+                "term": "Birth",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Birth",
+                "type": "date_type"
+            },
+            "toDate": "1994-09-03",
+            "toDateOriginal": "1994-09-03",
+            "toType": {
+                "id": "690",
+                "term": "Death",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Death",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "58416071",
+            "version": "8539703"
+        }
+    ]
+}

@@ -1,0 +1,512 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w610404f",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-18",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T08:34:12",
+            "standardDateTime": "2016-08-12T08:34:12",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-12T08:34:12",
+            "standardDateTime": "2016-08-12T08:34:12",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/5923368",
+            "id": "29231886",
+            "version": "4267130"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>\/data\/source\/findingAids\/ohlink\/OhCoUMD0001.xml<\/filename>\n                  <ead_entity en_type=\"corpname\" encodinganalog=\"710\">WOSU (Radio station : Columbus, Ohio)<\/ead_entity>\n               <\/container>\n            <\/objectXMLWrap>",
+            "uri": "http:\/\/rave.ohiolink.edu\/archives\/ead\/OhCoUMD0001",
+            "id": "29231887",
+            "version": "4267130"
+        },
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/viaf.org\/viaf\/138520076",
+            "id": "29231888",
+            "version": "4267130"
+        }
+    ],
+    "conventionDeclarations": [
+        {
+            "dataType": "ConventionDeclaration",
+            "text": "<conventionDeclaration><citation>VIAF<\/citation><\/conventionDeclaration>",
+            "id": "29231889",
+            "version": "4267130"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "WOSU (Radio station : Columbus, Ohio)",
+            "preferenceScore": "99",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "WOSU (Radio station : Columbus, Ohio)",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "29231891",
+                    "version": "4267130"
+                }
+            ],
+            "id": "29231890",
+            "version": "4267130",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"ohlink\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "79188042",
+                    "version": "4267130"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "29231884",
+            "targetConstellation": "19574570",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w610404f",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6323jp5",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Ohio State University.",
+            "id": "29231906",
+            "version": "4267130"
+        }
+    ],
+    "sameAsRelations": [
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "text": "WOSU (Radio station : Columbus, Ohio)",
+            "uri": "https:\/\/viaf.org\/viaf\/138520076",
+            "id": "29231898",
+            "version": "4267130"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/www.worldcat.org\/identities\/lccn-n92087928",
+            "id": "29231899",
+            "version": "4267130"
+        },
+        {
+            "dataType": "SameAs",
+            "type": {
+                "id": "28225",
+                "term": "sameAs",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#sameAs",
+                "type": "record_type"
+            },
+            "uri": "https:\/\/id.loc.gov\/authorities\/n92087928",
+            "id": "29231900",
+            "version": "4267130"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/5923368",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:5923368<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-OHT<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>WOSU (Radio station : Columbus, Ohio)<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Ohio State University.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Records 1940-1943.<\/title>\n                  <\/titleInfo>\n                  <abstract>Radio scripts and related correspondence, pertaining to Ohio history and famous Ohioans, of the Ohio State University radio station. Contact repository for more information. <\/abstract>\n                  <name>\n                     <namePart>Ohio Historical Society<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Records 1940-1943.",
+                "abstract": "Radio scripts and related correspondence, pertaining to Ohio history and famous Ohioans, of the Ohio State University radio station. Contact repository for more information. ",
+                "extent": "0.25 cubic foot.",
+                "displayEntry": "WOSU (Radio station : Columbus, Ohio). Records 1940-1943.",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "WOSU (Radio station : Columbus, Ohio)",
+                        "id": "10130766",
+                        "version": "7774589"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Ohio State University.",
+                        "id": "10130767",
+                        "version": "7774589"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w60m2z45",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Ohio History Connection, Ohio Historical Society",
+                            "preferenceScore": "99",
+                            "id": "76778456",
+                            "version": "11230921"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Ohio History Connection, Ohio Historical Society",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Library",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778461",
+                                    "version": "11230921"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "800 E. 17th Ave.",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778462",
+                                    "version": "11230921"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Columbus",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778463",
+                                    "version": "11230921"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-OH",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778464",
+                                    "version": "11230921"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "43211-2474",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778465",
+                                    "version": "11230921"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76778466",
+                                    "version": "11230921"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "14907",
+                                "name": "Ohio History Connection, Ohio Historical Society",
+                                "latitude": "40.0032425",
+                                "longitude": "-82.9889069"
+                            },
+                            "confirmed": true,
+                            "id": "76778460",
+                            "version": "11230921"
+                        }
+                    ],
+                    "id": "76778455",
+                    "version": "11230924"
+                },
+                "id": "7774589",
+                "version": "7774589"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "WOSU (Radio station : Columbus, Ohio). Records 1940-1943.",
+            "id": "29231907",
+            "version": "4267130"
+        },
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/rave.ohiolink.edu\/archives\/ead\/OhCoUMD0001",
+                "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Ohio State University Music and Dance Library<\/corpname>\n                  <\/repository>\n                  <origination>\n                     <corpname>WOSU (Radio station : Columbus, Ohio)<\/corpname>\n                  <\/origination>\n                  <unittitle>WOSU Collection of LP Recordings<\/unittitle>\n                  <physdesc>450 linear feet<\/physdesc>\n                  <abstract>A collection of approximately 22,500 vinyl LP recordings donated to the Ohio State University Music\/Dance Library by the WOSU radio stations in the 1990s.<\/abstract>\n                  <unitid>OSU.MUS.SpecColl.1<\/unitid>\n                  <langmaterial>The records are in <language>English and Western European languages<\/language>\n                  <\/langmaterial>\n                  <physloc>Closed stacks of The Ohio State University Music\/Dance Library in Columbus, Ohio<\/physloc>\n                  <unitdate>1950-1999<\/unitdate>\n               <\/did>\n            <\/objectXMLWrap>",
+                "title": "WOSU Collection of LP Recordings 1950-1999",
+                "abstract": "A collection of approximately 22,500 vinyl LP recordings donated to the Ohio State University Music\/Dance Library by the WOSU radio stations in the 1990s.",
+                "displayEntry": "WOSU Collection of LP Recordings, 1950-1999",
+                "languages": [
+                    {
+                        "dataType": "Language",
+                        "language": {
+                            "id": "130",
+                            "term": "eng",
+                            "type": "language_code",
+                            "description": "English"
+                        },
+                        "id": "11458510",
+                        "version": "6397908"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6ps8jrg",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Ohio State University Music and Dance Library",
+                            "preferenceScore": "99",
+                            "id": "76795028",
+                            "version": "11238989"
+                        }
+                    ],
+                    "id": "76795027",
+                    "version": "11238992"
+                },
+                "id": "6397908",
+                "version": "6397908"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "WOSU Collection of LP Recordings, 1950-1999",
+            "id": "29231908",
+            "version": "4267130"
+        }
+    ],
+    "places": [
+        {
+            "dataType": "Place",
+            "original": "Ohio",
+            "type": {
+                "id": "705",
+                "term": "AssociatedPlace",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#AssociatedPlace",
+                "type": "place_type"
+            },
+            "id": "29231901",
+            "version": "4267130",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "Ohio",
+                    "note": "Parsed from SNAC EAC-CPF.",
+                    "id": "29231902",
+                    "version": "4267130"
+                }
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "179937",
+                "term": "Historical drama, American",
+                "type": "subject"
+            },
+            "id": "29231905",
+            "version": "4267130"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302344",
+                "term": "Radio programs",
+                "type": "subject"
+            },
+            "id": "29231904",
+            "version": "4267130"
+        },
+        {
+            "dataType": "Subject",
+            "term": {
+                "id": "302465",
+                "term": "Radio stations",
+                "type": "subject"
+            },
+            "id": "29231903",
+            "version": "4267130"
+        }
+    ],
+    "id": "29231884",
+    "version": "4267131",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1940",
+            "fromDateOriginal": "active 1940",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1943",
+            "toDateOriginal": "active 1943",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "29231885",
+            "version": "4267130"
+        }
+    ]
+}

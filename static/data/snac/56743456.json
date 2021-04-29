@@ -1,0 +1,535 @@
+{
+    "dataType": "Constellation",
+    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6ms9f95",
+    "entityType": {
+        "id": "698",
+        "term": "corporateBody",
+        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+        "type": "entity_type"
+    },
+    "maintenanceStatus": {
+        "term": "revised"
+    },
+    "maintenanceAgency": "SNAC: Social Networks and Archival Context",
+    "maintenanceEvents": [
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised"
+            },
+            "eventDateTime": "2015-09-17",
+            "agentType": {
+                "id": "687",
+                "term": "machine"
+            },
+            "agent": "CPF merge program",
+            "eventDescription": "Merge v2.0"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T06:27:03",
+            "standardDateTime": "2016-08-16T06:27:03",
+            "agentType": {
+                "id": "687",
+                "term": "machine",
+                "type": "agent_type"
+            },
+            "agent": "SNAC EAC-CPF Parser",
+            "eventDescription": "Bulk ingest into SNAC Database"
+        },
+        {
+            "dataType": "MaintenanceEvent",
+            "eventType": {
+                "id": "704",
+                "term": "revised",
+                "type": "event_type"
+            },
+            "eventDateTime": "2016-08-16T06:27:03",
+            "standardDateTime": "2016-08-16T06:27:03",
+            "agentType": {
+                "id": "400254",
+                "term": "human",
+                "type": "agent_type"
+            },
+            "agent": "System Service (system@localhost)"
+        }
+    ],
+    "sources": [
+        {
+            "dataType": "Source",
+            "type": {
+                "id": "28296",
+                "term": "simple",
+                "type": "source_type"
+            },
+            "uri": "http:\/\/www.worldcat.org\/oclc\/122493228",
+            "id": "56743458",
+            "version": "8302502"
+        }
+    ],
+    "nameEntries": [
+        {
+            "dataType": "NameEntry",
+            "original": "Walter H. Baker Company (Boston, Mass.).",
+            "preferenceScore": "1",
+            "components": [
+                {
+                    "dataType": "NameComponent",
+                    "text": "Walter H. Baker Company (Boston, Mass.).",
+                    "order": "0",
+                    "type": {
+                        "id": "400228",
+                        "term": "Name",
+                        "type": "name_component"
+                    },
+                    "id": "56743460",
+                    "version": "8302502"
+                }
+            ],
+            "id": "56743459",
+            "version": "8302502",
+            "snacControlMetadata": [
+                {
+                    "dataType": "SNACControlMetadata",
+                    "sourceData": "[\n    {\n        \"contributor\": \"WorldCat\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                    "note": "Contributors from initial SNAC EAC-CPF ingest",
+                    "id": "81447521",
+                    "version": "8302502"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "dataType": "ConstellationRelation",
+            "sourceConstellation": "56743456",
+            "targetConstellation": "32961945",
+            "sourceArkID": "http:\/\/n2t.net\/ark:\/99166\/w6ms9f95",
+            "targetArkID": "http:\/\/n2t.net\/ark:\/99166\/w6p32kpt",
+            "targetEntityType": {
+                "id": "698",
+                "term": "corporateBody",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                "type": "entity_type"
+            },
+            "type": {
+                "id": "28234",
+                "term": "associatedWith",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#associatedWith",
+                "type": "relation_type"
+            },
+            "content": "Brown University. Library (Providence, Rhode Island).",
+            "id": "56743463",
+            "version": "8302502"
+        }
+    ],
+    "resourceRelations": [
+        {
+            "dataType": "ResourceRelation",
+            "resource": {
+                "dataType": "Resource",
+                "documentType": {
+                    "id": "696",
+                    "term": "ArchivalResource",
+                    "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#ArchivalResource",
+                    "type": "document_type"
+                },
+                "link": "http:\/\/www.worldcat.org\/oclc\/122493228",
+                "source": "<objectXMLWrap>\n               <mods xmlns=\"http:\/\/www.loc.gov\/mods\/v3\">\n                  <recordInfo>\n                     <recordOrigin>WorldCat:122493228<\/recordOrigin>\n                     <recordContentSource>ISIL:OCLC-AS035<\/recordContentSource>\n                  <\/recordInfo>\n                  <name>\n                     <namePart>Brown University. Library (Providence, Rhode Island).<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Seven Gables Bookshop.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Shields, Sophie K.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Simison, Barbara Ormon.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Skilton, Sanford.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Small, Miriam R.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Snow, Edward Rowe.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Spear, Dorothea E.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Spucio, Elizabeth C.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Storm, Colton.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Superior Publishing Company.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>T. S. Denison and Co. (Chicago, Ill.).<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Tate, Allen.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Templeton, Richard H.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Townsend Club.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Tuttle Company (Rutland, Vt.).<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Tuttle, Charles E.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Vail, Robert W. G.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Van Patten, Nathan.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Vaughn, Anne.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Vaughn, John.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Vaughn, Katharine E.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Veterans of Foreign Wars of the United States.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Walter H. Baker Company (Boston, Mass.).<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Walters, E. E.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Wegelin, Oscar.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Wheelwright, Sallie.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Whitcomb, W. H.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Willis N. Bugbee Co. (Syracuse, New York).<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Wilson, Cora McDevitt.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Winslow, Ann.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Woeste, Irene.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Worrell, Betsy.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Worthington, Edna.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Worthington, M. Chesley,<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Wright, Lyle H.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <name>\n                     <namePart>Zeitlin, Jake.<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/cre\">Creator<\/roleTerm>\n                     <\/role>\n                  <\/name>\n                  <titleInfo>\n                     <title>Selected correspondence, 1913-1993, \"Seven\" to \"Zeitlin\".<\/title>\n                  <\/titleInfo>\n                  <abstract>Includes letters exchanged by selected donors, booksellers, and researchers with librarians and support staff. <\/abstract>\n                  <name>\n                     <namePart>Brown University<\/namePart>\n                     <role>\n                        <roleTerm valueURI=\"http:\/\/id.loc.gov\/vocabulary\/relators\/rps\">Repository<\/roleTerm>\n                     <\/role>\n                  <\/name>\n               <\/mods>\n            <\/objectXMLWrap>",
+                "title": "Selected correspondence, 1913-1993, \"Seven\" to \"Zeitlin\".",
+                "abstract": "Includes letters exchanged by selected donors, booksellers, and researchers with librarians and support staff. ",
+                "extent": "Approximately 50 items.",
+                "displayEntry": "Brown University. Library (Providence, Rhode Island). Selected correspondence, 1913-1993, \"Seven\" to \"Zeitlin\".",
+                "originationNames": [
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Brown University. Library (Providence, Rhode Island).",
+                        "id": "8469450",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Seven Gables Bookshop.",
+                        "id": "8469451",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Shields, Sophie K.",
+                        "id": "8469452",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Simison, Barbara Ormon.",
+                        "id": "8469453",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Skilton, Sanford.",
+                        "id": "8469454",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Small, Miriam R.",
+                        "id": "8469455",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Snow, Edward Rowe.",
+                        "id": "8469456",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Spear, Dorothea E.",
+                        "id": "8469457",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Spucio, Elizabeth C.",
+                        "id": "8469458",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Storm, Colton.",
+                        "id": "8469459",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Superior Publishing Company.",
+                        "id": "8469460",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "T. S. Denison and Co. (Chicago, Ill.).",
+                        "id": "8469461",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tate, Allen.",
+                        "id": "8469462",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Templeton, Richard H.",
+                        "id": "8469463",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Townsend Club.",
+                        "id": "8469464",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tuttle Company (Rutland, Vt.).",
+                        "id": "8469465",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Tuttle, Charles E.",
+                        "id": "8469466",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Vail, Robert W. G.",
+                        "id": "8469467",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Van Patten, Nathan.",
+                        "id": "8469468",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Vaughn, Anne.",
+                        "id": "8469469",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Vaughn, John.",
+                        "id": "8469470",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Vaughn, Katharine E.",
+                        "id": "8469471",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Veterans of Foreign Wars of the United States.",
+                        "id": "8469472",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Walter H. Baker Company (Boston, Mass.).",
+                        "id": "8469473",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Walters, E. E.",
+                        "id": "8469474",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Wegelin, Oscar.",
+                        "id": "8469475",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Wheelwright, Sallie.",
+                        "id": "8469476",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Whitcomb, W. H.",
+                        "id": "8469477",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Willis N. Bugbee Co. (Syracuse, New York).",
+                        "id": "8469478",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Wilson, Cora McDevitt.",
+                        "id": "8469479",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Winslow, Ann.",
+                        "id": "8469480",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Woeste, Irene.",
+                        "id": "8469481",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Worrell, Betsy.",
+                        "id": "8469482",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Worthington, Edna.",
+                        "id": "8469483",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Worthington, M. Chesley,",
+                        "id": "8469484",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Wright, Lyle H.",
+                        "id": "8469485",
+                        "version": "6734267"
+                    },
+                    {
+                        "dataType": "OriginationName",
+                        "name": "Zeitlin, Jake.",
+                        "id": "8469486",
+                        "version": "6734267"
+                    }
+                ],
+                "repository": {
+                    "dataType": "Constellation",
+                    "ark": "http:\/\/n2t.net\/ark:\/99166\/w6330j80",
+                    "entityType": {
+                        "id": "698",
+                        "term": "corporateBody",
+                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#CorporateBody",
+                        "type": "entity_type"
+                    },
+                    "nameEntries": [
+                        {
+                            "dataType": "NameEntry",
+                            "original": "Brown University, John Hay Library",
+                            "preferenceScore": "99",
+                            "id": "76762667",
+                            "version": "11225005"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "dataType": "Place",
+                            "original": "Brown University, John Hay Library",
+                            "type": {
+                                "id": "400242",
+                                "term": "Address",
+                                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Address",
+                                "type": "place_type"
+                            },
+                            "address": [
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "20 Prospect St",
+                                    "order": "0",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76762672",
+                                    "version": "11225005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "PO Box A",
+                                    "order": "1",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76762673",
+                                    "version": "11225005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "Providence",
+                                    "order": "2",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76762674",
+                                    "version": "11225005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US-RI",
+                                    "order": "3",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76762675",
+                                    "version": "11225005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "02912",
+                                    "order": "4",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76762676",
+                                    "version": "11225005"
+                                },
+                                {
+                                    "dataType": "AddressLine",
+                                    "text": "US",
+                                    "order": "5",
+                                    "type": {
+                                        "id": "400243",
+                                        "term": "Unspecified",
+                                        "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Unspecified",
+                                        "type": "address_part"
+                                    },
+                                    "id": "76762677",
+                                    "version": "11225005"
+                                }
+                            ],
+                            "geoplace": {
+                                "id": "15971",
+                                "name": "Brown University, John Hay Library",
+                                "latitude": "41.8265457",
+                                "longitude": "-71.4013672"
+                            },
+                            "confirmed": true,
+                            "id": "76762671",
+                            "version": "11225005"
+                        }
+                    ],
+                    "id": "76762666",
+                    "version": "11225008"
+                },
+                "id": "6734267",
+                "version": "6734267"
+            },
+            "role": {
+                "id": "692",
+                "term": "creatorOf",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#creatorOf",
+                "type": "document_role"
+            },
+            "content": "Brown University. Library (Providence, Rhode Island). Selected correspondence, 1913-1993, \"Seven\" to \"Zeitlin\".",
+            "id": "56743464",
+            "version": "8302502"
+        }
+    ],
+    "id": "56743456",
+    "version": "8302503",
+    "dates": [
+        {
+            "dataType": "SNACDate",
+            "fromDate": "1913",
+            "fromDateOriginal": "active 1913",
+            "fromType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "toDate": "1993",
+            "toDateOriginal": "active 1993",
+            "toType": {
+                "id": "688",
+                "term": "Active",
+                "uri": "http:\/\/socialarchive.iath.virginia.edu\/control\/term#Active",
+                "type": "date_type"
+            },
+            "isRange": true,
+            "id": "56743457",
+            "version": "8302502"
+        }
+    ]
+}
