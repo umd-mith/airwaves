@@ -68,6 +68,7 @@ module.exports = {
         ignore: [
           path.resolve(__dirname, "static/data/index.json"),
           path.resolve(__dirname, "static/data/ocr"),
+          path.resolve(__dirname, "static/data/snac"),
         ],
       },
     },
