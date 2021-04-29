@@ -1,23 +1,22 @@
-import React from 'react'
-import { Link, withPrefix } from 'gatsby'
-import Highlighter from 'react-highlight-words'
-import { excerpt } from '../utils'
+import React from "react"
+import { Link, withPrefix } from "gatsby"
+import Highlighter from "react-highlight-words"
+import { excerpt } from "../utils"
 
-import './search-result.css'
+import "./search-result.css"
 
 class Document extends React.Component {
-
   _isMounted = false
 
   constructor(props) {
     super(props)
     this.state = {
-      text: ''
+      text: "",
     }
   }
 
   componentDidMount() {
-    this._isMounted  = true
+    this._isMounted = true
     if (this.props.item.page) {
       const item = this.props.item
       const url = withPrefix(`/data/ocr/${item.id}/${item.page}.json`)
@@ -28,7 +27,7 @@ class Document extends React.Component {
         .then(data => {
           let text = data.text
           if (text && this._isMounted) {
-            this.setState({text: excerpt(text, this.props.query, 500)})
+            this.setState({ text: excerpt(text, this.props.query, 500) })
           }
         })
     }
@@ -56,55 +55,56 @@ class Document extends React.Component {
       <div className="search-result">
         <div className="type document-type">document</div>
         <Link className="title" to={`/document/${item.iaId}/#${pageNum}`}>
-          <Highlighter
-            textToHighlight={linkText}
-            searchWords={searchWords} />
+          <Highlighter textToHighlight={linkText} searchWords={searchWords} />
         </Link>
         <div className="description">
           <Highlighter
             textToHighlight={this.state.text}
-            searchWords={searchWords} />
+            searchWords={searchWords}
+          />
         </div>
       </div>
     )
   }
 }
 
-const Episode = ({item, query}) => {
-
+const Episode = ({ item, query }) => {
   const searchWords = query ? query.split() : []
 
-  let series = 'foo'
+  let series = "foo"
   if (item.series) {
-      series = (
-        <Link className="series-title" to={'/programs/' + item.series.id}>
+    series = (
+      <Link className="series-title" to={"/programs/" + item.series.id}>
         <Highlighter
           textToHighlight={item.series.title}
-          searchWords={searchWords} />
-        </Link>
-      )
+          searchWords={searchWords}
+        />
+      </Link>
+    )
   }
 
   return (
     <div className="search-result">
-      <Link className="title" to={'/episode/' + item.aapbId}>
       <div className="type media-type">program</div>
+      <Link className="title" to={"/episode/" + item.aapbId}>
         <Highlighter
-          textToHighlight={item.title || ''}
-          searchWords={searchWords} />
+          textToHighlight={item.title || ""}
+          searchWords={searchWords}
+        />
       </Link>
       <strong>Part of Series:</strong> {series}
       <div className="description">
         <Highlighter
-          textToHighlight={item.description || ''}
-          searchWords={searchWords} />
+          textToHighlight={item.description || ""}
+          searchWords={searchWords}
+        />
       </div>
     </div>
   )
 }
 
-const SearchResult = ({item, query}) => {
-  if (item.id[0] === 'd') {
+const SearchResult = ({ item, query }) => {
+  if (item.id[0] === "d") {
     return <Document key={item.id} item={item} query={query} />
   } else {
     return <Episode key={item.id} item={item} query={query} />
