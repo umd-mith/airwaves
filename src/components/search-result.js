@@ -87,13 +87,13 @@ const Episode = ({item, query}) => {
 
   return (
     <div className="search-result">
-      <div className="type media-type">media</div>
       <Link className="title" to={'/episode/' + item.aapbId}>
+      <div className="type media-type">program</div>
         <Highlighter
           textToHighlight={item.title || ''}
           searchWords={searchWords} />
       </Link>
-      {series}
+      <strong>Part of Series:</strong> {series}
       <div className="description">
         <Highlighter
           textToHighlight={item.description || ''}
