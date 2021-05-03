@@ -1,15 +1,15 @@
 const {fetch, makeIdExpander, writeJson} = require('./mapper')
 
 async function main() {
-  const people = await fetch('Authorities (People & Corporate Bodies)', peopleMap)
+  const people = await fetch('CPF Authorities', peopleMap)
   writeJson(people, 'people.json')
 
-  const subjects = await fetch('Authorities (Subjects)', subjectsMap)
+  const subjects = await fetch('Subjects', subjectsMap)
   // strip trailing periods from subjects if they are present
   subjects.map(s => s.name = s.name.replace(/\.$/, ''))
   writeJson(subjects, 'subjects.json')
 
-  const places = await fetch('Authorities (Geographic/Locations)', placesMap)
+  const places = await fetch('Geographic Authorities', placesMap)
   writeJson(places, 'places.json')
 
   const series = await fetch('Series', seriesMap)
@@ -42,10 +42,10 @@ const peopleMap = {
   slugId: "Name",
   strings: {
     "Name": "name",
-    "Type": "type"
+    "Entity Type": "type"
   },
   lists: {
-    "Title, Affiliation": "affiliation"
+    // "Title, Affiliation": "affiliation"
   }
 }
 
@@ -60,7 +60,7 @@ const placesMap = {
   slugId: "Name",
   strings: {
     "Name": "name",
-  }
+  },
 }
 
 const themesMap = {

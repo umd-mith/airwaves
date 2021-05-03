@@ -8,7 +8,8 @@ const path = require('path')
 const Airtable = require('airtable')
 const themes = require('../../static/data/themes.json')
 
-const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('app0oWW3dO3b9gHQo')
+// const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('app0oWW3dO3b9gHQo')
+const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('appjfPJhxo9IHh8ld')
 
 /**
  * Fetches the data in a given Airtable table as a list of JSON objects. The Airtable entities are 

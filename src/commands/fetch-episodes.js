@@ -1,7 +1,7 @@
 const {fetch, makeIdExpander, writeJson, addSubjectThemes} = require('./mapper')
 
 async function main() {
-  const episodes = await fetch('PBCore Metadata (Audio)', episodeMap)
+  const episodes = await fetch('Programs Metadata', episodeMap)
 
   // add theme based subjects
   addSubjectThemes(episodes)
@@ -29,27 +29,24 @@ async function main() {
 const episodeMap = {
 
   strings: {
-    "AAPB GUID":                          "aapbId",
-    "Instantiation Identifier 2 (NAEB)":  "naebId",
-    "Instantiation Identifier 1 (UMD)":   "umdId",
-    "Title 2 (Episode)":                  "title",
-    "Broadcast Date":                     "broadcastDate",
-    "instantiationMediaType":             "mediaType",
-    "formatPlaybackSpeed":                "formatPlaybackSpead",
-    "unitsOfMeasure":                     "unitsOfMeasaure",
-    "instantiationPhysical":              "physical",
-    "instantiationIdentifier":            "instantiationIdentifier",
-    "Duration":                           "duration",
-    "Duration Approximate?":              "durationApproximate",
-    "Description 1 (Series)":             "seriesDescription",
-    "Description 2 (Episode)":            "description",
-    "Priority Level":                     "priorityLevel",
-    "instantiationLocation":              "location",
-    "Time Period (Temporal) Coverage)":   "temporal",
-    "pbcoreinstantiationLanguage":        "language",
-    "Year":                               "year"
+    "Identifier source_AAPB": "aapbId",
+    "instantiationIdentifier source_National Association of Educational Broadcasters": "naebId",
+    "instantiationIdentifier source_University of Maryland": "umdId",
+    "Title titleType_Program": "title",
+    "AssetDate dateType_broadcast": "broadcastDate",
+    "instantiationMediaType": "mediaType",
+    "essenceTrackPlaybackSpeed unitsOfMeasure_ips": "formatPlaybackSpeed",
+    "instantiationDimensions unitsOfMeasure_inches": "physical",
+    "Duration": "duration",
+    "Description descriptionType_Series": "seriesDescription",
+    "Description descriptionType_Program": "description",
+    "instantiationLocation": "location",
+    "coverageType_Temporal": "temporal",
+    "pbcoreinstantiationLanguage": "language",
+    "AssetDate dateType_broadcast version_year": "year" 
   },
 
+  /*
   composed: {
     "pbcoreCreator":                     ["creator", "name"],
     "pbcoreCreatorRole":                 ["creator", "role"],
@@ -60,9 +57,10 @@ const episodeMap = {
     "pbcoreGenre":                       ["genre", "name"],
     "pbcoreGenreAuthorityUsed":          ["genre", "authority"],
   },
+  */
 
   things: {
-    "Title 1 (Series)": {
+    "Title titleType_Series": {
       property: "series",
       expander: makeIdExpander("series.json", s => {
         return {
@@ -71,7 +69,7 @@ const episodeMap = {
         }
       }, false)
     },
-    "Subject(s)": {
+    "Subject source_Library of Congress Subject Authority Headings": {
       property: "subject",
       expander: makeIdExpander("subjects.json", s => {
         return {
@@ -82,8 +80,7 @@ const episodeMap = {
     }
   },
 
-  decade: "Broadcast Date"
-
+  decade: "coverageType_Temporal"
 }
 
 if (require.main === module) {

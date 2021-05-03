@@ -6,8 +6,8 @@ const minimist = require('minimist')
 const {fetch, makeIdExpander, writeJson, addSubjectThemes} = require('./mapper')
 
 async function main(skipOcr=false) {
-  const folders = await fetch('Dublin Core Metadata (Paper-Folders)', docMap)
-  const items = await fetch('Dublin Core Metadata (Paper-Items)', docMap)
+  const folders = await fetch('Document Metadata-Folders', docMap)
+  const items = await fetch('Document Metadata-Items', docMap)
   const docs = folders.concat(items)
   addSubjectThemes(docs)
 
@@ -36,8 +36,8 @@ const docMap = {
     "Description": "description",
     "Rights": "rights",
     "Collection": "collection",
-    "Series": "series",
-    "Series Relation": "relatedSeries",
+    // "Series": "series",
+    // "Series Relation": "relatedSeries",
     "Coverage (Temporal)": "temporal",
     "Digitization/Preservation": "digitized"
   },
