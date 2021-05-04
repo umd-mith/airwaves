@@ -264,7 +264,11 @@ async function exhibits(createPage, graphql) {
             }
             title
             visuals {
-              image
+              image {
+                childImageSharp {
+                  gatsbyImageData(placeholder: BLURRED)
+                }
+              }
               title
             }
           }
