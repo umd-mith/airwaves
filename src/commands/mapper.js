@@ -55,14 +55,17 @@ function fetch(table, entityMap) {
  * @return {object} The mapped entity.
  */
 async function mapEntity(e, entityMap) {
-  const m = {
+  let m = {
     ...mapId(e, entityMap), 
     ...mapStrings(e, entityMap),
     ...mapLists(e, entityMap),
-    ...mapComposed(e, entityMap),
     ...mapThings(e, entityMap),
     ...mapDecade(e, entityMap)
   }
+
+  // look for roles that could modify some Things that were collected in m
+  m = mapRoles(e, m, entityMap)
+  
   return m
 }
 
@@ -84,7 +87,7 @@ function slugify(text) {
 /**
  * Writes some JSON to a file.
  * 
- * @param {*} o An object to serialize.
+ * @param {*} o An object tcreatorRole_Producero serialize.
  * @param {*} filename The path to save JSON to.
  */
 function writeJson(o, filename) {
@@ -133,56 +136,49 @@ function mapLists(e, entityMap) {
   return m
 }
 
- // handles columns that need to be composed into an object, e.g. pbCoreCreator1, pbCoreCreatorRole1 ...
+/**
+ * Look for role columns in e using the supplied mapping. This function needs
+ * the mapped object because it may need to modify already mapped values. The
+ * newly mapped object is returned, and the passed in object is not mutated.
+ * @param {*} e an Airtable row
+ * @param {*} m an object
+ * @param {*} entityMap a mapping specification
+ */
 
-function mapComposed(e, entityMap) {
-  const m = {}
+function mapRoles(e, m, entityMap) {
+  const newM = Object.assign(m, {})
 
-  if (entityMap.composed) {
-    for (let [k, v] of Object.entries(e)) {
+  if (entityMap.roles) {
+    for (const [prop, spec] of Object.entries(entityMap.roles)) {
 
-      // determine the normalized key and its position
-      let normKey = null
-      let pos = -1
-      let match = k.match(/^(.+)(\d+)$/)
-      if (match) {
-        normKey = entityMap.composed[match[1]]
-        pos = parseInt(match[2]) - 1
-      } else {
-        normKey = entityMap.composed[k]
-        pos = -1
+      if (! newM[prop]) {
+        newM[prop] = []
       }
 
-      // if there's no mapping then continue
-      if (!normKey) continue
+      const newIds = new Set()
 
-      // if there is just one object
-      if (pos === -1) {
-        let o = m[normKey[0]] || {}
-        o[normKey[1]] = v
-        m[normKey[0]] = o
-      } 
-      // if more than one object we need a list, and also keep track of the position
-      else {
-        let l = m[normKey[0]] || []
-        let o = l[pos] || {}
-        o[normKey[1]] = v
-        l[pos] = o
-        m[normKey[0]] = l
+      for (let [k, v] of Object.entries(e)) {
+        const match = k.match(new RegExp(`${prop}Role_(.+)`))
+        if (match) {
+          const role = match[1]
+          const values = spec.expander(v).map(v => ({...v, role: role}))
+          newM[prop] = newM[prop].concat(values)
+          values.forEach(v => newIds.add(v.id))
+        }
       }
+
+      // There can be duplicates across the role based and non-role based creator
+      // and contributor columns. For example Creator(s) can contain a person who
+      // is also in the creatorRole_producer column. This filter removes any value 
+      // that doesn't have a role for which we just added a value with the same id
+      // that has a role. Maybe this gnarly step can go away some time if the role 
+      // based columns supplant the non-role based ones. 
+      newM[prop] = newM[prop].filter(v => ! (! v.role && newIds.has(v.id)))
     }
+
   }
 
-  // clean up any objects that lack a name property. This can happen when Airtable columns
-  // are prepopulated with default values
-
-  for (let [k, v] of Object.entries(m)) {
-    if (v && v instanceof Array) {
-      m[k] = v.filter(e => e.hasOwnProperty('name'))
-    } 
-  }
-
-  return m
+  return newM
 }
 
 function mapThings(e, entityMap) {
@@ -268,7 +264,7 @@ function subjectToThemes(subject) {
   return Array.from(themes)
 }
 
-/**
+/***
  * Takes a list of subject objects and returns the same list with relevant themes added.
  * @param {*} subjects 
  */

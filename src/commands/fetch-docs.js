@@ -36,8 +36,7 @@ const docMap = {
     "Description": "description",
     "Rights": "rights",
     "Collection": "collection",
-    // "Series": "series",
-    // "Series Relation": "relatedSeries",
+    "Series": "series",
     "Coverage (Temporal)": "temporal",
     "Digitization/Preservation": "digitized"
   },
@@ -80,6 +79,15 @@ const docMap = {
         return {
           id: p.id,
           name: p.name
+        }
+      })
+    },
+    "Linked Airwaves Series": {
+      property: "relatedSeries",
+      expander: makeIdExpander('series.json', s => {
+        return {
+          id: s.id,
+          title: s.title
         }
       })
     }

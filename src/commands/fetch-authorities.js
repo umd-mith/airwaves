@@ -15,6 +15,9 @@ async function main() {
   const series = await fetch('Series', seriesMap)
   writeJson(series, 'series.json')
 
+  const genres = await fetch('Genre(s)', genresMap)
+  writeJson(genres, 'genres.json')
+
   const themes = flattenThemes(await fetch('Themes', themesMap))
   writeJson(themes, 'themes.json')
 }
@@ -43,9 +46,6 @@ const peopleMap = {
   strings: {
     "Name": "name",
     "Entity Type": "type"
-  },
-  lists: {
-    // "Title, Affiliation": "affiliation"
   }
 }
 
@@ -61,6 +61,13 @@ const placesMap = {
   strings: {
     "Name": "name",
   },
+}
+
+const genresMap = {
+  slugId: "Name",
+  strings: {
+    "Name": "name"
+  }
 }
 
 const themesMap = {

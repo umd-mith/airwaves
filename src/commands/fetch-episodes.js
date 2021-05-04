@@ -34,9 +34,6 @@ const episodeMap = {
     "instantiationIdentifier source_University of Maryland": "umdId",
     "Title titleType_Program": "title",
     "AssetDate dateType_broadcast": "broadcastDate",
-    "instantiationMediaType": "mediaType",
-    "essenceTrackPlaybackSpeed unitsOfMeasure_ips": "formatPlaybackSpeed",
-    "instantiationDimensions unitsOfMeasure_inches": "physical",
     "Duration": "duration",
     "Description descriptionType_Series": "seriesDescription",
     "Description descriptionType_Program": "description",
@@ -46,20 +43,27 @@ const episodeMap = {
     "AssetDate dateType_broadcast version_year": "year" 
   },
 
-  /*
-  composed: {
-    "pbcoreCreator":                     ["creator", "name"],
-    "pbcoreCreatorRole":                 ["creator", "role"],
-    "pbcoreContributor":                 ["contributor", "name"],
-    "pbcoreContributorRole":             ["contributor", "role"],
-    "instantiationDimensions":           ["dimensions", "value"],
-    "unitsOfMeasureDimensions":          ["dimensions", "units"],
-    "pbcoreGenre":                       ["genre", "name"],
-    "pbcoreGenreAuthorityUsed":          ["genre", "authority"],
-  },
-  */
-
   things: {
+    "Creator(s)": {
+      property: "creator",
+      expander: makeIdExpander("people.json", a => {
+        return {
+          id: a.id,
+          name: a.name,
+          type: a.type
+        }
+      })
+    },
+    "Contributor(s)": {
+      property: "contributor",
+      expander: makeIdExpander("people.json", a => {
+        return {
+          id: a.id,
+          name: a.name,
+          type: a.type
+        }
+      })
+    },
     "Title titleType_Series": {
       property: "series",
       expander: makeIdExpander("series.json", s => {
@@ -75,6 +79,38 @@ const episodeMap = {
         return {
           id: s.id,
           name: s.name
+        }
+      })
+    },
+    "Genre(s)": {
+      property: "genre",
+      expander: makeIdExpander("genres.json", g => {
+        return {
+          id: g.id,
+          name: g.name 
+        }
+      })
+    }
+  },
+
+  roles: { 
+    "creator": {
+      property: "creator",
+      expander: makeIdExpander("people.json", a => {
+        return {
+          id: a.id,
+          name: a.name,
+          type: a.type
+        }
+      })
+    }, 
+    "contributor": {
+      property: "contributor",
+      expander: makeIdExpander("people.json", a => {
+        return {
+          id: a.id,
+          name: a.name,
+          type: a.type
         }
       })
     }
