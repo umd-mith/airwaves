@@ -1,9 +1,13 @@
-const fs = require('fs')
-const RSS = require('rss')
-const path = require('path')
-const xmlescape = require('xml-escape')
+const fs = require("fs")
+const RSS = require("rss")
+const path = require("path")
+const xmlescape = require("xml-escape")
 
-exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) => {
+exports.createPages = async ({
+  actions: { createPage },
+  graphql,
+  pathPrefix,
+}) => {
   await episodes(createPage, graphql, pathPrefix)
   await documents(createPage, graphql, pathPrefix)
   await series(createPage, graphql, pathPrefix)
@@ -14,7 +18,6 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
 // Create episode pages.
 
 async function episodes(createPage, graphql) {
-
   let results = await graphql(`
     {
       allEpisodesJson {
@@ -39,8 +42,8 @@ async function episodes(createPage, graphql) {
         path: `/episode/${episode.aapbId}/`,
         component: require.resolve(`./src/templates/episode.js`),
         context: {
-          aapbId: episode.aapbId
-        }
+          aapbId: episode.aapbId,
+        },
       })
     }
   })
@@ -49,7 +52,6 @@ async function episodes(createPage, graphql) {
 // Create documents pages.
 
 async function documents(createPage, graphql) {
-
   results = await graphql(`
     {
       allDocumentsJson {
@@ -68,17 +70,15 @@ async function documents(createPage, graphql) {
       path: `/document/${doc.iaId}/`,
       component: require.resolve(`./src/templates/document.js`),
       context: {
-        iaId: doc.iaId
-      }
+        iaId: doc.iaId,
+      },
     })
   })
-
 }
 
 // Create series pages.
 
 async function series(createPage, graphql) {
-
   results = await graphql(`
     {
       allSeriesJson {
@@ -113,56 +113,54 @@ async function series(createPage, graphql) {
       component: require.resolve(`./src/templates/series.js`),
       context: {
         id: series.id,
-        documents: documents
-      }
+        documents: documents,
+      },
     })
   })
-
 }
 
-async function rss(graphql, force=false) {
-
+async function rss(graphql, force = false) {
   // only create rss if the directory isn't there
-  if (! fs.existsSync('./static/rss')) {
-    fs.mkdirSync('./static/rss')
+  if (!fs.existsSync("./static/rss")) {
+    fs.mkdirSync("./static/rss")
   }
 
   const results = await graphql(`
-  {
-    allSite {
-      nodes {
-        siteMetadata {
-          siteUrl
-          description
+    {
+      allSite {
+        nodes {
+          siteMetadata {
+            siteUrl
+            description
+          }
         }
       }
-    }
-    allSeriesJson(
-      sort: {
-        fields: [episodes___broadcastDate, episodes___title]
-        order: DESC
-      }
-    ) {
-      nodes {
-        id
-        title
-        description
-        episodes {
-          aapbId
+      allSeriesJson(
+        sort: {
+          fields: [episodes___broadcastDate, episodes___title]
+          order: DESC
+        }
+      ) {
+        nodes {
+          id
           title
           description
-          broadcastDate
-          duration
-          creator {
-            name
-          }
-          subject {
-            name
+          episodes {
+            aapbId
+            title
+            description
+            broadcastDate
+            duration
+            creator {
+              name
+            }
+            subject {
+              name
+            }
           }
         }
       }
     }
-  }
   `)
 
   const siteUrl = results.data.allSite.nodes[0].siteMetadata.siteUrl
@@ -179,10 +177,10 @@ async function rss(graphql, force=false) {
     // only write the RSS file if it's not there already
     // or we have been asked to force a rewrite.
 
-    if (! fs.existsSync(feedPath) || force) {
-      let seriesDescription = series.description ? series.description : ''
+    if (!fs.existsSync(feedPath) || force) {
+      let seriesDescription = series.description ? series.description : ""
       if (seriesDescription) {
-        seriesDescription += '<br /><br />' + description
+        seriesDescription += "<br /><br />" + description
       } else {
         seriesDescription = description
       }
@@ -193,7 +191,7 @@ async function rss(graphql, force=false) {
         feed_url: feedUrl,
         site_url: seriesUrl,
         image_url: imageUrl,
-        managingEditor: "National Association of Educational Broadcasters"
+        managingEditor: "National Association of Educational Broadcasters",
       })
 
       series.episodes.forEach(episode => {
@@ -206,28 +204,27 @@ async function rss(graphql, force=false) {
           date: episode.broadcastDate,
           enclosure: {
             url: mp3Url,
-            type: 'audio/mp3'
+            type: "audio/mp3",
           },
           custom_elements: [
-            {'dc:creator': safeMap(episode.creator, c => c.name)},
-            {'dc:subject': safeMap(episode.subject, s => s.name)},
-          ]
+            { "dc:creator": safeMap(episode.creator, c => c.name) },
+            { "dc:subject": safeMap(episode.subject, s => s.name) },
+          ],
         })
       })
 
       // write out the podcast url
-      fs.writeFileSync(feedPath, feed.xml()) 
+      fs.writeFileSync(feedPath, feed.xml())
     }
 
     const escapedTitle = xmlescape(series.title)
 
     // add to opml file
     opml += `    <outline type="rss" text="${escapedTitle}" title="${escapedTitle}" xmlUrl="${feedUrl}" htmlUrl="${seriesUrl}"/>\n`
-  
   })
 
-  opml += '  </body>\n</opml>\n'
-  fs.writeFileSync('./static/rss/programs.opml', opml)
+  opml += "  </body>\n</opml>\n"
+  fs.writeFileSync("./static/rss/programs.opml", opml)
 }
 
 exports.sourceNodes = ({ actions, schema }) => {
@@ -235,26 +232,25 @@ exports.sourceNodes = ({ actions, schema }) => {
   const typeDefs = [
     "type SeriesJson implements Node { episodes: [ EpisodesJson ]}",
     schema.buildObjectType({
-      name: 'SeriesJson',
+      name: "SeriesJson",
       fields: {
         episodes: {
           type: "[EpisodesJson]",
           resolve: (source, args, context, info) => {
             return context.nodeModel
-              .getAllNodes({ type: "EpisodesJson"})
+              .getAllNodes({ type: "EpisodesJson" })
               .filter(episode => {
                 return episode.series ? episode.series.id == source.id : false
               })
-          }
-        }
-      }
-    })
+          },
+        },
+      },
+    }),
   ]
   createTypes(typeDefs)
 }
 
 async function exhibits(createPage, graphql) {
-
   results = await graphql(`
     query {
       allMarkdownRemark {
@@ -280,39 +276,36 @@ async function exhibits(createPage, graphql) {
   `)
 
   results.data.allMarkdownRemark.nodes.forEach(node => {
-    const exhibit = {...node.frontmatter, description: node.html}
-    exhibit.slug = path.basename(node.fileAbsolutePath).replace(/\.md$/, '')
+    const exhibit = { ...node.frontmatter, description: node.html }
+    exhibit.slug = path.basename(node.fileAbsolutePath).replace(/\.md$/, "")
     createPage({
       path: `/exhibits/${exhibit.slug}/`,
       component: require.resolve(`./src/templates/exhibit.js`),
       context: {
-        ...exhibit
-      }
+        ...exhibit,
+      },
     })
   })
-
 }
 
 function safeMap(l, f) {
   return l === null ? [] : l.map(f)
 }
 
-exports.onCreateWebpackConfig = ({actions, stage, plugins}) => {
+exports.onCreateWebpackConfig = ({ actions, stage, plugins }) => {
   actions.setWebpackConfig({
     resolve: {
       alias: {
-        path: require.resolve("path-browserify")
+        path: require.resolve("path-browserify"),
       },
       fallback: {
         fs: false,
-      }
-    }
+      },
+    },
   })
-  if (stage == 'build-javascript' || stage == 'develop') {
+  if (stage == "build-javascript" || stage == "develop") {
     actions.setWebpackConfig({
-      plugins: [
-        plugins.provide({process: 'process/browser'})
-      ]
+      plugins: [plugins.provide({ process: "process/browser" })],
     })
   }
 }
