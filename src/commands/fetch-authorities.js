@@ -29,7 +29,7 @@ const seriesMap = {
     "Description": "description",
   },
   things: {
-    "Folders Referencing Series": {
+    "Linked Documents-Folders": {
       property: "relatedFolders",
       expander: makeIdExpander('documents.json', d => {
         return {
