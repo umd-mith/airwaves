@@ -41,6 +41,9 @@ module.exports = {
   },
   pathPrefix: `/airwaves`,
   plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-json`,
     `gatsby-plugin-netlify-cms`,
@@ -77,6 +80,13 @@ module.exports = {
       options: {
         name: `exhibits`,
         path: `${__dirname}/src/pages/exhibits`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `exhibit-images`,
+        path: `${__dirname}/static/images`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
