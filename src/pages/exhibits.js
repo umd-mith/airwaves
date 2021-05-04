@@ -16,6 +16,7 @@ const ExhibitsPage = ({ data }) => {
             {exhibits.map(e => (
               <ExhibitSummaryCard
                 title={e.frontmatter.title}
+                creator={e.frontmatter.creator || ""}
                 keyImage={e.frontmatter.visuals[0]}
                 absPath={e.fileAbsolutePath}
                 lede={e.frontmatter.lede}
