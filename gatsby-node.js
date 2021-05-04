@@ -268,6 +268,7 @@ async function exhibits(createPage, graphql) {
                 childImageSharp {
                   gatsbyImageData(placeholder: BLURRED)
                 }
+                publicURL
               }
               title
             }
