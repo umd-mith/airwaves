@@ -29,14 +29,19 @@ const ExhibitsPage = ({ data }) => {
 }
 
 export const query = graphql`
-  query {
-    allMarkdownRemark(sort: { order: ASC, fields: frontmatter___title }) {
+  {
+    allMarkdownRemark(sort: { fields: frontmatter___title, order: ASC }) {
       nodes {
         frontmatter {
           title
           lede
+          creator
           visuals {
-            image
+            image {
+              childImageSharp {
+                gatsbyImageData(placeholder: BLURRED)
+              }
+            }
             title
           }
         }

@@ -10,8 +10,13 @@ const FeaturedExhibitsProvider = () => {
           frontmatter {
             title
             lede
+            creator
             visuals {
-              image
+              image {
+                childImageSharp {
+                  gatsbyImageData(placeholder: BLURRED)
+                }
+              }
               title
             }
           }
