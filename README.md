@@ -1,7 +1,7 @@
 # Airwaves
 
 This repository contains a web application that was developed as part of the
-[Unlocking the Airwaves] project with upport from the National Endowment for
+[Unlocking the Airwaves] project with support from the National Endowment for
 the Humanities. You can find the production deployment of this website at:
 
 https://mith.umd.edu/airwaves/
@@ -156,7 +156,7 @@ If you want to only download the latest episode metadata you can:
 
 If you'd like to fetch the latest document metadata without checking for OCR data at the Internet Archive (which takes time) you can run:
 
-    npm run fetch-docs -- skip-ocr
+    npm run fetch-docs -- --skip-ocr
 
 ## 7. Deploy to Staging
 
