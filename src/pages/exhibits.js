@@ -40,7 +40,7 @@ export const query = graphql`
           visuals {
             image {
               childImageSharp {
-                gatsbyImageData(placeholder: BLURRED)
+                gatsbyImageData(placeholder: BLURRED, width: 250)
               }
             }
             title
