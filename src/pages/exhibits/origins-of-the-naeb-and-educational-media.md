@@ -95,7 +95,7 @@ In contrast to early commercial media industries, which were originally founded 
 
 The National Association for Educational Broadcasters (NAEB) was founded in 1925 as the Association of College and University Broadcasting Stations (ACUBS). The ACUBS’s primary purpose was to facilitate communication between public universities regarding the development of distance learning programs. As a clearing house for noncommercial institutions, the [ACUBS Constitution](https://mith.umd.edu/airwaves/document/naeb-b101-f02-45/) was consequently written in the tenor of speculative language around cultural goals, more than as a statement of best practices:
 
-![]("../../static/images/naeb-b101-f02-45-crop.png" "The constitution of the NAEB, then
+![](/images/naeb-b101-f02-45-crop.png "The constitution of the NAEB, then
 called the Association of College and University Broadcasting Stations.")
 
 The principal anchors of early education radio from the 1920s-1940s were the University of Wisconsin, Ohio State University, Iowa State University, University of Iowa, University of Illinois, and to a lesser extent the Universities of Minnesota and South Dakota. Their main concern was accumulation and maintenance of memberships so that the ACUBS ledger could [appropriately detail the state of the field](https://mith.umd.edu/airwaves/document/naeb-b101-f02-46/#7).\
@@ -112,7 +112,7 @@ In spite of support from the military, Office of Education, and philanthropic gr
 \
 Before legislators settled on a national policy, the ACUBS was offered reserved experimental frequencies in the 1500 and above band but turned the offer down. Unfortunately, members did not have a backup plan, and educational broadcasters were blindsided by rules of the Communications Act of 1934 that stipulated sweeping “public interest” standards for transmitters, broadcast schedules, and listenership, which [few universities could meet](https://mith.umd.edu/airwaves/document/naeb-b110-f04-27/#2).
 
-![]("../../static/images/naeb-b110-f04-27-2-crop.png" "Excerpt from a May 1935 National
+![](/images/naeb-b110-f04-27-2-crop.png "Excerpt from a May 1935 National
 Association of Educational Broadcasters newsletter.")
 
 Records give different accounts, but there were approximately 200 educational stations by 1934. By 1935 the educational radio landscape had been decimated; only 38 stations remained. The ACUBS was further down to only 20 membership stations by the time the policy was passed. It was at this time that the ACUBS changed their name to the NAEB.\
@@ -127,6 +127,6 @@ While the Communications Act represented a huge blow to early experiments, educa
 
 By World War II noncommercial media defined itself as non-profit, while focused on following Communications Act regulations while maintaining an educational vision. The NAEB settled on programming genres derived from distance and adult learning coursework, and instituted a decentralized distribution structure. After WWII the NAEB moved to the University of Illinois, and members [built a program transcription library](https://mith.umd.edu/airwaves/document/naeb-b081-f06/#105) for distribution of quality noncommercial programs. In the early 1950s the auspice of a fourth network became centralized through NAEB activities, which synthesized the work of multiple universities, media research, and public policy advocacy into one institutional voice.
 
-![]("../../static/images/naeb-b081-f06_0109-crop.png")
+![](/images/naeb-b081-f06_0109-crop.png)
 
 **[Josh Shepperd](https://www.colorado.edu/cmci/people/media-studies/josh-shepperd)** is an Assistant Professor at the University of Colorado Boulder and the Sound Fellow of the Library of Congress National Recording Preservation Board (NRPB). Josh is currently completing two manuscripts that interrogate the history of public media. _Shadow of the New Deal: The Victory of Public Broadcasting_ is under contract with the University of Illinois Press. He is also slated to co-author the official update of the _History of Public Broadcasting_ with Allison Perlman (UC-Irvine) for Current and the Corporation for Public Broadcasting (CPB). Josh sits on the Advisory Team of _Unlocking the Airwaves_.
