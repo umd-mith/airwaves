@@ -5,6 +5,7 @@ require('dotenv').config()
 
 const fs = require('fs')
 const path = require('path')
+const chalk = require('chalk')
 const Airtable = require('airtable')
 const themes = require('../../static/data/themes.json')
 
@@ -93,7 +94,7 @@ function slugify(text) {
 function writeJson(o, filename) {
   const fullPath = path.resolve(__dirname, '../../static/data/', filename)
   fs.writeFileSync(fullPath, JSON.stringify(o, null, 2) + '\n')
-  console.log(`wrote ${fullPath}`)
+  console.log(chalk.green(`wrote ${fullPath}`))
 }
 
 // THe functions below are for doing different types of mapping. They all take an Airtable

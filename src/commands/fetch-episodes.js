@@ -1,3 +1,4 @@
+const chalk = require('chalk')
 const {fetch, makeIdExpander, writeJson, addSubjectThemes} = require('./mapper')
 
 async function main() {
@@ -6,18 +7,25 @@ async function main() {
   // add theme based subjects
   addSubjectThemes(episodes)
 
-  // add a smaller id for indexing
+  // add a smaller id for indexing 
+  // and filter out any episodes that lack a title or series
+
   let count = 0
+  let newEpisodes = []
   for (const e of episodes) {
     count += 1
     e.id = `e${count}`
 
     if (e.title == null || e.title == "") {
-      console.error(`Missing title for episode ${e.aapbId}`)
+      console.error(chalk.red(`Missing title for episode ${e.aapbId}`))
+    } else if (e.series == null) {
+      console.error(chalk.red(`Missing series for episode ${e.aapbId}`))
+    } else {
+      newEpisodes.push(e)
     }
   }
 
-  writeJson(episodes, 'episodes.json')
+  writeJson(newEpisodes, 'episodes.json')
 }
 
 /**
