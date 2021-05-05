@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Link, withPrefix } from "gatsby"
+import { Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import remark from "remark"
 import remarkHtml from "remark-html"
