@@ -10,8 +10,13 @@ const FeaturedExhibitsProvider = () => {
           frontmatter {
             title
             lede
+            creator
             visuals {
-              image
+              image {
+                childImageSharp {
+                  gatsbyImageData(placeholder: BLURRED, width: 250)
+                }
+              }
               title
             }
           }
@@ -45,6 +50,7 @@ const FeaturedExhibitsProvider = () => {
     return {
       absPath: exhibitObj.fileAbsolutePath,
       title: exhibitObj.frontmatter.title,
+      creator: exhibitObj.frontmatter.creator,
       lede: exhibitObj.frontmatter.lede,
       keyImage: keyImage,
     }
@@ -60,6 +66,7 @@ const FeaturedExhibitsProvider = () => {
       {featuredAsProps.map(cardProps => (
         <ExhibitSummaryCard
           title={cardProps.title}
+          creator={cardProps.creator}
           keyImage={cardProps.keyImage}
           lede={cardProps.lede}
           absPath={cardProps.absPath}

@@ -16,6 +16,7 @@ const ExhibitsPage = ({ data }) => {
             {exhibits.map(e => (
               <ExhibitSummaryCard
                 title={e.frontmatter.title}
+                creator={e.frontmatter.creator || ""}
                 keyImage={e.frontmatter.visuals[0]}
                 absPath={e.fileAbsolutePath}
                 lede={e.frontmatter.lede}
@@ -29,14 +30,19 @@ const ExhibitsPage = ({ data }) => {
 }
 
 export const query = graphql`
-  query {
-    allMarkdownRemark(sort: { order: ASC, fields: frontmatter___title }) {
+  {
+    allMarkdownRemark(sort: { fields: frontmatter___title, order: ASC }) {
       nodes {
         frontmatter {
           title
           lede
+          creator
           visuals {
-            image
+            image {
+              childImageSharp {
+                gatsbyImageData(placeholder: BLURRED, width: 250)
+              }
+            }
             title
           }
         }
