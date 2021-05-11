@@ -90,16 +90,18 @@ const themesMap = {
 }
 
 function flattenThemes(themes) {
-  return themes.map(theme => {
+  const flatThemes = []
+  themes.forEach(theme => {
     if (theme.subjects) {
-      return {
+      flatThemes.push({
         name: theme.name,
         subjects: flattenSubjects(theme.subjects)
-      }
+      })
     } else {
       console.log(chalk.red(`missing subjects for theme: ${theme.name}`))
     }
   })
+  return flatThemes
 }
 
 function flattenSubjects(subjects) {
