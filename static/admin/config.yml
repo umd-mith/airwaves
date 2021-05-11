@@ -91,3 +91,12 @@ collections:
             value_field: title
             multiple: true
             hint: "Starting typing or choose from dropdown to select exhibits"
+  - name: static-pages
+    label: "Site Pages"
+    files:
+      - label: "About"
+        name: static-about
+        file: "static/data/cms-pages/about.md"
+        fields:
+          - { label: "Text Content", name: "body", widget: "markdown" }
+          - { label: "Participant List", name: "team", widget: "markdown" }
