@@ -7,6 +7,7 @@ import ExhibitSummaryCard from "../components/exhibit-summary"
 
 const ExhibitsPage = ({ data }) => {
   const exhibits = data.allMarkdownRemark.nodes
+
   return (
     <Layout>
       <div>
@@ -17,7 +18,7 @@ const ExhibitsPage = ({ data }) => {
               <ExhibitSummaryCard
                 title={e.frontmatter.title}
                 creator={e.frontmatter.creator || ""}
-                keyImage={e.frontmatter.visuals[0]}
+                keyImage={e.frontmatter.visuals[0] || {}}
                 absPath={e.fileAbsolutePath}
                 lede={e.frontmatter.lede}
               />
