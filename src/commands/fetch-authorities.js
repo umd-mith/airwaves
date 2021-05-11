@@ -1,3 +1,4 @@
+const chalk = require('chalk')
 const {fetch, makeIdExpander, writeJson} = require('./mapper')
 
 async function main() {
@@ -89,10 +90,16 @@ const themesMap = {
 }
 
 function flattenThemes(themes) {
-  return themes.map(theme => ({
-    name: theme.name,
-    subjects: flattenSubjects(theme.subjects)
-  }))
+  return themes.map(theme => {
+    if (theme.subjects) {
+      return {
+        name: theme.name,
+        subjects: flattenSubjects(theme.subjects)
+      }
+    } else {
+      console.log(chalk.red(`missing subjects for theme: ${theme.name}`))
+    }
+  })
 }
 
 function flattenSubjects(subjects) {
