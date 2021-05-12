@@ -253,7 +253,7 @@ exports.sourceNodes = ({ actions, schema }) => {
 async function exhibits(createPage, graphql) {
   results = await graphql(`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/exhibits/" } }) {
         nodes {
           frontmatter {
             creator
