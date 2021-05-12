@@ -9,7 +9,7 @@ import "./search.css"
 
 const SearchPage = ({ location, data }) => {
   const qs = queryString.parse(location.search)
-  const themes = data.allThemesJson.nodes
+  const themeGroups = data.allThemesJson.group
 
   const [query] = useState(qs.q)
   const [facets, setFacets] = useState(qs.f)
@@ -19,8 +19,28 @@ const SearchPage = ({ location, data }) => {
       <Loader>
         <Search query={query} facets={facets} />
         <div className="themes">
-          <ul>
-            {themes.map(t => (
+          {themeGroups.map(tg => {
+            return (
+              <div className="theme-group">
+                <h3>{tg.fieldValue}</h3>
+                {tg.edges.map(t => (
+                  <div
+                    className="theme"
+                    role="button"
+                    tabIndex={0}
+                    onClick={e => {
+                      setFacets(`subject:${t.node.name}`)
+                      navigate(`/search/?f=subject:${t.node.name}`)
+                    }}
+                  >
+                    {t.node.name}
+                  </div>
+                ))}
+              </div>
+            )
+          })}
+          {/* <ul>
+            {themeGroups.map(t => (
               <div
                 className="theme"
                 role="button"
@@ -33,7 +53,7 @@ const SearchPage = ({ location, data }) => {
                 {t.name}
               </div>
             ))}
-          </ul>
+          </ul> */}
         </div>
       </Loader>
     </Layout>
@@ -41,10 +61,15 @@ const SearchPage = ({ location, data }) => {
 }
 
 export const query = graphql`
-  query MyQuery {
+  {
     allThemesJson(sort: { fields: name }) {
-      nodes {
-        name
+      group(field: group) {
+        fieldValue
+        edges {
+          node {
+            name
+          }
+        }
       }
     }
   }

@@ -1,4 +1,65 @@
+@import "../components/variables.css";
+
+.search {
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
 .themes {
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: grid;
+}
+
+.theme-group div:last-child {
+  margin-bottom: 2rem;
+}
+
+.theme-group h3 {
+  margin-bottom: 0.65rem;
+}
+
+.theme {
+  padding: 0.5rem 0.65rem;
+  text-decoration: underline;
+}
+
+.theme:hover {
+  background-color: var(--color-brand-primary);
+  cursor: pointer;
+}
+
+/* Media queries for grid layouts */
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 45em) {
+  .search,
+  .themes {
+    max-width: 36rem;
+  }
+
+  .themes {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+
+/* large screens — 976px and up */
+@media screen and (min-width: 61em) {
+  .search,
+  .themes {
+    max-width: 49rem;
+  }
+}
+
+/* x-large screens — 1072px and up */
+@media screen and (min-width: 67em) {
+  .search,
+  .themes {
+    max-width: 54rem;
+  }
+}
+
+/* .themes {
   grid-column-gap: 2rem;
   grid-row-gap: 1.5rem;
   justify-items: center;
@@ -15,4 +76,4 @@
 .theme:hover {
   background-color: #e0c959d3;
   cursor: pointer;
-}
+} */

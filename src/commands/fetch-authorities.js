@@ -1,92 +1,93 @@
-const chalk = require('chalk')
-const {fetch, makeIdExpander, writeJson} = require('./mapper')
+const chalk = require("chalk")
+const { fetch, makeIdExpander, writeJson } = require("./mapper")
 
 async function main() {
-  const people = await fetch('CPF Authorities', peopleMap)
-  writeJson(people, 'people.json')
+  const people = await fetch("CPF Authorities", peopleMap)
+  writeJson(people, "people.json")
 
-  const subjects = await fetch('Subjects', subjectsMap)
+  const subjects = await fetch("Subjects", subjectsMap)
   // strip trailing periods from subjects if they are present
-  subjects.map(s => s.name = s.name.replace(/\.$/, ''))
-  writeJson(subjects, 'subjects.json')
+  subjects.map(s => (s.name = s.name.replace(/\.$/, "")))
+  writeJson(subjects, "subjects.json")
 
-  const places = await fetch('Geographic Authorities', placesMap)
-  writeJson(places, 'places.json')
+  const places = await fetch("Geographic Authorities", placesMap)
+  writeJson(places, "places.json")
 
-  const series = await fetch('Series', seriesMap)
-  writeJson(series, 'series.json')
+  const series = await fetch("Series", seriesMap)
+  writeJson(series, "series.json")
 
-  const genres = await fetch('Genre(s)', genresMap)
-  writeJson(genres, 'genres.json')
+  const genres = await fetch("Genre(s)", genresMap)
+  writeJson(genres, "genres.json")
 
-  const themes = flattenThemes(await fetch('Themes', themesMap))
-  writeJson(themes, 'themes.json')
+  const themes = flattenThemes(await fetch("Themes", themesMap))
+  writeJson(themes, "themes.json")
 }
 
 const seriesMap = {
   slugId: "Series Title",
   strings: {
     "Series Title": "title",
-    "Description": "description",
+    Description: "description",
   },
   things: {
     "Linked Documents-Folders": {
       property: "relatedFolders",
-      expander: makeIdExpander('documents.json', d => {
+      expander: makeIdExpander("documents.json", d => {
         return {
           iaId: d.iaId,
-          title: d.title
+          title: d.title,
         }
-      })
-    }
-  }
+      }),
+    },
+  },
 }
 
 const peopleMap = {
   slugId: "Name",
   strings: {
-    "Name": "name",
-    "Entity Type": "type"
-  }
+    Name: "name",
+    "Entity Type": "type",
+  },
 }
 
 const subjectsMap = {
   slugId: "Name",
   strings: {
-    "Name": "name",
-  }
+    Name: "name",
+  },
 }
 
 const placesMap = {
   slugId: "Name",
   strings: {
-    "Name": "name",
+    Name: "name",
   },
 }
 
 const genresMap = {
   slugId: "Name",
   strings: {
-    "Name": "name"
-  }
+    Name: "name",
+  },
 }
 
 const themesMap = {
   slugId: "",
   strings: {
-    "Name": "name",
+    Name: "name",
+    "Parent Grouping": "group",
   },
   things: {
     "Related Subject(s)": {
       property: "subjects",
-      expander: makeIdExpander('subjects.json', s => {
+      expander: makeIdExpander("subjects.json", s => {
         return {
           id: s.id,
-          name: s.name
+          name: s.name,
         }
-      })
-    }
-  }
+      }),
+    },
+  },
 }
 
 function flattenThemes(themes) {
@@ -95,7 +96,8 @@ function flattenThemes(themes) {
     if (theme.subjects) {
       flatThemes.push({
         name: theme.name,
-        subjects: flattenSubjects(theme.subjects)
+        group: theme.group,
+        subjects: flattenSubjects(theme.subjects),
       })
     } else {
       console.log(chalk.red(`missing subjects for theme: ${theme.name}`))
@@ -118,7 +120,7 @@ function flattenSubjects(subjects) {
         break
       }
     }
-    if (! foundBroader && ! seen.has(subject.name)) {
+    if (!foundBroader && !seen.has(subject.name)) {
       newSubjects.push(subject)
       seen.set(subject.name, true)
     }
