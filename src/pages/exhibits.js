@@ -7,6 +7,7 @@ import ExhibitSummaryCard from "../components/exhibit-summary"
 
 const ExhibitsPage = ({ data }) => {
   const exhibits = data.allMarkdownRemark.nodes
+
   return (
     <Layout>
       <div>
@@ -31,19 +32,22 @@ const ExhibitsPage = ({ data }) => {
 
 export const query = graphql`
   {
-    allMarkdownRemark(sort: { fields: frontmatter___title, order: ASC }) {
+    allMarkdownRemark(
+      sort: { fields: frontmatter___title, order: ASC }
+      filter: { fileAbsolutePath: { regex: "/exhibits/" } }
+    ) {
       nodes {
         frontmatter {
-          title
-          lede
           creator
+          lede
+          title
           visuals {
+            title
             image {
               childImageSharp {
-                gatsbyImageData(placeholder: BLURRED, width: 250)
+                gatsbyImageData(placeholder: BLURRED)
               }
             }
-            title
           }
         }
         fileAbsolutePath
