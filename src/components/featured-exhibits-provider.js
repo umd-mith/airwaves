@@ -23,7 +23,7 @@ const FeaturedExhibitsProvider = () => {
           fileAbsolutePath
         }
       }
-      exhibitsJson {
+      dataJson {
         exhibits_by_title
       }
     }
@@ -31,7 +31,7 @@ const FeaturedExhibitsProvider = () => {
 
   const filterExhibits = data => {
     const allExhibits = data.allMarkdownRemark.nodes
-    const featuredTitles = data.exhibitsJson.exhibits_by_title
+    const featuredTitles = data.dataJson.exhibits_by_title
 
     return allExhibits.filter(item =>
       featuredTitles.includes(item.frontmatter.title)
