@@ -253,24 +253,27 @@ exports.sourceNodes = ({ actions, schema }) => {
 async function exhibits(createPage, graphql) {
   results = await graphql(`
     query {
-      allMarkdownRemark(
-        sort: { fields: frontmatter___title, order: ASC }
-        filter: { fileAbsolutePath: { regex: "/exhibits/" } }
-      ) {
+      allMarkdownRemark {
         nodes {
           frontmatter {
             creator
-            lede
+            related {
+              title
+              description
+              url
+            }
             title
             visuals {
-              title
               image {
                 childImageSharp {
                   gatsbyImageData(placeholder: BLURRED)
                 }
+                publicURL
               }
+              title
             }
           }
+          html
           fileAbsolutePath
         }
       }
