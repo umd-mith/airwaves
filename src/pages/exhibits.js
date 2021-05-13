@@ -1,30 +1,42 @@
+import path from "path"
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import ExhibitSummaryCard from "../components/exhibit-summary"
-// import "./exhibits.css"
+import "./exhibits.css"
 
 const ExhibitsPage = ({ data }) => {
   const exhibits = data.allMarkdownRemark.nodes
 
   return (
-    <Layout>
-      <div>
-        <section className="leader">
-          <h1>Exhibits</h1>
-          <article className="exhibits">
-            {exhibits.map(e => (
-              <ExhibitSummaryCard
-                title={e.frontmatter.title}
-                creator={e.frontmatter.creator || ""}
-                keyImage={e.frontmatter.visuals[0]}
-                absPath={e.fileAbsolutePath}
-                lede={e.frontmatter.lede}
-              />
-            ))}
-          </article>
-        </section>
+    <Layout title="Exhibits">
+      <div className="page-exhibits">
+        <h1>Exhibits</h1>
+        <ul className="exhibits-toc">
+          {exhibits.map(e => (
+            <li>
+              <Link
+                to={`#${path
+                  .basename(e.fileAbsolutePath)
+                  .replace(/\.md$/, "")}`}
+              >
+                {e.frontmatter.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <div className="exhibits">
+          {exhibits.map(e => (
+            <ExhibitSummaryCard
+              title={e.frontmatter.title}
+              creator={e.frontmatter.creator || ""}
+              keyImage={e.frontmatter.visuals[0]}
+              absPath={e.fileAbsolutePath}
+              lede={e.frontmatter.lede}
+            />
+          ))}
+        </div>
       </div>
     </Layout>
   )
