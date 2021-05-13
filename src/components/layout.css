@@ -7,6 +7,10 @@ html {
   overflow-y: scroll;
 }
 
+body {
+  background-color: var(--color-gray-100);
+}
+
 .hidden {
   display: none !important;
 }
@@ -17,11 +21,6 @@ main {
 
 main section {
   padding-top: var(--spacing-large-content);
-}
-
-/* TOFIX: Move this to a real component */
-.exhibit-summary-card {
-  padding: var(--spacing-base-content) 0;
 }
 
 .internal-jump-links {
