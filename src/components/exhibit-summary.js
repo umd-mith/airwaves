@@ -18,7 +18,7 @@ const ExhibitSummaryCard = ({ title, creator, keyImage, lede, absPath }) => {
   const gimage = getImage(keyImage.image)
 
   return (
-    <div className="exhibit-summary-card">
+    <div id={slug} className="exhibit-summary-card">
       <h2>
         <Link to={url}>{title}</Link>
       </h2>
