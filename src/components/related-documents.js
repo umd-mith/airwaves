@@ -18,12 +18,24 @@ function getRelated(names, docs) {
   return related
 }
 
-const RelatedDocuments = ({names, relatedFolders, documents}) => {
-  let related = getRelated(names, documents)
+/*
+
+RelatedDocuments uses three parameters to generate a component that
+lists related documents:
+
+- relatedNames: a Set containing the names of any related subjects or people
+- relatedDocs: a list of objects from the series.relatedFolders and series.relatedItems
+- documents: a list of all documents to search
+
+*/
+
+const RelatedDocuments = ({relatedNames, relatedDocs, documents}) => {
+  console.log(relatedDocs)
+  let related = getRelated(relatedNames, documents)
 
   // add any related folders that weren't already included
   const iaIds = new Set(related.map(r => r.iaId))
-  for (const folder of relatedFolders || []) {
+  for (const folder of relatedDocs || []) {
     if (! iaIds.has(folder.iaId)) {
       related.push(folder)
     }

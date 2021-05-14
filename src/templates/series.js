@@ -61,6 +61,10 @@ const Series = ({ data, pageContext: { documents } }) => {
     Array.from(contributors)
   )
 
+  if (! series.relatedFolders) series.relatedFolders = []
+  if (! series.relatedItems) series.relatedItems = []
+  const relatedDocs = series.relatedFolders.concat(series.relatedItems)
+
   return (
     <Layout feedUrl={`/rss/${series.id}.xml`} title={`${series.title}`}>
       <div className="series">
@@ -82,8 +86,8 @@ const Series = ({ data, pageContext: { documents } }) => {
           <article className="pgm-related col-6 col-12-xs">
             <h2>Related Materials</h2>
             <RelatedDocuments 
-              names={authorityNames}
-              relatedFolders={series.relatedFolders}
+              relatedNames={authorityNames}
+              relatedDocs={relatedDocs}
               documents={documents} />
           </article>
         </section>
@@ -145,6 +149,10 @@ export const query = graphql`
       title
       description
       relatedFolders {
+        iaId
+        title
+      }
+      relatedItems {
         iaId
         title
       }

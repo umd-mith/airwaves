@@ -39,7 +39,16 @@ const seriesMap = {
         }
       }),
     },
-  },
+    "Linked Documents-Items": {
+      property: "relatedItems",
+      expander: makeIdExpander("documents.json", d => {
+        return {
+          iaId: d.iaId,
+          title: d.title,
+        }
+      })
+    }
+  }
 }
 
 const peopleMap = {
