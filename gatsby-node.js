@@ -70,8 +70,8 @@ async function documents(createPage, graphql) {
       path: `/document/${doc.iaId}/`,
       component: require.resolve(`./src/templates/document.js`),
       context: {
-        iaId: doc.iaId,
-      },
+        iaId: doc.iaId
+      }
     })
   })
 }
@@ -93,6 +93,14 @@ async function series(createPage, graphql) {
           node {
             iaId
             title
+            creator {
+              id
+              name
+            }
+            contributor {
+              id
+              name
+            }
             subject {
               id
               name

@@ -4,6 +4,7 @@ import './document.css'
 import InternetArchive from '../images/internet-archive.jpg'
 
 import Layout from '../components/layout'
+import RelatedSeries from '../components/related-series'
 
 const miradorConfig = {
   id: 'mirador-viewer',
@@ -46,6 +47,10 @@ export const query = graphql`
       creator {
         id
         name
+      }
+      relatedSeries {
+        id
+        title
       }
     }
     allFindingAidJson {
@@ -92,16 +97,16 @@ class Mirador extends React.Component {
 const Document = ({ data }) => {
 
   const doc = data.documentsJson
-  if (doc.contributor === null) {
-    doc.contributor = []
-  }
+
+  // ensure these are really lists
+  if (doc.contributor === null) doc.contributor = []
+  if (doc.subject === null) doc.subject = []
+  if (doc.creator === null) doc.creator = []
+
   const contributors = doc.contributor.map(c => (
     <div><Link to={`/search/?f=contributor:${c.name}`}>{c.name}</Link></div>
   ))
 
-  if (doc.subject === null) {
-    doc.subject = []
-  }
   const subjects = doc.subject.map(c => (
     <div><Link key={`subject-link-${c.name}`} to={`/search/?f=subject:${c.name}`}>{c.name}</Link></div>
   ))
@@ -157,6 +162,8 @@ const Document = ({ data }) => {
               <dd>{subjects}</dd>
               <dt className="label">Contributors</dt>
               <dd>{contributors}</dd>
+              <dt className="label">Related Programs</dt>
+              <dd><RelatedSeries doc={doc} /></dd>
               {browseLinks}
             </dl>
             <div className="internet-archive">
