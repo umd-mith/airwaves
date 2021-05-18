@@ -48,6 +48,7 @@
     "airtable": "^0.7.2",
     "babel-jest": "^25.5.1",
     "babel-preset-gatsby": "^1.0.0",
+    "cross-env": "^7.0.3",
     "glob": "^7.1.6",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.5.4",
@@ -59,7 +60,7 @@
   "license": "MIT",
   "scripts": {
     "clean": "gatsby clean",
-    "build": "gatsby clean && gatsby build",
+    "build": "cross-env GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
