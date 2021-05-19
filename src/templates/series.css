@@ -1,4 +1,44 @@
-.alpha-list {
+@import "../components/variables.css";
+
+.series {
+  display: grid;
+  grid-template-areas:
+    "series-desc"
+    "programs"
+    "related"
+    "series-meta";
+}
+
+.series-desc {
+  grid-area: "series-desc";
+}
+
+.programs {
+  grid-area: "programs";
+}
+
+.related {
+  grid-area: "related";
+}
+
+.series-meta {
+  grid-area: "series-meta";
+}
+
+/* Media queries for grid layouts */
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 45em) {
+}
+
+/* large screens — 976px and up */
+@media screen and (min-width: 61em) {
+}
+
+/* x-large screens — 1072px and up */
+@media screen and (min-width: 67em) {
+}
+
+/* .alpha-list {
   grid-template-columns: repeat(auto-fill, minmax(38px, 1fr));
   grid-gap: 0;
   margin-bottom: 1.5rem;
@@ -112,4 +152,4 @@
 
 .podcast button svg {
   vertical-align: middle;
-}
+} */

@@ -1,10 +1,10 @@
-import React from 'react'
-import Layout from '../components/layout'
-import { graphql, Link } from 'gatsby'
-import { formatDuration } from '../utils.js'
-import HeadsetIcon from '@material-ui/icons/Headset';
-import RelatedDocuments from '../components/related-documents'
-// import './series.css'
+import React from "react"
+import Layout from "../components/layout"
+import { graphql, Link } from "gatsby"
+import { formatDuration } from "../utils.js"
+import HeadsetIcon from "@material-ui/icons/Headset"
+import RelatedDocuments from "../components/related-documents"
+import "./series.css"
 
 const Series = ({ data, pageContext: { documents } }) => {
   const series = data.seriesJson
@@ -17,36 +17,38 @@ const Series = ({ data, pageContext: { documents } }) => {
   const genres = new Set()
   const times = new Set()
 
-  const episodes = data.allEpisodesJson.edges.map(({node}) => {
-    if (! node.subject) node.subject = []
+  const episodes = data.allEpisodesJson.edges.map(({ node }) => {
+    if (!node.subject) node.subject = []
     node.subject.forEach(s => {
       subjects.add(s.name)
-    }) 
-    if (! node.creator) node.creator = []
+    })
+    if (!node.creator) node.creator = []
     node.creator.forEach(c => {
       creators.add(c.name)
     })
-    if (! node.contributor) node.contributor = []
+    if (!node.contributor) node.contributor = []
     node.contributor.forEach(c => {
       contributors.add(c.name)
     })
-    if (! node.genre) node.genre = []
+    if (!node.genre) node.genre = []
     node.genre.forEach(g => {
       genres.add(g.name)
     })
     if (node.decade) times.add(node.decade)
 
     return (
-      <div key={node.aapbId} className='episode'>
-        <span className="ep-date">{node.broadcastDate}</span> 
-        <span className="ep-title"><Link to={`/episode/${node.aapbId}/`}>{node.title}</Link></span> 
+      <div key={node.aapbId} className="episode">
+        <span className="ep-date">{node.broadcastDate}</span>
+        <span className="ep-title">
+          <Link to={`/episode/${node.aapbId}/`}>{node.title}</Link>
+        </span>
         <span className="ep-time">{formatDuration(node.duration)}</span>
       </div>
     )
   })
 
   // XXX: I'm not sure why this can sometimes happen e.g. detroit-symphony-orchestra
-  if (! series) {
+  if (!series) {
     return (
       <Layout>
         <div className="series"></div>
@@ -61,56 +63,49 @@ const Series = ({ data, pageContext: { documents } }) => {
     Array.from(contributors)
   )
 
-  if (! series.relatedFolders) series.relatedFolders = []
-  if (! series.relatedItems) series.relatedItems = []
+  if (!series.relatedFolders) series.relatedFolders = []
+  if (!series.relatedItems) series.relatedItems = []
   const relatedDocs = series.relatedFolders.concat(series.relatedItems)
 
   return (
     <Layout feedUrl={`/rss/${series.id}.xml`} title={`${series.title}`}>
       <div className="series">
-        <section className="leader">
+        <section className="series-desc">
           <h1>
             <Link to="/programs/">All Programs</Link> / {series.title}
           </h1>
-          <article className="description">
-          {series.description}
-          </article>
+          <div className="description">{series.description}</div>
         </section>
-        <section id="programs" className="columns">
-          <article className="pgm-eps col-6 col-12-xs">
-            <h2>Available Episodes</h2>
-            <div>
-              {episodes}
-            </div>
-          </article>
-          <article className="pgm-related col-6 col-12-xs">
-            <h2>Related Materials</h2>
-            <RelatedDocuments 
-              relatedNames={authorityNames}
-              relatedDocs={relatedDocs}
-              documents={documents} />
-          </article>
+        <section className="programs">
+          <h2>Available Episodes</h2>
+          {episodes}
         </section>
-        <section className="columns">
-          <article className="pgm-meta col-12">
-            <dl>
-              {displayMetadataValues(subjects, 'subject', 'Subjects')}
-              {displayMetadataValues(creators, 'creator', 'Creators')}
-              {displayMetadataValues(contributors, 'contributor', 'Contributors')}
-              {displayMetadataValues(genres, 'genre', 'Genres')}
-              {displayMetadataValues(times, 'decade', 'Time Periods')}
-            </dl>
-            <div className="podcast col-12" title={`Podcast URL for ${series.title}`}>
-              <a href={`${siteUrl}/rss/${series.id}.xml`}>
-                <button>
-                <HeadsetIcon /> &nbsp;Subscribe to the <b>{series.title}</b> Podcast
-                </button>
-              </a>
-            </div>
-          </article>
+        <section className="related">
+          <h2>Related Materials</h2>
+          <RelatedDocuments
+            relatedNames={authorityNames}
+            relatedDocs={relatedDocs}
+            documents={documents}
+          />
+        </section>
+        <section className="series-meta">
+          <dl>
+            {displayMetadataValues(subjects, "subject", "Subjects")}
+            {displayMetadataValues(creators, "creator", "Creators")}
+            {displayMetadataValues(contributors, "contributor", "Contributors")}
+            {displayMetadataValues(genres, "genre", "Genres")}
+            {displayMetadataValues(times, "decade", "Time Periods")}
+          </dl>
+          <div className="podcast" title={`Podcast URL for ${series.title}`}>
+            <a href={`${siteUrl}/rss/${series.id}.xml`}>
+              <button>
+                <HeadsetIcon /> &nbsp;Subscribe to the <b>{series.title}</b>{" "}
+                Podcast
+              </button>
+            </a>
+          </div>
         </section>
       </div>
-
     </Layout>
   )
 }
@@ -119,7 +114,9 @@ function displayMetadataValues(s, facetName, facetTitle) {
   let l = Array.from(s.values()).sort()
   l = l.map((v, i) => [
     i > 0 && "; ",
-    <Link key={`${facetName}:${v}`} to={`/search/?f=${facetName}:${v}`}>{v}</Link>
+    <Link key={`${facetName}:${v}`} to={`/search/?f=${facetName}:${v}`}>
+      {v}
+    </Link>,
   ])
   if (l.length > 0) {
     return (
@@ -129,7 +126,7 @@ function displayMetadataValues(s, facetName, facetTitle) {
       </>
     )
   } else {
-      return ''
+    return ""
   }
 }
 
@@ -158,17 +155,8 @@ export const query = graphql`
       }
     }
     allEpisodesJson(
-      filter: {
-        series: {
-          id: {
-            eq: $id
-          }
-        }
-      }
-      sort: {
-        fields: broadcastDate,
-        order: DESC
-      }
+      filter: { series: { id: { eq: $id } } }
+      sort: { fields: broadcastDate, order: DESC }
     ) {
       edges {
         node {
@@ -195,4 +183,3 @@ export const query = graphql`
     }
   }
 `
-
