@@ -79,7 +79,7 @@ const IndexPage = () => (
         </div>
       </Slider>
     </section>
-    <section>
+    <section className="site-intro text-block">
       <h2>Unlocking the Airwaves</h2>
       <p>
         Unlocking the Airwaves: Revitalizing an Early Public and Educational

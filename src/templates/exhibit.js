@@ -56,7 +56,7 @@ const Exhibit = ({ pageContext: exhibit }) => {
           </article>
         </section>
         <section className="columns">
-          <article className="col-8 col-7-lg col-6-md col-6-sm col-12-xs">
+          <article className="text-block">
             <div dangerouslySetInnerHTML={{ __html: exhibit.description }} />
           </article>
           <article className="col-4 col-5-lg col-6-md col-6-sm col-12-xs visuals">

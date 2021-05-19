@@ -17,7 +17,10 @@ const AboutPage = ({ data }) => {
   return (
     <Layout url="/about/">
       <div className="page-about">
-        <section dangerouslySetInnerHTML={{ __html: cmsData.html }}></section>
+        <section
+          className="text-block"
+          dangerouslySetInnerHTML={{ __html: cmsData.html }}
+        ></section>
         <section
           id="contributors"
           dangerouslySetInnerHTML={{
