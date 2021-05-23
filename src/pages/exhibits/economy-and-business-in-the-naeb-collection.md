@@ -1,49 +1,88 @@
 ---
 title: Economy and Business in the NAEB Collection
 creator: Kit Hughes
+lede: "Throughout its history, the NAEB produced many programs focused on issues
+  of economy and business. In this exhibit, author Kit Huges sketches the
+  evolving aesthetic strategies and viewpoints found within these programs, from
+  *Document: Deep South*'s \"regionally-accented\" promotion of the widespread
+  benefits of a continuously increasing economy to *Sounds of Poverty*'s
+  student-oriented approach to first-person testimonies of people living in deep
+  poverty in Appalachia during the days of President Johnson’s War on Poverty
+  and Community Action Programs. The programs serve as both historical documents
+  (like a fascinating live two-hour call-in show with President Carter hosted by
+  Walter Cronkite) and contain interesting ideas that still feel fresh today
+  (like a discussion around government-funded, year-long sabbaticals for every
+  worker at rate to maintain full employment despite less work to go around)."
 visuals:
-  - title:
-      "Brochure for American Adventure Series, a TV program sponsored by Cold
+  - title: Brochure for American Adventure Series, a TV program sponsored by Cold
       War free enterprise group The National Educational Program. Episode 8
       promises viewers that the rich aren’t overly numerous or overly wealthy,
       while Episode 9 assures viewers that they, too, can be millionaires given
       the gumption. Although NAEB’s network manager declined to purchase the
       (TV) program for (radio) broadcast, this spiritual kin to Fifty Years is
-      represented—along with other relevant materials—in NAEB document
-      collections. "
-    image: "../../../static/images/kit_image_1.jpg"
-  - title:
-      Visit the African American History theme in the collection for additional
-      materials exploring race and the economy, like this script for The Last
-      Citizen episode on Black employment.
-    image: "../../../static/images/kit_image_2.jpg"
-  - title:
-      Script for Report from Japan hosted by John Lerch (c1956). Although many
+      represented—along with other relevant materials—in [NAEB document
+      collections](https://mith.umd.edu/airwaves/document/naeb-b072-f01/#175).
+    image: ../../../static/images/kit_image_1.jpg
+  - title: Visit the [African American History
+      theme](https://mith.umd.edu/airwaves/search/?f=subject:African%20American%20History)
+      in the collection for additional materials exploring race and the economy,
+      like this script for The Last Citizen episode on Black employment.
+    image: ../../../static/images/kit_image_2.jpg
+  - title: Script for Report from Japan hosted by John Lerch (c1956). Although many
       economy-themed recordings focus on the U.S., documents hint at the extent
       to which U.S. postwar foreign policy sought to protect and expand
-      capitalism abroad. See also the War and Civil Defense theme in the
-      collection.
-    image: "../../../static/images/kit_image_3.jpg"
-  - title:
-      "Promotional materials for People under Communism. Communism’s threat to
+      capitalism abroad. See also the [War and Civil Defense
+      theme](https://mith.umd.edu/airwaves/search/?f=subject:War%20and%20Civil%20Defense)
+      in the collection.
+    image: ../../../static/images/kit_image_3.jpg
+  - title: "Promotional materials for People under Communism. Communism’s threat to
       the self-evident righteousness of capitalism pops up in docudramas and
       personal finance series alike. "
-    image: "../../../static/images/kit_image_4.jpg"
-  - title:
-      Another example of Communism's threat, in this letter from Don Nelson to
+    image: ../../../static/images/kit_image_4.jpg
+  - title: Another example of Communism's threat, in this letter from Don Nelson to
       Robert Underwood, Jr. (June 30, 1958) regarding “updates” made to
       Stretching Your Family Income to prepare it for NAEB distribution. See
-      also World Politics and U.S. Government themes in the collection.
-    image: "../../../static/images/kit_image_5.jpg"
+      also [World
+      Politics](https://mith.umd.edu/airwaves/search/?f=subject:World%20Politics)
+      and [U.S.
+      Government](https://mith.umd.edu/airwaves/search/?f=subject:U.S.%20Government)
+      themes in the collection.
+    image: ../../../static/images/kit_image_5.jpg
 related:
   - title: "Pathways to Progress: The Great Lakes"
     url: https://mith.umd.edu/airwaves/programs/pathways-to-progress-the-great-lakes/
-    description:
-      A 13-part documentary drama about the economic impact of the Great
+    description: A 13-part documentary drama about the economic impact of the Great
       Lakes region in the United States.
   - title: Buyer Beware
     url: https://mith.umd.edu/airwaves/programs/buyer-beware/
     description: A series focusing on issues of personal finance.
+  - title: Fifty Years of Growth
+    url: https://mith.umd.edu/airwaves/programs/fifty-years-of-growth/
+    description: A series of documentaries on industrial change in the U.S.
+  - title: "Document: Deep South"
+    url: https://mith.umd.edu/airwaves/programs/document-deep-south/
+    description: A series of documentaries depicting the increasing importance of
+      the South in the economic development of the United States. Narrated by
+      Walt Whitaker, written and produced by Leroy Bannerman, with Dr. Walter B.
+      Jones as senior consultant.
+  - title: Pollution Explosion
+    url: https://mith.umd.edu/airwaves/programs/pollution-explosion/
+    description: A discussion of environment-related issues.
+  - title: Sounds of Poverty
+    url: https://mith.umd.edu/airwaves/programs/sounds-of-poverty
+    description: A documentary series featuring interviews with rural Appalachia
+      residents by one hundred students from twenty-nine colleges, meeting at
+      Action for Appalachian Youth Conference at Ripley, West Virginia. The
+      series is hosted by Bert Cowlin.
+  - title: Business Roundtable
+    url: https://mith.umd.edu/airwaves/programs/business-roundtable
+    description: A program of current comment from leading members of America's
+      business community.
+  - title: Hazards to Education
+    url: https://mith.umd.edu/airwaves/programs/hazards-to-education/
+    description: Walgreen Lecture series on the present hazards to American
+      education as seen and presented by Robert M. Hutchins. Each lecture
+      discusses one particular problem.
 ---
 
 Among NAEB-supported programs that center the themes of economy and business, listeners will find a diverse set of aesthetic strategies, topics of discussion, viewpoints, and, to some extent, ideologies. Combined, they exhibit the major currents of economic orthodoxy under the later parts of embedded liberalism (c1930s-1970s), when the state took responsibility for counterbalancing some of the most disastrous consequences of _laissez-faire_ economic policy.
