@@ -2,17 +2,17 @@
 
 .search {
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: var(--spacing-large-content);
 }
 
 .themes {
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: var(--spacing-large-content);
   display: grid;
 }
 
 .theme-group div:last-child {
-  margin-bottom: 2rem;
+  margin-bottom: var(--spacing-large-content);
 }
 
 .theme-group h3 {
@@ -34,12 +34,12 @@
 @media screen and (min-width: 45em) {
   .search,
   .themes {
-    max-width: 36rem;
+    max-width: var(--width-breakpoint-1);
   }
 
   .themes {
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2rem;
+    column-gap: var(--spacing-large-content);
   }
 }
 
@@ -47,7 +47,7 @@
 @media screen and (min-width: 61em) {
   .search,
   .themes {
-    max-width: 49rem;
+    max-width: var(--width-breakpoint-2);
   }
 }
 
@@ -55,7 +55,7 @@
 @media screen and (min-width: 67em) {
   .search,
   .themes {
-    max-width: 54rem;
+    max-width: var(--width-breakpoint-3);
   }
 }
 

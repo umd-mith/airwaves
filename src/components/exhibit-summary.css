@@ -1,0 +1,57 @@
+@import "variables.css";
+
+.exhibit-summary-card {
+  background-color: var(--color-full-white);
+  border-top: 0.33rem solid var(--color-gray-900);
+  margin-bottom: 2rem;
+  min-height: 15rem;
+  padding: var(--spacing-base-content);
+  position: relative;
+  z-index: 1;
+}
+
+.exhibit-card-body {
+  padding-bottom: var(--spacing-base-content);
+}
+
+.exhibit-card-body .excerpt {
+  margin-top: var(--spacing-base-content);
+}
+
+.exhibit-summary-card a,
+.exhibit-summary-card a:visited {
+  color: var(--color-brand-primary);
+  text-decoration: none;
+}
+
+.more-link {
+  position: absolute;
+  bottom: var(--spacing-base-content);
+  right: var(--spacing-base-content);
+}
+
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 45em) {
+  .exhibit-card-body {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .exhibit-card-body .gatsby-image-wrapper {
+    flex: 1;
+  }
+
+  .exhibit-card-body .excerpt {
+    flex: 2;
+    margin-left: 1rem;
+    margin-top: 0;
+  }
+}
+
+/* large screens — 976px and up */
+@media screen and (min-width: 61em) {
+}
+
+/* x-large screens — 1072px and up */
+@media screen and (min-width: 67em) {
+}

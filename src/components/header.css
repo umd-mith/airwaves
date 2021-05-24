@@ -1,46 +1,46 @@
-@import 'variables.css';
+@import "variables.css";
 
 header {
-    overflow: hidden;
-    text-align: center;
-    width: 100%;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
 }
 
 .header-content {
-    margin: 0 var(--spacing-base-content);
-    position: relative;
+  margin: 0;
+  position: relative;
 }
 
 /* .alt-logo, */
 .main-logo {
-    height: 200px;
-    min-height: 200px;
-    margin-left: 50%;
-    transform: translateX(-50%);
+  height: 200px;
+  min-height: 200px;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .alt-logo {
-    display: initial;
-    height: 125px;
-    transform: translateX(-90%);
-    width: 125px;
+  display: initial;
+  height: 125px;
+  transform: translateX(-90%);
+  width: 125px;
 }
 
 .main-logo {
-    display: none;
+  display: none;
 }
 
 /* Swap out the mobile logo for the full one */
 @media screen and (min-width: 45em) {
-    .alt-logo {
-        display: none;
-    }
+  .alt-logo {
+    display: none;
+  }
 
-    .main-logo {
-        display: initial;
-    }
+  .main-logo {
+    display: initial;
+  }
 
-    .main-nav-container button {
-        display: none;
-    }
+  .main-nav-container button {
+    display: none;
+  }
 }

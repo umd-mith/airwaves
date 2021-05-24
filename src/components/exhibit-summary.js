@@ -6,6 +6,8 @@ import remark from "remark"
 import remarkHtml from "remark-html"
 import recommended from "remark-preset-lint-recommended"
 
+import "./exhibit-summary.css"
+
 const convertMarkdown = remark()
   .use(recommended)
   .use(remarkHtml).processSync
@@ -16,14 +18,21 @@ const ExhibitSummaryCard = ({ title, creator, keyImage, lede, absPath }) => {
   const gimage = getImage(keyImage.image)
 
   return (
-    <div className="exhibit-summary-card">
+    <div id={slug} className="exhibit-summary-card">
       <h2>
         <Link to={url}>{title}</Link>
       </h2>
       <p>{creator}</p>
-      <GatsbyImage image={gimage} alt={keyImage.title} />
-      <p dangerouslySetInnerHTML={{ __html: convertMarkdown(lede) }}></p>
-      <Link to={url}>Read More…</Link>
+      <div className="exhibit-card-body">
+        <GatsbyImage image={gimage} alt={keyImage.title} />
+        <p
+          className="excerpt"
+          dangerouslySetInnerHTML={{ __html: convertMarkdown(lede) }}
+        ></p>
+      </div>
+      <Link className="more-link" to={url}>
+        Read More…
+      </Link>
     </div>
   )
 }
