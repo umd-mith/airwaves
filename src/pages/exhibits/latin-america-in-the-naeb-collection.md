@@ -1,16 +1,26 @@
 ---
 title: Latin America in the NAEB Collection
 creator: Arcelia Gutiérrez
+lede: "NAEB programs about Latin America broadly centered on themes like the
+  rise of communism and the Cold War in Latin America, Cuba’s revolution of
+  1959, John F. Kennedy’s Alliance for Progress, and the rise of Latin American
+  area studies in U.S. universities—however, they largely failed to conceive of
+  Latin American descendant people—what are now known as Latinxs—as part of the
+  U.S. imaginary. This exhibit takes a closer look at three such programs:
+  *Contemporary Revolution in Latin America*, a documentary series on problems
+  facing Latin America during the late 1950s and early 1960s; *The Yankee
+  Dollar*, which focused on the U.S. dollar's impact in Latin America; and
+  *Latin American Perspectives*, a series of lectures about current Latin
+  American problems and their historical setting."
 visuals:
-  - image: "../../../static/images/wnth_sample_programs.png"
+  - image: ../../../static/images/wnth_sample_programs.png
     title: "Contemporary Revolution in Latin America included in a 1961 list of
       representative broadcast programs from WNTH, a high school radio station
       in Winnetka, Illinois. "
 related:
   - title: Contemporary Revolution in Latin America
     url: https://mith.umd.edu/airwaves/programs/contemporary-revolution-in-latin-america/
-    description:
-      A documentary series on problems facing Latin America, including
+    description: A documentary series on problems facing Latin America, including
       panel discussions at program conclusion. The series is hosted by Erwin
       Canham, editor at the Christian Science Monitor.
   - title: The Yankee Dollar
@@ -19,8 +29,28 @@ related:
       especially Mexico. The series is hosted by Richard Arellano.
   - title: Latin American Perspectives
     url: https://mith.umd.edu/airwaves/programs/latin-american-perspectives/
-    description: A series of comment and analysis about current affairs in Latin
+    description: A series of commentary and analysis about current affairs in Latin
       American countries.
+  - title: "U.S. Foreign Policy: Demands of the Next Decade"
+    url: https://mith.umd.edu/airwaves/programs/us-foreign-policy-demands-of-the-next-decade
+    description: On the occasion of its 50th anniversary, the Foreign Policy
+      Association of the United States organized a traveling conference based on
+      the theme "demands of the next decade." This is a series of recorded
+      speeches from a 1968 Portland, Oregon, conference sponsored by the FPA,
+      the World Affairs Council of Oregon, and Time Magazine.
+  - title: 29th Annual Couchiching Conference, 1960
+    url: https://mith.umd.edu/airwaves/programs/29th-annual-couchiching-conference-1960
+    description: The 1960 Couchiching Conference, a summer symposium on national and
+      international affairs put together by the Canadian Institute on Public
+      Affairs and the Canadian Broadcasting Corporation, assembles for its 29th
+      annual meeting. The theme of the 1960 conference was "The Latin Americas."
+  - title: Committees Programming Practices, 1968-1969
+    url: https://mith.umd.edu/airwaves/document/naeb-b034-f01/#7
+    description: 1968 and 1969 correspondence, survey report, and resolution
+      regarding programming practices. Report studies member station programming
+      of nationally distributed and/or network radio and television programs,
+      with emphasis on those related to racial topics. Resolution reinforces
+      dedication to serve black Americans with programming.
 ---
 
 **Exhibit Overview**
