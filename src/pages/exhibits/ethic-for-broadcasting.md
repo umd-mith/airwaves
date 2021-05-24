@@ -1,8 +1,19 @@
 ---
 title: Ethic for Broadcasting
 creator: Michele Hilmes
+lede: In the wake of the late 1950s quiz show and payola scandals, the NAEB
+  funded a series entitled *Ethic for Broadcasting* that sought to puzzle out
+  how radio and television might be reformed to better serve the needs of the
+  American public during tumultuous times. Among the better-known names featured
+  are broadcasters Mike Wallace, David Brinkley, David Susskind, and Sylvester
+  “Pat” Weaver; FCC commissioner Newton Minow, and “Blue Book” author Charles A.
+  Siepmann, with others drawn from business, journalism, education, and the
+  clergy. The program lets its chosen interlocutees weigh in not only on the
+  above scandals but on how television might be improved more generally, and
+  what role it should play in American public life, offering arguments on
+  television's then-current state while also envisioning its future.
 visuals:
-  - image: "../../../static/images/ethic_image.jpg"
+  - image: ../../../static/images/ethic_image.jpg
     title: A brochure for the NAEB grants-in-aid program, which funded the
       production of series like Ethic for Broadcasting.
 related:
@@ -10,6 +21,38 @@ related:
     url: https://mith.umd.edu/airwaves/programs/ethic-for-broadcasting/
     description: This series presents interviews that center on issues in
       broadcasting and society.
+  - url: https://mith.umd.edu/airwaves/document/naeb-b053-f08/
+    title: Federal Communications Commission, 1948-1950
+    description: "1948 to 1950 correspondence and reports regarding NAEB's
+      participation in the FCC's Clear Channel and Mayflower hearings, including
+      statement transcripts and newspaper coverage. "
+  - description: 1952 to 1956 correspondence and reports regarding FCC rules and
+      hearings and NAEB positions on proposals. Topics include requirements for
+      identification of recorded programs, Conelrad broadcasting, and television
+      translators.
+    title: Federal Communications Commission, 1952-1956
+    url: https://mith.umd.edu/airwaves/document/naeb-b053-f09/
+  - description: 1951 to 1973 meeting minutes, reports, and correspondence regarding
+      NAEB policy. Topics include proposed organizational changes, programming
+      strategies, and distribution of the Cooper Union Forum program. Executive
+      director letters from Jim Miles also provide updates on the NAEB's plans
+      and practices.
+    url: https://mith.umd.edu/airwaves/document/naeb-b053-f02/
+    title: Executive Director, Policy statements, 1951-1973
+  - title: The Needs of Education for Television Channel Allocations
+    url: https://mith.umd.edu/airwaves/document/naeb-b099-f01/
+    description: November 1961 pre-publication working copy of a report titled "The
+      Needs of Education for Television Channel Allocations" prepared by the
+      National Association of Educational Broadcasters in cooperation with the
+      United States Office of Education.
+  - title: Leglislation, Harris, Oren (Dem.- Arkansas), 1961
+    description: 1961 correspondence related to proposed federal assistance for
+      educational television. NAEB members and staff, state governors and
+      education officials, and representative Oren Harris (chairman of the House
+      Interstate and Foreign Commerce Committee) discuss state plans for
+      educational television and potential funds. Includes some individual state
+      reports.
+    url: https://mith.umd.edu/airwaves/document/naeb-b066-f01/
 ---
 
 In these days of escalating protest against America’s repressive racial system – a protest enabled by our current diversified and wildly unregulated digital media universe – listening to an NAEB program produced in 1961 is a poignant and sometimes infuriating reminder of how much has changed, and how much hasn’t, since television’s early years. Produced in the wake of the late 1950s quiz show and payola scandals, the series _[Ethic for Broadcasting](https://mith.umd.edu/airwaves/programs/ethic-for-broadcasting/)_ seeks to puzzle out how radio and television might be reformed to better serve the needs of the American public during tumultuous times.
