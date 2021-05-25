@@ -3,6 +3,8 @@
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     sans-serif;
   --color-brand-primary: #e0ca59;
+  --color-brand-900: #c7aa14;
+  --color-brand-100: #faeeaf;
   --color-gray-900: #363636;
   --color-gray-700: #595959;
   --color-gray-500: #808080;
@@ -10,8 +12,10 @@
   --color-gray-100: #fafafa;
   --color-full-white: #fff;
   --spacing-base-content: 1rem;
+  --spacing-small-content: 0.67rem;
   --spacing-large-content: calc(var(--spacing-base-content) * 2);
-  --width-breakpoint-1: 36rem;
-  --width-breakpoint-2: 49rem;
-  --width-breakpoint-3: 54rem;
+  --spacing-xlarge-content: calc(var(--spacing-base-content) * 4);
+  --width-breakpoint-1: 27rem;
+  --width-breakpoint-2: 36rem;
+  --width-breakpoint-3: 40rem;
 }
