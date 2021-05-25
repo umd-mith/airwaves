@@ -19,17 +19,19 @@ const ExhibitSummaryCard = ({ title, creator, keyImage, lede, absPath }) => {
 
   return (
     <div id={slug} className="exhibit-summary-card">
-      <h2>
-        <Link to={url}>{title}</Link>
-      </h2>
-      <p>{creator}</p>
-      <div className="exhibit-card-body">
-        <GatsbyImage image={gimage} alt={keyImage.title} />
-        <p
-          className="excerpt"
-          dangerouslySetInnerHTML={{ __html: convertMarkdown(lede) }}
-        ></p>
+      <div className="exhibit-card-meta">
+        <h2>
+          <Link to={url}>{title}</Link>
+        </h2>
+        <p>{creator}</p>
       </div>
+      <div className="exhibit-image">
+        <GatsbyImage image={gimage} alt={keyImage.title} />
+      </div>
+      <p
+        className="excerpt text-block"
+        dangerouslySetInnerHTML={{ __html: convertMarkdown(lede) }}
+      ></p>
       <Link className="more-link" to={url}>
         Read More…
       </Link>

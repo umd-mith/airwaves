@@ -6,6 +6,7 @@
   margin-bottom: 2rem;
   min-height: 15rem;
   padding: var(--spacing-base-content);
+  padding-bottom: var(--spacing-large-content);
   position: relative;
   z-index: 1;
 }
@@ -32,19 +33,9 @@
 
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
-  .exhibit-card-body {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .exhibit-card-body .gatsby-image-wrapper {
-    flex: 1;
-  }
-
-  .exhibit-card-body .excerpt {
-    flex: 2;
-    margin-left: 1rem;
-    margin-top: 0;
+  .exhibit-summary-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
