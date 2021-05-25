@@ -23,6 +23,7 @@ const AboutPage = ({ data }) => {
         ></section>
         <section
           id="contributors"
+          className="text-block"
           dangerouslySetInnerHTML={{
             __html: convertMarkdown(cmsData.frontmatter.team),
           }}
