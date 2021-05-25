@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import ExhibitSummaryCard from "./exhibit-summary"
 
 const FeaturedExhibitsProvider = () => {
@@ -14,7 +14,7 @@ const FeaturedExhibitsProvider = () => {
             visuals {
               image {
                 childImageSharp {
-                  gatsbyImageData(placeholder: BLURRED, width: 250)
+                  gatsbyImageData(placeholder: BLURRED, width: 360)
                 }
               }
               title
@@ -62,7 +62,7 @@ const FeaturedExhibitsProvider = () => {
   })
 
   return (
-    <>
+    <div className="featured-exhibits-container">
       {featuredAsProps.map(cardProps => (
         <ExhibitSummaryCard
           title={cardProps.title}
@@ -72,7 +72,10 @@ const FeaturedExhibitsProvider = () => {
           absPath={cardProps.absPath}
         />
       ))}
-    </>
+      <Link id="exhibit-link" to="/exhibits/">
+        More Exhibits
+      </Link>
+    </div>
   )
 }
 
