@@ -5,7 +5,7 @@ import FeaturedExhibitsProvider from "../components/featured-exhibits-provider"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-// import './index.css'
+import "./index.css"
 
 const sliderSettings = {
   className: "carousel",
@@ -33,7 +33,19 @@ const sliderSettings = {
 
 const IndexPage = () => (
   <Layout>
-    <section className="page-hero">
+    <section className="site-intro">
+      <h1 id="site-head">
+        Unlocking the Airwaves: Revitalizing an Early Public and Educational
+        Radio Collection
+      </h1>{" "}
+      is a comprehensive online collection of early educational public radio
+      content from the National Association of Educational Broadcasters (NAEB).
+    </section>
+    <section className="featured-exhibits">
+      <h2>Featured Exhibits</h2>
+      <FeaturedExhibitsProvider />
+    </section>
+    {/* <section className="page-hero">
       <Slider {...sliderSettings}>
         <div>
           <img
@@ -78,21 +90,17 @@ const IndexPage = () => (
           />
         </div>
       </Slider>
-    </section>
-    <section className="site-intro text-block">
-      <h2>Unlocking the Airwaves</h2>
+    </section> */}
+    <section className="text-block">
       <p>
-        Unlocking the Airwaves: Revitalizing an Early Public and Educational
-        Radio Collection is a comprehensive online collection of early
-        educational public radio content from the National Association of
-        Educational Broadcasters (NAEB). The forerunner of CPB and its arms, NPR
-        and PBS, the NAEB developed and distributed educational radio programs
-        and accompanying print materials to schools and communities across the
-        United States. What’s more, the NAEB lobbied extensively to unlock the
-        airwaves—to access precious frequency space—in order to bring the voices
-        of poet Robert Frost, architect Frank Lloyd Wright, anthropologist
-        Margaret Mead, and conservationist “Ranger Mac,” among many other
-        individuals, into American homes and classrooms.
+        The forerunner of CPB and its arms, NPR and PBS, the NAEB developed and
+        distributed educational radio programs and accompanying print materials
+        to schools and communities across the United States. What’s more, the
+        NAEB lobbied extensively to unlock the airwaves—to access precious
+        frequency space—in order to bring the voices of poet Robert Frost,
+        architect Frank Lloyd Wright, anthropologist Margaret Mead, and
+        conservationist “Ranger Mac,” among many other individuals, into
+        American homes and classrooms.
       </p>
       <p>
         The NAEB’s history is the dramatic story of idealists who believed in
@@ -117,10 +125,6 @@ const IndexPage = () => (
         <Link to="/about/">Read More about the Project</Link>
         <Link to="/explore/">Explore the Archive</Link>
       </div>
-    </section>
-    <section>
-      <h2>Featured Exhibits</h2>
-      <FeaturedExhibitsProvider />
     </section>
   </Layout>
 )

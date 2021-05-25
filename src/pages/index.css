@@ -1,4 +1,173 @@
-.carousel {
+@import "../components/variables.css";
+
+.site-intro {
+  font-size: 2.25rem;
+  margin: 0 auto;
+  margin-bottom: var(--spacing-large-content);
+  text-align: center;
+}
+
+#site-head {
+  display: inline;
+}
+
+.featured-exhibits {
+  margin: 0 auto;
+}
+
+.featured-exhibits h2 {
+  margin-bottom: 0;
+}
+
+.featured-exhibits > h2 {
+  background-color: var(--color-brand-primary);
+  border-top-left-radius: 4rem;
+  border-bottom: 0.33rem solid var(--color-brand-900);
+  font-style: italic;
+  padding: 0.67rem 1rem 0.67rem 0;
+  text-align: right;
+}
+
+.featured-exhibits-container {
+  background-color: var(--color-brand-primary);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.featured-exhibits-container .exhibit-summary-card {
+  background-color: var(--color-gray-900);
+  color: var(--color-gray-100);
+  border-top: none;
+  margin-bottom: 0;
+  overflow-y: hidden;
+  padding: 0;
+}
+
+.featured-exhibits-container .exhibit-summary-card:first-child {
+  grid-template-columns: repeat(12, 1fr);
+  grid-column: 1 / span 4;
+  max-height: 22rem;
+}
+
+.featured-exhibits-container
+  .exhibit-summary-card:first-child
+  .exhibit-image::before {
+  background-color: var(--color-gray-700);
+  content: "";
+  display: block;
+  filter: blur(5px);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+  width: 100%;
+  z-index: -2;
+}
+
+.featured-exhibits-container .exhibit-card-meta {
+  grid-column: 1 / span 12;
+  grid-row: 1;
+  z-index: 2;
+  /* padding-left: var(--spacing-base-content); */
+}
+
+.featured-exhibits-container .exhibit-card-meta h2,
+.featured-exhibits-container .exhibit-card-meta p {
+  background: linear-gradient(to right, #000, var(--color-gray-900));
+  padding: 0 var(--spacing-base-content);
+}
+
+.featured-exhibits-container .exhibit-card-meta h2 {
+  padding-top: var(--spacing-small-content);
+}
+
+.featured-exhibits-container .exhibit-card-meta p {
+  padding-bottom: var(--spacing-small-content);
+}
+
+.featured-exhibits-container .exhibit-image {
+  grid-column: 2 / span 3;
+  grid-row: 1;
+}
+
+.featured-exhibits .excerpt {
+  grid-column: 6 / span 6;
+  grid-row: 1;
+  padding-top: 7.15rem; /* 2 small padding + 1 body line + 1 h2 + 1 body line height + 1 large padding */
+}
+
+.featured-exhibits-container .exhibit-summary-card:not(:first-child) {
+  max-height: 11rem;
+}
+
+.featured-exhibits-container .exhibit-summary-card:not(:first-child) .excerpt {
+  display: none;
+}
+
+.featured-exhibits-container
+  .exhibit-summary-card:not(:first-child)
+  .exhibit-image {
+  grid-column: 1 / span 4;
+}
+
+.featured-exhibits-container
+  .exhibit-summary-card:not(:first-child)
+  .more-link {
+  display: none;
+}
+
+#exhibit-link {
+  color: var(--color-gray-900);
+  font-size: 1.18rem;
+  padding-top: 6rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+#exhibit-link:visited {
+  color: var(--color-gray-900);
+}
+
+#exhibit-link::after {
+  content: "…";
+  padding-left: 0.33rem;
+}
+
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 45em) {
+  .featured-exhibits {
+    max-width: calc(var(--width-breakpoint-1) * 1.5);
+  }
+}
+
+/* large screens — 976px and up */
+@media screen and (min-width: 61em) {
+  .featured-exhibits {
+    max-width: calc(var(--width-breakpoint-2) * 1.5);
+  }
+}
+
+/* x-large screens — 1072px and up */
+@media screen and (min-width: 67em) {
+  .featured-exhibits {
+    max-width: calc(var(--width-breakpoint-3) * 1.5);
+  }
+}
+
+/* .featured-exhibits-container .exhibit-image::after {
+  background-color: var(--color-brand-900);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  mix-blend-mode: lighten;
+  position: absolute;
+  top: 0;
+  width: 100%;
+} */
+
+/* .carousel {
 }
 .carousel img {
   margin: 15px;
@@ -6,7 +175,7 @@
 button.slick-arrow {
 }
 #featured div {
-  padding: 1em; 
+  padding: 1em;
   border: 1px solid rgba(224, 202, 89, 0.3);
   margin-bottom: 1rem;
   background-color: rgba(224, 202, 89, 0.25);
@@ -20,12 +189,13 @@ button.slick-arrow {
   justify-self: stretch;
 }
 .caption {
-  display: block; 
+  display: block;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
 }
-.slick-prev, .slick-next {
+.slick-prev,
+.slick-next {
   width: 25px;
   height: 25px;
 }
@@ -33,4 +203,4 @@ button.slick-arrow {
 .slick-next:before {
   color: #444;
   font-size: 25px;
-}
+} */
