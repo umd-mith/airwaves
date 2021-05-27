@@ -121,10 +121,12 @@ const IndexPage = () => (
         collections, ﬁnally realizing the potential of the collections of the
         NAEB for exploration and and the broader public.
       </p>
-      <div className="internal-jump-links">
-        <Link to="/about/">Read More about the Project</Link>
-        <Link to="/explore/">Explore the Archive</Link>
-      </div>
+    </section>
+    <section className="internal-jump-links" id="read-more">
+      <Link to="/about/">Read More about the Project</Link>
+    </section>
+    <section className="internal-jump-links" id="explore-archive">
+      <Link to="/explore/">Explore the Archive</Link>
     </section>
   </Layout>
 )

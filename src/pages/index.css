@@ -15,6 +15,20 @@
   margin: 0 auto;
 }
 
+.featured-exhibits-container::before,
+.featured-exhibits-container::after {
+  background-color: var(--color-gray-300);
+  content: "";
+  display: block;
+  height: 120%;
+  left: 0;
+  position: absolute;
+  transform: skewY(6deg);
+  transform-origin: top right;
+  width: 100%;
+  z-index: -2;
+}
+
 .featured-exhibits h2 {
   margin-bottom: 0;
 }
@@ -132,6 +146,32 @@
 #exhibit-link::after {
   content: "…";
   padding-left: 0.33rem;
+}
+
+.internal-jump-links {
+  font-size: 1.18rem;
+  margin: 0 auto;
+  min-height: 7.15rem;
+  padding: var(--spacing-xlarge-content) 0;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+.internal-jump-links a,
+.internal-jump-links a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+#read-more {
+  background-color: var(--color-brand-100);
+  margin-top: var(--spacing-xlarge-content);
+}
+
+#explore-archive {
+  background-color: var(--color-gray-700);
+  color: var(--color-gray-100);
 }
 
 /* medium to large screens — starts at 720px */
