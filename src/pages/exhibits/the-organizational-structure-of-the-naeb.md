@@ -1,18 +1,27 @@
 ---
 title: The Organizational Structure of the NAEB
 creator: Matt St. John
+lede: The NAEB collection prioritizes correspondence and publications produced
+  by the organization’s headquarters, but some parts of the collection highlight
+  the contributions of member stations and their representatives. These
+  materials, especially documents related to NAEB committee work and meetings
+  like regional events, point to the unique structure of the organization and
+  its division of labor beyond the national staff. This exhibit details how the
+  NAEB expanded from a small executive staff based at the University of Illinois
+  and various committees comprised of NAEB members from across the United States
+  to a complex, member-based organization with stakeholders at many different
+  levels.
 visuals:
-  - image: "../../../static/images/1955_region_v_conference_report.jpg"
+  - image: ../../../static/images/1955_region_v_conference_report.jpg
     title: 1956 Region V Conference Report
   - title: 1952 Tape Network Brochure
-    image: "../../../static/images/1952_tape_network_brochure.jpg"
+    image: ../../../static/images/1952_tape_network_brochure.jpg
   - title: 1953 Grants-in-Aid Brochure
-    image: "../../../static/images/1953_grants_in_aid_brochure.jpg"
+    image: ../../../static/images/1953_grants_in_aid_brochure.jpg
 related:
   - title: Committees Network Acceptance, 1952-1954
     url: https://mith.umd.edu/airwaves/document/naeb-b033-f01/
-    description:
-      1952 to 1954 correspondence, meeting minutes, and reports related
+    description: 1952 to 1954 correspondence, meeting minutes, and reports related
       to NAEB's Network Acceptance Committee. Correspondence primarily addresses
       committee members' feedback and votes on submitted programs, with some
       discussion of procedures and technical problems within the committee.
@@ -25,8 +34,7 @@ related:
       Voice of America project and the Air Weather Service.
   - title: Region I, 1955-1963
     url: https://mith.umd.edu/airwaves/document/naeb-b074-f06/
-    description:
-      1955 to 1963 programs and schedules for NAEB Region I conferences,
+    description: 1955 to 1963 programs and schedules for NAEB Region I conferences,
       with some correspondence related to regional announcements and activities.
       Region I includes NAEB members from Connecticut, Delaware, Maine,
       Maryland, Massachusetts, New Hampshire, New Jersey, New York,
@@ -47,8 +55,7 @@ related:
       structures and salary information.
   - title: Region III, 1953-1965
     url: https://mith.umd.edu/airwaves/document/naeb-b074-f09/
-    description:
-      1953 to 1965 correspondence, schedules, attendee lists, programs,
+    description: 1953 to 1965 correspondence, schedules, attendee lists, programs,
       and reports related to NAEB Region III seminars, with material about 1962
       and 1963 conferences that focused on music programming. Correspondence
       includes discussion of establishing a regional educational television
@@ -56,28 +63,30 @@ related:
       NAEB members from Illinois, Indiana, Michigan, Ohio, and Wisconsin.
   - title: Region IV, 1954-1961
     url: https://mith.umd.edu/airwaves/document/naeb-b074-f10/
-    description:
-      1954 to 1961 correspondence, meeting minutes, and reports related
+    description: 1954 to 1961 correspondence, meeting minutes, and reports related
       to NAEB Region IV, with a full report on the 1954 region meeting at Iowa
       State College in Ames, Iowa. This report includes a directory listing
       members from Iowa, Minnesota, Nebraska, North Dakota, and South Dakota.
   - title: Region V, 1952-1964
     url: https://mith.umd.edu/airwaves/document/naeb-b074-f11/
-    description:
-      1952 to 1964 correspondence, meeting minutes, and reports related
+    description: 1952 to 1964 correspondence, meeting minutes, and reports related
       to NAEB Region V seminars, including a report of proceedings with
       summaries of remarks and discussion sessions for the 1956 conference in
       Denver. Region V includes NAEB members from Arkansas, Colorado, Kansas,
       Louisiana, Missouri, New Mexico, Oklahoma, and Texas.
   - title: Region VI, 1953-1965
     url: https://mith.umd.edu/airwaves/document/naeb-b074-f12/
-    description:
-      1953 to 1965 correspondence, meeting minutes, and reports related
+    description: 1953 to 1965 correspondence, meeting minutes, and reports related
       to NAEB Region VI, including programs for the 1963 and 1965 Western Radio
       and Television Conference and a full report with keynote transcripts for
       the 1953 Region VI Seminar-Workshop. Region VI includes NAEB members from
       Arizona, California, Hawaii, Idaho, Montana, Nevada, Oregon, and
       Washington.
+  - title: National Association of Educational Broadcasters 40th Annual Convention,
+      1964
+    url: https://mith.umd.edu/airwaves/programs/national-association-of-educational-broadcasters-40th-annual-convention-1964
+    description: Recordings captured at the 40th Annual Convention of the National
+      Association of Educational Broadcasters in 1964.
 ---
 
 During the June 1956 Region V conference of the National Association of Educational Broadcasters (NAEB) in Denver, Colorado, a general discussion session for conference attendees repeatedly returned to the ideas of controversy and presenting multiple sides of an argument in educational radio and television. John C. Schwarzwalder, from KUHT at the University of Houston, recalled his station cancelling a program after a fiery panel on banking became a “cat and dog fight,” and other attendees expressed concern over the funds needed to include all the relevant perspectives on a given topic. The responses of station delegates ranged from thinking of controversy as an unnecessary, audience-drawing gimmick to considering it a responsibility that should be fulfilled in all programs, but attendees seemed to share a recognition of resources and local reactions as difficulties they all faced. Such perspectives, with their focus on local experiences and investments, underline the challenge of managing activities and policies for a national membership organization, even with general goals shared by all members.
