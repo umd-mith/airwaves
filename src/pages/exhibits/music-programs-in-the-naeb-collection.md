@@ -1,8 +1,20 @@
 ---
 title: Music Programs in the NAEB Collection
 creator: Laura Schnitker
+lede: "Presented in collaboration with music departments, conservatories,
+  professional ensembles and noncommercial radio stations, these NAEB music
+  programs aired between the early 1960s to early 1970s. They provide a
+  fascinating glimpse into midcentury perspectives on music education and music
+  broadcasting in the U.S. While the majority of their narratives feature white
+  male voices, and emphasize Western classical music, a significant diversity of
+  recordings, styles and attitudes reflect important cultural and technological
+  changes in both the American academy and the radio industry. Programs covered
+  in this exhibit focus on classical music (*Beethoven: The Man Who Freed Music*
+  and *Music in Our Time: 1969*), jazz (*Evolution of Jazz* and *Jazz of the
+  Past*), and folk/Americana/international (*Music Around the World* and *The
+  Old Record Box I & II*)."
 visuals:
-  - image: "../../../static/images/music_image.jpg"
+  - image: ../../../static/images/music_image.jpg
     title: Schedule for a 1962 conference (sponsored by station WUOM) on music
       programming in educational radio.
 related:
@@ -27,16 +39,23 @@ related:
       parts of the globe.
   - title: The Old Record Box
     url: https://mith.umd.edu/airwaves/programs/the-old-record-box/
-    description:
-      Cylinder recordings of music and spoken word from late 1890's to
+    description: Cylinder recordings of music and spoken word from late 1890's to
       1929; historic recordings of music and speech.
   - title: The Old Record Box II
-    description:
-      "Musical and speaking selections played from cylinder records dated
+    description: "Musical and speaking selections played from cylinder records dated
       from the late 1890s to about 1929. This prog.: Sampler: Happy Birds, Where
       the Sunset turns the Ocean's Blue to Gold, Uncle Josh and the Ligtning Rod
       Agent, Dardanelle, Rockabye Your Baby."
     url: https://mith.umd.edu/airwaves/programs/the-old-record-box-ii/
+  - url: https://mith.umd.edu/airwaves/document/naeb-b110-f09-01/
+    title: NAEB Newsletter (January 01, 1940)
+    description: January 1940 National Association of Educational Broadcasters
+      newsletter—features a preview of the WNYC program "Adventures in Music."
+  - url: https://mith.umd.edu/airwaves/document/naeb-b034-f08/
+    title: Committees Radio Network Program, 1961-1962
+    description: 1961 to 1962 correspondence regarding the NAEB radio network
+      program committee. Includes discussion of music programming, network
+      station awards, and the scheduling of quarterly programs.
 ---
 
 Presented in collaboration with music departments, conservatories, professional ensembles and noncommercial radio stations, these NAEB music programs aired between the early 1960s to early 1970s. They provide a fascinating glimpse into midcentury perspectives on music education and music broadcasting in the U.S. While the majority of their narratives feature white male voices, and emphasize Western classical music, a significant diversity of recordings, styles and attitudes reflect important cultural and technological changes in both the American academy and the radio industry.
