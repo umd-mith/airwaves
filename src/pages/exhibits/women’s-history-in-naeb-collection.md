@@ -1,14 +1,26 @@
 ---
 title: " Women’s History in the NAEB Collection"
 creator: Jennifer Hyland Wang
+lede: "In the area of women’s history, the National Association of Educational
+  Broadcasters (NAEB) collection offers aural counterpoints to the popular
+  culture of the late postwar period for critical study. This exhibit examines
+  one such counterpoint: *American Woman In Faction and Fiction: From Colonial
+  Times Until the Present Day*, a series born of a collaboration between
+  University of California - Berkely faculty and the local radio station KPFA
+  that brought to life important moments in women’s history and dramatized the
+  lives of women over the last two centuries as revealed in excerpts from
+  American novels. Written, directed, and co-produced by Dr. Virginia Maynard
+  Levy (1911-2010), the drama and literature director of KPFA, this series is an
+  important example of local, female-produced radio content, a rarity in
+  mainstream media at the time. Maynard Levy received a citation for
+  distinguished programming from the NAEB for her efforts."
 visuals:
-  - image: "../../../static/images/naeb_women.png"
+  - image: ../../../static/images/naeb_women.png
     title: "Portrait of Virginia Maynard Levy "
 related:
   - url: " https://mith.umd.edu/airwaves/naeb-b057-f07/"
     title: Foundations, Pacifica, 1953-1955
-    description:
-      1953 to 1955 correspondence regarding NAEB's relationship with the
+    description: 1953 to 1955 correspondence regarding NAEB's relationship with the
       Pacific Foundation, the operator of radio station KPFA. Correspondence
       addresses NAEB financial support for KPFA-produced programs during a
       period of staff problems at the foundation. Also includes two biweekly
@@ -26,6 +38,32 @@ related:
     description: Thirteen half-hour programs illustrating with dramatization the
       changing status of women in America from colonial times to the present
       day, plus a one-hour panel discussion on modern-day problems.
+  - url: https://mith.umd.edu/airwaves/document/naeb-b020-f10/#01
+    title: Board of Directors, Joint Council on Educational Broadcasting, 1961
+    description: 1961 correspondence regarding the Joint Council on Educational
+      Broadcasting (previously named the Join Council on Educational Television)
+      and the relationship between the NAEB and the National Educational
+      Television and Radio Center (NETRC), with multiple drafts of a proposal to
+      formalize the working relationship between the two organizations.
+  - title: Board of Directors, Experimental television production, 1962
+    url: https://mith.umd.edu/airwaves/document/naeb-b020-f09/#01
+    description: 1962 correspondence related to the NAEB's possible experiment in
+      producing educational television series, which was authorized by the board
+      in May 1962. Correspondence addresses the controversy resulting from Loren
+      Stone's memo about this board action and the problems it might raise for
+      the NAEB and other educational broadcasting organizations, especially the
+      National Educational Television and Radio Center (NETRC).
+  - title: Century of Science
+    url: https://mith.umd.edu/airwaves/programs/century-of-science
+    description: A recorded exploration of science and its importance to the 20th
+      century American. Discussions of aspects of science affecting modern
+      America. This series is hosted by Volta Torrey, the director of radio and
+      television programming at Massachusetts Institute of Technology, as well
+      as the former editor of Popular Science.
+  - url: https://mith.umd.edu/airwaves/programs/they-bent-our-ear
+    description: Dramatic readings of 14 travelers who came to the United States in
+      1820-1850 and wrote of what they saw.
+    title: They Bent Our Ear
 ---
 
 In the area of women’s history, the National Association of Educational Broadcasters (NAEB) collection offers aural counterpoints to the popular culture of the late postwar period for critical study. At the same time that _Leave It To Beaver_ (1957-1963), _The Donna Reed Show_ (1958-1966), _Father Knows Best_ (1954-1960), and _The Adventures of_ _Ozzie and Harriet_ (1952-1966) beamed images of happy housewives at home in pearls and heels to mass audiences, local, non-commercial radio, redistributed nationally through the NAEB, offered a distinctly different and more nuanced depiction of American womanhood.
