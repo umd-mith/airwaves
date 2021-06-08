@@ -5,18 +5,15 @@ import Footer from "./footer"
 import SiteMetadata from "./site-metadata"
 import "./layout.css"
 
-const Layout = ({ children, feedUrl, title}) => {
+const Layout = ({ children, feedUrl, title }) => {
   return (
     <div className="site-wrapper">
       <Header />
       <SiteMetadata feedUrl={feedUrl} title={title} />
-      <main id="main-content">
-        {children}
-      </main>
+      <main id="main-content">{children}</main>
       <Footer />
     </div>
   )
-
 }
 
 Layout.propTypes = {
