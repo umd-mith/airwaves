@@ -48,7 +48,7 @@ const episodeMap = {
     "instantiationLocation": "location",
     "coverageType_Temporal": "temporal",
     "pbcoreinstantiationLanguage": "language",
-    "AssetDate dateType_broadcast version_year": "year" 
+    "AssetDate dateType_broadcast version_year": "year"
   },
 
   things: {
@@ -93,6 +93,42 @@ const episodeMap = {
     "Genre(s)": {
       property: "genre",
       expander: makeIdExpander("genres.json", g => {
+        return {
+          id: g.id,
+          name: g.name 
+        }
+      })
+    },
+    "Continent": {
+      property: "continent",
+      expander: makeIdExpander("places.json", g => {
+        return {
+          id: g.id,
+          name: g.name 
+        }
+      })
+    },
+    "Country": {
+      property: "country",
+      expander: makeIdExpander("places.json", g => {
+        return {
+          id: g.id,
+          name: g.name 
+        }
+      })
+    },
+    "Region": {
+      property: "region",
+      expander: makeIdExpander("places.json", g => {
+        return {
+          id: g.id,
+          name: g.name 
+        }
+      })
+    },
+    "Settlement": {
+      property: "settlement",
+      expander: makeIdExpander("places.json", g => {
         return {
           id: g.id,
           name: g.name 
