@@ -181,7 +181,11 @@ class Search extends Component {
       result["text"] = r["text"]
       return result
     } else if (r.ref[0] === "e") {
-      return { ...window.__EPISODES__.get(r.ref), type: "Episode" }
+      // What used to be known as episodes are now programs.
+      // This change was made superficially in the interface instead of the 
+      // underlying data and components. The type property needs to be set here 
+      // to Program so that faceting in the interface works properly.
+      return { ...window.__EPISODES__.get(r.ref), type: "Program" }
     }
   }
 

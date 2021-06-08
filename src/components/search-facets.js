@@ -130,7 +130,7 @@ function tally(values, map) {
 }
 
 function tallyType(r, map) {
-  const recType = r.id[0] === 'd' ? 'Document' : 'Episode'
+  const recType = r.id[0] === 'd' ? 'Document' : 'Program'
   map.set(recType, map.has(recType) ? map.get(recType) + 1 : 1)
 }
 
