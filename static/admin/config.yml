@@ -29,6 +29,12 @@ collections:
         required: true
         hint: Your name
 
+      - label: Featured Image
+        name: key-image
+        widget: image
+        allow_multiple: false
+        hint: The image that will appear in the summary card for the exhibit
+
       - label: Excerpt
         name: lede
         widget: markdown
