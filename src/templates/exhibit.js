@@ -6,7 +6,7 @@ import remark from "remark"
 import remarkHtml from "remark-html"
 import recommended from "remark-preset-lint-recommended"
 
-// import './exhibit.css'
+import "./exhibit.css"
 
 const convertMarkdown = remark()
   .use(recommended)
