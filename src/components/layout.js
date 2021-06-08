@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import Header from "./header"
 import Footer from "./footer"
 import SiteMetadata from "./site-metadata"
+import "@fontsource/open-sans"
 import "./layout.css"
 
 const Layout = ({ children, feedUrl, title }) => {
