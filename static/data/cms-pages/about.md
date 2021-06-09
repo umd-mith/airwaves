@@ -1,11 +1,14 @@
 ---
 team: |-
   ## Contributors
+
   ### Project Directors
+
   * Stephanie Sapienza (Principal Investigator, MITH)
-  * Eric Hoyt (Principal Investigator, University of Wisconsin)
+  * Eric Hoyt (Principal Investigator, University of Wisconsin-Madison)
 
   ### Advisory Team
+
   * Rebecca Fraimow (Archivist, WGBH)
   * Megan McShea (Archivist, Smithsonian Institution)
   * Allison Perlman (Associate Professor, UC Irvine)
@@ -13,13 +16,16 @@ team: |-
   * Josh Shepperd (Assistant Professor, Catholic University)
 
   ### Project Team
+
   * J.J. Bersch (Production Assistant, UW)
   * Matthew Blessing (Administrator of the Division of Library-Archives, WHS)
   * Alison Bridger (Archivist, WHS)
+  * Emily Frazier (Graduate Research Assistant, MITH)
   * Paul Hedges (Emerging Technologies Archivist, WHS)
+  * Chuck Howell (UMD Libraries)
   * Kirsten Keister (Designer, MITH)
   * Jacob Mertens (Production Assistant, UW)
-  * Trevor Muñoz (Director, MITH)
+  * Trevor Muñoz (Executive Director, MITH)
   * Connor Perkins (Production Assistant, UW)
   * Matthew St. John (Production Assistant, UW)
   * Ed Summers (Developer, MITH)
