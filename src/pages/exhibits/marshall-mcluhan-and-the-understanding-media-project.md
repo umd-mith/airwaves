@@ -1,35 +1,47 @@
 ---
 title: Marshall McLuhan and the Understanding Media Project
 creator: Christopher Cwynar
+key-image: /images/naeb-b111-f08-06.jpg
+lede: In the late 1950s, just as the Canadian media theorist Marshall McLuhan’s
+  profile was beginning to grow, the NAEB commissioned him to perform a study
+  regarding the potential educational uses of new media and the implications of
+  emerging media for education at various levels. Upon securing a grant from the
+  National Defense of Education Act, the NAEB and McLuhan embarked upon a
+  year-long project that resulted in a report entitled *The Report on the
+  Understanding Media Project*. Although it was not well received at the time,
+  the papers in the NAEB collection pertaining to the project provide a
+  substantial degree of insight into McLuhan’s working process and the evolution
+  of his ideas pertaining to the media and education.
 visuals:
-  - image: "../../../static/images/mcluhan_note_to_skornia_1959.jpg"
+  - image: ../../../static/images/mcluhan_note_to_skornia_1959.jpg
     title: A 1959 letter from Marshall McLuhan to NAEB Executive Director Harry
       Skornia.
-  - image: "../../../static/images/february_1960_testable_hypotheses.jpg"
+  - image: ../../../static/images/february_1960_testable_hypotheses.jpg
     title: A 1960 list of testable hypotheses for the project by Marshall McLuhan.
+  - image: /images/naeb-b111-f08-06.jpg
+    title: "[July 1958 NAEB
+      newsletter](https://mith.umd.edu/airwaves/document/naeb-b111-f08-06/)
+      detailing a speech given by Marshall McLuhan at the Conference on
+      Educational Television and Related Media."
 related:
   - url: https://mith.umd.edu/airwaves/document/naeb-b066-f08/
     title: McLuhan, Marshall, 1958
-    description:
-      1958 correspondence about the NAEB's planned collaborative project
+    description: 1958 correspondence about the NAEB's planned collaborative project
       on new media education with Marshall McLuhan, including discussion of
       fundraising and drafts of the U.S. Office of Education grant application.
   - title: McLuhan, Marshall, January-June, 1959
     url: https://mith.umd.edu/airwaves/document/naeb-b066-f09/
-    description:
-      January to June 1959 correspondence regarding Marshall McLuhan's
+    description: January to June 1959 correspondence regarding Marshall McLuhan's
       project with the NAEB, with drafts of the U.S. Office of Education grant
       application. Discussions include budgetary needs and translating his
       concepts into experiments.
   - url: https://mith.umd.edu/airwaves/document/naeb-b066-f10/
     title: McLuhan, Marshall, July-December, 1959
-    description:
-      July to December 1959 correspondence regarding Marshall McLuhan's
+    description: July to December 1959 correspondence regarding Marshall McLuhan's
       project with the NAEB, including a progress report and draft syllabus for
       project sessions.
   - url: https://mith.umd.edu/airwaves/document/naeb-b067-f01/
-    description:
-      1960 to 1963 correspondence regarding Marshall McLuhan's project
+    description: 1960 to 1963 correspondence regarding Marshall McLuhan's project
       with the NAEB, including discussion of grant fund distribution, staff
       compensation, and experiment design. Project materials include scripts for
       a pilot video and drafts of discussion and writing prompts for students.
