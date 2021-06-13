@@ -1,6 +1,7 @@
 ---
 title: Medicine and Health Care in the NAEB Collection
 creator: Bill Kirkpatrick
+key-image: /images/naeb-b069-f05_0016.jpg
 lede: The NAEB collection available through Unlocking the Airwaves, provides a
   glimpse into what medicine and health programming sounded like on radio from
   the late 1950s through the 1970s. Much of the medical knowledge here is
@@ -16,6 +17,14 @@ visuals:
   - title: March of Medicine announced as a new series in the November 1956
       Association for Education by Radio-Television journal.
     image: ../../../static/images/march_of_medicine_aert.jpg
+  - title: "[December 1960 NAEB
+      newsletter](https://mith.umd.edu/airwaves/document/naeb-b111-f09-04/)
+      announcing *H Is for Joy* and other new series."
+    image: /images/naeb-b111-f09-04.jpg
+  - image: /images/naeb-b069-f05_0016.jpg
+    title: "[A program for a 1954 WNYC's Educational Institute of the Air
+      conference](https://mith.umd.edu/airwaves/document/naeb-b069-f05/#17) that
+      featured numerous talks on medicine and science."
 related:
   - title: H is for Joy
     description: A documentary series about the nature of drug addiction, the
