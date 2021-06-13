@@ -1,13 +1,25 @@
 ---
 title: Labor and the NAEB
 creator: Allison Perlman
+key-image: /images/naeb-b067-f02_0158-crop.png
+lede: Organized labor and educational broadcasters often found common cause in
+  the US. Along with others, unions and educational broadcasters joined forces
+  in the late 1920s and early 1930s to resist a regulatory paradigm that favored
+  commercial radio. Yet, as documents surfaced through Unlocking the Airwaves
+  reveal, the relationship between organized labor and educational television
+  extended beyond forms of mutual solidarity. This exhibit explores that
+  relationship through the work of Morris Novik, an NAEB leader who, in the
+  1950s and 1960s, was critical in negotiating relationships with trade and
+  talent unions in the noncommercial television sector and in discerning how and
+  to what degree labor would factor into the imagined public that educational
+  stations would serve.
 visuals:
-  - image: "../../../static/images/naeb-b067-f02_0158-crop.png"
+  - image: ../../../static/images/naeb-b067-f02_0158-crop.png
     title: Portrait of Morris Novik at the head of a Broadcasting Magazine piece
       entitled ‘Labor Turns to Radio.' [Read the entire piece at the *Unlocking
       the Airwave*s
       website](https://mith.umd.edu/airwaves/document/naeb-b067-f02/#159).
-  - image: "../../../static/images/mnovik_egoldberger_election-wnyc.jpg"
+  - image: ../../../static/images/mnovik_egoldberger_election-wnyc.jpg
     title: 'Morris Novik and the WNYC election night news team circa 1941. Photo
       courtesy of WNYC Archive Collections, from the feature piece "[Morris S.
       Novik: Public Radio
@@ -22,8 +34,7 @@ related:
     url: https://mith.umd.edu/airwaves/document/naeb-b067-f02/#159
   - title: "Morris Novik: 1953-1954 NAEB Correspondence"
     url: https://mith.umd.edu/airwaves/document/naeb-b069-f10/
-    description:
-      Correspondence of Morris Novik with the NAEB in the years leading
+    description: Correspondence of Morris Novik with the NAEB in the years leading
       up to his consultancy. "As new television stations go on the air, they ask
       NAEB about labor relations, and union relations. Radio stations also have
       questions and problems in this area from time to time." - Harry Skornia,
@@ -37,8 +48,7 @@ related:
       NAEB President, 1954
   - title: Fund for Adult Education announcement
     url: "https://mith.umd.edu/airwaves/document/naeb-b067-f02/#218 "
-    description:
-      “Our Board understands that the NAEB has been receiving numerous
+    description: “Our Board understands that the NAEB has been receiving numerous
       requests for advice on labor and union relations from new educational
       television stations and stations. Since they recognize that the NAEB is
       regarded as the service organization of educational television and radio
@@ -47,46 +57,41 @@ related:
       Martha C. Howard, Fund for Adult Education, 1954
   - title: Letter about Novik’s work for the NAEB
     url: https://mith.umd.edu/airwaves/document/naeb-b067-f02/#80
-    description:
-      A letter from Harry Skornia to Morris Novik, solidifying the terms
+    description: A letter from Harry Skornia to Morris Novik, solidifying the terms
       of his funded consultation. Novik was to assist local stations in
       negotiating relationships with unions and work with national organizations
       to navigate rights for nationally circulating programming.
   - title: Letter from KCTS Seattle to the NAEB
     url: https://mith.umd.edu/airwaves/document/naeb-b067-f02/#129
-    description:
-      “We have no labor agreements of any kind, have not been requested
+    description: “We have no labor agreements of any kind, have not been requested
       to discuss any, by any of the unions, nor do we contemplate having any.
       The station is operated by the University of Washington, an integral unit
       of state government — there are no labor contracts between the University
       and any unions.” - Loren B. Stone, Manager of KCTS Seattle, 1955
   - title: Morris Novik on ‘the Union Problem’
-    description:
-      "Stations insisted that labor negotiations should be exclusively
+    description: "Stations insisted that labor negotiations should be exclusively
       local, responsive to local conditions, and not applicable to the sector on
       whole. As Skornia relayed to Novik in this 1954 letter, station managers
       were “afraid that in many areas where there’s no trouble, a national
       agreement would be a disadvantage.” "
     url: https://mith.umd.edu/airwaves/document/naeb-b067-f02/#25
   - title: Letter from KETC St. Louis to Novik
-    description:
-      As Richard Goggin, station manager of KETC in St. Louis, wrote to
+    description: As Richard Goggin, station manager of KETC in St. Louis, wrote to
       Novik in December 1953, “no educational television station can financially
       face a future in which everyone on staff is unionized at union commercial
       television pay scales. We are now at a crucial point.”
     url: https://mith.umd.edu/airwaves/document/naeb-b067-f02/#9
   - title: Novik in 1955 on AFL-CIO support of educational television expansion
-    description: '"You also ought to know Mr. Meany filed with the F.C.C. on
+    description: "\"You also ought to know Mr. Meany filed with the F.C.C. on
       December 15th what I regard as a strong statement opposing any reduction
-      in the present allocation plan. The highlight of his statement was ''This
+      in the present allocation plan. The highlight of his statement was 'This
       proceeding, in my judgment, should be geared to having as many channels as
       possible, for as many television stations as possible, in as many
-      communities as possible.''"'
+      communities as possible.'\""
     url: https://mith.umd.edu/airwaves/document/naeb-b067-f02/#209
   - url: https://mith.umd.edu/airwaves/document/naeb-b111-f06-09/#18
     title: NAEB Newsletter (May 31, 1948)
-    description:
-      Novik, during his years as the NAEB Secretary, was highlighted in
+    description: Novik, during his years as the NAEB Secretary, was highlighted in
       this 1948 NAEB newsletter. "Morris S. Novik, NAEB Secretary, says news
       analysts and commentators belonging to the American Civil Liberties Union
       wants a free hand in what they say. Their statement to this effect was
