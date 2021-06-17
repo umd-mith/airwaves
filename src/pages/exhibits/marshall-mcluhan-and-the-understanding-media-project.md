@@ -1,7 +1,7 @@
 ---
 title: Marshall McLuhan and the Understanding Media Project
 creator: Christopher Cwynar
-key-image: /images/naeb-b111-f08-06.jpg
+key-image: /images/640px-marshall_mcluhan.jpg
 lede: In the late 1950s, just as the Canadian media theorist Marshall McLuhan’s
   profile was beginning to grow, the NAEB commissioned him to perform a study
   regarding the potential educational uses of new media and the implications of
@@ -13,6 +13,10 @@ lede: In the late 1950s, just as the Canadian media theorist Marshall McLuhan’
   substantial degree of insight into McLuhan’s working process and the evolution
   of his ideas pertaining to the media and education.
 visuals:
+  - image: /images/640px-marshall_mcluhan-2.jpg
+    title: 1945 photograph of Marshall McLuhan by Josephine Smith. Retrieved via
+      [Wikimedia Commons (Public
+      Domain)](https://commons.wikimedia.org/wiki/File:Marshall_McLuhan.jpg).
   - image: ../../../static/images/mcluhan_note_to_skornia_1959.jpg
     title: A 1959 letter from Marshall McLuhan to NAEB Executive Director Harry
       Skornia.
