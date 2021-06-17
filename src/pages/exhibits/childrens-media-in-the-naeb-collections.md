@@ -1,17 +1,36 @@
 ---
 title: Children's Media in the NAEB Collection
 creator: Alexander Russo
-lede: If there is one program that defined public media it is children’s media.
-  From *Sesame Street* to *Mr. Rogers Neighborhood*, to today’s PBS kids app,
-  child-oriented programs are the apotheosis of educational media’s desire to
-  use technology to address social and economic inequality. Its production was
-  aided by consultations with academic experts children’s psychology, behavior,
-  and educational development. But this ethos preexisted the 1967 Public
-  Broadcasting Act and the creation of the CPB; it was also a hallmark of the
-  NAEB.
+key-image: /images/naeb-b102-f03-08_0007.jpg
+lede: During the 1950s and 1960s, the baby boom and a national focus on
+  domesticity resulted in an obsessive concern over the status of those
+  children. This period was filled with discussions that inflected upon
+  children, ranging widely from new kinds of parenting techniques, such as Dr.
+  Spock’s “natural loving care” approach, to the psychological effects of threat
+  of nuclear annihilation, to the supposed social and cultural decline
+  associated with juvenile delinquency. These topics and more are all part of
+  NAEB station programming like *How's The Family?*, *Exploring the Child's
+  World*, and *Coming of Age*, as well as discussions about children’s media
+  consumption in NAEB documents.
 visuals:
   - title: The Daily Iowan coverage of "How's the Family?" on January 2, 1955
     image: ../../../static/images/howsfamily.png
+  - image: /images/naeb-b112-f01-17_0005.jpg
+    title: "[July 1966 NAEB
+      newsletter](https://mith.umd.edu/airwaves/document/naeb-b112-f01-17/)
+      advertising a lineup of children's programs offered by KRMA-TV in Denver."
+  - image: /images/naeb-b102-f03-08_0000.jpg
+    title: Cover page of the [official program of the Seventeenth Institute for
+      Education by Radio, held in
+      Columbus](https://mith.umd.edu/airwaves/document/naeb-b102-f03-08/), Ohio,
+      from May 2-5, 1947. The meeting included numerous talks and panels about
+      children's programming, including a panel titled ["Is Radio Meeting the
+      Needs of Our
+      Children?"](https://mith.umd.edu/airwaves/document/naeb-b102-f03-08/#8)
+      chaired by [Dorothy
+      Gordon](https://www.nytimes.com/1970/05/12/archives/dorothy-gordon-81-moderator-of-times-youth-forums-is-dead-started.html),
+      creator and moderator of the weekly radio and television program *The New
+      York Times Youth Forums*.
 related:
   - url: https://mith.umd.edu/airwaves/programs/hows-the-family/
     title: How's the Family?
