@@ -1,6 +1,7 @@
 ---
 title: Economy and Business in the NAEB Collection
 creator: Kit Hughes
+key-image: /images/kit_image_1_cropped.jpg
 lede: "Throughout its history, the NAEB produced many programs focused on issues
   of economy and business. In this exhibit, author Kit Huges sketches the
   evolving aesthetic strategies and viewpoints found within these programs, from
