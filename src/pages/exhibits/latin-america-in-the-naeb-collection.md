@@ -1,6 +1,7 @@
 ---
 title: Latin America in the NAEB Collection
 creator: Arcelia Gutiérrez
+key-image: /images/640px-erwin_canham_in_boston-2.jpg
 lede: "NAEB programs about Latin America broadly centered on themes like the
   rise of communism and the Cold War in Latin America, Cuba’s revolution of
   1959, John F. Kennedy’s Alliance for Progress, and the rise of Latin American
@@ -13,10 +14,24 @@ lede: "NAEB programs about Latin America broadly centered on themes like the
   *Latin American Perspectives*, a series of lectures about current Latin
   American problems and their historical setting."
 visuals:
+  - image: /images/640px-erwin_canham_in_boston-2.jpg
+    title: "Photograph of Erwin Carnham, journalist and editor of the *Christian
+      Science Monitor* and host of the series *Contemporary Revolution in Latin
+      America*. Creative Commons image retrieved from Mayor John F. Collins
+      records, Collection #0244.001, City of Boston Archives, Boston, via
+      [Wikimedia](https://commons.wikimedia.org/wiki/File:Erwin_Canham_in_Bosto\
+      n.jpg)."
   - image: ../../../static/images/wnth_sample_programs.png
     title: "Contemporary Revolution in Latin America included in a 1961 list of
       representative broadcast programs from WNTH, a high school radio station
       in Winnetka, Illinois. "
+  - image: /images/640px-alliance_for_progress_in_venezuela_1961.jpg
+    title: First Lady Jacqueline Kennedy delivering a speech in Spanish about the
+      Agrarian Reform Program in La Morita, Venezuela, in 1961. Others pictured
+      include President John F. Kennedy, President of Venezuela Rómulo
+      Betancourt, and US Ambassador to Venezuela Teodoro Moscoso. Public domain
+      photograph taken by Cecil Stoughton, retrieved via
+      [Wikimedia](https://commons.wikimedia.org/wiki/File:Alliance_for_Progress_in_Venezuela_1961.jpg).
 related:
   - title: Contemporary Revolution in Latin America
     url: https://mith.umd.edu/airwaves/programs/contemporary-revolution-in-latin-america/
