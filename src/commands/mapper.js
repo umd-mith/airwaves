@@ -127,7 +127,7 @@ function mapLists(e, entityMap) {
     for (let [p1, p2] of Object.entries(entityMap.lists)) {
       if (e.hasOwnProperty(p1)) {
         if (! m.hasOwnProperty(p2)) {
-          m[p2] = [e[p1]]
+          m[p2] = e[p1]
         } else {
           m[p2].push(e[p1])
         }

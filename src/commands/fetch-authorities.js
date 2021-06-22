@@ -2,6 +2,13 @@ const chalk = require("chalk")
 const { fetch, makeIdExpander, writeJson } = require("./mapper")
 
 async function main() {
+
+  const snac = await fetch("SNAC Records", snacMap)
+  writeJson(snac, "snac.json")
+
+  const wikidata = await fetch("Wikidata Records", wikidataMap)
+  writeJson(wikidata, "wikidata.json")
+
   const people = await fetch("CPF Authorities", peopleMap)
   writeJson(people, "people.json")
 
@@ -55,8 +62,18 @@ const peopleMap = {
   slugId: "Name",
   strings: {
     Name: "name",
-    "Entity Type": "type",
+    "Entity Type": "type"
   },
+  things: {
+    "Wikidata QCode": {
+      property: "wikidata",
+      expander: makeIdExpander("wikidata.json", d => d, allowMultiple=false)
+    },
+    "SNAC ID": {
+      property: "snac",
+      expander: makeIdExpander("snac.json", d => d, allowMultiple=false)
+    }
+  }
 }
 
 const subjectsMap = {
@@ -99,6 +116,58 @@ const themesMap = {
   },
 }
 
+const snacMap = {
+  strings: {
+    "SNAC ID": "snacId",
+    "Description": "description",
+    "Source for BiogHist": "descriptionSource",
+    "Biographical or Historical Note": "description",
+    "Date of Birth": "birthDate",
+    "Date of Death": "deathDate",
+  },
+  lists: {
+    "Alternate Names": "altNames",
+    "Subject(s)": "subjects",
+    "Places": "places",
+    "Occupation(s)": "occupations",
+    "Relations (Associated With)": "associatedWith",
+    "Relations (Same As)": "sameAs"
+  }
+}
+
+const wikidataMap = {
+  strings: {
+    "Wikidata ID": "wikidataId",
+    "Wikidata label": "name",
+    "Wikidata label description": "description",
+    "Wikipedia URL": "wikipediaUrl",
+    "date of birth (P569)": "birthDate",
+    "date of death (P570)": "deathDate",
+    "place of birth (P19)": "birthPlace",
+    "place of death (P20)": "deathPlace",
+    "inception (P571)": "inceptionDate",
+    "coordinate location": "geo",
+    "Settlement": "settlment",
+    "State Check": "state",
+    "SNAC Ark ID": "snacArk"
+  },
+  lists: {
+    "Wikidata altLabels": "altNames",
+    "instance of": "instanceOf",
+    "licensed to broadcast to (P1408)": "broadcastTo",
+    "located in the administrative territorial entity (P131)": "locatedIn",
+    "country (P17)": "country",
+    "occupation (P106)": "occupation",
+    "field of work (P101)": "fieldOfWork",
+    "employer (P108)": "employer",
+    "member of (P463)": "memberOf",
+    "LOC ID (P244)": "lccn",
+    "VIAF ID (P214)": "viaf",
+    "owned by (P127)": "ownedBy",
+    "official website (P856)": "website"
+  }
+}
+
 function flattenThemes(themes) {
   const flatThemes = []
   themes.forEach(theme => {
@@ -135,6 +204,13 @@ function flattenSubjects(subjects) {
     }
   }
   return newSubjects.sort((a, b) => a.name.localeCompare(b.name))
+}
+
+function joinSnacWikidata(people) {
+  const wikidata = require('../../static/data/wikidata.json')
+  const snac = require('../../static/data/snac.json')
+  for (const p of people) {
+  }
 }
 
 if (require.main === module) {
