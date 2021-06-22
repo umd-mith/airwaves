@@ -31,7 +31,7 @@ const ExhibitsPage = ({ data }) => {
             <ExhibitSummaryCard
               title={e.frontmatter.title}
               creator={e.frontmatter.creator || ""}
-              keyImage={e.frontmatter.visuals[0]}
+              keyImage={e.frontmatter.key_image}
               absPath={e.fileAbsolutePath}
               lede={e.frontmatter.lede}
             />
@@ -51,16 +51,9 @@ export const query = graphql`
       nodes {
         frontmatter {
           creator
+          key_image
           lede
           title
-          visuals {
-            title
-            image {
-              childImageSharp {
-                gatsbyImageData(placeholder: BLURRED)
-              }
-            }
-          }
         }
         fileAbsolutePath
       }

@@ -1,6 +1,6 @@
 import path from "path"
 import React from "react"
-import { Link } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import remark from "remark"
 import remarkHtml from "remark-html"
@@ -15,7 +15,11 @@ const convertMarkdown = remark()
 const ExhibitSummaryCard = ({ title, creator, keyImage, lede, absPath }) => {
   const slug = path.basename(absPath).replace(/\.md$/, "")
   const url = `/exhibits/${slug}/`
-  const gimage = getImage(keyImage.image)
+
+  function ExhibitCoverImage(props) {
+    // TODO: Get image data needed here
+    return null
+  }
 
   return (
     <div id={slug} className="exhibit-summary-card">
@@ -26,7 +30,7 @@ const ExhibitSummaryCard = ({ title, creator, keyImage, lede, absPath }) => {
         <p>{creator}</p>
       </div>
       <div className="exhibit-image">
-        <GatsbyImage image={gimage} alt={keyImage.title} />
+        <ExhibitCoverImage imgPath={keyImage} />
       </div>
       <p
         className="excerpt text-block"
