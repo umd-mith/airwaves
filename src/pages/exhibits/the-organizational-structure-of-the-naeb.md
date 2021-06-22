@@ -1,6 +1,7 @@
 ---
 title: The Organizational Structure of the NAEB
 creator: Matt St. John
+key-image: /images/1952_tape_network_brochure.jpg
 lede: The NAEB collection prioritizes correspondence and publications produced
   by the organization’s headquarters, but some parts of the collection highlight
   the contributions of member stations and their representatives. These
