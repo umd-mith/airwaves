@@ -1,7 +1,7 @@
 ---
 title: Medicine and Health Care in the NAEB Collection
 creator: Bill Kirkpatrick
-key-image: /images/naeb-b069-f05_0016.jpg
+key-image: /images/naeb-b069-f05_0016-cropped.jpg
 lede: The NAEB collection available through Unlocking the Airwaves, provides a
   glimpse into what medicine and health programming sounded like on radio from
   the late 1950s through the 1970s. Much of the medical knowledge here is
