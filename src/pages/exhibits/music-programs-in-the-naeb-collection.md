@@ -1,6 +1,7 @@
 ---
 title: Music Programs in the NAEB Collection
 creator: Laura Schnitker
+key-image: /images/640px-duke-ellington-arrives-in-copenhagen-with-his-band-352130627073.jpg
 lede: "Presented in collaboration with music departments, conservatories,
   professional ensembles and noncommercial radio stations, these NAEB music
   programs aired between the early 1960s to early 1970s. They provide a
@@ -14,9 +15,24 @@ lede: "Presented in collaboration with music departments, conservatories,
   Past*), and folk/Americana/international (*Music Around the World* and *The
   Old Record Box I & II*)."
 visuals:
+  - image: /images/640px-beethoven.jpg
+    title: "1820 potrait of Ludwig van Beethoven by Joseph Karl Stieler. The famed
+      composer and pianist serves as the subject of the series *[Beethoven: The
+      Man Who Freed
+      Music](https://mith.umd.edu/airwaves/programs/beethoven-the-man-who-freed\
+      -music/)*, produced by the University of Michigan to commemorate the 200th
+      anniversary of the Beethoven’s birth. Public doman painting retrieved from
+      [Wikimedia](https://commons.wikimedia.org/wiki/File:Beethoven.jpg)."
   - image: ../../../static/images/music_image.jpg
     title: Schedule for a 1962 conference (sponsored by station WUOM) on music
       programming in educational radio.
+  - image: /images/640px-duke-ellington-arrives-in-copenhagen-with-his-band-352130627073.jpg
+    title: 1950 photograph of Duke Ellington and his band in Copenhagen by Aage
+      Sørensen. Ellington served as the subject of four episodes of the series
+      *[Evolution of
+      Jazz](https://mith.umd.edu/airwaves/programs/evolution-of-jazz/)*. Public
+      domain photograph retrieved from
+      [Wikimedia](https://commons.wikimedia.org/wiki/File:Duke-Ellington-arrives-in-Copenhagen-with-his-band-352130627073.jpg).
 related:
   - url: https://mith.umd.edu/airwaves/programs/beethoven-the-man-who-freed-music/
     title: "Beethoven: The Man Who Freed Music"
