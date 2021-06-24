@@ -48,6 +48,7 @@ module.exports = {
     `gatsby-transformer-json`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-react-svg`,
       options: {
