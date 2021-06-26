@@ -21,6 +21,7 @@ const FeaturedExhibitsProvider = () => {
             }
           }
           fileAbsolutePath
+          id
         }
       }
       dataJson {
@@ -53,6 +54,7 @@ const FeaturedExhibitsProvider = () => {
       creator: exhibitObj.frontmatter.creator,
       lede: exhibitObj.frontmatter.lede,
       keyImage: keyImage,
+      id: exhibitObj.id
     }
   }
 
@@ -65,6 +67,7 @@ const FeaturedExhibitsProvider = () => {
     <div className="featured-exhibits-container">
       {featuredAsProps.map(cardProps => (
         <ExhibitSummaryCard
+          key={cardProps.id}
           title={cardProps.title}
           creator={cardProps.creator}
           keyImage={cardProps.keyImage}
