@@ -1,5 +1,6 @@
 const fs = require("fs")
 const path = require("path")
+const now = new Date()
 
 module.exports = {
   flags: {
@@ -97,8 +98,23 @@ module.exports = {
         path: `${__dirname}/static/data/cms-pages`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-  ],
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Unlocking the Airwaves`,
+        short_name: `Airwaves`,
+        icon: `./src/images/icon.png`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      precachePages: [
+        '/',
+        '/about/',
+        '/explore/',
+        '/search/',
+        '/exhibits/',
+      ]
+    }
+  ]
 }

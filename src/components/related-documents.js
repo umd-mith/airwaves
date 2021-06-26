@@ -30,7 +30,6 @@ lists related documents:
 */
 
 const RelatedDocuments = ({relatedNames, relatedDocs, documents}) => {
-  console.log(relatedDocs)
   let related = getRelated(relatedNames, documents)
 
   // add any related folders that weren't already included
