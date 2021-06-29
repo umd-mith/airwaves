@@ -11,12 +11,14 @@
   display: grid;
 }
 
-.theme-group div:last-child {
-  margin-bottom: var(--spacing-large-content);
+.theme-group {
+  margin-bottom: var(--spacing-xlarge-content);
 }
 
 .theme-group h3 {
-  margin-bottom: 0.65rem;
+  border-bottom: 1px solid var(--color-gray-500);
+  margin-bottom: var(--spacing-base-content);
+  padding-bottom: var(--spacing-small-content);
 }
 
 .theme {
@@ -39,7 +41,42 @@
 
   .themes {
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: var(--spacing-large-content);
+    grid-template-rows: auto;
+    column-gap: var(--spacing-xlarge-content);
+    grid-template-areas:
+      "theme-1 theme-1 theme-1"
+      "theme-2 theme-3 theme-4"
+      "theme-5 theme-6 .";
+  }
+
+  .ArtsHumanitiesMedia {
+    grid-area: theme-1;
+  }
+
+  .ArtsHumanitiesMedia .theme-children {
+    display: grid;
+    column-gap: var(--spacing-xlarge-content);
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .CivicsLawGovernment {
+    grid-area: theme-2;
+  }
+
+  .GlobalHistoryCulture {
+    grid-area: theme-3;
+  }
+
+  .Science {
+    grid-area: theme-4;
+  }
+
+  .SocialScience {
+    grid-area: theme-5;
+  }
+
+  .USHistoryCulture {
+    grid-area: theme-6;
   }
 }
 

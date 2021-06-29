@@ -36,19 +36,20 @@ class SearchPage extends React.Component {
           <Search query={this.state.query} facets={this.state.facets} />
           <div className="themes">
             {themeGroups.map(tg => {
+              const groupKey = tg.fieldValue.replace(/[&,\.\s]/g, "")
               return (
-                <div className="theme-group">
+                <div className={`theme-group ${groupKey}`}>
                   <h3>{tg.fieldValue}</h3>
-                  {tg.edges.map(t => (
-                    <div
-                      className="theme"
-                      role="button"
-                      tabIndex={0}
-                      onClick={e => {
-                        this.setFacets(`subject:${t.node.name}`)
-                        navigate(`/search/?f=subject:${t.node.name}`)
-                      }}
-                    >
+                  <div className="theme-children">
+                    {tg.edges.map(t => (
+                      <div
+                        className="theme"
+                        role="button"
+                        tabIndex={0}
+                        onClick={e => {
+                          this.setFacets(`subject:${t.node.name}`)
+                          navigate(`/search/?f=subject:${t.node.name}`)
+                        }}
                       >
                         {t.node.name}
                       </div>
