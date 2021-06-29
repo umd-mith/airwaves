@@ -3,5 +3,17 @@
  *
  * See: https://www.gatsbyjs.org/docs/ssr-apis/
  */
+const React = require("react")
 
-// You can delete this file if you're not using it
+const bodyScripts = [
+  <script
+    type="text/javascript"
+    dangerouslySetInnerHTML={{
+      __html: `timeline = new TL.Timeline('timeline', '/data/visualizations/pbtimeline.json')`,
+    }}
+  />,
+]
+
+exports.onRenderBody = ({ setPostBodyComponents }) => {
+  setPostBodyComponents(bodyScripts)
+}
