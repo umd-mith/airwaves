@@ -10,9 +10,9 @@
   display: grid;
 }
 
-.exhibits-toc {
+/* .exhibits-toc {
   text-align: center;
-}
+} */
 
 .exhibits-toc li {
   margin: 0.65rem;
@@ -37,7 +37,9 @@
   }
 
   .exhibits-toc {
-    column-count: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: var(--spacing-base-content);
   }
 }
 
