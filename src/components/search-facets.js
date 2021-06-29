@@ -10,9 +10,9 @@ class SearchFacets extends Component {
     return (
       <article className="facets col-4 col-5-lg col-5-md col-6-sm col-12-xs">
 
-		    <div className="facet-panel item-total">
-			    <span>Refine Results</span> <span className="item-count">{this.props.results.length}</span>
-		    </div>
+        <div className="facet-panel item-total">
+          <span>Refine Results</span> <span className="item-count">{this.props.results.length}</span>
+        </div>
 
         {facets.map(facet => (
         <div key={`facet-${facet.name}`} className={`facet-panel facet-${facet.name}`}>
@@ -54,6 +54,10 @@ class Facet extends Component {
   }
 
   render() {
+
+    // remove "Node" from display of a synthetic theme used by visualizations
+    const name = this.props.name.replace(' Node', '')
+    
     return (
       <>
         <input
@@ -65,7 +69,7 @@ class Facet extends Component {
           className="cb-input cb-toggle"
         />
         <label title={this.props.name} className="cb-label">
-          {this.props.name}
+          {name}
         </label>
         <span className="item-count">{this.props.count}</span>
       </>
