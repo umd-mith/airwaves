@@ -12,7 +12,7 @@ const Layout = ({ children, feedUrl, title }) => {
   return (
     <div className="site-wrapper">
       <Header />
-      <SiteMetadata feedUrl={feedUrl} title={title} />
+      <SiteMetadata feedUrl={feedUrl} title={title} locale="en" />
       <main id="main-content">{children}</main>
       <Footer />
     </div>

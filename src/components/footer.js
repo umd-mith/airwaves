@@ -11,19 +11,25 @@ const Footer = () => (
     <div className="footer-content-wrapper">
       <div className="sponsors">
         <a href="https://mith.umd.edu/">
-          {" "}
+          <span className="screen-reader-text">MITH web page</span>
           <MITHLogo />{" "}
         </a>
         <a href="https://www.wisconsinhistory.org/">
-          {" "}
+          <span className="screen-reader-text">
+            Wisconsin Historical Society web page
+          </span>
           <WHSLogo />{" "}
         </a>
         <a href="https://www.wisc.edu/">
-          {" "}
+          <span className="screen-reader-text">
+            University of Wisconsin web page
+          </span>
           <UWMLogo />{" "}
         </a>
         <a href="https://www.neh.gov/">
-          {" "}
+          <span className="screen-reader-text">
+            National Endowment for the Humanities web page
+          </span>
           <NEHLogo />{" "}
         </a>
       </div>
