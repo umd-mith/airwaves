@@ -9,13 +9,12 @@ import { Index } from "../search"
 import "./search.css"
 
 class SearchPage extends React.Component {
-
   constructor(props) {
     super(props)
     const qs = queryString.parse(this.props.location.search)
     this.state = {
       query: qs.q,
-      facets: qs.f
+      facets: qs.f,
     }
   }
 
@@ -25,7 +24,7 @@ class SearchPage extends React.Component {
 
   setFacets(facets) {
     this.setState({
-      facets: facets
+      facets: facets,
     })
   }
 
@@ -50,9 +49,11 @@ class SearchPage extends React.Component {
                         navigate(`/search/?f=subject:${t.node.name}`)
                       }}
                     >
-                      {t.node.name}
-                    </div>
-                  ))}
+                      >
+                        {t.node.name}
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )
             })}
@@ -63,10 +64,9 @@ class SearchPage extends React.Component {
   }
 
   fetchData() {
-
     // get the index
-    if (! window.__INDEX__) {
-      console.log('loading index.json')
+    if (!window.__INDEX__) {
+      console.log("loading index.json")
       fetch(`${__PATH_PREFIX__}/data/index.json`)
         .then(function(response) {
           return response.json()
@@ -83,49 +83,46 @@ class SearchPage extends React.Component {
     }
 
     // get the episodes
-    if (! window.__EPISODES__) {
-      console.log('loading episodes.json')
+    if (!window.__EPISODES__) {
+      console.log("loading episodes.json")
       fetch(`${__PATH_PREFIX__}/data/episodes.json`)
-        .then((response) => {
+        .then(response => {
           return response.json()
         })
-        .then((data) => {
+        .then(data => {
           window.__EPISODES__ = makeMap(data)
-          console.log('loaded episodes.json')
+          console.log("loaded episodes.json")
         })
     }
 
     // get the documents
-    if (! window.__DOCUMENTS__) {
-      console.log('loading documents.json')
+    if (!window.__DOCUMENTS__) {
+      console.log("loading documents.json")
       fetch(`${__PATH_PREFIX__}/data/documents.json`)
-        .then((response) => {
+        .then(response => {
           return response.json()
         })
-        .then((data) => {
+        .then(data => {
           window.__DOCUMENTS__ = makeMap(data)
-          console.log('loaded documents.json')
+          console.log("loaded documents.json")
         })
     }
-
   }
-
 }
 
 /**
  * Creates a Map of the objects in a list using a given prop as a key
- * @param {*} objectList 
+ * @param {*} objectList
  * @param {*} key
  */
 
 function makeMap(objectList) {
   const m = new Map()
   for (const o of objectList) {
-    m.set(o['id'], o)
+    m.set(o["id"], o)
   }
   return m
 }
-
 
 export const query = graphql`
   {
