@@ -21,6 +21,21 @@ footer {
   margin: var(--spacing-base-content) 0 var(--spacing-large-content) 0;
 }
 
+.screen-reader-text {
+  position: absolute !important;
+  display: block;
+  visibility: visible;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0px, 0px, 0px, 0px); /* deprecated */
+  clip-path: polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px);
+  white-space: nowrap;
+}
+
 @media screen and (min-width: 45em) {
   .footer-content-wrapper {
     max-width: 250px;
