@@ -30,10 +30,10 @@ module.exports = {
         name: "Exhibits",
         link: "/exhibits/",
       },
-      // {
-      //   name: "Teaching Tools",
-      //   link: /teaching-tools/
-      // },
+      {
+        name: "Visualizations",
+        link: "/visualizations/",
+      },
       {
         name: "Search",
         link: "/search/",
