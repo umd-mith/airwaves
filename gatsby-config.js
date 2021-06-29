@@ -103,20 +103,14 @@ module.exports = {
       options: {
         name: `Unlocking the Airwaves`,
         short_name: `Airwaves`,
-        icon: `./src/images/icon.png`
-      }
+        icon: `./src/images/icon.png`,
+      },
     },
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [
-          '/',
-          '/about/',
-          '/explore/',
-          '/search/',
-          '/exhibits/'
-        ]
-      }
-    }
-  ]
+        precachePages: ["/", "/about/", "/explore/", "/search/", "/exhibits/"],
+      },
+    },
+  ],
 }
