@@ -33,7 +33,7 @@ const VisualizationsPage = () => {
           <iframe
             title="Content standards represented in NAEB Collection"
             width="100%"
-            height="600"
+            height="200"
             frameborder="0"
             src="https://observablehq.com/embed/e24bce73498fa7dc?cells=chart"
           ></iframe>
