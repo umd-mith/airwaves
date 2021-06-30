@@ -22,6 +22,7 @@
 }
 
 .theme {
+  overflow-wrap: break-word;
   padding: 0.5rem 0.65rem;
   text-decoration: underline;
 }
@@ -40,13 +41,13 @@
   }
 
   .themes {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.2fr 1.2fr 1fr;
     grid-template-rows: auto;
-    column-gap: var(--spacing-xlarge-content);
+    column-gap: var(--spacing-large-content);
     grid-template-areas:
       "theme-1 theme-1 theme-1"
       "theme-2 theme-3 theme-4"
-      "theme-5 theme-6 .";
+      "theme-5 theme-6 theme-6";
   }
 
   .ArtsHumanitiesMedia {
@@ -55,8 +56,8 @@
 
   .ArtsHumanitiesMedia .theme-children {
     display: grid;
-    column-gap: var(--spacing-xlarge-content);
-    grid-template-columns: repeat(3, 1fr);
+    column-gap: var(--spacing-large-content);
+    grid-template-columns: 1.2fr 1.2fr 1fr;
   }
 
   .CivicsLawGovernment {
