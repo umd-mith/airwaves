@@ -23,3 +23,13 @@ main section {
 ul {
   list-style: none;
 }
+
+.button {
+  background-color: var(--color-brand-primary);
+  color: var(--color-gray-900);
+  display: inline-block;
+  margin-top: var(--spacing-base-content);
+  padding: var(--spacing-base-content);
+  text-decoration: none;
+  text-transform: uppercase;
+}
