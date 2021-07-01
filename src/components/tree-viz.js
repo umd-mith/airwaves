@@ -13,11 +13,10 @@ export default function TreeViz() {
         laborum.
       </p>
       <iframe
-        title="Content standards represented in NAEB Collection"
         width="100%"
-        height="200"
+        height="204"
         frameborder="0"
-        src="https://observablehq.com/embed/e24bce73498fa7dc?cells=chart"
+        src="https://observablehq.com/embed/b13264f71e4c1fbd?cells=chart"
       ></iframe>
     </section>
   )
