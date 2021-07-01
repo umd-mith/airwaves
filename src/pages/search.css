@@ -40,6 +40,11 @@
     max-width: var(--width-breakpoint-1);
   }
 
+  .search-box,
+  .results-wrapper {
+    grid-column: 1 / -1;
+  }
+
   .themes {
     grid-template-columns: 1.2fr 1.2fr 1fr;
     grid-template-rows: auto;
@@ -79,6 +84,19 @@
   .USHistoryCulture {
     grid-area: theme-6;
   }
+}
+
+.results-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.facets {
+  flex: 1;
+}
+
+.results {
+  flex: 6;
 }
 
 /* large screens — 976px and up */

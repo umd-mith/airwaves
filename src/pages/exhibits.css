@@ -31,6 +31,10 @@
     max-width: var(--width-breakpoint-1);
   }
 
+  .page-exhibits section {
+    grid-column: 1 / -1;
+  }
+
   .exhibits {
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;

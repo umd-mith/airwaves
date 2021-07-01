@@ -12,21 +12,23 @@ const ExhibitsPage = ({ data }) => {
   return (
     <Layout title="Exhibits">
       <div className="page-exhibits">
-        <h1>Exhibits</h1>
-        <ul className="exhibits-toc">
-          {exhibits.map(e => (
-            <li>
-              <Link
-                to={`#${path
-                  .basename(e.fileAbsolutePath)
-                  .replace(/\.md$/, "")}`}
-              >
-                {e.frontmatter.title}
-              </Link>
-            </li>
-          ))}
-        </ul>
-        <div className="exhibits">
+        <section>
+          <h1>Exhibits</h1>
+          <ul className="exhibits-toc">
+            {exhibits.map(e => (
+              <li>
+                <Link
+                  to={`#${path
+                    .basename(e.fileAbsolutePath)
+                    .replace(/\.md$/, "")}`}
+                >
+                  {e.frontmatter.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+        <section className="exhibits">
           {exhibits.map(e => (
             <ExhibitSummaryCard
               title={e.frontmatter.title}
@@ -36,7 +38,7 @@ const ExhibitsPage = ({ data }) => {
               lede={e.frontmatter.lede}
             />
           ))}
-        </div>
+        </section>
       </div>
     </Layout>
   )

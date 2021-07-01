@@ -20,6 +20,11 @@ main section {
     var(--spacing-large-content);
 }
 
+[class^="page-"] {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
 ul {
   list-style: none;
 }
@@ -32,4 +37,20 @@ ul {
   padding: var(--spacing-base-content);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+/* Media queries for grid layouts */
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 45em) {
+  main section {
+    grid-column: 2 / 12;
+  }
+}
+
+/* large screens — 976px and up */
+@media screen and (min-width: 61em) {
+}
+
+/* x-large screens — 1072px and up */
+@media screen and (min-width: 67em) {
 }

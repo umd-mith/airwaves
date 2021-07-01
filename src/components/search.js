@@ -49,7 +49,7 @@ class Search extends Component {
 
     return (
       <div className="page-search search">
-        <div>
+        <div className="search-box">
           <input
             aria-label="search"
             ref={this.query}
@@ -59,7 +59,7 @@ class Search extends Component {
             placeholder={"Search"}
           />
         </div>
-        <div className={resultsHidden}>
+        <div className={`results-wrapper ${resultsHidden}`}>
           <SearchFacets
             results={this.state.results}
             query={this.state.query}
@@ -182,8 +182,8 @@ class Search extends Component {
       return result
     } else if (r.ref[0] === "e") {
       // What used to be known as episodes are now programs.
-      // This change was made superficially in the interface instead of the 
-      // underlying data and components. The type property needs to be set here 
+      // This change was made superficially in the interface instead of the
+      // underlying data and components. The type property needs to be set here
       // to Program so that faceting in the interface works properly.
       return { ...window.__EPISODES__.get(r.ref), type: "Program" }
     }
