@@ -1,43 +1,39 @@
 ---
 title: " Poetry Programming in the NAEB Collection"
 creator: Marit J. MacArthur
+key-image: /images/apf1-07630r.jpg
+lede: Temporary.
 visuals:
-  - title:
-      Alan Simpson, host of *What is Modern Poetry* and Professor of History at
+  - title: Alan Simpson, host of *What is Modern Poetry* and Professor of History at
       the University of Chicago, in 1958. Image courtesy of the University of
       Chicago Photographic Archive,
       [[apf1-07630](http://photoarchive.lib.uchicago.edu/db.xqy?one=apf1-07630.xml)],
       Special Collections Research Center, University of Chicago Library.
-    image: "../../../static/images/apf1-07630r.jpg"
-  - image: "../../../static/images/tuckerman-wikimedia.jpg"
-    title:
-      The only known surviving image of the poet Frederick Goddard Tuckerman.
+    image: ../../../static/images/apf1-07630r.jpg
+  - image: ../../../static/images/tuckerman-wikimedia.jpg
+    title: The only known surviving image of the poet Frederick Goddard Tuckerman.
       An engraving, reprinted in Eugene England's 1991 critical biography of
       Tuckerman entitled Beyond Romanticism (Unknown author, Public domain, [via
       Wikimedia
       Commons](https://upload.wikimedia.org/wikipedia/commons/3/31/Engraving_of_Frederick_Goddard_Tuckerman_from_Eugene_Englands_1991_Beyond_Romanticism.jpg))
-  - image: "../../../static/images/naeb-b057-f09_0042.jpg"
-    title:
-      Excerpt from a Rockefeller Foundation proposal for a six-month experiment
+  - image: ../../../static/images/naeb-b057-f09_0042.jpg
+    title: Excerpt from a Rockefeller Foundation proposal for a six-month experiment
       in broadcasting poetry. Available at [Unlocking the
       Airwaves](https://mith.umd.edu/airwaves/document/naeb-b057-f09/#42).
-  - image: "../../../static/images/poetry-out-loud-competition.jpg"
-    title:
-      Photo of Florida Champion Zhaedyn Hodge Sigars performing at Poetry Out
+  - image: ../../../static/images/poetry-out-loud-competition.jpg
+    title: Photo of Florida Champion Zhaedyn Hodge Sigars performing at Poetry Out
       Loud, Howard W. Blake HS © James Kegley ([from the Poetry Out Loud Photo
       Gallery](https://www.poetryoutloud.org/about-poetry-out-loud/photo-galleries/)).
 related:
   - url: https://mith.umd.edu/airwaves/programs/poetry-and-the-american/
     title: Poetry and the American (full series)
-    description:
-      "*Poetry and the American* consists of twenty recordings from 1959
+    description: "*Poetry and the American* consists of twenty recordings from 1959
       produced by KPFA and Pacifica radio in Berkeley, California. Featured
       poets include Emily Dickinson, Hart Crane, e.e. cummings, Robert Frost,
       Emily Dickinson, Wallace Stevens, and T.S. Eliot."
   - url: https://mith.umd.edu/airwaves/programs/what-is-modern-poetry/
     title: What is Modern Poetry (full series)
-    description:
-      This series presents lectures with readings of poems. It strives to
+    description: This series presents lectures with readings of poems. It strives to
       discuss and define modern poetry in a non-technical way. Text is read by
       Professor Alan Simpson of the University of Chicago; poetry is read by
       members of University Radio Theatre.
@@ -46,8 +42,7 @@ related:
     description: This series presents outstanding musical settings of poetry and
       literary anthologies, integrating the worlds of music and literature.
   - url: https://mith.umd.edu/airwaves/document/naeb-b057-f09
-    description:
-      1953 to 1954 correspondence regarding a six-month NAEB experiment
+    description: 1953 to 1954 correspondence regarding a six-month NAEB experiment
       in broadcasting poetry, funded by the Rockefeller Foundation. Includes
       proposals and reports on the project, with feedback from consultants.
     title: Rockefeller Poetry Programming Funding Experiment
