@@ -1,19 +1,20 @@
 ---
 title: Origins of the NAEB and Educational Media
 creator: Josh Shepperd
+key-image: /images/acubs-font.png
+lede: Temporary.
 visuals:
-  - image: "../../../static/images/service-pnp-cph-3g10000-3g14000-3g14700-3g14733r.jpg"
-    title:
-      Beall, L. When I think back, Rural Electrification Administration, U.S.
+  - image: ../../../static/images/service-pnp-cph-3g10000-3g14000-3g14700-3g14733r.jpg
+    title: Beall, L. When I think back, Rural Electrification Administration, U.S.
       Department of Agriculture, Poster shows an elderly man sitting in a
       rocking chair and adjusting the dials on a radio. \[193-] \[Photograph]
-      Retrieved from the Library of Congress,
-      https://www.loc.gov/item/2010650608/.
-  - image: "../../../static/images/service-pnp-cph-3b30000-3b39000-3b39700-3b39715r.jpg"
+      Retrieved from the [Library of
+      Congress](https://www.loc.gov/item/2010650608/).
+  - image: ../../../static/images/service-pnp-cph-3b30000-3b39000-3b39700-3b39715r.jpg
     title: (ca. 1922) Youthful Radio Expert. Illinois Chicago, ca. 1922.
-      \[Photograph] Retrieved from the Library of Congress,
-      https://www.loc.gov/item/93510755/.
-  - image: "../../../static/images/acubs-font.png"
+      \[Photograph] Retrieved from the [Library of
+      Congress](https://www.loc.gov/item/93510755/).
+  - image: ../../../static/images/acubs-font.png
     title: Letterhead branding from The Association of College and University
       Broadcasting Stations (ACUBS), the NAEB's original moniker. From a [1933
       special
@@ -32,8 +33,7 @@ related:
     url: https://mith.umd.edu/airwaves/document/naeb-b110-f04-27/#2
   - url: https://mith.umd.edu/airwaves/document/naeb-b101-f02-46/#7
     title: 1930 NAEB Letter to State Governors
-    description:
-      Letter from R.C. Higgy (NAEB President, from Ohio State University)
+    description: Letter from R.C. Higgy (NAEB President, from Ohio State University)
       and B.B. Brackett (NAEB Secretary-Treasurer and Director of KUSD,
       University of South Dakota) to the state governors of states with radio
       stations present at the ACUBS Annual Meeting in 1930. The letter lobbies
@@ -48,8 +48,7 @@ related:
       Education Best Serve Each Other?"
     title: 1935 NAEB Conference Schedule
   - url: https://mith.umd.edu/airwaves/document//naeb-b110-f04-17/#2
-    description:
-      "While Congress deliberated about how to formularize standards for
+    description: "While Congress deliberated about how to formularize standards for
       licensure, two major organizations, the National Committee for Education
       by Radio (NCER) and National Advisory Council on Radio in Education
       (NACRE) advised the NAEB to take a more active role in national debates. "
@@ -75,8 +74,7 @@ related:
       colleges - college songs, glee clubs, orchestras, and bands.
   - url: https://mith.umd.edu/airwaves/document/naeb-b081-f06/#109
     title: '"This is the NAEB Tape Network"'
-    description:
-      Early 50's description of the first version of the NAEB's 'bicycle'
+    description: Early 50's description of the first version of the NAEB's 'bicycle'
       tape network. This draft press release was meant to describe to member
       stations what the network was, and how it would operate.
 ---
