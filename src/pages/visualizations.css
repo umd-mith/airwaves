@@ -1,7 +1,22 @@
+@import "../components/variables.css";
+
+.page-visualizations section {
+  grid-column: 1 / 17;
+}
+
+.viz-screencap {
+  margin-bottom: var(--spacing-base-content);
+}
+
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
-  .page-visualizations section {
-    grid-column: 1 / 17;
+  .visualizations {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .viz-screencap:last-child {
+    margin-left: var(--spacing-small-content);
   }
 
   #timeline {
