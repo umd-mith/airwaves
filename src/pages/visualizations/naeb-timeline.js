@@ -19,7 +19,9 @@ const TimelinePage = () => {
     <Layout url="/visualizations/naeb-timeline/">
       <section id="timeline">
         <h2>
-          <Link to="/visualizations/" />
+          <Link className="breadcrumb" to="/visualizations/">
+            Visualizations
+          </Link>{" "}
           Title Me
         </h2>
         <p>
