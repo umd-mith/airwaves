@@ -1,6 +1,7 @@
 ---
 title: Ethic for Broadcasting
 creator: Michele Hilmes
+key-image: /images/640px-vivienne_nearing-_jack_barry-_charles_van_doren_nywts.jpg
 lede: In the wake of the late 1950s quiz show and payola scandals, the NAEB
   funded a series entitled *Ethic for Broadcasting* that sought to puzzle out
   how radio and television might be reformed to better serve the needs of the
@@ -13,9 +14,23 @@ lede: In the wake of the late 1950s quiz show and payola scandals, the NAEB
   what role it should play in American public life, offering arguments on
   television's then-current state while also envisioning its future.
 visuals:
+  - image: /images/640px-mike_wallace_interviews_1957_-2-.jpg
+    title: Among the better-known names featured in *Ethic for Broadcasting* are
+      broadcasters David Brinkley, David Susskind, and Mike Wallace, pictured
+      here. Public domain publicity photo for *Mike Wallace Interviews*, via
+      [Wikimedia](https://commons.wikimedia.org/wiki/File:Mike_Wallace_Interviews_1957_(2).jpg).
   - image: ../../../static/images/ethic_image.jpg
-    title: A brochure for the NAEB grants-in-aid program, which funded the
-      production of series like Ethic for Broadcasting.
+    title: "[A brochure for the NAEB grants-in-aid
+      program](https://mith.umd.edu/airwaves/document/naeb-b036-f02/#46), which
+      funded the production of series like Ethic for Broadcasting."
+  - image: /images/640px-vivienne_nearing-_jack_barry-_charles_van_doren_nywts.jpg
+    title: "*Ethic for Broadcasting* was produced in the wake of the late 1950s quiz
+      show and payola scandals. Pictured here are contestant Vivienne Nearing,
+      host Jack Barry, and contestant Charles Van Doren on *Twenty-One*, a
+      central subject of the quiz show scandals. 1957 public doman photograph by
+      Orlando Fernandez, via
+      [Wikimedia](https://commons.wikimedia.org/wiki/File:Vivienne_Nearing,_Jac\
+      k_Barry,_Charles_Van_Doren_NYWTS.jpg)."
 related:
   - title: Ethic for Broadcasting
     url: https://mith.umd.edu/airwaves/programs/ethic-for-broadcasting/
