@@ -3,14 +3,13 @@ import React from "react"
 export default function TreeViz() {
   return (
     <section className="embed-host">
-      <h2>Title Me</h2>
+      <h2>Educational Content Areas Tree</h2>
       <p>
-        Bacon ipsum dolor amet jerky tongue sed frankfurter. Ullamco pork belly
-        chicken drumstick sirloin venison. Nulla chislic burgdoggen shoulder
-        venison excepteur laboris short loin dolore veniam ut consectetur
-        cupidatat biltong. Eiusmod mollit labore, enim filet mignon swine salami
-        shoulder. Short loin consectetur anim labore sed reprehenderit magna
-        laborum.
+        This interactive tree maps the radio programs and documents in Unlocking the Airwaves to 
+        educational content areas using ontologies from EDSITEment and the National Assessment of Educational Progress. 
+        Click any black dot to expand or collapse the tree and see content areas related to that parent topic. 
+        Click any green dot to open a link in a new tab and explore the radio programs and other materials on 
+        Unlocking the Airwaves related to that content area.
       </p>
       <iframe
         width="100%"
