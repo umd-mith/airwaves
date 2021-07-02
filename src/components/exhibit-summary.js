@@ -22,7 +22,7 @@ const ExhibitSummaryCard = ({ title, creator, keyImage, lede, absPath }) => {
   }
 
   return (
-    <div id={slug} className="exhibit-summary-card">
+    <div key={slug} id={slug} className="exhibit-summary-card">
       <div className="exhibit-card-meta">
         <h2>
           <Link to={url}>{title}</Link>

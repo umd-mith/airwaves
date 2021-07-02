@@ -9,6 +9,7 @@ export default function IFrame({
 }) {
   return (
     <iframe
+      title={title}
       width={width}
       height={height}
       frameborder={frameborder}

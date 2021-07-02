@@ -2,34 +2,34 @@ import React from "react"
 import { Link, withPrefix } from "gatsby"
 import Layout from "../components/layout"
 import FeaturedExhibitsProvider from "../components/featured-exhibits-provider"
-import Slider from "react-slick"
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
+// import Slider from "react-slick"
+// import "slick-carousel/slick/slick.css"
+// import "slick-carousel/slick/slick-theme.css"
 import "./index.css"
 
-const sliderSettings = {
-  className: "carousel",
-  centerMode: true,
-  initialSlide: 2,
-  centerPadding: "120px",
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 3,
-  variableWidth: true,
-  draggable: true,
-  responsive: [
-    {
-      breakpoint: 600,
-      settings: {
-        centerPadding: "10px",
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: false,
-      },
-    },
-  ],
-}
+// const sliderSettings = {
+//   className: "carousel",
+//   centerMode: true,
+//   initialSlide: 2,
+//   centerPadding: "120px",
+//   dots: true,
+//   infinite: true,
+//   speed: 500,
+//   slidesToShow: 3,
+//   variableWidth: true,
+//   draggable: true,
+//   responsive: [
+//     {
+//       breakpoint: 600,
+//       settings: {
+//         centerPadding: "10px",
+//         slidesToShow: 1,
+//         slidesToScroll: 1,
+//         infinite: false,
+//       },
+//     },
+//   ],
+// }
 
 const IndexPage = () => (
   <Layout>
