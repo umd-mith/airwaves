@@ -13,7 +13,7 @@ lede: During the 1950s and 1960s, the baby boom and a national focus on
   World*, and *Coming of Age*, as well as discussions about children’s media
   consumption in NAEB documents.
 visuals:
-  - title: The Daily Iowan coverage of "How's the Family?" on January 2, 1955
+  - title: The Daily Iowan coverage of "How's the Family?" on January 2, 1955.
     image: ../../../static/images/howsfamily.png
   - image: /images/naeb-b112-f01-17_0005.jpg
     title: "[July 1966 NAEB
