@@ -15,8 +15,9 @@ lede: "Presented in collaboration with music departments, conservatories,
   Past*), and folk/Americana/international (*Music Around the World* and *The
   Old Record Box I & II*)."
 visuals:
-  - image: /images/640px-beethoven.jpg
-    title: "1820 potrait of Ludwig van Beethoven by Joseph Karl Stieler. The famed
+  - image: ../../../static/images/640px-beethoven.jpg
+    title:
+      "1820 potrait of Ludwig van Beethoven by Joseph Karl Stieler. The famed
       composer and pianist serves as the subject of the series *[Beethoven: The
       Man Who Freed
       Music](https://mith.umd.edu/airwaves/programs/beethoven-the-man-who-freed\
@@ -26,7 +27,7 @@ visuals:
   - image: ../../../static/images/music_image.jpg
     title: Schedule for a 1962 conference (sponsored by station WUOM) on music
       programming in educational radio.
-  - image: /images/640px-duke-ellington-arrives-in-copenhagen-with-his-band-352130627073.jpg
+  - image: ../../../static/images/640px-duke-ellington-arrives-in-copenhagen-with-his-band-352130627073.jpg
     title: 1950 photograph of Duke Ellington and his band in Copenhagen by Aage
       Sørensen. Ellington served as the subject of four episodes of the series
       *[Evolution of
@@ -55,10 +56,12 @@ related:
       parts of the globe.
   - title: The Old Record Box
     url: https://mith.umd.edu/airwaves/programs/the-old-record-box/
-    description: Cylinder recordings of music and spoken word from late 1890's to
+    description:
+      Cylinder recordings of music and spoken word from late 1890's to
       1929; historic recordings of music and speech.
   - title: The Old Record Box II
-    description: "Musical and speaking selections played from cylinder records dated
+    description:
+      "Musical and speaking selections played from cylinder records dated
       from the late 1890s to about 1929. This prog.: Sampler: Happy Birds, Where
       the Sunset turns the Ocean's Blue to Gold, Uncle Josh and the Ligtning Rod
       Agent, Dardanelle, Rockabye Your Baby."

@@ -14,7 +14,7 @@ lede: In the wake of the late 1950s quiz show and payola scandals, the NAEB
   what role it should play in American public life, offering arguments on
   television's then-current state while also envisioning its future.
 visuals:
-  - image: /images/640px-mike_wallace_interviews_1957_-2-.jpg
+  - image: ../../../static/images/640px-mike_wallace_interviews_1957_-2-.jpg
     title: Among the better-known names featured in *Ethic for Broadcasting* are
       broadcasters David Brinkley, David Susskind, and Mike Wallace, pictured
       here. Public domain publicity photo for *Mike Wallace Interviews*, via
@@ -23,8 +23,9 @@ visuals:
     title: "[A brochure for the NAEB grants-in-aid
       program](https://mith.umd.edu/airwaves/document/naeb-b036-f02/#46), which
       funded the production of series like Ethic for Broadcasting."
-  - image: /images/640px-vivienne_nearing-_jack_barry-_charles_van_doren_nywts.jpg
-    title: "*Ethic for Broadcasting* was produced in the wake of the late 1950s quiz
+  - image: ../../../static/images/640px-vivienne_nearing-_jack_barry-_charles_van_doren_nywts.jpg
+    title:
+      "*Ethic for Broadcasting* was produced in the wake of the late 1950s quiz
       show and payola scandals. Pictured here are contestant Vivienne Nearing,
       host Jack Barry, and contestant Charles Van Doren on *Twenty-One*, a
       central subject of the quiz show scandals. 1957 public doman photograph by
@@ -47,7 +48,8 @@ related:
       translators.
     title: Federal Communications Commission, 1952-1956
     url: https://mith.umd.edu/airwaves/document/naeb-b053-f09/
-  - description: 1951 to 1973 meeting minutes, reports, and correspondence regarding
+  - description:
+      1951 to 1973 meeting minutes, reports, and correspondence regarding
       NAEB policy. Topics include proposed organizational changes, programming
       strategies, and distribution of the Cooper Union Forum program. Executive
       director letters from Jim Miles also provide updates on the NAEB's plans
@@ -56,7 +58,8 @@ related:
     title: Executive Director, Policy statements, 1951-1973
   - title: The Needs of Education for Television Channel Allocations
     url: https://mith.umd.edu/airwaves/document/naeb-b099-f01/
-    description: November 1961 pre-publication working copy of a report titled "The
+    description:
+      November 1961 pre-publication working copy of a report titled "The
       Needs of Education for Television Channel Allocations" prepared by the
       National Association of Educational Broadcasters in cooperation with the
       United States Office of Education.
