@@ -15,35 +15,42 @@ lede: "Throughout its history, the NAEB produced many programs focused on issues
   (like a discussion around government-funded, year-long sabbaticals for every
   worker at rate to maintain full employment despite less work to go around)."
 visuals:
-  - title: Brochure for American Adventure Series, a TV program sponsored by Cold
-      War free enterprise group The National Educational Program. Episode 8
-      promises viewers that the rich aren’t overly numerous or overly wealthy,
-      while Episode 9 assures viewers that they, too, can be millionaires given
-      the gumption. Although NAEB’s network manager declined to purchase the
-      (TV) program for (radio) broadcast, this spiritual kin to Fifty Years is
-      represented—along with other relevant materials—in [NAEB document
-      collections](https://mith.umd.edu/airwaves/document/naeb-b072-f01/#175).
+  - title: "[Brochure for American Adventure
+      Series](https://mith.umd.edu/airwaves/document/naeb-b072-f01/#189), a TV
+      program sponsored by Cold War free enterprise group The National
+      Educational Program. Episode 8 promises viewers that the rich aren’t
+      overly numerous or overly wealthy, while Episode 9 assures viewers that
+      they, too, can be millionaires given the gumption. Although NAEB’s network
+      manager declined to purchase the (TV) program for (radio) broadcast, this
+      spiritual kin to Fifty Years is represented—along with other relevant
+      materials—in [NAEB document
+      collections](https://mith.umd.edu/airwaves/document/naeb-b072-f01/#175)."
     image: ../../../static/images/kit_image_1.jpg
   - title: Visit the [African American History
       theme](https://mith.umd.edu/airwaves/search/?f=subject:African%20American%20History)
       in the collection for additional materials exploring race and the economy,
-      like this script for The Last Citizen episode on Black employment.
+      like [this script for The Last Citizen episode on Black
+      employment](https://mith.umd.edu/airwaves/document/naeb-b073-f01/#106).
     image: ../../../static/images/kit_image_2.jpg
-  - title: Script for Report from Japan hosted by John Lerch (c1956). Although many
-      economy-themed recordings focus on the U.S., documents hint at the extent
-      to which U.S. postwar foreign policy sought to protect and expand
-      capitalism abroad. See also the [War and Civil Defense
-      theme](https://mith.umd.edu/airwaves/search/?f=subject:War%20and%20Civil%20Defense)
-      in the collection.
+  - title: "[Script for Report from
+      Japan](https://mith.umd.edu/airwaves/document/naeb-b066-f06/#33) hosted by
+      John Lerch (c1956). Although many economy-themed recordings focus on the
+      U.S., documents hint at the extent to which U.S. postwar foreign policy
+      sought to protect and expand capitalism abroad. See also the [War and
+      Civil Defense
+      theme](https://mith.umd.edu/airwaves/search/?f=subject:War%20and%20Civil%\
+      20Defense) in the collection."
     image: ../../../static/images/kit_image_3.jpg
-  - title: "Promotional materials for People under Communism. Communism’s threat to
-      the self-evident righteousness of capitalism pops up in docudramas and
-      personal finance series alike. "
+  - title: "[Promotional materials for People under
+      Communism](https://mith.umd.edu/airwaves/document/naeb-b072-f04/#67).
+      Communism’s threat to the self-evident righteousness of capitalism pops up
+      in docudramas and personal finance series alike."
     image: ../../../static/images/kit_image_4.jpg
-  - title: Another example of Communism's threat, in this letter from Don Nelson to
-      Robert Underwood, Jr. (June 30, 1958) regarding “updates” made to
-      Stretching Your Family Income to prepare it for NAEB distribution. See
-      also [World
+  - title: Another example of Communism's threat, in [this letter from Don Nelson to
+      Robert Underwood, Jr. (June 30,
+      1958)](https://mith.umd.edu/airwaves/document/naeb-b072-f01/#170)
+      regarding “updates” made to Stretching Your Family Income to prepare it
+      for NAEB distribution. See also [World
       Politics](https://mith.umd.edu/airwaves/search/?f=subject:World%20Politics)
       and [U.S.
       Government](https://mith.umd.edu/airwaves/search/?f=subject:U.S.%20Government)
