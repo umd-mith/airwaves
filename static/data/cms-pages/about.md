@@ -17,7 +17,7 @@ team: |-
 
   ### Project Team
 
-  * J.J. Bersch (Production Assistant, UW)
+  * JJ Bersch (Production Assistant, UW)
   * Matthew Blessing (Administrator of the Division of Library-Archives, WHS)
   * Alison Bridger (Archivist, WHS)
   * Emily Frazier (Graduate Research Assistant, MITH)
