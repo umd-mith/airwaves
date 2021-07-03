@@ -1,10 +1,32 @@
 ---
 title: "The NAEB’s Cold War: The Ambitions and Tensions of “People Under Communism”"
 creator: Eric Hoyt
-key-image: /images/naeb-b072-f04_0066.jpg
+key-image: ../../../static/images/naeb-b072-f04_0064.jpg
 lede: "*People Under Communism*, a 21-episode series that was produced and
   distributed between 1951 to 1953, was the most ambitious and complicated
-  series that the NAEB ever created."
+  series that the NAEB ever created. Through a mix of seven sonically rich
+  one-hour programs with high production values, thirteen half-hour or hour long
+  lecture/expert conversation-centered episodes with much lower production
+  values, and one imported thirty-minute BBC documentary, *People Under
+  Communism* forcefully called out and criticized Soviet propaganda and thought
+  control in nearly every episode. But in its intermingling of cutting-edge
+  foreign policy research about the escalating Cold War with polished dramatic
+  sonic aesthetics akin to high-end commercial programs, *People Under
+  Communism* itself serves as an interesting case study of the line between
+  education and propaganda."
+visuals:
+  - image: ../../../static/images/kit_image_4.jpg
+    title: "[A promotional
+      listing](https://mith.umd.edu/airwaves/document/naeb-b072-f04/#67) of
+      seven core episodes of *People Under Communism*. These were one-hour shows
+      with high production values, combining narration, scripted performances,
+      effects, and music."
+  - title: '[A page of a script for the *People Under Communism* episode "The Men
+      Who Make the
+      Migs."](https://mith.umd.edu/airwaves/document/naeb-b073-f05/#132) Note
+      the heavy use of music and sound effects ushered to add dramatic weight to
+      the educational program.'
+    image: ../../../static/images/naeb-b073-f05_0131.jpg
 related:
   - url: https://mith.umd.edu/airwaves/programs/people-under-communism
     title: People Under Communism
