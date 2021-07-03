@@ -67,7 +67,7 @@ This opening to [“Terror as a System of Power”](https://mith.umd.edu/airwav
 
 ***Program Origins***
 
-The NAEB developed *People Under Communism* during the early-1950s, amidst the aftermath of World War II and escalating tensions between the US and the Soviet Union. The appropriate framework to understand the “Cold War,” a term that public intellectual Walter Lippman popularized in 1947, was subject to debate within the US.[\[i]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_edn1) Whereas some political voices framed the struggle in ideological terms (the incompatibility between communism vs. free market democracy), foreign policy “realists” viewed power and influence on the world stage as both the end and means.[\[ii]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_edn2)
+The NAEB developed *People Under Communism* during the early-1950s, amidst the aftermath of World War II and escalating tensions between the US and the Soviet Union. The appropriate framework to understand the “Cold War,” a term that public intellectual Walter Lippman popularized in 1947, was subject to debate within the US.\[[i]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_edn1) Whereas some political voices framed the struggle in ideological terms (the incompatibility between communism vs. free market democracy), foreign policy “realists” viewed power and influence on the world stage as both the end and means.\[[ii]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_edn2)
 
 These differences of opinion were significant, and the NAEB sought to represent them in its series. Yet nearly all the experts and political leaders agreed on the underlying assumption that that the US needed an active foreign policy agenda and to play a leading role in the future of world affairs. Also broadly agreed upon: greater investment in the university system would yield valuable scientific and foreign policy research, promote global understanding, and educate American citizens to participate in democracy and succeed in the postwar world.
 
@@ -77,9 +77,9 @@ Within this context, the leaders of the NAEB sought to make their mark and exten
 
 Whereas the NAEB’s decentralized, cooperative structure was a natural fit for advocacy and distribution activities, it created immediate challenges for producing an ambitious, high budget radio series. For one thing, who was in charge? The NAEB created a five member special committee, comprised of managers from its leading stations, to oversee the development, production, and dissemination plans.
 
-The committee hosted workshops with radio professionals and academics specializing in the USSR to develop the program series structure and scripts. The prompt for the development process was admirably clear and concise: “a) what should be said, and b) how can it be communicated most effectively ”?[\[iii]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_edn3) Yet this proved difficult in practice. In [a January 1952 memo to the program’s consultants](https://mith.umd.edu/airwaves/document/naeb-b072-f04/), the NAEB’s Committee Chair laid out and addressed the “problems which have developed in the program series on the USSR.”[\[iv]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_edn4)
+The committee hosted workshops with radio professionals and academics specializing in the USSR to develop the program series structure and scripts. The prompt for the development process was admirably clear and concise: “a) what should be said, and b) how can it be communicated most effectively ”?\[[iii]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_edn3) Yet this proved difficult in practice. In [a January 1952 memo to the program’s consultants](https://mith.umd.edu/airwaves/document/naeb-b072-f04/), the NAEB’s Committee Chair laid out and addressed the “problems which have developed in the program series on the USSR.”\[[iv]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_edn4)
 
-The difficulty of translating political science research into a radio program with wide appeal had become evident. Any hope for a consistent stylistic approach across the series needed to be discarded. “Radio form follows content,” explained the NAEB Committee. “Factual accuracy and the integrity of the content come first, and the problem of a program’s being so-called ‘good radio is secondary.’”[\[v]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_edn5)
+The difficulty of translating political science research into a radio program with wide appeal had become evident. Any hope for a consistent stylistic approach across the series needed to be discarded. “Radio form follows content,” explained the NAEB Committee. “Factual accuracy and the integrity of the content come first, and the problem of a program’s being so-called ‘good radio is secondary.’”\[[v]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_edn5)
 
 And yet, when it saw an opportunity for turning an expert’s research into “good radio,” the NAEB applied a disproportionate amount of its budgetary resources into those programs. This explains how the structure for the series ultimately took shape: 
 
@@ -103,7 +103,7 @@ The prevalence of racism and segregation in American schools during this time wa
 
 > With clever propaganda skill, real abuses and weaknesses in American life are singled out as the themes: poor race relations, the oppression of minorities, political corruption, yellow journalism, red-baiting, violations of civil liberties. And these weaknesses and abuses are then misrepresented as being widely accepted and uncorrected in the United States, as in the play *Snowball*. The power of such propaganda should not be underestimated.
 
-The power of the propaganda comes, in part then, from the truth of “real abuses and weaknesses” in America society. As Cold War historian Brenda Gayle Plummer has noted, one prominent line of argument in favor of Civil Rights was that the US needed to better internally model the democratic systems that it wanted foreign governments to adopt and implement.[\[vi]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_edn6) Because of the chasm between the ideals that America preached and the lived Black reality of racism, Soviet playwrights had plenty of material for plays, critical of America, that would be embraced by Party leaders and performed across the USSR.
+The power of the propaganda comes, in part then, from the truth of “real abuses and weaknesses” in America society. As Cold War historian Brenda Gayle Plummer has noted, one prominent line of argument in favor of Civil Rights was that the US needed to better internally model the democratic systems that it wanted foreign governments to adopt and implement.\[[vi]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_edn6) Because of the chasm between the ideals that America preached and the lived Black reality of racism, Soviet playwrights had plenty of material for plays, critical of America, that would be embraced by Party leaders and performed across the USSR.
 
 Much like postwar mainstream US novels, plays, and movies dramatizing racism, the hero of *Snowball* is a white savior. Principal Thompson nobly stands up for Dick, opposing the town’s racism. He loses his job in the process, but he maintains his honor and integrity. 
 
@@ -111,18 +111,18 @@ Careful listeners of “People Under Communism” will recognize the gruff, bari
 
 Principal Thompson was supposed to exist in a dramatic work of propaganda. The gulag commandant and Soviet engineer were characters created for dramatic works of education. However, when the same voice actor plays all of these different characters, when all of the radio dramas are recorded over a matter of days in the same studio facilities, the lines between education and propaganda are obliterated. What we are finally left with is something more interesting than either propaganda or education: a layered, sonic expression of Cold War ambitions and contradictions.
 
-**Eric Hoyt**
+**[Eric Hoyt](http://erichoyt.org/)** is the Kahl Family Professor of Media Production at the University of Wisconsin-Madison. He is the Director of the Wisconsin Center of Film and Theater Research and the Media History Digital Library. His books include *Hollywood Vault: Film Libraries before Home Video* and the co-edited anthologies *Hollywood and the Law*, *The Arclight Guidebook to Media History and the Digital Humanities*, and *Saving New Sounds: Podcast Preservation and Historiography*. 
 
 - - -
 
-[\[i]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_ednref1) Walter Lippmann, *The Cold War: A Study in US Foreign Policy* (New York: Harper​, 1947).
+\[[i]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_ednref1) Walter Lippmann, *The Cold War: A Study in US Foreign Policy* (New York: Harper​, 1947).
 
-[\[ii]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_ednref2) Louis Menand, The Free World: Art and Thought in the Cold War (New York: Farrar, Straus and Giroux, 2021). 
+\[[ii]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_ednref2) Louis Menand, The Free World: Art and Thought in the Cold War (New York: Farrar, Straus and Giroux, 2021). 
 
-[\[iii]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_ednref3) “Appendix C: Statement of Educational Radio Program Development Plan Approved by Board of Directors of The Fund for Adult Education of The Ford Foundation April 5, 1951.
+\[[iii]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_ednref3) “Appendix C: Statement of Educational Radio Program Development Plan Approved by Board of Directors of The Fund for Adult Education of The Ford Foundation April 5, 1951.
 
-[\[iv]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_ednref4) George E. Probst (NAEB Special Committee Chair) to “People Under Communism” Experts, January 10, 1952. 
+\[[iv]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_ednref4) George E. Probst (NAEB Special Committee Chair) to “People Under Communism” Experts, January 10, 1952. 
 
-[\[v]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_ednref5) George E. Probst (NAEB Special Committee Chair) to “People Under Communism” Experts, January 10, 1952. 
+\[[v]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_ednref5) George E. Probst (NAEB Special Committee Chair) to “People Under Communism” Experts, January 10, 1952. 
 
-[\[vi]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_ednref6) Brenda Gayle Plummer, “Race and the Cold War,” in *The Oxford Handbook of the Cold War*, edited by Richard H. Immerman and Petra Goedde (New York: Oxford 2013), 10.1093/oxfordhb/9780199236961.013.0029
+\[[vi]](applewebdata://0DBCA2D6-2550-4178-90BE-24A6653A7733#_ednref6) Brenda Gayle Plummer, “Race and the Cold War,” in *The Oxford Handbook of the Cold War*, edited by Richard H. Immerman and Petra Goedde (New York: Oxford 2013), 10.1093/oxfordhb/9780199236961.013.0029
