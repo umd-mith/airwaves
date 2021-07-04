@@ -14,8 +14,9 @@ lede: The NAEB collection available through Unlocking the Airwaves, provides a
   this exhibit include *H Is for Joy*, *The V.D. Epidemic*, *Doctor Tell Me*,
   and *Your Doctor Speaks.*
 visuals:
-  - title: March of Medicine announced as a new series in the November 1956
-      Association for Education by Radio-Television journal.
+  - title: March of Medicine announced as a new series in the [November 1956
+      Association for Education by Radio-Television
+      journal](https://mith.umd.edu/airwaves/document/naeb-b018-f12/#95).
     image: ../../../static/images/march_of_medicine_aert.jpg
   - title: "[December 1960 NAEB
       newsletter](https://mith.umd.edu/airwaves/document/naeb-b111-f09-04/)
