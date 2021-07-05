@@ -30,6 +30,7 @@ team: |-
   * Matthew St. John (Production Assistant, UW)
   * Ed Summers (Developer, MITH)
 ---
+
 ## Project Introduction
 
 **Unlocking the Airwaves: Revitalizing an Early Public and Educational Radio Collection** is a comprehensive online collection of early educational public radio content from the National Association of Educational Broadcasters (NAEB). [The forerunner of CPB and its arms, NPR and PBS](https://mith.umd.edu/airwaves/exhibits/origins-of-the-naeb-and-educational-media/), the NAEB developed and distributed educational radio programs and accompanying print materials to schools and communities across the United States. What’s more, the NAEB lobbied extensively to unlock the airwaves—to access precious frequency space—in order to bring the voices of [poet Robert Frost](https://mith.umd.edu/airwaves/exhibits/poetry-programming-in-the-naeb-collection/), [architect Frank Lloyd Wright](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-dn3zx76f), [anthropologist Margaret Mead](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-hx15rn7k), and conservationist “Ranger Mac,” among many other individuals, into American homes and classrooms.
@@ -48,11 +49,11 @@ The professors and university staff members who devoted themselves to the NAEB w
 
 The NAEB Newsletter (pictured below, in three of its typographic iterations) provides a window into the organization’s efforts and priorities. During the 1930s, advocacy efforts to the FCC took center stage; the NAEB lobbied the government for bigger and better frequency allocations for educational stations. While advocacy efforts did not go away during the 1940s, it did become subordinated to the war effort and the coordinated distribution of recorded programs.
 
-![Cover pages of NAEB newsletters dated from October 1, 1941, December 1960, and August 1965.](../../../static/images/naeb_newsletter_covers.jpg)
+![Cover pages of NAEB newsletters dated from October 1, 1941, December 1960, and August 1965.](../../images/naeb_newsletter_covers.jpg)
 
 The NAEB’s most productive period as a creator of programs occurred during the 1950s, with its work on ambitious series such as [People Under Communism](https://mith.umd.edu/airwaves/programs/people-under-communism) and [The Jeffersonian Heritage](https://mith.umd.edu/airwaves/programs/the-jeffersonian-heritage) (featuring character actor Claude Rains in the role of Thomas Jefferson). In the late-1950s, the NAEB sponsored the [innovative research study, “Project in Understanding New Media,” led by media theorist Marshal McLuhan](https://mith.umd.edu/airwaves/exhibits/marshall-mcluhan-and-the-understanding-media-project/). The organization also devoted considerable resources toward the development of educational television.
 
-![Promotional materials for the Jeffersonian Heritage.](../../../static/images/naeb-b072-f03_0005.jpg)
+![Promotional materials for the Jeffersonian Heritage.](../../images/naeb-b072-f03_0005.jpg)
 
 Although the NAEB continued to exist until the early-1980s, the organization’s vitality gradually diminished across the 1960s and 70s. In some ways, the NAEB was a victim of its own success: the decades of federal lobbying contributed to the creation of CBP, PBS, and NPR. Additionally, the NAEB had a challenging time adapting to the shift from “educational media” to “public media”—a new landscape in which conversational broadcasting styles were preferred over on-air lectures. In the new environment of public media, large-market stations (e.g. [WNYC](https://mith.umd.edu/airwaves/search/?q=WNYC), [WGBH](https://mith.umd.edu/airwaves/search/?q=WGBH), [KQED](https://mith.umd.edu/airwaves/search/?q=KQED)) wielded far more power than the university stations that had led the NAEB (e.g. [Madison’s WHA](https://mith.umd.edu/airwaves/search/?q=WHA) and [Columbus’s WOSU](https://mith.umd.edu/airwaves/search/?q=WOSU)).
 
