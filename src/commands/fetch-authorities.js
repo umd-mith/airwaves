@@ -206,13 +206,6 @@ function flattenSubjects(subjects) {
   return newSubjects.sort((a, b) => a.name.localeCompare(b.name))
 }
 
-function joinSnacWikidata(people) {
-  const wikidata = require('../../static/data/wikidata.json')
-  const snac = require('../../static/data/snac.json')
-  for (const p of people) {
-  }
-}
-
 if (require.main === module) {
   main()
 }

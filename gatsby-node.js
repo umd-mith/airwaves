@@ -12,6 +12,7 @@ exports.createPages = async ({
   await documents(createPage, graphql, pathPrefix)
   await series(createPage, graphql, pathPrefix)
   await exhibits(createPage, graphql, pathPrefix)
+  await cpf(createPage, graphql, pathPrefix)
   await rss(graphql)
 }
 
@@ -296,6 +297,43 @@ async function exhibits(createPage, graphql) {
       component: require.resolve(`./src/templates/exhibit.js`),
       context: {
         ...exhibit,
+      },
+    })
+  })
+}
+
+async function cpf(createPage, graphql) {
+  results = await graphql(`
+    {
+      allPeopleJson(
+        filter: {wikidata: {wikidataId: {ne: null}}}
+      ) {
+        nodes {
+          id
+          type
+          wikidata {
+            wikidataId
+          }
+        }
+      }
+    }
+  `)
+
+  const perTmpl = require.resolve('./src/templates/person.js')
+  const orgTmpl = require.resolve('./src/templates/organization.js')
+
+  results.data.allPeopleJson.nodes.forEach(cpf => {
+
+    const id = cpf.id
+    const wid = cpf.wikidata.wikidataId
+    const tmpl = cpf.type == 'Person' ? perTmpl : orgTmpl
+    const path = cpf.type == 'Person' ? `/people/${wid}` : `/organizations/${wid}`
+
+    createPage({
+      path: path,
+      component: tmpl,
+      context: {
+        id: id
       },
     })
   })

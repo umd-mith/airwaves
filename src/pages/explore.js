@@ -22,7 +22,9 @@ const ExplorePage = () => (
         <h2>Explore Related Materials</h2>
         <p>Click the link below to browse materials from the NAEB paper collection, housed at the Wisconsin Historical Society on the campus of the University of Wisconsin-Madison. The NAEB papers mainly cover the period from 1950–1970, and include correspondence, scripts, reports, promotional materials, speeches of long-time president William G. Harley, ﬁles of the Office of Research and Development and of National Educational Radio (a division of the NAEB), newsletters and other publications. Below you can access a version of the WHS ﬁnding aid for the collection, which contains important scope and content notes, notes about the collection’s provenance, and most importantly, the Contents List. The Contents, or what is in the boxes and folders themselves, are organized by what are called archival "series.”</p>
         <p><b>Beta Launch Note</b> Right now the only folder which users can link to from this interface is under Contents List > Subject Files > Box 34 Folder 4: Public Relations, 1954-1965. If the advisors deem this interface useful, we will proceed with including the rest of the digitized folders in this interface.</p>
-        <Link to="/materials/" className="button">Explore Materials</Link>
+        <Link to="/materials/" className="button">Explore Materials</Link> &nbsp;
+        <Link to="/people/" className="button">Explore People</Link> &nbsp;
+        <Link to="/organizations/" className="button">Explore Organizations</Link>
       </section>
     </div>
   </Layout>
