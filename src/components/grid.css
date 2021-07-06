@@ -24,9 +24,6 @@ footer {
 /* Media queries for grid layouts */
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
-  .text-block {
-    max-width: var(--width-breakpoint-1);
-  }
   #main-content section.page-hero {
     max-width: 100vw;
   }
@@ -34,14 +31,8 @@ footer {
 
 /* large screens — 976px and up */
 @media screen and (min-width: 61em) {
-  .text-block {
-    max-width: var(--width-breakpoint-2);
-  }
 }
 
 /* x-large screens — 1072px and up */
 @media screen and (min-width: 67em) {
-  .text-block {
-    max-width: var(--width-breakpoint-3);
-  }
 }
