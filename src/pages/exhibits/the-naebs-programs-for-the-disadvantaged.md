@@ -2,7 +2,17 @@
 title: The NAEB's Programs for the Disadvantaged
 creator: Stephanie Sapienza
 key-image: ../../../static/images/kenneth-clark_crop.jpg
-lede: Temporary.
+lede: "In May 1968, the NAEB launched an initiative called Programs for the
+  Disadvantaged meant to “examine the role of educational broadcasting regarding
+  programming and employment practices for minority groups.” Led by Kenneth A.
+  Clark, the newly formed team surveyed and advised member stations on outreach
+  to disadvantaged communities through programming, technical training, and
+  education. Highlighted in this exhibit are two examples of programming
+  showcased by Programs for the Disadvantaged: *The Negro American*, a radio
+  lecture series by Professor Benjamin Quarles of Morgan State College,
+  Baltimore, made in late 1967 in Detroit Public Schools, and *Seeds of
+  Discontent*, which was written, produced, and hosted by Hartford Smith, Jr.
+  and WDET out of Wayne State University in Detroit."
 visuals:
   - title: Director for Programs for the Disadvantaged Dr. Kenneth B. Clark (Chicago
       Urban League Records, University of Illinois at Chicago Library). CC BY-SA
@@ -118,7 +128,7 @@ On the other end of the ‘national conversation’ spectrum as covered in the N
 
 The NAEB’s collection of audio programs held by University of Maryland is far from comprehensive in terms of representing the vast amount of their distributed content, but two full radio series which were featured and highlighted as part of the Programs for the Disadvantaged are linked below. One of these is *The Negro American*, a radio lecture series by Professor Benjamin Quarles of Morgan State College, Baltimore, made in late 1967 in Detroit Public Schools. The series covers one topic each week, starting off by posing the question 'Why Study Negro History?,' walking through slavery and abolition, the civil war and reconstruction, and contemporary protests.
 
-The second is the series *Seeds of Discontent*, which was written, produced, and hosted by Hartford Smith, Jr. and WDET out of Wayne State University in Detroit. Professor Smith contacted the Unlocking the Airwaves team and was gracious enough to grant an interview *in which he discussed in depth the history of his social activism work working first with juvenile delinquents in Detroit through the court system. Smith was an avid and vocal critic of media coverage of social issues at the time, stating strongly that it did not reflect the real concerns of the everyday people he dealt with in his work. A friend who worked as an engineer at WDET connected him with the station and he successfully pitched the series* Seeds of Discontent*, which he worked on in the evenings for no pay after his social work job ended. He had connections with the community through his work and conducted hours of interviews with people about their lives, their opinions on contemporary issues. The result was 26 half-hour episodes which are fully transcribed and available on the* Unlocking the Airwaves* website.
+The second is the series *Seeds of Discontent*, which was written, produced, and hosted by Hartford Smith, Jr. and WDET out of Wayne State University in Detroit. Professor Smith contacted the Unlocking the Airwaves team and was gracious enough to grant an interview in which he discussed in depth the history of his social activism work working first with juvenile delinquents in Detroit through the court system. Smith was an avid and vocal critic of media coverage of social issues at the time, stating strongly that it did not reflect the real concerns of the everyday people he dealt with in his work. A friend who worked as an engineer at WDET connected him with the station and he successfully pitched the series Seeds of Discontent, which he worked on in the evenings for no pay after his social work job ended. He had connections with the community through his work and conducted hours of interviews with people about their lives, their opinions on contemporary issues. The result was 26 half-hour episodes which are fully transcribed and available on the Unlocking the Airwaves website.
 
 As an extension to this exhibit, [this list](https://airtable.com/shriKXILirISvcOQW/tblgdT4BEXzAaxM2i) compiles information on all radio and television series mentioned in the NAEB Programs for the Disadvantaged correspondence. Select programs are available online externally to the Unlocking the Airwaves website.
 
