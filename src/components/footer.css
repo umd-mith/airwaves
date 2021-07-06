@@ -38,7 +38,7 @@ footer {
 
 @media screen and (min-width: 45em) {
   .footer-content-wrapper {
-    max-width: 250px;
+    max-width: var(--width-breakpoint-3);
   }
 
   .sponsors {
@@ -51,7 +51,4 @@ footer {
 }
 
 @media screen and (min-width: 67em) {
-  .footer-content-wrapper {
-    max-width: 1000px;
-  }
 }

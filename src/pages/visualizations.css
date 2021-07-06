@@ -1,7 +1,7 @@
 @import "../components/variables.css";
 
 .page-visualizations section {
-  grid-column: 1 / 17;
+  grid-column: 2 / 16;
 }
 
 .viz-screencap {
@@ -21,19 +21,37 @@
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
   .visualizations {
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 
-  .viz-screencap:last-child {
-    margin-left: var(--spacing-small-content);
+  .visualizations div:first-child {
+    grid-column: 1 / -1;
+  }
+
+  #naeb-timeline {
+    grid-column: 1 / -1;
+  }
+
+  #naeb-map {
+    grid-column: 1 / 3;
+  }
+
+  #content-standards {
+    grid-column: 3 / -1;
   }
 
   #timeline {
+    grid-column: 2 / 16;
     min-height: 38rem;
   }
 
+  #map {
+    grid-column: 2/ 16;
+  }
+
   .embed-host {
+    grid-column: 2 / 16;
     min-height: 38rem;
   }
 }

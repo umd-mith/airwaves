@@ -2,7 +2,16 @@
 title: " Poetry Programming in the NAEB Collection"
 creator: Marit J. MacArthur
 key-image: /images/apf1-07630r.jpg
-lede: Temporary.
+lede: The three programs devoted to poetry in the NAEB collection—*Poetry and
+  the American*, *Poetry in Song*, and *What Is Modern Poetry*—showcase the work
+  of such celebrated poets as T.S. Eliot, Robert Frost, Emily Dickinson, Dylan
+  Thomas, and e.e. cummings. Far from the individualistic, personal
+  understanding we have of poetry performance today, however, not one of these
+  programs features recordings of poets reading their own poems. Instead,
+  lecture-recitals performed by professors and actors (and, in the case of
+  *Poetry in Song*, musical accompaniment) take center stage, setting in relief
+  what is arbitrary and strange about what we take for granted in poetry
+  performance today.
 visuals:
   - title: Alan Simpson, host of *What is Modern Poetry* and Professor of History at
       the University of Chicago, in 1958. Image courtesy of the University of

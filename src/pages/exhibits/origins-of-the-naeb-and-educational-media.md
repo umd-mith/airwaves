@@ -2,7 +2,14 @@
 title: Origins of the NAEB and Educational Media
 creator: Josh Shepperd
 key-image: /images/acubs-font.png
-lede: Temporary.
+lede: Affiliates of the National Association of Educational Broadcasters (NAEB)
+  built American public media between 1925 and 1967, making it one of the
+  central trade organizations of American media history. Originally founded in
+  1925 as the Association of College and University Broadcasting Stations
+  (ACUBS), the educational technologists of the NAEB sought to utilize radio to
+  increase equal access to education. Its history gives us an opportunity to
+  trace the key players, events, and content that engendered our community,
+  public, and distance learning institutions.
 visuals:
   - image: ../../../static/images/service-pnp-cph-3g10000-3g14000-3g14700-3g14733r.jpg
     title: Beall, L. When I think back, Rural Electrification Administration, U.S.

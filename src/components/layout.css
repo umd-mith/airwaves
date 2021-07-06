@@ -16,8 +16,9 @@ body {
 }
 
 main section {
-  padding: var(--spacing-large-content) var(--spacing-large-content) 0
-    var(--spacing-large-content);
+  grid-column: 1 / -1;
+  padding: var(--spacing-base-content) var(--spacing-base-content) 0
+    var(--spacing-base-content);
 }
 
 [class^="page-"] {
@@ -44,6 +45,8 @@ ul {
 @media screen and (min-width: 45em) {
   main section {
     grid-column: 2 / 12;
+    padding: 0;
+    padding-top: var(--spacing-large-content);
   }
 }
 

@@ -16,8 +16,7 @@ lede: "Presented in collaboration with music departments, conservatories,
   Old Record Box I & II*)."
 visuals:
   - image: ../../../static/images/640px-beethoven.jpg
-    title:
-      "1820 potrait of Ludwig van Beethoven by Joseph Karl Stieler. The famed
+    title: "1820 potrait of Ludwig van Beethoven by Joseph Karl Stieler. The famed
       composer and pianist serves as the subject of the series *[Beethoven: The
       Man Who Freed
       Music](https://mith.umd.edu/airwaves/programs/beethoven-the-man-who-freed\
@@ -56,12 +55,10 @@ related:
       parts of the globe.
   - title: The Old Record Box
     url: https://mith.umd.edu/airwaves/programs/the-old-record-box/
-    description:
-      Cylinder recordings of music and spoken word from late 1890's to
+    description: Cylinder recordings of music and spoken word from late 1890's to
       1929; historic recordings of music and speech.
   - title: The Old Record Box II
-    description:
-      "Musical and speaking selections played from cylinder records dated
+    description: "Musical and speaking selections played from cylinder records dated
       from the late 1890s to about 1929. This prog.: Sampler: Happy Birds, Where
       the Sunset turns the Ocean's Blue to Gold, Uncle Josh and the Ligtning Rod
       Agent, Dardanelle, Rockabye Your Baby."
@@ -76,7 +73,6 @@ related:
       program committee. Includes discussion of music programming, network
       station awards, and the scheduling of quarterly programs.
 ---
-
 Presented in collaboration with music departments, conservatories, professional ensembles and noncommercial radio stations, these NAEB music programs aired between the early 1960s to early 1970s. They provide a fascinating glimpse into midcentury perspectives on music education and music broadcasting in the U.S. While the majority of their narratives feature white male voices, and emphasize Western classical music, a significant diversity of recordings, styles and attitudes reflect important cultural and technological changes in both the American academy and the radio industry.
 
 **Classical**
@@ -85,8 +81,8 @@ Nearly two-thirds of the NAEB music programs focus on classical music, including
 
 Highlights:[](https://mith.umd.edu/airwaves/programs/beethoven-the-man-who-freed-music/)
 
-- _[Beethoven: The Man Who Freed Music.](https://mith.umd.edu/airwaves/programs/beethoven-the-man-who-freed-music/)_ Fans of Beethoven will enjoy hearing the insights of musicologists and psychologists from the University of Michigan in this series that was created to commemorate the 200th anniversary of the composer’s birth in 1770.
-- *[Music in Our Time: 1969](https://mith.umd.edu/airwaves/programs/music-in-our-time-1969/).*This delightfully weird four-part series (part 2 is missing) features works of contemporary music that illustrate the sounds of the era, including progressive rock, atonal music, and experimental electronics.
+* *[Beethoven: The Man Who Freed Music.](https://mith.umd.edu/airwaves/programs/beethoven-the-man-who-freed-music/)* Fans of Beethoven will enjoy hearing the insights of musicologists and psychologists from the University of Michigan in this series that was created to commemorate the 200th anniversary of the composer’s birth in 1770.
+* *[Music in Our Time: 1969](https://mith.umd.edu/airwaves/programs/music-in-our-time-1969/).*This delightfully weird four-part series (part 2 is missing) features works of contemporary music that illustrate the sounds of the era, including progressive rock, atonal music, and experimental electronics.
 
 **Jazz**
 
@@ -94,8 +90,8 @@ The addition of jazz to music schools’ curricula marked another important chan
 
 Highlights:
 
-- [](https://mith.umd.edu/airwaves/programs/evolution-of-jazz/)_[Evolution of Jazz.](https://mith.umd.edu/airwaves/programs/evolution-of-jazz/)_ Hosted by jazz historian and associate editor of Downbeat magazine Nat Hentoff, this 80-part series offers the most in-depth study.
-- _[Jazz of the Past.](https://mith.umd.edu/airwaves/programs/jazz-of-the-past/)_ This series demonstrates the increasing value of historic recordings at a time when magnetic tape and vinyl had replaced 78rpm as the dominant commercial media. Host Lenny Kessel’s enthusiasm for the music is evident in his relaxed, informal narrative.
+* [](https://mith.umd.edu/airwaves/programs/evolution-of-jazz/)*[Evolution of Jazz.](https://mith.umd.edu/airwaves/programs/evolution-of-jazz/)* Hosted by jazz historian and associate editor of Downbeat magazine Nat Hentoff, this 80-part series offers the most in-depth study.
+* *[Jazz of the Past.](https://mith.umd.edu/airwaves/programs/jazz-of-the-past/)* This series demonstrates the increasing value of historic recordings at a time when magnetic tape and vinyl had replaced 78rpm as the dominant commercial media. Host Lenny Kessel’s enthusiasm for the music is evident in his relaxed, informal narrative.
 
 **Folk/Americana/International**
 
@@ -103,21 +99,15 @@ In the mid-twentieth century, radio broadcasting was also experiencing watershed
 
 Highlights:
 
-- _[Music Around the World.](https://mith.umd.edu/airwaves/programs/music-around-the-world/)_[](https://mith.umd.edu/airwaves/programs/music-around-the-world/) Produced and hosted by Marta Nicholas, a rare female voice in this collection, this series highlights a single theme for each program, such as strings, work songs, or love, and explores musical examples from around the globe.
-- _[The Old Record Box I](https://mith.umd.edu/airwaves/programs/the-old-record-box/)_ and _[II](https://mith.umd.edu/airwaves/programs/the-old-record-box-ii/)._ Host Fred Harrington plays spoken-word and musical wax cylinder recordings dating from the late 1890s to 1929, and shares the history behind them. Since many of these recordings are undoubtedly now lost to time and decay, this series may be the only place left to hear them.
+* *[Music Around the World.](https://mith.umd.edu/airwaves/programs/music-around-the-world/)*[](https://mith.umd.edu/airwaves/programs/music-around-the-world/) Produced and hosted by Marta Nicholas, a rare female voice in this collection, this series highlights a single theme for each program, such as strings, work songs, or love, and explores musical examples from around the globe.
+* *[The Old Record Box I](https://mith.umd.edu/airwaves/programs/the-old-record-box/)* and *[II](https://mith.umd.edu/airwaves/programs/the-old-record-box-ii/).* Host Fred Harrington plays spoken-word and musical wax cylinder recordings dating from the late 1890s to 1929, and shares the history behind them. Since many of these recordings are undoubtedly now lost to time and decay, this series may be the only place left to hear them.
 
 **Works cited**
 
-Kennedy, Gary W. "Jazz Education." _The New Grove Dictionary,_ 2nd ed. Oxford University Press, 2001. [](https://www-oxfordmusiconline-com.proxyau.wrlc.org/grovemusic/view/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-2000602300)
+Kennedy, Gary W. "Jazz Education." *The New Grove Dictionary,* 2nd ed. Oxford University Press, 2001. [](https://www-oxfordmusiconline-com.proxyau.wrlc.org/grovemusic/view/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-2000602300)
 
-Lasar, Matthew. _Pacifica Radio: The Rise of an Alternative Network_. Philadelphia: Temple University Press, 2000.
+Lasar, Matthew. *Pacifica Radio: The Rise of an Alternative Network*. Philadelphia: Temple University Press, 2000.
 
-Nettl, Bruno. _Heartland Excursions: Ethnomusicological Reflections on Schools of Music_. Champaign, IL: University of Illinois Press, 1995.
+Nettl, Bruno. *Heartland Excursions: Ethnomusicological Reflections on Schools of Music*. Champaign, IL: University of Illinois Press, 1995.
 
-**Laura Schnitker**, Ph.D., C.A.
-
-Curator, Special Collections in Mass Media & Culture
-
-Lecturer, School of Music
-
-University of Maryland
+**Laura Schnitker** is an ethnomusicologist, audiovisual archivist and radio DJ at the University of Maryland. She is the curator of Special Collections in [Mass Media & Culture](https://www.lib.umd.edu/special/collections/massmedia/home) at UMD Libraries, as well as a [lecturer](https://music.umd.edu/directory/laura-schnitker) in the School of Music, and hosts "The Bohemian Challenge" Thursday mornings on WMUC-FM. She also serves as co-chair of the College, Community and Educational Radio Caucus (CCER) on the Library of Congress' Radio Preservation Task Force.
