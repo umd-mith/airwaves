@@ -59,6 +59,16 @@ a:visited {
   color: var(--color-accent-900);
 }
 
+.breadcrumb {
+  color: var(--color-brand-primary);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.breadcrumb::after {
+  content: " /";
+}
+
 /* Media queries for grid layouts */
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
