@@ -30,6 +30,7 @@ class SearchPage extends React.Component {
 
   render() {
     const themeGroups = this.props.data.allThemesJson.group
+
     return (
       <Layout title="Search">
         <Loader>
@@ -43,6 +44,7 @@ class SearchPage extends React.Component {
                   <div className="theme-children">
                     {tg.edges.map(t => (
                       <div
+                        key={t.node.name}
                         className="theme"
                         role="button"
                         tabIndex={0}
