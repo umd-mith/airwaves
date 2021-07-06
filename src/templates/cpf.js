@@ -4,14 +4,29 @@ import { StaticImage, GatsbyImage, getImage } from 'gatsby-plugin-image'
 import './cpf.css'
 
 import Layout from '../components/layout'
+import { NavigateBeforeSharp } from '@material-ui/icons'
 
 const Field = ({label, value}) => {
+
   if (typeof(value) === 'string') {
     value = [value]
   }
+
   if (value === undefined || value === null || value.length === 0) {
     return ''
   }
+
+  if (value[0].match(/^https?:/)) {
+    return (
+      <>
+        <span className="label">{label}</span>: &nbsp;
+        {value.map(v => (
+          <span><Link to={v}>{v}</Link>&nbsp;</span>
+        ))}
+      </>
+    )
+  }
+
   return (
     <>
       <span className="label">{label}</span>: {value.join(', ')} <br />
@@ -139,7 +154,7 @@ const CPF = ({ data }) => {
   const relatedDocuments = DocumentList(joinLists(data.asDocumentCreator.nodes, data.asDocumentContributor.nodes))
   const relatedEpisodes = EpisodeList(cpf.id, joinLists(data.asEpisodeCreator.nodes, data.asEpisodeContributor.nodes))
 
-  const breadcrumb = cpf.type == 'Person' 
+  const breadcrumb = cpf.type === 'Person' 
     ? <Link to="/people/">People</Link> 
     : <Link to="/organizations/">Organizations</Link>
 
@@ -162,6 +177,7 @@ const CPF = ({ data }) => {
               <Field label="Inception" value={inception} />
             </p>
             <p>
+              <Field label="Alternate Names" value={cpf.wikidata.altNames} />
               <Field label="Occupation(s)" value={cpf.wikidata.occupation} /> 
               <Field label="Field(s) of Work" value={cpf.wikidata.occuptation} />
               <Field label="Field(s) of Work" value={cpf.wikidata.fieldOfWork} />
