@@ -147,7 +147,7 @@ const wikidataMap = {
     "place of death (P20)": "deathPlace",
     "inception (P571)": "inceptionDate",
     "coordinate location": "geo",
-    "Settlement": "settlment",
+    "Settlement": "settlement",
     "State Check": "state",
     "SNAC Ark ID": "snacArk"
   },

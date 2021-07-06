@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import { StaticImage, GatsbyImage, getImage } from 'gatsby-plugin-image'
-import './person.css'
+import './cpf.css'
 
 import Layout from '../components/layout'
 
@@ -34,9 +34,7 @@ const DocumentList = docs => {
   )
 }
 
-const EpisodeList = (personId, episodes) => {
-  console.log(episodes)
-
+const EpisodeList = (cpfId, episodes) => {
   // group episode information by series as a map keyed by the series id
   // so that we can output a list of episodes grouped by the series they are a part of
   const seriesMap = new Map()
@@ -60,10 +58,10 @@ const EpisodeList = (personId, episodes) => {
               {series.episodes.map(e => {
                 let role = ''
                 for (const episode of episodes) {
-                  const personRoles = joinLists(episode.creator, episode.contributor)
-                  const personRole = personRoles.find(e => e.id === personId)
-                  if (personRole) {
-                    role = `(${personRole.role})`
+                  const cpfRoles = joinLists(episode.creator, episode.contributor)
+                  const cpfRole = cpfRoles.find(e => e.id === cpfId)
+                  if (cpfRole) {
+                    role = `(${cpfRole.role})`
                   }
                 }
                 return (
@@ -86,8 +84,8 @@ function joinLists(a, b) {
   return a.concat(b)
 }
 
-const Person = ({ data }) => {
-  const person = data.peopleJson
+const CPF = ({ data }) => {
+  const cpf = data.peopleJson
 
   let image = <StaticImage 
     src='../images/missing-person.png' 
@@ -99,63 +97,80 @@ const Person = ({ data }) => {
   if (data.wikipediaJson) {
     if (data.wikipediaJson.image) {
       const img = getImage(data.wikipediaJson.image)
-      image = <GatsbyImage image={img} alt={person.name} />
+      image = <GatsbyImage image={img} alt={cpf.name} />
     }
     if (data.wikipediaJson.abstract) {
       abstract = (
         <p>
           {data.wikipediaJson.abstract}
-          <em>Read more at <a href={person.wikidata.wikipediaUrl}>Wikipedia</a>...</em>
+          <em>Read more at <a href={cpf.wikidata.wikipediaUrl}>Wikipedia</a>...</em>
         </p>
       )
     }
   }
 
   let birth = null
-  if (person.wikidata.birthDate) {
-    const t = new Date(person.wikidata.birthDate)
+  if (cpf.wikidata.birthDate) {
+    const t = new Date(cpf.wikidata.birthDate)
     birth = `${t.getUTCFullYear()}`
-    if (person.wikidata.birthPlace) {
-      birth += `, ${person.wikidata.birthPlace}`
+    if (cpf.wikidata.birthPlace) {
+      birth += `, ${cpf.wikidata.birthPlace}`
     }
   }
 
   let death = null 
-  if (person.wikidata.deathDate) {
-    const t = new Date(person.wikidata.deathDate)
+  if (cpf.wikidata.deathDate) {
+    const t = new Date(cpf.wikidata.deathDate)
     death = `${t.getUTCFullYear()}`
-    if (person.wikidata.deathPlace) {
-      death += `, ${person.wikidata.deathPlace}`
+    if (cpf.wikidata.deathPlace) {
+      death += `, ${cpf.wikidata.deathPlace}`
+    }
+  }
+
+  let inception = null
+  if (cpf.wikidata.inception) {
+    const t = new Date(cpf.wikidata.inception) 
+    inception = `${t.getUTCFullYear()}`
+    if (cpf.wikidata.settlement) {
+      inception += `, ${cpf.wikidata.settlement}`
     }
   }
 
   const relatedDocuments = DocumentList(joinLists(data.asDocumentCreator.nodes, data.asDocumentContributor.nodes))
-  const relatedEpisodes = EpisodeList(person.id, joinLists(data.asEpisodeCreator.nodes, data.asEpisodeContributor.nodes))
+  const relatedEpisodes = EpisodeList(cpf.id, joinLists(data.asEpisodeCreator.nodes, data.asEpisodeContributor.nodes))
+
+  const breadcrumb = cpf.type == 'Person' 
+    ? <Link to="/people/">People</Link> 
+    : <Link to="/organizations/">Organizations</Link>
 
   return (
     <Layout>
       <section>
-
         <h2>
-          <Link to="/people/">People</Link> / {person.name}
+          {breadcrumb} / {cpf.name}
         </h2>
-        <div className="person">
+        <div className="cpf">
           <div className="image">
             {image}
           </div>
           <div className="bio">
-            <b>{person.wikidata.name}</b>
+            <b>{cpf.wikidata.name}</b>
             {abstract}
             <p>
               <Field label="Born" value={birth} />
               <Field label="Died" value={death} />
+              <Field label="Inception" value={inception} />
             </p>
             <p>
-              <Field label="Occuptation(s)" value={person.wikidata.occupation} /> 
-              <Field label="Field(s) of Work" value={person.wikidata.occuptation} />
-              <Field label="Field(s) of Work" value={person.wikidata.fieldOfWork} />
-              <Field label="Employer(s)" value={person.wikidata.employer} />
-              <Field label="Member of" value={person.wikidata.memberOf} />
+              <Field label="Occupation(s)" value={cpf.wikidata.occupation} /> 
+              <Field label="Field(s) of Work" value={cpf.wikidata.occuptation} />
+              <Field label="Field(s) of Work" value={cpf.wikidata.fieldOfWork} />
+              <Field label="Employer(s)" value={cpf.wikidata.employer} />
+              <Field label="Located in" value={cpf.wikidata.locatedIn} />
+              <Field label="Broadcast to" value={cpf.wikidata.broadastTo} />
+              <Field label="Member of" value={cpf.wikidata.memberOf} />
+              <Field label="Owned by" value={cpf.wikidata.ownedBy} />
+              <Field label="Website" value={cpf.wikidata.website} />
             </p>
             <div className="related">
               {relatedEpisodes}
@@ -217,7 +232,7 @@ export const query = graphql`
         memberOf
         occupation
         ownedBy
-        settlment
+        settlement
         state
         snacArk
         viaf
@@ -297,4 +312,4 @@ export const query = graphql`
   }
 `
 
-export default Person
+export default CPF

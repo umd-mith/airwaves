@@ -12,7 +12,7 @@ const Organizations = ({ data }) => {
         <ul>
         {people.map(p => (
           <li>
-            <Link to={`/organizations/${p.wikidata.wikidataId}`}>{p.name}</Link>: 
+            <Link to={`/organizations/${p.wikidata.wikidataId}/`}>{p.name}</Link>: 
             {p.wikidata.description}</li>
         ))}
         </ul>

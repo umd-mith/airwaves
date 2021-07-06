@@ -319,19 +319,16 @@ async function cpf(createPage, graphql) {
     }
   `)
 
-  const perTmpl = require.resolve('./src/templates/person.js')
-  const orgTmpl = require.resolve('./src/templates/organization.js')
 
   results.data.allPeopleJson.nodes.forEach(cpf => {
 
     const id = cpf.id
     const wid = cpf.wikidata.wikidataId
-    const tmpl = cpf.type == 'Person' ? perTmpl : orgTmpl
     const path = cpf.type == 'Person' ? `/people/${wid}` : `/organizations/${wid}`
 
     createPage({
       path: path,
-      component: tmpl,
+      component: require.resolve('./src/templates/cpf.js'),
       context: {
         id: id
       },
