@@ -1,3 +1,4 @@
+@import "../components/variables.css";
 
 .MuiListItem-button.MuiButtonBase-root {
   background-color: rgba(0, 0, 0, 0.03);
@@ -13,13 +14,18 @@
 }
 article .li-text .MuiCollapse-wrapperInner,
 article .li-box .MuiCollapse-wrapperInner {
-  padding: 8px 16px; 
+  padding: 8px 16px;
 }
-.MuiCollapse-container .MuiCollapse-wrapperInner :not(ul.MuiList-root) .MuiListItemText-root .MuiTypography-body1 {
+.MuiCollapse-container
+  .MuiCollapse-wrapperInner
+  :not(ul.MuiList-root)
+  .MuiListItemText-root
+  .MuiTypography-body1 {
   font-size: 0.875rem;
   font-family: inherit;
 }
-li[class^="folder-naeb-"], li[class*=" folder-naeb-"] {
+li[class^="folder-naeb-"],
+li[class*=" folder-naeb-"] {
   padding-left: 0px;
 }
 
@@ -49,10 +55,11 @@ li[class^="folder-naeb-"], li[class*=" folder-naeb-"] {
   background-color: transparent;
   grid-column: 2;
 }
-.MuiCollapse-wrapper dt, .MuiCollapse-wrapper dd {
+.MuiCollapse-wrapper dt,
+.MuiCollapse-wrapper dd {
   margin: 0;
-  padding: .3em .7em;
-  border-top: 1px solid rgba(0,0,0,.1);
+  padding: 0.3em 0.7em;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* box description */
@@ -71,7 +78,7 @@ li[class^="folder-naeb-"], li[class*=" folder-naeb-"] {
 .folder {
   grid-column-gap: 0.5rem;
   padding-bottom: 0.75rem;
-  border-bottom: 1px dashed rgba(0,0,0,0.2)
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 .folder.has-items {
   grid-row-gap: 0;
@@ -97,6 +104,28 @@ li[class^="folder-naeb-"], li[class*=" folder-naeb-"] {
   margin-top: 5px;
 }
 .folder-link a.button {
-  padding: 3px 7px; 
+  padding: 3px 7px;
   margin: 0px;
+}
+
+/* Media queries for grid layouts */
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 45em) {
+  .finding-aid-display {
+    max-width: var(--width-breakpoint-1);
+  }
+}
+
+/* large screens — 976px and up */
+@media screen and (min-width: 61em) {
+  .finding-aid-display {
+    max-width: var(--width-breakpoint-2);
+  }
+}
+
+/* x-large screens — 1072px and up */
+@media screen and (min-width: 67em) {
+  .finding-aid-display {
+    max-width: var(--width-breakpoint-2);
+  }
 }
