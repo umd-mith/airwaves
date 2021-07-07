@@ -21,8 +21,8 @@ main section {
     var(--spacing-base-content);
 }
 
-main section:first-child {
-  border-bottom: 1px solid var(--color-gray-300);
+main section:nth-child(2) {
+  border-top: 1px solid var(--color-gray-300);
 }
 
 [class^="page-"] {
