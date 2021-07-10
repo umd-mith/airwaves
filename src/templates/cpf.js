@@ -201,15 +201,6 @@ const CPF = ({ data }) => {
 
 export const query = graphql`
   query($id: String!) {
-    wikipediaJson(id: {eq: $id}) {
-      id
-      abstract
-      image {
-        childImageSharp {
-          gatsbyImageData(width: 300)
-        }
-      }
-    }
     peopleJson(id: {eq: $id}) {
       id
       name
@@ -255,6 +246,15 @@ export const query = graphql`
         website
         wikidataId
         wikipediaUrl
+      }
+    }
+    wikipediaJson(personId: {eq: $id}) {
+      personId
+      abstract
+      image {
+        childImageSharp {
+          gatsbyImageData(width: 300)
+        }
       }
     }
     asDocumentCreator: allDocumentsJson(

@@ -48,7 +48,7 @@ async function scrapeWikipedia(people) {
       }
 
       const w = {
-        id: person.id,
+        personId: person.id,
         url: person.wikidata.wikipediaUrl, 
         image: null,
         imageUrl: null,
