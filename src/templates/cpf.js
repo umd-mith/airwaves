@@ -4,100 +4,6 @@ import { StaticImage, GatsbyImage, getImage } from 'gatsby-plugin-image'
 import './cpf.css'
 
 import Layout from '../components/layout'
-import { NavigateBeforeSharp } from '@material-ui/icons'
-
-const Field = ({label, value}) => {
-
-  if (typeof(value) === 'string') {
-    value = [value]
-  }
-
-  if (value === undefined || value === null || value.length === 0) {
-    return ''
-  }
-
-  if (value[0].match(/^https?:/)) {
-    return (
-      <>
-        <span className="label">{label}</span>: &nbsp;
-        {value.map(v => (
-          <span><Link to={v}>{v}</Link>&nbsp;</span>
-        ))}
-      </>
-    )
-  }
-
-  return (
-    <>
-      <span className="label">{label}</span>: {value.join(', ')} <br />
-    </>
-  )
-}
-
-const DocumentList = docs => {
-  return (
-    <div>
-      <h2>Documents</h2>
-      <ul>
-        {docs.map(d => (
-          <li key={d.id}>
-            <Link to={`/document/${d.iaId}/`}>{d.title}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  )
-}
-
-const EpisodeList = (cpfId, episodes) => {
-  // group episode information by series as a map keyed by the series id
-  // so that we can output a list of episodes grouped by the series they are a part of
-  const seriesMap = new Map()
-  for (const e of episodes) {
-    if (! seriesMap.has(e.series.id)) {
-      seriesMap.set(e.series.id, {title: e.series.title, episodes: []})
-    }
-    seriesMap.get(e.series.id).episodes.push(e)
-  }
-  const seriesIds = Array.from(seriesMap.keys())
-
-  return (
-    <div>
-      <h2>Episodes</h2>
-      {seriesIds.map(seriesId => {
-        const series = seriesMap.get(seriesId)
-        return (
-          <div key={seriesId}>
-            <b><Link to={`/programs/${seriesId}/`}>{series.title}</Link></b>
-            <ul>
-              {series.episodes.map(e => {
-                let role = ''
-                for (const episode of episodes) {
-                  const cpfRoles = joinLists(episode.creator, episode.contributor)
-                  const cpfRole = cpfRoles.find(e => e.id === cpfId)
-                  if (cpfRole) {
-                    role = `(${cpfRole.role})`
-                  }
-                }
-                return (
-                  <li key={e.id}>
-                    <Link to={`/episode/${e.aapbId}/`}>{e.title}</Link> {role}</li>
-                )
-              })}
-            </ul>
-            <br />
-          </div>
-        )
-      })}
-    </div>
-  )
-}
-
-function joinLists(a, b) {
-  if (!a) a = []
-  if (!b) b = []
-  return a.concat(b)
-}
 
 const CPF = ({ data }) => {
   const cpf = data.peopleJson
@@ -198,6 +104,107 @@ const CPF = ({ data }) => {
     </Layout>
   )
 }
+
+const Field = ({label, value}) => {
+
+  if (typeof(value) === 'string') {
+    value = [value]
+  }
+
+  if (value === undefined || value === null || value.length === 0) {
+    return ''
+  }
+
+  if (value[0].match(/^https?:/)) {
+    return (
+      <>
+        <span className="label">{label}</span>: &nbsp;
+        {value.map(v => (
+          <span><Link to={v}>{v}</Link>&nbsp;</span>
+        ))}
+      </>
+    )
+  }
+
+  return (
+    <>
+      <span className="label">{label}</span>: {value.join(', ')} <br />
+    </>
+  )
+}
+
+const DocumentList = docs => {
+  if (docs.length === 0) {
+    return ''
+  }
+  return (
+    <div>
+      <h2>Documents</h2>
+      <ul>
+        {docs.map(d => (
+          <li key={d.id}>
+            <Link to={`/document/${d.iaId}/`}>{d.title}</Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+const EpisodeList = (cpfId, episodes) => {
+  if (episodes.length === 0) {
+    return ''
+  }
+
+  // group episode information by series as a map keyed by the series id
+  // so that we can output a list of episodes grouped by the series they are a part of
+  const seriesMap = new Map()
+  for (const e of episodes) {
+    if (! seriesMap.has(e.series.id)) {
+      seriesMap.set(e.series.id, {title: e.series.title, episodes: []})
+    }
+    seriesMap.get(e.series.id).episodes.push(e)
+  }
+  const seriesIds = Array.from(seriesMap.keys())
+
+  return (
+    <div>
+      <h2>Episodes</h2>
+      {seriesIds.map(seriesId => {
+        const series = seriesMap.get(seriesId)
+        return (
+          <div key={seriesId}>
+            <b><Link to={`/programs/${seriesId}/`}>{series.title}</Link></b>
+            <ul>
+              {series.episodes.map(e => {
+                let role = ''
+                for (const episode of episodes) {
+                  const cpfRoles = joinLists(episode.creator, episode.contributor)
+                  const cpfRole = cpfRoles.find(e => e.id === cpfId)
+                  if (cpfRole) {
+                    role = `(${cpfRole.role})`
+                  }
+                }
+                return (
+                  <li key={e.id}>
+                    <Link to={`/episode/${e.aapbId}/`}>{e.title}</Link> {role}</li>
+                )
+              })}
+            </ul>
+            <br />
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+function joinLists(a, b) {
+  if (!a) a = []
+  if (!b) b = []
+  return a.concat(b)
+}
+
 
 export const query = graphql`
   query($id: String!) {
