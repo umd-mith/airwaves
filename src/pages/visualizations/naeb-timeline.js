@@ -23,15 +23,15 @@ const TimelinePage = () => {
             <Link className="breadcrumb" to="/visualizations/">
               Visualizations
             </Link>{" "}
-            Title Me
+            Public Broadcasting Timeline
           </h2>
           <p>
-            Bacon ipsum dolor amet leberkas excepteur cupidatat short ribs doner
-            deserunt. Biltong pancetta ground round lorem et velit culpa tail eu
-            adipisicing. Cow brisket landjaeger enim drumstick, tenderloin strip
-            steak eu buffalo venison veniam esse. Ea nulla dolore prosciutto
-            commodo tongue beef ribs pancetta ham shank exercitation est chislic
-            sed.
+            Below are a set of slides which chronologically depict the major
+            events that contributed to the formation and evolution of the NAEB.
+            The timeline ends in the late 60s when the Public Broadcasting Act
+            was passed. The Act led to the formation of the Corporation for
+            Public Broadcasting, National Public Radio (NPR), and Public
+            Television Service (PBS), which ultimately supplanted the NAEB.
           </p>
         </div>
         <div id="timeline" className="full-bleed" ref={timelineEl} />
