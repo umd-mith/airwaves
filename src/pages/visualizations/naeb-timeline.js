@@ -4,7 +4,7 @@ import Layout from "../../components/layout"
 import { Timeline } from "@knight-lab/timelinejs"
 import events from "../../../static/data/visualizations/pbtimeline.json"
 
-import "@knight-lab/timelinejs/dist/css/timeline.css"
+// import "@knight-lab/timelinejs/dist/css/timeline.css"
 
 const TimelinePage = () => {
   const timelineEl = useRef(null)
@@ -18,7 +18,7 @@ const TimelinePage = () => {
   return (
     <Layout url="/visualizations/naeb-timeline/">
       <div className="page-visualization-naeb-timeline">
-        <section id="timeline">
+        <div className="text-block">
           <h2>
             <Link className="breadcrumb" to="/visualizations/">
               Visualizations
@@ -33,8 +33,8 @@ const TimelinePage = () => {
             commodo tongue beef ribs pancetta ham shank exercitation est chislic
             sed.
           </p>
-          <div ref={timelineEl} />
-        </section>
+        </div>
+        <div id="timeline" className="full-bleed" ref={timelineEl} />
       </div>
     </Layout>
   )

@@ -5,6 +5,16 @@
   margin-top: var(--spacing-large-content);
 }
 
+.search,
+.themes {
+  padding: var(--spacing-small-content);
+}
+
+.search-box,
+.results-wrapper {
+  grid-column: 1 / -1;
+}
+
 .themes {
   margin: 0 auto;
   margin-top: var(--spacing-large-content);
@@ -38,11 +48,7 @@
   .search,
   .themes {
     max-width: var(--width-breakpoint-1);
-  }
-
-  .search-box,
-  .results-wrapper {
-    grid-column: 1 / -1;
+    padding: 0;
   }
 
   .themes {

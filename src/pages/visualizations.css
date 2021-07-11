@@ -1,7 +1,8 @@
 @import "../components/variables.css";
 
-.page-visualizations section {
-  grid-column: 2 / 16;
+.page-visualization-naeb-timeline > * {
+  grid-column: 1 / -1;
+  padding: var(--spacing-small-content);
 }
 
 .viz-screencap {
@@ -10,6 +11,16 @@
 
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
+  .page-visualization-naeb-timeline > * {
+    grid-column: 4 / 14;
+    padding: 0;
+  }
+
+  .full-bleed {
+    grid-column: 1 / -1;
+    margin: 0 auto;
+  }
+
   .visualizations {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -32,12 +43,12 @@
   }
 
   #timeline {
-    grid-column: 2 / 16;
+    grid-column: 1 / -1;
     min-height: 38rem;
   }
 
   #map {
-    grid-column: 2/ 16;
+    width: 100%;
   }
 
   .embed-host {
