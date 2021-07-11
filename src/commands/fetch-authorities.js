@@ -17,7 +17,7 @@ async function main() {
   subjects.map(s => (s.name = s.name.replace(/\.$/, "")))
   writeJson(subjects, "subjects.json")
 
-  const places = await fetch("Geographic Authorities", placesMap)
+  const places = (await fetch("Geographic Authorities", placesMap)).filter(p => p.type)
   writeJson(places, "places.json")
 
   const series = await fetch("Series", seriesMap)
@@ -87,7 +87,12 @@ const placesMap = {
   slugId: "Name",
   strings: {
     Name: "name",
-  },
+    Type: "type",
+    "Wikidata ID": "wikidataId",
+    Geocoordinates: "geo",
+    "LOC ID": "lccn",
+    "Getty Thesaurus ID": "gettyId",
+  }
 }
 
 const genresMap = {
