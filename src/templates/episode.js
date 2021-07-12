@@ -101,15 +101,17 @@ const Episode = ({ data }) => {
 
   return (
     <Layout title={pageTitle}>
-      <div id="episode" className="">
-        <section className="leader">
-          <article>
-            <h1>{episode.title}</h1>
-          </article>
+      <div className="page-episode">
+        <section>
+          <h2>
+            <Link className="breadcrumb" to="/visualizations/">
+              {series}
+            </Link>{" "}
+            {episode.title}
+          </h2>
         </section>
-
-        <section className="columns">
-          <article className="metadata col-6 col-12-sm col-12-xs">
+        <section className="episode">
+          <div className="metadata">
             <dl>
               <dt className="label">Series</dt>
               <dd>{series}</dd>
@@ -134,10 +136,10 @@ const Episode = ({ data }) => {
               <dt className="label">Time Period</dt>
               <dd>{episode.temporal}</dd>
             </dl>
-          </article>
-          <article className="recording col-6 col-12-sm col-12-xs">
+          </div>
+          <div className="recording">
             <Disclaimer />
-            <Player 
+            <Player
               transcript={`${s3Bucket}/data/transcripts/${id}/${id}.vtt`}
               audio={`${s3Bucket}/data/audio/${id}.mp3`}
             />
