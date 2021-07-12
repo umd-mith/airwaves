@@ -2,6 +2,60 @@
   padding: var(--spacing-base-content) 0;
 }
 
-#contributors ul li:last-child {
-  margin-bottom: 2rem;
+#contributors h3 {
+  border-bottom: 1px solid var(--color-gray-300);
+  padding-bottom: var(--spacing-base-content);
+}
+
+#contributors li {
+  display: list-item;
+}
+
+/* Styles to create a multi-column layout without containing divs or sections */
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 67em) {
+  #contributors {
+    display: grid;
+    column-gap: var(--spacing-base-content);
+    grid-template-columns: repeat(3, minmax(25rem, 1fr));
+    grid-template-areas:
+      "section-head section-head section-head"
+      "list-head-1 . ."
+      "list-1 . ."
+      "list-head-2 list-head-3 list-head-3"
+      "list-2 list-3 list-3";
+  }
+
+  #contributors h2 {
+    grid-area: section-head;
+  }
+
+  #contributors h3:nth-of-type(1) {
+    grid-area: list-head-1;
+  }
+
+  #contributors ul:nth-of-type(1) {
+    grid-area: list-1;
+  }
+
+  #contributors h3:nth-of-type(2) {
+    grid-area: list-head-2;
+  }
+
+  #contributors ul:nth-of-type(2) {
+    grid-area: list-2;
+  }
+
+  #contributors h3:nth-of-type(3) {
+    grid-area: list-head-3;
+  }
+
+  #contributors ul:nth-of-type(3) {
+    columns: 2;
+    grid-area: list-3;
+  }
+
+  #contributors ul li:last-child {
+    margin-bottom: 2rem;
+  }
 }

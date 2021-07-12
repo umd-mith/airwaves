@@ -20,13 +20,9 @@ const AboutPage = ({ data }) => {
         <section>
           <h1>About</h1>
         </section>
-        <section
-          className="text-block"
-          dangerouslySetInnerHTML={{ __html: cmsData.html }}
-        ></section>
+        <section dangerouslySetInnerHTML={{ __html: cmsData.html }}></section>
         <section
           id="contributors"
-          className="text-block"
           dangerouslySetInnerHTML={{
             __html: convertMarkdown(cmsData.frontmatter.team),
           }}
