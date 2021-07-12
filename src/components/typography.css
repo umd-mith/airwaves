@@ -1,37 +1,44 @@
 @import "variables.css";
 
 html {
-  color: var(--color-gray-900);
+  color: var(--color-gray-800);
   font-family: var(--font-stack);
+  font-size: 14px;
 }
 
 body {
   font-weight: 400;
-  line-height: 1.31;
+  line-height: 1.6;
   word-wrap: break-word;
 }
 
+h3,
+h2,
+h1 {
+  color: var(--color-gray-900);
+}
+
 h3 {
-  font-size: 1.18rem;
+  font-size: 1.14rem;
   font-weight: 700;
-  line-height: 1.31;
+  line-height: 1.1;
   margin-bottom: 1.31rem;
   text-rendering: optimizeLegibility;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.43rem;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1.2;
   margin-bottom: 1.31rem;
   text-rendering: optimizeLegibility;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 1.57rem;
   font-weight: 700;
-  line-height: 1.11;
-  margin-bottom: 1.87rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
   text-rendering: optimizeLegibility;
 }
 
