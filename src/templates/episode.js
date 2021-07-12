@@ -1,10 +1,10 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
-import { Player } from 'webvtt-player'
-import { formatDuration } from '../utils'
-import './episode.css'
-import Disclaimer from '../components/transcript-disclaimer'
-import Layout from '../components/layout'
+import React from "react"
+import { graphql, Link } from "gatsby"
+import { Player } from "webvtt-player"
+import { formatDuration } from "../utils"
+import "./episode.css"
+import Disclaimer from "../components/transcript-disclaimer"
+import Layout from "../components/layout"
 
 export const query = graphql`
   query($aapbId: String!) {
@@ -40,41 +40,61 @@ export const query = graphql`
 `
 
 const Episode = ({ data }) => {
-  const s3Bucket = 'https://mith-uta.s3.amazonaws.com'
+  const s3Bucket = "https://mith-uta.s3.amazonaws.com"
   const episode = data.episodesJson
   const id = episode.aapbId
 
   let creators = ""
   if (episode.creator) {
     creators = episode.creator.map(c => {
-      return <div key={`creator-${c.name}`}><Link to={`/search/?f=creator:${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
+      return (
+        <div key={`creator-${c.name}`}>
+          <Link to={`/search/?f=creator:${c.name}`}>{c.name}</Link>{" "}
+          <span>({c.role})</span>
+        </div>
+      )
     })
   }
 
   let subjects = ""
   if (episode.subject) {
     subjects = episode.subject.map(s => {
-      return <div key={`subject-${s.name}`}><Link to={`/search/?f=subject:${s.name}`}>{s.name}</Link></div>
+      return (
+        <div key={`subject-${s.name}`}>
+          <Link to={`/search/?f=subject:${s.name}`}>{s.name}</Link>
+        </div>
+      )
     })
   }
 
   let contributors = ""
   if (episode.contributor) {
     contributors = episode.contributor.map(c => {
-      return <div key={`contributor-${c.name}`}><Link to={`/search/?f=contributor:${c.name}`}>{c.name}</Link> <span>({c.role})</span></div>
+      return (
+        <div key={`contributor-${c.name}`}>
+          <Link to={`/search/?f=contributor:${c.name}`}>{c.name}</Link>{" "}
+          <span>({c.role})</span>
+        </div>
+      )
     })
   }
 
   let genres = ""
   if (episode.genre) {
     genres = episode.genre.map(g => {
-      return <div key={`genre-${g.name}`}><Link to={`/search/?f=genre:${g.name}`}>{g.name}</Link></div>
+      return (
+        <div key={`genre-${g.name}`}>
+          <Link to={`/search/?f=genre:${g.name}`}>{g.name}</Link>
+        </div>
+      )
     })
   }
 
   let series = ""
   if (episode.series) {
-    series = <Link to={`/programs/${episode.series.id}/`}>{episode.series.title}</Link>
+    series = (
+      <Link to={`/programs/${episode.series.id}/`}>{episode.series.title}</Link>
+    )
   }
 
   let pageTitle = `${episode.series.title}: ${episode.title}`
@@ -119,8 +139,9 @@ const Episode = ({ data }) => {
             <Disclaimer />
             <Player 
               transcript={`${s3Bucket}/data/transcripts/${id}/${id}.vtt`}
-              audio={`${s3Bucket}/data/audio/${id}.mp3`} />
-          </article>
+              audio={`${s3Bucket}/data/audio/${id}.mp3`}
+            />
+          </div>
         </section>
       </div>
     </Layout>
