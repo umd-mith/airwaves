@@ -72,7 +72,7 @@ a:hover {
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
   [class^="page-"] > * {
-    grid-column: 4 / 12;
+    grid-column: 2 / -2;
     padding: 0;
     padding-top: var(--spacing-large-content);
   }
@@ -84,17 +84,10 @@ a:hover {
 
 /* x-large screens — 1072px and up */
 @media screen and (min-width: 67em) {
-  .text-block {
-    max-width: var(--width-breakpoint-2);
-  }
 }
 
 @media screen and (min-width: 131em) {
   [class^="page-"] > * {
-    grid-column: 6 / 11;
-  }
-
-  .text-block {
-    max-width: var(--width-breakpoint-2);
+    grid-column: 5 / -5;
   }
 }
