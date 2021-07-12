@@ -8,8 +8,8 @@ const VisualizationsPage = () => {
   return (
     <Layout url="/visualizations/">
       <div className="page-visualizations">
-        <section className="visualizations">
-          <div>
+        <section>
+          <div className="text-block">
             <h1>Visualizations</h1>
             <p>
               I am an introduction to this page. Bacon ipsum dolor amet leberkas
@@ -20,6 +20,8 @@ const VisualizationsPage = () => {
               beef ribs pancetta ham shank exercitation est chislic sed.
             </p>
           </div>
+        </section>
+        <section className="visualizations full-bleed">
           <div id="naeb-timeline">
             <Link to="/visualizations/naeb-timeline/">
               <img

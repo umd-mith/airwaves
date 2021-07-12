@@ -12,7 +12,7 @@ export default function IFrame({
       title={title}
       width={width}
       height={height}
-      frameborder={frameborder}
+      frameBorder={frameborder}
       src={src}
     ></iframe>
   )
