@@ -1,100 +1,33 @@
-.webvtt-player .episode {
-  display: flex;
-  flex-wrap: wrap;
-}
-.webvtt-player {
-  margin-top: 1em;
-}
-.webvtt-player .media {
-  border-left: 1px solid #ccc;
-  margin-right: auto;
-}
-.webvtt-player .player {
-  padding: 0 10px;
-}
-.webvtt-player audio {
-  width: 100%;
-  height: 35px;
-}
-.webvtt-player .controls {
-  padding: 5px;
-  text-align: center;
-  vertical-align: text-top;
-  background-color: #ccc;
-}
-.webvtt-player .seekBar {
-  vertical-align: middle;
-}
-.webvtt-player .active {
-  background-color: #eee;
-}
-.webvtt-player .transcript {
-}
-.webvtt-player .line {
-  padding: 3px 0;
-  cursor: pointer;
-}
-.webvtt-player .time {
-  font-size: smaller;
-  font-style: italic;
-}
-.webvtt-player .active {
-  background-color: #eee;
-}
-.webvtt-player .match {
-  background-color: lightyellow;
-}
-.webvtt-player .line {
-  padding: 5px;
-  cursor: pointer;
-}
-.webvtt-player .time {
-  width: 110px;
-  float: left;
-  font-size: 10pt;
-  line-height: 14pt;
-}
-.webvtt-player .text {
-  margin-left: 110px;
-}
-.webvtt-player .search {
-  border-top: thin solid #ccc;
-  padding: 5px 5px 5px 5px;
-  font-size: 14pt;
-  margin-top: 5px;
-}
-.webvtt-player .search .container {
-  border: thin solid #ccc;
-}
-.webvtt-player .search input {
-  font-size: 12pt;
-  border: none;
-  width: 90%;
-}
-.webvtt-player .search input:focus {
-  outline: none;
-}
-.webvtt-player .search .icon {
-  padding-left: 5px;
-  padding-right: 5px;
+@import "../components/variables.css";
+@import "../components/webvtt-player.css";
+@import "../components/datalist.css";
+
+/* Media queries for grid layouts */
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 45em) {
+  [class^="page-episode"] > section {
+    grid-column: 2 / -2;
+  }
+
+  .episode {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+    column-gap: var(--spacing-base-content);
+  }
+
+  .metadata,
+  .recording {
+    margin: 0;
+  }
 }
 
-/*metadata*/
-.metadata dl {
-  grid-template-columns: minmax(7em, 1fr)
+/* large screens — 976px and up */
+@media screen and (min-width: 61em) {
 }
-@media (max-width: 599px) {
-  .metadata dl {
-    font-size: 13px;
-  }  
+
+/* x-large screens — 1072px and up */
+@media screen and (min-width: 67em) {
 }
-@media (min-width: 600px) {
-  .webvtt-player {
-    padding-left: 20px;
-  }
-  .webvtt-player .transcript {
-    height: 90vh;
-    padding: 10px;
-    overflow-y: scroll;
-  }
+
+@media screen and (min-width: 131em) {
 }
