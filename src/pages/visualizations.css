@@ -1,21 +1,30 @@
 @import "../components/variables.css";
 
-.page-visualization-naeb-timeline > * {
-  grid-column: 1 / -1;
-  padding: var(--spacing-small-content);
-}
-
 .viz-screencap {
   margin-bottom: var(--spacing-base-content);
 }
 
+/* Requested Timeline.js CSS overrides */
+.tl-timeline h2.tl-headline-title {
+  font-size: 1.875rem;
+  line-height: 1.875;
+}
+
+.tl-timeline h1,
+.tl-timeline h2,
+.tl-timeline h3,
+.tl-timeline h4,
+.tl-timeline h5,
+.tl-timeline h6 {
+  font-family: "Abril Fatface", cursive;
+  text-transform: none;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 1.875;
+}
+
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
-  .page-visualization-naeb-timeline > * {
-    grid-column: 4 / 14;
-    padding: 0;
-  }
-
   .full-bleed {
     grid-column: 1 / -1;
     margin: 0 auto;
@@ -43,7 +52,7 @@
   }
 
   #timeline {
-    grid-column: 1 / -1;
+    margin: 0;
     min-height: 38rem;
   }
 
@@ -52,7 +61,7 @@
   }
 
   .embed-host {
-    grid-column: 2 / 16;
+    margin: 0;
     min-height: 38rem;
   }
 }
@@ -63,4 +72,11 @@
 
 /* x-large screens — 1072px and up */
 @media screen and (min-width: 67em) {
+}
+
+/* crazy-large screens — 2096px and up */
+@media screen and (min-width: 131em) {
+  .full-bleed {
+    grid-column: 4 / 13;
+  }
 }
