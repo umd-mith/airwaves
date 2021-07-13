@@ -90,8 +90,6 @@ class Search extends Component {
     const results = this.state.results
     const displayedResults = this.state.displayedResults
 
-    console.log(`percent viewed ${percentViewed}`)
-
     if (
       percentViewed > 0.8 &&
       millisSinceLastUpdate > 1000 &&
@@ -177,6 +175,12 @@ class Search extends Component {
       results: results,
       displayedResults: displayedResults,
     })
+
+    if (results.length === 0) {
+      this.props.showThemes(true)
+    } else {
+      this.props.showThemes(false)
+    }
 
     this.setLocation(query, facets)
 
