@@ -27,14 +27,6 @@
 
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
-  .page-exhibits {
-    max-width: var(--width-breakpoint-1);
-  }
-
-  .page-exhibits section {
-    grid-column: 1 / -1;
-  }
-
   .exhibits {
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
@@ -42,21 +34,15 @@
 
   .exhibits-toc {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(17.85rem, 1fr));
     column-gap: var(--spacing-base-content);
   }
 }
 
 /* large screens — 976px and up */
 @media screen and (min-width: 61em) {
-  .page-exhibits {
-    max-width: var(--width-breakpoint-2);
-  }
 }
 
 /* x-large screens — 1072px and up */
 @media screen and (min-width: 67em) {
-  .page-exhibits {
-    max-width: var(--width-breakpoint-3);
-  }
 }

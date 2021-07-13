@@ -14,9 +14,11 @@ const ExhibitsPage = ({ data }) => {
       <div className="page-exhibits">
         <section>
           <h1>Exhibits</h1>
+        </section>
+        <section>
           <ul className="exhibits-toc">
             {exhibits.map(e => (
-              <li>
+              <li key={e.frontmatter.title}>
                 <Link
                   to={`#${path
                     .basename(e.fileAbsolutePath)
@@ -31,6 +33,7 @@ const ExhibitsPage = ({ data }) => {
         <section className="exhibits">
           {exhibits.map(e => (
             <ExhibitSummaryCard
+              key={e.fileAbsolutePath}
               title={e.frontmatter.title}
               creator={e.frontmatter.creator || ""}
               keyImage={e.frontmatter.key_image}

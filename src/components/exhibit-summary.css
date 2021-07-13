@@ -2,7 +2,7 @@
 
 .exhibit-summary-card {
   background-color: var(--color-full-white);
-  border-top: 0.33rem solid var(--color-gray-900);
+  border-top: 0.33rem solid var(--color-gray-800);
   margin-bottom: 2rem;
   min-height: 15rem;
   padding: var(--spacing-base-content);
@@ -15,13 +15,20 @@
   padding-bottom: var(--spacing-base-content);
 }
 
+.exhibit-card-meta h2 {
+  color: var(--color-brand-primary);
+}
+
+.exhibit-image {
+  margin: 0 auto;
+}
+
 .exhibit-card-body .excerpt {
   margin-top: var(--spacing-base-content);
 }
 
 .exhibit-summary-card a,
 .exhibit-summary-card a:visited {
-  color: var(--color-brand-primary);
   text-decoration: none;
 }
 
@@ -36,6 +43,24 @@
   .exhibit-summary-card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .exhibit-card-meta {
+    padding-left: var(--spacing-base-content);
+    padding-right: var(--spacing-base-content);
+  }
+
+  .excerpt {
+    padding: var(--spacing-base-content);
+    padding-bottom: var(--spacing-large-content);
+  }
+
+  .exhibit-card-meta,
+  .exhibit-image,
+  .excerpt {
+    grid-column: 1 / -1;
   }
 }
 

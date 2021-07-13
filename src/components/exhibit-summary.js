@@ -15,10 +15,10 @@ const convertMarkdown = remark()
 const ExhibitSummaryCard = ({ title, creator, keyImage, lede, absPath }) => {
   const slug = path.basename(absPath).replace(/\.md$/, "")
   const url = `/exhibits/${slug}/`
+  const excerpt = convertMarkdown(lede)
 
   function ExhibitCoverImage(props) {
-    // TODO: Get image data needed here
-    return null
+    return <img src={props.imgPath} alt="" />
   }
 
   return (
@@ -34,7 +34,7 @@ const ExhibitSummaryCard = ({ title, creator, keyImage, lede, absPath }) => {
       </div>
       <p
         className="excerpt text-block"
-        dangerouslySetInnerHTML={{ __html: convertMarkdown(lede) }}
+        dangerouslySetInnerHTML={{ __html: excerpt }}
       ></p>
       <Link className="more-link" to={url}>
         Read More…
