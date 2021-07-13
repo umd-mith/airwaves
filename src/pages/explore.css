@@ -1,0 +1,10 @@
+@import "../components/variables.css";
+
+.page-explore section:nth-child(n + 2):nth-child(-n + 4) {
+  border-bottom: 1px solid var(--color-gray-300);
+  padding-bottom: var(--spacing-base-content);
+}
+
+.page-explore section:last-of-type {
+  padding-bottom: var(--spacing-large-content);
+}

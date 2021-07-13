@@ -2,15 +2,19 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import "./explore.css"
 
 const ExplorePage = () => (
   <Layout>
     <div className="page-explore">
       <section>
         <h1>Explore the Archive</h1>
+        <p>
+          There are four different ways you can explore the NAEB collections
+        </p>
       </section>
       <section>
-        <h2>Search the Collections</h2>
+        <h2>1. Search the Collections</h2>
         <p>
           The Search page is a way you can explore the entire Unlocking the
           Airwaves collection, including NAEB radio programs and related
@@ -31,7 +35,7 @@ const ExplorePage = () => (
         </Link>
       </section>
       <section>
-        <h2>Explore Radio Programs</h2>
+        <h2>2. Browse Radio Programs</h2>
         <p>
           The radio programming service of the NAEB, known as the National
           Educational Radio Network (NERN), comprised broadcasts which balanced
@@ -49,13 +53,12 @@ const ExplorePage = () => (
           census, atomic energy, American labor, religion, United States
           history, agricultural engineering, mathematics, and foreign relations.
         </p>
-        <p>Click below to browse the NERN broadcasts by series title.</p>
         <Link to="/programs/" className="button">
           Explore Programs
         </Link>
       </section>
       <section>
-        <h2>Explore Related Materials</h2>
+        <h2>3. Browse Documents</h2>
         <p>
           Click the link below to browse materials from the NAEB paper
           collection, housed at the Wisconsin Historical Society on the campus
@@ -71,19 +74,12 @@ const ExplorePage = () => (
           and folders themselves, are organized by what are called archival
           "series.”
         </p>
-        <p>
-          <b>Beta Launch Note</b> Right now the only folder which users can link
-          to from this interface is under Contents List &gt; Subject Files &gt;
-          Box 34 Folder 4: Public Relations, 1954-1965. If the advisors deem
-          this interface useful, we will proceed with including the rest of the
-          digitized folders in this interface.
-        </p>
         <Link to="/materials/" className="button">
           Explore Materials
         </Link>{" "}
       </section>
       <section>
-        <h2>Explore People and Organizations</h2>
+        <h2>4. Browse People and Organizations</h2>
         <p>
           Educational and public broadcasting collections are a window into the
           history of the American experience. These collections are not just
