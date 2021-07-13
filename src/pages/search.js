@@ -15,6 +15,7 @@ class SearchPage extends React.Component {
     this.state = {
       query: qs.q,
       facets: qs.f,
+      showThemes: true,
     }
   }
 
@@ -28,6 +29,12 @@ class SearchPage extends React.Component {
     })
   }
 
+  showThemes(show) {
+    this.setState({
+      showThemes: show,
+    })
+  }
+
   render() {
     const themeGroups = this.props.data.allThemesJson.group
 
@@ -35,12 +42,19 @@ class SearchPage extends React.Component {
       <Layout title="Search">
         <Loader>
           <div className="page-search search">
-            <Search query={this.state.query} facets={this.state.facets} />
-            <div className="themes">
+            <Search
+              query={this.state.query}
+              facets={this.state.facets}
+              showThemes={e => this.showThemes(e)}
+            />
+            <div
+              className="themes"
+              style={{ display: this.state.showThemes ? "block" : "none" }}
+            >
               {themeGroups.map(tg => {
                 const groupKey = tg.fieldValue.replace(/[&,.\s]/g, "")
                 return (
-                  <div className={`theme-group ${groupKey}`}>
+                  <div key={groupKey} className={`theme-group ${groupKey}`}>
                     <h3>{tg.fieldValue}</h3>
                     <div className="theme-children">
                       {tg.edges.map(t => (

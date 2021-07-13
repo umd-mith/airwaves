@@ -22,9 +22,10 @@ class SearchFacets extends Component {
             </label>
             <div className="facet-list">
               {facet.counts.map((f, i) => (
-                <div className="facet-item">
+                <div 
+                  className="facet-item"
+                  key={`${this.props.query}-${facet.name}-${f[0]}`}>
                   <Facet
-                    key={`${this.props.query}-${facet.name}-${f[0]}`}
                     activeFacets={this.props.activeFacets}
                     updateFacets={this.props.updateFacets}
                     type={facet.name}
