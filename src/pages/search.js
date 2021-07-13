@@ -34,32 +34,34 @@ class SearchPage extends React.Component {
     return (
       <Layout title="Search">
         <Loader>
-          <Search query={this.state.query} facets={this.state.facets} />
-          <div className="themes">
-            {themeGroups.map(tg => {
-              const groupKey = tg.fieldValue.replace(/[&,.\s]/g, "")
-              return (
-                <div className={`theme-group ${groupKey}`}>
-                  <h3>{tg.fieldValue}</h3>
-                  <div className="theme-children">
-                    {tg.edges.map(t => (
-                      <div
-                        key={t.node.name}
-                        className="theme"
-                        role="button"
-                        tabIndex={0}
-                        onClick={e => {
-                          this.setFacets(`subject:${t.node.name}`)
-                          navigate(`/search/?f=subject:${t.node.name}`)
-                        }}
-                      >
-                        {t.node.name}
-                      </div>
-                    ))}
+          <div className="page-search search">
+            <Search query={this.state.query} facets={this.state.facets} />
+            <div className="themes">
+              {themeGroups.map(tg => {
+                const groupKey = tg.fieldValue.replace(/[&,.\s]/g, "")
+                return (
+                  <div className={`theme-group ${groupKey}`}>
+                    <h3>{tg.fieldValue}</h3>
+                    <div className="theme-children">
+                      {tg.edges.map(t => (
+                        <div
+                          key={t.node.name}
+                          className="theme"
+                          role="button"
+                          tabIndex={0}
+                          onClick={e => {
+                            this.setFacets(`subject:${t.node.name}`)
+                            navigate(`/search/?f=subject:${t.node.name}`)
+                          }}
+                        >
+                          {t.node.name}
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              )
-            })}
+                )
+              })}
+            </div>
           </div>
         </Loader>
       </Layout>

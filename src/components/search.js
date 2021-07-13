@@ -48,7 +48,7 @@ class Search extends Component {
     const resultsHidden = this.state.displayedResults.length > 0 ? "" : "hidden"
 
     return (
-      <div className="page-search search">
+      <>
         <div className="search-box">
           <input
             aria-label="search"
@@ -73,7 +73,7 @@ class Search extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </>
     )
   }
 

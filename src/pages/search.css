@@ -2,7 +2,6 @@
 
 .search {
   margin: 0 auto;
-  margin-top: var(--spacing-large-content);
 }
 
 .search,
@@ -10,13 +9,7 @@
   padding: var(--spacing-small-content);
 }
 
-.search-box,
-.results-wrapper {
-  grid-column: 1 / -1;
-}
-
 .themes {
-  margin: 0 auto;
   margin-top: var(--spacing-large-content);
   display: grid;
 }
@@ -45,12 +38,6 @@
 /* Media queries for grid layouts */
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
-  .search,
-  .themes {
-    max-width: var(--width-breakpoint-1);
-    padding: 0;
-  }
-
   .themes {
     grid-template-columns: 1.2fr 1.2fr 1fr;
     grid-template-rows: auto;
@@ -93,49 +80,23 @@
 }
 
 .results-wrapper {
-  display: flex;
-  flex-flow: row nowrap;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: var(--spacing-large-content);
 }
 
 .facets {
-  flex: 1;
+  grid-column: span 4;
 }
 
 .results {
-  flex: 6;
+  grid-column: span 8;
 }
 
 /* large screens — 976px and up */
 @media screen and (min-width: 61em) {
-  .search,
-  .themes {
-    max-width: var(--width-breakpoint-2);
-  }
 }
 
 /* x-large screens — 1072px and up */
 @media screen and (min-width: 67em) {
-  .search,
-  .themes {
-    max-width: var(--width-breakpoint-3);
-  }
 }
-
-/* .themes {
-  grid-column-gap: 2rem;
-  grid-row-gap: 1.5rem;
-  justify-items: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.theme {
-  justify-self: stretch;
-  text-align: center;
-  background-color: #e0ca59;
-  padding: 8px 12px;
-}
-.theme:hover {
-  background-color: #e0c959d3;
-  cursor: pointer;
-} */
