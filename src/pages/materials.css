@@ -107,25 +107,3 @@ li[class*=" folder-naeb-"] {
   padding: 3px 7px;
   margin: 0px;
 }
-
-/* Media queries for grid layouts */
-/* medium to large screens — starts at 720px */
-@media screen and (min-width: 45em) {
-  .finding-aid-display {
-    max-width: var(--width-breakpoint-1);
-  }
-}
-
-/* large screens — 976px and up */
-@media screen and (min-width: 61em) {
-  .finding-aid-display {
-    max-width: var(--width-breakpoint-2);
-  }
-}
-
-/* x-large screens — 1072px and up */
-@media screen and (min-width: 67em) {
-  .finding-aid-display {
-    max-width: var(--width-breakpoint-2);
-  }
-}
