@@ -1,7 +1,8 @@
 import React, { Component } from "react"
+import { navigate } from "gatsby"
 import SearchFacets from "./search-facets"
 import SearchResult from "./search-result"
-import { navigate } from "@reach/router"
+// import { navigate } from "@reach/router"
 import "./search.css"
 
 class Search extends Component {
@@ -29,6 +30,7 @@ class Search extends Component {
   componentDidMount() {
     this.search()
     document.addEventListener("scroll", this.handleScroll)
+    document.addEventListener("resize", this.handleScroll)
   }
 
   componentWillUnmount() {
@@ -78,18 +80,21 @@ class Search extends Component {
   }
 
   handleScroll() {
+
     const now = new Date()
     const lastUpdate = this.state.lastUpdate
 
     const millisSinceLastUpdate = now - lastUpdate
     const percentViewed =
-      (window.innerHeight = window.scrollY) / document.body.offsetHeight
+      (window.innerHeight + window.scrollY) / document.body.offsetHeight
     const results = this.state.results
     const displayedResults = this.state.displayedResults
 
+    console.log(`percent viewed ${percentViewed}`)
+
     if (
       percentViewed > 0.8 &&
-      millisSinceLastUpdate > 5000 &&
+      millisSinceLastUpdate > 1000 &&
       displayedResults.length > 0 &&
       results.length > displayedResults.length
     ) {
@@ -152,6 +157,7 @@ class Search extends Component {
       for (const e of window.__EPISODES__.values()) {
         results.push(e)
       }
+      results = results.map(r => this.addType(r))
     }
 
     // apply facets
@@ -171,7 +177,13 @@ class Search extends Component {
       results: results,
       displayedResults: displayedResults,
     })
+
+    this.setLocation(query, facets)
+
   }
+
+  // Takes a record from the ElasticLunr index and fills it out with the 
+  // complete record that is either in __DOCUMENTS__ or __EPISODES__
 
   getFullResult(r) {
     if (r.ref[0] === "d") {
@@ -187,6 +199,13 @@ class Search extends Component {
       // to Program so that faceting in the interface works properly.
       return { ...window.__EPISODES__.get(r.ref), type: "Program" }
     }
+  }
+
+  addType(r) {
+    return {
+      ...r, 
+      type: r.id[0] == "d" ? "Document" : "Program"
+    } 
   }
 
   recordHasFacets(r, facets) {
@@ -257,6 +276,20 @@ class Search extends Component {
       }
     })
   }
-}
+
+  setLocation(query, facets) {
+    const params = facets.map(f => ['f' ,`${f.type}:${f.name}`])
+
+    if (query) {
+      params.push(['q', query])
+    }
+
+    if (params.length === 0) {
+      navigate('/search/')
+    } else {
+      const search = new URLSearchParams(params)
+      navigate(`/search/?${search}`)
+    }
+  }}
 
 export default Search

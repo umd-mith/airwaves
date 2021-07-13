@@ -31,15 +31,18 @@ class SearchPage extends React.Component {
   render() {
     const themeGroups = this.props.data.allThemesJson.group
 
+    // only display themes when a query or facet selection has *not* been made
+    const showThemes = ! (this.state.query || this.state.facets)  
+
     return (
       <Layout title="Search">
         <Loader>
           <Search query={this.state.query} facets={this.state.facets} />
-          <div className="themes">
+          <div className="themes" style={{display: showThemes ? 'block' : 'none'}}>
             {themeGroups.map(tg => {
               const groupKey = tg.fieldValue.replace(/[&,.\s]/g, "")
               return (
-                <div className={`theme-group ${groupKey}`}>
+                <div key={groupKey} className={`theme-group ${groupKey}`}>
                   <h3>{tg.fieldValue}</h3>
                   <div className="theme-children">
                     {tg.edges.map(t => (
