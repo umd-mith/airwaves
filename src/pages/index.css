@@ -1,7 +1,7 @@
 @import "../components/variables.css";
 
 .site-intro {
-  font-size: 2.25rem;
+  font-size: 1.57rem;
   margin: 0 auto;
   margin-bottom: var(--spacing-large-content);
   text-align: center;
@@ -15,7 +15,7 @@
   margin: 0 auto;
 }
 
-.featured-exhibits-container::before,
+/* .featured-exhibits-container::before,
 .featured-exhibits-container::after {
   background-color: var(--color-gray-300);
   content: "";
@@ -27,7 +27,7 @@
   transform-origin: top right;
   width: 100%;
   z-index: -2;
-}
+} */
 
 .featured-exhibits h2 {
   margin-bottom: 0;
@@ -60,29 +60,20 @@
 .featured-exhibits-container .exhibit-summary-card:first-child {
   grid-template-columns: repeat(12, 1fr);
   grid-column: 1 / span 4;
-  max-height: 22rem;
+  max-height: 25rem;
 }
 
-.featured-exhibits-container
-  .exhibit-summary-card:first-child
-  .exhibit-image::before {
-  background-color: var(--color-gray-700);
-  content: "";
-  display: block;
-  filter: blur(5px);
-  height: 100%;
-  left: 0;
-  position: absolute;
-  transform: skewY(-6deg);
-  transform-origin: top left;
-  width: 100%;
-  z-index: -2;
+.featured-exhibits-container a,
+.featured-exhibits-container a:visited {
+  color: var(--color-brand-primary);
 }
 
 .featured-exhibits-container .exhibit-card-meta {
   grid-column: 1 / span 12;
   grid-row: 1;
   z-index: 2;
+  padding-left: 0;
+  padding-right: 0;
   /* padding-left: var(--spacing-base-content); */
 }
 
@@ -101,18 +92,19 @@
 }
 
 .featured-exhibits-container .exhibit-image {
-  grid-column: 2 / span 3;
+  grid-column: 1 / span 5;
   grid-row: 1;
+  padding-top: 5rem;
 }
 
 .featured-exhibits .excerpt {
   grid-column: 6 / span 6;
   grid-row: 1;
-  padding-top: 7.15rem; /* 2 small padding + 1 body line + 1 h2 + 1 body line height + 1 large padding */
+  padding-top: 6rem; /* 2 small padding + 1 body line + 1 h2 + 1 body line height + 1 large padding */
 }
 
 .featured-exhibits-container .exhibit-summary-card:not(:first-child) {
-  max-height: 11rem;
+  max-height: 14rem;
 }
 
 .featured-exhibits-container .exhibit-summary-card:not(:first-child) .excerpt {
@@ -164,16 +156,6 @@
   text-decoration: none;
 }
 
-#read-more {
-  background-color: var(--color-brand-100);
-  margin-top: var(--spacing-xlarge-content);
-}
-
-#explore-archive {
-  background-color: var(--color-gray-700);
-  color: var(--color-gray-100);
-}
-
 .label {
   font-weight: bold;
 }
@@ -189,6 +171,29 @@
 @media screen and (min-width: 61em) {
   .featured-exhibits {
     max-width: calc(var(--width-breakpoint-2) * 1.5);
+  }
+
+  .below-the-fold {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: var(--spacing-small-content);
+  }
+
+  .below-the-fold section:nth-child(1) {
+    border-right: 1px solid var(--color-gray-300);
+    grid-column: span 8;
+  }
+
+  .below-the-fold section:nth-child(2) {
+    grid-column: span 4;
+  }
+
+  .internal-jump-links {
+    border-top: none !important;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    padding-top: 0;
   }
 }
 

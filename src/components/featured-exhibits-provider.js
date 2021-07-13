@@ -11,14 +11,7 @@ const FeaturedExhibitsProvider = () => {
             title
             lede
             creator
-            visuals {
-              image {
-                childImageSharp {
-                  gatsbyImageData(placeholder: BLURRED, width: 360)
-                }
-              }
-              title
-            }
+            key_image
           }
           fileAbsolutePath
           id
@@ -40,21 +33,21 @@ const FeaturedExhibitsProvider = () => {
   }
 
   const reshapeExhibitData = exhibitObj => {
-    let allImages = exhibitObj.frontmatter.visuals
-    let keyImage = {}
-    if (allImages && allImages.length > 0) {
-      keyImage = {
-        image: allImages[0].image,
-        title: allImages[0].title,
-      }
-    }
+    // let allImages = exhibitObj.frontmatter.visuals
+    let keyImagePath = exhibitObj.frontmatter.key_image
+    // if (allImages && allImages.length > 0) {
+    //   keyImage = {
+    //     image: allImages[0].image,
+    //     title: allImages[0].title,
+    //   }
+    // }
     return {
       absPath: exhibitObj.fileAbsolutePath,
       title: exhibitObj.frontmatter.title,
       creator: exhibitObj.frontmatter.creator,
       lede: exhibitObj.frontmatter.lede,
-      keyImage: keyImage,
-      id: exhibitObj.id
+      keyImage: keyImagePath,
+      id: exhibitObj.id,
     }
   }
 
