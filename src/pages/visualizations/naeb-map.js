@@ -16,18 +16,18 @@ const MapPage = () => {
               Map of U.S. Organizations in the NAEB
             </h2>
             <p>
-              This map lets you explore some of the major organizations who
+              This map allows you to explore some of the major organizations that
               participated in the National Association of Educational
               Broadcasters, such as radio stations, universities, broadcasting
               companies, and other educational organizations. Each black dot on
               the map represents one organization, and you can click to get more
               information about an organization and a link to that
               organization's landing page on Unlocking the Airwaves, which
-              includes all the collection materials the organization created or
-              contributed to. The states are shaded to represent their NAEB
+              includes all the collection materials that the organization created or
+              to which it contributed. The states are shaded to represent their NAEB
               region, an organizational structure within the NAEB that helped
               geographically close NAEB members to meet and collaborate. Pan and
-              zoom around the map using your mouse or the tools in the upper
+              zoom around the map using your cursor or the tools in the upper
               left corner.
             </p>
           </div>
