@@ -31,7 +31,7 @@ const ExplorePage = () => (
           more on how to explore by radio program or related materials.
         </p>
         <Link className="button" to="/search/">
-          Search the Archive
+          Search the Collections
         </Link>
       </section>
       <section>
@@ -54,7 +54,7 @@ const ExplorePage = () => (
           history, agricultural engineering, mathematics, and foreign relations.
         </p>
         <Link to="/programs/" className="button">
-          Explore Programs
+          Browse Programs
         </Link>
       </section>
       <section>
@@ -75,7 +75,7 @@ const ExplorePage = () => (
           "series.”
         </p>
         <Link to="/materials/" className="button">
-          Explore Materials
+          Browse Documents
         </Link>{" "}
       </section>
       <section>
@@ -101,11 +101,11 @@ const ExplorePage = () => (
           culturally tumultuous decades.
         </p>
         <Link to="/people/" className="button">
-          Explore People
+          Browse People
         </Link>{" "}
         &nbsp;
         <Link to="/organizations/" className="button">
-          Explore Organizations
+          Browse Organizations
         </Link>
       </section>
     </div>
