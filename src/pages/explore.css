@@ -1,5 +1,15 @@
 @import "../components/variables.css";
 
+.page-explore section:not(:first-of-type) {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.page-explore section:not(:first-of-type) .button {
+  flex: 0 1;
+  text-align: center;
+}
+
 .page-explore section:nth-child(n + 2):nth-child(-n + 4) {
   border-bottom: 1px solid var(--color-gray-300);
   padding-bottom: var(--spacing-base-content);
@@ -7,4 +17,41 @@
 
 .page-explore section:last-of-type {
   padding-bottom: var(--spacing-large-content);
+}
+
+/* Media queries for grid layouts */
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 45em) {
+  .page-explore section:not(:first-of-type) {
+    align-items: baseline;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .page-explore section:not(:first-of-type) h2 {
+    flex: 2 0;
+    order: 1;
+  }
+
+  .page-explore section:not(:first-of-type) p {
+    order: 3;
+  }
+
+  .page-explore section:not(:first-of-type) .button {
+    flex: 1 0;
+    margin-left: var(--spacing-base-content);
+    margin-bottom: 1.31rem;
+    order: 2;
+  }
+}
+
+/* large screens — 976px and up */
+@media screen and (min-width: 61em) {
+}
+
+/* x-large screens — 1072px and up */
+@media screen and (min-width: 67em) {
+}
+
+@media screen and (min-width: 131em) {
 }
