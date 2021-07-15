@@ -1,8 +1,15 @@
 import React, { Component } from "react"
+import ReactModal from "react-modal"
 import "./search-facets.css"
+
 
 class SearchFacets extends Component {
   render() {
+
+    // helps ensure screen readers don't get confused by the modal
+    ReactModal.setAppElement('.site-wrapper')
+
+    // get all the facets for the search results
     const facets = getFacets(this.props.results)
 
     return (
@@ -11,38 +18,91 @@ class SearchFacets extends Component {
           <span>Refine Results</span>{" "}
           <span className="item-count">{this.props.results.length}</span>
         </div>
-
         {facets.map(facet => (
-          <div
-            key={`facet-${facet.name}`}
-            className={`facet-panel facet-${facet.name}`}
-          >
-            <label className={`facet-label facet-label-${facet.name}`}>
-              Filter By {facet.name}
-            </label>
-            <div className="facet-list">
-              {facet.counts.map((f, i) => (
-                <div 
-                  className="facet-item"
-                  key={`${this.props.query}-${facet.name}-${f[0]}`}>
-                  <Facet
-                    activeFacets={this.props.activeFacets}
-                    updateFacets={this.props.updateFacets}
-                    type={facet.name}
-                    name={f[0]}
-                    count={f[1]}
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
+          <FacetGroup 
+            facet={facet} 
+            activeFacets={this.props.activeFacets} 
+            updateFacets={this.props.updateFacets} />
         ))}
       </div>
     )
   }
 }
 
-class Facet extends Component {
+class FacetGroup extends Component {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+      showModal: false
+    }
+  }
+
+  openModal() {
+    this.setState({showModal: true})
+  }
+
+  closeModal() {
+    this.setState({showModal: false})
+  }
+
+  render() {
+    const facet = this.props.facet
+
+    const seeAll = facet.counts.length > 10 
+      ? <button onClick={e => this.openModal()}>See All</button>
+      : ''
+
+    const counts = facet.counts.slice(0, 10)
+
+    return ( 
+      <div
+        key={`facet-${facet.name}`}
+        className={`facet-panel facet-${facet.name}`}>
+        <label className={`facet-label facet-label-${facet.name}`}>
+          Filter By {facet.name}
+        </label>
+        <div className="facet-list">
+          {counts.map((f, i) => (
+            <div 
+              className="facet-item"
+              key={`${this.props.query}-${facet.name}-${f[0]}`}>
+              <FacetCount
+                activeFacets={this.props.activeFacets}
+                updateFacets={this.props.updateFacets}
+                type={facet.name}
+                name={f[0]}
+                count={f[1]}
+              />
+            </div>
+          ))}
+          {seeAll}
+        </div>
+
+        <ReactModal isOpen={this.state.showModal} contentLabel="View">
+          <div className="close-modal">
+            <button onClick={e => this.closeModal()}>Close</button>
+          </div>
+          <div className="facet-firehose">
+            {facet.counts.map((f, i) => (
+              <div className="facet-item" key={`fh-${this.props.query}-${facet.name}-${f[0]}`}>
+                <div>
+                  <input type="checkbox" />
+                </div>
+                <div className="facet-value">{f[0]}</div>
+                <div className="facet-count">{f[1]}</div>
+              </div>
+            ))}
+          </div>
+        </ReactModal>
+
+      </div>
+    )
+  }
+
+}
+
+class FacetCount extends Component {
   constructor(props) {
     super(props)
 
@@ -109,12 +169,12 @@ function getFacets(results) {
     tallyType(r, type)
   }
 
-  type = sortMap(type, results.length).slice(0, 10)
-  subject = sortMap(subject, results.length).slice(0, 10)
-  creator = sortMap(creator, results.length).slice(0, 10)
-  contributor = sortMap(contributor, results.length).slice(0, 10)
-  genre = sortMap(genre, results.length).slice(0, 10)
-  decade = sortDecade(decade, results.length).slice(0, 10)
+  type = sortMap(type, results.length)
+  subject = sortMap(subject, results.length)
+  creator = sortMap(creator, results.length)
+  contributor = sortMap(contributor, results.length)
+  genre = sortMap(genre, results.length)
+  decade = sortDecade(decade, results.length)
 
   return [
     { name: "type", counts: type },
