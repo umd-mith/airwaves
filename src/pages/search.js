@@ -49,7 +49,7 @@ class SearchPage extends React.Component {
             />
             <div
               className="themes"
-              style={{ display: this.state.showThemes ? "block" : "none" }}
+              style={{ display: this.state.showThemes ? "grid" : "none" }}
             >
               {themeGroups.map(tg => {
                 const groupKey = tg.fieldValue.replace(/[&,.\s]/g, "")
