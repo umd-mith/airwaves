@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import { navigate } from "gatsby"
 import SearchFacets from "./search-facets"
 import SearchResult from "./search-result"
-// import { navigate } from "@reach/router"
 import "./search.css"
 
 class Search extends Component {
@@ -208,7 +207,7 @@ class Search extends Component {
   addType(r) {
     return {
       ...r, 
-      type: r.id[0] == "d" ? "Document" : "Program"
+      type: r.id[0] === "d" ? "Document" : "Program"
     } 
   }
 

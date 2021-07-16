@@ -15,11 +15,11 @@ class SearchFacets extends Component {
     return (
       <div className="facets">
         <div className="facet-panel item-total">
-          <span>Refine Results</span>{" "}
-          <span className="item-count">{this.props.results.length}</span>
+          <span>Refine Results</span> <span className="item-count">{this.props.results.length}</span>
         </div>
         {facets.map(facet => (
-          <FacetGroup 
+          <FacetGroup
+            key={`facet-group-${facet.name}`} 
             facet={facet} 
             activeFacets={this.props.activeFacets} 
             updateFacets={this.props.updateFacets} />
@@ -53,27 +53,39 @@ class FacetGroup extends Component {
       ? <button onClick={e => this.openModal()}>See All</button>
       : ''
 
-    const counts = facet.counts.slice(0, 10)
+    const displayCounts = facet.counts.slice(0, 10)
+
+    // add any counts for active facets that are missing from the 10 that are 
+    // being displayed
+    for (const af of this.props.activeFacets) {
+      if (! displayCounts.find(f => f && f[0] === af.name)) {
+        const count = facet.counts.find(f => f && f[0] === af.name)
+        if (count) {
+          displayCounts.push(count)
+        }
+      }
+    }
 
     return ( 
-      <div
-        key={`facet-${facet.name}`}
-        className={`facet-panel facet-${facet.name}`}>
+      <div className={`facet-panel facet-${facet.name}`}>
+
         <label className={`facet-label facet-label-${facet.name}`}>
           Filter By {facet.name}
         </label>
+
         <div className="facet-list">
-          {counts.map((f, i) => (
+          {displayCounts.map((f, i) => (
             <div 
               className="facet-item"
               key={`${this.props.query}-${facet.name}-${f[0]}`}>
-              <FacetCount
+              <FacetSelector
+                key={`${this.props.query}-${facet.name}-${f[0]}-sidebar`}
                 activeFacets={this.props.activeFacets}
                 updateFacets={this.props.updateFacets}
                 type={facet.name}
-                name={f[0]}
-                count={f[1]}
-              />
+                name={f[0]} />
+              <label title={this.props.name} className="cb-label">{f[0]}</label>
+              <span className="item-count">{f[1]}</span>
             </div>
           ))}
           {seeAll}
@@ -87,7 +99,12 @@ class FacetGroup extends Component {
             {facet.counts.map((f, i) => (
               <div className="facet-item" key={`fh-${this.props.query}-${facet.name}-${f[0]}`}>
                 <div>
-                  <input type="checkbox" />
+                <FacetSelector
+                  key={`${this.props.query}-${facet.name}-${f[0]}-firehose`}
+                  activeFacets={this.props.activeFacets}
+                  updateFacets={this.props.updateFacets}
+                  type={facet.name}
+                  name={f[0]} />
                 </div>
                 <div className="facet-value">{f[0]}</div>
                 <div className="facet-count">{f[1]}</div>
@@ -102,52 +119,32 @@ class FacetGroup extends Component {
 
 }
 
-class FacetCount extends Component {
-  constructor(props) {
-    super(props)
-
-    const isActive =
-      this.props.activeFacets.filter(
-        f => f.type === this.props.type && f.name === this.props.name
-      ).length > 0
-
-    this.state = {
-      active: isActive,
-    }
-  }
+class FacetSelector extends Component {
 
   render() {
-    // remove "Node" from display of a synthetic theme used by visualizations
-    const name = this.props.name.replace(" Node", "")
+    const isActive = this.props.activeFacets
+      .filter(f => f.type === this.props.type && f.name === this.props.name)
+      .length > 0
 
     return (
-      <>
-        <input
-          aria-label={this.props.name}
-          type="checkbox"
-          name="item-type"
-          defaultChecked={this.state.active}
-          onClick={e => {
-            this.toggle(e)
-          }}
-          className="cb-input cb-toggle"
-        />
-        <label title={this.props.name} className="cb-label">
-          {name}
-        </label>
-        <span className="item-count">{this.props.count}</span>
-      </>
+      <input
+        className="cb-input cb-toggle"
+        aria-label={this.props.name}
+        type="checkbox"
+        name="item-type"
+        checked={isActive}
+        onClick={e => {
+          this.toggle(isActive)
+        }}
+      />
     )
   }
 
-  toggle(e) {
-    const active = this.state.active
-    this.setState({ active: !active })
+  toggle(isActive) {
     this.props.updateFacets({
       type: this.props.type,
       name: this.props.name,
-      value: this.props.value,
-      active: !active,
+      active: !isActive,
     })
   }
 }
