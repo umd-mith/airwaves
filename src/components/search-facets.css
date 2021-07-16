@@ -34,10 +34,13 @@
 }
 .search .facets .item-count {
   justify-self: end;
-  z-index: 2;
 }
 .search .facets input {
   justify-self: start;
+}
+.search .facets button {
+  font-size: 9pt;
+  margin-left: 10px;
 }
 .search .facets label {
   max-width: 100%;
@@ -49,4 +52,41 @@
 }
 .search .facet-item:last-of-type, .search .facet-item:last-of-type {
   border-bottom: none;
+}
+.facet-firehose {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.close-modal {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.close-modal button {
+  background-color: pink;
+}
+.facet-firehose .facet-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 3px;
+  width: 250px;
+  min-height: 50px;
+  border: thin solid #ddd;
+  text-align: center;
+  vertical-align: middle;
+}
+.facet-firehose .facet-item input {
+  width: 30px
+}
+.facet-firehose .facet-item .facet-value {
+  width: 170px;
+}
+.facet-firehose .facet-item .facet-count {
+  width: 50px;
+  font-weight: bold;
 }
