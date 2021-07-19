@@ -85,6 +85,11 @@ a:hover {
 
 /* x-large screens — 1072px and up */
 @media screen and (min-width: 67em) {
+  [class^="page-"] > * {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 131em) {
