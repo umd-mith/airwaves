@@ -36,11 +36,16 @@ const RelatedItem = ({ title, url, description }) => {
   localPath = localPath.replace(/^\/airwaves/, "")
 
   return (
-    <div className="related col-3 col-4-lg col-4-md col-4-sm col-6-xs">
+    <div className="related">
       <h3>
         <Link to={localPath}>{title}</Link>
       </h3>
-      <div className="description">{description}</div>
+      <div
+        className="description"
+        dangerouslySetInnerHTML={{
+          __html: convertMarkdown(description).toString(),
+        }}
+      />
     </div>
   )
 }
@@ -49,33 +54,32 @@ const Exhibit = ({ pageContext: exhibit }) => {
   if (!exhibit.visuals) exhibit.visuals = []
   return (
     <Layout title={exhibit.title}>
-      <div className="exhibit">
-        <section className="leader">
-          <article>
-            <h1>{exhibit.title}</h1>
-          </article>
+      <div className="page-exhibit">
+        <section>
+          <h1>
+            <Link className="breadcrumb" to="/exhibits/">
+              Exhibits
+            </Link>{" "}
+            {exhibit.title}
+          </h1>
         </section>
-        <section className="columns">
-          <article className="text-block">
-            <div dangerouslySetInnerHTML={{ __html: exhibit.description }} />
-          </article>
-          <article className="col-4 col-5-lg col-6-md col-6-sm col-12-xs visuals">
+        <section className="exhibit-body">
+          <div dangerouslySetInnerHTML={{ __html: exhibit.description }} />
+          <div className="visuals">
             {exhibit.visuals.map(v => (
               <Visual title={v.title} image={v.image} />
             ))}
-          </article>
+          </div>
         </section>
         <section className="related_items">
-          <h2 className="hidden">Related Items</h2>
-          <article className="columns">
-            {exhibit.related.map(r => (
-              <RelatedItem
-                title={r.title}
-                description={r.description}
-                url={r.url}
-              />
-            ))}
-          </article>
+          <h2>Related Items</h2>
+          {exhibit.related.map(r => (
+            <RelatedItem
+              title={r.title}
+              description={r.description}
+              url={r.url}
+            />
+          ))}
         </section>
       </div>
     </Layout>
