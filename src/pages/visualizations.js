@@ -12,12 +12,12 @@ const VisualizationsPage = () => {
           <div className="text-block">
             <h1>Visualizations</h1>
             <p>
-              I am an introduction to this page. Bacon ipsum dolor amet leberkas
-              excepteur cupidatat short ribs doner deserunt. Biltong pancetta
-              ground round lorem et velit culpa tail eu adipisicing. Cow brisket
-              landjaeger enim drumstick, tenderloin strip steak eu buffalo
-              venison veniam esse. Ea nulla dolore prosciutto commodo tongue
-              beef ribs pancetta ham shank exercitation est chislic sed.
+              Use these three visualizations as alternate ways of exploring the 
+              NAEB's programs and documents on Unlocking the Airwaves. See milestones 
+              from the NAEB's history laid out chronologically; navigate through NAEB 
+              content creators geographically; or easily find primary sources for teaching
+              in different subject areas. Click on any of the three graphics below to go to
+              the full, interactive visualization.
             </p>
           </div>
         </section>
