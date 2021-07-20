@@ -115,7 +115,7 @@ class MaterialsPage extends Component {
               Browse Documents
             </h1>
           </section>
-          <section className="text-block">
+          <section>
             <p>
               The data below is from the NAEB paper collection, housed at the{" "}
               <a
@@ -598,7 +598,12 @@ class MaterialsPage extends Component {
                 <ExpandMore />
                 <ExpandLess />
               </ListItem>
-              <Collapse in={this.state.i4} timeout="auto" unmountOnExit>
+              <Collapse
+                className="li-text"
+                in={this.state.i4}
+                timeout="auto"
+                unmountOnExit
+              >
                 <p>
                   <b>Acquisition Information:</b> Presented by the National
                   Association of Educational Broadcasters, 1965-1979; by William

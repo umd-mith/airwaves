@@ -10,10 +10,10 @@
 
 /* content */
 .MuiCollapse-container .MuiTypography-body1 {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
-article .li-text .MuiCollapse-wrapperInner,
-article .li-box .MuiCollapse-wrapperInner {
+section .li-text .MuiCollapse-wrapperInner,
+section .li-box .MuiCollapse-wrapperInner {
   padding: 8px 16px;
 }
 .MuiCollapse-container
@@ -21,7 +21,7 @@ article .li-box .MuiCollapse-wrapperInner {
   :not(ul.MuiList-root)
   .MuiListItemText-root
   .MuiTypography-body1 {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: inherit;
 }
 li[class^="folder-naeb-"],
@@ -31,12 +31,12 @@ li[class*=" folder-naeb-"] {
 
 /* buttons */
 .MuiListItem-button .MuiTypography-body1 {
-  font-size: 1rem;
+  font-size: 1.14rem;
   font-family: inherit;
   font-weight: bold;
 }
 .MuiListItem-button .MuiTypography-body2 {
-  font-size: 1rem;
+  font-size: 1.14rem;
   font-family: inherit;
   font-weight: bold;
 }
@@ -76,6 +76,8 @@ li[class*=" folder-naeb-"] {
   margin-top: 0;
 }
 .folder {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
   grid-column-gap: 0.5rem;
   padding-bottom: 0.75rem;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
@@ -92,6 +94,9 @@ li[class*=" folder-naeb-"] {
 }
 .folder-title {
   margin-bottom: 0.5em;
+}
+.folder-description {
+  font-size: 1rem;
 }
 .folder-link {
   justify-self: right;
