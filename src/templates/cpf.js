@@ -1,19 +1,22 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
-import { StaticImage, GatsbyImage, getImage } from 'gatsby-plugin-image'
-import './cpf.css'
+import React from "react"
+import { graphql, Link } from "gatsby"
+import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image"
+import "./cpf.css"
 
-import Layout from '../components/layout'
+import Layout from "../components/layout"
 
 const CPF = ({ data }) => {
   const cpf = data.peopleJson
 
-  let image = <StaticImage 
-    src='../images/missing-person.png' 
-    width={300}
-    alt='Unknown Image' />
+  let image = (
+    <StaticImage
+      src="../images/missing-person.png"
+      width={300}
+      alt="Unknown Image"
+    />
+  )
 
-  let abstract = ''
+  let abstract = ""
 
   if (data.wikipediaJson) {
     if (data.wikipediaJson.image) {
@@ -24,7 +27,9 @@ const CPF = ({ data }) => {
       abstract = (
         <p>
           {data.wikipediaJson.abstract}
-          <em>Read more at <a href={cpf.wikidata.wikipediaUrl}>Wikipedia</a>...</em>
+          <em>
+            Read more at <a href={cpf.wikidata.wikipediaUrl}>Wikipedia</a>...
+          </em>
         </p>
       )
     }
@@ -39,7 +44,7 @@ const CPF = ({ data }) => {
     }
   }
 
-  let death = null 
+  let death = null
   if (cpf.wikidata.deathDate) {
     const t = new Date(cpf.wikidata.deathDate)
     death = `${t.getUTCFullYear()}`
@@ -50,69 +55,86 @@ const CPF = ({ data }) => {
 
   let inception = null
   if (cpf.wikidata.inception) {
-    const t = new Date(cpf.wikidata.inception) 
+    const t = new Date(cpf.wikidata.inception)
     inception = `${t.getUTCFullYear()}`
     if (cpf.wikidata.settlement) {
       inception += `, ${cpf.wikidata.settlement}`
     }
   }
 
-  const relatedDocuments = DocumentList(joinLists(data.asDocumentCreator.nodes, data.asDocumentContributor.nodes))
-  const relatedEpisodes = EpisodeList(cpf.id, joinLists(data.asEpisodeCreator.nodes, data.asEpisodeContributor.nodes))
+  const relatedDocuments = DocumentList(
+    joinLists(data.asDocumentCreator.nodes, data.asDocumentContributor.nodes)
+  )
+  const relatedEpisodes = EpisodeList(
+    cpf.id,
+    joinLists(data.asEpisodeCreator.nodes, data.asEpisodeContributor.nodes)
+  )
 
-  const breadcrumb = cpf.type === 'Person' 
-    ? <Link to="/people/">People</Link> 
-    : <Link to="/organizations/">Organizations</Link>
+  const breadcrumb =
+    cpf.type === "Person" ? (
+      <Link className="breadcrumb" to="/people/">
+        People
+      </Link>
+    ) : (
+      <Link className="breadcrumb" to="/organizations/">
+        Organizations
+      </Link>
+    )
 
   return (
     <Layout>
-      <section>
-        <h2>
-          {breadcrumb} / {cpf.name}
-        </h2>
-        <div className="cpf">
-          <div className="image">
-            {image}
-          </div>
-          <div className="bio">
-            <b>{cpf.wikidata.name}</b>
-            {abstract}
-            <p>
-              <Field label="Born" value={birth} />
-              <Field label="Died" value={death} />
-              <Field label="Inception" value={inception} />
-            </p>
-            <p>
-              <Field label="Alternate Names" value={cpf.wikidata.altNames} />
-              <Field label="Occupation(s)" value={cpf.wikidata.occupation} /> 
-              <Field label="Field(s) of Work" value={cpf.wikidata.occuptation} />
-              <Field label="Field(s) of Work" value={cpf.wikidata.fieldOfWork} />
-              <Field label="Employer(s)" value={cpf.wikidata.employer} />
-              <Field label="Located in" value={cpf.wikidata.locatedIn} />
-              <Field label="Broadcast to" value={cpf.wikidata.broadastTo} />
-              <Field label="Member of" value={cpf.wikidata.memberOf} />
-              <Field label="Owned by" value={cpf.wikidata.ownedBy} />
-              <Field label="Website" value={cpf.wikidata.website} />
-            </p>
-            <div className="related">
-              {relatedEpisodes}
-              {relatedDocuments}
+      <div className="page-cpf">
+        <section>
+          <h1>
+            {breadcrumb} {cpf.name}
+          </h1>
+          <div className="cpf">
+            <div className="image">{image}</div>
+            <div className="bio">
+              <h2>{cpf.wikidata.name}</h2>
+              {abstract}
+              <p>
+                <Field label="Born" value={birth} />
+                <Field label="Died" value={death} />
+                <Field label="Inception" value={inception} />
+              </p>
+              <p>
+                <Field label="Alternate Names" value={cpf.wikidata.altNames} />
+                <Field label="Occupation(s)" value={cpf.wikidata.occupation} />
+                <Field
+                  label="Field(s) of Work"
+                  value={cpf.wikidata.occuptation}
+                />
+                <Field
+                  label="Field(s) of Work"
+                  value={cpf.wikidata.fieldOfWork}
+                />
+                <Field label="Employer(s)" value={cpf.wikidata.employer} />
+                <Field label="Located in" value={cpf.wikidata.locatedIn} />
+                <Field label="Broadcast to" value={cpf.wikidata.broadastTo} />
+                <Field label="Member of" value={cpf.wikidata.memberOf} />
+                <Field label="Owned by" value={cpf.wikidata.ownedBy} />
+                <Field label="Website" value={cpf.wikidata.website} />
+              </p>
+              <div>
+                {relatedEpisodes}
+                {relatedDocuments}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </Layout>
   )
 }
 
-const Field = ({label, value}) => {
-
-  if (typeof(value) === 'string') {
+const Field = ({ label, value }) => {
+  if (typeof value === "string") {
     value = [value]
   }
 
   if (value === undefined || value === null || value.length === 0) {
-    return ''
+    return ""
   }
 
   if (value[0].match(/^https?:/)) {
@@ -120,7 +142,9 @@ const Field = ({label, value}) => {
       <>
         <span className="label">{label}</span>: &nbsp;
         {value.map(v => (
-          <span><Link to={v}>{v}</Link>&nbsp;</span>
+          <span>
+            <Link to={v}>{v}</Link>&nbsp;
+          </span>
         ))}
       </>
     )
@@ -128,18 +152,18 @@ const Field = ({label, value}) => {
 
   return (
     <>
-      <span className="label">{label}</span>: {value.join(', ')} <br />
+      <span className="label">{label}</span>: {value.join(", ")} <br />
     </>
   )
 }
 
 const DocumentList = docs => {
   if (docs.length === 0) {
-    return ''
+    return ""
   }
   return (
     <div>
-      <h2>Documents</h2>
+      <h2>Related Documents</h2>
       <ul>
         {docs.map(d => (
           <li key={d.id}>
@@ -153,15 +177,15 @@ const DocumentList = docs => {
 
 const EpisodeList = (cpfId, episodes) => {
   if (episodes.length === 0) {
-    return ''
+    return ""
   }
 
   // group episode information by series as a map keyed by the series id
   // so that we can output a list of episodes grouped by the series they are a part of
   const seriesMap = new Map()
   for (const e of episodes) {
-    if (! seriesMap.has(e.series.id)) {
-      seriesMap.set(e.series.id, {title: e.series.title, episodes: []})
+    if (!seriesMap.has(e.series.id)) {
+      seriesMap.set(e.series.id, { title: e.series.title, episodes: [] })
     }
     seriesMap.get(e.series.id).episodes.push(e)
   }
@@ -169,17 +193,22 @@ const EpisodeList = (cpfId, episodes) => {
 
   return (
     <div>
-      <h2>Episodes</h2>
+      <h2>Related Episodes</h2>
       {seriesIds.map(seriesId => {
         const series = seriesMap.get(seriesId)
         return (
           <div key={seriesId}>
-            <b><Link to={`/programs/${seriesId}/`}>{series.title}</Link></b>
+            <b>
+              <Link to={`/programs/${seriesId}/`}>{series.title}</Link>
+            </b>
             <ul>
               {series.episodes.map(e => {
-                let role = ''
+                let role = ""
                 for (const episode of episodes) {
-                  const cpfRoles = joinLists(episode.creator, episode.contributor)
+                  const cpfRoles = joinLists(
+                    episode.creator,
+                    episode.contributor
+                  )
                   const cpfRole = cpfRoles.find(e => e.id === cpfId)
                   if (cpfRole) {
                     role = `(${cpfRole.role})`
@@ -187,7 +216,8 @@ const EpisodeList = (cpfId, episodes) => {
                 }
                 return (
                   <li key={e.id}>
-                    <Link to={`/episode/${e.aapbId}/`}>{e.title}</Link> {role}</li>
+                    <Link to={`/episode/${e.aapbId}/`}>{e.title}</Link> {role}
+                  </li>
                 )
               })}
             </ul>
@@ -205,10 +235,9 @@ function joinLists(a, b) {
   return a.concat(b)
 }
 
-
 export const query = graphql`
   query($id: String!) {
-    peopleJson(id: {eq: $id}) {
+    peopleJson(id: { eq: $id }) {
       id
       name
       type
@@ -255,7 +284,7 @@ export const query = graphql`
         wikipediaUrl
       }
     }
-    wikipediaJson(personId: {eq: $id}) {
+    wikipediaJson(personId: { eq: $id }) {
       personId
       abstract
       image {
@@ -265,7 +294,7 @@ export const query = graphql`
       }
     }
     asDocumentCreator: allDocumentsJson(
-      filter: {creator: {elemMatch: {id: {eq: $id}}}}
+      filter: { creator: { elemMatch: { id: { eq: $id } } } }
     ) {
       nodes {
         id
@@ -275,7 +304,7 @@ export const query = graphql`
       }
     }
     asDocumentContributor: allDocumentsJson(
-      filter: {contributor: {elemMatch: {id: {eq: $id}}}}
+      filter: { contributor: { elemMatch: { id: { eq: $id } } } }
     ) {
       nodes {
         id
@@ -285,8 +314,8 @@ export const query = graphql`
       }
     }
     asEpisodeCreator: allEpisodesJson(
-      filter: {creator: {elemMatch: {id: {eq: $id}}}}
-      sort: {fields: [series___title, broadcastDate]}
+      filter: { creator: { elemMatch: { id: { eq: $id } } } }
+      sort: { fields: [series___title, broadcastDate] }
     ) {
       nodes {
         aapbId
@@ -309,8 +338,8 @@ export const query = graphql`
       }
     }
     asEpisodeContributor: allEpisodesJson(
-      filter: {contributor: {elemMatch: {id: {eq: $id}}}}
-      sort: {fields: [series___title, broadcastDate]}
+      filter: { contributor: { elemMatch: { id: { eq: $id } } } }
+      sort: { fields: [series___title, broadcastDate] }
     ) {
       nodes {
         aapbId
