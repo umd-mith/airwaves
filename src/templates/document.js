@@ -1,29 +1,29 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
-import './document.css'
-import InternetArchive from '../images/internet-archive.jpg'
+import React from "react"
+import { graphql, Link } from "gatsby"
+import "./document.css"
+import InternetArchive from "../images/internet-archive.jpg"
 
-import Layout from '../components/layout'
-import RelatedSeries from '../components/related-series'
+import Layout from "../components/layout"
+import RelatedSeries from "../components/related-series"
 
 const miradorConfig = {
-  id: 'mirador-viewer',
+  id: "mirador-viewer",
   window: {
     allowClose: false,
     allowMaximize: false,
-    defaultSideBarPanel: 'info',
-    defaultView: 'single',
+    defaultSideBarPanel: "info",
+    defaultView: "single",
     allowFullscreen: true,
   },
   thumbnailNavigation: {
-    defaultPosition: 'off',
+    defaultPosition: "off",
   },
   workspace: {
-    type: 'single',
+    type: "single",
   },
   workspaceControlPanel: {
     enabled: false,
-  }
+  },
 }
 
 export const query = graphql`
@@ -76,14 +76,13 @@ export const query = graphql`
 `
 
 class Mirador extends React.Component {
-
   componentDidMount() {
     // when arriving with a page number hash fragment reset the scroll to the
     // top of the page since Gatsby keeps the scroll position otherwise
     window.scrollTo(0, 0)
 
-    const {config, plugins} = this.props
-    let mirador = require('mirador').default
+    const { config, plugins } = this.props
+    let mirador = require("mirador").default
     mirador.viewer(config, plugins)
   }
 
@@ -91,11 +90,9 @@ class Mirador extends React.Component {
     const { config } = this.props
     return <div id={config.id} />
   }
-
 }
 
 const Document = ({ data }) => {
-
   const doc = data.documentsJson
 
   // ensure these are really lists
@@ -104,28 +101,39 @@ const Document = ({ data }) => {
   if (doc.creator === null) doc.creator = []
 
   const contributors = doc.contributor.map(c => (
-    <div><Link to={`/search/?f=contributor:${c.name}`}>{c.name}</Link></div>
+    <li>
+      <Link to={`/search/?f=contributor:${c.name}`}>{c.name}</Link>
+    </li>
   ))
 
   const subjects = doc.subject.map(c => (
-    <div><Link key={`subject-link-${c.name}`} to={`/search/?f=subject:${c.name}`}>{c.name}</Link></div>
+    <li>
+      <Link key={`subject-link-${c.name}`} to={`/search/?f=subject:${c.name}`}>
+        {c.name}
+      </Link>
+    </li>
   ))
 
   const manifestUrl = `https://iiif.archivelab.org/iiif/${doc.iaId}/manifest.json`
 
   let canvasIndex = 0
-  if (typeof window !== 'undefined' && window.location.hash) {
-    canvasIndex = Number.parseInt(window.location.hash.replace('#', '')) - 1
+  if (typeof window !== "undefined" && window.location.hash) {
+    canvasIndex = Number.parseInt(window.location.hash.replace("#", "")) - 1
   }
 
-  const [folder, items] = getFolderOrItems(doc.iaId, data.allFindingAidJson.nodes)
-  let browseLinks = ''
+  const [folder, items] = getFolderOrItems(
+    doc.iaId,
+    data.allFindingAidJson.nodes
+  )
+  let browseLinks = ""
   if (items.length > 0) {
     browseLinks = (
       <>
         <dt className="label">Items in this Folder</dt>
         {items.map(i => (
-          <dd key={`item-link-${i.iaId}`}><Link to={`/document/${i.iaId}/`}>{i.title}</Link></dd>
+          <dd key={`item-link-${i.iaId}`}>
+            <Link to={`/document/${i.iaId}/`}>{i.title}</Link>
+          </dd>
         ))}
       </>
     )
@@ -133,7 +141,9 @@ const Document = ({ data }) => {
     browseLinks = (
       <>
         <dt className="label">Folder for this Item</dt>
-        <dd><Link to={`/document/${folder.iaId}/`}>{folder.title}</Link></dd>
+        <dd>
+          <Link to={`/document/${folder.iaId}/`}>{folder.title}</Link>
+        </dd>
       </>
     )
   }
@@ -141,47 +151,56 @@ const Document = ({ data }) => {
   miradorConfig.windows = [
     {
       loadedManifest: manifestUrl,
-      view: 'single',
-      canvasIndex: canvasIndex
-    }
+      view: "single",
+      canvasIndex: canvasIndex,
+    },
   ]
 
   return (
     <Layout>
-      <div id="document">
+      <div class="page-document">
+        <section id="doc-viewer">
+          <Mirador config={miradorConfig} plugins={[]} />
+        </section>
         <section>
-        <article id="doc-viewer" className="col-6 col-12-sm col-12-xs">
-            <Mirador config={miradorConfig} plugins={[]} />
-        </article>
-          <article className="metadata col-6 col-12-sm col-12-xs">
+          <div className="metadata">
             <h3>{doc.title}</h3>
             <dl>
               <dt className="label">Description</dt>
               <dd>{doc.description}</dd>
               <dt className="label">Subject(s)</dt>
-              <dd>{subjects}</dd>
+              <dd>
+                <ul>{subjects}</ul>
+              </dd>
               <dt className="label">Contributors</dt>
-              <dd>{contributors}</dd>
+              <dd>
+                <ul>{contributors}</ul>
+              </dd>
               <dt className="label">Related Programs</dt>
-              <dd><RelatedSeries doc={doc} /></dd>
+              <dd>
+                <RelatedSeries doc={doc} />
+              </dd>
               {browseLinks}
             </dl>
             <div className="internet-archive">
-              Image hosting provided by: <br /> 
+              Image hosting provided by: <br />
               <a href={`https://archive.org/details/${doc.iaId}`}>
-                <img alt="View at Internet Archive" title="View this document at the Internet Archive" src={InternetArchive} />
+                <img
+                  alt="View at Internet Archive"
+                  title="View this document at the Internet Archive"
+                  src={InternetArchive}
+                />
               </a>
             </div>
-          </article>
+          </div>
         </section>
       </div>
     </Layout>
- 
   )
 }
 
 /**
- * Returns the folder for an item or the items in a folder. 
+ * Returns the folder for an item or the items in a folder.
  * @param {*} iaId - for a folder or item
  * @param {*} findingAid - the finding aid data
  */

@@ -1,4 +1,6 @@
-.metadata {
+@import "../components/datalist.css";
+
+/* .metadata {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -33,12 +35,54 @@ td.label {
 }
 @media (min-width: 600px) {
   #doc-viewer {
-   /* margin-left: auto; */
   }
+
   #mirador-viewer {
     margin: 0 auto;
     width: 100%;
     min-height: 800px;
     position: relative;
   }
+} */
+
+.internet-archive {
+  text-align: center;
+  padding-bottom: var(--spacing-large-content);
+}
+
+.internet-archive img {
+  margin: 0 auto;
+  max-height: 7.2rem;
+  padding-top: var(--spacing-base-content);
+}
+
+#doc-viewer {
+  margin-bottom: var(--spacing-base-content);
+}
+
+#mirador-viewer {
+  margin: 0 auto;
+  min-height: 57rem;
+  position: relative;
+  width: 100%;
+}
+
+/* Media queries for grid layouts */
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 45em) {
+}
+
+/* large screens — 976px and up */
+@media screen and (min-width: 61em) {
+}
+
+/* x-large screens — 1072px and up */
+@media screen and (min-width: 67em) {
+  #doc-viewer {
+    margin-bottom: var(--spacing-large-content);
+  }
+}
+
+/* xx-large screens — 2096px and up */
+@media screen and (min-width: 131em) {
 }
