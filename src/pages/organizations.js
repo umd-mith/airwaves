@@ -7,37 +7,52 @@ const Organizations = ({ data }) => {
   const people = data.allPeopleJson.nodes
   return (
     <Layout title="Organizations">
-      <section>
-        <h2>Organizations</h2>
-        <ul>
-        {people.map(p => (
-          <li>
-            <Link to={`/organizations/${p.wikidata.wikidataId}/`}>{p.name}</Link>: 
-            {p.wikidata.description}</li>
-        ))}
-        </ul>
-      </section>
+      <div className="page-organizations">
+        <section>
+          <h1>
+            <Link className="breadcrumb" to="/explore/">
+              Explore
+            </Link>{" "}
+            Browse Organizations
+          </h1>
+        </section>
+        <section>
+          <ul className="long-list">
+            {people.map(p => (
+              <li>
+                <Link to={`/organizations/${p.wikidata.wikidataId}/`}>
+                  {p.name}
+                </Link>
+                : {p.wikidata.description}
+              </li>
+            ))}
+          </ul>
+        </section>
+      </div>
     </Layout>
   )
 }
 
 export const query = graphql`
-{
-  allPeopleJson(
-    filter: {wikidata: {wikidataId: {ne: null}}, type: {eq: "Corporate Body"}}
-    sort: {fields: name}
-  ) {
-    nodes {
-      airtableId
-      name
-      wikidata {
+  {
+    allPeopleJson(
+      filter: {
+        wikidata: { wikidataId: { ne: null } }
+        type: { eq: "Corporate Body" }
+      }
+      sort: { fields: name }
+    ) {
+      nodes {
+        airtableId
         name
-        description
-        wikidataId
+        wikidata {
+          name
+          description
+          wikidataId
+        }
       }
     }
   }
-}
 `
 
-export default Organizations 
+export default Organizations
