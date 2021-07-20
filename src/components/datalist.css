@@ -1,0 +1,44 @@
+@import "./variables.css";
+
+.metadata dl {
+  padding-bottom: var(--spacing-large-content);
+}
+
+.metadata dt,
+.metadata dd {
+  border-top: 1px solid var(--color-gray-300);
+  padding: var(--spacing-small-content) 0 var(--spacing-base-content) 0;
+}
+
+.label {
+  font-weight: bolder;
+}
+
+/* Media queries for grid layouts */
+/* medium to large screens — starts at 720px */
+@media screen and (min-width: 45em) {
+}
+
+/* large screens — 976px and up */
+@media screen and (min-width: 61em) {
+  .metadata dl {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .metadata dd {
+    grid-column: span 3;
+  }
+
+  .metadata dd ul {
+    columns: 2;
+  }
+}
+
+/* x-large screens — 1072px and up */
+@media screen and (min-width: 67em) {
+}
+
+/* xx-large screens — 2096px and up */
+@media screen and (min-width: 131em) {
+}
