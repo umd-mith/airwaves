@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { withPrefix, graphql } from "gatsby"
+import { withPrefix, graphql, Link } from "gatsby"
 import List from "@material-ui/core/List"
 import ListItem from "@material-ui/core/ListItem"
 import ListItemText from "@material-ui/core/ListItemText"
@@ -108,7 +108,12 @@ class MaterialsPage extends Component {
       <Layout>
         <div className="page-materials">
           <section>
-            <h1>Explore Related Materials</h1>
+            <h1>
+              <Link className="breadcrumb" to="/explore/">
+                Explore
+              </Link>{" "}
+              Browse Documents
+            </h1>
           </section>
           <section className="text-block">
             <p>
@@ -594,14 +599,18 @@ class MaterialsPage extends Component {
                 <ExpandLess />
               </ListItem>
               <Collapse in={this.state.i4} timeout="auto" unmountOnExit>
-                <List>
-                  <ListItem>
-                    <ListItemText>Four A</ListItemText>
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText>Four B</ListItemText>
-                  </ListItem>
-                </List>
+                <p>
+                  <b>Acquisition Information:</b> Presented by the National
+                  Association of Educational Broadcasters, 1965-1979; by William
+                  G. Harley, 1986; and by The Pacifica Foundation, 1987.
+                  Accession Number: MCHC66-051, 098; MCHC73-060; MCHC79-067;
+                  M86-232; M87-350
+                </p>
+
+                <p>
+                  <b>Processing Information:</b> Processed by Janice O'Connell
+                  in 1968; additions and reprocessing by Matt Blessing in 1991.
+                </p>
               </Collapse>
               <ListItem
                 id="i5"
