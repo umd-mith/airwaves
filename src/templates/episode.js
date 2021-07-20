@@ -138,11 +138,11 @@ const Episode = ({ data }) => {
             </dl>
           </div>
           <div className="recording">
-            <Disclaimer />
             <Player
               transcript={`${s3Bucket}/data/transcripts/${id}/${id}.vtt`}
               audio={`${s3Bucket}/data/audio/${id}.mp3`}
             />
+            <Disclaimer />
           </div>
         </section>
       </div>
