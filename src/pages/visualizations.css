@@ -4,55 +4,58 @@
   margin-bottom: var(--spacing-base-content);
 }
 
-/* Requested Timeline.js CSS overrides */
-.tl-timeline h2.tl-headline-title {
-  font-size: 1.875rem;
-  line-height: 1.875;
-}
-
-.tl-timeline h1,
-.tl-timeline h2,
-.tl-timeline h3,
-.tl-timeline h4,
-.tl-timeline h5,
-.tl-timeline h6 {
-  font-family: "Abril Fatface", cursive;
-  text-transform: none;
-  font-weight: 700;
-  font-size: 1.875rem;
-  line-height: 1.875;
+.label-shape {
+  fill: var(--color-brand-primary);
 }
 
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
-  .full-bleed {
-    grid-column: 1 / -1;
-    margin: 0 auto;
-  }
-
   .visualizations {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-xlarge-content);
   }
 
-  .visualizations div:first-child {
-    grid-column: 1 / -1;
+  .visualizations > div:nth-child(2) {
+    margin: 0 var(--spacing-base-content);
+  }
+
+  .viz-label {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    opacity: 90%;
   }
 
   #naeb-timeline {
-    grid-column: 1 / -1;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
   }
 
   #naeb-map {
-    grid-column: 1 / 3;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+  }
+
+  #naeb-map .viz-label {
+    top: 30%;
   }
 
   #content-standards {
-    grid-column: 3 / -1;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
   }
 
+  /* Child page styles */
   #timeline {
-    margin: 0;
     min-height: 38rem;
   }
 

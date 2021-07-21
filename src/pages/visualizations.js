@@ -1,6 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
+
+import Label from "../svg/uta_visualization_label_shape.svg"
 
 import "./visualizations.css"
 
@@ -9,45 +12,55 @@ const VisualizationsPage = () => {
     <Layout url="/visualizations/">
       <div className="page-visualizations">
         <section>
-          <div className="text-block">
+          <div>
             <h1>Visualizations</h1>
             <p>
-              Use these three visualizations as alternate ways of exploring the 
-              NAEB's programs and documents on Unlocking the Airwaves. See milestones 
-              from the NAEB's history laid out chronologically; navigate through NAEB 
-              content creators geographically; or easily find primary sources for teaching
-              in different subject areas. Click on any of the three graphics below to go to
-              the full, interactive visualization.
+              Use these three visualizations as alternate ways of exploring the
+              NAEB's programs and documents on Unlocking the Airwaves. See
+              milestones from the NAEB's history laid out chronologically;
+              navigate through NAEB content creators geographically; or easily
+              find primary sources for teaching in different subject areas.
+              Click on any of the three graphics below to go to the full,
+              interactive visualization.
             </p>
           </div>
         </section>
         <section className="visualizations full-bleed">
           <div id="naeb-timeline">
             <Link to="/visualizations/naeb-timeline/">
-              <img
+              <StaticImage
                 className="viz-screencap"
-                src="https://via.placeholder.com/1024x600.png?text=Click+for+timeline"
-                alt="Timeline"
+                src="../../static/images/visualizations/timeline_screenshot.png"
+                alt="NAEB Timeline"
+                placeholder="blurred"
+                height={500}
               />
             </Link>
+            <Label />
           </div>
           <div id="naeb-map">
             <Link to="/visualizations/naeb-map/">
-              <img
+              <StaticImage
                 className="viz-screencap"
-                src="https://via.placeholder.com/490x300.png?text=Click+for+map"
+                src="../../static/images/visualizations/map_screenshot.png"
                 alt="Map"
+                placeholder="blurred"
+                height={500}
               />
             </Link>
+            <Label />
           </div>
           <div id="content-standards">
             <Link to="/visualizations/content-standards/">
-              <img
+              <StaticImage
                 className="viz-screencap"
-                src="https://via.placeholder.com/490x300.png?text=Click+for+content+tree"
+                src="../../static/images/visualizations/tree_screenshot.png"
                 alt="Tree Diagram"
+                placeholder="blurred"
+                height={500}
               />
             </Link>
+            <Label />
           </div>
         </section>
       </div>
