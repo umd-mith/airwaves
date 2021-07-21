@@ -2,12 +2,10 @@ import React, { Component } from "react"
 import ReactModal from "react-modal"
 import "./search-facets.css"
 
-
 class SearchFacets extends Component {
   render() {
-
     // helps ensure screen readers don't get confused by the modal
-    ReactModal.setAppElement('.site-wrapper')
+    ReactModal.setAppElement(".site-wrapper")
 
     // get all the facets for the search results
     const facets = getFacets(this.props.results)
@@ -15,14 +13,16 @@ class SearchFacets extends Component {
     return (
       <div className="facets">
         <div className="facet-panel item-total">
-          <span>Refine Results</span> <span className="item-count">{this.props.results.length}</span>
+          <span>Refine Results</span>{" "}
+          <span className="item-count">{this.props.results.length}</span>
         </div>
         {facets.map(facet => (
           <FacetGroup
-            key={`facet-group-${facet.name}`} 
-            facet={facet} 
-            activeFacets={this.props.activeFacets} 
-            updateFacets={this.props.updateFacets} />
+            key={`facet-group-${facet.name}`}
+            facet={facet}
+            activeFacets={this.props.activeFacets}
+            updateFacets={this.props.updateFacets}
+          />
         ))}
       </div>
     )
@@ -30,35 +30,39 @@ class SearchFacets extends Component {
 }
 
 class FacetGroup extends Component {
-
   constructor(props) {
     super(props)
     this.state = {
-      showModal: false
+      showModal: false,
     }
   }
 
   openModal() {
-    this.setState({showModal: true})
+    this.setState({ showModal: true })
   }
 
   closeModal() {
-    this.setState({showModal: false})
+    this.setState({ showModal: false })
   }
 
   render() {
     const facet = this.props.facet
 
-    const seeAll = facet.counts.length > 10 
-      ? <button onClick={e => this.openModal()}>See All</button>
-      : ''
+    const seeAll =
+      facet.counts.length > 10 ? (
+        <button className="button" onClick={e => this.openModal()}>
+          See All
+        </button>
+      ) : (
+        ""
+      )
 
     const displayCounts = facet.counts.slice(0, 10)
 
-    // add any counts for active facets that are missing from the 10 that are 
+    // add any counts for active facets that are missing from the 10 that are
     // being displayed
     for (const af of this.props.activeFacets) {
-      if (! displayCounts.find(f => f && f[0] === af.name)) {
+      if (!displayCounts.find(f => f && f[0] === af.name)) {
         const count = facet.counts.find(f => f && f[0] === af.name)
         if (count) {
           displayCounts.push(count)
@@ -66,45 +70,54 @@ class FacetGroup extends Component {
       }
     }
 
-    return ( 
+    return (
       <div className={`facet-panel facet-${facet.name}`}>
-
         <label className={`facet-label facet-label-${facet.name}`}>
           Filter By {facet.name}
         </label>
 
         <div className="facet-list">
           {displayCounts.map((f, i) => (
-            <div 
+            <div
               className="facet-item"
-              key={`${this.props.query}-${facet.name}-${f[0]}`}>
+              key={`${this.props.query}-${facet.name}-${f[0]}`}
+            >
               <FacetSelector
                 key={`${this.props.query}-${facet.name}-${f[0]}-sidebar`}
                 activeFacets={this.props.activeFacets}
                 updateFacets={this.props.updateFacets}
                 type={facet.name}
-                name={f[0]} />
-              <label title={this.props.name} className="cb-label">{f[0]}</label>
+                name={f[0]}
+              />
+              <label title={this.props.name} className="cb-label">
+                {f[0]}
+              </label>
               <span className="item-count">{f[1]}</span>
             </div>
           ))}
-          {seeAll}
+          <div className="more-facets">{seeAll}</div>
         </div>
 
         <ReactModal isOpen={this.state.showModal} contentLabel="View">
           <div className="close-modal">
-            <button onClick={e => this.closeModal()}>Close</button>
+            <button className="button" onClick={e => this.closeModal()}>
+              Close
+            </button>
           </div>
           <div className="facet-firehose">
             {facet.counts.map((f, i) => (
-              <div className="facet-item" key={`fh-${this.props.query}-${facet.name}-${f[0]}`}>
+              <div
+                className="facet-item"
+                key={`fh-${this.props.query}-${facet.name}-${f[0]}`}
+              >
                 <div>
-                <FacetSelector
-                  key={`${this.props.query}-${facet.name}-${f[0]}-firehose`}
-                  activeFacets={this.props.activeFacets}
-                  updateFacets={this.props.updateFacets}
-                  type={facet.name}
-                  name={f[0]} />
+                  <FacetSelector
+                    key={`${this.props.query}-${facet.name}-${f[0]}-firehose`}
+                    activeFacets={this.props.activeFacets}
+                    updateFacets={this.props.updateFacets}
+                    type={facet.name}
+                    name={f[0]}
+                  />
                 </div>
                 <div className="facet-value">{f[0]}</div>
                 <div className="facet-count">{f[1]}</div>
@@ -112,19 +125,17 @@ class FacetGroup extends Component {
             ))}
           </div>
         </ReactModal>
-
       </div>
     )
   }
-
 }
 
 class FacetSelector extends Component {
-
   render() {
-    const isActive = this.props.activeFacets
-      .filter(f => f.type === this.props.type && f.name === this.props.name)
-      .length > 0
+    const isActive =
+      this.props.activeFacets.filter(
+        f => f.type === this.props.type && f.name === this.props.name
+      ).length > 0
 
     return (
       <input

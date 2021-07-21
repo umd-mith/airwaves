@@ -4,6 +4,12 @@
   margin: 0 auto;
 }
 
+.search-box,
+.results-wrapper,
+.themes {
+  grid-column: 1 / -1;
+}
+
 .search,
 .themes {
   padding: var(--spacing-small-content);
@@ -77,20 +83,20 @@
   .USHistoryCulture {
     grid-area: theme-6;
   }
-}
 
-.results-wrapper {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  column-gap: var(--spacing-large-content);
-}
+  .results-wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: var(--spacing-large-content);
+  }
 
-.facets {
-  grid-column: span 4;
-}
+  .results-wrapper .facets {
+    grid-column: span 4;
+  }
 
-.results {
-  grid-column: span 8;
+  .results-wrapper .results {
+    grid-column: span 8;
+  }
 }
 
 /* large screens — 976px and up */
@@ -99,4 +105,18 @@
 
 /* x-large screens — 1072px and up */
 @media screen and (min-width: 67em) {
+  .search-box,
+  .results-wrapper,
+  .themes {
+    grid-column: 3 / -3;
+  }
+}
+
+/* xx-large screens — 2096px and up */
+@media screen and (min-width: 131em) {
+  .search-box,
+  .results-wrapper,
+  .themes {
+    max-width: 1000px;
+  }
 }
