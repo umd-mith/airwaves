@@ -35,13 +35,12 @@ const IndexPage = () => (
   <Layout>
     <div className="page-home">
       <section className="site-intro">
-        <h1 id="site-head">
-          Unlocking the Airwaves: Revitalizing an Early Public and Educational
-          Radio Collection
-        </h1>{" "}
-        is a comprehensive online collection of early educational public radio
-        content from the National Association of Educational Broadcasters
-        (NAEB).
+        <h1 id="site-head">Unlocking the Airwaves</h1>
+        <p>
+          A comprehensive online collection of early educational public radio
+          content
+        </p>
+        <p>from the National Association of Educational Broadcasters (NAEB).</p>
       </section>
       <section className="featured-exhibits">
         <h2>Featured Exhibits</h2>
