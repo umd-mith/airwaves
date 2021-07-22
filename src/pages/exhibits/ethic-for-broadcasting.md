@@ -21,7 +21,7 @@ visuals:
       [Wikimedia](https://commons.wikimedia.org/wiki/File:Mike_Wallace_Interviews_1957_(2).jpg).
   - image: ../../../static/images/ethic_image.jpg
     title: "[A brochure for the NAEB grants-in-aid
-      program](https://mith.umd.edu/airwaves/document/naeb-b036-f02/#46), which
+      program](/document/naeb-b036-f02/#46), which
       funded the production of series like Ethic for Broadcasting."
   - image: ../../../static/images/640px-vivienne_nearing-_jack_barry-_charles_van_doren_nywts.jpg
     title: "*Ethic for Broadcasting* was produced in the wake of the late 1950s quiz
@@ -33,10 +33,10 @@ visuals:
       k_Barry,_Charles_Van_Doren_NYWTS.jpg)."
 related:
   - title: Ethic for Broadcasting
-    url: https://mith.umd.edu/airwaves/programs/ethic-for-broadcasting/
+    url: /programs/ethic-for-broadcasting/
     description: This series presents interviews that center on issues in
       broadcasting and society.
-  - url: https://mith.umd.edu/airwaves/document/naeb-b053-f08/
+  - url: /document/naeb-b053-f08/
     title: Federal Communications Commission, 1948-1950
     description: "1948 to 1950 correspondence and reports regarding NAEB's
       participation in the FCC's Clear Channel and Mayflower hearings, including
@@ -46,16 +46,16 @@ related:
       identification of recorded programs, Conelrad broadcasting, and television
       translators.
     title: Federal Communications Commission, 1952-1956
-    url: https://mith.umd.edu/airwaves/document/naeb-b053-f09/
+    url: /document/naeb-b053-f09/
   - description: 1951 to 1973 meeting minutes, reports, and correspondence regarding
       NAEB policy. Topics include proposed organizational changes, programming
       strategies, and distribution of the Cooper Union Forum program. Executive
       director letters from Jim Miles also provide updates on the NAEB's plans
       and practices.
-    url: https://mith.umd.edu/airwaves/document/naeb-b053-f02/
+    url: /document/naeb-b053-f02/
     title: Executive Director, Policy statements, 1951-1973
   - title: The Needs of Education for Television Channel Allocations
-    url: https://mith.umd.edu/airwaves/document/naeb-b099-f01/
+    url: /document/naeb-b099-f01/
     description: November 1961 pre-publication working copy of a report titled "The
       Needs of Education for Television Channel Allocations" prepared by the
       National Association of Educational Broadcasters in cooperation with the
@@ -67,9 +67,9 @@ related:
       Interstate and Foreign Commerce Committee) discuss state plans for
       educational television and potential funds. Includes some individual state
       reports.
-    url: https://mith.umd.edu/airwaves/document/naeb-b066-f01/
+    url: /document/naeb-b066-f01/
 ---
-In these days of escalating protest against America’s repressive racial system – a protest enabled by our current diversified and wildly unregulated digital media universe – listening to an NAEB program produced in 1961 is a poignant and sometimes infuriating reminder of how much has changed, and how much hasn’t, since television’s early years. Produced in the wake of the late 1950s quiz show and payola scandals, the series *[Ethic for Broadcasting](https://mith.umd.edu/airwaves/programs/ethic-for-broadcasting/)* seeks to puzzle out how radio and television might be reformed to better serve the needs of the American public during tumultuous times.
+In these days of escalating protest against America’s repressive racial system – a protest enabled by our current diversified and wildly unregulated digital media universe – listening to an NAEB program produced in 1961 is a poignant and sometimes infuriating reminder of how much has changed, and how much hasn’t, since television’s early years. Produced in the wake of the late 1950s quiz show and payola scandals, the series *[Ethic for Broadcasting](/programs/ethic-for-broadcasting/)* seeks to puzzle out how radio and television might be reformed to better serve the needs of the American public during tumultuous times.
 
 Produced by Wayne State University’s station WDET in Detroit in the fall of 1961, funded by a grant from the NAEB, *Ethic for Broadcasting*’s 13 episodes are compiled from interviews and organized by theme. After an “Introduction to the Series,” two programs each focus on television’s varied constituencies: “Broadcaster of the Art,” “Audience for the Art, “ “Advertiser of the Art,” “Lawmaker of the Art,” and a three-part “Critic of the Art” (broken down into “Religion,” “Education,” and “The Critic”), followed by a “Summary and Conclusion” episode.
 

@@ -15,33 +15,33 @@ lede: The NAEB collection prioritizes correspondence and publications produced
 visuals:
   - image: ../../../static/images/1955_region_v_conference_report.jpg
     title: "[Report on the NAEB Region V
-      Conference](https://mith.umd.edu/airwaves/document/naeb-b074-f11-02/) held
+      Conference](/document/naeb-b074-f11-02/) held
       in Denver, Colorado, from June 14 to 15, 1956."
   - title: "[January 1952
-      brochure](https://mith.umd.edu/airwaves/document/naeb-b057-f10-06/)
+      brochure](/document/naeb-b057-f10-06/)
       describing the NAEB Tape Network and its offerings."
     image: ../../../static/images/1952_tape_network_brochure.jpg
   - title: "[August 1953
-      brochure](https://mith.umd.edu/airwaves/document/naeb-b074-f02-17/)
+      brochure](/document/naeb-b074-f02-17/)
       advertising the NAEB Grants-in-Aid for radio and television programs and
       detailing the application process."
     image: ../../../static/images/1953_grants_in_aid_brochure.jpg
 related:
   - title: Committees Network Acceptance, 1952-1954
-    url: https://mith.umd.edu/airwaves/document/naeb-b033-f01/
+    url: /document/naeb-b033-f01/
     description: 1952 to 1954 correspondence, meeting minutes, and reports related
       to NAEB's Network Acceptance Committee. Correspondence primarily addresses
       committee members' feedback and votes on submitted programs, with some
       discussion of procedures and technical problems within the committee.
   - title: Committees Program Planning, 1953-1956
-    url: https://mith.umd.edu/airwaves/document/naeb-b033-f12/
+    url: /document/naeb-b033-f12/
     description: 1953 to 1956 correspondence related to NAEB's Program Planning
       Committee, with program descriptions and suggestions for programming areas
       to develop. Correspondence addresses potential NAEB programs proposed by
       government organizations, including the United States Information Agency's
       Voice of America project and the Air Weather Service.
   - title: Region I, 1955-1963
-    url: https://mith.umd.edu/airwaves/document/naeb-b074-f06/
+    url: /document/naeb-b074-f06/
     description: 1955 to 1963 programs and schedules for NAEB Region I conferences,
       with some correspondence related to regional announcements and activities.
       Region I includes NAEB members from Connecticut, Delaware, Maine,
@@ -50,7 +50,7 @@ related:
       includes selected remarks and panel conversations, featuring both regional
       members and NAEB headquarters staff.
   - title: Region II, 1953
-    url: https://mith.umd.edu/airwaves/document/naeb-b074-f07/
+    url: /document/naeb-b074-f07/
     description: 1953 correspondence, schedules, and reports related to the 1953
       NAEB Region II seminar-workshop, with an additional Region II report
       titled "A Financial Analysis of Fifty-Four Educational Stations" and brief
@@ -62,7 +62,7 @@ related:
       provides data for around half of NAEB member stations, including staff
       structures and salary information.
   - title: Region III, 1953-1965
-    url: https://mith.umd.edu/airwaves/document/naeb-b074-f09/
+    url: /document/naeb-b074-f09/
     description: 1953 to 1965 correspondence, schedules, attendee lists, programs,
       and reports related to NAEB Region III seminars, with material about 1962
       and 1963 conferences that focused on music programming. Correspondence
@@ -70,20 +70,20 @@ related:
       network and a funding application for the project. Region III includes
       NAEB members from Illinois, Indiana, Michigan, Ohio, and Wisconsin.
   - title: Region IV, 1954-1961
-    url: https://mith.umd.edu/airwaves/document/naeb-b074-f10/
+    url: /document/naeb-b074-f10/
     description: 1954 to 1961 correspondence, meeting minutes, and reports related
       to NAEB Region IV, with a full report on the 1954 region meeting at Iowa
       State College in Ames, Iowa. This report includes a directory listing
       members from Iowa, Minnesota, Nebraska, North Dakota, and South Dakota.
   - title: Region V, 1952-1964
-    url: https://mith.umd.edu/airwaves/document/naeb-b074-f11/
+    url: /document/naeb-b074-f11/
     description: 1952 to 1964 correspondence, meeting minutes, and reports related
       to NAEB Region V seminars, including a report of proceedings with
       summaries of remarks and discussion sessions for the 1956 conference in
       Denver. Region V includes NAEB members from Arkansas, Colorado, Kansas,
       Louisiana, Missouri, New Mexico, Oklahoma, and Texas.
   - title: Region VI, 1953-1965
-    url: https://mith.umd.edu/airwaves/document/naeb-b074-f12/
+    url: /document/naeb-b074-f12/
     description: 1953 to 1965 correspondence, meeting minutes, and reports related
       to NAEB Region VI, including programs for the 1963 and 1965 Western Radio
       and Television Conference and a full report with keynote transcripts for
@@ -92,7 +92,7 @@ related:
       Washington.
   - title: National Association of Educational Broadcasters 40th Annual Convention,
       1964
-    url: https://mith.umd.edu/airwaves/programs/national-association-of-educational-broadcasters-40th-annual-convention-1964
+    url: /programs/national-association-of-educational-broadcasters-40th-annual-convention-1964
     description: Recordings captured at the 40th Annual Convention of the National
       Association of Educational Broadcasters in 1964.
 ---

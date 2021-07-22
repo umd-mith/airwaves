@@ -28,41 +28,41 @@ visuals:
   - image: ../../../static/images/naeb-b057-f09_0042.jpg
     title: Excerpt from a Rockefeller Foundation proposal for a six-month experiment
       in broadcasting poetry. Available at [Unlocking the
-      Airwaves](https://mith.umd.edu/airwaves/document/naeb-b057-f09/#42).
+      Airwaves](/document/naeb-b057-f09/#42).
   - image: ../../../static/images/poetry-out-loud-competition.jpg
     title: Photo of Florida Champion Zhaedyn Hodge Sigars performing at Poetry Out
       Loud, Howard W. Blake HS © James Kegley ([from the Poetry Out Loud Photo
       Gallery](https://www.poetryoutloud.org/about-poetry-out-loud/photo-galleries/)).
 related:
-  - url: https://mith.umd.edu/airwaves/programs/poetry-and-the-american/
+  - url: /programs/poetry-and-the-american/
     title: Poetry and the American (full series)
     description: "*Poetry and the American* consists of twenty recordings from 1959
       produced by KPFA and Pacifica radio in Berkeley, California. Featured
       poets include Emily Dickinson, Hart Crane, e.e. cummings, Robert Frost,
       Emily Dickinson, Wallace Stevens, and T.S. Eliot."
-  - url: https://mith.umd.edu/airwaves/programs/what-is-modern-poetry/
+  - url: /programs/what-is-modern-poetry/
     title: What is Modern Poetry (full series)
     description: This series presents lectures with readings of poems. It strives to
       discuss and define modern poetry in a non-technical way. Text is read by
       Professor Alan Simpson of the University of Chicago; poetry is read by
       members of University Radio Theatre.
-  - url: https://mith.umd.edu/airwaves/programs/poetry-in-song-iii/
+  - url: /programs/poetry-in-song-iii/
     title: Poetry in Song III (full series)
     description: This series presents outstanding musical settings of poetry and
       literary anthologies, integrating the worlds of music and literature.
-  - url: https://mith.umd.edu/airwaves/document/naeb-b057-f09
+  - url: /document/naeb-b057-f09
     description: 1953 to 1954 correspondence regarding a six-month NAEB experiment
       in broadcasting poetry, funded by the Rockefeller Foundation. Includes
       proposals and reports on the project, with feedback from consultants.
     title: Rockefeller Poetry Programming Funding Experiment
-  - url: https://mith.umd.edu/airwaves/episode/cpb-aacip-500-fq9q6c01/
+  - url: /episode/cpb-aacip-500-fq9q6c01/
     description: This episode of the series *Success in the Arts*, moderated by
       Studs Terkel, discusses what it takes to successfully write poetry. It
       takes the form of a panel discussion with poets, academics, and literary
       editors.
     title: "Success in the Arts: Poetry"
   - title: Readings of Frederic Goddard Tucker (from Poetry and the American)
-    url: https://mith.umd.edu/airwaves/episode/cpb-aacip-500-1z41wb19/
+    url: /episode/cpb-aacip-500-1z41wb19/
     description: A lecture-recital by John Edwards, teacher at the University of
       California, on the works of Frederic Goddard Tuckerman.
   - description: >
@@ -71,14 +71,14 @@ related:
       focuses on Archibald MacLeish, Robinson Jeffers, John Crowe Ransom, and
       Conrad Aiken.
     title: Senior Poets (from Poetry and the American)
-    url: https://mith.umd.edu/airwaves/episode/cpb-aacip-500-n58cm41h/
-  - url: https://mith.umd.edu/airwaves/episode/cpb-aacip-500-qr4nqj5d/
+    url: /episode/cpb-aacip-500-n58cm41h/
+  - url: /episode/cpb-aacip-500-qr4nqj5d/
     title: Social Protest (from Poetry and the American)
     description: >
       Discussion and reading by Robert Beloof; and Eleanor McKinney of the KPFA
       staff. Features “The Golf Links” by Sara Cleghorn and “Factory Song” by
       Vachel Lindsay.
-  - url: https://mith.umd.edu/airwaves/episode/cpb-aacip-500-2r3p0m1m/
+  - url: /episode/cpb-aacip-500-2r3p0m1m/
     title: Younger Poets (from Poetry and the American)
     description: >
       An anthology, read by Anthony Ostroff and Don Geiger. The episode refers
@@ -87,7 +87,7 @@ related:
       James Scheville’s “The Tourist on the Towers of Vision,” which begins “In
       a ruined Irish castle…,” and also a young Adrienne Rich’s “The Flaming
       Carousel.”
-  - url: https://mith.umd.edu/airwaves/episode/cpb-aacip-500-5t3g2g9g/
+  - url: /episode/cpb-aacip-500-5t3g2g9g/
     title: Techniques of Modern Poetry (from What is Modern Poetry)
     description: >
       This series presents lectures with readings of poems. It strives to
@@ -99,11 +99,11 @@ related:
 
 The three programs devoted to poetry in the NAEB collection—_Poetry and the American_, _Poetry in Song_, and _What Is Modern Poetry_—remind us how much norms of poetry performance have changed since the 1950s. Not one of these programs feature recordings of poets reading their own poems. Instead, lecture-recitals are common, with professors and actors reading poems in a slow and typically solemn tone, embedded in instructive lectures that contextualize and interpret the poems for the audience, often with paeans to the universal and unchanging nature of poetic subject matter.
 
-_Poetry and the American_ consists of twenty recordings from 1959 produced by KPFA and Pacifica radio in Berkeley, California. This is the same radio station that in 1956 was already recording readings by Allen Ginsberg, who credited Robert Frost with inventing the contemporary poetry-reading circuit and developed it further himself (Jay Parini, _[Robert Frost: A Life](https://us.macmillan.com/books/9780805063417)_). _Listen America_, a series in the collection hosted by the University of North Carolina at Chapel Hill, does focus on living writers who read their own work and comment on contemporary issues. It features four poets—[Frost](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-5q4rp63g/), [Archibald MacLeish](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-2r3p0m2v/), [Randall Jarrell](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-m03xxp4d/) and [Carl Sandberg](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-k649td1h/)—as well as playwrights and fiction and non-fiction writers, notably Pearl S. Buck and Arthur Miller. But the focus was not yet on reading their own work. And the likes of Ginsberg were not included in _Poetry and the American_. Hosted often by Anthony Ostroff, then a professor of rhetoric at UC Berkeley who would be remembered as an “Antiwar Poet” in [his 1978 _New York Times_ obituary](https://www.nytimes.com/1978/04/13/archives/anthony-ostroff-54-antiwar-poet-reversed-order-of-careers.html), _Poetry and the American_ displays what now seems a conservative understanding of midcentury American poetry, but it simply reflects the mainstream academic canon of the time.
+_Poetry and the American_ consists of twenty recordings from 1959 produced by KPFA and Pacifica radio in Berkeley, California. This is the same radio station that in 1956 was already recording readings by Allen Ginsberg, who credited Robert Frost with inventing the contemporary poetry-reading circuit and developed it further himself (Jay Parini, _[Robert Frost: A Life](https://us.macmillan.com/books/9780805063417)_). _Listen America_, a series in the collection hosted by the University of North Carolina at Chapel Hill, does focus on living writers who read their own work and comment on contemporary issues. It features four poets—[Frost](/episode/cpb-aacip-500-5q4rp63g/), [Archibald MacLeish](/episode/cpb-aacip-500-2r3p0m2v/), [Randall Jarrell](/episode/cpb-aacip-500-m03xxp4d/) and [Carl Sandberg](/episode/cpb-aacip-500-k649td1h/)—as well as playwrights and fiction and non-fiction writers, notably Pearl S. Buck and Arthur Miller. But the focus was not yet on reading their own work. And the likes of Ginsberg were not included in _Poetry and the American_. Hosted often by Anthony Ostroff, then a professor of rhetoric at UC Berkeley who would be remembered as an “Antiwar Poet” in [his 1978 _New York Times_ obituary](https://www.nytimes.com/1978/04/13/archives/anthony-ostroff-54-antiwar-poet-reversed-order-of-careers.html), _Poetry and the American_ displays what now seems a conservative understanding of midcentury American poetry, but it simply reflects the mainstream academic canon of the time.
 
-Programs in _Poetry and the American_ devoted to individual poets included Emily Dickinson (featuring Ostroff’s wife Miriam), Hart Crane, e.e. cummings, Robert Frost, Wallace Stevens and, of course, T.S. Eliot, on whom Ostroff shares the critical consensus: “His work far more than any other man defines for the English speaking world what we call modern poetry.” [One curious episode is devoted to Frederic Goddard Tuckerman](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-1z41wb19/), “an American poet no one rea\[d]” then or now, who self-published one book, _Poems_ (1860), and who was proficient in the sonnet form. Nathaniel Hawthorne and Yvor Winters admired him, to little avail. An [episode on Senior Poets](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-n58cm41h/) focuses on Archibald MacLeish, Robinson Jeffers, John Crowe Ransom, Conrad Aiken, etc. [An episode on Social Protest](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-qr4nqj5d/) featured “The Golf Links” by Sara Cleghorn and “Factory Song” by Vachel Lindsay. [An episode on Younger Poets](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-2r3p0m1m/), which refers to but does not name an anthology of 50+ younger poets, both English and American, features a reading of the largely forgotten Berkeley poet James Scheville’s “The Tourist on the Towers of Vision,” who taught at San Francisco State, which begins “In a ruined Irish castle…,” and also a young Adrienne Rich’s “The Flaming Carousel.”
+Programs in _Poetry and the American_ devoted to individual poets included Emily Dickinson (featuring Ostroff’s wife Miriam), Hart Crane, e.e. cummings, Robert Frost, Wallace Stevens and, of course, T.S. Eliot, on whom Ostroff shares the critical consensus: “His work far more than any other man defines for the English speaking world what we call modern poetry.” [One curious episode is devoted to Frederic Goddard Tuckerman](/episode/cpb-aacip-500-1z41wb19/), “an American poet no one rea\[d]” then or now, who self-published one book, _Poems_ (1860), and who was proficient in the sonnet form. Nathaniel Hawthorne and Yvor Winters admired him, to little avail. An [episode on Senior Poets](/episode/cpb-aacip-500-n58cm41h/) focuses on Archibald MacLeish, Robinson Jeffers, John Crowe Ransom, Conrad Aiken, etc. [An episode on Social Protest](/episode/cpb-aacip-500-qr4nqj5d/) featured “The Golf Links” by Sara Cleghorn and “Factory Song” by Vachel Lindsay. [An episode on Younger Poets](/episode/cpb-aacip-500-2r3p0m1m/), which refers to but does not name an anthology of 50+ younger poets, both English and American, features a reading of the largely forgotten Berkeley poet James Scheville’s “The Tourist on the Towers of Vision,” who taught at San Francisco State, which begins “In a ruined Irish castle…,” and also a young Adrienne Rich’s “The Flaming Carousel.”
 
-_What Is Modern Poetry_ turns out to be British-imported performed lectures and poetry recital both. Produced by Thomas Parrish, the program is hosted by [Alan Simpson](https://www.nytimes.com/1998/05/08/nyregion/alan-simpson-85-president-of-vassar-in-transition-dies.html), an Oxford-trained and Oxford-accented history professor at the University of Chicago (who went on to serve as president of Vassar College through a turbulent era). He reads a “text originally written by C. Day-Lewis for the \[BBC],” and poems are read “by members of University Radio Theatre.” The text for the four episodes by Lewis underscores the point that modern poetry is not doing anything especially new, and places it in relation to the Romantic and Metaphysical poets. The first episode, “[Techniques of Modern Poetry](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-5t3g2g9g/),” opines that “A poem should be all poetry – not an archipelago of heightened poetic passages linked together by a sea of versified prose. There is nothing very new in the idea. Keats told Shelley he ought to load every rift with ore.” The poems read and interpreted by Lewis through Simpson’s and anonymous radio actors’ voices are excerpts from Eliot’s “The Lovesong of J. Alfred Prufrock,” Dylan Thomas’s “Fern Hill,” and Frost’s sonnet, “Never Again Would Birdsong Be the Same.”
+_What Is Modern Poetry_ turns out to be British-imported performed lectures and poetry recital both. Produced by Thomas Parrish, the program is hosted by [Alan Simpson](https://www.nytimes.com/1998/05/08/nyregion/alan-simpson-85-president-of-vassar-in-transition-dies.html), an Oxford-trained and Oxford-accented history professor at the University of Chicago (who went on to serve as president of Vassar College through a turbulent era). He reads a “text originally written by C. Day-Lewis for the \[BBC],” and poems are read “by members of University Radio Theatre.” The text for the four episodes by Lewis underscores the point that modern poetry is not doing anything especially new, and places it in relation to the Romantic and Metaphysical poets. The first episode, “[Techniques of Modern Poetry](/episode/cpb-aacip-500-5t3g2g9g/),” opines that “A poem should be all poetry – not an archipelago of heightened poetic passages linked together by a sea of versified prose. There is nothing very new in the idea. Keats told Shelley he ought to load every rift with ore.” The poems read and interpreted by Lewis through Simpson’s and anonymous radio actors’ voices are excerpts from Eliot’s “The Lovesong of J. Alfred Prufrock,” Dylan Thomas’s “Fern Hill,” and Frost’s sonnet, “Never Again Would Birdsong Be the Same.”
 
 In the program _Poetry in Song_, host Hobart Mitchell, a former English instructor at NYU, claims that
 

@@ -34,33 +34,33 @@ visuals:
       [Wikimedia](https://commons.wikimedia.org/wiki/File:Alliance_for_Progress_in_Venezuela_1961.jpg).
 related:
   - title: Contemporary Revolution in Latin America
-    url: https://mith.umd.edu/airwaves/programs/contemporary-revolution-in-latin-america/
+    url: /programs/contemporary-revolution-in-latin-america/
     description: A documentary series on problems facing Latin America, including
       panel discussions at program conclusion. The series is hosted by Erwin
       Canham, editor at the Christian Science Monitor.
   - title: The Yankee Dollar
-    url: https://mith.umd.edu/airwaves/programs/the-yankee-dollar/
+    url: /programs/the-yankee-dollar/
     description: A documentary series on impact of U.S. dollar on Latin America,
       especially Mexico. The series is hosted by Richard Arellano.
   - title: Latin American Perspectives
-    url: https://mith.umd.edu/airwaves/programs/latin-american-perspectives/
+    url: /programs/latin-american-perspectives/
     description: A series of commentary and analysis about current affairs in Latin
       American countries.
   - title: "U.S. Foreign Policy: Demands of the Next Decade"
-    url: https://mith.umd.edu/airwaves/programs/us-foreign-policy-demands-of-the-next-decade
+    url: /programs/us-foreign-policy-demands-of-the-next-decade
     description: On the occasion of its 50th anniversary, the Foreign Policy
       Association of the United States organized a traveling conference based on
       the theme "demands of the next decade." This is a series of recorded
       speeches from a 1968 Portland, Oregon, conference sponsored by the FPA,
       the World Affairs Council of Oregon, and Time Magazine.
   - title: 29th Annual Couchiching Conference, 1960
-    url: https://mith.umd.edu/airwaves/programs/29th-annual-couchiching-conference-1960
+    url: /programs/29th-annual-couchiching-conference-1960
     description: The 1960 Couchiching Conference, a summer symposium on national and
       international affairs put together by the Canadian Institute on Public
       Affairs and the Canadian Broadcasting Corporation, assembles for its 29th
       annual meeting. The theme of the 1960 conference was "The Latin Americas."
   - title: Committees Programming Practices, 1968-1969
-    url: https://mith.umd.edu/airwaves/document/naeb-b034-f01/#7
+    url: /document/naeb-b034-f01/#7
     description: 1968 and 1969 correspondence, survey report, and resolution
       regarding programming practices. Report studies member station programming
       of nationally distributed and/or network radio and television programs,
@@ -77,17 +77,17 @@ Historically, the U.S. has had a fraught relationship with Latin America, marred
 
 In the midst of the U.S.’s strategy of communist containment, Cuba faced a revolution, led by Fidel Castro, to overthrow dictator Fulgencio Batista. The revolutionaries were successful and after rising tensions between Cuba and the United States, Castro in 1961 declared Cuba a socialist state and proclaimed himself a Marxist-Leninist. This revolution therefore increased fears of Soviet influence in the region, directly placed communism in the United States’ “backyard,” and intensified Cold War politics in Latin America. To quell the rise of communism in the region and to improve strained relations with Latin America, John F. Kennedy embraced peaceful economic cooperation and development as a way to advance social reforms and democracy in the region. Known as the “Alliance for Progress,” the program provided economic assistance to Latin American countries to promote economic development, accelerate modernization, and enhance social welfare to, in Kennedy’s words, “satisfy the basic needs of \[Latin] American people for homes, work and land, health and schools.” Nonetheless, the Alliance largely failed in achieving its goals and in the decades that followed, Latin America was plagued by ruthless far-right dictatorships.
 
-***[Contemporary Revolution in Latin America](https://mith.umd.edu/airwaves/programs/contemporary-revolution-in-latin-america/)***
+***[Contemporary Revolution in Latin America](/programs/contemporary-revolution-in-latin-america/)***
 
-Through balanced and nuanced coverage, this series seeks to inform U.S. audiences about the tensions between reform and revolution in Latin America, the conditions that have fomented the spread of communist ideologies in the region, and the workings of Kennedy’s Alliance for Progress. Episodes incorporate interviews with high ranking experts on Latin American affairs—importantly including the voices of Latin Americans— to provide coverage on issues such as social stratification, oligarchic power, economic development, authoritarian rule, social welfare, agrarian reform, education, industrialization, and the communist threat in Latin America. One of the most fascinating [episodes](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-vm42wr0t/) describes what is pejoratively known as the “Indian problem,” or the way in which a nation incorporates what it perceives as “backwards” indigenous peoples into the fabric of the nation. Interestingly, Guatemalan diplomat Jorge García Granados views indigenous peoples as the future of his country and as the “greatest bulwark against communism in Guatemala.” Although the series is critical of both the United States and Latin America, its coverage nonetheless embraces the Alliance for Progress’ outlook, viewing economic capitalist development, modernization, and social reform as the best solutions to Latin America’s rising revolutions and as a buttress against communism.
+Through balanced and nuanced coverage, this series seeks to inform U.S. audiences about the tensions between reform and revolution in Latin America, the conditions that have fomented the spread of communist ideologies in the region, and the workings of Kennedy’s Alliance for Progress. Episodes incorporate interviews with high ranking experts on Latin American affairs—importantly including the voices of Latin Americans— to provide coverage on issues such as social stratification, oligarchic power, economic development, authoritarian rule, social welfare, agrarian reform, education, industrialization, and the communist threat in Latin America. One of the most fascinating [episodes](/episode/cpb-aacip-500-vm42wr0t/) describes what is pejoratively known as the “Indian problem,” or the way in which a nation incorporates what it perceives as “backwards” indigenous peoples into the fabric of the nation. Interestingly, Guatemalan diplomat Jorge García Granados views indigenous peoples as the future of his country and as the “greatest bulwark against communism in Guatemala.” Although the series is critical of both the United States and Latin America, its coverage nonetheless embraces the Alliance for Progress’ outlook, viewing economic capitalist development, modernization, and social reform as the best solutions to Latin America’s rising revolutions and as a buttress against communism.
 
-***[The Yankee Dollar](https://mith.umd.edu/airwaves/programs/the-yankee-dollar/)***
+***[The Yankee Dollar](/programs/the-yankee-dollar/)***
 
-Episodes in this series focus on various facets of economic development in Latin America, using Mexico as a case study to explore advances made by the Alliance for Progress and the impact of the American dollar in the region. Recordings cover the importance of the American dollar for [Mexico’s tourism](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-pk072456/) industry, [capital investments](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-m9023j71/) in the region, the Alliance for Progress’ assistance to the [private sector](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-xs5jg14t/), and U.S. [economic assistance](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-dj58hx70/) to Mexico. As a whole, this series paints Latin American countries as politically stable good neighbors and entices listeners to travel to and invest in the region by advertising capital investment programs offered through the Alliance for Progress.
+Episodes in this series focus on various facets of economic development in Latin America, using Mexico as a case study to explore advances made by the Alliance for Progress and the impact of the American dollar in the region. Recordings cover the importance of the American dollar for [Mexico’s tourism](/episode/cpb-aacip-500-pk072456/) industry, [capital investments](/episode/cpb-aacip-500-m9023j71/) in the region, the Alliance for Progress’ assistance to the [private sector](/episode/cpb-aacip-500-xs5jg14t/), and U.S. [economic assistance](/episode/cpb-aacip-500-dj58hx70/) to Mexico. As a whole, this series paints Latin American countries as politically stable good neighbors and entices listeners to travel to and invest in the region by advertising capital investment programs offered through the Alliance for Progress.
 
-***[Latin American Perspectives](https://mith.umd.edu/airwaves/programs/latin-american-perspectives/)***
+***[Latin American Perspectives](/programs/latin-american-perspectives/)***
 
-Comprising the majority of holdings in this exhibit, in this series Dr. Gardiner traces new scholarship emerging from Latin American area studies during the 1960s. By providing reviews of recently published books, the series explores Latin American history, culture, arts, politics, economy, and society through an Anglo lens. Attention is paid to Cold War affairs and the values espoused by the [Alliance for Progress](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-s756jv8g/) through episodes on, for example, the communist threat in [Cuba](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-k35mf491/), [Belize](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-4t6f5n00/), [Chile](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-8w384c9m/), and the [region](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-x05xbs1w/); [land reform](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-zs2kbx34/) in Venezuela; economic development and [modernism](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-fb4wn77j/) in [Brazil](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-nz80qf4p/) and [Mexico](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-s756jw27/); [Chilean democracy](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-9g5gg40z/); [social stratification](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-dv1cpt44/); and [U.S. intervention](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-b56d643j/) in the region. Given the urban race rebellions that occurred in the mid- to late-1960s in the U.S., Gardiner also pays attentiveness to race relations in the region in countries such as [Mexico](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-sq8qh95m/), [Brazil](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-cv4bsz9t/), [Peru](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-wh2dd99w/), and [Cuba](https://mith.umd.edu/airwaves/episode/cpb-aacip-500-6t0gzc7k/).
+Comprising the majority of holdings in this exhibit, in this series Dr. Gardiner traces new scholarship emerging from Latin American area studies during the 1960s. By providing reviews of recently published books, the series explores Latin American history, culture, arts, politics, economy, and society through an Anglo lens. Attention is paid to Cold War affairs and the values espoused by the [Alliance for Progress](/episode/cpb-aacip-500-s756jv8g/) through episodes on, for example, the communist threat in [Cuba](/episode/cpb-aacip-500-k35mf491/), [Belize](/episode/cpb-aacip-500-4t6f5n00/), [Chile](/episode/cpb-aacip-500-8w384c9m/), and the [region](/episode/cpb-aacip-500-x05xbs1w/); [land reform](/episode/cpb-aacip-500-zs2kbx34/) in Venezuela; economic development and [modernism](/episode/cpb-aacip-500-fb4wn77j/) in [Brazil](/episode/cpb-aacip-500-nz80qf4p/) and [Mexico](/episode/cpb-aacip-500-s756jw27/); [Chilean democracy](/episode/cpb-aacip-500-9g5gg40z/); [social stratification](/episode/cpb-aacip-500-dv1cpt44/); and [U.S. intervention](/episode/cpb-aacip-500-b56d643j/) in the region. Given the urban race rebellions that occurred in the mid- to late-1960s in the U.S., Gardiner also pays attentiveness to race relations in the region in countries such as [Mexico](/episode/cpb-aacip-500-sq8qh95m/), [Brazil](/episode/cpb-aacip-500-cv4bsz9t/), [Peru](/episode/cpb-aacip-500-wh2dd99w/), and [Cuba](/episode/cpb-aacip-500-6t0gzc7k/).
 
 **Works Cited**
 

@@ -26,7 +26,7 @@ visuals:
       [Wikimedia](https://commons.wikimedia.org/wiki/File:Claude_Rains_in_Now_Voyager_trailer.jpg).
   - title: Press excerpts and highlights for The Jeffersonian Heritage. From a
       [folder of promotional materials about the
-      show](https://mith.umd.edu/airwaves//document/naeb-b072-f02), available at
+      show](//document/naeb-b072-f02), available at
       Unlocking the Airwaves.
     image: https://ia803107.us.archive.org/view_archive.php?archive=/31/items/naeb-b072-f03/naeb-b072-f03_jp2.zip&file=naeb-b072-f03_jp2%2Fnaeb-b072-f03_0010.jp2&ext=jpg
 related:

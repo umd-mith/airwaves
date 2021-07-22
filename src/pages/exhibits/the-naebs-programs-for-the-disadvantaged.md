@@ -44,9 +44,9 @@ related:
       in urban centers, programmatic guides state that these interviews “reveal
       growing awareness, concern, and pointed calls for action on the part of
       the Negro middle class.” '
-    url: https://mith.umd.edu/airwaves/programs/seeds-of-discontent/
+    url: /programs/seeds-of-discontent/
   - title: '"The Negro American" full series on Unlocking the Airwaves'
-    url: https://mith.umd.edu/airwaves/programs/the-negro-american/
+    url: /programs/the-negro-american/
     description:
       The Negro American was a radio lecture series by Professor Benjamin
       Quarles of Morgan State College, Baltimore, made in late 1967 in Detroit
@@ -55,7 +55,7 @@ related:
       and abolition, the civil war and reconstruction, and contemporary
       protests."
   - title: Urban Broadcasting Workshop
-    url: https://mith.umd.edu/airwaves/document/naeb-b071-f04/#17
+    url: /document/naeb-b071-f04/#17
     description: Discussion of the first Urban Broadcasting Workshop at American
       University (Washington, DC) in 1968, as highlighted in the First Report
       for Radio Programs for the Disadvantaged by Ken Clark, on the Unlocking
@@ -63,7 +63,7 @@ related:
   - title:
       8th Report, Radio Programs for the Disadvantaged, focusing on training &
       employment
-    url: https://mith.umd.edu/airwaves/document/naeb-b071-f05/#27
+    url: /document/naeb-b071-f05/#27
     description:
       The Eighth Report of the Radio Programs for the Disadvantaged by
       Project Director Ken Clark focuses almost exclusively on training
@@ -72,14 +72,14 @@ related:
       individuals in various key educational broadcasting roles (from producers
       to hosts to engineers) across the country.
   - title: Letter from Dave Berkman to Bill Harley
-    url: https://mith.umd.edu/airwaves/document/naeb-b071-f04/#21
+    url: /document/naeb-b071-f04/#21
     description: From the correspondence for Programs for the Disadvantaged, an
       acerbic letter from activist, academic and noted media critic Dave Berkman
       to former NAEB President William Harley, in which he pushes Harley
       candidly (among other things) on ETV’s “failure to serve its black
       constituencies.”
   - title: Programs for the Disadvantaged Correspondence, January-July 1968
-    url: https://mith.umd.edu/airwaves/document/naeb-b071-f04/
+    url: /document/naeb-b071-f04/
     description:
       January to July 1968 correspondence and reports about Programs for
       the Disadvantaged on the Unlocking the Airwaves website. Includes speeches
@@ -87,7 +87,7 @@ related:
       access for rural and poor populations from the Office of Economic
       Opportunity.
   - title: Programs for the Disadvantaged Correspondence, August-December 1968
-    url: https://mith.umd.edu/airwaves/document/naeb-b071-f05/
+    url: /document/naeb-b071-f05/
     description:
       August to December 1968 correspondence and reports about Programs
       for the Disadvantaged on the Unlocking the Airwaves website, with related
@@ -95,7 +95,7 @@ related:
       report and NAEB comments on non-discrimination in broadcasting before the
       FCC.
   - title: "LINE OF SIGHT: Portions of a Communications Feasibility Study"
-    url: https://mith.umd.edu/airwaves/document/naeb-b071-f04/#93
+    url: /document/naeb-b071-f04/#93
     description:
       A study on the Unlocking the Airwaves website exploring "the idea
       of using mass communications in our efforts to overcome poverty." Prepared
@@ -110,7 +110,7 @@ related:
       television can do to help 'establish more constructive attitudes' in
       America's cities.
     title: Letter from Win Griffith to Chalmers (Chuck) Marquis
-    url: https://mith.umd.edu/airwaves/document/naeb-b071-f04/#231
+    url: /document/naeb-b071-f04/#231
 ---
 
 In March 1968, the final report of the National Advisory Commission on Civil Disorders, commonly referred to as the [Kerner Commission Report](https://www.hsdl.org/?view&did=35837), was published and read by millions of Americans. Following a string of race riots in the summers between 1964 and 1967, President Johnson had established the Commission to investigate the issue of civil and racial unrest, and answer three questions: “What happened? Why did it happen? What can be done to prevent it from happening again?”

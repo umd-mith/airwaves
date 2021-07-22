@@ -25,10 +25,10 @@ visuals:
     title: Letterhead branding from The Association of College and University
       Broadcasting Stations (ACUBS), the NAEB's original moniker. From a [1933
       special
-      bulletin](https://mith.umd.edu/airwaves/document/naeb-b110-f04-21/) from
+      bulletin](/document/naeb-b110-f04-21/) from
       President Joseph Wright to ACUBS members.
 related:
-  - url: https://mith.umd.edu/airwaves/document/naeb-b101-f02-45/
+  - url: /document/naeb-b101-f02-45/
     description: The constitution of the NAEB, then called the Association of
       College and University Broadcasting Stations (ACUBS).
     title: ACUBS Constitution
@@ -37,8 +37,8 @@ related:
       additional government support of adequate facilities in order to meet the
       technical demands of the 1934 Communications Act.
     title: NAEB Newsletter (May 25, 1935)
-    url: https://mith.umd.edu/airwaves/document/naeb-b110-f04-27/#2
-  - url: https://mith.umd.edu/airwaves/document/naeb-b101-f02-46/#7
+    url: /document/naeb-b110-f04-27/#2
+  - url: /document/naeb-b101-f02-46/#7
     title: 1930 NAEB Letter to State Governors
     description: Letter from R.C. Higgy (NAEB President, from Ohio State University)
       and B.B. Brackett (NAEB Secretary-Treasurer and Director of KUSD,
@@ -46,7 +46,7 @@ related:
       stations present at the ACUBS Annual Meeting in 1930. The letter lobbies
       for the reservation of channels for educational broadcasting so that the
       field can remain under the control of universities.
-  - url: https://mith.umd.edu/airwaves/document/naeb-b101-f02-35/#5
+  - url: /document/naeb-b101-f02-35/#5
     description: >
       A tentative schedule for the NAEB annual conference in Iowa City (likely
       in 1935), in Iowa City, IA. Sessions listed include "Modernistic Equipment
@@ -54,13 +54,13 @@ related:
       "How May the Educational Broadcasting Stations and the US Office of
       Education Best Serve Each Other?"
     title: 1935 NAEB Conference Schedule
-  - url: https://mith.umd.edu/airwaves/document//naeb-b110-f04-17/#2
+  - url: /document//naeb-b110-f04-17/#2
     description: "While Congress deliberated about how to formularize standards for
       licensure, two major organizations, the National Committee for Education
       by Radio (NCER) and National Advisory Council on Radio in Education
       (NACRE) advised the NAEB to take a more active role in national debates. "
     title: ACUBS Newsletter (December 12, 1932)
-  - url: https://mith.umd.edu/airwaves/document/naeb-b110-f08-02/#2
+  - url: /document/naeb-b110-f08-02/#2
     title: NAEB Newsletter (January 15, 1939)
     description: >-
       This 1939 newsletter includes a report indicating the post-1934 boom in
@@ -70,7 +70,7 @@ related:
       during the 
 
       fiscal year."
-  - url: https://mith.umd.edu/airwaves/document/naeb-b110-f04-04/
+  - url: /document/naeb-b110-f04-04/
     title: ACUBS Newsletter (September 17, 1931)
     description: ACUBS 'Special Bulletin' from 1931 regarding exchanging music
       records to fill time. The bulletin includes collected quotes from member
@@ -79,7 +79,7 @@ related:
       effects of the new twelve-hour a day ruling." The suggestion is made to
       exchange records amongst stations, notably of music made locally at the
       colleges - college songs, glee clubs, orchestras, and bands.
-  - url: https://mith.umd.edu/airwaves/document/naeb-b081-f06/#109
+  - url: /document/naeb-b081-f06/#109
     title: '"This is the NAEB Tape Network"'
     description: Early 50's description of the first version of the NAEB's 'bicycle'
       tape network. This draft press release was meant to describe to member
@@ -97,13 +97,13 @@ In contrast to early commercial media industries, which were originally founded 
 
 ### Early Organizing Efforts
 
-The National Association for Educational Broadcasters (NAEB) was founded in 1925 as the Association of College and University Broadcasting Stations (ACUBS). The ACUBS’s primary purpose was to facilitate communication between public universities regarding the development of distance learning programs. As a clearing house for noncommercial institutions, the [ACUBS Constitution](https://mith.umd.edu/airwaves/document/naeb-b101-f02-45/) was consequently written in the tenor of speculative language around cultural goals, more than as a statement of best practices:
+The National Association for Educational Broadcasters (NAEB) was founded in 1925 as the Association of College and University Broadcasting Stations (ACUBS). The ACUBS’s primary purpose was to facilitate communication between public universities regarding the development of distance learning programs. As a clearing house for noncommercial institutions, the [ACUBS Constitution](/document/naeb-b101-f02-45/) was consequently written in the tenor of speculative language around cultural goals, more than as a statement of best practices:
 
 ![An excerpt of the constitution of the NAEB, then called the Association of College and University Broadcasting Stations.](/images/naeb-b101-f02-45-crop.png)
 
-The principal anchors of early education radio from the 1920s-1940s were the University of Wisconsin, Ohio State University, Iowa State University, University of Iowa, University of Illinois, and to a lesser extent the Universities of Minnesota and South Dakota. Their main concern was accumulation and maintenance of memberships so that the ACUBS ledger could [appropriately detail the state of the field](https://mith.umd.edu/airwaves/document/naeb-b101-f02-46/#7).\
+The principal anchors of early education radio from the 1920s-1940s were the University of Wisconsin, Ohio State University, Iowa State University, University of Iowa, University of Illinois, and to a lesser extent the Universities of Minnesota and South Dakota. Their main concern was accumulation and maintenance of memberships so that the ACUBS ledger could [appropriately detail the state of the field](/document/naeb-b101-f02-46/#7).\
 \
-The second dominant theme in early letters was over how to produce a model of radio communication, which they called “Schools of the Air,” that would differ from commercial broadcasting. [Conferences were held between 1928 and 1934](https://mith.umd.edu/airwaves/document/naeb-b101-f02-35/#5) to discuss a range of technical practices--from how to conduct live drama, to questions such as how to set up a studio.\
+The second dominant theme in early letters was over how to produce a model of radio communication, which they called “Schools of the Air,” that would differ from commercial broadcasting. [Conferences were held between 1928 and 1934](/document/naeb-b101-f02-35/#5) to discuss a range of technical practices--from how to conduct live drama, to questions such as how to set up a studio.\
 \
 This debate over whether educational programming should be instructional or informative entertainment would run until the 1980s, and represented an important fracture between educational and public media practitioners: Midwestern institutions were intent to maintain a lecture format, while East Coast proto-public stations endeavored to build a “fourth network” that could aesthetically rival commercial broadcasters.
 
@@ -111,9 +111,9 @@ This debate over whether educational programming should be instructional or info
 
 A third issue that shows up in early correspondence focused on how to maintain station licenses. Early members supported the concept that a certain percentage of all frequencies should be set aside for non-commercial purposes. In a key twist in the early development of American broadcasting, the Communications Act of 1934 – the first comprehensive media policy – changed the rules for station licensure. Few universities were able to meet the Act’s demanding technical standards. The act also codified previous policies set by the Federal Radio Council (FRC) that were unfriendly to noncommercial use of the airwaves.\
 \
-In spite of support from the military, Office of Education, and philanthropic groups, educational stations were at best an incipient endeavor in the 1930s, having a poor understanding of discourses in the regulatory sector. So [despite being advised to take a more active role in national debates](https://mith.umd.edu/airwaves/document/naeb-b110-f04-17/#2), ACUBS was poorly equipped to take part in or influence these developments.\
+In spite of support from the military, Office of Education, and philanthropic groups, educational stations were at best an incipient endeavor in the 1930s, having a poor understanding of discourses in the regulatory sector. So [despite being advised to take a more active role in national debates](/document/naeb-b110-f04-17/#2), ACUBS was poorly equipped to take part in or influence these developments.\
 \
-Before legislators settled on a national policy, the ACUBS was offered reserved experimental frequencies in the 1500 and above band but turned the offer down. Unfortunately, members did not have a backup plan, and educational broadcasters were blindsided by rules of the Communications Act of 1934 that stipulated sweeping “public interest” standards for transmitters, broadcast schedules, and listenership, which [few universities could meet](https://mith.umd.edu/airwaves/document/naeb-b110-f04-27/#2).
+Before legislators settled on a national policy, the ACUBS was offered reserved experimental frequencies in the 1500 and above band but turned the offer down. Unfortunately, members did not have a backup plan, and educational broadcasters were blindsided by rules of the Communications Act of 1934 that stipulated sweeping “public interest” standards for transmitters, broadcast schedules, and listenership, which [few universities could meet](/document/naeb-b110-f04-27/#2).
 
 ![An excerpt from the May 1935 National Association of Educational Broadcasters newsletter.](/images/naeb-b110-f04-27-2-crop.png)
 
@@ -125,9 +125,9 @@ The consequence was that a corporate friendly media landscape was implemented wi
 
 While the Communications Act represented a huge blow to early experiments, educators rebounded and evolved. Over the next fifteen years NAEB members regrouped, built alliances, and began to lay out a plan to rebuild noncommercial media. The NAEB began to study what had made commercial broadcasting so successful. The use of the term “Public Radio Broadcasting System” was first coined in the months subsequent to the 1935 FCC hearings, by Dr. Arthur G. Crane of the NCER and University of Wyoming. Members explored early audience and policy analysis, and their methodological breakthroughs in the 1930s and 1940s influenced the emergence of political economy of communication research.\
 \
-[Membership numbers also dramatically increased after 1934](https://mith.umd.edu/airwaves/document/naeb-b110-f08-02/#2). In 1936 the Rockefeller Foundation invited BBC consultants to visit educational stations in the U.S., and station managers took internships at NBC and CBS to study radio aesthetics. The Association began to relay quality programming to help smaller and less organized university stations keep their licenses. The NAEB experimented with shortwave retransmission but [settled on the printing of records for regional distribution](https://mith.umd.edu/airwaves/document/naeb-b110-f04-04/), which they called program transcriptions.
+[Membership numbers also dramatically increased after 1934](/document/naeb-b110-f08-02/#2). In 1936 the Rockefeller Foundation invited BBC consultants to visit educational stations in the U.S., and station managers took internships at NBC and CBS to study radio aesthetics. The Association began to relay quality programming to help smaller and less organized university stations keep their licenses. The NAEB experimented with shortwave retransmission but [settled on the printing of records for regional distribution](/document/naeb-b110-f04-04/), which they called program transcriptions.
 
-By World War II noncommercial media defined itself as non-profit, while focused on following Communications Act regulations while maintaining an educational vision. The NAEB settled on programming genres derived from distance and adult learning coursework, and instituted a decentralized distribution structure. After WWII the NAEB moved to the University of Illinois, and members [built a program transcription library](https://mith.umd.edu/airwaves/document/naeb-b081-f06/#105) for distribution of quality noncommercial programs. In the early 1950s the auspice of a fourth network became centralized through NAEB activities, which synthesized the work of multiple universities, media research, and public policy advocacy into one institutional voice.
+By World War II noncommercial media defined itself as non-profit, while focused on following Communications Act regulations while maintaining an educational vision. The NAEB settled on programming genres derived from distance and adult learning coursework, and instituted a decentralized distribution structure. After WWII the NAEB moved to the University of Illinois, and members [built a program transcription library](/document/naeb-b081-f06/#105) for distribution of quality noncommercial programs. In the early 1950s the auspice of a fourth network became centralized through NAEB activities, which synthesized the work of multiple universities, media research, and public policy advocacy into one institutional voice.
 
 ![An excerpt from a document titled "What Is The NAEB Tape Network?"](/images/naeb-b081-f06_0109-crop.png)
 

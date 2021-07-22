@@ -24,37 +24,37 @@ visuals:
     title: A 1960 list of testable hypotheses for the project by Marshall McLuhan.
   - image: ../../../static/images/naeb-b111-f08-06.jpg
     title: "[July 1958 NAEB
-      newsletter](https://mith.umd.edu/airwaves/document/naeb-b111-f08-06/)
+      newsletter](/document/naeb-b111-f08-06/)
       detailing a speech given by Marshall McLuhan at the Conference on
       Educational Television and Related Media."
 related:
-  - url: https://mith.umd.edu/airwaves/document/naeb-b066-f08/
+  - url: /document/naeb-b066-f08/
     title: McLuhan, Marshall, 1958
     description:
       1958 correspondence about the NAEB's planned collaborative project
       on new media education with Marshall McLuhan, including discussion of
       fundraising and drafts of the U.S. Office of Education grant application.
   - title: McLuhan, Marshall, January-June, 1959
-    url: https://mith.umd.edu/airwaves/document/naeb-b066-f09/
+    url: /document/naeb-b066-f09/
     description:
       January to June 1959 correspondence regarding Marshall McLuhan's
       project with the NAEB, with drafts of the U.S. Office of Education grant
       application. Discussions include budgetary needs and translating his
       concepts into experiments.
-  - url: https://mith.umd.edu/airwaves/document/naeb-b066-f10/
+  - url: /document/naeb-b066-f10/
     title: McLuhan, Marshall, July-December, 1959
     description:
       July to December 1959 correspondence regarding Marshall McLuhan's
       project with the NAEB, including a progress report and draft syllabus for
       project sessions.
-  - url: https://mith.umd.edu/airwaves/document/naeb-b067-f01/
+  - url: /document/naeb-b067-f01/
     description:
       1960 to 1963 correspondence regarding Marshall McLuhan's project
       with the NAEB, including discussion of grant fund distribution, staff
       compensation, and experiment design. Project materials include scripts for
       a pilot video and drafts of discussion and writing prompts for students.
     title: McLuhan, Marshall, 1960-1963
-  - url: https://mith.umd.edu/airwaves/document/naeb-b036-f03/
+  - url: /document/naeb-b036-f03/
     title: Committees, Research, 1959
     description: 1959 correspondence related to the NAEB Research Committee and
       committee chairman Sam Becker. Correspondence addresses the grants-in-aid
