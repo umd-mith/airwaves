@@ -45,7 +45,7 @@ export default function Registry({ name, items }) {
         ))}
       </div>
 
-      {letters.map(letter => {
+      {Array.from(itemsByLetter.keys()).map(letter => {
         const hasItems = itemsByLetter.get(letter).length > 0
         return (
           <section style={{ display: hasItems ? 'block' : 'none' }}>
@@ -65,6 +65,7 @@ export default function Registry({ name, items }) {
               ))}
             </ul>
           </section>
+
         )
       })}
 
