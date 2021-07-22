@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-// import { FaAngleUp } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import Registry from "../components/registry"
