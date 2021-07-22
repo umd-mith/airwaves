@@ -76,8 +76,8 @@ collections:
             widget: string
             required: true
             pattern:
-              - https://mith.umd.edu/airwaves/.+
-              - Must be an Unlocking the Airwaves URL
+              - ^/.+
+              - Must be a hostless Unlocking the Airwaves URL, start with /
           - label: Description
             name: description
             widget: text
