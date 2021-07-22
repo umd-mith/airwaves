@@ -1,8 +1,8 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 
-import Registry from "../components/registry"
 import Layout from "../components/layout"
+import Registry from "../components/registry"
 
 const People = ({ data }) => {
   const people = data.allPeopleJson.nodes
