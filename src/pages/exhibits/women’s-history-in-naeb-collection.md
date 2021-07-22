@@ -33,7 +33,7 @@ visuals:
       liveGilbert.PNG)."
     image: ../../../static/images/640px-sojournertruth_1850_olivegilbert.png
 related:
-  - url: " /naeb-b057-f07/"
+  - url: /document/naeb-b057-f07/
     title: Foundations, Pacifica, 1953-1955
     description:
       1953 to 1955 correspondence regarding NAEB's relationship with the
