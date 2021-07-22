@@ -26,29 +26,19 @@ const Visual = ({ title, image }) => {
   )
 }
 
-const RelatedItem = ({ title, url, description }) => {
-  // adjust the url so we can create an in-app link with Link
-  // note: we remove the /airwaves prefix because Link adds it back on
-  // when building with --prefix-paths
-
-  const uri = new URL(url)
-  let localPath = uri.pathname + uri.search + uri.hash
-  localPath = localPath.replace(/^\/airwaves/, "")
-
-  return (
-    <div className="related">
-      <h3>
-        <Link to={localPath}>{title}</Link>
-      </h3>
-      <div
-        className="description"
-        dangerouslySetInnerHTML={{
-          __html: convertMarkdown(description).toString(),
-        }}
-      />
-    </div>
-  )
-}
+const RelatedItem = ({ title, url, description }) => (
+  <div className="related">
+    <h3>
+      <Link to={url}>{title}</Link>
+    </h3>
+    <div
+      className="description"
+      dangerouslySetInnerHTML={{
+        __html: convertMarkdown(description).toString(),
+      }}
+    />
+  </div>
+)
 
 const Exhibit = ({ pageContext: exhibit }) => {
   if (!exhibit.visuals) exhibit.visuals = []
