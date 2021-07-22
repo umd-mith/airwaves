@@ -1,10 +1,17 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 
+import Registry from "../components/registry"
 import Layout from "../components/layout"
 
 const Organizations = ({ data }) => {
-  const people = data.allPeopleJson.nodes
+  const orgs = data.allPeopleJson.nodes
+  const items = orgs.map(o => ({
+    name: o.name,
+    description: o.wikidata.description,
+    url: `/organizations/${o.wikidata.wikidataId}/`
+  }))
+
   return (
     <Layout title="Organizations">
       <div className="page-organizations">
@@ -17,16 +24,7 @@ const Organizations = ({ data }) => {
           </h1>
         </section>
         <section>
-          <ul className="long-list">
-            {people.map(p => (
-              <li>
-                <Link to={`/organizations/${p.wikidata.wikidataId}/`}>
-                  {p.name}
-                </Link>
-                : {p.wikidata.description}
-              </li>
-            ))}
-          </ul>
+          <Registry name="organization name" items={items} />
         </section>
       </div>
     </Layout>

@@ -1,28 +1,19 @@
-import React, { useState } from "react"
+import React from "react"
 import { graphql, Link } from "gatsby"
-import { FaAngleUp } from "react-icons/fa"
+// import { FaAngleUp } from "react-icons/fa"
 
 import Layout from "../components/layout"
+import Registry from "../components/registry"
 
 const Programs = ({ data }) => {
-  // keep track of the query in the input box
-  const [searchQuery, setSearchQuery] = useState("")
 
-  // a list of letters for the menu
-  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")
-
-  // pre-populate series lists
-  const series = {}
-  letters.forEach(l => {
-    series[l] = []
-  })
-
-  // collect series information by first letter, and apply search query if there is one
-  data.allSeriesJson.edges.forEach(e => {
-    const s = e["node"]
-    const l = s.title[0].toUpperCase()
-    if (l.match(/[A-Z]/) && s.title.match(new RegExp(searchQuery, "i"))) {
-      series[l].push(s)
+  const maxLen = 250
+  const items = data.allSeriesJson.nodes.map(s => {
+    const desc = s.description.length > 0 && s.description[0] ? s.description[0] : ''
+    return {
+      name: s.title,
+      url: `/programs/${s.id}/`,
+      description: desc.length > maxLen ? desc.substr(0, maxLen) + '...' : desc
     }
   })
 
@@ -66,43 +57,9 @@ const Programs = ({ data }) => {
               to this page.
             </p>
           </article>
-          <article className="col-12">
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={e => setSearchQuery(e.target.value)}
-              placeholder="Search by program name"
-              aria-label="Search"
-            />
-          </article>
         </section>
-
-        <section className="columns alpha-list">
-          {letters.map(l => (
-            <Link to={`/programs/#${l}`}>{l}</Link>
-          ))}
-        </section>
-
         <section>
-          <article>
-            {letters.map(l => (
-              <div className="alpha-list-section">
-                <div className="section-header">
-                  <span name={l}>{l}</span>
-                  <Link className="back" to="/programs/#programs">
-                    back to top <FaAngleUp />
-                  </Link>
-                </div>
-                <ul className={`section-{l}`}>
-                  {series[l].map(s => (
-                    <li>
-                      <Link to={`/programs/${s.id}/`}>{s.title}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </article>
+         <Registry name="series name" items={items} />
         </section>
       </div>
     </Layout>
@@ -114,11 +71,10 @@ export default Programs
 export const query = graphql`
   query {
     allSeriesJson(sort: { fields: title, order: ASC }) {
-      edges {
-        node {
-          id
-          title
-        }
+      nodes {
+        id
+        title
+        description
       }
     }
   }

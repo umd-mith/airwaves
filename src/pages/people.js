@@ -1,10 +1,18 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 
+import Registry from "../components/registry"
 import Layout from "../components/layout"
 
 const People = ({ data }) => {
   const people = data.allPeopleJson.nodes
+
+  const items = people.map(p => ({
+    name: p.name,
+    description: p.wikidata.description,
+    url: `/people/${p.wikidata.wikidataId}/`
+  }))
+
   return (
     <Layout title="People">
       <div className="page-people">
@@ -17,15 +25,7 @@ const People = ({ data }) => {
           </h1>
         </section>
         <section>
-          <ul className="long-list">
-            {people.map(p => (
-              <li>
-                <Link to={`/people/${p.wikidata.wikidataId}/`}>{p.name}</Link>:
-                &nbsp;
-                {p.wikidata.description}
-              </li>
-            ))}
-          </ul>
+          <Registry name="person's name" items={items} />
         </section>
       </div>
     </Layout>

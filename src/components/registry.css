@@ -1,0 +1,45 @@
+.registry-nav {
+  display: grid;
+  align-items: start;
+  grid-template-columns: repeat(auto-fill,minmax(38px,1fr));
+  grid-gap: 0;
+  margin-bottom: 1.5rem;
+}
+
+.registry-nav a {
+  color: #59680c;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  justify-self: stretch;
+  border: 1px solid;
+  text-decoration: none;
+}
+
+.registry-search {
+  background-color: #fff;
+  border: 1px solid #59680c;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.letter-section {
+  border-bottom: thin solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.letter-section .letter {
+  font-size: 22pt;
+}
+
+.letter-section .back {
+  right: 0;
+  text-transform: uppercase;
+  font-size: 10px
+}
