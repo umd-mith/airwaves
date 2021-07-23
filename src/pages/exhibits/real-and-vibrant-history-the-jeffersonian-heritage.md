@@ -26,9 +26,8 @@ visuals:
       [Wikimedia](https://commons.wikimedia.org/wiki/File:Claude_Rains_in_Now_Voyager_trailer.jpg).
   - title: Press excerpts and highlights for The Jeffersonian Heritage. From a
       [folder of promotional materials about the
-      show](//document/naeb-b072-f02), available at
-      Unlocking the Airwaves.
-    image: https://ia803107.us.archive.org/view_archive.php?archive=/31/items/naeb-b072-f03/naeb-b072-f03_jp2.zip&file=naeb-b072-f03_jp2%2Fnaeb-b072-f03_0010.jp2&ext=jpg
+      show](//document/naeb-b072-f02), available at Unlocking the Airwaves.
+    image: ../../../static/images/naeb-b072-f03_0010.jpg
 related:
   - title: The Jeffersonian Heritage (full series)
     url: /programs/the-jeffersonian-heritage/
@@ -107,7 +106,7 @@ Based on the published work and continuing research of Jefferson historian Profe
 
 Here are the titles of the 13 episodes as broadcast:
 
-![1. The Living Declaration; 2. The Democrat and the Commissar; 3. Divided We Stand; 4. Light and Liberty; 5. The Return of the Patriot; 6. The Danger of Freedom; 7. The Ground of Justice; 8. Freedom to Work; 9. Freedom of the Press; 10. The University of the United States; 11. To Secure These Rights; 12. Nature’s Most Precious Gift; 13. What the Jeffersonian Heritage Means Today](/images/tjh-episode-flyer.png 'Flyer listing all 13 programs in "The Jeffersonian Heritage."' "Flyer listing all 13 programs in The Jeffersonian Heritage")
+![1. The Living Declaration; 2. The Democrat and the Commissar; 3. Divided We Stand; 4. Light and Liberty; 5. The Return of the Patriot; 6. The Danger of Freedom; 7. The Ground of Justice; 8. Freedom to Work; 9. Freedom of the Press; 10. The University of the United States; 11. To Secure These Rights; 12. Nature’s Most Precious Gift; 13. What the Jeffersonian Heritage Means Today](../../../static/images/tjh-episode-flyer.png "Flyer listing all 13 programs in The Jeffersonian Heritage")
 
 The thirteen half-hour episodes of the series were written by Morton Wishengrad, Milton Gieger, Joseph Mindel and George Probst, with music by Vladimir Selensky. Frank Papp (moonlighting from NBC) wore two hats as producer and director. The actor chosen to play Thomas Jefferson was the popular and versatile Claude Rains, well known to US film audiences for playing villains (Prince John in *The Adventures of Robinhood* for one), the occasional hero (secret agent John Stevenson in *The Last Outpost*) and most memorably, characters of “flexible” morals like Captain Renault in *Casablanca*.
 
@@ -138,7 +137,5 @@ Burch, Glenn. “FAE and the Mass Media,” *Educational Screen*, February 1952.
 Gould, Jack. “'The Jeffersonian Heritage' Has Its Premiere on WNYC With Claude Rains in Lead Role,” *The New York Times*, September 15, 1952. Available online (with subscription) at [The Times Machine](https://timesmachine.nytimes.com/timesmachine/1952/09/15/84356015.html?pageNumber=22). 
 
 “Saturation Campaign”, *Broadcasting – Telecasting*, January 26, 1953. **[Available on the Internet Archive](https://archive.org/details/broadcastingtele44unse/page/n383/mode/1up)**
-
-
 
 **Chuck Howell** is the Librarian for Journalism, Communication & Cinema and Media Studies for the University of Maryland Libraries. Prior to his current appointment, he spent 21 years working with the University’s Broadcasting–related collections, known collectively as Special Collections in Mass Media & Culture. Chuck is a member of the Academy of Certified Archivists, and serves as a member of the Board of the Mid-Atlantic Regional Moving Image Archive (MARMIA). He has contributed to several media – related works, including *Talking Radio: An Oral History of Radio in the Television Age*, the *Encyclopedia of Radio* and *Methods of Historical Analysis in Electronic Media*.
