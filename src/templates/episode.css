@@ -17,6 +17,11 @@
   border-left: none;
 }
 
+.webvtt-player .transcript {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
 .webvtt-player .search .container {
   display: flex;
   flex-flow: row;
