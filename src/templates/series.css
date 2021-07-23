@@ -1,41 +1,57 @@
 @import "../components/variables.css";
-
-.series {
-  display: grid;
-  grid-template-areas:
-    "series-desc"
-    "programs"
-    "related"
-    "series-meta";
-}
-
-.series-desc {
-  grid-area: "series-desc";
-}
+@import "../components/datalist.css";
 
 .programs {
-  grid-area: "programs";
+  margin-bottom: var(--spacing-large-content);
 }
 
-.related {
-  grid-area: "related";
+/* TOFIX: Sort out class names with episode.css */
+.series-episode {
+  gap: var(--spacing-base-content);
+  justify-content: left;
+  border-top: 1px solid var(--color-gray-300);
+  padding: var(--spacing-base-content) 0;
 }
 
-.series-meta {
-  grid-area: "series-meta";
+.ep-time {
+  text-align: right;
+}
+
+.podcast {
+  margin-bottom: var(--spacing-large-content);
+}
+
+.podcast button {
+  padding: 0.57rem 0.85rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.podcast button svg {
+  vertical-align: middle;
 }
 
 /* Media queries for grid layouts */
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
+  .series-episode {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+  }
 }
 
 /* large screens — 976px and up */
 @media screen and (min-width: 61em) {
+  .related_documents ul {
+  }
 }
 
 /* x-large screens — 1072px and up */
 @media screen and (min-width: 67em) {
+}
+
+/* xx-large screens — 2096px and up */
+@media screen and (min-width: 131em) {
 }
 
 /* .alpha-list {
@@ -142,14 +158,4 @@
 .podcast {
   margin-top: 2rem;
 }
-
-.podcast button {
-  padding: 8px 12px;
-  font-size: 0.75rem;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-
-.podcast button svg {
-  vertical-align: middle;
-} */
+ */

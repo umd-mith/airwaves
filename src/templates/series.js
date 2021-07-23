@@ -37,7 +37,7 @@ const Series = ({ data, pageContext: { documents } }) => {
     if (node.decade) times.add(node.decade)
 
     return (
-      <div key={node.aapbId} className="episode">
+      <div key={node.aapbId} className="series-episode">
         <span className="ep-date">{node.broadcastDate}</span>
         <span className="ep-title">
           <Link to={`/episode/${node.aapbId}/`}>{node.title}</Link>
@@ -69,26 +69,26 @@ const Series = ({ data, pageContext: { documents } }) => {
 
   return (
     <Layout feedUrl={`/rss/${series.id}.xml`} title={`${series.title}`}>
-      <div className="series">
+      <div className="page-series">
         <section className="series-desc">
           <h1>
             <Link to="/programs/">All Programs</Link> / {series.title}
           </h1>
-          <div className="description">{series.description}</div>
+          <p>{series.description}</p>
         </section>
         <section className="programs">
           <h2>Available Episodes</h2>
           {episodes}
         </section>
-        <section className="related">
-          <h2>Related Materials</h2>
+        <section className="related_documents">
+          <h2>Related Documents</h2>
           <RelatedDocuments
             relatedNames={authorityNames}
             relatedDocs={relatedDocs}
             documents={documents}
           />
         </section>
-        <section className="series-meta">
+        <section className="series-meta metadata">
           <dl>
             {displayMetadataValues(subjects, "subject", "Subjects")}
             {displayMetadataValues(creators, "creator", "Creators")}
@@ -121,7 +121,7 @@ function displayMetadataValues(s, facetName, facetTitle) {
   if (l.length > 0) {
     return (
       <>
-        <dt>{facetTitle}</dt>
+        <dt className="label">{facetTitle}</dt>
         <dd>{l}</dd>
       </>
     )
