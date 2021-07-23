@@ -43,6 +43,11 @@
     margin-bottom: 1.31rem;
     order: 2;
   }
+
+  .page-explore section:not(:first-of-type) img {
+    order: 4;
+    width: 100%;
+  }
 }
 
 /* large screens — 976px and up */
