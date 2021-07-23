@@ -18,10 +18,14 @@
 }
 
 .podcast {
-  margin-bottom: var(--spacing-large-content);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  margin-top: var(--spacing-large-content);
 }
 
 .podcast button {
+  border: none;
   padding: 0.57rem 0.85rem;
   cursor: pointer;
   text-transform: uppercase;
@@ -43,11 +47,19 @@
 /* large screens — 976px and up */
 @media screen and (min-width: 61em) {
   .related_documents ul {
+    columns: 2;
+  }
+
+  .related_documents li {
+    padding-right: var(--spacing-large-content);
   }
 }
 
 /* x-large screens — 1072px and up */
 @media screen and (min-width: 67em) {
+  .related_documents ul {
+    columns: 3;
+  }
 }
 
 /* xx-large screens — 2096px and up */

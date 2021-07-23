@@ -79,6 +79,14 @@ const Series = ({ data, pageContext: { documents } }) => {
         <section className="programs">
           <h2>Available Episodes</h2>
           {episodes}
+          <div className="podcast" title={`Podcast URL for ${series.title}`}>
+            <a href={`${siteUrl}/rss/${series.id}.xml`}>
+              <button className="button">
+                <HeadsetIcon /> &nbsp;Subscribe to add <b>{series.title}</b> to
+                your podcast player
+              </button>
+            </a>
+          </div>
         </section>
         <section className="related_documents">
           <h2>Related Documents</h2>
@@ -96,14 +104,6 @@ const Series = ({ data, pageContext: { documents } }) => {
             {displayMetadataValues(genres, "genre", "Genres")}
             {displayMetadataValues(times, "decade", "Time Periods")}
           </dl>
-          <div className="podcast" title={`Podcast URL for ${series.title}`}>
-            <a href={`${siteUrl}/rss/${series.id}.xml`}>
-              <button>
-                <HeadsetIcon /> &nbsp;Subscribe to the <b>{series.title}</b>{" "}
-                Podcast
-              </button>
-            </a>
-          </div>
         </section>
       </div>
     </Layout>
