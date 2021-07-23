@@ -76,25 +76,27 @@ const Series = ({ data, pageContext: { documents } }) => {
           </h1>
           <p>{series.description}</p>
         </section>
-        <section className="programs">
-          <h2>Available Episodes</h2>
-          {episodes}
-          <div className="podcast" title={`Podcast URL for ${series.title}`}>
-            <a href={`${siteUrl}/rss/${series.id}.xml`}>
-              <button className="button">
-                <HeadsetIcon /> &nbsp;Subscribe to add <b>{series.title}</b> to
-                your podcast player
-              </button>
-            </a>
+        <section className="series-wrapper">
+          <div className="programs">
+            <h2>Available Episodes</h2>
+            {episodes}
+            <div className="podcast" title={`Podcast URL for ${series.title}`}>
+              <a href={`${siteUrl}/rss/${series.id}.xml`}>
+                <button className="button">
+                  <HeadsetIcon /> &nbsp;Subscribe to add <b>{series.title}</b>{" "}
+                  to your podcast player
+                </button>
+              </a>
+            </div>
           </div>
-        </section>
-        <section className="related_documents">
-          <h2>Related Documents</h2>
-          <RelatedDocuments
-            relatedNames={authorityNames}
-            relatedDocs={relatedDocs}
-            documents={documents}
-          />
+          <div className="related_documents">
+            <h2>Related Documents</h2>
+            <RelatedDocuments
+              relatedNames={authorityNames}
+              relatedDocs={relatedDocs}
+              documents={documents}
+            />
+          </div>
         </section>
         <section className="series-meta metadata">
           <dl>
