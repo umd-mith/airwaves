@@ -8,50 +8,103 @@
   fill: var(--color-brand-primary);
 }
 
+.visualizations {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  gap: var(--spacing-base-content);
+  justify-content: center;
+  margin-bottom: var(--spacing-xlarge-content);
+}
+
+.viz-label {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+.label-container {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  z-index: 3;
+  width: 100%;
+}
+
+.label-container .label-text {
+  display: block;
+  padding: 0 var(--spacing-base-content);
+  padding-top: var(--spacing-base-content);
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  text-align: right;
+  z-index: 10;
+}
+
+.label-text > p {
+  margin-bottom: 0;
+}
+
+.label-text > p:first-child {
+  font-family: "PT Sans Narrow", "Open Sans", Gotham, Helvetica Neue, Helvetica,
+    Arial, "sans-serif";
+  font-size: 2.14rem;
+  font-weight: 700;
+}
+
+.label-text > p:not(:first-child) {
+  display: none;
+  font-size: 1.43rem;
+}
+
+.label-shape {
+  opacity: 90%;
+}
+
+#naeb-timeline {
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+}
+
+#naeb-map {
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+}
+
+#naeb-map .label-text {
+  top: 30%;
+  right: 0%;
+}
+
+#content-standards {
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+}
+
+#content-standards .label-text {
+  text-align: right;
+  right: 0%;
+}
+
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
-  .visualizations {
-    align-items: center;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    margin-bottom: var(--spacing-xlarge-content);
+  .label-text > p:not(:first-child) {
+    display: initial;
   }
 
-  .visualizations > div:nth-child(2) {
-    margin: 0 var(--spacing-base-content);
-  }
-
-  .viz-label {
-    position: absolute;
-    top: 60%;
-    left: 0%;
-    opacity: 90%;
-  }
-
-  #naeb-timeline {
-    position: relative;
-    top: 0;
-    left: 0;
-    overflow-y: hidden;
-  }
-
-  #naeb-map {
-    position: relative;
-    top: 0;
-    left: 0;
-    overflow-y: hidden;
-  }
-
-  #naeb-map .viz-label {
+  #naeb-map .label-text {
     top: 30%;
   }
 
-  #content-standards {
-    position: relative;
-    top: 0;
-    left: 0;
-    overflow-y: hidden;
+  #naeb-timeline .label-text {
+    bottom: 40%;
   }
 
   /* Child page styles */

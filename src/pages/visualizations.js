@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 
-import Label from "../svg/uta_visualization_label_shape.svg"
+import LabelShape from "../svg/uta_visualization_label_shape.svg"
 
 import "./visualizations.css"
 
@@ -33,10 +33,17 @@ const VisualizationsPage = () => {
                 src="../../static/images/visualizations/timeline_screenshot.png"
                 alt="NAEB Timeline"
                 placeholder="blurred"
-                height={500}
+                height={300}
               />
             </Link>
-            <Label />
+            <div className="label-container">
+              <LabelShape />
+              <div className="label-text">
+                <p>Interactive Timeline</p>
+                <p>A History of Early Public Broadcasting&nbsp;</p>
+                <p>(1922–1967)</p>
+              </div>
+            </div>
           </div>
           <div id="naeb-map">
             <Link to="/visualizations/naeb-map/">
@@ -45,10 +52,16 @@ const VisualizationsPage = () => {
                 src="../../static/images/visualizations/map_screenshot.png"
                 alt="Map"
                 placeholder="blurred"
-                height={500}
+                width={450}
               />
             </Link>
-            <Label />
+            <div className="label-container">
+              <LabelShape />
+              <div className="label-text">
+                <p>Interactive Map</p>
+                <p>U.S. Organizations in the NAEB</p>
+              </div>
+            </div>
           </div>
           <div id="content-standards">
             <Link to="/visualizations/content-standards/">
@@ -57,10 +70,16 @@ const VisualizationsPage = () => {
                 src="../../static/images/visualizations/tree_screenshot.png"
                 alt="Tree Diagram"
                 placeholder="blurred"
-                height={500}
+                width={450}
               />
             </Link>
-            <Label />
+            <div className="label-container">
+              <LabelShape />
+              <div className="label-text">
+                <p>Interactive Content Tree</p>
+                <p>Explore content related to educational subject areas</p>
+              </div>
+            </div>
           </div>
         </section>
       </div>
