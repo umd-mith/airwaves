@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import "./explore.css"
@@ -33,6 +34,13 @@ const ExplorePage = () => (
         <Link className="button" to="/search/">
           Search the Collections
         </Link>
+        <img
+          className="howto-gif"
+          src="/images/[FILENAME HERE]"
+          width={400}
+          height={300}
+          alt=""
+        />
       </section>
       <section>
         <h2>2. Browse Radio Programs</h2>
@@ -56,6 +64,13 @@ const ExplorePage = () => (
         <Link to="/programs/" className="button">
           Browse Programs
         </Link>
+        <img
+          className="howto-gif"
+          src="/images/[FILENAME HERE]"
+          width={400}
+          height={300}
+          alt=""
+        />
       </section>
       <section>
         <h2>3. Browse Documents</h2>
@@ -77,6 +92,13 @@ const ExplorePage = () => (
         <Link to="/materials/" className="button">
           Browse Documents
         </Link>{" "}
+        <img
+          className="howto-gif"
+          src="/images/[FILENAME HERE]"
+          width={400}
+          height={300}
+          alt=""
+        />
       </section>
       <section>
         <h2>4. Browse People and Organizations</h2>
@@ -107,6 +129,13 @@ const ExplorePage = () => (
         <Link to="/organizations/" className="button">
           Browse Organizations
         </Link>
+        <img
+          className="howto-gif"
+          src="/images/[FILENAME HERE]"
+          width={400}
+          height={300}
+          alt=""
+        />
       </section>
     </div>
   </Layout>
