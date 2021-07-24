@@ -96,7 +96,16 @@ Similarly all the image and OCR assets for a document can be downloaded from:
 
 Finally the audio and transcripts for objects in the `episodes.json` can be downloaded from the Amazon S3 bucket using the `aapbId` (American Archive of Public Broadcasting ID) to construct the following URLs:
 
-* https://mith-uta.s3.amazonaws.com/transcripts/{aapbId}/{aapbId}.vtt
-* https://mith-uta.s3.amazonaws.com/audio/{aapbId}.mp3
+    https://mith-uta.s3.amazonaws.com/transcripts/{aapbId}/{aapbId}.vtt
+    https://mith-uta.s3.amazonaws.com/audio/{aapbId}.mp3
+
+Each NAEB program also has its own [RSS podcast](https://en.wikipedia.org/wiki/Podcast) URL, which you can construct using the `id` for the series found in `series.json`:
+
+    https://unlockingtheairwaves.org/rss/{series-id}.xml
+
+Additionally there is [OPML](https://en.wikipedia.org/wiki/OPML) file that
+lists all the podcasts:
+
+* [https://unlockingtheairwaves.org/rss/programs.opml](https://en.wikipedia.org/wiki/OPML)
 
 Questions about the technical details and data are welcome using the project's [issue tracker](https://github.com/umd-mith/airwaves/issues/) on GitHub or by contacting the project directors.
