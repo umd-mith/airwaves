@@ -115,11 +115,6 @@
   #map {
     width: 100%;
   }
-
-  .embed-host {
-    margin: 0;
-    min-height: 38rem;
-  }
 }
 
 /* large screens — 976px and up */
@@ -128,6 +123,20 @@
 
 /* x-large screens — 1072px and up */
 @media screen and (min-width: 67em) {
+  .page-visualizations section:first-child,
+  .page-visualization-naeb-timeline section:first-child,
+  .page-visualization-naeb-map section:first-child,
+  .page-visualization-content-standard section:first-child {
+    max-width: 1000px;
+  }
+
+  .page-visualizations > *,
+  .page-visualization-naeb-timeline > *,
+  .page-visualization-naeb-map > *,
+  .page-visualization-content-standard > * {
+    margin: 0 auto;
+    max-width: 1920px;
+  }
 }
 
 /* crazy-large screens — 2096px and up */
