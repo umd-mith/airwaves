@@ -4,6 +4,7 @@ import { graphql, Link } from "gatsby"
 import { formatDuration } from "../utils.js"
 import HeadsetIcon from "@material-ui/icons/Headset"
 import RelatedDocuments from "../components/related-documents"
+import SubscribeButton from "../components/subscribe-button"
 import "./series.css"
 
 const Series = ({ data, pageContext: { documents } }) => {
@@ -81,12 +82,12 @@ const Series = ({ data, pageContext: { documents } }) => {
             <h2>Available Episodes</h2>
             {episodes}
             <div className="podcast" title={`Podcast URL for ${series.title}`}>
-              <a href={`${siteUrl}/rss/${series.id}.xml`}>
-                <button className="button">
-                  <HeadsetIcon /> &nbsp;Subscribe to add <b>{series.title}</b>{" "}
-                  to your podcast player
-                </button>
-              </a>
+              <SubscribeButton 
+                title={series.title}
+                color="#e0ca59"
+                imageUrl="/images/podcast.png"
+                description={series.description}
+                feedUrl={`${siteUrl}/rss/${series.id}.xml`} />
             </div>
           </div>
           <div className="related_documents">
