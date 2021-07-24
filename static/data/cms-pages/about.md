@@ -104,8 +104,8 @@ Each NAEB program also has its own [RSS podcast](https://en.wikipedia.org/wiki/P
     https://unlockingtheairwaves.org/rss/{series-id}.xml
 
 Additionally there is [OPML](https://en.wikipedia.org/wiki/OPML) file that
-lists all the podcasts:
+lists all the podcasts.
 
-* [https://unlockingtheairwaves.org/rss/programs.opml](https://en.wikipedia.org/wiki/OPML)
+    https://unlockingtheairwaves.org/rss/programs.opml
 
 Questions about the technical details and data are welcome using the project's [issue tracker](https://github.com/umd-mith/airwaves/issues/) on GitHub or by contacting the project directors.
