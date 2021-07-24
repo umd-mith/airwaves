@@ -42,6 +42,8 @@ class SubscribeButton extends React.Component {
     script.setAttribute('data-format', 'rectangle')
     script.setAttribute('data-style', 'filled')
     script.setAttribute('data-color', '#e0ca59')
+    script.setAttribute('data-buttonid', 'airwaves')
+    script.setAttribute('data-hide', true)
 
     this.span.appendChild(script);
   }

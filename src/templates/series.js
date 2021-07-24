@@ -82,12 +82,18 @@ const Series = ({ data, pageContext: { documents } }) => {
             <h2>Available Episodes</h2>
             {episodes}
             <div className="podcast" title={`Podcast URL for ${series.title}`}>
+
               <SubscribeButton 
                 title={series.title}
                 color="#e0ca59"
                 imageUrl="/images/podcast.png"
                 description={series.description}
                 feedUrl={`${siteUrl}/rss/${series.id}.xml`} />
+
+	      <a className="button podlove-subscribe-button-airwaves">
+                <HeadsetIcon /> &nbsp;Subscribe to <b>{series.title}</b> in your podcast player
+	      </a>
+
             </div>
           </div>
           <div className="related_documents">
