@@ -18,23 +18,69 @@
   line-height: 1.1;
 }
 
-.featured-exhibits {
-  margin: 0 auto;
+.featured-exhibits-container {
+  border-bottom: 1px solid var(--color-gray-300);
 }
 
-/* .featured-exhibits-container::before,
-.featured-exhibits-container::after {
-  background-color: var(--color-gray-300);
-  content: "";
-  display: block;
-  height: 120%;
-  left: 0;
-  position: absolute;
-  transform: skewY(6deg);
-  transform-origin: top right;
-  width: 100%;
-  z-index: -2;
-} */
+.featured-exhibits-container .exhibit-summary-card {
+  background-color: var(--color-gray-900);
+  color: var(--color-gray-100);
+  padding-bottom: 0;
+}
+
+.featured-exhibits .exhibit-summary-card:first-child {
+  border-top-right-radius: 4rem;
+}
+
+.featured-exhibits .exhibit-summary-card:first-child h2 {
+  font-size: 2.14rem;
+  margin-bottom: 0;
+  padding-top: var(--spacing-small-content);
+}
+
+.featured-exhibits .exhibit-summary-card:first-child .exhibit-card-meta {
+  margin-bottom: 1.31rem;
+}
+
+.featured-exhibits .exhibit-summary-card:first-child .excerpt {
+  padding-bottom: var(--spacing-base-content);
+}
+
+.featured-exhibits .exhibit-summary-card:not(:first-child) {
+  display: flex;
+  flex-flow: column-reverse;
+  padding-top: 0;
+  justify-content: stretch;
+}
+
+.featured-exhibits .exhibit-summary-card:not(:first-child) .exhibit-card-meta {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+}
+
+.featured-exhibits .exhibit-summary-card:not(:first-child) h2 {
+  padding-top: var(--spacing-large-content);
+}
+
+.featured-exhibits .exhibit-summary-card:not(:first-child) .excerpt,
+.featured-exhibits
+  .exhibit-summary-card:not(:first-child)
+  .exhibit-card-meta
+  > p {
+  display: none;
+}
+
+.featured-exhibits .exhibit-summary-card:first-child .exhibit-image {
+  margin-bottom: var(--spacing-base-content);
+}
+
+.featured-exhibits .exhibit-summary-card:not(:first-child) img {
+  object-fit: contain;
+}
+/* .featured-exhibits {
+  margin: 0 auto;
+}
 
 .featured-exhibits h2 {
   margin-bottom: 0;
@@ -53,45 +99,44 @@
   background-color: var(--color-brand-primary);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
+} */
 
-.featured-exhibits-container .exhibit-summary-card {
+/* .featured-exhibits-container .exhibit-summary-card {
   background-color: var(--color-gray-900);
   color: var(--color-gray-100);
   border-top: none;
   margin-bottom: 0;
   overflow-y: hidden;
   padding: 0;
-}
+} */
 
-.featured-exhibits-container .exhibit-summary-card:first-child {
+/* .featured-exhibits-container .exhibit-summary-card:first-child {
   grid-template-columns: repeat(12, 1fr);
   grid-column: 1 / span 4;
-}
+} */
 
-.featured-exhibits-container .exhibit-summary-card:not(:first-child),
+/* .featured-exhibits-container .exhibit-summary-card:not(:first-child),
 .featured-exhibits-container #exhibit-link {
   grid-column: 1 / span 4;
   min-height: unset;
-}
+} */
 
-.featured-exhibits-container #exhibit-link {
+/* .featured-exhibits-container #exhibit-link {
   display: inline-block;
   padding: var(--spacing-base-content) 0;
-}
+} */
 
-.featured-exhibits-container a,
+/* .featured-exhibits-container a,
 .featured-exhibits-container a:visited {
   color: var(--color-brand-primary);
-}
+} */
 
-.featured-exhibits-container .exhibit-card-meta {
+/* .featured-exhibits-container .exhibit-card-meta {
   grid-column: 1 / span 12;
   grid-row: 1;
   z-index: 2;
   padding-left: 0;
   padding-right: 0;
-  /* padding-left: var(--spacing-base-content); */
 }
 
 .featured-exhibits-container .exhibit-card-meta h2,
@@ -117,13 +162,13 @@
   grid-column: 6 / span 6;
   grid-row: 1;
   padding: var(--spacing-base-content);
-}
+} */
 
-.featured-exhibits-container .exhibit-summary-card:not(:first-child) .excerpt {
+/* .featured-exhibits-container .exhibit-summary-card:not(:first-child) .excerpt {
   display: none;
-}
+} */
 
-.featured-exhibits-container
+/* .featured-exhibits-container
   .exhibit-summary-card:not(:first-child)
   .exhibit-image {
   display: none;
@@ -149,7 +194,7 @@
 #exhibit-link::after {
   content: "…";
   padding-left: 0.33rem;
-}
+} */
 
 .below-the-fold {
   display: grid;
@@ -182,7 +227,7 @@
 
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
-  .featured-exhibits {
+  /* .featured-exhibits {
     max-width: calc(var(--width-breakpoint-1) * 1.5);
   }
 
@@ -210,7 +255,7 @@
 
   .featured-exhibits .excerpt {
     padding-top: 5rem;
-  }
+  } */
 
   .below-the-fold {
     grid-column: 3 / -3;
@@ -219,13 +264,48 @@
 
 /* large screens — 976px and up */
 @media screen and (min-width: 61em) {
-  .featured-exhibits {
+  .featured-exhibits-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(18rem, 1fr));
+    gap: var(--spacing-large-content);
+    grid-template-areas:
+      "hero hero hero"
+      "featured-2 featured-3 featured-4";
+  }
+
+  .featured-exhibits .exhibit-summary-card:first-child {
+    grid-area: hero;
+    column-gap: var(--spacing-base-content);
+    margin-bottom: 0;
+  }
+
+  .featured-exhibits .exhibit-summary-card:first-child .exhibit-image {
+    grid-column: span 2;
+  }
+
+  .featured-exhibits .exhibit-summary-card:first-child .excerpt {
+    grid-column: span 2;
+    padding-top: 0;
+  }
+
+  .featured-exhibits .exhibit-summary-card:nth-child(2) {
+    grid-area: featured-2;
+  }
+
+  .featured-exhibits .exhibit-summary-card:nth-child(3) {
+    grid-area: featured-3;
+  }
+
+  .featured-exhibits .exhibit-summary-card:nth-child(4) {
+    grid-area: featured-4;
+  }
+  /* .featured-exhibits {
     max-width: calc(var(--width-breakpoint-2) * 1.5);
   }
 
   .featured-exhibits-container .exhibit-summary-card:not(:first-child) {
     max-height: 14rem;
-  }
+  } */
 
   .below-the-fold section:nth-child(1) {
     border-right: 1px solid var(--color-gray-300);
@@ -247,13 +327,13 @@
 
 /* x-large screens — 1072px and up */
 @media screen and (min-width: 67em) {
-  .featured-exhibits {
+  /* .featured-exhibits {
     max-width: calc(var(--width-breakpoint-3) * 1.5);
   }
 
   .featured-exhibits-container .exhibit-summary-card:first-child {
     max-height: 28.5rem;
-  }
+  } */
 }
 
 @media screen and (min-width: 131em) {

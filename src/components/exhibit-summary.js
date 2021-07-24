@@ -24,21 +24,20 @@ const ExhibitSummaryCard = ({ title, creator, keyImage, lede, absPath }) => {
   return (
     <div key={slug} id={slug} className="exhibit-summary-card">
       <div className="exhibit-card-meta">
-        <h2>
-          <Link to={url}>{title}</Link>
-        </h2>
+        <Link to={url}>
+          <h2>{title}</h2>
+        </Link>
         <p>{creator}</p>
       </div>
       <div className="exhibit-image">
-        <ExhibitCoverImage imgPath={keyImage} />
+        <Link to={url}>
+          <ExhibitCoverImage imgPath={keyImage} />
+        </Link>
       </div>
       <p
         className="excerpt text-block"
         dangerouslySetInnerHTML={{ __html: excerpt }}
       ></p>
-      <Link className="more-link" to={url}>
-        Read More…
-      </Link>
     </div>
   )
 }

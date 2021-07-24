@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import ExhibitSummaryCard from "./exhibit-summary"
 
 const FeaturedExhibitsProvider = () => {
@@ -68,9 +68,6 @@ const FeaturedExhibitsProvider = () => {
           absPath={cardProps.absPath}
         />
       ))}
-      <Link id="exhibit-link" to="/exhibits/">
-        More Exhibits
-      </Link>
     </div>
   )
 }
