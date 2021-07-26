@@ -31,6 +31,13 @@
   width: 100%;
 }
 
+.label-container svg {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  z-index: 2;
+}
+
 .label-container .label-text {
   display: block;
   padding: 0 var(--spacing-base-content);
@@ -43,6 +50,7 @@
 }
 
 .label-text > p {
+  line-height: 1;
   margin-bottom: 0;
 }
 
@@ -93,18 +101,24 @@
   right: 0%;
 }
 
+#naeb-timeline .label-container {
+  top: 55%;
+}
+
+#content-standards .label-container {
+  top: 0%;
+}
+
 /* medium to large screens — starts at 720px */
 @media screen and (min-width: 45em) {
   .label-text > p:not(:first-child) {
     display: initial;
   }
 
-  #naeb-map .label-text {
-    top: 30%;
-  }
-
-  #naeb-timeline .label-text {
-    bottom: 40%;
+  #naeb-map .label-container {
+    top: 10%;
+    right: 12%;
+    width: 90%;
   }
 
   /* Child page styles */

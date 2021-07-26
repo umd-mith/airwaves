@@ -3,7 +3,9 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 
-import LabelShape from "../svg/uta_visualization_label_shape.svg"
+import TimelineShape from "../svg/timeline_bg_shape.svg"
+import MapShape from "../svg/map_bg_shape.svg"
+import TreeShape from "../svg/tree_bg_shape.svg"
 
 import "./visualizations.css"
 
@@ -30,14 +32,14 @@ const VisualizationsPage = () => {
             <Link to="/visualizations/naeb-timeline/">
               <StaticImage
                 className="viz-screencap"
-                src="../../static/images/visualizations/timeline_screenshot.png"
+                src="../../static/images/visualizations/timeline_screenshot_4_3.png"
                 alt="NAEB Timeline"
                 placeholder="blurred"
                 height={300}
               />
             </Link>
             <div className="label-container">
-              <LabelShape />
+              <TimelineShape />
               <div className="label-text">
                 <p>Interactive Timeline</p>
                 <p>A History of Early Public Broadcasting&nbsp;</p>
@@ -49,14 +51,14 @@ const VisualizationsPage = () => {
             <Link to="/visualizations/naeb-map/">
               <StaticImage
                 className="viz-screencap"
-                src="../../static/images/visualizations/map_screenshot.png"
+                src="../../static/images/visualizations/map_screenshot_4_3.png"
                 alt="Map"
                 placeholder="blurred"
                 width={450}
               />
             </Link>
             <div className="label-container">
-              <LabelShape />
+              <MapShape />
               <div className="label-text">
                 <p>Interactive Map</p>
                 <p>U.S. Organizations in the NAEB</p>
@@ -67,14 +69,14 @@ const VisualizationsPage = () => {
             <Link to="/visualizations/content-standards/">
               <StaticImage
                 className="viz-screencap"
-                src="../../static/images/visualizations/tree_screenshot.png"
+                src="../../static/images/visualizations/tree_screenshot_4_3.png"
                 alt="Tree Diagram"
                 placeholder="blurred"
                 width={450}
               />
             </Link>
             <div className="label-container">
-              <LabelShape />
+              <TreeShape />
               <div className="label-text">
                 <p>Interactive Content Tree</p>
                 <p>Explore content related to educational subject areas</p>
