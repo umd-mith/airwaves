@@ -36,7 +36,6 @@ const ExplorePage = () => (
           className="howto-gif"
           src="/images/explore-search.gif"
           width={400}
-          height={300}
           alt=""
         />
       </section>
