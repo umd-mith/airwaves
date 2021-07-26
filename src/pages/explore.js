@@ -35,7 +35,7 @@ const ExplorePage = () => (
         <img
           className="howto-gif"
           src="/images/explore-search.gif"
-          width={400}
+          width={300}
           alt=""
         />
       </section>
@@ -59,9 +59,9 @@ const ExplorePage = () => (
           Browse Programs
         </Link>
         <img
-          className="howto-gif hidden"
-          src="/images/[FILENAME HERE]"
-          width={400}
+          className="howto-gif"
+          src="/images/explore-programs.gif"
+          width={300}
           alt=""
         />
       </section>
@@ -86,9 +86,9 @@ const ExplorePage = () => (
           Browse Documents
         </Link>{" "}
         <img
-          className="howto-gif hidden"
-          src="/images/[FILENAME HERE]"
-          width={400}
+          className="howto-gif"
+          src="/images/explore-documents.gif"
+          width={300}
           alt=""
         />
       </section>
@@ -124,9 +124,9 @@ const ExplorePage = () => (
           Browse Organizations
         </Link>
         <img
-          className="howto-gif hidden"
-          src="/images/[FILENAME HERE]"
-          width={400}
+          className="howto-gif"
+          src="/images/explore-people.gif"
+          width={300}
           alt=""
         />
       </section>
