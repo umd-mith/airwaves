@@ -35,7 +35,7 @@ const ExplorePage = () => (
           Search the Collections
         </Link>
         <img
-          className="howto-gif"
+          className="howto-gif hidden"
           src="/images/[FILENAME HERE]"
           width={400}
           height={300}
@@ -65,7 +65,7 @@ const ExplorePage = () => (
           Browse Programs
         </Link>
         <img
-          className="howto-gif"
+          className="howto-gif hidden"
           src="/images/[FILENAME HERE]"
           width={400}
           height={300}
@@ -93,7 +93,7 @@ const ExplorePage = () => (
           Browse Documents
         </Link>{" "}
         <img
-          className="howto-gif"
+          className="howto-gif hidden"
           src="/images/[FILENAME HERE]"
           width={400}
           height={300}
@@ -130,7 +130,7 @@ const ExplorePage = () => (
           Browse Organizations
         </Link>
         <img
-          className="howto-gif"
+          className="howto-gif hidden"
           src="/images/[FILENAME HERE]"
           width={400}
           height={300}
