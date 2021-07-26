@@ -25,11 +25,9 @@ const ExplorePage = () => (
           Advanced Search of the whole collection using keywords, names of
           people or organizations, geographic regions, subjects, or time
           periods. The Search page is broadly useful to find a wide variety of
-          materials in the collections, but if you’d prefer a more streamlined
-          approach, you may also browse the collections by either radio programs
-          (by series/episode), or within the series of folders from the
-          Wisconsin Historical Society’s NAEB paper collections. Read below for
-          more on how to explore by radio program or related materials.
+          materials in the collections, but if you’d prefer a more serendipitous
+          approach, you may also browse the collections by either radio programs, documents, people, or organizations. Read below for
+          more on how to explore by browsing.
         </p>
         <Link className="button" to="/search/">
           Search the Collections
@@ -53,13 +51,10 @@ const ExplorePage = () => (
           community events, elections) and with expanding public education.
         </p>
         <p>
-          These broadcasts, mostly stemming from university and public
-          school-run radio stations, provide an in-depth look at the engagements
-          and events of American history, as they were broadcast to and received
-          by the general public in the twentieth century. They cover crucial
-          educational, political, and cultural events as diverse as the national
-          census, atomic energy, American labor, religion, United States
-          history, agricultural engineering, mathematics, and foreign relations.
+          Click the 'Browse Radio Programs' button to see a list of all the program series 
+          in the NAEB collections, sorted and grouped alphabetically by title. 
+          Type in the search box if there is a particular title or keyword 
+          you're looking for.
         </p>
         <Link to="/programs/" className="button">
           Browse Programs
@@ -68,15 +63,14 @@ const ExplorePage = () => (
           className="howto-gif hidden"
           src="/images/[FILENAME HERE]"
           width={400}
-          height={300}
           alt=""
         />
       </section>
       <section>
         <h2>3. Browse Documents</h2>
         <p>
-          Click the link below to browse materials from the NAEB paper
-          collection, housed at the Wisconsin Historical Society on the campus
+          Click the 'Browse Documents' button to browse materials from the NAEB paper
+          collection, housed at the Wisconsin Historical Society (WHS) on the campus
           of the University of Wisconsin-Madison. The NAEB papers mainly cover
           the period from 1950–1970, and include correspondence, scripts,
           reports, promotional materials, speeches of long-time president
@@ -85,9 +79,9 @@ const ExplorePage = () => (
           and other publications. Below you can access a version of the WHS
           ﬁnding aid for the collection, which contains important scope and
           content notes, notes about the collection’s provenance, and most
-          importantly, the Contents List. The Contents, or what is in the boxes
-          and folders themselves, are organized by what are called archival
-          "series.”
+          importantly, the Contents List. Expand the Contents lists to see what 
+          folders and items have been digitized and select 'View Folder' or 
+          'View Item' to view them on our website.
         </p>
         <Link to="/materials/" className="button">
           Browse Documents
@@ -96,7 +90,6 @@ const ExplorePage = () => (
           className="howto-gif hidden"
           src="/images/[FILENAME HERE]"
           width={400}
-          height={300}
           alt=""
         />
       </section>
@@ -106,8 +99,10 @@ const ExplorePage = () => (
           Educational and public broadcasting collections are a window into the
           history of the American experience. These collections are not just
           about unique content, they’re also about unique people and
-          organizations which can act Click the link below to see a full list of
-          the major people and organizations represented in the collections
+          organizations. Click the 'Browse People' or 'Browse Organizations' buttons
+          to see a list of some of the major people and organizations 
+          represented in the collections. Note that this list will be expanding
+          and growing as we move into the next phase of our project.
         </p>
         <p>
           This work will be expanded on and complemented by our ongoing work on
@@ -133,7 +128,6 @@ const ExplorePage = () => (
           className="howto-gif hidden"
           src="/images/[FILENAME HERE]"
           width={400}
-          height={300}
           alt=""
         />
       </section>
