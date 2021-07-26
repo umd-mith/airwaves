@@ -41,17 +41,14 @@ const Programs = ({ data }) => {
               the twentieth century.
             </p>
             <p>
-              The data below is a list of all NERN radio series and individual
-              programs held by the University of Maryland Libraries, and
+              Below is a list of all NERN radio programs held by the University of Maryland Libraries and
               digitized as part of the American Archive of Public Broadcasting
               (AAPB) project. Use the search bar at the top to ﬁnd a speciﬁc
-              series, or use the alphabetical index to jump to a particular
-              letter. When you expand an arrow next to a series you’ll see a
-              list of all individual episodes of that series below it. Programs
-              which were special one-time programs not part of a series are
-              listed under ‘Individual Programs.’ Clicking on an individual
-              episode will launch the program details, including the media ﬁle
-              and transcript, in a new browser tab. If you want to continue
+              series or keyword, or use the alphabetical index to jump to a particular
+              letter. Clicking on a series link will send you to a page with a
+              a list of all the individual episodes of that series. Clicking on an 
+              individual episode will launch a page in a new browse tab, containing 
+              the streaming audio and transcript for that program. If you want to continue
               exploring diﬀerent programs, close the new browser tab and return
               to this page.
             </p>
