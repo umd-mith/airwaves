@@ -138,24 +138,25 @@ class MaterialsPage extends Component {
               materials, speeches of long-time president William G. Harley, ﬁles
               of the Office of Research and Development and of National
               Educational Radio (a division of the NAEB), newsletters and other
-              publications. Below you can access the ﬁnding aid for the
-              collection, which contains important scope and content notes,
-              notes about the collection’s provenance, and most importantly, the
-              Contents List. The Contents, or what is in the boxes and folders
-              themselves, are organized by what are called archival
-              "series,&rdquo; which, according to the Society of American
-              Archivists, are &ldquo;ﬁle units or documents arranged in
-              accordance with a ﬁling system or maintained as a unit because
-              they relate to a particular subject or function, result from the
-              same activity, have a particular form, or because of some other
-              relationship arising out of their creation, receipt, or
-              use.&rdquo;
-            </p>
-            <p>
-              When you expand an arrow next to a folder you’ll see a link to the
-              digitized paper materials. These will launch in a new browser tab.
-              If you want to move on and export a different folder, close the
-              browser tab and return to this page.
+              publications. Below you can access a version of the WHS
+          ﬁnding aid for the collection, which contains important scope and
+          content notes, notes about the collection’s provenance, and most
+          importantly, the Contents List. The Contents, or what is in the boxes and folders
+              themselves, are organized by a number of archival
+              "series.&rdquo Click on each series to expand them and see what 
+          folders and items have been digitized. Select 'View Folder' or 
+          'View Item' to view the documents on our website. </p>
+            
+            <p> Note that we were not able to digitize the entirety of the NAEB paper
+            collection. If you'd like to see all the boxes and folders available at WHS,
+            {" "}
+              <a
+                href="https://digicoll.library.wisc.edu/cgi/f/findaid/findaid-idx?c=wiarchives;view=reslist;subview=standard;didno=uw-whs-us0076af;focusrgn=contentslist;cc=wiarchives;byte=439107084"
+                title="NAEB Finding Aid at the WHS website"
+                rel="noopener noreferrer"
+              >
+                click here
+              </a>{" "} to view the original finding aid on their website.
             </p>
           </section>
           <section className="finding-aid-display">
