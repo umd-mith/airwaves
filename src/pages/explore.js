@@ -35,8 +35,7 @@ const ExplorePage = () => (
           Search the Collections
         </Link>
         <img
-          className="howto-gif hidden"
-          src="/images/[FILENAME HERE]"
+          src="/images/explore-search.gif"
           width={400}
           height={300}
           alt=""
