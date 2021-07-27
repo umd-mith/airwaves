@@ -46,7 +46,9 @@
 
   .page-explore section:not(:first-of-type) img {
     order: 4;
-    width: 100%;
+    margin: 0 auto;
+    padding-top: var(--spacing-base-content);
+    width: 95%;
   }
 }
 
