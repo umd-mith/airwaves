@@ -113,5 +113,11 @@ module.exports = {
         precachePages: ["/", "/about/", "/explore/", "/search/", "/exhibits/"],
       },
     },
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `unlockingtheairwaves.org`,
+      },
+    },
   ],
 }
