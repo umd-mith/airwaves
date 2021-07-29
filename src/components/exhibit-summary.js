@@ -34,10 +34,10 @@ const ExhibitSummaryCard = ({ title, creator, keyImage, lede, absPath }) => {
           <ExhibitCoverImage imgPath={keyImage} />
         </Link>
       </div>
-      <p
+      <div
         className="excerpt text-block"
         dangerouslySetInnerHTML={{ __html: excerpt }}
-      ></p>
+      ></div>
     </div>
   )
 }
