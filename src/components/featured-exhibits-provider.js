@@ -1,6 +1,9 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import ExhibitSummaryCard from "./exhibit-summary"
+import remark from "remark"
+import remarkHtml from "remark-html"
+import recommended from "remark-preset-lint-recommended"
 
 const FeaturedExhibitsProvider = () => {
   const exhibitsData = useStaticQuery(graphql`
@@ -23,6 +26,10 @@ const FeaturedExhibitsProvider = () => {
     }
   `)
 
+  const convertMarkdown = remark()
+    .use(recommended)
+    .use(remarkHtml).processSync
+
   const filterExhibits = data => {
     const allExhibits = data.allMarkdownRemark.nodes
     const featuredTitles = data.dataJson.featured_by_title
@@ -39,7 +46,7 @@ const FeaturedExhibitsProvider = () => {
       absPath: exhibitObj.fileAbsolutePath,
       title: exhibitObj.frontmatter.title,
       creator: exhibitObj.frontmatter.creator,
-      lede: exhibitObj.frontmatter.lede,
+      lede: convertMarkdown(exhibitObj.frontmatter.lede),
       keyImage: keyImagePath,
       id: exhibitObj.id,
     }
