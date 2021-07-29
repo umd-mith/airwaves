@@ -33,14 +33,8 @@ const FeaturedExhibitsProvider = () => {
   }
 
   const reshapeExhibitData = exhibitObj => {
-    // let allImages = exhibitObj.frontmatter.visuals
     let keyImagePath = exhibitObj.frontmatter.key_image
-    // if (allImages && allImages.length > 0) {
-    //   keyImage = {
-    //     image: allImages[0].image,
-    //     title: allImages[0].title,
-    //   }
-    // }
+
     return {
       absPath: exhibitObj.fileAbsolutePath,
       title: exhibitObj.frontmatter.title,

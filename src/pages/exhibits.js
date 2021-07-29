@@ -1,10 +1,17 @@
 import path from "path"
 import React from "react"
 import { graphql, Link } from "gatsby"
+import remark from "remark"
+import remarkHtml from "remark-html"
+import recommended from "remark-preset-lint-recommended"
 
 import Layout from "../components/layout"
 import ExhibitSummaryCard from "../components/exhibit-summary"
 import "./exhibits.css"
+
+const convertMarkdown = remark()
+  .use(recommended)
+  .use(remarkHtml).processSync
 
 const ExhibitsPage = ({ data }) => {
   const exhibits = data.allMarkdownRemark.nodes
@@ -38,7 +45,7 @@ const ExhibitsPage = ({ data }) => {
               creator={e.frontmatter.creator || ""}
               keyImage={e.frontmatter.key_image}
               absPath={e.fileAbsolutePath}
-              lede={e.frontmatter.lede}
+              lede={convertMarkdown(e.frontmatter.lede)}
             />
           ))}
         </section>
