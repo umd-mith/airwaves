@@ -42,8 +42,9 @@ async function scrapeWikipedia(people) {
   for (const person of people) {
     if (person.wikidata && person.wikidata.wikipediaUrl) {
 
-      // if the person id is already in the wikipedia data we have skip it
-      if (data.find(p => p.id == person.id)) {
+      // if the person id is already in the wikipedia data we can skip it
+      if (data.find(p => p.personId == person.id)) {
+        console.log(`already have wikipedia info for ${person.id}`)
         continue
       }
 
