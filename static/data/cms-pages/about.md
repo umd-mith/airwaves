@@ -61,7 +61,7 @@ Yet if the NAEB is today forgotten as an organization, the legacy of its initiat
 
 The NAEB made history—and preserved its own history, too. Newly digitized and reunited, the NAEB’s collection of recordings, publications, and manuscripts provide essential sources for the study of American broadcasting, society, and culture.
 
-## Technological Infrastructure
+## Technical Infrastructure
 
 Unlocking the Airwaves employs a [minimal computing](https://go-dh.github.io/mincomp/about/) application design, which combines static site generation, client-side web framework and indexing technologies to reduce  long-term maintenance costs. The application uses [Airtable](https://airtable.com) for distributed data curation, and the [Internet Archive](https://archive.org) as a data publishing platform. These approaches allow us to examine facets of digital collection building and maintenance that have been explored with “standard” online platforms and software, but which have not been investigated in minimal computing environments.
 
