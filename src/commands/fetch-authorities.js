@@ -6,7 +6,7 @@ async function main() {
   const snac = await fetch("SNAC Records", snacMap)
   writeJson(snac, "snac.json")
 
-  const wikidata = await fetch("Wikidata Records", wikidataMap)
+  const wikidata = await fetch("CPF Pages", wikidataMap)
   writeJson(wikidata, "wikidata.json")
 
   const people = await fetch("CPF Authorities", peopleMap)
@@ -151,23 +151,14 @@ const wikidataMap = {
     "place of birth (P19)": "birthPlace",
     "place of death (P20)": "deathPlace",
     "inception (P571)": "inceptionDate",
-    "coordinate location": "geo",
-    "Settlement": "settlement",
-    "State Check": "state",
-    "SNAC Ark ID": "snacArk"
   },
   lists: {
     "Wikidata altLabels": "altNames",
-    "instance of": "instanceOf",
-    "licensed to broadcast to (P1408)": "broadcastTo",
-    "located in the administrative territorial entity (P131)": "locatedIn",
     "country (P17)": "country",
     "occupation (P106)": "occupation",
     "field of work (P101)": "fieldOfWork",
     "employer (P108)": "employer",
     "member of (P463)": "memberOf",
-    "LOC ID (P244)": "lccn",
-    "VIAF ID (P214)": "viaf",
     "owned by (P127)": "ownedBy",
     "official website (P856)": "website"
   }
