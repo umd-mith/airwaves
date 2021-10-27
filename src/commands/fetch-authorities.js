@@ -3,6 +3,11 @@ const { fetch, makeIdExpander, writeJson } = require("./mapper")
 
 async function main() {
 
+  const subjects = await fetch("Subjects", subjectsMap)
+  // strip trailing periods from subjects if they are present
+  subjects.map(s => (s.name = s.name.replace(/\.$/, "")))
+  writeJson(subjects, "subjects.json")
+
   const snac = await fetch("SNAC Records", snacMap)
   writeJson(snac, "snac.json")
 
@@ -11,11 +16,6 @@ async function main() {
 
   const people = await fetch("CPF Authorities", peopleMap)
   writeJson(people, "people.json")
-
-  const subjects = await fetch("Subjects", subjectsMap)
-  // strip trailing periods from subjects if they are present
-  subjects.map(s => (s.name = s.name.replace(/\.$/, "")))
-  writeJson(subjects, "subjects.json")
 
   const places = (await fetch("Geographic Authorities", placesMap)).filter(p => p.type)
   writeJson(places, "places.json")
@@ -133,24 +133,26 @@ const snacMap = {
   lists: {
     "Alternate Names": "altNames",
     "Subject(s)": "subjects",
-    "Places": "places",
+    "Associated Places": "places",
     "Occupation(s)": "occupations",
     "Relations (Associated With)": "associatedWith",
     "Relations (Same As)": "sameAs"
-  }
-}
+  },
+ }
 
 const wikidataMap = {
   strings: {
     "Wikidata ID": "wikidataId",
     "Wikidata label": "name",
-    "Wikidata label description": "description",
+    "Wikidata label description": "wikidataLabelDescription",
     "Wikipedia URL": "wikipediaUrl",
     "date of birth (P569)": "birthDate",
     "date of death (P570)": "deathDate",
     "place of birth (P19)": "birthPlace",
     "place of death (P20)": "deathPlace",
     "inception (P571)": "inceptionDate",
+    "Description": "description",
+    "Airwaves image path": "image"
   },
   lists: {
     "Wikidata altLabels": "altNames",
@@ -160,7 +162,24 @@ const wikidataMap = {
     "employer (P108)": "employer",
     "member of (P463)": "memberOf",
     "owned by (P127)": "ownedBy",
-    "official website (P856)": "website"
+    "official website (P856)": "website",
+    "LOC URLs": "locUrls",
+    "VIAF URLs": "viafUrls",
+    "Worldcat URLS": "worldcatUrls",
+    "NARA URLs": "naraUrls",
+    "SNAC Ark URLs": "snacUrls",
+    "Associated Places": "places"
+  },
+  things: {
+    "Associated Subject(s)": {
+      property: "subjects",
+      expander: makeIdExpander("subjects.json", s => {
+        return {
+          id: s.id,
+          title: s.name,
+        }
+      }),
+    }
   }
 }
 
