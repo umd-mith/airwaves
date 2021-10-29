@@ -18,21 +18,20 @@ const CPF = ({ data }) => {
 
   let abstract = ""
 
-  if (data.wikipediaJson) {
-    if (data.wikipediaJson.image) {
-      const img = getImage(data.wikipediaJson.image)
-      image = <GatsbyImage image={img} alt={cpf.name} />
-    }
-    if (data.wikipediaJson.abstract) {
-      abstract = (
-        <p>
-          {data.wikipediaJson.abstract}
-          <em>
-            Read more at <a href={cpf.wikidata.wikipediaUrl}>Wikipedia</a>...
-          </em>
-        </p>
-      )
-    }
+  if (cpf.wikidata.image) {
+    const img = getImage(cpf.wikidata.image)
+    image = <GatsbyImage image={img} alt={cpf.name} />
+  }
+
+  if (cpf.wikidata.description) {
+    abstract = (
+      <p>
+        {cpf.wikidata.description}
+        <em>
+          Read more at <a href={cpf.wikidata.wikipediaUrl}>Wikipedia</a>...
+        </em>
+      </p>
+    )
   }
 
   let birth = null
@@ -57,9 +56,6 @@ const CPF = ({ data }) => {
   if (cpf.wikidata.inception) {
     const t = new Date(cpf.wikidata.inception)
     inception = `${t.getUTCFullYear()}`
-    if (cpf.wikidata.settlement) {
-      inception += `, ${cpf.wikidata.settlement}`
-    }
   }
 
   const relatedDocuments = DocumentList(
@@ -110,7 +106,6 @@ const CPF = ({ data }) => {
                   value={cpf.wikidata.fieldOfWork}
                 />
                 <Field label="Employer(s)" value={cpf.wikidata.employer} />
-                <Field label="Located in" value={cpf.wikidata.locatedIn} />
                 <Field label="Broadcast to" value={cpf.wikidata.broadastTo} />
                 <Field label="Member of" value={cpf.wikidata.memberOf} />
                 <Field label="Owned by" value={cpf.wikidata.ownedBy} />
@@ -249,7 +244,7 @@ export const query = graphql`
         deathDate
         description
         occupations
-        places
+        placeNames
         sameAs
         snacId
         subjects
@@ -259,37 +254,26 @@ export const query = graphql`
         altNames
         birthDate
         birthPlace
-        broadcastTo
-        country
         deathDate
         description
         deathPlace
         employer
-        geo
         fieldOfWork
         inceptionDate
-        instanceOf
         lccn
-        locatedIn
         name
         memberOf
         occupation
         ownedBy
-        settlement
-        state
         snacArk
         viaf
         website
         wikidataId
         wikipediaUrl
-      }
-    }
-    wikipediaJson(personId: { eq: $id }) {
-      personId
-      abstract
-      image {
-        childImageSharp {
-          gatsbyImageData(width: 300)
+        image {
+          childImageSharp {
+            gatsbyImageData(width: 300)
+          }
         }
       }
     }

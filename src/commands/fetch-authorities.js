@@ -28,6 +28,7 @@ async function main() {
 
   const themes = flattenThemes(await fetch("Themes", themesMap))
   writeJson(themes, "themes.json")
+
 }
 
 const seriesMap = {
@@ -65,7 +66,7 @@ const peopleMap = {
     "Entity Type": "type"
   },
   things: {
-    "Wikidata QCode": {
+    "CPF Pages Wikidata QCode": {
       property: "wikidata",
       expander: makeIdExpander("wikidata.json", d => d, allowMultiple=false)
     },
@@ -133,7 +134,7 @@ const snacMap = {
   lists: {
     "Alternate Names": "altNames",
     "Subject(s)": "subjects",
-    "Associated Places": "places",
+    "Places": "placeNames",
     "Occupation(s)": "occupations",
     "Relations (Associated With)": "associatedWith",
     "Relations (Same As)": "sameAs"
@@ -163,12 +164,12 @@ const wikidataMap = {
     "member of (P463)": "memberOf",
     "owned by (P127)": "ownedBy",
     "official website (P856)": "website",
-    "LOC URLs": "locUrls",
-    "VIAF URLs": "viafUrls",
-    "Worldcat URLS": "worldcatUrls",
-    "NARA URLs": "naraUrls",
-    "SNAC Ark URLs": "snacUrls",
-    "Associated Places": "places"
+    "LOC URLs": "lccn",
+    "VIAF URLs": "viaf",
+    "Worldcat URLS": "worldcat",
+    "NARA URLs": "nara",
+    "SNAC Ark URLs": "snacArk",
+    "Associated Places": "placeNames"
   },
   things: {
     "Associated Subject(s)": {
@@ -179,7 +180,7 @@ const wikidataMap = {
           title: s.name,
         }
       }),
-    }
+    },
   }
 }
 
