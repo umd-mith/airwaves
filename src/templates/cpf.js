@@ -53,8 +53,8 @@ const CPF = ({ data }) => {
   }
 
   let inception = null
-  if (cpf.wikidata.inception) {
-    const t = new Date(cpf.wikidata.inception)
+  if (cpf.wikidata.inceptionDate) {
+    const t = new Date(cpf.wikidata.inceptionDate)
     inception = `${t.getUTCFullYear()}`
   }
 
@@ -110,6 +110,12 @@ const CPF = ({ data }) => {
                 <Field label="Member of" value={cpf.wikidata.memberOf} />
                 <Field label="Owned by" value={cpf.wikidata.ownedBy} />
                 <Field label="Website" value={cpf.wikidata.website} />
+              </p>
+              <p>
+                <OptionalLink text="Social Networks and Archival Context (SNAC) Record" url={cpf.wikidata.snacArk} />
+                <OptionalLink text="Library of Congress Name Authority File (LCNAF)" url={cpf.wikidata.lccn} />
+                <OptionalLink text="Virtual International Authority File (VIAF)" url={cpf.wikidata.viaf} />
+                <OptionalLink text="WorldCat Record" url={cpf.wikidata.worldcat} />
               </p>
               <div>
                 {relatedEpisodes}
@@ -222,6 +228,14 @@ const EpisodeList = (cpfId, episodes) => {
       })}
     </div>
   )
+}
+
+const OptionalLink = ({text, url}) => {
+  if (url) {
+    return <><a href={url}>{text}</a><br /></>
+  } else {
+    return ''
+  } 
 }
 
 function joinLists(a, b) {
