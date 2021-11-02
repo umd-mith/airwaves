@@ -11,11 +11,11 @@ async function main() {
   const snac = await fetch("SNAC Records", snacMap)
   writeJson(snac, "snac.json")
 
-  const wikidata = await fetch("CPF Pages", wikidataMap)
-  writeJson(wikidata, "wikidata.json")
+  const cpfPages = await fetch("CPF Pages", cpfPagesMap)
+  writeJson(cpfPages, "cpf-pages.json")
 
-  const people = await fetch("CPF Authorities", peopleMap)
-  writeJson(people, "people.json")
+  const cpf = await fetch("CPF Authorities", cpfMap)
+  writeJson(cpf, "cpf.json")
 
   const places = (await fetch("Geographic Authorities", placesMap)).filter(p => p.type)
   writeJson(places, "places.json")
@@ -59,7 +59,7 @@ const seriesMap = {
   }
 }
 
-const peopleMap = {
+const cpfMap = {
   slugId: "Name",
   strings: {
     Name: "name",
@@ -67,8 +67,8 @@ const peopleMap = {
   },
   things: {
     "CPF Pages Wikidata QCode": {
-      property: "wikidata",
-      expander: makeIdExpander("wikidata.json", d => d, allowMultiple=false)
+      property: "cpfPage",
+      expander: makeIdExpander("cpf-pages.json", d => d, allowMultiple=false)
     },
     "SNAC ID": {
       property: "snac",
@@ -141,7 +141,7 @@ const snacMap = {
   },
  }
 
-const wikidataMap = {
+const cpfPagesMap = {
   strings: {
     "Wikidata ID": "wikidataId",
     "Wikidata label": "name",
@@ -166,7 +166,7 @@ const wikidataMap = {
     "official website (P856)": "website",
     "LOC URLs": "lccn",
     "VIAF URLs": "viaf",
-    "Worldcat URLS": "worldcat",
+    "WorldCat URLs": "worldcat",
     "NARA URLs": "nara",
     "SNAC Ark URLs": "snacArk",
     "Associated Places": "placeNames"

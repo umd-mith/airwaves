@@ -6,7 +6,7 @@ import "./cpf.css"
 import Layout from "../components/layout"
 
 const CPF = ({ data }) => {
-  const cpf = data.peopleJson
+  const cpf = data.cpfJson
 
   let image = (
     <StaticImage
@@ -18,43 +18,43 @@ const CPF = ({ data }) => {
 
   let abstract = ""
 
-  if (cpf.wikidata.image) {
-    const img = getImage(cpf.wikidata.image)
+  if (cpf.cpfPage.image) {
+    const img = getImage(cpf.cpfPage.image)
     image = <GatsbyImage image={img} alt={cpf.name} />
   }
 
-  if (cpf.wikidata.description) {
+  if (cpf.cpfPage.description) {
     abstract = (
       <p>
-        {cpf.wikidata.description}
+        {cpf.cpfPage.description}
         <em>
-          Read more at <a href={cpf.wikidata.wikipediaUrl}>Wikipedia</a>...
+          Read more at <a href={cpf.cpfPage.wikipediaUrl}>Wikipedia</a>...
         </em>
       </p>
     )
   }
 
   let birth = null
-  if (cpf.wikidata.birthDate) {
-    const t = new Date(cpf.wikidata.birthDate)
+  if (cpf.cpfPage.birthDate) {
+    const t = new Date(cpf.cpfPage.birthDate)
     birth = `${t.getUTCFullYear()}`
-    if (cpf.wikidata.birthPlace) {
-      birth += `, ${cpf.wikidata.birthPlace}`
+    if (cpf.cpfPage.birthPlace) {
+      birth += `, ${cpf.cpfPage.birthPlace}`
     }
   }
 
   let death = null
-  if (cpf.wikidata.deathDate) {
-    const t = new Date(cpf.wikidata.deathDate)
+  if (cpf.cpfPage.deathDate) {
+    const t = new Date(cpf.cpfPage.deathDate)
     death = `${t.getUTCFullYear()}`
-    if (cpf.wikidata.deathPlace) {
-      death += `, ${cpf.wikidata.deathPlace}`
+    if (cpf.cpfPage.deathPlace) {
+      death += `, ${cpf.cpfPage.deathPlace}`
     }
   }
 
   let inception = null
-  if (cpf.wikidata.inceptionDate) {
-    const t = new Date(cpf.wikidata.inceptionDate)
+  if (cpf.cpfPage.inceptionDate) {
+    const t = new Date(cpf.cpfPage.inceptionDate)
     inception = `${t.getUTCFullYear()}`
   }
 
@@ -87,7 +87,7 @@ const CPF = ({ data }) => {
           <div className="cpf">
             <div className="image">{image}</div>
             <div className="bio">
-              <h2>{cpf.wikidata.name}</h2>
+              <h2>{cpf.cpfPage.name}</h2>
               {abstract}
               <p>
                 <Field label="Born" value={birth} />
@@ -95,27 +95,29 @@ const CPF = ({ data }) => {
                 <Field label="Inception" value={inception} />
               </p>
               <p>
-                <Field label="Alternate Names" value={cpf.wikidata.altNames} />
-                <Field label="Occupation(s)" value={cpf.wikidata.occupation} />
+                <Field label="Alternate Names" value={cpf.cpfPage.altNames} />
+                <Field label="Occupation(s)" value={cpf.cpfPage.occupation} />
                 <Field
                   label="Field(s) of Work"
-                  value={cpf.wikidata.occuptation}
+                  value={cpf.cpfPage.occuptation}
                 />
                 <Field
                   label="Field(s) of Work"
-                  value={cpf.wikidata.fieldOfWork}
+                  value={cpf.cpfPage.fieldOfWork}
                 />
-                <Field label="Employer(s)" value={cpf.wikidata.employer} />
-                <Field label="Broadcast to" value={cpf.wikidata.broadastTo} />
-                <Field label="Member of" value={cpf.wikidata.memberOf} />
-                <Field label="Owned by" value={cpf.wikidata.ownedBy} />
-                <Field label="Website" value={cpf.wikidata.website} />
+                <Field label="Employer(s)" value={cpf.cpfPage.employer} />
+                <Field label="Broadcast to" value={cpf.cpfPage.broadastTo} />
+                <Field label="Member of" value={cpf.cpfPage.memberOf} />
+                <Field label="Owned by" value={cpf.cpfPage.ownedBy} />
+                <Field label="Website" value={cpf.cpfPage.website} />
+                <Field label="Associated Place(s)" value={cpf.cpfPage.placeNames} />
+                <SubjectField subjects={cpf.cpfPage.subjects} />
               </p>
               <p>
-                <OptionalLink text="Social Networks and Archival Context (SNAC) Record" url={cpf.wikidata.snacArk} />
-                <OptionalLink text="Library of Congress Name Authority File (LCNAF)" url={cpf.wikidata.lccn} />
-                <OptionalLink text="Virtual International Authority File (VIAF)" url={cpf.wikidata.viaf} />
-                <OptionalLink text="WorldCat Record" url={cpf.wikidata.worldcat} />
+                <OptionalLink text="Social Networks and Archival Context (SNAC) Record" url={cpf.cpfPage.snacArk} />
+                <OptionalLink text="Library of Congress Name Authority File (LCNAF)" url={cpf.cpfPage.lccn} />
+                <OptionalLink text="Virtual International Authority File (VIAF)" url={cpf.cpfPage.viaf} />
+                <OptionalLink text="WorldCat Record" url={cpf.cpfPage.worldcat} />
               </p>
               <div>
                 {relatedEpisodes}
@@ -156,6 +158,24 @@ const Field = ({ label, value }) => {
       <span className="label">{label}</span>: {value.join(", ")} <br />
     </>
   )
+}
+
+const SubjectField = ({subjects}) => {
+  if (subjects) {
+    return(
+      <>
+        <span className="label">Associated Subject(s)</span>: &nbsp;
+        {subjects.map((s, i) => ( 
+          <span key={`subject-${s.title}`}>
+            {i > 0 && ", "}
+            <Link to={`/search/?f=subject:${s.title}`}>{s.title}</Link>
+          </span>
+        ))}
+      </> 
+    )
+  } else {
+    return ''
+  } 
 }
 
 const DocumentList = docs => {
@@ -246,7 +266,7 @@ function joinLists(a, b) {
 
 export const query = graphql`
   query($id: String!) {
-    peopleJson(id: { eq: $id }) {
+    cpfJson(id: { eq: $id }) {
       id
       name
       type
@@ -263,7 +283,7 @@ export const query = graphql`
         snacId
         subjects
       }
-      wikidata {
+      cpfPage {
         airtableId
         altNames
         birthDate
@@ -279,11 +299,17 @@ export const query = graphql`
         memberOf
         occupation
         ownedBy
+        placeNames
+        subjects {
+          id
+          title 
+        }
         snacArk
         viaf
         website
         wikidataId
         wikipediaUrl
+        worldcat
         image {
           childImageSharp {
             gatsbyImageData(width: 300)

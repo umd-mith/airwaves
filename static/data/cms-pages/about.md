@@ -79,12 +79,11 @@ The Unlocking the Airwaves website includes a rudimentary API in the form of a s
 
 * [documents.json](/data/documents.json): folder and item level metadata for digitized archival holdings
 * [episodes.json](/data/episodes.json): metadata about specific program episodes
-* [people.json](/data/people.json): authority data for people and corporate bodies.
+* [cpf.json](/data/cpf.json): authority data for people and corporate bodies.
 * [places.json](/data/places.json): authority data for places
 * [series.json](/data/series.json): information about program series 
 * [subjects.json](/data/subjects.json): authority data for subjects
-* [wikidata.json](/data/wikidata.json): selected information from Wikidata for authorities.
-* [wikipedia.json](/data/wikipedia.json): selected information from Wikipedia for authorities.
+* [cpf-pages.json](/data/cpf-pages.json): selected information from Wikidata for authorities.
 
 The IIIF manifests for objects in *documents.json* can be obtained by using the object's *iaId* property (Internet Archive ID) to construct the following URL: 
 
