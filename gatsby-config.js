@@ -11,7 +11,7 @@ module.exports = {
     description:
       "An online collection of early educational public radio content from the National Association of Educational Broadcasters (NAEB).",
     author: `Maryland Institute for Technology in the Humanities`,
-    siteUrl: `https://mith.umd.edu/airwaves/`,
+    siteUrl: `https://www.unlockingtheairwaves.org`,
     twitter: `https://twitter.com/umd_mith`,
     siteNav: [
       {
