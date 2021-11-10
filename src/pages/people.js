@@ -9,7 +9,7 @@ const People = ({ data }) => {
 
   const items = people.map(p => ({
     name: p.name,
-    description: p.cpfPage.description,
+    description: p.cpfPage.wikidataLabelDescription,
     url: `/people/${p.cpfPage.wikidataId}/`
   }))
 
@@ -46,7 +46,7 @@ export const query = graphql`
         name
         cpfPage {
           name
-          description
+          wikidataLabelDescription
           wikidataId
         }
       }

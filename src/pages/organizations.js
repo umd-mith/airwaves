@@ -8,7 +8,7 @@ const Organizations = ({ data }) => {
   const orgs = data.allCpfJson.nodes
   const items = orgs.map(o => ({
     name: o.name,
-    description: o.cpfPage.description,
+    description: o.cpfPage.wikidataLabelDescription,
     url: `/organizations/${o.cpfPage.wikidataId}/`
   }))
 
@@ -48,8 +48,8 @@ export const query = graphql`
         name
         cpfPage {
           name
-          description
           wikidataId
+          wikidataLabelDescription
         }
       }
     }

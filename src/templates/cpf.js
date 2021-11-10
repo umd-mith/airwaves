@@ -24,12 +24,11 @@ const CPF = ({ data }) => {
   }
 
   if (cpf.cpfPage.description) {
+    const readMore = cpf.cpfPage.wikipediaUrl ?  <em>Read more at <a href={cpf.cpfPage.wikipediaUrl}>Wikipedia</a>...</em> : ''
     abstract = (
       <p>
         {cpf.cpfPage.description}
-        <em>
-          Read more at <a href={cpf.cpfPage.wikipediaUrl}>Wikipedia</a>...
-        </em>
+        {readMore}
       </p>
     )
   }
@@ -107,7 +106,6 @@ const CPF = ({ data }) => {
                 />
                 <Field label="Employer(s)" value={cpf.cpfPage.employer} />
                 <Field label="Broadcast to" value={cpf.cpfPage.broadastTo} />
-                <Field label="Member of" value={cpf.cpfPage.memberOf} />
                 <Field label="Owned by" value={cpf.cpfPage.ownedBy} />
                 <Field label="Website" value={cpf.cpfPage.website} />
                 <Field label="Associated Place(s)" value={cpf.cpfPage.placeNames} />
@@ -118,6 +116,7 @@ const CPF = ({ data }) => {
                 <OptionalLink text="Library of Congress Name Authority File (LCNAF)" url={cpf.cpfPage.lccn} />
                 <OptionalLink text="Virtual International Authority File (VIAF)" url={cpf.cpfPage.viaf} />
                 <OptionalLink text="WorldCat Record" url={cpf.cpfPage.worldcat} />
+                <OptionalLink text="National Archives and Records Administration (NARA)" url={cpf.cpfPage.nara} />
               </p>
               <div>
                 {relatedEpisodes}
@@ -149,6 +148,7 @@ const Field = ({ label, value }) => {
             <Link to={v}>{v}</Link>&nbsp;
           </span>
         ))}
+        <br />
       </>
     )
   }
@@ -251,7 +251,15 @@ const EpisodeList = (cpfId, episodes) => {
 }
 
 const OptionalLink = ({text, url}) => {
-  if (url) {
+  if (Array.isArray(url) && url.length > 1) {
+    return (
+      <>
+        {url.map((u, i) => (
+          <div key={`url-${u}`}><a href={u}>{text} {i + 1}</a></div>
+        ))}
+      </>
+    )
+  } else if (url) {
     return <><a href={url}>{text}</a><br /></>
   } else {
     return ''
@@ -296,6 +304,7 @@ export const query = graphql`
         inceptionDate
         lccn
         name
+        nara
         memberOf
         occupation
         ownedBy
