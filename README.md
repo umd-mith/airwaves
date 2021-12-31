@@ -4,20 +4,19 @@ This repository contains a web application that was developed as part of the
 [Unlocking the Airwaves] project with support from the National Endowment for
 the Humanities. You can find the production deployment of this website at:
 
-https://mith.umd.edu/airwaves/
+https://unlockingtheairwaves.org
 
 *airwaves* is built using [Gatsby] which is a *static* website generator
-written in [NodeJS]. Even though the website is deployed as a set of static
-files to MITH's webserver, it relies on several other services during its
-*build* and *runtime*. The *build* is a process that happens once when the site
-is deployed, and the *runtime* is the process run by your browser when you
-access the website. These services include:
+written in [NodeJS]. Even though the website is static, it relies on several
+other services during its *build* and *runtime*. The *build* is a process that
+happens once when the site is deployed, and the *runtime* is the process run by
+your browser when you access the website. These services include:
 
 * [GitHub]: probably the site you are looking at now in your browser, and where the source code for the website is stored and versioned (*build*)
 * [Airtable]: a web accessible database where the audio and document metadata are curated. (*build*)
 * [Internet Archive]: document digitization processes [upload] page scans to the Internet Archive which are made available through their [IIIF Service]. (*build* + *runtime*)
 * [Amazon S3]: MP3 audio files and WebVTT transcripts of radio episodes are stored in an Amazon S3 bucket. (*runtime*)
-* [Netlify]: provides a service that watches the airwaves GitHub repository and automatically builds a [staging site] distinct from our production site, which is used for development and testing. (*build*)
+* [Netlify]: provides a service that watches the airwaves GitHub repository and automatically builds a [staging site] and [production site].
 
 Static websites have significant benefits in terms of sustainability since they
 require very little in terms of maintenance and monitoring. But this
@@ -177,36 +176,17 @@ after a few minutes you should see your changes reflected at the staging site: u
 
 ## 8. Deploy to Production
 
-The website is currently published on the MITH website at
-https://mith.umd.edu/airwaves In order to publish there your SSH pubkey
-(which you created above) needs to be added to the
-`/home/ubuntu/.ssh/authorized_keys` file on wordpress.mith.us server. Email
-your public key to edsu@umd.edu and he will do that for you if you don't have permission to do it yourself.
+In order to deploy a new version of the [production site] you will need to to create a new *tagged release* and then *push* your new tag to GitHub. Once pushed, Netlify will notice the new tag, and will automatically build and deploy the new website for you. You can log in to [Netlify] to watch the build and deploy progress. The tag version numbers follow the [semver] naming conventions. For example:
 
-Once your key is set up you will want to ensure you have the latest code on
-GitHub:
-
-    git pull 
-
-And then you can publish to mith.umd.edu:
-
-    npm run publish
-
-This command will build the site and then use the rsync command to push the new
-files up to the MITH webserver. You may need to wait for the Varnish cache to
-expire for your changes to become available.
+    git tag v0.7.0
+    git push --tags
 
 ## 9. Exhibit Creation with Netlify
 
 Finally there are administration forms available on the staging site that
 allow for the creation of exhibits. You can find these at
 https://unlocking.netlify.app/admin/ In order to use these forms you will
-need to be added to MITH's Netlify account. Please email edsu@umd.edu to
-request access.
-
-When exhibits are saved here they should be viewable on the staging site at
-airwaves.netlify.app once the build has completed. In order to publish these
-changes to the 
+need to be added to MITH's Netlify account. When new exhibits are saved they should be viewable on the [staging site] once the build has completed.
 
 ## 10. Updating this Documentation
 
@@ -229,6 +209,7 @@ GitHub.
 [upload]: https://github.com/umd-mith/airwaves-cli/
 [IIIF Service]: https://iiif.archivelab.org/iiif/documentation
 [staging site]: https://unlocking.netlify.app
+[production site]: https://unlockingtheairwaves.org
 [WSL 2.0]: https://docs.microsoft.com/en-us/windows/wsl/install-win10  
 [GitHub]: https://github.com/umd-mith/airwaves
 [Airtable]: https://airtable.com/
@@ -240,3 +221,4 @@ GitHub.
 [unlocking.netlify.app]: https://unlocking.netlify.app
 [README.md]: https://github.com/umd-mith/airwaves/blob/main/README.md
 [issue tracker]: https://github.com/umd-mith/airwaves/issues
+[semver]: https://semver.org/
