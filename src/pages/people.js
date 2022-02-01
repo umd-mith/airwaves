@@ -5,12 +5,12 @@ import Layout from "../components/layout"
 import Registry from "../components/registry"
 
 const People = ({ data }) => {
-  const people = data.allPeopleJson.nodes
+  const people = data.allCpfJson.nodes
 
   const items = people.map(p => ({
     name: p.name,
-    description: p.wikidata.description,
-    url: `/people/${p.wikidata.wikidataId}/`
+    description: p.cpfPage.wikidataLabelDescription,
+    url: `/people/${p.cpfPage.wikidataId}/`
   }))
 
   return (
@@ -37,16 +37,16 @@ const People = ({ data }) => {
 
 export const query = graphql`
   {
-    allPeopleJson(
-      filter: { wikidata: { wikidataId: { ne: null } }, type: { eq: "Person" } }
+    allCpfJson(
+      filter: { cpfPage: { wikidataId: { ne: null } }, type: { eq: "Person" } }
       sort: { fields: name }
     ) {
       nodes {
         airtableId
         name
-        wikidata {
+        cpfPage {
           name
-          description
+          wikidataLabelDescription
           wikidataId
         }
       }

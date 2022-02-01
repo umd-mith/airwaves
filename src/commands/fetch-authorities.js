@@ -3,19 +3,19 @@ const { fetch, makeIdExpander, writeJson } = require("./mapper")
 
 async function main() {
 
-  const snac = await fetch("SNAC Records", snacMap)
-  writeJson(snac, "snac.json")
-
-  const wikidata = await fetch("Wikidata Records", wikidataMap)
-  writeJson(wikidata, "wikidata.json")
-
-  const people = await fetch("CPF Authorities", peopleMap)
-  writeJson(people, "people.json")
-
   const subjects = await fetch("Subjects", subjectsMap)
   // strip trailing periods from subjects if they are present
   subjects.map(s => (s.name = s.name.replace(/\.$/, "")))
   writeJson(subjects, "subjects.json")
+
+  const snac = await fetch("SNAC Records", snacMap)
+  writeJson(snac, "snac.json")
+
+  const cpfPages = await fetch("CPF Pages", cpfPagesMap)
+  writeJson(cpfPages, "cpf-pages.json")
+
+  const cpf = await fetch("CPF Authorities", cpfMap)
+  writeJson(cpf, "cpf.json")
 
   const places = (await fetch("Geographic Authorities", placesMap)).filter(p => p.type)
   writeJson(places, "places.json")
@@ -28,6 +28,7 @@ async function main() {
 
   const themes = flattenThemes(await fetch("Themes", themesMap))
   writeJson(themes, "themes.json")
+
 }
 
 const seriesMap = {
@@ -58,16 +59,16 @@ const seriesMap = {
   }
 }
 
-const peopleMap = {
+const cpfMap = {
   slugId: "Name",
   strings: {
     Name: "name",
     "Entity Type": "type"
   },
   things: {
-    "Wikidata QCode": {
-      property: "wikidata",
-      expander: makeIdExpander("wikidata.json", d => d, allowMultiple=false)
+    "CPF Pages Wikidata QCode": {
+      property: "cpfPage",
+      expander: makeIdExpander("cpf-pages.json", d => d, allowMultiple=false)
     },
     "SNAC ID": {
       property: "snac",
@@ -133,43 +134,53 @@ const snacMap = {
   lists: {
     "Alternate Names": "altNames",
     "Subject(s)": "subjects",
-    "Places": "places",
+    "Places": "placeNames",
     "Occupation(s)": "occupations",
     "Relations (Associated With)": "associatedWith",
     "Relations (Same As)": "sameAs"
-  }
-}
+  },
+ }
 
-const wikidataMap = {
+const cpfPagesMap = {
   strings: {
     "Wikidata ID": "wikidataId",
     "Wikidata label": "name",
-    "Wikidata label description": "description",
+    "Wikidata label description": "wikidataLabelDescription",
     "Wikipedia URL": "wikipediaUrl",
     "date of birth (P569)": "birthDate",
     "date of death (P570)": "deathDate",
     "place of birth (P19)": "birthPlace",
     "place of death (P20)": "deathPlace",
     "inception (P571)": "inceptionDate",
-    "coordinate location": "geo",
-    "Settlement": "settlement",
-    "State Check": "state",
-    "SNAC Ark ID": "snacArk"
+    "Description": "description",
+    "Airwaves image path": "image"
   },
   lists: {
     "Wikidata altLabels": "altNames",
-    "instance of": "instanceOf",
-    "licensed to broadcast to (P1408)": "broadcastTo",
-    "located in the administrative territorial entity (P131)": "locatedIn",
     "country (P17)": "country",
     "occupation (P106)": "occupation",
     "field of work (P101)": "fieldOfWork",
     "employer (P108)": "employer",
     "member of (P463)": "memberOf",
-    "LOC ID (P244)": "lccn",
-    "VIAF ID (P214)": "viaf",
     "owned by (P127)": "ownedBy",
-    "official website (P856)": "website"
+    "official website (P856)": "website",
+    "LOC URLs": "lccn",
+    "VIAF URLs": "viaf",
+    "WorldCat URLs": "worldcat",
+    "NARA URLs": "nara",
+    "SNAC Ark URLs": "snacArk",
+    "Associated Places": "placeNames"
+  },
+  things: {
+    "Associated Subject(s)": {
+      property: "subjects",
+      expander: makeIdExpander("subjects.json", s => {
+        return {
+          id: s.id,
+          title: s.name,
+        }
+      }),
+    },
   }
 }
 

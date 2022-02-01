@@ -305,13 +305,13 @@ async function exhibits(createPage, graphql) {
 async function cpf(createPage, graphql) {
   results = await graphql(`
     {
-      allPeopleJson(
-        filter: {wikidata: {wikidataId: {ne: null}}}
+      allCpfJson(
+        filter: {cpfPage: {wikidataId: {ne: null}}}
       ) {
         nodes {
           id
           type
-          wikidata {
+          cpfPage {
             wikidataId
           }
         }
@@ -320,10 +320,10 @@ async function cpf(createPage, graphql) {
   `)
 
 
-  results.data.allPeopleJson.nodes.forEach(cpf => {
+  results.data.allCpfJson.nodes.forEach(cpf => {
 
     const id = cpf.id
-    const wid = cpf.wikidata.wikidataId
+    const wid = cpf.cpfPage.wikidataId
     const path = cpf.type == 'Person' ? `/people/${wid}` : `/organizations/${wid}`
 
     createPage({

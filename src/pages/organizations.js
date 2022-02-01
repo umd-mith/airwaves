@@ -5,11 +5,11 @@ import Layout from "../components/layout"
 import Registry from "../components/registry"
 
 const Organizations = ({ data }) => {
-  const orgs = data.allPeopleJson.nodes
+  const orgs = data.allCpfJson.nodes
   const items = orgs.map(o => ({
     name: o.name,
-    description: o.wikidata.description,
-    url: `/organizations/${o.wikidata.wikidataId}/`
+    description: o.cpfPage.wikidataLabelDescription,
+    url: `/organizations/${o.cpfPage.wikidataId}/`
   }))
 
   return (
@@ -36,9 +36,9 @@ const Organizations = ({ data }) => {
 
 export const query = graphql`
   {
-    allPeopleJson(
+    allCpfJson(
       filter: {
-        wikidata: { wikidataId: { ne: null } }
+        cpfPage: { wikidataId: { ne: null } }
         type: { eq: "Corporate Body" }
       }
       sort: { fields: name }
@@ -46,10 +46,10 @@ export const query = graphql`
       nodes {
         airtableId
         name
-        wikidata {
+        cpfPage {
           name
-          description
           wikidataId
+          wikidataLabelDescription
         }
       }
     }
