@@ -7,7 +7,7 @@ import ExhibitSummaryCard from "../components/exhibit-summary"
 import "./exhibits.css"
 
 const ExhibitsPage = ({ data }) => {
-  const exhibits = data.allMarkdownRemark.nodes
+  const exhibits = data.allMarkdownRemark.nodes.filter((e) => e.frontmatter.title !== "[Dummy]")
 
   return (
     <Layout title="Exhibits">
