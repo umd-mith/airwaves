@@ -63,13 +63,14 @@ const Exhibit = ({ pageContext: exhibit }) => {
         </section>
         <section className="related_items">
           <h2>Related Items</h2>
-          {exhibit.related.map(r => (
+          {console.log(exhibit)}
+          {(exhibit.related || []).concat(exhibit.relatedExt || []).map(r => {console.log(r); return (
             <RelatedItem
               title={r.title}
               description={r.description}
               url={r.url}
             />
-          ))}
+          )})}
         </section>
       </div>
     </Layout>

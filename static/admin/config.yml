@@ -5,6 +5,7 @@ display_url: https://unlocking.netlify.app
 site_url: https://unlocking.netlify.app
 media_folder: static/images
 public_folder: ../../../static/images
+local_backend: true
 
 collections:
   - name: exhibits
@@ -50,7 +51,7 @@ collections:
         name: visuals
         widget: list
         collapsed: false
-        hint: Images that you would like to diplay in the right panel.
+        hint: Images that you would like to display in the right panel.
         fields:
           - label: Title
             name: title
@@ -61,7 +62,7 @@ collections:
             widget: image
             required: true
 
-      - label: Related Content
+      - label: Related Content (internal)
         name: related
         widget: list
         collapsed: false
@@ -78,6 +79,27 @@ collections:
             pattern:
               - ^/.+
               - Must be a hostless Unlocking the Airwaves URL, start with /
+          - label: Description
+            name: description
+            widget: text
+            required: true
+      - label: Related Content (external)
+        name: relatedExt
+        widget: list
+        collapsed: false
+        hint: Related content outside of Unlocking the Airwaves.
+        fields:
+          - label: Title
+            name: title
+            widget: string
+            required: true
+          - label: URL
+            name: url
+            widget: string
+            required: true
+            pattern:
+              - ^http.+
+              - Must be a full URL, start with http
           - label: Description
             name: description
             widget: text

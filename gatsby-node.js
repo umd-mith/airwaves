@@ -271,6 +271,11 @@ async function exhibits(createPage, graphql) {
               description
               url
             }
+            relatedExt {
+              title
+              description
+              url
+            }
             title
             visuals {
               image {
