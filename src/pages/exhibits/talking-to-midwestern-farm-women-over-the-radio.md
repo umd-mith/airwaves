@@ -10,6 +10,18 @@ lede: Whether in women’s history or in sound studies, preserving audio,
   complete story. The Broadcast A/V project offers opportunities across four
   non-commercial media collections to piece together how rural women were
   imagined and addressed by educational radio throughout the twentieth century
+related:
+  - url: /exhibits/women’s-history-in-naeb-collection/
+    title: Women’s History in the NAEB Collection
+    description: In the area of women’s history, the National Association of
+      Educational Broadcasters (NAEB) collection offers aural counterpoints to
+      the popular culture of the late postwar period for critical study. At the
+      same time that Leave It To Beaver (1957-1963), The Donna Reed Show
+      (1958-1966), Father Knows Best (1954-1960), and The Adventures of Ozzie
+      and Harriet (1952-1966) beamed images of happy housewives at home in
+      pearls and heels to mass audiences, local, non-commercial radio,
+      redistributed nationally through the NAEB, offered a distinctly different
+      and more nuanced depiction of American womanhood.
 ---
 **Background**
 
