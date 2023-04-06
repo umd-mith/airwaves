@@ -11,6 +11,10 @@ lede: Whether in women’s history or in sound studies, preserving audio,
   complete story. The Broadcast A/V project offers opportunities across four
   non-commercial media collections to piece together how rural women were
   imagined and addressed by educational radio throughout the twentieth century
+visuals:
+  - image: ../../../static/images/aline-hazard.jpg
+    title: Early picture of Aline Hazard in the WHA Studios
+      <https://search.library.wisc.edu/digital/AXAD4XYZ4YQ2CD8K>
 related:
   - url: /exhibits/women’s-history-in-naeb-collection/
     title: Women’s History in the NAEB Collection
