@@ -45,6 +45,9 @@ relatedExt:
 
 
       Beverly Everett, Executive Committee appointee, National IWY Commission, Iowa farm woman, President of the Iowa AAUW State Division
+  - url: https://youtu.be/T61RV8tp2y8
+    title: Custom Made Woman Blues
+    description: Custom Made Woman Blues · Hazel Dickens · Alice Gerrard
 ---
 **Background**
 
@@ -100,7 +103,7 @@ To date, nearly three hundred episodes of *Equal Voice* are accessible through t
 
 Whether in interviews with national figures like Betty Friedan or Gloria Steinem or during discussions of local rural life, the University of Minnesota’s audio collection of *Equal Voice* offers insight into women’s struggle to see and hear themselves represented in media. A 1977 interview with a young Ruth Ginsburg, for example, offers rural listeners an analysis of the fight for women’s civil liberties in the U.S. Supreme Court.
 
-**Audio:** <https://umedia.lib.umn.edu/item/p16022coll171:2778?facets%5Bsubject_ss%5D%5B%5D=Equal+Voice&page=2>
+**Audio:** Civil Liberties, Women, and the Supreme Court with Ruth Ginsburg <https://umedia.lib.umn.edu/item/p16022coll171:2778?facets%5Bsubject_ss%5D%5B%5D=Equal+Voice&page=2>
 
 From the warm greeting of Aline Hazard’s “Good morning homemakers” during the depths of the Great Depression to the wail of Hazel Dickens’ “Custom Made Woman Blues” recorded as the women’s movement gained steam, these programs from various times and various archives trace the evolution of non-commercial radio programming for women. If you listen carefully through these various collections, I argue, you can hear the tentative and sometimes radical shifts in address to the female radio listener and the changes in women’s lives over the course of the twentieth century. 
 
