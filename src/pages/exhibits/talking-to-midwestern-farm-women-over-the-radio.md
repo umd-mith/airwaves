@@ -30,6 +30,21 @@ related:
       pearls and heels to mass audiences, local, non-commercial radio,
       redistributed nationally through the NAEB, offered a distinctly different
       and more nuanced depiction of American womanhood.
+relatedExt:
+  - url: https://umedia.lib.umn.edu/item/p16022coll171:2778?facets%5Bsubject_ss%5D%5B%5D=Equal+Voice&page=2
+    title: Civil Liberties, Women, and the Supreme Court with Ruth Ginsburg
+    description: >-
+      University of Minnesota. Radio Station KUOM
+
+
+      Ruth Ginsburg, Professor of Law at Columbia Law School, Founder of and Counsel to the Women's Rights Project of the ACLU, General Counsel to the ACLU, and on the Council of the American Bar Association section of Individual Rights and Responsibilities, and on the Board of Editors of the ABA Journal. Interviewed by Carol Robertshaw
+  - url: https://umedia.lib.umn.edu/item/p16022coll171:2718
+    title: Rural Women and the Women's Movement with Beverly Everett
+    description: >-
+      University of Minnesota. Radio Station KUOM
+
+
+      Beverly Everett, Executive Committee appointee, National IWY Commission, Iowa farm woman, President of the Iowa AAUW State Division
 ---
 **Background**
 
