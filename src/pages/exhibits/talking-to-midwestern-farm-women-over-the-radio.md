@@ -41,9 +41,9 @@ In 1922, the University of Wisconsin’s experimental radio station 9XM became o
 ![Aline Hazard on a remote broadcast of the Homemaker’s Program, circa 1940s](../../../static/images/aline-hazard-remote.jpg "Aline Hazard on a remote broadcast of the Homemaker’s Program, circa 1940s https://asset.library.wisc.edu/1711.dl/QKOXFOWJ3GJ748P/M/h1380-b1c15.jpg")
 
 An example of the extension work critical to the ethos of the *Homemaker’s Program* is 
-a July 31, 1945 interview with Mae Reynolds from UW’s Home Economics department on the proper method to can peaches and pears: [<https://search.library.wisc.edu/digital/AFJUUS4K5S5WKB9B>]
+a July 31, 1945 interview with Mae Reynolds from UW’s Home Economics department on the proper method to can peaches and pears: \[<https://search.library.wisc.edu/digital/AFJUUS4K5S5WKB9B>]
 
-The *Homemaker’s Program* also educated listeners on important state products. A segment titled “Cheese: A Food History” from November 23, 1945 in which Hazard interviews Roy Ricksham, the manager of the American Dairy Association of Wisconsin, is typical of this kind of approach. [<https://search.library.wisc.edu/digital/AXPOMHEIW7XPR58Y>]
+The *Homemaker’s Program* also educated listeners on important state products. A segment titled “Cheese: A Food History” from November 23, 1945 in which Hazard interviews Roy Ricksham, the manager of the American Dairy Association of Wisconsin, is typical of this kind of approach. \[<https://search.library.wisc.edu/digital/AXPOMHEIW7XPR58Y>]
 
 Described by former Wisconsin Public Radio director Jack Mitchell as “a cross between today’s Martha Stewart and Oprah Winfrey,” Hazard defined Wisconsin homemaking for more than three decades (Mitchell). Until its end in 1965, the *Homemaker’s Program* remained one of the most popular programs on WHA. In 2016, Aline Hazard was inducted into the Wisconsin Broadcasters Hall of Fame in celebration of her service to Wisconsin women.
 
@@ -95,51 +95,3 @@ Janik, Erika. “Good Morning Homemakers!” *Wisconsin Magazine of History* 90.
 Mitchell, Jack. Wisconsin on the Air – *100 Years of Public Broadcasting in the State That Invented It*. Madison, WI: Wisconsin Historical Society Press, 2016.
 
 Ruben, Marina Koestler. “Radio Activity – The 100th Anniversary of Public Broadcasting.” *Smithsonian Magazine* (January 26, 2010):  <https://www.smithsonianmag.com/history/radio-activity-the-100th-anniversary-of-public-broadcasting-6555594/>.
-
-**Works Cited:**
-
-*Archive Materials*
-
-Aline Watson Hazard Papers, 1938-1965. University of Wisconsin Archives. Madison, WI.
-
-Aline Watson Hazard Papers, 1964-1971. University of Wisconsin Archives. Madison, WI.
-
-Evelyn Birkby Collection of Radio Homemaker Materials, 1924-2012. University of Iowa Archives. Iowa City, IA.
-
-Radio WLB/KUOM, 1930s-1990s. University of Minnesota Archives, Minneapolis, MN.
-
-WHA Radio and Television Records, 1915-2000. University of Wisconsin Archives. Madison, WI.
-
-WOI, Radio and Television Records, 1911-2012. Iowa State University. Des Moines, IA.
-
-*Books and Articles*
-
-Birkby, Evelyn. *Neighboring on the Air - Cooking with the KMA Radio Homemakers*. Iowa City, IA: University of Iowa Press, 1991.
-
-Boddy, William. *New Media and Popular Imagination – Launching Radio, Television, and Digital Media in the United States*. New York: Oxford University Press, 2004.
-
-Coontz, Stephanie. *A Strange Stirring – The Feminine Mystique and American Women at the Dawn of the 1960s*. New York: Basic Books, 2011.
-
-Davidson, Randall. *9XM Talking – WHA Radio and the Wisconsin Idea*. Madison, WI: The University of Wisconsin Press, 2006.
-
-Hazard, Aline Watson. *For the Love of Mike*. Madison, WI: The University of Wisconsin, 1974.
-
-Janik, Erika. “Good Morning Homemakers!” *Wisconsin Magazine of History* 90.1 (Autumn 2006): pp.4-15.
-
-Jellison, Katherine. *Entitled to Power – Farm Women and Technology, 1913-1963*. Chapel Hill, NC: The UNC Press, 1993.
-
-Mitchell, Jack. *Wisconsin on the Air – 100 Years of Public Broadcasting in the State That Invented It.* Madison, WI: Wisconsin Historical Society Press, 2016.
-
-Ruben, Marina Koestler. “Radio Activity – The 100th Anniversary of Public Broadcasting.” *Smithsonian Magazine* (January 26, 2010):  <https://www.smithsonianmag.com/history/radio-activity-the-100th-anniversary-of-public-broadcasting-6555594/>.
-
-Slotten, Hugh. *Radio’s Hidden Voice – The Origins of Public Broadcasting in the United States*. Urbana, IL: University of Illinois Press, 2009.
-
-Smethers, J. Steven and Lee Jolliffe. “Homemaking Programs: The Recipe for Reaching Women Listeners on the Midwest’s Local Radio.” *Journalism History* 24 (Winter 1998-1999): 138-147, 158.
-
-The Wisconsin Extension Homemakers, Council, Inc. *The Impact of her Spirit – An Oral History*. River Falls, WI: River Falls Journal, 1989.
-
-Toov, Rebecca. “Radio History at the U of M.” (13 January 2016), <https://www.continuum.umn.edu/2016/01/radio-history/#.V3wrOuVnGSo>. 
-
-Wikipedia. “KUOM.” (<https://en.wikipedia.org/wiki/KUOM>) Accessed on February 13, 2023.
-
-Radio K website. “History.” <https://www.radiok.org/about/history/>. Accessed on February 13, 2023.
