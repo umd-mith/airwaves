@@ -25,6 +25,30 @@ visuals:
       this image is floating around the internet and our usage qualifies as
       “fair use”)
     image: ../../../static/images/national-barn-dance.jpg
+related:
+  - url: /episode/cpb-aacip-500-0p0wtm3j/
+    title: Success in the Arts - Choreography
+    description: >-
+      Hosted by Studs Terkel
+
+      This program's panel includes George Balanchine, choreographer of the New York City Ballet; Ann Barzel, dance critic of the Chicago American; and Donna Claypoole, dance instructor, University of Illinois Chicago.
+  - url: /episode/cpb-aacip-500-6h4csg6g/
+    title: Success in the Arts - Dancing
+    description: >-
+      Hosted by Studs Terkel
+
+      This program which discusses skills needed to excel at dance, includes panelists Maria Tallchief, ballerina, New York City Ballet; Ann Barzel, dance critic of the Chicago American; and Donna Claypoole, University of Illinois Chicago.
+relatedExt:
+  - url: https://umedia.lib.umn.edu/item/p16022coll171:3871
+    title: The Living Theatre and the Living Audience by Agnes de Mille,
+      choreographer and author
+    description: >-
+      October 8, 1959
+
+      Convocation speech given at Northrop Auditorium
+
+
+      After some entertaining remarks about her school days and television work, de Mille launches into her main theme: that how we treat the arts is a measure of our own greatness or mediocrity as a society. Explicitly invoking commercial radio through mocking pastiches of its folksy speech and hard-sell ads, she condemns Americans’ failure to support high art as indicative of a broader failure of American character: “Our reliance on authority is paralyzing us. … We are now the conformers, we, we Americans who crossed cold water in wooden ships because we were non-conformist.”
 ---
 “Dancing about architecture” is not the ridiculous idea that the old joke asserts. Like architecture, dance is visual and spatial: the 3-D arrangement of forms in conversation with a context, the shaping and channeling of the human body, the aesthetic and practical unfolding of patterns of movement over time. From that perspective, dance *is* architecture, just sped up and with a different soundtrack.
 
@@ -51,3 +75,7 @@ Following the breadcrumbs from the NAEB to the KUOM areas of the collection, we 
 Questions of cultural identity are also prominent in a [1975 Minnesota School of the Air interview with Minneapolis ballet dancer Lewis Whitlock III](https://umedia.lib.umn.edu/item/p16022coll171:2286). An African-American male working in a genre closely associated with white femininity, Whitlock speaks candidly about race and gender in his profession, addressing the influence of Black dance forms on his work and noting that boys are discouraged from taking up dance for fear of being labelled a “sissy.” Although the interview is short, it provides a refreshing recognition of the ways that racial, gender, and sexual diversity are policed through the artificial separation of different cultural forms. The fact that such conversations rarely aired on commercial radio further solidifies the ways in which public and educational broadcasting and dance worked together to reinforce non-commercial radio and high art.
 
 Ultimately, such insights are the power of exploring the Broadcasting A/V archives: the chance connections and accidental finds that enrich our understanding of people, topics, and radio itself. I mentioned above that dance is a continuum between the simplest and most complex movement, and between the most popular and esoteric forms. American radio in all of its guises has used dance, but in different ways: separating *Barn Dance* from *Rodeo*, and separating us from each other. But radioing about dance also reveals the possibility of finding and connecting with others along that continuum. As Whitlock put it, "There's a rhythm to everything, if you listen. There's a rhythm to the cars moving down the street, to a water faucet. … If you think about walking the right way, it can be dance."
+
+\*﻿\**
+
+**[Bill Kirkpatrick](http://www.billkirkpatrick.net/)** was formerly Associate Professor in the department of Communication at Denison University in Ohio and now teaches in the Sociology department at the University of Winnipeg in Manitoba. His work has appeared in numerous journals and anthologies, and he is co-editor (with Elizabeth Ellcessor) of *Disability Media Studies* (New York University Press, 2017). He is currently working on a book on media and medicine in the early 20th century.
