@@ -58,6 +58,13 @@ relatedExt:
       profession, addressing the influence of Black dance forms on his work and
       noting that boys are discouraged from taking up dance for fear of being
       labelled a “sissy.”
+  - description: This 1975 episode of Minnesota School of the Air’s “People Worth
+      Hearing About” presents a biography of Maria Tallchief, selected because
+      of her Osage heritage. Dance had become a site to work through the
+      struggles over differences of race, gender, and sexuality in the 1960s and
+      ’70s.
+    title: 1975 episode of Minnesota School of the Air’s “People Worth Hearing About”
+    url: https://umedia.lib.umn.edu/item/p16022coll171:89
 ---
 “Dancing about architecture” is not the ridiculous idea that the old joke asserts. Like architecture, dance is visual and spatial: the 3-D arrangement of forms in conversation with a context, the shaping and channeling of the human body, the aesthetic and practical unfolding of patterns of movement over time. From that perspective, dance *is* architecture, just sped up and with a different soundtrack.
 
