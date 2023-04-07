@@ -18,6 +18,10 @@ visuals:
   - image: ../../../static/images/hazard-listener-mail.jpg
     title: Aline Hazard reading listener mail in 1962.
       <https://search.library.wisc.edu/digital/ABOI7WDSYFEJV284>
+  - image: ../../../static/images/aline-hazard-remote.jpg
+    title: Aline Hazard on a remote broadcast of the *Homemaker’s Program*, circa
+      1940s
+      <https://asset.library.wisc.edu/1711.dl/QKOXFOWJ3GJ748P/M/h1380-b1c15.jpg>
 related:
   - url: /exhibits/women’s-history-in-naeb-collection/
     title: Women’s History in the NAEB Collection
