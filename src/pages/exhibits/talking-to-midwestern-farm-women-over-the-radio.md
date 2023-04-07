@@ -74,8 +74,6 @@ Radio’s need to appeal to women created opportunities for women, as on-air tal
 
 In 1922, the University of Wisconsin’s experimental radio station 9XM became one of the first stations to receive a radio license. Renamed WHA, the station became a pioneer in programming and practices in early radio. One of its most enduring contributions was its regional homemaking show, WHA’s *Homemaker’s Program*, which ran from 1929 until 1965. From its earliest days, WHA had featured female speakers from the Home Economics and Agricultural Journalism departments occasionally on its noontime *Farm Hour*. In 1929, WHA program director Louis Mallory assembled various homemaking segments into a distinct, half-hour program aimed at Wisconsin homemakers. When host Aline Hazard (1895-1981) took over the helm in June 1933, the show found its stride. Six days a week, for thirty-two years, and over ten thousand episodes, Hazard greeted wives across the Midwest with a cheery “Good Morning Homemakers!” The digital archives of WHA offer dozens of examples of the scope of this groundbreaking program. In addition to homemaking, Hazard incorporated art and music appreciation segments, crafts, speakers, remote broadcasts, and a weekly book club into the program. 
 
-![Aline Hazard on a remote broadcast of the Homemaker’s Program, circa 1940s](../../../static/images/aline-hazard-remote.jpg "Aline Hazard on a remote broadcast of the Homemaker’s Program, circa 1940s https://asset.library.wisc.edu/1711.dl/QKOXFOWJ3GJ748P/M/h1380-b1c15.jpg")
-
 An example of the extension work critical to the ethos of the *Homemaker’s Program* is 
 a July 31, 1945 interview with Mae Reynolds from UW’s Home Economics department on the proper method to can peaches and pears: <https://search.library.wisc.edu/digital/AFJUUS4K5S5WKB9B>
 
@@ -106,7 +104,7 @@ The tone of the series was set by the first stanza of the song “Custom Made Wo
 > Smiling face, shining hair, clothes that I thought you’d like me to wear
 > Made to please and not to tease, it’s the custom made woman blues
 
-**Audio Excerpt** of Custom Made Woman Blues (1973): <https://youtu.be/T61RV8tp2y8>
+**Audio:** Excerpt of Custom Made Woman Blues (1973): <https://youtu.be/T61RV8tp2y8>
 
 It is difficult to not read the use of this blues song as a commentary on the efforts of educational stations to mold rural listeners into ideal homemakers.
 
