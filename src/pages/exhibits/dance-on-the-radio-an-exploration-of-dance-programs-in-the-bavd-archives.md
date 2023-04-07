@@ -49,6 +49,15 @@ relatedExt:
 
 
       After some entertaining remarks about her school days and television work, de Mille launches into her main theme: that how we treat the arts is a measure of our own greatness or mediocrity as a society. Explicitly invoking commercial radio through mocking pastiches of its folksy speech and hard-sell ads, she condemns Americans’ failure to support high art as indicative of a broader failure of American character: “Our reliance on authority is paralyzing us. … We are now the conformers, we, we Americans who crossed cold water in wooden ships because we were non-conformist.”
+  - url: https://umedia.lib.umn.edu/item/p16022coll171:2286
+    title: 1975 Minnesota School of the Air interview with Minneapolis ballet dancer
+      Lewis Whitlock III
+    description: Interview about Lewis Whitlock's life as a dancer. An
+      African-American male working in a genre closely associated with white
+      femininity, Whitlock speaks candidly about race and gender in his
+      profession, addressing the influence of Black dance forms on his work and
+      noting that boys are discouraged from taking up dance for fear of being
+      labelled a “sissy.”
 ---
 “Dancing about architecture” is not the ridiculous idea that the old joke asserts. Like architecture, dance is visual and spatial: the 3-D arrangement of forms in conversation with a context, the shaping and channeling of the human body, the aesthetic and practical unfolding of patterns of movement over time. From that perspective, dance *is* architecture, just sped up and with a different soundtrack.
 
