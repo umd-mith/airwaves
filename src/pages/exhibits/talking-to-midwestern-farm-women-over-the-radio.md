@@ -32,14 +32,14 @@ related:
       and more nuanced depiction of American womanhood.
 relatedExt:
   - url: https://umedia.lib.umn.edu/item/p16022coll171:2778?facets%5Bsubject_ss%5D%5B%5D=Equal+Voice&page=2
-    title: Civil Liberties, Women, and the Supreme Court with Ruth Ginsburg
+    title: "KUOM: Civil Liberties, Women, and the Supreme Court with Ruth Ginsburg"
     description: >-
       University of Minnesota. Radio Station KUOM
 
 
       Ruth Ginsburg, Professor of Law at Columbia Law School, Founder of and Counsel to the Women's Rights Project of the ACLU, General Counsel to the ACLU, and on the Council of the American Bar Association section of Individual Rights and Responsibilities, and on the Board of Editors of the ABA Journal. Interviewed by Carol Robertshaw
   - url: https://umedia.lib.umn.edu/item/p16022coll171:2718
-    title: Rural Women and the Women's Movement with Beverly Everett
+    title: "KUOM: Rural Women and the Women's Movement with Beverly Everett"
     description: >-
       University of Minnesota. Radio Station KUOM
 
@@ -48,6 +48,15 @@ relatedExt:
   - url: https://youtu.be/T61RV8tp2y8
     title: Custom Made Woman Blues
     description: Custom Made Woman Blues · Hazel Dickens · Alice Gerrard
+  - url: https://search.library.wisc.edu/digital/AFJUUS4K5S5WKB9B
+    title: "WHA: Rules in Canning"
+    description: 1945 interview with Mae Reynolds from UW’s Home Economics
+      department on the proper method to can peaches and pears
+  - url: https://search.library.wisc.edu/digital/AXPOMHEIW7XPR58Y
+    title: "WHA: Cheese - a Food with a History"
+    description: Aline Hazard interviews Roy Ricksham, manager of the American Dairy
+      Association of Wisconsin on one of Wisconsin's most important products,
+      cheese
 ---
 **Background**
 
@@ -64,9 +73,9 @@ In 1922, the University of Wisconsin’s experimental radio station 9XM became o
 ![Aline Hazard on a remote broadcast of the Homemaker’s Program, circa 1940s](../../../static/images/aline-hazard-remote.jpg "Aline Hazard on a remote broadcast of the Homemaker’s Program, circa 1940s https://asset.library.wisc.edu/1711.dl/QKOXFOWJ3GJ748P/M/h1380-b1c15.jpg")
 
 An example of the extension work critical to the ethos of the *Homemaker’s Program* is 
-a July 31, 1945 interview with Mae Reynolds from UW’s Home Economics department on the proper method to can peaches and pears: \[<https://search.library.wisc.edu/digital/AFJUUS4K5S5WKB9B>]
+a July 31, 1945 interview with Mae Reynolds from UW’s Home Economics department on the proper method to can peaches and pears: <https://search.library.wisc.edu/digital/AFJUUS4K5S5WKB9B>
 
-The *Homemaker’s Program* also educated listeners on important state products. A segment titled “Cheese: A Food History” from November 23, 1945 in which Hazard interviews Roy Ricksham, the manager of the American Dairy Association of Wisconsin, is typical of this kind of approach. \[<https://search.library.wisc.edu/digital/AXPOMHEIW7XPR58Y>]
+The *Homemaker’s Program* also educated listeners on important state products. A segment titled “Cheese: A Food History” from November 23, 1945 in which Hazard interviews Roy Ricksham, the manager of the American Dairy Association of Wisconsin, is typical of this kind of approach. <https://search.library.wisc.edu/digital/AXPOMHEIW7XPR58Y>
 
 Described by former Wisconsin Public Radio director Jack Mitchell as “a cross between today’s Martha Stewart and Oprah Winfrey,” Hazard defined Wisconsin homemaking for more than three decades (Mitchell). Until its end in 1965, the *Homemaker’s Program* remained one of the most popular programs on WHA. In 2016, Aline Hazard was inducted into the Wisconsin Broadcasters Hall of Fame in celebration of her service to Wisconsin women.
 
