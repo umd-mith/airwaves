@@ -1,5 +1,6 @@
 ---
-title: "Dance on the Radio: An Exploration of Dance Programs in the BAVD Archives"
+title: "Dance on the Radio: An Exploration of Dance Programs in the BAVD
+  Archives test"
 creator: Bill Kirkpatrick
 key-image: ../../../static/images/national-barn-dance.jpg
 lede: >-
