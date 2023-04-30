@@ -1,5 +1,5 @@
 ---
-title: Gibson
+title: Burton Paulu and Musical Programing
 creator: Christina Gibson
 key-image: ../../../static/images/lincoln-lodge-seminar.png
 lede: Public Broadcasting arose in the U.S. during the 1920s, a time of intense
