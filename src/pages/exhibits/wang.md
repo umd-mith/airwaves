@@ -1,5 +1,6 @@
 ---
-title: Wang
+title: "From “Good Morning Homemakers!” To Singing the “Custom Made Women’s
+  Blues”: Talking to Midwestern Farm Women over the Radio"
 creator: Jennifer Wang
 key-image: ../../../static/images/aline-hazard.jpg
 lede: Whether in women’s history or in sound studies, preserving audio,
