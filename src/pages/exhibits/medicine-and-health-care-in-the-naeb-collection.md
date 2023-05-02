@@ -18,14 +18,13 @@ visuals:
       Association for Education by Radio-Television
       journal](/document/naeb-b018-f12/#95).
     image: ../../../static/images/march_of_medicine_aert.jpg
-  - title: "[December 1960 NAEB
-      newsletter](/document/naeb-b111-f09-04/)
-      announcing *H Is for Joy* and other new series."
+  - title: "[December 1960 NAEB newsletter](/document/naeb-b111-f09-04/) announcing
+      *H Is for Joy* and other new series."
     image: ../../../static/images/naeb-b111-f09-04.jpg
   - image: ../../../static/images/naeb-b069-f05_0016.jpg
     title: "[A program for a 1954 WNYC's Educational Institute of the Air
-      conference](/document/naeb-b069-f05/#17) that
-      featured numerous talks on medicine and science."
+      conference](/document/naeb-b069-f05/#17) that featured numerous talks on
+      medicine and science."
 related:
   - title: H is for Joy
     description: A documentary series about the nature of drug addiction, the
@@ -76,4 +75,4 @@ These programs also reveal a different political climate than ours, one marked b
 
 Taken as a whole, these programs offer a glimpse into what postwar mainstream health professionals (and producers and funders of educational radio) believed threatened Americans’ health and how they saw those threats playing out in people’s moral choices, the medical system, and political life. Measuring their views against the state of health and medicine today, with its greater range of perspectives and knowledges but also its greater politicization of science, reveals as much about our society as theirs.
 
-**[Bill Kirkpatrick](http://www.billkirkpatrick.net/)** was formerly Associate Professor in the department of Communication at Denison University in Ohio and now teaches in the Sociology department at the University of Winnipeg in Manitoba. His work has appeared in numerous journals and anthologies, and he is co-editor (with Elizabeth Ellcessor) of *Disability Media Studies* (New York University Press, 2017). He is currently working on a book on media and medicine in the early 20th century.
+**[Bill Kirkpatrick](http://www.billkirkpatrick.net/)** is Assistant Professor of Sociology at the University of Winnipeg; prior to moving to Winnipeg, he was Associate Professor of Media Studies in the Communication Department at Denison University.  His publications include articles in Communication, Culture, and Critique; Critical Studies in Media Communication; Television & New Media; Radio Journal; the International Journal of Communication; and several anthologies. He is co-editor (with Elizabeth Ellcessor) of Disability Media Studies (New York University Press, 2017), an anthology bringing media studies and disability studies into dialog; he is also completing a monograph on early radio and the medical profession.
