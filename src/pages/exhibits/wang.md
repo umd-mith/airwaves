@@ -2,7 +2,7 @@
 title: "From “Good Morning Homemakers!” To Singing the “Custom Made Women’s
   Blues”: Talking to Midwestern Farm Women over the Radio"
 creator: Jennifer Wang
-key-image: ../../../static/images/aline-hazard.jpg
+key-image: /images/aline-hazard.jpg
 lede: Whether in women’s history or in sound studies, preserving audio,
   especially the voices of housewives, has rarely been prioritized. To tell the
   story of women’s lives in twentieth-century America as told on radio, for
@@ -87,13 +87,13 @@ In the 1960s and 1970s, the burgeoning feminist movement and the birth of Nation
 
 Educational stations struggled on both radio and TV to adjust their address to the female audience. For example, a 1968 report from the National Council of Educational Radio and Educational Television in the NAEB collection discusses Auburn University’s experimental TV program *Katie’s House* which reveals the difficulties reconceptualizing programming for rural homemakers amid the social and political upheaval of the time.
 
-![A 1968 Report from National Educational Radio and Educational Television Stations](../../../static/images/katies-house.jpg "A 1968 Report from National Educational Radio and Educational Television Stations: https://www.unlockingtheairwaves.org/document/naeb-b071-f05/")
+![A 1968 Report from National Educational Radio and Educational Television Stations](/images/katies-house.jpg "A 1968 Report from National Educational Radio and Educational Television Stations: https://www.unlockingtheairwaves.org/document/naeb-b071-f05/")
 
 **KUOM’s Equal Voice: A Woman’s Forum (1976-1984)**
 
 Minnesota’s KUOM was granted a broadcast license on the same day as WHA in 1922. For most of its life, WLB/KUOM operated in the daytime under the auspices of the University of Minnesota. The station focused on education, community interests, and public affairs. 
 
-![From WLB to KUOM: A KUOM program bulletin from the 1950s](../../../static/images/kuom.jpg "From WLB to KUOM: A KUOM program bulletin from the 1950s https://www.continuum.umn.edu/2016/01/radio-history/")
+![From WLB to KUOM: A KUOM program bulletin from the 1950s](/images/kuom.jpg "From WLB to KUOM: A KUOM program bulletin from the 1950s https://www.continuum.umn.edu/2016/01/radio-history/")
 
 As part of an intentional effort between 1969 and 1984 to reach marginalized communities, KUOM scheduled programs like *On The Black Side*, *Echoes en Español*, *Indian News*, and *Equal Voice*. On February 5, 1976, KUOM producer and Women’s Program Director Carol Robertshaw debuted the women’s public affairs program, *Equal Voice: A Woman’s Forum*. This series, a weekly part of the *Public Affairs Hour*, was broadcast on Thursdays from 1:30 to 2 p.m. Replacing the previous female-centered newscast, *Women’s Clearinghouse*, *Equal Voice* offered female listeners discussions of current events and one-on-one interviews with female academics, activists, and politicians. Over the course of eight years, Robertshaw shepherded listeners through a wide array of topics meaningful to women in the 1970s and 1980s: the cost of childcare, debates about the Equal Rights Amendment, the prevalence of domestic violence, and the needs of racially and economically diverse groups of women.
 
