@@ -13,6 +13,10 @@ lede: Just a few years after its launch in October 1970, the Public Broadcasting
   Friendly, Robert F. Schenkkan, and Hartford N. Gunn, Jr. live on in the
   system’s ongoing commitment to journalistic integrity.
 visuals:
+  - image: ../../../static/images/service-pnp-cph-3c30000-3c37000-3c37900-3c37944v.jpg
+    title: Fred W. Friendly, talking with then Vice President Lyndon Johnson. World
+      Telegram & Sun photograph by Phil Stanziola. [Library of Congress Prints
+      and Photographs Divisio](https://www.loc.gov/resource/cph.3c37944/)n
   - image: ../../../static/images/swing9141whbb_0247.jpg
     title: >-
       In the late 1940s, Fred Friendly began his collaboration with Edward R.
