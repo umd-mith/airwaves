@@ -1,7 +1,7 @@
 ---
 title: Burton Paulu and Musical Programing
 creator: Christina Gibson
-key-image: ../../../static/images/lincoln-lodge-seminar.png
+key-image: /images/lincoln-lodge-seminar.png
 lede: Public Broadcasting arose in the U.S. during the 1920s, a time of intense
   anxiety around the country’s educational and aesthetic preparedness on the
   world stage. In the music community this gave birth to a robust music
@@ -75,7 +75,7 @@ Additional holdings at the University of Minnesota that are accessible through B
 
 During the middle of the 20th century, as Paulu graduated into administrative roles at KUOM and NAEB, he became a strong advocate for the value of education on the radio. Digitized [correspondence on *Unlocking the Airwaves*](https://www.unlockingtheairwaves.org/people/Q5000894/) shows his name attached to numerous grant proposals and his work on behalf of the NAEB.  
 
-![Red cover of the report: Lincoln Lodge Seminar on Educational Television, edited by Burton Paulu](../../../static/images/lincoln-lodge-seminar.png "Lincoln Lodge Seminar on Educational Television, edited by Burton Paulu")
+![Red cover of the report: Lincoln Lodge Seminar on Educational Television, edited by Burton Paulu](/images/lincoln-lodge-seminar.png "Lincoln Lodge Seminar on Educational Television, edited by Burton Paulu")
 
 He edited a volume summarizing the findings presented at the [“Lincoln Lodge Seminar" on Educational Television](https://www.unlockingtheairwaves.org/document/naeb-b105-f02-05/) in 1953. 
 
