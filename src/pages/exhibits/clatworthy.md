@@ -29,6 +29,11 @@ related:
     description: Lectures on the 1968 U.S. presidential campaign by political
       scientist Max Lerner of Brandeis University, presented in late 1968 at
       Garland Junior College in Boston.
+relatedExt:
+  - url: https://americanarchive.org/exhibits/watergate
+    title: "“Gavel-to-Gavel”: The Watergate Scandal and Public Television"
+    description: Full exhibit at the American Archive of Public Broadcasting, a
+      collaboration between the Library of Congress and GBH.
 ---
 In September 1971, the thirty seventh president of the United States was angry. Richard M. Nixon (January 9, 1913 – April 22, 1994) had learned that PBS, the newly launched, government-sponsored television service, had hired perceived liberal journalists Sander Vanocur—formerly of NBC News—and Canadian Robert “Robin” MacNeil to host a weekly politics program. Nixon’s reaction was highlighted in a 1979 Washington Post article describing documents released in response to a Freedom of Information Act request:
 
