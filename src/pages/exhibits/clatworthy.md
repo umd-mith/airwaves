@@ -23,6 +23,12 @@ visuals:
 
 
       *Swing* (August 1953). Kansas City: WHB Broadcasting Co. [Courtesy of Media History Digital Library](https://lantern.mediahist.org/catalog/swing9141whbb_0247).
+related:
+  - url: /programs/the-presidency-1968/
+    title: "The Presidency: 1968"
+    description: Lectures on the 1968 U.S. presidential campaign by political
+      scientist Max Lerner of Brandeis University, presented in late 1968 at
+      Garland Junior College in Boston.
 ---
 In September 1971, the thirty seventh president of the United States was angry. Richard M. Nixon (January 9, 1913 – April 22, 1994) had learned that PBS, the newly launched, government-sponsored television service, had hired perceived liberal journalists Sander Vanocur—formerly of NBC News—and Canadian Robert “Robin” MacNeil to host a weekly politics program. Nixon’s reaction was highlighted in a 1979 Washington Post article describing documents released in response to a Freedom of Information Act request:
 
