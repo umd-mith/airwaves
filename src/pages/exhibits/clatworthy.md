@@ -38,6 +38,13 @@ relatedExt:
     title: "“Gavel-to-Gavel”: The Watergate Scandal and Public Television"
     description: Full exhibit at the American Archive of Public Broadcasting, a
       collaboration between the Library of Congress and GBH.
+  - url: https://cpb.org/AboutCPB/History-Timeline
+    title: Corporation for Public Broadcasting - History Timeline
+    description: President Lyndon B. Johnson signed the Public Broadcasting Act
+      November 7, 1967, which formed the Corporation for Public Broadcasting.
+      CPB incorporated in March of the following year and established the Public
+      Broadcasting Service (PBS) on November 3, 1969. PBS itself launched on
+      October 5, 1970.
 ---
 In September 1971, the thirty seventh president of the United States was angry. [Richard M. Nixon](https://bavd.unlockingtheairwaves.org/entity/Q9588/) (January 9, 1913 – April 22, 1994) had learned that PBS, the newly launched, government-sponsored television service, had hired perceived liberal journalists Sander Vanocur—formerly of NBC News—and Canadian Robert “Robin” MacNeil to host a weekly politics program. Nixon’s reaction was highlighted in a 1979 Washington Post article describing documents released in response to a Freedom of Information Act request:
 
