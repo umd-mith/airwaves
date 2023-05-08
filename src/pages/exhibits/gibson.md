@@ -1,7 +1,7 @@
 ---
 title: Burton Paulu and Musical Programing
 creator: Christina Gibson
-key-image: /images/lincoln-lodge-seminar.png
+key-image: /images/paulu.jpeg
 lede: Public Broadcasting arose in the U.S. during the 1920s, a time of intense
   anxiety around the country’s educational and aesthetic preparedness on the
   world stage. In the music community this gave birth to a robust music
@@ -61,6 +61,8 @@ By the 1950s, both radio and classical music had migrated to the academy. Tempor
 **B﻿urton Paulu**
 
 One advocate for classical music on public radio was Burton Paulu. He came to Minnesota to get a degree in music from the University of Minnesota in 1931. That year he got a job at KUOM, developing a music appreciation series that lasted fourteen years. He became station director of KUOM in 1938. During WWII, Paulu temporarily left KUOM to serve in the Office of War Information. He returned after the war with a new vision for what music over the airwaves could and should do, and he applied this to his work as a radio manager and an advocate for public radio. That work accelerated after he earned a Ph.D. in communications from New York University in 1949 with a specialization in the comparative study of U.S. and British public radio systems.
+
+
 
 Two documents provide Paulu’s own account of the role of music in his career. The first is part of KUOM’s “Retrospective Spectacular,” a digitized recording of a series of interviews and old audio clips created in 1974 and currently held at the University of Minnesota.
 
