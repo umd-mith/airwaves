@@ -13,6 +13,9 @@ lede: Public Broadcasting arose in the U.S. during the 1920s, a time of intense
   a new vision for what music over the airwaves could and should do, and he
   applied this to his work as a radio manager and an advocate for public radio.
 visuals:
+  - image: /images/kuom.jpg
+    title: KUOM was granted a broadcast license in 1922. P﻿aulu began working for
+      the station in 1931 and became its director in 1938.
   - image: ../../../static/images/bbc-documentation.png
     title: >-
       Paulu's developing expertise on international radio, particularly his
@@ -24,9 +27,9 @@ visuals:
 
 
       <https://www.unlockingtheairwaves.org/document/naeb-b070-f03/#161>
-  - image: /images/kuom.jpg
-    title: KUOM was granted a broadcast license in 1922. P﻿aulu began working for
-      the station in 1931 and became its director in 1938.
+  - image: /images/paulu.jpeg
+    title: Portrait of Burton Paulu from 1970.
+      <https://umedia.lib.umn.edu/item/p16022coll175:15844>
 related:
   - url: /people/Q5000894
     title: Authority record for Burton Paulu
