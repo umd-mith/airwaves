@@ -54,6 +54,12 @@ related:
       significant diversity of recordings, styles and attitudes reflect
       important cultural and technological changes in both the American academy
       and the radio industry.
+relatedExt:
+  - url: https://umedia.lib.umn.edu/item/p16022coll171:4434
+    description: University of Minnesota. Radio Station KUOM. Burton Paulu on his
+      retirement. 1978-08-24. University of Minnesota Libraries, University
+      Archives., https://umedia.lib.umn.edu/item/p16022coll171:4434
+    title: Burton Paulu on his retirement
 ---
 Public Broadcasting arose in the U.S. during the 1920s, a time of intense anxiety around the country’s educational and aesthetic preparedness on the world stage. In the music community this gave birth to a robust music appreciation movement focused on instilling the value of classical music in young minds. Public school music lessons and college survey courses increased during the period, but efforts extended beyond the classroom through the use of technology. Educator Frances Elliott Clark launched a phonograph campaign, declaring that, “If America is ever to become a great nation musically, as she has become commercially and politically, it must come through educating everybody to know and love good music” (Clark in Katzs). Both Clark and her audience understood “good” music to be classical music, as opposed to jazz or broadway.
 
