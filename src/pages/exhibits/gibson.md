@@ -24,6 +24,9 @@ visuals:
 
 
       <https://www.unlockingtheairwaves.org/document/naeb-b070-f03/#161>
+  - image: /images/kuom.jpg
+    title: KUOM was granted a broadcast license in 1922. P﻿aulu began working for
+      the station in 1931 and became its director in 1938.
 related:
   - url: /people/Q5000894
     title: Authority record for Burton Paulu
