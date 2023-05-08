@@ -27,6 +27,10 @@ visuals:
 
 
       *Swing* (August 1953). Kansas City: WHB Broadcasting Co. [Courtesy of Media History Digital Library](https://lantern.mediahist.org/catalog/swing9141whbb_0247).
+  - image: /images/397px-l.b._johnson_signing_public_broadcasting_act_of_1967.jpg
+    title: P﻿resident Lyndon B. Johnson signing the Public Broadcasting Act of 1967.
+      LBJ Library.
+      [https://commons.wikimedia.org/wiki/File:L.B._Johnson_signing_Public_Broadcasting_Act_of_1967.jpg](https://commons.wikimedia.org/wiki/File:L.B._Johnson_signing_Public_Broadcasting_Act_of_1967.jpg)
 related:
   - url: /programs/the-presidency-1968/
     title: "The Presidency: 1968"
@@ -34,6 +38,14 @@ related:
       scientist Max Lerner of Brandeis University, presented in late 1968 at
       Garland Junior College in Boston.
 relatedExt:
+  - url: https://www.law.cornell.edu/uscode/text/47/396
+    title: Public Broadcasting Act of 1967
+    description: The Public Broadcasting Act of 1967 marked a significant moment in
+      the history of all public broadcasting stations. As President Johnson said
+      at the signing of the Act into law, it gives a "stronger voice to
+      educational radio and television." The Act led to the establishment of the
+      Corporation for Public Broadcasting (CPB), the Public Broadcasting Service
+      (PBS), and National Public Radio (NPR).
   - url: https://americanarchive.org/exhibits/watergate
     title: "“Gavel-to-Gavel”: The Watergate Scandal and Public Television"
     description: Full exhibit at the American Archive of Public Broadcasting, a
