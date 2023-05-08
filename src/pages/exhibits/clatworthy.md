@@ -13,6 +13,10 @@ lede: Just a few years after its launch in October 1970, the Public Broadcasting
   Friendly, Robert F. Schenkkan, and Hartford N. Gunn, Jr. live on in the
   system’s ongoing commitment to journalistic integrity.
 visuals:
+  - image: /images/397px-l.b._johnson_signing_public_broadcasting_act_of_1967.jpg
+    title: P﻿resident Lyndon B. Johnson signing the Public Broadcasting Act of 1967.
+      LBJ Library.
+      [https://commons.wikimedia.org/wiki/File:L.B._Johnson_signing_Public_Broadcasting_Act_of_1967.jpg](https://commons.wikimedia.org/wiki/File:L.B._Johnson_signing_Public_Broadcasting_Act_of_1967.jpg)
   - image: ../../../static/images/service-pnp-cph-3c30000-3c37000-3c37900-3c37944v.jpg
     title: Fred W. Friendly, talking with then Vice President Lyndon Johnson. World
       Telegram & Sun photograph by Phil Stanziola. [Library of Congress Prints
@@ -27,10 +31,10 @@ visuals:
 
 
       *Swing* (August 1953). Kansas City: WHB Broadcasting Co. [Courtesy of Media History Digital Library](https://lantern.mediahist.org/catalog/swing9141whbb_0247).
-  - image: /images/397px-l.b._johnson_signing_public_broadcasting_act_of_1967.jpg
-    title: P﻿resident Lyndon B. Johnson signing the Public Broadcasting Act of 1967.
-      LBJ Library.
-      [https://commons.wikimedia.org/wiki/File:L.B._Johnson_signing_Public_Broadcasting_Act_of_1967.jpg](https://commons.wikimedia.org/wiki/File:L.B._Johnson_signing_Public_Broadcasting_Act_of_1967.jpg)
+  - title: First Lady Pat Nixon Receives a Christmas Gift Feather from Sesame
+      Street's Big Bird. December 1970, The Nixon Library.
+      <https://commons.wikimedia.org/wiki/File:Pat_Nixon_and_Big_Bird.jpg>
+    image: /images/5385-12a-small.jpg
 related:
   - url: /programs/the-presidency-1968/
     title: "The Presidency: 1968"
