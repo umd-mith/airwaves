@@ -67,6 +67,8 @@ One advocate for classical music on public radio was Burton Paulu. He came to Mi
 
 ![Black and white photo of two men wearing suits in a radio broadcast control room. One is seated and adjusting a dial. The other stands behind him with his hands in his pockets.](/images/kuom-control.jpg "Radio Station KUOM. Control Panels. ")
 
+*Radio Station KUOM. Control Panels*. 1926. University of Minnesota Libraries, University Archives., <https://umedia.lib.umn.edu/item/p16022coll175:4056>
+
 Two documents provide Paulu’s own account of the role of music in his career. The first is part of KUOM’s “Retrospective Spectacular,” a digitized recording of a series of interviews and old audio clips created in 1974 and currently held at the University of Minnesota.
 
 In the March 30 episode, Paulu discusses the intricacies of his job as music director of KUOM:
