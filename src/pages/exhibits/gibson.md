@@ -13,6 +13,9 @@ lede: Public Broadcasting arose in the U.S. during the 1920s, a time of intense
   a new vision for what music over the airwaves could and should do, and he
   applied this to his work as a radio manager and an advocate for public radio.
 visuals:
+  - image: /images/paulu.jpeg
+    title: Portrait of Burton Paulu from 1970.
+      <https://umedia.lib.umn.edu/item/p16022coll175:15844>
   - image: /images/kuom.jpg
     title: KUOM was granted a broadcast license in 1922. P﻿aulu began working for
       the station in 1931 and became its director in 1938.
@@ -27,9 +30,6 @@ visuals:
 
 
       <https://www.unlockingtheairwaves.org/document/naeb-b070-f03/#161>
-  - image: /images/paulu.jpeg
-    title: Portrait of Burton Paulu from 1970.
-      <https://umedia.lib.umn.edu/item/p16022coll175:15844>
 related:
   - url: /people/Q5000894
     title: Authority record for Burton Paulu
@@ -65,7 +65,7 @@ By the 1950s, both radio and classical music had migrated to the academy. Tempor
 
 One advocate for classical music on public radio was Burton Paulu. He came to Minnesota to get a degree in music from the University of Minnesota in 1931. That year he got a job at KUOM, developing a music appreciation series that lasted fourteen years. He became station director of KUOM in 1938. During WWII, Paulu temporarily left KUOM to serve in the Office of War Information. He returned after the war with a new vision for what music over the airwaves could and should do, and he applied this to his work as a radio manager and an advocate for public radio. That work accelerated after he earned a Ph.D. in communications from New York University in 1949 with a specialization in the comparative study of U.S. and British public radio systems.
 
-
+![Black and white photo of two men wearing suits in a radio broadcast control room. One is seated and adjusting a dial. The other stands behind him with his hands in his pockets.](/images/kuom-control.jpg "Radio Station KUOM. Control Panels. ")
 
 Two documents provide Paulu’s own account of the role of music in his career. The first is part of KUOM’s “Retrospective Spectacular,” a digitized recording of a series of interviews and old audio clips created in 1974 and currently held at the University of Minnesota.
 
