@@ -39,7 +39,7 @@ relatedExt:
     description: Full exhibit at the American Archive of Public Broadcasting, a
       collaboration between the Library of Congress and GBH.
 ---
-In September 1971, the thirty seventh president of the United States was angry. Richard M. Nixon (January 9, 1913 – April 22, 1994) had learned that PBS, the newly launched, government-sponsored television service, had hired perceived liberal journalists Sander Vanocur—formerly of NBC News—and Canadian Robert “Robin” MacNeil to host a weekly politics program. Nixon’s reaction was highlighted in a 1979 Washington Post article describing documents released in response to a Freedom of Information Act request:
+In September 1971, the thirty seventh president of the United States was angry. [Richard M. Nixon](https://bavd.unlockingtheairwaves.org/entity/Q9588/) (January 9, 1913 – April 22, 1994) had learned that PBS, the newly launched, government-sponsored television service, had hired perceived liberal journalists Sander Vanocur—formerly of NBC News—and Canadian Robert “Robin” MacNeil to host a weekly politics program. Nixon’s reaction was highlighted in a 1979 Washington Post article describing documents released in response to a Freedom of Information Act request:
 
 > "The above report greatly disturbed the President, who considered this the last straw," the memo said. "It was requested that all funds for Public Broadcasting be cut immediately. You should work this out so that the House Appropriations Committee gets the word."
 
@@ -49,7 +49,7 @@ How did a non-commercial broadcaster with deep educational roots run afoul of th
 
 **Fred W. Friendly (1915-1998)** 
 
-Producer Fred W. Friendly (1915-1998) became a media legend based on his long-term partnership with CBS journalist Edward R. Murrow. Friendly’s initial exposure to broadcasting was in 1937 at a Rhode Island radio station, where he created a daily program credited as possibly the first radio documentary series.
+Producer [Fred W. Friendly](https://bavd.unlockingtheairwaves.org/entity/Q339631/) (1915-1998) became a media legend based on his long-term partnership with CBS journalist Edward R. Murrow. Friendly’s initial exposure to broadcasting was in 1937 at a Rhode Island radio station, where he created a daily program credited as possibly the first radio documentary series.
 
 In the late 1940s, Friendly began his collaboration with Murrow by asking him to narrate *I Can Hear It Now*, a series of record albums using original recordings to portray historical events. The duo later developed the concept into *See It Now*, a CBS News television program premiering in November 1951.
 
@@ -61,7 +61,7 @@ After PBS’ formation, Friendly and Bundy supported the creation of the Nationa
 
 **Robert F. Schenkkan (Mar. 17, 1917 - Dec. 9, 2011)** 
 
-Robert F. Schenkkan (Mar. 17, 1917 - Dec. 9, 2011) was a seminal figure in the development, growth, and integrity of American public broadcasting. After graduating from and teaching at the University of North Carolina, Schenkkan was invited in 1955 to launch WUNC, the nation's tenth public television station. Soon he was recruited by the University of Texas, where he helped create the state's network of radio and television stations.
+[Robert F. Schenkkan](https://bavd.unlockingtheairwaves.org/entity/Q107621687) (Mar. 17, 1917 - Dec. 9, 2011) was a seminal figure in the development, growth, and integrity of American public broadcasting. After graduating from and teaching at the University of North Carolina, Schenkkan was invited in 1955 to launch WUNC, the nation's tenth public television station. Soon he was recruited by the University of Texas, where he helped create the state's network of radio and television stations.
 
 Schenkkan was credited by journalist/commentator Bill Moyers and others as a driving force in the creation of PBS, including his working relationship with President Lyndon Johnson in the development of 1967's Public Broadcasting Act. In 1971, Schenkkan composed a draft paper entitled, “Public Broadcasting and Journalistic Integrity: A Policy Statement of Public Broadcasting Service.” It’s not difficult to see Schenkkan’s passion for objectivity and accuracy manifested in such journalistic creations as *The MacNeil/Lehrer Report*, now *The PBS Newshour*. He wrote:
 
@@ -75,7 +75,7 @@ As a member of the PBS board, Schenkkan fired back by writing that the change �
 
 **Hartford N. Gunn, Jr. (1927-1986)** 
 
-Gunn was known as a promoter of technological advancement, introducing videotape and color broadcasts and creating the Eastern Educational Network (EEN), a regional public television station cooperative. In the late 1960s, he and his WGBH colleagues advocated the creation of a new national public television service. In 1970, despite his initial reluctance to accepting the role, he became the first president of his own brainchild.
+[Gunn](https://bavd.unlockingtheairwaves.org/entity/Q71751630/) was known as a promoter of technological advancement, introducing videotape and color broadcasts and creating the Eastern Educational Network (EEN), a regional public television station cooperative. In the late 1960s, he and his WGBH colleagues advocated the creation of a new national public television service. In 1970, despite his initial reluctance to accepting the role, he became the first president of his own brainchild.
 
 Under Gunn’s tenure PBS launched many of its most treasured series, including *Sesame Street*, *Masterpiece Theatre*, *NOVA*, and *Great Performances*. However, the service’s early years were anything but placid, suffering from a combination of political and funding hurdles. As former NET president James Day argued in his book, *The Vanishing Vision*:
 
