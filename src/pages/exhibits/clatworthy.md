@@ -61,6 +61,11 @@ relatedExt:
       CPB incorporated in March of the following year and established the Public
       Broadcasting Service (PBS) on November 3, 1969. PBS itself launched on
       October 5, 1970.
+  - description: Richard Nixon, Veto of Public Broadcasting Bill. Online by Gerhard
+      Peters and John T. Woolley, The American Presidency Project
+      https://www.presidency.ucsb.edu/node/254612
+    url: https://www.presidency.ucsb.edu/node/254612
+    title: Nixon's Veto of Public Broadcasting Bill.
 ---
 In September 1971, the thirty seventh president of the United States was angry. [Richard M. Nixon](https://bavd.unlockingtheairwaves.org/entity/Q9588/) (January 9, 1913 – April 22, 1994) had learned that PBS, the newly launched, government-sponsored television service, had hired perceived liberal journalists Sander Vanocur—formerly of NBC News—and Canadian Robert “Robin” MacNeil to host a weekly politics program. Nixon’s reaction was highlighted in a 1979 Washington Post article describing documents released in response to a Freedom of Information Act request:
 
