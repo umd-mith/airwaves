@@ -34,7 +34,7 @@ visuals:
   - title: First Lady Pat Nixon Receives a Christmas Gift Feather from Sesame
       Street's Big Bird. December 1970, The Nixon Library.
       <https://commons.wikimedia.org/wiki/File:Pat_Nixon_and_Big_Bird.jpg>
-    image: /images/5385-12a-small.jpg
+    image: ../../../static/images/5385-12a-small.jpg
 related:
   - url: /programs/the-presidency-1968/
     title: "The Presidency: 1968"
