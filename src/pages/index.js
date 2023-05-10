@@ -87,6 +87,9 @@ const IndexPage = () => (
           <Link className="button" to="/explore/">
             Explore the Archive
           </Link>
+          <Link className="button" to="https://bavd.unlockingtheairwaves.org/">
+            Linked Data
+          </Link>
         </section>
       </div>
     </div>
