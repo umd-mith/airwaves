@@ -40,6 +40,8 @@ The NAEB’s collections have much to tell us about 20th century American cultur
 
 *Unlocking the Airwaves* has been made possible in part by a major grant from the National Endowment for the Humanities' Humanities Collections and Reference Resources (HCRR) program. [Click here to access the final white paper for this project](https://drum.lib.umd.edu/handle/1903/28522), which contains much more about [our findings](https://mith.umd.edu/news/unlocking-the-airwaves-launch) throughout the process of creating this website, as well as links to video tutorials, documentation for our workflows, presentations, and more. 
 
+T﻿he NEH has also funded a related project to *Unlocking the Airwaves*, called *Broadcasting Audiovisual Data*. BA/VD centers on authority records for people and organizations (entities) in not only the NAEB collections, but also three additional radio collections at the University of Maryland, the University of Minnesota, and the University of Wisconsin-Madison. [Click here to access the BA/VD project site](https://bavd.unlockingtheairwaves.org/), which is a sub-domain of this website.
+
 ![](../../../static/images/white-paper-cover-image.png)
 
 ## The National Association of Educational Broadcasters (NAEB)
