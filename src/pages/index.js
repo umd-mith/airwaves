@@ -79,6 +79,9 @@ const IndexPage = () => (
             the collections of the NAEB for exploration and and the broader
             public.
           </p>
+          <p>
+            Click on the "Linked Data" button to visit the website for <i>Broadcasting Audiovisual Data</i>, an <i>Unlocking the Airwaves</i> sister project. BA/VD centers on authority records for people and organizations (entities) in not only the NAEB collections, but also three additional radio collections at the University of Maryland, the University of Minnesota, and the University of Wisconsin-Madison.
+          </p>
         </section>
         <section className="internal-jump-links">
           <Link className="button" to="/about/">
