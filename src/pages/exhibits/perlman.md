@@ -28,6 +28,16 @@ related:
       involvement in television production, the distribution of federal grants
       for educational television programs, and the NAEB's relationship with the
       National Educational Television and Radio Center (NETRC).
+  - url: /exhibits/origins-of-the-naeb-and-educational-media/
+    title: Origins of the NAEB and Educational Media
+    description: Affiliates of the National Association of Educational Broadcasters
+      (NAEB) built American public media between 1925 and 1967, making it one of
+      the central trade organizations of American media history. Originally
+      founded in 1925 as the Association of College and University Broadcasting
+      Stations (ACUBS), the educational technologists of the NAEB sought to
+      utilize radio to increase equal access to education. Its history gives us
+      an opportunity to trace the key players, events, and content that
+      engendered our community, public, and distance learning institutions.
 ---
 That the NAEB and the Educational Television and Radio Center should have a strong relationship was presumed from the start. The NAEB had collaborated in 1952 with the Fund for Adult Education (FAE), an entity created by but distinct from the Ford Foundation, to create the ETRC to provide programming to educational broadcasting stations. Most of the stations who would produce and air the ETRC’s programs would be NAEB members. And FAE President C. Scott Fletcher urged that the ETRC retain an advisory committee composed of members of the NAEB, tasked with providing guidance and feedback to the Center. 
 
