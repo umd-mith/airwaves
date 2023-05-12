@@ -12,6 +12,9 @@ visuals:
   - image: ../../../static/images/naeb-grants.png
     title: Brochure announcing the NAEB's grants-in-aid program.
       <https://www.unlockingtheairwaves.org/document/naeb-b074-f02-17/>
+  - image: ../../../static/images/paulu.jpeg
+    title: Portrait of Burton Paulu from
+      1970. <https://umedia.lib.umn.edu/item/p16022coll175:15844>
 related:
   - url: /document/naeb-b074-f02-17/
     title: NAEB Grants-in-Aid Brochure
