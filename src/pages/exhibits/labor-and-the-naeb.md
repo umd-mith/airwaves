@@ -17,8 +17,7 @@ visuals:
   - image: ../../../static/images/naeb-b067-f02_0158-crop.png
     title: Portrait of Morris Novik at the head of a Broadcasting Magazine piece
       entitled ‘Labor Turns to Radio.' [Read the entire piece at the *Unlocking
-      the Airwave*s
-      website](/document/naeb-b067-f02/#159).
+      the Airwave*s website](/document/naeb-b067-f02/#159).
   - image: ../../../static/images/mnovik_egoldberger_election-wnyc.jpg
     title: 'Morris Novik and the WNYC election night news team circa 1941. Photo
       courtesy of WNYC Archive Collections, from the feature piece "[Morris S.
@@ -164,4 +163,4 @@ Lichtenstein, Nelson. “The Unions’ Retreat in the Postwar Era.” In *Major 
 
 McChesney, Robert W. *Telecommunications, Mass Media, and Democracy: The Battle for the Control of U.S. Broadcasting, 1928-1935*. New York: Oxford University Press, 1993.
 
-**[Allison Perlman](https://www.faculty.uci.edu/profile.cfm?faculty_id=5878)** is an Associate Professor in the Departments of History and Film and Media Studies at the University of California, Irvine. She is the author of *Public Interests: Media Advocacy and Struggles Over US Television* (Rutgers UP, 2016), which won the Outstanding Book Prize from the Popular Culture Division of the International Communication Association. She is currently writing a history of National Educational Television (NET). In addition, she and Josh Shepperd are currently revising *The History of Public Broadcasting* for the Corporation of Public Broadcasting. She has served in leadership roles for the Library of Congress’ Radio Preservation Task Force and currently is the co-chair of the Scholars Advisory Committee for the American Archive for Public Broadcasting.
+**[Allison Perlman](https://www.faculty.uci.edu/profile.cfm?faculty_id=5878)** is an Associate Professor in the Departments of History and Film and Media Studies at the University of California, Irvine. She is the author of *Public Interests: Media Advocacy and Struggles Over US Television* (Rutgers UP, 2016), which won the Outstanding Book Prize from the Popular Culture Division of the International Communication Association. She is currently writing a history of National Educational Television (NET). In addition, she and Josh Shepperd are revising *The History of Public Broadcasting* for the Corporation of Public Broadcasting. She has served in leadership roles for the Library of Congress’ Radio Preservation Task Force and currently is the co-chair of the Scholars Advisory Committee for the American Archive for Public Broadcasting.
