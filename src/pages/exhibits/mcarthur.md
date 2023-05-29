@@ -93,19 +93,26 @@ The questionnaire included:
 >
 > “Question 8: Do you consider predominantly American cultural material in the lessons would, if carefully selected, be interesting and meaningful to listeners?” 
 
-Conary, the capital of Guinea (independent from France in1958), responded thus to Question 8: “No. Material should be adapted to make it meaningful and interesting to African listeners.” Cotonou, a city in Benin(independent from France in 1960), responded: “Some Americana OK, but how about some African too? It would beat out the BBC.” Dar es Salaam, in Tanzania(independent from Britain in 1961), simply said “No, it would be suspect.” Khartoum, the capital of Sudan(independent from Britain and Egypt in 1956), responded: “Yes, especially if periodic comparisons made between Arabic and American cultures.” Mexico City: “Inherited, unthinking resentment against U.S. so some resistance to Americana. Use it anyway.” Tripoli, capital of Libya (administered by France and Britain after WWII, independent in  1951), simply responded: “No.” Vienna gave a qualified response: “Yes, if not obviously propagandistic or too self-congratulatory in tone and nature.”
+* • Conary, the capital of Guinea (independent from France in1958), responded thus to Question 8: “No. Material should be adapted to make it meaningful and interesting to African listeners.”
+* • Cotonou, a city in Benin(independent from France in 1960), responded: “Some Americana OK, but how about some African too? It would beat out the BBC.” Dar es Salaam, in Tanzania(independent from Britain in 1961), simply said “No, it would be suspect.”
+* • Khartoum, the capital of Sudan(independent from Britain and Egypt in 1956), responded: “Yes, especially if periodic comparisons made between Arabic and American cultures.”
+* • Mexico City: “Inherited, unthinking resentment against U.S. so some resistance to Americana. Use it anyway.”
+* • Tripoli, capital of Libya (administered by France and Britain after WWII, independent in  1951), simply responded: “No.”
+* • Vienna gave a qualified response: “Yes, if not obviously propagandistic or too self-congratulatory in tone and nature.”
 
 To question 1, Managua, capital of Nicaragua(independent from the U.S. in  1933), gave a skeptical response: “Limited use as part of USIS teaching services. 70% illiteracy here.” Port-au-Prince, capital of Haiti, felt differently: “With 85-90% illiteracy rate, radio teaching is most important.” Oslo: “No use. Norwegians do an excellent job themselves.” 
 
 Comments and suggestions on developing the English-by-Radio program imply shifting cultural alliances and the VOA’s efforts to compete with the BBC, and the U.S. to compete with the U.K, for global influence in the postwar era:
 
-* “Baghdad: Urge go-ahead. Far more merit in this program than some other current VOA activities.” “Bonn: Courses would not be accepted, nor are they needed.”
-* “Brazzaville \[capital of the Congo, independence from Belgium: 1960]: Don’t want to antagonize British. BBC course only cultural activity they have in this country. Only approach C.A.R. authorities if agreement satisfactory to British is worked out.”
-* “Cairo: Long-felt need for new and better English material for the Arab world. We are ready, willing and able to assist.”
-* “Dar es Salaam: No priority can be given to English programs…. New, national emphasis on Swahili mitigates against English.”
-* “Libreville: Must convince British that our objectives are the same.”
-* “Mexico City: Good clear American English pronunciation, with neutral Spanish (no river Plate or Cuban accent) if tapes are made for Latin America."
-* Usumbura, now Bujumbura, the capital of Burundi (independence from Belgium, 1962: “French-English; cheap attractive printed te\[x]t; deal with things and situations familiar to Africans. SHOULD NOT BE DULL!”
+* • “Baghdad: Urge go-ahead. Far more merit in this program than some other current VOA activities.” “Bonn: Courses would not be accepted, nor are they needed.” 
+* • “Brazzaville \[capital of the Congo, independence from Belgium: 1960]: Don’t want to antagonize British. BBC course only cultural activity they have in this country. Only approach C.A.R. authorities if agreement satisfactory to British is worked out.”
+* • “Cairo: Long-felt need for new and better English material for the Arab world. We are ready, willing and able to assist.”
+* • “Dar es Salaam: No priority can be given to English programs…. New, national emphasis on Swahili mitigates against English.”
+* • “Libreville: Must convince British that our objectives are the same.”
+* • “Mexico City: Good clear American English pronunciation, with neutral Spanish (no river Plate or Cuban accent) if tapes are made for Latin America."
+* • Usumbura, now Bujumbura, the capital of Burundi (independence from Belgium, 1962: “French-English; cheap attractive printed te\[x]t; deal with things and situations familiar to Africans. SHOULD NOT BE DULL!”
+
+
 
 Would these varied audiences have found the poems chosen for the Poetry Project dull? The poem generally seem inoffensive, as if the VOA heeded requests to avoid explicit propaganda championing American values. But they often imply democratic, individualistic and revolutionary values, and the biographical sketches of the poets sometimes extol such values explicitly. A sketch of Wallace Stevens, whose anti-convention poem “Disillusionment of Ten O’Clock” was featured, is laughably described as “not influenced by other poets.” Emily Dickinson is represented by a poem that expresses the thrill of rebellion:
 
