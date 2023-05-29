@@ -13,6 +13,13 @@ lede: Radio programming, by its collaborative nature, connects people—in
   by the well-known news broadcaster, who had becomes Director of the United
   States Information Agency, Edward R. Murrow.
 visuals:
+  - image: ../../../static/images/kennedy-murrow.jpg
+    title: >-
+      President John F. Kennedy Attends Swearing-in of Edward R. Murrow as
+      Director of the USIA. March 21, 1961.
+
+
+      Abbie Rowe. White House Photographs. John F. Kennedy Presidential Library and Museum, Boston. <https://www.jfklibrary.org/asset-viewer/archives/JFKWHP/1961/Month%2003/Day%2021/JFKWHP-1961-03-21-E>
   - title: L﻿etter to Dr. Robert Goodell regarding the use of Robert Frost's poetry
       in the Voice of America Poetry Project. April 20, 1964.
       <https://www.unlockingtheairwaves.org/document/naeb-b100-f04/#52>
@@ -41,6 +48,10 @@ related:
       lectures that contextualize and interpret the poems for the audience,
       often with paeans to the universal and unchanging nature of poetic subject
       matter.
+relatedExt:
+  - url: https://bavd.unlockingtheairwaves.org/entity/Q107621641/
+    title: James A. Fellows
+    description: National Association of Educational Broadcasters, Syracuse University
 ---
 Radio programming, by its collaborative nature, connects people—in networks that can be easily mapped, but also in less visible, or inaudible, networks. Radio’s writers, broadcasters, producers, volunteers and other staff leave archival traces of their work in recordings, financial documents, correspondence, and so on. How many listeners a radio program reaches, and who they are, can be harder to track. 
 
@@ -60,7 +71,7 @@ While some documents relate to the poetry project, some of the most fascinating 
 
 Page 20 of the VOA Poetry Project materials begins with a contract between the United States of America—specifically the U.S. Information Agency (founded by President Eisenhower in 1953, and absorbed into the U.S. Department of State in 1999))—and the NAEB. It projects “A series of thirty-nine (39) fifteen minute scripts at the intermediate level, dealing with intonation, pronunciation and rhythm,” following “A written prospectus outlining a graded sequence of language structures in 15-minute broadcast programs from the elementary through the advanced level … based up on that found in the USIA-NCTE publication, ‘English for Today.’ ” The contract also included “A series of 13 analysis-commentaries on poems for the Agency’s projected ‘English through Poetry’ series.” 
 
-Early on, the documents are mostly letters from one James T. Fellows (listed as as a radio executive in the BAVD database via the Entities search option, with 23 linked documents, including the Voice of American Poetry project) to various publishers, requesting  permission to  to include particular poems in broadcasting and print materials. 
+Early on, the documents are mostly letters from one James A. Fellows (listed as as a radio executive in the BAVD database via the Entities search option, with 23 linked documents, including the Voice of American Poetry project) to various publishers, requesting  permission to  to include particular poems in broadcasting and print materials. 
 
 As a typical permissions letter explained, “In each script the poem will be read in its entirety, and the listeners will also be invited to read the lines aloud in appropriate units after the radio speaker.” Additionally, permission was requested to possibly “use the poems on the Voice of America program, and … permit the program to be rebroadcast in countries where local radio stations receive taped programs through the United States Information Agency,” and to print the poems in a pamphlet to be distributed to interested listeners.
 
