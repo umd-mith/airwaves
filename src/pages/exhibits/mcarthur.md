@@ -13,6 +13,10 @@ lede: Radio programming, by its collaborative nature, connects people—in
   by the well-known news broadcaster, who had becomes Director of the United
   States Information Agency, Edward R. Murrow.
 related:
+  - url: /document/naeb-b100-f04/
+    title: Voice of America poetry project, 1963-1964 [240 pages]
+    description: 1963-1964 correspondence and publications of or relating to the
+      NAEB Voice of America poetry project.
   - url: /exhibits/poetry-programming-in-the-naeb-collection/
     title: Poetry Programming in the NAEB Collection
     description: The three programs devoted to poetry in the NAEB collection—Poetry
@@ -69,7 +73,15 @@ Conary, the capital of Guinea (independent from France in1958), responded thus t
 
 To question 1, Managua, capital of Nicaragua(independent from the U.S. in  1933), gave a skeptical response: “Limited use as part of USIS teaching services. 70% illiteracy here.” Port-au-Prince, capital of Haiti, felt differently: “With 85-90% illiteracy rate, radio teaching is most important.” Oslo: “No use. Norwegians do an excellent job themselves.” 
 
-Comments and suggestions on developing the English-by-Radio program imply shifting cultural alliances and the VOA’s efforts to compete with the BBC, and the U.S. to compete with the U.K, for global influence in the postwar era : “Baghdad: Urge go-ahead. Far more merit in this program than some other current VOA activities.” “Bonn: Courses would not be accepted, nor are they needed.” “Brazzaville \[capital of the Congo, independence from Belgium: 1960]: Don’t want to antagonize British. BBC course only cultural activity they have in this country. Only approach C.A.R. authorities if agreement satisfactory to British is worked out.” “Cairo: Long-felt need for new and better English material for the Arab world. We are ready, willing and able to assist.” “Dar es Salaam: No priority can be given to English programs…. New, national emphasis on Swahili mitigates against English.” “Libreville: Must convince British that our objectives are the same.” “Mexico City: Good clear American English pronunciation, with neutral Spanish (no river Plate or Cuban accent) if tapes are made for Latin America. Usumbura, now Bujumbura, the capital of Burundi (independence from Belgium, 1962: “French-English; cheap attractive printed te\[x]t; deal with things and situations familiar to Africans. SHOULD NOT BE DULL!”
+Comments and suggestions on developing the English-by-Radio program imply shifting cultural alliances and the VOA’s efforts to compete with the BBC, and the U.S. to compete with the U.K, for global influence in the postwar era:
+
+* “Baghdad: Urge go-ahead. Far more merit in this program than some other current VOA activities.” “Bonn: Courses would not be accepted, nor are they needed.”
+* “Brazzaville \[capital of the Congo, independence from Belgium: 1960]: Don’t want to antagonize British. BBC course only cultural activity they have in this country. Only approach C.A.R. authorities if agreement satisfactory to British is worked out.”
+* “Cairo: Long-felt need for new and better English material for the Arab world. We are ready, willing and able to assist.”
+* “Dar es Salaam: No priority can be given to English programs…. New, national emphasis on Swahili mitigates against English.”
+* “Libreville: Must convince British that our objectives are the same.”
+* “Mexico City: Good clear American English pronunciation, with neutral Spanish (no river Plate or Cuban accent) if tapes are made for Latin America."
+* Usumbura, now Bujumbura, the capital of Burundi (independence from Belgium, 1962: “French-English; cheap attractive printed te\[x]t; deal with things and situations familiar to Africans. SHOULD NOT BE DULL!”
 
 Would these varied audiences have found the poems chosen for the Poetry Project dull? The poem generally seem inoffensive, as if the VOA heeded requests to avoid explicit propaganda championing American values. But they often imply democratic, individualistic and revolutionary values, and the biographical sketches of the poets sometimes extol such values explicitly. A sketch of Wallace Stevens, whose anti-convention poem “Disillusionment of Ten O’Clock” was featured, is laughably described as “not influenced by other poets.” Emily Dickinson is represented by a poem that expresses the thrill of rebellion:
 
