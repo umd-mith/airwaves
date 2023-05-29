@@ -12,6 +12,19 @@ lede: Radio programming, by its collaborative nature, connects people—in
   all over the world, in response to a Voice of America questionnaire sent out
   by the well-known news broadcaster, who had becomes Director of the United
   States Information Agency, Edward R. Murrow.
+visuals:
+  - title: L﻿etter to Dr. Robert Goodell regarding the use of Robert Frost's poetry
+      in the Voice of America Poetry Project. April 20, 1964.
+      <https://www.unlockingtheairwaves.org/document/naeb-b100-f04/#52>
+    image: ../../../static/images/screenshot-2023-05-29-at-4.42.14-pm.png
+  - image: ../../../static/images/screenshot-2023-05-29-at-4.47.19-pm.png
+    title: U﻿.S. Information Agency Memo regarding the English-by-Radio program,
+      signed by "MURROW." February 11, 1963.
+      <https://www.unlockingtheairwaves.org/document/naeb-b100-f04/#199>
+  - title: L﻿etter to James A. Fellows regarding the use of Wallace Stevens' poetry
+      in the Voice of America Poetry Project. April 28, 1964.
+      <https://www.unlockingtheairwaves.org/document/naeb-b100-f04/#42>
+    image: ../../../static/images/screenshot-2023-05-29-at-4.51.33-pm.png
 related:
   - url: /document/naeb-b100-f04/
     title: Voice of America poetry project, 1963-1964 [240 pages]
