@@ -2,7 +2,7 @@
 title: "The Global Politics of American Culture and the English Language: A
   Voice of America Survey"
 creator: Marit McArthur
-key-image: ../../../static/images/bavd-logo.png
+key-image: ../../../static/images/voa-cover.png
 lede: Radio programming, by its collaborative nature, connects people—in
   networks that can be easily mapped, but also in less visible, or inaudible,
   networks. In this exhibit, I share my exploration of the 240 pages listed
