@@ -19,6 +19,32 @@ visuals:
   - image: ../../../static/images/npr-model.png
     title: A﻿ Model for a National Public Radio System, Hartford N. Gunn, Jr.
       <https://www.unlockingtheairwaves.org/document/naeb-b093-f02/#131>
+  - image: ../../../static/images/president-johnson-signs-public-broadcasting-law_orig.jpg
+    title: President Lyndon Johnson signs the Public Broadcasting Act on November 7,
+      1967. Yoichi Okamoto, LBJ Library.
+related:
+  - url: /exhibits/clatworthy/
+    title: Pioneers and Protectors of PBS Journalism
+    description: Just a few years after its launch in October 1970, the Public
+      Broadcasting Service (PBS) found itself being targeted by President
+      Richard Nixon who requested that "all funds for Public Broadcasting be cut
+      immediately." How did a non-commercial broadcaster with deep educational
+      roots run afoul of the most powerful man on earth so early in its
+      existence, and what individuals and institutions may have played a role in
+      initiating or navigating the crisis? At least three relevant historical
+      figures—as well as a legendary adversary—are documented in the BAVD
+      collection. The dedication and contributions of Fred W. Friendly, Robert
+      F. Schenkkan, and Hartford N. Gunn, Jr. live on in the system’s ongoing
+      commitment to journalistic integrity.
+  - url: /exhibits/origins-of-the-naeb-and-educational-media/
+    title: Origins of the NAEB and Educational Media
+    description: >+
+      Affiliates of the National Association of Educational Broadcasters (NAEB)
+      built American public media between 1925 and 1967, making it one of the
+      central trade organizations of American media history. Its history gives
+      us an opportunity to trace the key players, events, and content that
+      engendered our community, public, and distance learning institutions.
+
 relatedExt:
   - title: Edwin Burrows
     url: https://bavd.unlockingtheairwaves.org/entity/Q103208872
@@ -41,6 +67,21 @@ relatedExt:
       position as Executive Director of National Educational Radio within the
       NAEB. In this role, he proved central to the inclusion of radio in the
       Public Broadcasting Act of 1967.
+  - url: https://cpb.org/AboutCPB/History-Timeline
+    title: Corporation for Public Broadcasting - History Timeline
+    description: President Lyndon B. Johnson signed the Public Broadcasting Act
+      November 7, 1967, which formed the Corporation for Public Broadcasting.
+      CPB incorporated in March of the following year and established the Public
+      Broadcasting Service (PBS) on November 3, 1969. PBS itself launched on
+      October 5, 1970.
+  - url: https://www.law.cornell.edu/uscode/text/47/396
+    title: Public Broadcasting Act of 1967
+    description: The Public Broadcasting Act of 1967 marked a significant moment in
+      the history of all public broadcasting stations. As President Johnson said
+      at the signing of the Act into law, it gives a "stronger voice to
+      educational radio and television." The Act led to the establishment of the
+      Corporation for Public Broadcasting (CPB), the Public Broadcasting Service
+      (PBS), and National Public Radio (NPR).
 ---
 
 
