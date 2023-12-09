@@ -124,3 +124,7 @@ On August 9, 1974, Richard Nixon resigned from office to avoid what was regarded
 * • The author selected the subjects based on his experiences managing the PBS Archives. What other individuals or institutions documented in the collection may have influenced the early development of public television? 
 * • Do the documents, references, and media links listed in the BAVD collection entries reveal how the profiled subjects may have interacted with and influenced each other?
 * • Public television and radio are inextricably bound by a shared heritage, joint licenses, technical facilities, and common funding sources. Which entities flagged in the BAVD metadata played similar roles in the development of public radio from the time of the founding of the NAEB in the 1920s?
+
+\*\**
+
+[Glenn Clatworthy](https://www.linkedin.com/in/glennclatworthy) is an independent media researcher and self-proclaimed enthusiast of linked data. He previously worked at PBS, where he curated program metadata, managed data quality, and developed business intelligence applications describing thousands of current and historical public television programs.
