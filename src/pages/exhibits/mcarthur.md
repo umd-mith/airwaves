@@ -112,8 +112,6 @@ Comments and suggestions on developing the English-by-Radio program imply shifti
 * • “Mexico City: Good clear American English pronunciation, with neutral Spanish (no river Plate or Cuban accent) if tapes are made for Latin America."
 * • Usumbura, now Bujumbura, the capital of Burundi (independence from Belgium, 1962: “French-English; cheap attractive printed te\[x]t; deal with things and situations familiar to Africans. SHOULD NOT BE DULL!”
 
-
-
 Would these varied audiences have found the poems chosen for the Poetry Project dull? The poem generally seem inoffensive, as if the VOA heeded requests to avoid explicit propaganda championing American values. But they often imply democratic, individualistic and revolutionary values, and the biographical sketches of the poets sometimes extol such values explicitly. A sketch of Wallace Stevens, whose anti-convention poem “Disillusionment of Ten O’Clock” was featured, is laughably described as “not influenced by other poets.” Emily Dickinson is represented by a poem that expresses the thrill of rebellion:
 
 > I never hear the word “Escape”
@@ -126,3 +124,7 @@ Byron is represented by the sentimental “So We’ll Go No More a Roving”—b
 How the “field posts” responded to these poems or the Poetry Project we do not know. But considering these choices in the context of the VOA global survey is valuable. Though in a far less flashy way, American poetry was considered a soft power tool along the lines of Abstract Expressionism, whose promotion with support from the CIA we are more familiar with. Discovering these poems within this larger VOA context pushes us to think of them not as individual literary achievements, but as American cultural capital circulating the globe. 
 
 Ideally, archives should provide maximum flexibility and intuitive paths for exploration, which might fall outside traditional content-driven disciplinary boundaries like literary or poetry studies. People and Organizations, the nodes of networks that one can explore with an Entities search in the BAVD network, promise the possibility of such exploration, though more people and organizations need to be indexed, and ideas of who and what might be relevant may continue to expand. When I came across the Voice of America Poetry Project, the Voice of America, the United States Information Agency, the U.S. Information Service, M.L. Rosenthal and Edward R. Murrow were not yet among the organizations or people indexed in the BAVD database. I am grateful to have participated in this exploration, and the development of the Entities search tool. I believe they can lead us to consider the reception of radio programming in surprising networked contexts, including previously invisible or unheard listeners.
+
+\*\**
+
+**[Marit MacArthur](https://arts.ucdavis.edu/research/marit-j-macarthur)** is Associate Director for Writing Across the Curriculum in the University Writing Program and a research associate in Cinema and Digital Media, both at the University of California, Davis. In 2018-19, she co-directed [Tools for Listening to Text-in-Performance](https://textinperformance.soc.northwestern.edu/), funded by a NEH Digital Humanities Advancement grant.
