@@ -125,3 +125,7 @@ W﻿orks Cited:
 
 Katz, Mark. “Making America More Musical Through the Phonograph” American Music  vol. 
 16, no. 4, University of Illinois Press, 1998, pp. 448–76, <https://doi.org/10.2307/3052289>
+
+\*\**
+
+[Christina Gibson](https://libraries.towson.edu/staff/christina-gibson) is the Performing Arts Librarian at Townson University. Her specialties include Dance, Interdisciplinary Fine Arts, Music, Music Education, and Theatre Arts.
