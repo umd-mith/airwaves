@@ -83,8 +83,6 @@ relatedExt:
       Corporation for Public Broadcasting (CPB), the Public Broadcasting Service
       (PBS), and National Public Radio (NPR).
 ---
-
-
 In 1967, backers of non-commercial radio won a great victory. Four years after losing its major financial supporter, the Ford Foundation, reformers saw the Public Broadcasting Act of 1967 was signed into law, creating the Corporation for Public Broadcasting. Although initially intended to address television only, last minute efforts by educational radio veterans and handwritten and scotch taped additions to the bill expanded its focus to include radio broadcasting in the corporation’s remit. (Mitchell 35) Now however, the rag-tag group of educational broadcasters who had worked tirelessly with scant funds for decades had to develop an actual service and it some ways, their legacy hurt them as much as it helped them. 
 
 The backdoor lobbying by educational radio “guerillas” (as longtime public radio executive Jack Michell described them), alienated sectors of educational broadcasting that saw television as the future. The staffers who had pulled off the coup, [Jerry Sandler](https://bavd.unlockingtheairwaves.org/entity/Q107621649/) and [Edwin Burrows](https://bavd.unlockingtheairwaves.org/entity/Q103208872/) would be ushered out of national public broadcasting positions and would spend the rest of their careers in much smaller locales. But it was not simply ruffled feathers that educational radio was up against. It was also their own reputation for producing dull, highbrow programming. 
@@ -130,8 +128,6 @@ A month later, the criteria began to emerge. In [letter to Quayle on Feb 26](htt
 5. C﻿onsistent operating schedule (staying on the air during semester breaks)
 6. p﻿rogramming philosophy - “If, in fact, the station acknowledges that it is serving a limited public or a selected audience without intending to serve a variety of publics covering a spectrum of the community, it would not qualify for CPB support (Ibid., 55-57).
 
-
-
 By early Spring 1969, a proposal to the CPB Radio Advisory Board noted the acute need for “a precise identification of a ‘public’ radio stations. Until public radio is adequately defined, the corporation is faced with the task of supporting all stations in equal fashion. This appears impractical.” ([Mott to Macy April 8, 1969](https://www.unlockingtheairwaves.org/document/naeb-b093-f02/#22) re March 20-21 meeting of the CPB Radio Advisory committee) Also during this time, Mott began putting the descriptor “public” in quotes as a way of distinguishing stations that met his criteria from those that didn’t. With this, the institutional separation of educational from public radio was put into motion.
 
 On one hand the legacy of these efforts is longstanding. In the intervening years, distinctions among community, college, and public radio stations have been mapped onto these criteria. Particularly for those who were outside the professionalized stations, the concessions involved in gaining legal status or justifying one’s license came with pressure to professionalize and a perception that they may lose what they perceived as their unique ability to reach out to communities not represented in the public sphere. Radio historiography is full of these debates. But on the other hand, the origins of the split between community, educational, and public has not gotten similar amounts of scholarly attention. The story of Robert Mott has gone largely untold because, like the smaller educational stations, he too was put on the outside of a public radio community that desired greater professional status.
@@ -149,3 +145,9 @@ Land, Herman, The Hidden Medium: A Status Report on Educational Radio in the Uni
 Powell, Albert, “KWSU Radio (Pullman),” 2022 https://www.historylink.org/file/22416
 
 Shepperd, Josh. *Shadow of the New Deal: The Victory of Public Broadcasting*. University of Illinois Press, 2023.
+
+
+
+\*\**
+
+[Alexander Russo ](https://mediastudies.catholic.edu/faculty-and-research/faculty-profiles/russo-alexander/index.html)is an Associate Professor in the Department of Media Studies at The Catholic University of America in Washington. He studies the technology and cultural form of radio and television, the development of “old” new media, the history of music and society, and the history of popular culture.
