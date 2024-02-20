@@ -115,8 +115,11 @@ Comments and suggestions on developing the English-by-Radio program imply shifti
 Would these varied audiences have found the poems chosen for the Poetry Project dull? The poem generally seem inoffensive, as if the VOA heeded requests to avoid explicit propaganda championing American values. But they often imply democratic, individualistic and revolutionary values, and the biographical sketches of the poets sometimes extol such values explicitly. A sketch of Wallace Stevens, whose anti-convention poem “Disillusionment of Ten O’Clock” was featured, is laughably described as “not influenced by other poets.” Emily Dickinson is represented by a poem that expresses the thrill of rebellion:
 
 > I never hear the word “Escape”
+
 > Without a quicker blood,
+
 > A sudden expectation –
+
 > A flying attitude!
 
 Byron is represented by the sentimental “So We’ll Go No More a Roving”—but his biographical sketch emphasizes his service in the Greek Revolution. Richard Eberhart, a war hero in World War II, is represented by “For a Lamb,” which describes crows feasting on the rotting carcass of a lamb. One none too subtle choice was Sandburg’s 1920 poem “A.E.F.,” which stands for American Expeditionary Forces, and which hopefully predicts a future in which “a rusty gun on the wall / …. will be spoken among half-forgotten, wished-to-be-forgotten things.” The poem conceived in the hope that the Great War would be the war to end all wars works well as a Cold War vehicle.
@@ -127,4 +130,4 @@ Ideally, archives should provide maximum flexibility and intuitive paths for exp
 
 \*\**
 
-**[Marit MacArthur](https://arts.ucdavis.edu/research/marit-j-macarthur)** is Associate Director for Writing Across the Curriculum in the University Writing Program and a research associate in Cinema and Digital Media, both at the University of California, Davis. In 2018-19, she co-directed [Tools for Listening to Text-in-Performance](https://textinperformance.soc.northwestern.edu/), funded by a NEH Digital Humanities Advancement grant.
+[Marit MacArthur](https://urldefense.com/v3/__https:/www.unlockingtheairwaves.org/exhibits/mcarthur/__;!!Mak6IKo!NufbXX3Cdip6P3sFo-RmPRawdU--Bu5fjqXzCvfBvjXGInqYlIaK9iZlPVPzFQZxAasbbSDETEr4O8jVgA$ "https\://urldefense.com/v3/\_\_https\:/www.unlockingtheairwaves.org/exhibits/mcarthur/\_\_;!!Mak6IKo!NufbXX3Cdip6P3sFo-RmPRawdU--Bu5fjqXzCvfBvjXGInqYlIaK9iZlPVPzFQZxAasbbSDETEr4O8jVgA$") is a Continuing Lecturer in the University Writing Program and a faculty affiliate in Performance Studies at the University of California, Davis. In 2018-19, she co-directed [Tools for Listening to Text-in-Performance](https://urldefense.com/v3/__https:/textinperformance.soc.northwestern.edu/__;!!Mak6IKo!NufbXX3Cdip6P3sFo-RmPRawdU--Bu5fjqXzCvfBvjXGInqYlIaK9iZlPVPzFQZxAasbbSDETEqfK24uIA$ "https\://urldefense.com/v3/\_\_https\:/textinperformance.soc.northwestern.edu/\_\_;!!Mak6IKo!NufbXX3Cdip6P3sFo-RmPRawdU--Bu5fjqXzCvfBvjXGInqYlIaK9iZlPVPzFQZxAasbbSDETEqfK24uIA$"), funded by a NEH Digital Humanities Advancement grant.
