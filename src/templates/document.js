@@ -114,7 +114,7 @@ const Document = ({ data }) => {
     </li>
   ))
 
-  const manifestUrl = `https://iiif.archivelab.org/iiif/${doc.iaId}/manifest.json`
+  const manifestUrl = `https://iiif.archive.org/iiif/${doc.iaId}/manifest.json`
 
   let canvasIndex = 0
   if (typeof window !== "undefined" && window.location.hash) {
