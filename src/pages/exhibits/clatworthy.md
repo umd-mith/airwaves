@@ -13,7 +13,7 @@ lede: Just a few years after its launch in October 1970, the Public Broadcasting
   Friendly, Robert F. Schenkkan, and Hartford N. Gunn, Jr. live on in the
   system’s ongoing commitment to journalistic integrity.
 visuals:
-  - image: /images/397px-l.b._johnson_signing_public_broadcasting_act_of_1967.jpg
+  - image: ../../../static/images/397px-l.b._johnson_signing_public_broadcasting_act_of_1967.jpg
     title: P﻿resident Lyndon B. Johnson signing the Public Broadcasting Act of 1967.
       LBJ Library.
       [https://commons.wikimedia.org/wiki/File:L.B._Johnson_signing_Public_Broadcasting_Act_of_1967.jpg](https://commons.wikimedia.org/wiki/File:L.B._Johnson_signing_Public_Broadcasting_Act_of_1967.jpg)

@@ -353,6 +353,10 @@ exports.onCreateWebpackConfig = ({ actions, stage, loaders, plugins }) => {
       },
       fallback: {
         fs: false,
+        // mirador's nested normalize-url requires node's `url`. Until the CMS was
+        // removed this resolved against the copy netlify-cms-core hoisted; declare
+        // it explicitly now that nothing else pulls it in.
+        url: require.resolve("url/"),
       },
     },
   })

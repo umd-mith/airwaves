@@ -1,11 +1,6 @@
 import React from "react"
+import { withPrefix } from "gatsby"
 import "./footer.css"
-
-import MITHLogo from "../svg/logo_mith.svg"
-import UMDLogo from "../svg/logo_umd.svg"
-import WHSLogo from "../svg/logo_whs.svg"
-import UWMLogo from "../svg/logo_uw.svg"
-import NEHLogo from "../svg/logo_neh.svg"
 
 const Footer = () => (
   <footer>
@@ -13,25 +8,25 @@ const Footer = () => (
       <div className="partners">
         <a className="logo" href="https://mith.umd.edu/">
           <span className="screen-reader-text">MITH web page</span>
-          <MITHLogo />{" "}
+          <img src={withPrefix("/svg/logo_mith.svg")} alt="" />{" "}
         </a>
         <a className="logo" href="https://umd.edu/">
           <span className="screen-reader-text">
             University of Maryland web page
           </span>
-          <UMDLogo />{" "}
+          <img src={withPrefix("/svg/logo_umd.svg")} alt="" />{" "}
         </a>
         <a className="logo" href="https://www.wisconsinhistory.org/">
           <span className="screen-reader-text">
             Wisconsin Historical Society web page
           </span>
-          <WHSLogo />{" "}
+          <img src={withPrefix("/svg/logo_whs.svg")} alt="" />{" "}
         </a>
         <a className="logo" href="https://www.wisc.edu/">
           <span className="screen-reader-text">
             University of Wisconsin web page
           </span>
-          <UWMLogo />{" "}
+          <img src={withPrefix("/svg/logo_uw.svg")} alt="" />{" "}
         </a>
       </div>
       <div className="sponsors">
@@ -39,7 +34,7 @@ const Footer = () => (
           <span className="screen-reader-text">
             National Endowment for the Humanities web page
           </span>
-          <NEHLogo />{" "}
+          <img src={withPrefix("/svg/logo_neh.svg")} alt="" />{" "}
         </a>
         <div className="disclaimer">
           <p>
