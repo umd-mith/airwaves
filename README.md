@@ -4,7 +4,7 @@ This repository contains a web application that was developed as part of the
 [Unlocking the Airwaves] project with support from the National Endowment for
 the Humanities. You can find the production deployment of this website at:
 
-https://unlockingtheairwaves.org
+https://www.unlockingtheairwaves.org
 
 *airwaves* is built using [Gatsby] which is a *static* website generator
 written in [NodeJS]. Even though the website is static, it relies on several
@@ -16,7 +16,8 @@ your browser when you access the website. These services include:
 * [Airtable]: a web accessible database where the audio and document metadata are curated. (*build*)
 * [Internet Archive]: document digitization processes [upload] page scans to the Internet Archive which are made available through their [IIIF Service]. (*build* + *runtime*)
 * [Amazon S3]: MP3 audio files and WebVTT transcripts of radio episodes are stored in an Amazon S3 bucket. (*runtime*)
-* [Netlify]: provides a service that watches the airwaves GitHub repository and automatically builds a [staging site] and [production site].
+* [GitHub Actions]: watches the airwaves GitHub repository and automatically builds and publishes the [production site] to [GitHub Pages] on every push to `main`. (*build*)
+* [Cloudflare R2]: hosts the search index and document OCR data, which are too large to ship with the site itself. They are served from https://data.unlockingtheairwaves.org and fetched by the browser. (*runtime*)
 
 Static websites have significant benefits in terms of sustainability since they
 require very little in terms of maintenance and monitoring. But this
@@ -145,6 +146,29 @@ the search index, you will need to run the following commands:
 
 These can take some time to run, especially the first time, since it involves downloading all the document OCR from the Internet Archive so that it can be indexed.
 
+Once the data has been regenerated it must also be pushed to [Cloudflare R2],
+which is where the live site fetches it from. **A data refresh is not complete
+until this has been done** — otherwise the site will still be searching the
+previous index. The easiest way is to run the *Sync data to R2* workflow from
+the Actions tab on GitHub, which does exactly the same thing as the commands
+below.
+
+To run the sync from your own computer instead you will need [rclone] and the
+R2 credentials (an account member can give you these):
+
+    export RCLONE_CONFIG_R2_TYPE=s3
+    export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+    export RCLONE_CONFIG_R2_ENDPOINT=https://ACCOUNT_ID.r2.cloudflarestorage.com
+    export RCLONE_CONFIG_R2_ACCESS_KEY_ID=PUT_KEY_HERE
+    export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY=PUT_SECRET_HERE
+
+    rclone sync static/data/ocr r2:airwaves-data/data/ocr --transfers 32 --fast-list
+    rclone copy static/data r2:airwaves-data/data --max-depth 1 \
+      --include index.json --include episodes.json --include documents.json
+
+`rclone` compares checksums and only uploads what has actually changed, which
+matters a great deal since there are tens of thousands of OCR files.
+
 It is not required at all but if you want to reload only portions of the data you can execute parts of the data fetching separately. So to download only the latest authority data you can:
 
     npm run fetch-authorities
@@ -157,9 +181,11 @@ If you'd like to fetch the latest document metadata without checking for OCR dat
 
     npm run fetch-docs -- --skip-ocr
 
-## 7. Deploy to Staging
+## 7. Deploy
 
-In order to deploy to the staging site at [unlocking.netlify.app] you will need to *commit* and *push* your changes back to GitHub. The first step in this process is to make your commit with a message indicating what has been changed:
+There is a single deployment: anything pushed to the `main` branch is built and
+published to the [production site] automatically. The first step is to make your
+commit with a message indicating what has been changed:
 
     git commit -a -m 'Describe what you are changing here.'
 
@@ -171,24 +197,28 @@ Once you have committed your changes locally you can push them up to GitHub:
 
     git push origin main
 
-If successful your push will trigger a build process to kick off at Netlify, and
-after a few minutes you should see your changes reflected at the staging site: unlocking.netlify.app.
+Your push triggers the *Deploy to GitHub Pages* workflow, which you can watch
+on the repository's Actions tab. The build takes a while — there are several
+thousand pages to generate — and when it finishes your changes will be live.
+If the build fails you will get an email from GitHub.
 
-## 8. Deploy to Production
+Note that the site is deployed from `main` only. There is no separate staging
+site; to preview your changes before pushing, run the development server
+(section 5) or do a full local build with `npm run build && npx gatsby serve`.
 
-In order to deploy a new version of the [production site] you will need to to create a new *tagged release* and then *push* your new tag to GitHub. Once pushed, Netlify will notice the new tag, and will automatically build and deploy the new website for you. You can log in to [Netlify] to watch the build and deploy progress. The tag version numbers follow the [semver] naming conventions. For example:
+## 8. Exhibit Creation
 
-    git tag v0.7.0
-    git push --tags
+Exhibits are Markdown files in `src/pages/exhibits/`. To add or change one, edit
+the file and commit it like any other change — either locally, or directly on
+GitHub using the pencil icon in the file view, which will offer to commit the
+change for you. Once the change lands on `main` the site rebuilds and the
+exhibit appears.
 
-## 9. Exhibit Creation with Netlify
+The other editable content files are `static/data/cms-pages/about.md` for the
+About page, and `static/data/featured.json`, which controls which exhibits are
+featured on the homepage.
 
-Finally there are administration forms available on the staging site that
-allow for the creation of exhibits. You can find these at
-https://unlocking.netlify.app/admin/ In order to use these forms you will
-need to be added to MITH's Netlify account. When new exhibits are saved they should be viewable on the [staging site] once the build has completed.
-
-## 10. Updating this Documentation
+## 9. Updating this Documentation
 
 The easiest way to edit this documentation or ask questions about it is to use
 GitHub. If you click on [README.md] in the file listing above you will be shown
@@ -203,13 +233,15 @@ GitHub.
 [NAEB]: https://en.wikipedia.org/wiki/National_Association_of_Educational_Broadcasters 
 [Gatsby]: https://www.gatsbyjs.org/
 [Internet Archive]: https://archive.org/search.php?query=creator%3A%22National+Association+of+Educational+Broadcasters%22
-[Netlify]: https://www.netlify.com
+[GitHub Actions]: https://github.com/umd-mith/airwaves/actions
+[GitHub Pages]: https://pages.github.com/
+[Cloudflare R2]: https://developers.cloudflare.com/r2/
+[rclone]: https://rclone.org/downloads/
 [NodeJS]: https://nodejs.org
 [Windows Subsystem for Linux]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 [upload]: https://github.com/umd-mith/airwaves-cli/
 [IIIF Service]: https://iiif.archivelab.org/iiif/documentation
-[staging site]: https://unlocking.netlify.app
-[production site]: https://unlockingtheairwaves.org
+[production site]: https://www.unlockingtheairwaves.org
 [WSL 2.0]: https://docs.microsoft.com/en-us/windows/wsl/install-win10  
 [GitHub]: https://github.com/umd-mith/airwaves
 [Airtable]: https://airtable.com/
@@ -218,7 +250,5 @@ GitHub.
 [Homebrew]: https://brew.sh
 [Ubuntu 20.04 LTS]: https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71
 [add your ssh key]: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
-[unlocking.netlify.app]: https://unlocking.netlify.app
 [README.md]: https://github.com/umd-mith/airwaves/blob/main/README.md
 [issue tracker]: https://github.com/umd-mith/airwaves/issues
-[semver]: https://semver.org/

@@ -1,7 +1,8 @@
 import React from "react"
-import { Link, withPrefix } from "gatsby"
+import { Link } from "gatsby"
 import Highlighter from "react-highlight-words"
 import { excerpt } from "../utils"
+import { dataUrl } from "../data-url"
 
 import "./search-result.css"
 
@@ -19,7 +20,7 @@ class Document extends React.Component {
     this._isMounted = true
     if (this.props.item.page) {
       const item = this.props.item
-      const url = withPrefix(`/data/ocr/${item.id}/${item.page}.json`)
+      const url = dataUrl(`/data/ocr/${item.id}/${item.page}.json`)
       fetch(url)
         .then(response => {
           return response.json()

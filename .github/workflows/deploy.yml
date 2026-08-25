@@ -1,0 +1,61 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Node 16 is EOL but required: Gatsby 3.14 pulls sharp@0.29, which has no
+      # prebuilt binaries for newer runtimes. If setup-node can no longer
+      # provision 16 on the default image, pin runs-on: ubuntu-22.04.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 16
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build
+        env:
+          GATSBY_DATA_BASE_URL: https://data.unlockingtheairwaves.org
+          # ~7,400 generated pages plus sharp and offline precaching are
+          # memory-hungry; runners have 16 GB.
+          NODE_OPTIONS: --max-old-space-size=6144
+
+      # Load-bearing, not cosmetic: without this the artifact exceeds the
+      # 1 GB GitHub Pages limit. Served from R2 instead (see src/data-url.js);
+      # snac/ is fetch-authorities input, unused at build and runtime.
+      - name: Prune data served from R2
+        run: |
+          rm -rf public/data/snac public/data/ocr
+          rm -f  public/data/index.json public/data/episodes.json public/data/documents.json
+          du -sh public
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

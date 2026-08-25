@@ -6,6 +6,7 @@ import queryString from "query-string"
 import Layout from "../components/layout"
 import Loader from "../components/loader"
 import { Index } from "../search"
+import { dataUrl } from "../data-url"
 import "./search.css"
 
 class SearchPage extends React.Component {
@@ -86,7 +87,7 @@ class SearchPage extends React.Component {
     // get the index
     if (!window.__INDEX__) {
       console.log("loading index.json")
-      fetch(`${__PATH_PREFIX__}/data/index.json`)
+      fetch(dataUrl("/data/index.json"))
         .then(function(response) {
           return response.json()
         })
@@ -104,7 +105,7 @@ class SearchPage extends React.Component {
     // get the episodes
     if (!window.__EPISODES__) {
       console.log("loading episodes.json")
-      fetch(`${__PATH_PREFIX__}/data/episodes.json`)
+      fetch(dataUrl("/data/episodes.json"))
         .then(response => {
           return response.json()
         })
@@ -117,7 +118,7 @@ class SearchPage extends React.Component {
     // get the documents
     if (!window.__DOCUMENTS__) {
       console.log("loading documents.json")
-      fetch(`${__PATH_PREFIX__}/data/documents.json`)
+      fetch(dataUrl("/data/documents.json"))
         .then(response => {
           return response.json()
         })

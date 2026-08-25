@@ -47,7 +47,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-json`,
-    `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-less`,

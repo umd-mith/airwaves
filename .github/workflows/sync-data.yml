@@ -1,0 +1,43 @@
+name: Sync data to R2
+
+# Deliberately manual, not part of every deploy: these files only change when
+# someone runs `npm run fetch-data` / `npm run index`, which is rare.
+on:
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      # rclone reads remote config from RCLONE_CONFIG_<REMOTE>_<KEY>, so no
+      # config file is needed. The remote here is called "r2".
+      RCLONE_CONFIG_R2_TYPE: s3
+      RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+      RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      RCLONE_CONFIG_R2_NO_CHECK_BUCKET: "true"
+      BUCKET: airwaves-data
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install rclone
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+          rclone version
+
+      # The /data/ prefix is preserved so the URLs built by src/data-url.js
+      # (https://data.unlockingtheairwaves.org/data/...) resolve.
+      - name: Sync OCR
+        run: |
+          rclone sync static/data/ocr "r2:$BUCKET/data/ocr" \
+            --transfers 32 --checkers 32 --fast-list --stats 30s
+
+      - name: Sync search index and metadata
+        run: |
+          rclone copy static/data "r2:$BUCKET/data" \
+            --max-depth 1 \
+            --include index.json \
+            --include episodes.json \
+            --include documents.json \
+            --transfers 4 --stats 30s
